@@ -22,7 +22,7 @@ Compression: variable-length prefix code over big-endian bit stream
 import sys
 from pathlib import Path
 
-LS11_MAGIC = (b"LS11", b"Ls12")
+LS11_MAGIC = (b"LS11", b"Ls12", b"LS10")
 
 
 def bits_from_bytes(data: bytes):

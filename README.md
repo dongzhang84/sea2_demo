@@ -2,68 +2,68 @@
 
 KOEI《大航海時代II》(Uncharted Waters II, 1993, PC-9801) 的资源文件逆向。
 
-目前进度：成功从 `Kao.lzw` 提取出全部 128 张人物头像。
+源文件不在 git 里（本地路径 `/Users/dong/Projects/Koukai2/`）。
 
-![128 portraits](output/contact_kao_v4.png)
+## 当前进度
 
-## 结果
+| 资源 | 状态 | 输出 |
+|---|---|---|
+| `Kao.lzw` — 128 张头像 | ✅ | ![](output/contact_kao_v4.png) |
+| `Kao.lzw` — 128 个 48×48 发现物/道具 | ✅ | `output/contact_disc_v1.png` |
+| `Portchip.lzw` — 7 套港口 tile atlas | ✅ | `output/portchip_v2/` |
+| `Portmap.lzw` — 101 个港口地图 | ✅ | `output/contact_portmap_v2.png` |
+| `Worldmap.lzw` — 3 张世界地图（含沙漠/海岸/极地后处理）| ✅ | `output/contact_worldmap_v2.png` |
+| `Char.lzw` — 字体 | 🟥 卡住 | — |
+| `Iap1-6.lzw` `Iae1.lzw` — 决斗界面 | ⬜ | — |
+| `Opgraph.lzw` — 开场动画 | ⬜ | — |
+| `Data1.lzw` 剩余 part — 船舶/UI/动画 | ⬜ | — |
+| 数据表（`.dat`）| ⬜ | — |
 
-- **源文件**：`/Users/dong/Projects/Koukai2/Kao.lzw` (155 KB, LS11 压缩)
-- **解压后**：256 个 part — 前 128 个各 1920 字节（全身头像），后 128 个各 864 字节（待定）
-- **渲染**：80×64 像素，8 色调色板，3-plane 编码
-- **输出**：`output/kao_png_v4/000.png` ~ `127.png` + 整版 `output/contact_kao_v4.png`
+完整计划见 **[ROADMAP.md](ROADMAP.md)**。技术细节见 **[CLAUDE.md](CLAUDE.md)**。
 
 ## 跑一遍
 
 ```bash
-# 1. 解压 Kao.lzw → 256 个 part 文件
-python3 scripts/ls11_decode.py /Users/dong/Projects/Koukai2/Kao.lzw output/kao_parts
+pip install Pillow numpy
 
-# 2. 渲染 128 张头像 PNG + 整版 contact sheet
-python3 scripts/render_kao_v4.py
+# 1. 解压所有 .lzw → output/lzw_parts/{Kao,Portchip,...}/
+python3 scripts/inventory_lzw.py
+
+# 2. 渲染所有解出来的资源
+python3 scripts/render_kao_v4.py        # 128 头像
+python3 scripts/render_disc_v1.py       # 128 发现物
+python3 scripts/render_portchip_v2.py   # 7 套 atlas
+python3 scripts/render_portmap_v2.py    # 101 港口
+python3 scripts/render_worldmap_v2.py   # 3 张世界图（含后处理）
 ```
 
-依赖：`pip install Pillow numpy`
-
-## 目录结构
+## 目录
 
 ```
 scripts/
-  ls11_decode.py      — LS11 / Ls12 解压器（KOEI 自定义变长前缀码）
-  render_kao_v4.py    — 80×64 / 8色 / 3-plane 头像渲染
-  experiments/        — 失败的尝试（保留作记录，见 CLAUDE.md）
+  ls11_decode.py              — LS10/LS11/Ls12 解压器
+  inventory_lzw.py            — 批量解压所有 .lzw
+  render_kao_v4.py            — 80×64 / 3-plane / 8 色头像
+  render_disc_v1.py           — 48×48 / 3-plane / 8 色发现物
+  render_portchip_v2.py       — 16×16 / 4bpp / 16 色港口 atlas
+  render_portmap_v2.py        — Portmap × Portchip × Chip_no.dat
+  render_worldmap_v1.py       — 块解码 + tile 拼图（基础版）
+  render_worldmap_v2.py       — v1 + 沙漠/海岸/极地后处理
+  experiments/                — 失败的尝试，保留作历史记录
 
 output/
-  kao_parts/          — 解压出的 256 个原始 part
-  kao_png_v4/         — 128 张头像 PNG
-  contact_kao_v4.png  — 整版预览
+  contact_*.png               — 各资源的总览图
+  kao_png_v4/ disc_png_v1/    — 单图（128 张）
+  portchip_v2/ portmap_v2/    — 全部 atlas / 港口图
+  worldmap_v2/                — 世界图缩略 PNG + 4×tile JPG
+  lzw_parts/                  — LS11 解压出的原始 part（gitignore）
 ```
 
-## 技术要点
+## 关键参考
 
-**LS11 压缩格式**（`scripts/ls11_decode.py`）：
-- Magic `"LS11"` 或 `"Ls12"`，文件头 16 字节
-- 256 字节自定义字典（每个文件独立）
-- 12 字节大端 index 记录：`(compressed_size, uncompressed_size, offset)`
-- 变长前缀码位流：读 bit 直到遇到 0 → 得到 `mask_len`；再读 `mask_len` bits = `factor`；`code = (2^mask_len - 2) + factor`
-- `code < 256`：输出 `dictionary[code]`
-- `code >= 256`：回溯复制 `code - 256` 字节，长度为下一个 code + 3
-
-**头像位图格式**（`scripts/render_kao_v4.py`，源自 JohanLi 的研究）：
-- 每张头像 1920 字节 = 15,360 bits
-- 80 行 × 64 列像素，分成 640 个 8 像素块
-- 每个 8 像素块占 24 bits（3 个 plane × 8 bits）
-- 像素 `j` 的颜色索引 = `bits[p+j]<<2 | bits[p+j+8]<<1 | bits[p+j+16]`，pointer 每块 +24
-
-固定 8 色调色板（黑/绿/橙/肤/蓝/天蓝/粉/米白）。
-
-## 参考
-
+- [JohanLi/uncharted-waters-2-research](https://github.com/JohanLi/uncharted-waters-2-research) — 救命级参考：tile 编码、large tileset、worldmap 后处理、决斗 UI
 - [tzengyuxio/kaodata](https://github.com/tzengyuxio/kaodata) — LS11 解压算法
-- [JohanLi/uncharted-waters-2-research](https://github.com/JohanLi/uncharted-waters-2-research) — 大航海II 头像位图格式
 
-## 还没碰的文件
+## 技术细节
 
-`Koukai2/` 里其他 `.lzw` 都是 LS11 同一格式，估计 `ls11_decode.py` 都能解压，只是位图编码可能不同：
-
-`Char.lzw` `Data1.lzw` `Iae1.lzw` `Iap1-6.lzw` `Opgraph.lzw` `Portchip.lzw` `Portmap.lzw` `Worldmap.lzw`
+参见 [CLAUDE.md](CLAUDE.md)：LS11 位流规范、各 `.lzw` 的位图编码、Worldmap 块编码 + 后处理 pipeline。

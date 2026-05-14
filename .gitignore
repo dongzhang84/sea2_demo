@@ -2,9 +2,21 @@
 __pycache__/
 *.pyc
 
-# Intermediate / regeneratable artifacts
+# Raw LS11-decompressed parts — regeneratable from source .lzw
+output/lzw_parts/
 output/kao_parts/
 
-# Keep the final rendered output committed as proof:
-#   output/contact_kao_v4.png
-#   output/kao_png_v4/
+# Large per-asset dumps — regeneratable, too big to commit
+output/portchip_v2/
+output/portmap_v2/
+output/worldmap_v2/
+output/iap_v1/
+
+# What IS committed:
+#   output/contact_*.png        各资源总览图
+#   output/kao_png_v4/          128 张头像（小，做 README 配图）
+#   output/disc_png_v1/         128 个发现物（小，做参考）
+
+# Local secrets
+.env
+.env.local
