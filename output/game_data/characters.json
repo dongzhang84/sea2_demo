@@ -1,0 +1,1039 @@
+{
+  "note": "Stub categorization based on typical 大航海II portrait ordering. Categories are educated guesses; refine by viewing portraits.",
+  "count": 128,
+  "categories": [
+    "protagonist",
+    "family_or_crew",
+    "governor_noble",
+    "merchant_captain",
+    "pirate_villain",
+    "royalty_scholar",
+    "special"
+  ],
+  "characters": [
+    {
+      "portrait_id": 0,
+      "portrait_file": "kao_png_v4/000.png",
+      "category": "protagonist",
+      "name": "Character 0",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 1,
+      "portrait_file": "kao_png_v4/001.png",
+      "category": "protagonist",
+      "name": "Character 1",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 2,
+      "portrait_file": "kao_png_v4/002.png",
+      "category": "protagonist",
+      "name": "Character 2",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 3,
+      "portrait_file": "kao_png_v4/003.png",
+      "category": "protagonist",
+      "name": "Character 3",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 4,
+      "portrait_file": "kao_png_v4/004.png",
+      "category": "protagonist",
+      "name": "Character 4",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 5,
+      "portrait_file": "kao_png_v4/005.png",
+      "category": "protagonist",
+      "name": "Character 5",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 6,
+      "portrait_file": "kao_png_v4/006.png",
+      "category": "protagonist",
+      "name": "Character 6",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 7,
+      "portrait_file": "kao_png_v4/007.png",
+      "category": "protagonist",
+      "name": "Character 7",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 8,
+      "portrait_file": "kao_png_v4/008.png",
+      "category": "protagonist",
+      "name": "Character 8",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 9,
+      "portrait_file": "kao_png_v4/009.png",
+      "category": "protagonist",
+      "name": "Character 9",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 10,
+      "portrait_file": "kao_png_v4/010.png",
+      "category": "protagonist",
+      "name": "Character 10",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 11,
+      "portrait_file": "kao_png_v4/011.png",
+      "category": "protagonist",
+      "name": "Character 11",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 12,
+      "portrait_file": "kao_png_v4/012.png",
+      "category": "protagonist",
+      "name": "Character 12",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 13,
+      "portrait_file": "kao_png_v4/013.png",
+      "category": "protagonist",
+      "name": "Character 13",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 14,
+      "portrait_file": "kao_png_v4/014.png",
+      "category": "protagonist",
+      "name": "Character 14",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 15,
+      "portrait_file": "kao_png_v4/015.png",
+      "category": "protagonist",
+      "name": "Character 15",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 16,
+      "portrait_file": "kao_png_v4/016.png",
+      "category": "family_or_crew",
+      "name": "Character 16",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 17,
+      "portrait_file": "kao_png_v4/017.png",
+      "category": "family_or_crew",
+      "name": "Character 17",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 18,
+      "portrait_file": "kao_png_v4/018.png",
+      "category": "family_or_crew",
+      "name": "Character 18",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 19,
+      "portrait_file": "kao_png_v4/019.png",
+      "category": "family_or_crew",
+      "name": "Character 19",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 20,
+      "portrait_file": "kao_png_v4/020.png",
+      "category": "family_or_crew",
+      "name": "Character 20",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 21,
+      "portrait_file": "kao_png_v4/021.png",
+      "category": "family_or_crew",
+      "name": "Character 21",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 22,
+      "portrait_file": "kao_png_v4/022.png",
+      "category": "family_or_crew",
+      "name": "Character 22",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 23,
+      "portrait_file": "kao_png_v4/023.png",
+      "category": "family_or_crew",
+      "name": "Character 23",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 24,
+      "portrait_file": "kao_png_v4/024.png",
+      "category": "family_or_crew",
+      "name": "Character 24",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 25,
+      "portrait_file": "kao_png_v4/025.png",
+      "category": "family_or_crew",
+      "name": "Character 25",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 26,
+      "portrait_file": "kao_png_v4/026.png",
+      "category": "family_or_crew",
+      "name": "Character 26",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 27,
+      "portrait_file": "kao_png_v4/027.png",
+      "category": "family_or_crew",
+      "name": "Character 27",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 28,
+      "portrait_file": "kao_png_v4/028.png",
+      "category": "family_or_crew",
+      "name": "Character 28",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 29,
+      "portrait_file": "kao_png_v4/029.png",
+      "category": "family_or_crew",
+      "name": "Character 29",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 30,
+      "portrait_file": "kao_png_v4/030.png",
+      "category": "governor_noble",
+      "name": "Character 30",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 31,
+      "portrait_file": "kao_png_v4/031.png",
+      "category": "governor_noble",
+      "name": "Character 31",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 32,
+      "portrait_file": "kao_png_v4/032.png",
+      "category": "governor_noble",
+      "name": "Character 32",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 33,
+      "portrait_file": "kao_png_v4/033.png",
+      "category": "governor_noble",
+      "name": "Character 33",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 34,
+      "portrait_file": "kao_png_v4/034.png",
+      "category": "governor_noble",
+      "name": "Character 34",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 35,
+      "portrait_file": "kao_png_v4/035.png",
+      "category": "governor_noble",
+      "name": "Character 35",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 36,
+      "portrait_file": "kao_png_v4/036.png",
+      "category": "governor_noble",
+      "name": "Character 36",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 37,
+      "portrait_file": "kao_png_v4/037.png",
+      "category": "governor_noble",
+      "name": "Character 37",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 38,
+      "portrait_file": "kao_png_v4/038.png",
+      "category": "governor_noble",
+      "name": "Character 38",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 39,
+      "portrait_file": "kao_png_v4/039.png",
+      "category": "governor_noble",
+      "name": "Character 39",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 40,
+      "portrait_file": "kao_png_v4/040.png",
+      "category": "governor_noble",
+      "name": "Character 40",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 41,
+      "portrait_file": "kao_png_v4/041.png",
+      "category": "governor_noble",
+      "name": "Character 41",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 42,
+      "portrait_file": "kao_png_v4/042.png",
+      "category": "governor_noble",
+      "name": "Character 42",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 43,
+      "portrait_file": "kao_png_v4/043.png",
+      "category": "governor_noble",
+      "name": "Character 43",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 44,
+      "portrait_file": "kao_png_v4/044.png",
+      "category": "governor_noble",
+      "name": "Character 44",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 45,
+      "portrait_file": "kao_png_v4/045.png",
+      "category": "governor_noble",
+      "name": "Character 45",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 46,
+      "portrait_file": "kao_png_v4/046.png",
+      "category": "governor_noble",
+      "name": "Character 46",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 47,
+      "portrait_file": "kao_png_v4/047.png",
+      "category": "governor_noble",
+      "name": "Character 47",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 48,
+      "portrait_file": "kao_png_v4/048.png",
+      "category": "governor_noble",
+      "name": "Character 48",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 49,
+      "portrait_file": "kao_png_v4/049.png",
+      "category": "governor_noble",
+      "name": "Character 49",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 50,
+      "portrait_file": "kao_png_v4/050.png",
+      "category": "merchant_captain",
+      "name": "Character 50",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 51,
+      "portrait_file": "kao_png_v4/051.png",
+      "category": "merchant_captain",
+      "name": "Character 51",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 52,
+      "portrait_file": "kao_png_v4/052.png",
+      "category": "merchant_captain",
+      "name": "Character 52",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 53,
+      "portrait_file": "kao_png_v4/053.png",
+      "category": "merchant_captain",
+      "name": "Character 53",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 54,
+      "portrait_file": "kao_png_v4/054.png",
+      "category": "merchant_captain",
+      "name": "Character 54",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 55,
+      "portrait_file": "kao_png_v4/055.png",
+      "category": "merchant_captain",
+      "name": "Character 55",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 56,
+      "portrait_file": "kao_png_v4/056.png",
+      "category": "merchant_captain",
+      "name": "Character 56",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 57,
+      "portrait_file": "kao_png_v4/057.png",
+      "category": "merchant_captain",
+      "name": "Character 57",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 58,
+      "portrait_file": "kao_png_v4/058.png",
+      "category": "merchant_captain",
+      "name": "Character 58",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 59,
+      "portrait_file": "kao_png_v4/059.png",
+      "category": "merchant_captain",
+      "name": "Character 59",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 60,
+      "portrait_file": "kao_png_v4/060.png",
+      "category": "merchant_captain",
+      "name": "Character 60",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 61,
+      "portrait_file": "kao_png_v4/061.png",
+      "category": "merchant_captain",
+      "name": "Character 61",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 62,
+      "portrait_file": "kao_png_v4/062.png",
+      "category": "merchant_captain",
+      "name": "Character 62",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 63,
+      "portrait_file": "kao_png_v4/063.png",
+      "category": "merchant_captain",
+      "name": "Character 63",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 64,
+      "portrait_file": "kao_png_v4/064.png",
+      "category": "merchant_captain",
+      "name": "Character 64",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 65,
+      "portrait_file": "kao_png_v4/065.png",
+      "category": "merchant_captain",
+      "name": "Character 65",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 66,
+      "portrait_file": "kao_png_v4/066.png",
+      "category": "merchant_captain",
+      "name": "Character 66",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 67,
+      "portrait_file": "kao_png_v4/067.png",
+      "category": "merchant_captain",
+      "name": "Character 67",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 68,
+      "portrait_file": "kao_png_v4/068.png",
+      "category": "merchant_captain",
+      "name": "Character 68",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 69,
+      "portrait_file": "kao_png_v4/069.png",
+      "category": "merchant_captain",
+      "name": "Character 69",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 70,
+      "portrait_file": "kao_png_v4/070.png",
+      "category": "merchant_captain",
+      "name": "Character 70",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 71,
+      "portrait_file": "kao_png_v4/071.png",
+      "category": "merchant_captain",
+      "name": "Character 71",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 72,
+      "portrait_file": "kao_png_v4/072.png",
+      "category": "merchant_captain",
+      "name": "Character 72",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 73,
+      "portrait_file": "kao_png_v4/073.png",
+      "category": "merchant_captain",
+      "name": "Character 73",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 74,
+      "portrait_file": "kao_png_v4/074.png",
+      "category": "merchant_captain",
+      "name": "Character 74",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 75,
+      "portrait_file": "kao_png_v4/075.png",
+      "category": "merchant_captain",
+      "name": "Character 75",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 76,
+      "portrait_file": "kao_png_v4/076.png",
+      "category": "merchant_captain",
+      "name": "Character 76",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 77,
+      "portrait_file": "kao_png_v4/077.png",
+      "category": "merchant_captain",
+      "name": "Character 77",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 78,
+      "portrait_file": "kao_png_v4/078.png",
+      "category": "merchant_captain",
+      "name": "Character 78",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 79,
+      "portrait_file": "kao_png_v4/079.png",
+      "category": "merchant_captain",
+      "name": "Character 79",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 80,
+      "portrait_file": "kao_png_v4/080.png",
+      "category": "pirate_villain",
+      "name": "Character 80",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 81,
+      "portrait_file": "kao_png_v4/081.png",
+      "category": "pirate_villain",
+      "name": "Character 81",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 82,
+      "portrait_file": "kao_png_v4/082.png",
+      "category": "pirate_villain",
+      "name": "Character 82",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 83,
+      "portrait_file": "kao_png_v4/083.png",
+      "category": "pirate_villain",
+      "name": "Character 83",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 84,
+      "portrait_file": "kao_png_v4/084.png",
+      "category": "pirate_villain",
+      "name": "Character 84",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 85,
+      "portrait_file": "kao_png_v4/085.png",
+      "category": "pirate_villain",
+      "name": "Character 85",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 86,
+      "portrait_file": "kao_png_v4/086.png",
+      "category": "pirate_villain",
+      "name": "Character 86",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 87,
+      "portrait_file": "kao_png_v4/087.png",
+      "category": "pirate_villain",
+      "name": "Character 87",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 88,
+      "portrait_file": "kao_png_v4/088.png",
+      "category": "pirate_villain",
+      "name": "Character 88",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 89,
+      "portrait_file": "kao_png_v4/089.png",
+      "category": "pirate_villain",
+      "name": "Character 89",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 90,
+      "portrait_file": "kao_png_v4/090.png",
+      "category": "pirate_villain",
+      "name": "Character 90",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 91,
+      "portrait_file": "kao_png_v4/091.png",
+      "category": "pirate_villain",
+      "name": "Character 91",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 92,
+      "portrait_file": "kao_png_v4/092.png",
+      "category": "pirate_villain",
+      "name": "Character 92",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 93,
+      "portrait_file": "kao_png_v4/093.png",
+      "category": "pirate_villain",
+      "name": "Character 93",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 94,
+      "portrait_file": "kao_png_v4/094.png",
+      "category": "pirate_villain",
+      "name": "Character 94",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 95,
+      "portrait_file": "kao_png_v4/095.png",
+      "category": "pirate_villain",
+      "name": "Character 95",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 96,
+      "portrait_file": "kao_png_v4/096.png",
+      "category": "pirate_villain",
+      "name": "Character 96",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 97,
+      "portrait_file": "kao_png_v4/097.png",
+      "category": "pirate_villain",
+      "name": "Character 97",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 98,
+      "portrait_file": "kao_png_v4/098.png",
+      "category": "pirate_villain",
+      "name": "Character 98",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 99,
+      "portrait_file": "kao_png_v4/099.png",
+      "category": "pirate_villain",
+      "name": "Character 99",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 100,
+      "portrait_file": "kao_png_v4/100.png",
+      "category": "royalty_scholar",
+      "name": "Character 100",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 101,
+      "portrait_file": "kao_png_v4/101.png",
+      "category": "royalty_scholar",
+      "name": "Character 101",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 102,
+      "portrait_file": "kao_png_v4/102.png",
+      "category": "royalty_scholar",
+      "name": "Character 102",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 103,
+      "portrait_file": "kao_png_v4/103.png",
+      "category": "royalty_scholar",
+      "name": "Character 103",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 104,
+      "portrait_file": "kao_png_v4/104.png",
+      "category": "royalty_scholar",
+      "name": "Character 104",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 105,
+      "portrait_file": "kao_png_v4/105.png",
+      "category": "royalty_scholar",
+      "name": "Character 105",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 106,
+      "portrait_file": "kao_png_v4/106.png",
+      "category": "royalty_scholar",
+      "name": "Character 106",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 107,
+      "portrait_file": "kao_png_v4/107.png",
+      "category": "royalty_scholar",
+      "name": "Character 107",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 108,
+      "portrait_file": "kao_png_v4/108.png",
+      "category": "royalty_scholar",
+      "name": "Character 108",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 109,
+      "portrait_file": "kao_png_v4/109.png",
+      "category": "royalty_scholar",
+      "name": "Character 109",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 110,
+      "portrait_file": "kao_png_v4/110.png",
+      "category": "royalty_scholar",
+      "name": "Character 110",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 111,
+      "portrait_file": "kao_png_v4/111.png",
+      "category": "royalty_scholar",
+      "name": "Character 111",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 112,
+      "portrait_file": "kao_png_v4/112.png",
+      "category": "royalty_scholar",
+      "name": "Character 112",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 113,
+      "portrait_file": "kao_png_v4/113.png",
+      "category": "royalty_scholar",
+      "name": "Character 113",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 114,
+      "portrait_file": "kao_png_v4/114.png",
+      "category": "royalty_scholar",
+      "name": "Character 114",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 115,
+      "portrait_file": "kao_png_v4/115.png",
+      "category": "royalty_scholar",
+      "name": "Character 115",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 116,
+      "portrait_file": "kao_png_v4/116.png",
+      "category": "special",
+      "name": "Character 116",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 117,
+      "portrait_file": "kao_png_v4/117.png",
+      "category": "special",
+      "name": "Character 117",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 118,
+      "portrait_file": "kao_png_v4/118.png",
+      "category": "special",
+      "name": "Character 118",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 119,
+      "portrait_file": "kao_png_v4/119.png",
+      "category": "special",
+      "name": "Character 119",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 120,
+      "portrait_file": "kao_png_v4/120.png",
+      "category": "special",
+      "name": "Character 120",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 121,
+      "portrait_file": "kao_png_v4/121.png",
+      "category": "special",
+      "name": "Character 121",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 122,
+      "portrait_file": "kao_png_v4/122.png",
+      "category": "special",
+      "name": "Character 122",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 123,
+      "portrait_file": "kao_png_v4/123.png",
+      "category": "special",
+      "name": "Character 123",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 124,
+      "portrait_file": "kao_png_v4/124.png",
+      "category": "special",
+      "name": "Character 124",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 125,
+      "portrait_file": "kao_png_v4/125.png",
+      "category": "special",
+      "name": "Character 125",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 126,
+      "portrait_file": "kao_png_v4/126.png",
+      "category": "special",
+      "name": "Character 126",
+      "role": "",
+      "home_port_id": null
+    },
+    {
+      "portrait_id": 127,
+      "portrait_file": "kao_png_v4/127.png",
+      "category": "special",
+      "name": "Character 127",
+      "role": "",
+      "home_port_id": null
+    }
+  ]
+}
