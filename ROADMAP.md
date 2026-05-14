@@ -1,90 +1,147 @@
-# 大航海2 全面逆向 — 路线图
+# 大航海2 逆向工程 — 路线图
 
-按 **价值 / 难度比** 从高到低排，6 个阶段。当前位置：阶段 1 收尾 + 阶段 5 已部分开工（事件 CG 卡在解码器内层）。
+> **终极目标**：用反向工程出来的**机制 + 数据**，做一个**"大航海"风格的现代游戏**。
+> **不是**：复刻原作 / 搬运资源 / 做翻译。原作只是参考蓝本。
 
 ---
 
-## ✅ 阶段 0：压缩格式破解（已完成）
+## 🧭 设计哲学
 
-- `LS10` / `LS11` / `Ls12` 三种 magic 解压器（`scripts/ls11_decode.py`）
-- 自定义 256 字节字典 + 变长前缀位流 + 回溯复制
-- 批量解压所有 `.lzw` → `output/lzw_parts/`（`scripts/inventory_lzw.py`）
+| ❌ 误区 | ✅ 正解 |
+|---|---|
+| "把所有资源提取出来" | "理解游戏机制 + 拿到平衡数据" |
+| 美术资产逐字节复刻 | 美术全新自做，原作只做风格参考 |
+| 翻译每条对话 | 理解事件结构，剧情新写 |
+| 卡在 Opgraph 压缩 | 跳过，因为新游戏不需要原图 |
+| 完整破 BGM 编码 | 听几首确定音乐风格就行 |
 
-## 🟢 阶段 1：剩余资产抽取（~95% 完成）
+---
 
-| 文件 | 内容 | 参考 | 状态 |
+## ⭐ 价值矩阵（决定优先级的核心）
+
+| 工作内容 | 对"做新游戏"的价值 | 当前状态 |
+|---|---|---|
+| **`.dat` 数据表**（港口/船只/商品/NPC 属性）| ⭐⭐⭐⭐⭐ 新游戏的**平衡数值** | 🟥 没碰 |
+| **Main.exe 公式**（贸易/海战/风向/忠诚度）| ⭐⭐⭐⭐⭐ 新游戏的**核心引擎逻辑** | 🟡 仅识别了事件 CG 解码器 |
+| 数据格式破解（LS11 等）| ⭐⭐⭐ 为读取数据表服务 | ✅ 完成 |
+| 视觉资产（头像/世界图/sprite）| ⭐⭐ 风格参考 | ✅ 90%+，已**过度投资** |
+| 对话文本 + 字体表 | ⭐⭐ 看剧情结构有用 | 🟡 字节对了，字符 mapping 未解 |
+| 事件 CG（Opgraph/Graph.dat） | ⭐ 美术风格参考 | 🟥 内层压缩卡住 |
+| BGM | ⭐ 风格参考 | 🟥 没碰 |
+
+**指导原则**：⭐⭐⭐⭐⭐ 永远先做，⭐⭐ 及以下只做"够用就停"。
+
+---
+
+## 📋 5 阶段（按价值排序，非时间顺序）
+
+### Phase 0 — 已完成：解压 + 视觉资产 ✅
+
+- `LS10/LS11/Ls12` 解压器、批量解压所有 `.lzw`
+- `Kao` 头像、`Kao` 发现物/道具、`Portchip` 港口 tile、`Portmap` 101 港口、`Worldmap` 3 张世界图（含后处理）、`Iap/Iae` 875 决斗 sprite、`Char` 72 NPC walking sprite
+- 副产物：`2.pat` 6800 繁体字模、`Message.dat` 1022 条对话 raw bytes（字符 mapping 未解）
+
+**后续不再投入**——已经够当风格参考了。
+
+### Phase 1 — 数据表挖掘（最高 ROI，1-2 周）
+
+`Koukai2/*.dat` 是**直接可读的二进制结构**（无 LS11 容器），hex-dump 找 stride 就能解。
+
+| 文件 | 大小 | 推测内容 | 优先级 |
 |---|---|---|---|
-| `Kao.lzw` | 128 头像 + 128 发现物/道具 | 自研 | ✅ |
-| `Portchip.lzw` | 7 atlas × 240 tile 港口素材 | `tileset_regular.py` | ✅ |
-| `Portmap.lzw` | 101 港口 + `Chip_no.dat` atlas 映射 | 自研 | ✅ |
-| `Worldmap.lzw` | 3 张世界地图 + 沙漠/海岸/极地后处理 | `world_map_processing.py` | ✅ |
-| `Iap1-6.lzw` `Iae1.lzw` | 6 玩家 + 1 敌人决斗 sprite，共 875 帧 | `dueling/extract_iap.py` | ✅ |
-| `Char.lzw` | 7 角色走路 sprite，共 72 帧（非字体！）| `portraits-items-discoveries/char.py` | ✅ |
-| `Data1.lzw` 剩余 part | 船舶图集（part_0011 后半）、UI 元素 | `tileset_ship.py` | ⬜ TODO |
-| `Opgraph.lzw` | 14 part，事件 CG（开场/谒见王/婚礼等）| **无参考** | 🟥 内层压缩没解 |
+| `Colony.dat` | 17 KB | 港口/殖民地属性（统治者/物资/价格） | ⭐⭐⭐⭐⭐ |
+| `Event0-6.dat` | 8-62 KB | 事件触发表（条件/动作） | ⭐⭐⭐⭐⭐ |
+| `Transit.dat` | 22 KB | 航线/转移规则 | ⭐⭐⭐⭐ |
+| `Windcur.dat` | 1.4 KB | 风向洋流模型 | ⭐⭐⭐⭐ |
+| `Monster.dat` | 200 B | 海怪 stats | ⭐⭐⭐ |
+| `Za_dat.dat` | 2.4 KB | 不明（事件参数？） | ⭐⭐⭐ |
+| `Snr0-6.dat` | 4-15 KB 各 | 不明（人物名册？） | ⭐⭐ |
+| `Hdat.put` / `End_put.dat` | 31 / 40 KB | 不明 | ⭐⭐ |
+| `Data1.lzw` 剩余 part | 各 | 含 ship 属性、UI、动画 | ⭐⭐⭐⭐ |
+| `Chip_no.dat` | 100 B | 港口→atlas 映射 | ✅ 已解 |
 
-## 🟡 阶段 2：数据表（~3-7 天，难度中，价值最高）
+**方法**：
+1. 每文件 hex dump 找重复 stride
+2. 交叉验证：港口 = 101，舰船 ≈ 30，商品 = 13
+3. 跑游戏存档 diff 定位字段含义
+4. 导出统一 JSON schema
 
-`/Users/dong/Projects/Koukai2/` 里**直接可读**的 `.dat` 文件——大部分还没碰：
+**产出**：`docs/game_data.json`，包含所有港口/船只/物品/NPC 等结构化数据。
 
-### 已识别
-- `Chip_no.dat` (100 B) — port → atlas 索引映射 ✅
+### Phase 2 — 游戏机制公式（次高 ROI，2-3 周）
 
-### 待挖（事件/数据相关）
-- **`Event0.dat` ~ `Event6.dat`** (8-62 KB) — 事件脚本/触发表 ⭐
-- **`Message.dat`** (29 KB) — 对话/UI 文本 ⭐
-- `Colony.dat` (17 KB) — 殖民地数据
-- `Monster.dat` (200 B) — 海怪数据
-- `Transit.dat` (22 KB) `Windcur.dat` (1.4 KB) `Za_dat.dat` (2.4 KB) — 风/洋流/事件参数
-- `Snr0.dat` ~ `Snr6.dat` — 不明（人物名册？）
-- `Hdat.put` `End_put.dat` — 不明
-- `1.pat` `2.pat` (173/217 KB) — 字体或 tile pattern ⭐
+Ghidra 反汇编 `Main.exe`，扒出**核心算法**（不是反整个程序）：
 
-### 待挖（游戏数据表，需配合存档 diff）
-- 港口属性表（位置、物资、价格、统治者、人口）
-- 商品定义（13 种贸易物品基价/波动区间/产地）
-- 船只参数（容量、速度、火炮、耐久、价格）
-- 人物属性表（提督、副官、酒馆雇佣兵）
+| 公式 | 用途 | 优先级 |
+|---|---|---|
+| 贸易价格波动 | 商人玩法核心 | ⭐⭐⭐⭐⭐ |
+| 海战命中 / 伤害 / 风向影响 | 战斗系统 | ⭐⭐⭐⭐⭐ |
+| 风向 / 季风 / 洋流 / 速度 | 航海体验 | ⭐⭐⭐⭐ |
+| 探险家发现物概率 | 探索玩法 | ⭐⭐⭐⭐ |
+| 雇员士气 / 忠诚 / 叛变 | 舰队管理 | ⭐⭐⭐ |
+| 事件脚本 VM 格式 | 配合 Phase 1 的 Event*.dat | ⭐⭐⭐⭐ |
 
-**方法**：hex dump 找 stride，交叉验证（港口=101，舰船≈30-40，商品=13）
+**已知**：
+- ✅ 事件 CG 解码器入口在 0x5e00（笔记在 [`docs/REVERSE_ENGINEERING_NOTES.md`](docs/REVERSE_ENGINEERING_NOTES.md)）
+- ✅ 消息显示函数入口在 0x27f62（识别了控制字节 < 0x10 边界）
+- ✅ 字符串段是 0x3815
+- ✅ 5 个代码段已识别
 
-## 🟢 阶段 3：存档格式（~1-3 天）
+**工具就位**：Ghidra 12.1 + capstone Python 包都装好了。
 
-- DOSBox 起游戏，建几个 save，diff 定位字段
-- KOEI save 通常简单线性结构
-- 产出：存档编辑器 + 验证阶段 2 字段含义
+**产出**：`docs/game_mechanics.md`，每个公式写清"输入参数 → 中间变量 → 输出"。
 
-## 🟡 阶段 4：音乐（~2-5 天）
+### Phase 3 — 设计文档（1 周）
 
-- `D2.mml` (28 KB) — **就是 MML 格式 BGM 谱**，可直接转 MIDI/MP3
-- `Fmdrv.com` (5 KB) — FM 音源驱动
-- PC-9801 OPN/OPNA，工具：`pmdwin` / `FMPMD2000`
-- JohanLi 已经做过这个（见 `music/converted/*.mp3`），可参考
+把 Phase 1（数据）+ Phase 2（机制）整合成**新游戏的 spec**：
+- 世界地图划分
+- 港口数量 / 类型
+- 商品分布 / 价格机制
+- 船只系统
+- 战斗系统
+- 事件 / 进度
 
-## 🟠 阶段 5：游戏逻辑反汇编（已部分开工）
+**这一步是"从 RE 转到 game design"的转折点**。可以借鉴 OpenTTD / OpenMW 之类项目的 spec 文档风格。
 
-主程序是 **`Main.exe`**（298KB，PC-98 16-bit 实模式 MZ），不是 KOUKAI2.EXP。还有 `Open.exe`（开场）、`End.exe`（结局）。
+### Phase 4 — 现代实现（数月-年）
 
-### 进度
-- ✅ Ghidra 12.1 + capstone 已装
-- ✅ MZ 头解析（code 段从 0x5200 起）
-- ✅ **事件 CG 解码器定位** — 函数入口 0x5e00
-- ✅ 解码器结构搞清楚：4bpp packed + 0x38 escape + per-image 16-entry 派发表 + PC-98 4-plane VRAM 直写
-- ⬜ Python 移植解码器（估计 2-4 小时聊天往返）
-- ⬜ 还要解的核心公式：交易价格波动、海战 hit/damage、探险概率、忠诚度/叛变
+- **引擎选型**：Godot 4（推荐 - 2D 友好、开源）/ Unity / Web Canvas
+- **资产策略**：全新美术（不用原 sprite），参考 Phase 0 出图的**配色和风格**
+- **数据导入**：直接读 Phase 1 的 JSON
+- **机制实现**：以 Phase 3 spec 为准
 
-详细笔记：[`docs/REVERSE_ENGINEERING_NOTES.md`](docs/REVERSE_ENGINEERING_NOTES.md)
-完整反汇编：[`docs/main_exe_decoder_disasm.txt`](docs/main_exe_decoder_disasm.txt)
-
-## 🔴 阶段 6：开源复刻（数月～年）
-
-基于阶段 1-5 的全部产出，用现代引擎重写。OpenTTD / OpenMW 路线，社区工程。
+不一定要做"完全相同"——可以是**"大航海" 风格的子集 / 变体**，比如缩减港口数到 30，简化海战，加入新机制等。
 
 ---
 
-## 当前甜区
+## 🟥 已明确放弃 / 降优先级的工作
 
-- **完成阶段 5 的解码器移植** → 直接拿到所有事件 CG（**`Graph.dat` + `Endgrp.dat`**，共 65+59=124 张全屏图）
-- **挖 `Event*.dat` + `Message.dat`** → 拿到对话剧本和事件触发逻辑（剧情百科可做了）
-- **`D2.mml` 转 MIDI** → 一晚上拿到全部 BGM
-- 这三项做完，大航海2 资源就**100% 出土**
+| 工作 | 为什么放弃 |
+|---|---|
+| **Opgraph.lzw 事件 CG 解码** | 自定义压缩，破解要数天；新游戏不需要原图 |
+| **Message.dat 字符 mapping** | 卡在自定义字体表；新游戏可以新写剧本，不需要逐字翻译 |
+| **D2.mml → MIDI** | 听一下风格就够；JohanLi 已经有社区转录的 MIDI 可参考 |
+| **Iap/Iae/Char 已完成的 sprite 进一步处理** | 已经够用作风格参考 |
+| **完整反汇编 Main.exe** | 只挑核心公式，不必反整个 EXE |
+
+---
+
+## 📊 现状 vs 目标差距
+
+```
+已完成 (Phase 0):  ████████████████████ 视觉资产  90%
+进行中 (Phase 1):  ░░░░░░░░░░░░░░░░░░░░ 数据表    0%  ← 应立刻开始
+未开始 (Phase 2):  ▓░░░░░░░░░░░░░░░░░░░ 游戏机制  5%  ← Ghidra 起步
+未开始 (Phase 3):  ░░░░░░░░░░░░░░░░░░░░ 设计文档  0%
+未开始 (Phase 4):  ░░░░░░░░░░░░░░░░░░░░ 现代实现  0%
+```
+
+**当前建议下一步**：**立刻开 Phase 1**——从 `Colony.dat` 或 `Event0.dat` 开始挖。每解一个文件，都是新游戏直接可用的平衡数据。
+
+---
+
+## 🗂️ 相关文档
+
+- 已完成资产清单：[README.md](README.md)
+- Ghidra 反汇编笔记：[docs/REVERSE_ENGINEERING_NOTES.md](docs/REVERSE_ENGINEERING_NOTES.md)
+- 项目约定 + 已破解格式规范：[CLAUDE.md](CLAUDE.md)
