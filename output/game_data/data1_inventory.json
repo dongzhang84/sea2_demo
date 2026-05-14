@@ -1,0 +1,365 @@
+[
+  {
+    "file": "part_0000_23040bytes.bin",
+    "size": 23040,
+    "alignment": 4,
+    "pct_zero": 35.9,
+    "pct_ff": 28.9,
+    "stride_candidates": [
+      {
+        "records": 2880,
+        "stride": 8
+      },
+      {
+        "records": 1920,
+        "stride": 12
+      },
+      {
+        "records": 1440,
+        "stride": 16
+      },
+      {
+        "records": 960,
+        "stride": 24
+      },
+      {
+        "records": 720,
+        "stride": 32
+      }
+    ]
+  },
+  {
+    "file": "part_0001_23040bytes.bin",
+    "size": 23040,
+    "alignment": 4,
+    "pct_zero": 85.8,
+    "pct_ff": 0.1,
+    "stride_candidates": [
+      {
+        "records": 2880,
+        "stride": 8
+      },
+      {
+        "records": 1920,
+        "stride": 12
+      },
+      {
+        "records": 1440,
+        "stride": 16
+      },
+      {
+        "records": 960,
+        "stride": 24
+      },
+      {
+        "records": 720,
+        "stride": 32
+      }
+    ]
+  },
+  {
+    "file": "part_0002_4320bytes.bin",
+    "size": 4320,
+    "alignment": 1,
+    "pct_zero": 39.2,
+    "pct_ff": 8.5,
+    "stride_candidates": [
+      {
+        "records": 1080,
+        "stride": 4
+      },
+      {
+        "records": 540,
+        "stride": 8
+      },
+      {
+        "records": 360,
+        "stride": 12
+      },
+      {
+        "records": 270,
+        "stride": 16
+      },
+      {
+        "records": 180,
+        "stride": 24
+      }
+    ]
+  },
+  {
+    "file": "part_0003_4320bytes.bin",
+    "size": 4320,
+    "alignment": 1,
+    "pct_zero": 43.3,
+    "pct_ff": 8.1,
+    "stride_candidates": [
+      {
+        "records": 1080,
+        "stride": 4
+      },
+      {
+        "records": 540,
+        "stride": 8
+      },
+      {
+        "records": 360,
+        "stride": 12
+      },
+      {
+        "records": 270,
+        "stride": 16
+      },
+      {
+        "records": 180,
+        "stride": 24
+      }
+    ]
+  },
+  {
+    "file": "part_0004_12288bytes.bin",
+    "size": 12288,
+    "alignment": 1,
+    "pct_zero": 25.9,
+    "pct_ff": 26.6,
+    "stride_candidates": [
+      {
+        "records": 3072,
+        "stride": 4
+      },
+      {
+        "records": 1536,
+        "stride": 8
+      },
+      {
+        "records": 1024,
+        "stride": 12
+      },
+      {
+        "records": 768,
+        "stride": 16
+      },
+      {
+        "records": 512,
+        "stride": 24
+      }
+    ]
+  },
+  {
+    "file": "part_0005_2bytes.bin",
+    "size": 2,
+    "alignment": 1,
+    "pct_zero": 0.0,
+    "pct_ff": 0.0,
+    "stride_candidates": []
+  },
+  {
+    "file": "part_0006_3840bytes.bin",
+    "size": 3840,
+    "alignment": 4,
+    "pct_zero": 34.3,
+    "pct_ff": 0.9,
+    "stride_candidates": [
+      {
+        "records": 960,
+        "stride": 4
+      },
+      {
+        "records": 480,
+        "stride": 8
+      },
+      {
+        "records": 320,
+        "stride": 12
+      },
+      {
+        "records": 240,
+        "stride": 16
+      },
+      {
+        "records": 160,
+        "stride": 24
+      }
+    ]
+  },
+  {
+    "file": "part_0007_9216bytes.bin",
+    "size": 9216,
+    "alignment": 4,
+    "pct_zero": 53.8,
+    "pct_ff": 2.8,
+    "stride_candidates": [
+      {
+        "records": 2304,
+        "stride": 4
+      },
+      {
+        "records": 1152,
+        "stride": 8
+      },
+      {
+        "records": 768,
+        "stride": 12
+      },
+      {
+        "records": 576,
+        "stride": 16
+      },
+      {
+        "records": 384,
+        "stride": 24
+      }
+    ]
+  },
+  {
+    "file": "part_0008_28406bytes.bin",
+    "size": 28406,
+    "alignment": 1,
+    "pct_zero": 8.9,
+    "pct_ff": 0.5,
+    "stride_candidates": []
+  },
+  {
+    "file": "part_0009_5568bytes.bin",
+    "size": 5568,
+    "alignment": 4,
+    "pct_zero": 28.6,
+    "pct_ff": 39.1,
+    "stride_candidates": [
+      {
+        "records": 1392,
+        "stride": 4
+      },
+      {
+        "records": 696,
+        "stride": 8
+      },
+      {
+        "records": 464,
+        "stride": 12
+      },
+      {
+        "records": 348,
+        "stride": 16
+      },
+      {
+        "records": 232,
+        "stride": 24
+      }
+    ]
+  },
+  {
+    "file": "part_0010_512bytes.bin",
+    "status": "previously known"
+  },
+  {
+    "file": "part_0011_32768bytes.bin",
+    "status": "previously known"
+  },
+  {
+    "file": "part_0012_512bytes.bin",
+    "size": 512,
+    "alignment": 1,
+    "pct_zero": 0.4,
+    "pct_ff": 54.7,
+    "stride_candidates": [
+      {
+        "records": 128,
+        "stride": 4
+      },
+      {
+        "records": 64,
+        "stride": 8
+      },
+      {
+        "records": 32,
+        "stride": 16
+      },
+      {
+        "records": 16,
+        "stride": 32
+      }
+    ]
+  },
+  {
+    "file": "part_0013_312bytes.bin",
+    "size": 312,
+    "alignment": 1,
+    "pct_zero": 7.1,
+    "pct_ff": 1.6,
+    "stride_candidates": [
+      {
+        "records": 78,
+        "stride": 4
+      },
+      {
+        "records": 39,
+        "stride": 8
+      },
+      {
+        "records": 26,
+        "stride": 12
+      },
+      {
+        "records": 13,
+        "stride": 24
+      }
+    ]
+  },
+  {
+    "file": "part_0014_16032bytes.bin",
+    "size": 16032,
+    "alignment": 1,
+    "pct_zero": 36.6,
+    "pct_ff": 13.6,
+    "stride_candidates": [
+      {
+        "records": 4008,
+        "stride": 4
+      },
+      {
+        "records": 2004,
+        "stride": 8
+      },
+      {
+        "records": 1336,
+        "stride": 12
+      },
+      {
+        "records": 1002,
+        "stride": 16
+      },
+      {
+        "records": 668,
+        "stride": 24
+      }
+    ]
+  },
+  {
+    "file": "part_0015_32117bytes.bin",
+    "size": 32117,
+    "alignment": 1,
+    "pct_zero": 40.5,
+    "pct_ff": 10.6,
+    "stride_candidates": []
+  },
+  {
+    "file": "part_0016_81bytes.bin",
+    "size": 81,
+    "alignment": 1,
+    "pct_zero": 45.7,
+    "pct_ff": 0.0,
+    "stride_candidates": []
+  },
+  {
+    "file": "part_0017_81bytes.bin",
+    "size": 81,
+    "alignment": 1,
+    "pct_zero": 45.7,
+    "pct_ff": 0.0,
+    "stride_candidates": []
+  },
+  {
+    "file": "part_0018_1024bytes.bin",
+    "status": "previously known"
+  }
+]

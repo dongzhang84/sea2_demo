@@ -1,0 +1,14 @@
+{
+  "source": "part_0005_2bytes.bin",
+  "size_bytes": 2,
+  "alignment": 1,
+  "byte_histogram": {
+    "0x02": 1,
+    "0x6e": 1
+  },
+  "pct_zero": 0.0,
+  "pct_ff": 0.0,
+  "stride_candidates": [],
+  "first_64_hex": "6e02",
+  "structured_attempts": {}
+}

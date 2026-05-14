@@ -1,0 +1,26 @@
+{
+  "source": "part_0016_81bytes.bin",
+  "size_bytes": 81,
+  "alignment": 1,
+  "byte_histogram": {
+    "0x00": 37,
+    "0x4d": 2,
+    "0x6a": 2,
+    "0x6d": 3,
+    "0x71": 1,
+    "0x79": 2,
+    "0x8c": 5,
+    "0x8e": 13,
+    "0x8f": 2,
+    "0x92": 2,
+    "0x94": 1,
+    "0xdd": 9,
+    "0xf2": 1,
+    "0xf6": 1
+  },
+  "pct_zero": 45.7,
+  "pct_ff": 0.0,
+  "stride_candidates": [],
+  "first_64_hex": "8e6d8edd00000000008f798c4d8edd8e6d008c4d8edd8e6d0000008f79926a8edd000000926a8edd00000000008e718edd0000000000948c8edd00000000008c",
+  "structured_attempts": {}
+}

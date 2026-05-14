@@ -1,0 +1,12 @@
+{
+  "source": "Snr6.dat",
+  "size_bytes": 11670,
+  "alignment": 1,
+  "pct_zero": 16.6,
+  "pct_ff": 1.0,
+  "pct_high_byte": 42.8,
+  "distinct_byte_count": 256,
+  "first_128_hex": "534e44540005000000000000000000000000002c0000065e00000f5a00001904000022c50000250bffffffff0008020004f2ffff02010030020300440208005b0204006f02020086020501ca021501d2020a01d3020b01d4020701d502ff01e0ffffffffc000c80000c7c000c80001c7c000c80002c7f8f2c000c80003c7c002",
+  "stride_candidates": [],
+  "structured_first_samples": {}
+}

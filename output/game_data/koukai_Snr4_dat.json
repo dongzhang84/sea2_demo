@@ -1,0 +1,12 @@
+{
+  "source": "Snr4.dat",
+  "size_bytes": 3934,
+  "alignment": 1,
+  "pct_zero": 22.7,
+  "pct_ff": 1.5,
+  "pct_high_byte": 34.6,
+  "distinct_byte_count": 245,
+  "first_128_hex": "534e4454000300000000000000000000000000280000026e0000042c000005bf00000747ffffffff000601d3ffff2107001c210501a0210a01a1210801a2210b01a321ff01a4ffffffffc001cc000fc80000c7c001cc000fc80001c7c002cc0003c80002c7c002cc0003c80003c7c001cc000fc80004c7c002cc0003c80005c7",
+  "stride_candidates": [],
+  "structured_first_samples": {}
+}

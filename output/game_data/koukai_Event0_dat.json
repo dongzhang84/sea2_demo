@@ -1,0 +1,12 @@
+{
+  "source": "Event0.dat",
+  "size_bytes": 8541,
+  "alignment": 1,
+  "pct_zero": 0.7,
+  "pct_ff": 0.5,
+  "pct_high_byte": 30.5,
+  "distinct_byte_count": 241,
+  "first_128_hex": "00000004c00090000f0f5f0faf0f4f0f10000f05a00a2f0f4792380fbf390fff083008f000380333380eee380181380526201a204a3805a8205a202a3805aa380588903801aa3805894010ee38038341380561380b8345380f3f3a0fffc9380f1f380f7fc1380ccc0008f008c0a0380dc138025420a1380a5120a5208520a238",
+  "stride_candidates": [],
+  "structured_first_samples": {}
+}
