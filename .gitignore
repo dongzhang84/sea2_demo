@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Intermediate / regeneratable artifacts
+output/kao_parts/
+
+# Keep the final rendered output committed as proof:
+#   output/contact_kao_v4.png
+#   output/kao_png_v4/
