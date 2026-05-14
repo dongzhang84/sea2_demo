@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://b_ship"]
+
+[ext_resource type="Script" path="res://scripts/ship.gd" id="1_script"]
+
+[node name="Ship" type="Node2D"]
+script = ExtResource("1_script")
+
+[node name="Trail" type="Line2D" parent="."]
+width = 2.0
+default_color = Color(1, 1, 0.8, 0.5)
+joint_mode = 2
+
+[node name="Sprite" type="Polygon2D" parent="."]
+color = Color(0.95, 0.85, 0.7, 1)
+polygon = PackedVector2Array(-5, 4, 5, 4, 0, -10)

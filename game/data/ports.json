@@ -1,0 +1,234 @@
+{
+  "note": "Port coords measured from worldmap.png via PIL grid overlay.",
+  "goods_catalog": [
+    "Grain",
+    "Iron",
+    "Textile",
+    "Spice",
+    "Sugar",
+    "Coffee",
+    "Silk",
+    "Tea",
+    "Porcelain",
+    "Gem",
+    "Coral",
+    "Carpet"
+  ],
+  "starting_gold": 1000,
+  "ports": [
+    {
+      "id": 0,
+      "name": "Lisbon",
+      "region": "Iberia",
+      "world_x": 65,
+      "world_y": 253,
+      "goods": {
+        "Grain": 75775,
+        "Iron": 43840,
+        "Textile": 82365,
+        "Spice": 86080,
+        "Sugar": 59110,
+        "Coffee": 9250,
+        "Silk": 45040,
+        "Tea": 63115,
+        "Porcelain": 75725,
+        "Gem": 60280,
+        "Coral": 79470
+      },
+      "governor_portrait": 0,
+      "port_screen": "port_000.png"
+    },
+    {
+      "id": 27,
+      "name": "London",
+      "region": "Northern Europe",
+      "world_x": 77,
+      "world_y": 160,
+      "goods": {
+        "Grain": 97500,
+        "Iron": 114170,
+        "Textile": 83500,
+        "Spice": 82100,
+        "Sugar": 114135,
+        "Silk": 94855,
+        "Tea": 112795,
+        "Porcelain": 105295,
+        "Gem": 109170,
+        "Coral": 93505
+      },
+      "governor_portrait": 10,
+      "port_screen": "port_027.png"
+    },
+    {
+      "id": 38,
+      "name": "Hamburg",
+      "region": "Northern Europe",
+      "world_x": 130,
+      "world_y": 166,
+      "goods": {
+        "Grain": 45010,
+        "Iron": 37395,
+        "Textile": 54045,
+        "Spice": 59115,
+        "Sugar": 19475,
+        "Silk": 27080,
+        "Porcelain": 44920,
+        "Gem": 9150,
+        "Coral": 26985
+      },
+      "governor_portrait": 15,
+      "port_screen": "port_038.png"
+    },
+    {
+      "id": 1,
+      "name": "Seville",
+      "region": "Iberia",
+      "world_x": 59,
+      "world_y": 266,
+      "goods": {
+        "Grain": 72055,
+        "Iron": 73095,
+        "Textile": 86170,
+        "Spice": 86020,
+        "Sugar": 73145,
+        "Coffee": 10530,
+        "Silk": 73215,
+        "Tea": 10705,
+        "Porcelain": 55215,
+        "Gem": 55150,
+        "Coral": 55390,
+        "Carpet": 72125
+      },
+      "governor_portrait": 5,
+      "port_screen": "port_001.png"
+    },
+    {
+      "id": 65,
+      "name": "Istanbul",
+      "region": "Anatolia",
+      "world_x": 213,
+      "world_y": 213,
+      "goods": {
+        "Grain": 77010,
+        "Iron": 76940,
+        "Textile": 87305,
+        "Spice": 87355,
+        "Sugar": 56635,
+        "Silk": 64215,
+        "Carpet": 10605
+      },
+      "governor_portrait": 25,
+      "port_screen": "port_065.png"
+    },
+    {
+      "id": 78,
+      "name": "Alexandria",
+      "region": "Egypt",
+      "world_x": 219,
+      "world_y": 280,
+      "goods": {
+        "Grain": 74540,
+        "Iron": 88620,
+        "Textile": 88670,
+        "Spice": 74590,
+        "Sugar": 88580,
+        "Silk": 74480,
+        "Coral": 74420
+      },
+      "governor_portrait": 30,
+      "port_screen": "port_078.png"
+    },
+    {
+      "id": 50,
+      "name": "Calicut",
+      "region": "India",
+      "world_x": 426,
+      "world_y": 353,
+      "goods": {
+        "Grain": 91220,
+        "Iron": 56625,
+        "Textile": 86195,
+        "Spice": 91270,
+        "Sugar": 56675,
+        "Silk": 74580,
+        "Porcelain": 70870,
+        "Gem": 57840,
+        "Coral": 70810,
+        "Carpet": 41280
+      },
+      "governor_portrait": 50,
+      "port_screen": "port_050.png"
+    },
+    {
+      "id": 60,
+      "name": "Malacca",
+      "region": "SE Asia",
+      "world_x": 533,
+      "world_y": 426,
+      "goods": {
+        "Grain": 66855,
+        "Iron": 66770,
+        "Textile": 83485,
+        "Spice": 83430,
+        "Sugar": 66915,
+        "Silk": 51445,
+        "Carpet": 51500
+      },
+      "governor_portrait": 55,
+      "port_screen": "port_060.png"
+    },
+    {
+      "id": 70,
+      "name": "Nagasaki",
+      "region": "Japan",
+      "world_x": 652,
+      "world_y": 280,
+      "goods": {
+        "Grain": 57945,
+        "Iron": 68080,
+        "Textile": 51630,
+        "Spice": 51590,
+        "Sugar": 41300,
+        "Silk": 68035,
+        "Porcelain": 75845,
+        "Gem": 43680,
+        "Coral": 43750
+      },
+      "governor_portrait": 60,
+      "port_screen": "port_070.png"
+    },
+    {
+      "id": 99,
+      "name": "Havana",
+      "region": "Caribbean",
+      "world_x": 1037,
+      "world_y": 323,
+      "goods": {
+        "Grain": 78335,
+        "Iron": 78395,
+        "Textile": 95220,
+        "Spice": 88635,
+        "Sugar": 45125,
+        "Silk": 78440,
+        "Tea": 10530,
+        "Gem": 63045
+      },
+      "governor_portrait": 70,
+      "port_screen": "port_099.png"
+    }
+  ],
+  "goods_icons": {
+    "Grain": 5,
+    "Iron": 70,
+    "Textile": 75,
+    "Spice": 85,
+    "Sugar": 80,
+    "Coffee": 90,
+    "Silk": 95,
+    "Tea": 100,
+    "Porcelain": 110,
+    "Gem": 115,
+    "Coral": 120,
+    "Carpet": 125
+  }
+}

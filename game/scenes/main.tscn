@@ -1,0 +1,82 @@
+[gd_scene load_steps=4 format=3 uid="uid://b_main"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="Texture2D" path="res://assets/world/worldmap.png" id="2_world"]
+[ext_resource type="Script" path="res://scripts/wind_overlay.gd" id="3_wind"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_main")
+
+[node name="Worldmap" type="Sprite2D" parent="."]
+texture = ExtResource("2_world")
+centered = false
+scale = Vector2(0.593, 0.667)
+
+[node name="WindOverlay" type="Node2D" parent="."]
+script = ExtResource("3_wind")
+
+[node name="PortLayer" type="Node2D" parent="."]
+
+[node name="ShipLayer" type="Node2D" parent="."]
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="GoldLabel" type="Label" parent="UI"]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 220.0
+offset_bottom = 50.0
+text = "Gold: 1000"
+theme_override_colors/font_color = Color(1, 1, 0.4, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 22
+
+[node name="InfoLabel" type="Label" parent="UI"]
+offset_left = 20.0
+offset_top = 50.0
+offset_right = 800.0
+offset_bottom = 75.0
+text = "Click a port to sail."
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 14
+
+[node name="PortScreenPanel" type="PanelContainer" parent="UI"]
+offset_left = 770.0
+offset_top = 70.0
+offset_right = 1270.0
+offset_bottom = 700.0
+
+[node name="V" type="VBoxContainer" parent="UI/PortScreenPanel"]
+
+[node name="Title" type="Label" parent="UI/PortScreenPanel/V"]
+text = "Port"
+theme_override_font_sizes/font_size = 22
+
+[node name="Image" type="TextureRect" parent="UI/PortScreenPanel/V"]
+custom_minimum_size = Vector2(480, 200)
+expand_mode = 1
+stretch_mode = 5
+
+[node name="GovernorRow" type="HBoxContainer" parent="UI/PortScreenPanel/V"]
+
+[node name="Portrait" type="TextureRect" parent="UI/PortScreenPanel/V/GovernorRow"]
+custom_minimum_size = Vector2(80, 64)
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="UI/PortScreenPanel/V/GovernorRow"]
+text = "Governor"
+theme_override_font_sizes/font_size = 14
+
+[node name="Scroll" type="ScrollContainer" parent="UI/PortScreenPanel/V"]
+custom_minimum_size = Vector2(480, 280)
+
+[node name="List" type="VBoxContainer" parent="UI/PortScreenPanel/V/Scroll"]
+
+[node name="CloseBtn" type="Button" parent="UI/PortScreenPanel/V"]
+text = "Close"
+
+[connection signal="pressed" from="UI/PortScreenPanel/V/CloseBtn" to="." method="_on_close_pressed"]

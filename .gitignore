@@ -20,3 +20,6 @@ output/iap_v1/
 # Local secrets
 .env
 .env.local
+
+# Godot import cache
+game/.godot/

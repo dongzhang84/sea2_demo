@@ -1,0 +1,18 @@
+# Godot 4
+.godot/
+*.translation
+export.cfg
+export_presets.cfg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.tmp
+.vscode/
+.idea/
+
+# Local secrets
+.env
+.env.local
