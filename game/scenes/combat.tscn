@@ -1,0 +1,83 @@
+[gd_scene load_steps=2 format=3 uid="uid://b_combat"]
+
+[ext_resource type="Script" path="res://scripts/combat.gd" id="1_script"]
+
+[node name="Combat" type="PanelContainer"]
+script = ExtResource("1_script")
+offset_left = 120.0
+offset_top = 80.0
+offset_right = 1160.0
+offset_bottom = 640.0
+
+[node name="V" type="VBoxContainer" parent="."]
+
+[node name="Title" type="Label" parent="V"]
+text = "Naval Combat"
+theme_override_font_sizes/font_size = 22
+horizontal_alignment = 1
+
+[node name="Battle" type="HBoxContainer" parent="V"]
+custom_minimum_size = Vector2(0, 200)
+
+[node name="PlayerCol" type="VBoxContainer" parent="V/Battle"]
+custom_minimum_size = Vector2(300, 200)
+
+[node name="Label" type="Label" parent="V/Battle/PlayerCol"]
+text = "Your Ship"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 16
+
+[node name="Sprite" type="TextureRect" parent="V/Battle/PlayerCol"]
+custom_minimum_size = Vector2(128, 128)
+expand_mode = 1
+stretch_mode = 5
+
+[node name="HP" type="ProgressBar" parent="V/Battle/PlayerCol"]
+custom_minimum_size = Vector2(280, 24)
+max_value = 100.0
+value = 100.0
+
+[node name="HPLabel" type="Label" parent="V/Battle/PlayerCol"]
+text = "100/100"
+horizontal_alignment = 1
+
+[node name="Mid" type="VBoxContainer" parent="V/Battle"]
+custom_minimum_size = Vector2(200, 200)
+
+[node name="VS" type="Label" parent="V/Battle/Mid"]
+text = "VS"
+theme_override_font_sizes/font_size = 40
+horizontal_alignment = 1
+
+[node name="EnemyCol" type="VBoxContainer" parent="V/Battle"]
+custom_minimum_size = Vector2(300, 200)
+
+[node name="Label" type="Label" parent="V/Battle/EnemyCol"]
+text = "Enemy"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 16
+
+[node name="Sprite" type="TextureRect" parent="V/Battle/EnemyCol"]
+custom_minimum_size = Vector2(128, 128)
+expand_mode = 1
+stretch_mode = 5
+flip_h = true
+
+[node name="HP" type="ProgressBar" parent="V/Battle/EnemyCol"]
+custom_minimum_size = Vector2(280, 24)
+max_value = 60.0
+value = 60.0
+modulate = Color(1, 0.4, 0.4, 1)
+
+[node name="HPLabel" type="Label" parent="V/Battle/EnemyCol"]
+text = "60/60"
+horizontal_alignment = 1
+
+[node name="Log" type="RichTextLabel" parent="V"]
+custom_minimum_size = Vector2(1000, 180)
+bbcode_enabled = true
+fit_content = false
+text = "Battle log..."
+
+[node name="Actions" type="HBoxContainer" parent="V"]
+alignment = 1

@@ -23,17 +23,17 @@
       "world_x": 65,
       "world_y": 253,
       "goods": {
-        "Grain": 75775,
-        "Iron": 43840,
-        "Textile": 82365,
-        "Spice": 86080,
-        "Sugar": 59110,
-        "Coffee": 9250,
-        "Silk": 45040,
-        "Tea": 63115,
-        "Porcelain": 75725,
-        "Gem": 60280,
-        "Coral": 79470
+        "Grain": 255,
+        "Iron": 320,
+        "Textile": 445,
+        "Spice": 320,
+        "Sugar": 230,
+        "Coffee": 290,
+        "Silk": 240,
+        "Tea": 395,
+        "Porcelain": 205,
+        "Gem": 120,
+        "Coral": 110
       },
       "governor_portrait": 0,
       "port_screen": "port_000.png"
@@ -45,16 +45,16 @@
       "world_x": 77,
       "world_y": 160,
       "goods": {
-        "Grain": 97500,
-        "Iron": 114170,
-        "Textile": 83500,
-        "Spice": 82100,
-        "Sugar": 114135,
-        "Silk": 94855,
-        "Tea": 112795,
-        "Porcelain": 105295,
-        "Gem": 109170,
-        "Coral": 93505
+        "Grain": 220,
+        "Iron": 250,
+        "Textile": 300,
+        "Spice": 180,
+        "Sugar": 215,
+        "Silk": 135,
+        "Tea": 155,
+        "Porcelain": 335,
+        "Gem": 370,
+        "Coral": 65
       },
       "governor_portrait": 10,
       "port_screen": "port_027.png"
@@ -66,15 +66,15 @@
       "world_x": 130,
       "world_y": 166,
       "goods": {
-        "Grain": 45010,
-        "Iron": 37395,
-        "Textile": 54045,
-        "Spice": 59115,
-        "Sugar": 19475,
-        "Silk": 27080,
-        "Porcelain": 44920,
-        "Gem": 9150,
-        "Coral": 26985
+        "Grain": 210,
+        "Iron": 275,
+        "Textile": 285,
+        "Spice": 235,
+        "Sugar": 275,
+        "Silk": 200,
+        "Porcelain": 120,
+        "Gem": 190,
+        "Coral": 105
       },
       "governor_portrait": 15,
       "port_screen": "port_038.png"
@@ -86,18 +86,18 @@
       "world_x": 59,
       "world_y": 266,
       "goods": {
-        "Grain": 72055,
-        "Iron": 73095,
-        "Textile": 86170,
-        "Spice": 86020,
-        "Sugar": 73145,
-        "Coffee": 10530,
-        "Silk": 73215,
-        "Tea": 10705,
-        "Porcelain": 55215,
-        "Gem": 55150,
-        "Coral": 55390,
-        "Carpet": 72125
+        "Grain": 375,
+        "Iron": 135,
+        "Textile": 410,
+        "Spice": 260,
+        "Sugar": 185,
+        "Coffee": 290,
+        "Silk": 255,
+        "Tea": 465,
+        "Porcelain": 175,
+        "Gem": 110,
+        "Coral": 350,
+        "Carpet": 445
       },
       "governor_portrait": 5,
       "port_screen": "port_001.png"
@@ -109,13 +109,13 @@
       "world_x": 213,
       "world_y": 213,
       "goods": {
-        "Grain": 77010,
-        "Iron": 76940,
-        "Textile": 87305,
-        "Spice": 87355,
-        "Sugar": 56635,
-        "Silk": 64215,
-        "Carpet": 10605
+        "Grain": 210,
+        "Iron": 140,
+        "Textile": 265,
+        "Spice": 315,
+        "Sugar": 315,
+        "Silk": 215,
+        "Carpet": 365
       },
       "governor_portrait": 25,
       "port_screen": "port_065.png"
@@ -127,13 +127,13 @@
       "world_x": 219,
       "world_y": 280,
       "goods": {
-        "Grain": 74540,
-        "Iron": 88620,
-        "Textile": 88670,
-        "Spice": 74590,
-        "Sugar": 88580,
-        "Silk": 74480,
-        "Coral": 74420
+        "Grain": 300,
+        "Iron": 300,
+        "Textile": 350,
+        "Spice": 350,
+        "Sugar": 260,
+        "Silk": 240,
+        "Coral": 180
       },
       "governor_portrait": 30,
       "port_screen": "port_078.png"
@@ -145,16 +145,16 @@
       "world_x": 426,
       "world_y": 353,
       "goods": {
-        "Grain": 91220,
-        "Iron": 56625,
-        "Textile": 86195,
-        "Spice": 91270,
-        "Sugar": 56675,
-        "Silk": 74580,
-        "Porcelain": 70870,
-        "Gem": 57840,
-        "Coral": 70810,
-        "Carpet": 41280
+        "Grain": 340,
+        "Iron": 305,
+        "Textile": 435,
+        "Spice": 390,
+        "Sugar": 355,
+        "Silk": 340,
+        "Porcelain": 470,
+        "Gem": 240,
+        "Coral": 410,
+        "Carpet": 320
       },
       "governor_portrait": 50,
       "port_screen": "port_050.png"
@@ -166,13 +166,13 @@
       "world_x": 533,
       "world_y": 426,
       "goods": {
-        "Grain": 66855,
-        "Iron": 66770,
-        "Textile": 83485,
-        "Spice": 83430,
-        "Sugar": 66915,
-        "Silk": 51445,
-        "Carpet": 51500
+        "Grain": 295,
+        "Iron": 210,
+        "Textile": 285,
+        "Spice": 230,
+        "Sugar": 355,
+        "Silk": 245,
+        "Carpet": 300
       },
       "governor_portrait": 55,
       "port_screen": "port_060.png"
@@ -184,15 +184,15 @@
       "world_x": 652,
       "world_y": 280,
       "goods": {
-        "Grain": 57945,
-        "Iron": 68080,
-        "Textile": 51630,
-        "Spice": 51590,
-        "Sugar": 41300,
-        "Silk": 68035,
-        "Porcelain": 75845,
-        "Gem": 43680,
-        "Coral": 43750
+        "Grain": 345,
+        "Iron": 240,
+        "Textile": 430,
+        "Spice": 390,
+        "Sugar": 340,
+        "Silk": 195,
+        "Porcelain": 325,
+        "Gem": 160,
+        "Coral": 230
       },
       "governor_portrait": 60,
       "port_screen": "port_070.png"
@@ -204,31 +204,31 @@
       "world_x": 1037,
       "world_y": 323,
       "goods": {
-        "Grain": 78335,
-        "Iron": 78395,
-        "Textile": 95220,
-        "Spice": 88635,
-        "Sugar": 45125,
-        "Silk": 78440,
-        "Tea": 10530,
-        "Gem": 63045
+        "Grain": 255,
+        "Iron": 315,
+        "Textile": 500,
+        "Spice": 315,
+        "Sugar": 325,
+        "Silk": 360,
+        "Tea": 290,
+        "Gem": 325
       },
       "governor_portrait": 70,
       "port_screen": "port_099.png"
     }
   ],
   "goods_icons": {
-    "Grain": 5,
-    "Iron": 70,
-    "Textile": 75,
-    "Spice": 85,
-    "Sugar": 80,
-    "Coffee": 90,
-    "Silk": 95,
-    "Tea": 100,
-    "Porcelain": 110,
-    "Gem": 115,
-    "Coral": 120,
-    "Carpet": 125
+    "Grain": 85,
+    "Iron": 109,
+    "Textile": 113,
+    "Spice": 97,
+    "Sugar": 76,
+    "Coffee": 72,
+    "Silk": 120,
+    "Tea": 82,
+    "Porcelain": 102,
+    "Gem": 117,
+    "Coral": 124,
+    "Carpet": 127
   }
 }

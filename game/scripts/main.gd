@@ -14,6 +14,7 @@ extends Node2D
 @onready var governor_label: Label = $UI/PortScreenPanel/V/GovernorRow/Label
 @onready var trade_list: VBoxContainer = $UI/PortScreenPanel/V/Scroll/List
 @onready var event_dialog: PanelContainer = $UI/EventDialog
+@onready var combat_panel: PanelContainer = $UI/Combat
 
 var ship: Node2D = null
 var current_port_id: int = -1
@@ -31,7 +32,9 @@ func _ready() -> void:
 	_on_ship_changed()
 	port_screen_panel.visible = false
 	event_dialog.visible = false
+	combat_panel.visible = false
 	event_dialog.option_chosen.connect(_on_event_option_chosen)
+	combat_panel.combat_ended.connect(_on_combat_ended)
 	_spawn_ports()
 	_spawn_ship()
 	current_port_id = 0
@@ -83,6 +86,27 @@ func _on_event_option_chosen(opt: Dictionary) -> void:
 	GameState.apply_event_outcome(opt)
 	if opt.has("info"):
 		info_label.text = opt.info
+	# If option label mentions "Fight" — launch combat
+	if str(opt.get("label", "")).to_lower().contains("fight"):
+		combat_panel.start_combat("Pirate", 1)
+
+
+func _on_combat_ended(outcome: String, rewards: Dictionary) -> void:
+	if outcome == "victory":
+		GameState.gold += int(rewards.get("gold", 0))
+		GameState.gold_changed.emit(GameState.gold)
+		if rewards.has("damage"):
+			GameState.ship_durability = max(0, GameState.ship_durability - int(rewards.damage))
+			GameState.ship_changed.emit()
+		info_label.text = "Victory! +%d gold" % rewards.get("gold", 0)
+	elif outcome == "defeat":
+		GameState.gold = max(0, GameState.gold - int(rewards.get("gold_loss", 0)))
+		GameState.gold_changed.emit(GameState.gold)
+		GameState.ship_durability = max(1, GameState.ship_durability / 2)
+		GameState.ship_changed.emit()
+		info_label.text = "Defeat! -%d gold, hull damaged" % rewards.get("gold_loss", 0)
+	else:
+		info_label.text = "You escaped the battle."
 
 
 func _on_port_clicked(port: Dictionary) -> void:
