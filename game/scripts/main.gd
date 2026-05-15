@@ -6,6 +6,7 @@ extends Node2D
 @onready var wind_overlay: Node2D = $WindOverlay
 @onready var gold_label: Label = $UI/GoldLabel
 @onready var dura_label: Label = $UI/DuraLabel
+@onready var date_label: Label = $UI/DateLabel
 @onready var info_label: Label = $UI/InfoLabel
 @onready var port_screen_panel: PanelContainer = $UI/PortScreenPanel
 @onready var port_screen_title: Label = $UI/PortScreenPanel/V/Title
@@ -19,6 +20,7 @@ extends Node2D
 
 var ship: Node2D = null
 var current_port_id: int = -1
+var pending_sail_days: int = 0
 
 const EVENT_CHANCE_PER_SEC := 0.04
 const MIN_TIME_BETWEEN_EVENTS := 5.0
@@ -33,8 +35,10 @@ func _ready() -> void:
 	randomize()
 	GameState.gold_changed.connect(_on_gold_changed)
 	GameState.ship_changed.connect(_on_ship_changed)
+	GameState.date_changed.connect(_on_date_changed)
 	_on_gold_changed(GameState.gold)
 	_on_ship_changed()
+	_on_date_changed()
 	port_screen_panel.visible = false
 	event_dialog.visible = false
 	combat_panel.visible = false
@@ -168,13 +172,18 @@ func _on_port_clicked(port: Dictionary) -> void:
 	if port.id == current_port_id:
 		_open_port_screen(port)
 	else:
-		info_label.text = "起航前往 %s..." % _pn(port)
+		var dist := ship.global_position.distance_to(Vector2(port.world_x, port.world_y))
+		pending_sail_days = max(1, int(dist / 25.0))
+		info_label.text = "起航前往 %s (约 %d 天)..." % [_pn(port), pending_sail_days]
 		ship.sail_to(Vector2(port.world_x, port.world_y), port.id)
 		port_screen_panel.visible = false
 
 
 func _on_ship_arrived(port_id: int) -> void:
 	current_port_id = port_id
+	if pending_sail_days > 0:
+		GameState.advance_days(pending_sail_days)
+		pending_sail_days = 0
 	var port := GameState.get_port(port_id)
 	info_label.text = "抵达 %s。再点一次进入。" % _pn(port)
 
@@ -278,7 +287,8 @@ func _populate_trade_list(port: Dictionary) -> void:
 		child.queue_free()
 	var icons_map: Dictionary = GameState.ports_data.get("goods_icons", {})
 	for good_name in port.goods.keys():
-		var price: int = port.goods[good_name]
+		# Seasonal price: base × month factor
+		var price: int = int(port.goods[good_name] * GameState.season_price_factor(good_name))
 		var row := HBoxContainer.new()
 		row.custom_minimum_size = Vector2(0, 40)
 		var icon_rect := TextureRect.new()
@@ -335,6 +345,10 @@ func _on_sell(good: String, price: int) -> void:
 
 func _on_gold_changed(new_gold: int) -> void:
 	gold_label.text = "金币: %d" % new_gold
+
+
+func _on_date_changed() -> void:
+	date_label.text = GameState.date_string()
 
 
 func _on_ship_changed() -> void:
