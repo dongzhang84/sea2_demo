@@ -1,9 +1,7 @@
 # 大航海时代II 港口对照表（100 港口）
 
 > 名称+经纬度来自新浪攻略。位置 = 校准投影 `x=(6.47·lon+169)%2160, y=-7.3·lat+643` + 海岸线吸附。
-
-![全部港口](../output/contact_ports_named.png)
-
+> 全部港口在世界地图上的实际分布见 [`../screenshots/game_v19.png`](../screenshots/game_v19.png)。
 
 ## 伊比利（4 港）
 
