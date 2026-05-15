@@ -1,5 +1,5 @@
 extends Node2D
-## Clickable port marker on the world map.
+## Clickable port marker on the world map. Label shows only on hover.
 
 signal clicked(port_data: Dictionary)
 
@@ -8,22 +8,27 @@ signal clicked(port_data: Dictionary)
 @onready var area: Area2D = $Area2D
 
 var port_data: Dictionary = {}
+const COLOR_IDLE := Color(1, 0.85, 0.2)      # yellow dot
+const COLOR_HOVER := Color(1, 0.4, 0.1)      # orange when hovered
 
 
 func _ready() -> void:
 	area.input_event.connect(_on_input_event)
 	area.mouse_entered.connect(_on_mouse_entered)
 	area.mouse_exited.connect(_on_mouse_exited)
-	# Apply any data set before _ready
-	if not port_data.is_empty():
-		label.text = port_data.get("cn_name", port_data.get("name", "?"))
+	label.text = port_data.get("cn_name", port_data.get("name", "?"))
+	label.visible = false
+	icon.color = COLOR_IDLE
 
 
 func set_port_data(data: Dictionary) -> void:
 	port_data = data
-	# Only update label if node is ready (otherwise _ready() will apply it)
 	if is_node_ready():
 		label.text = data.get("cn_name", data.get("name", "?"))
+
+
+func set_label_visible(v: bool) -> void:
+	label.visible = v
 
 
 func _on_input_event(_viewport: Node, event: InputEvent, _shape_idx: int) -> void:
@@ -32,8 +37,17 @@ func _on_input_event(_viewport: Node, event: InputEvent, _shape_idx: int) -> voi
 
 
 func _on_mouse_entered() -> void:
-	icon.color = Color(1, 1, 0.4)
+	icon.color = COLOR_HOVER
+	label.visible = true
+	# enlarge dot
+	icon.offset_left = -5; icon.offset_top = -5
+	icon.offset_right = 5; icon.offset_bottom = 5
+	z_index = 10
 
 
 func _on_mouse_exited() -> void:
-	icon.color = Color(1, 0.4, 0.2)
+	icon.color = COLOR_IDLE
+	label.visible = false
+	icon.offset_left = -3; icon.offset_top = -3
+	icon.offset_right = 3; icon.offset_bottom = 3
+	z_index = 0
