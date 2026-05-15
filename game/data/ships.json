@@ -5,7 +5,7 @@
     {
       "id": 1,
       "name_hex": "2a0f1e009b003338",
-      "name_ascii_attempt": "*\u000f\u001e\u0000�\u000038",
+      "name_ascii_attempt": "*\u000f\u001e�38",
       "used_guns": 0,
       "used_crew": 65280,
       "industry_requirement": 100,
@@ -17,12 +17,13 @@
       "capacity_tons": 50,
       "maximum_guns": 10,
       "sail_type": 5,
-      "base_price": 1200
+      "base_price": 1200,
+      "display_name": "Ship 01"
     },
     {
       "id": 2,
       "name_hex": "1e009b003339",
-      "name_ascii_attempt": "\u001e\u0000�\u000039",
+      "name_ascii_attempt": "\u001e�39",
       "used_guns": 255,
       "used_crew": 3882,
       "industry_requirement": 100,
@@ -34,12 +35,13 @@
       "capacity_tons": 60,
       "maximum_guns": 10,
       "sail_type": 5,
-      "base_price": 1300
+      "base_price": 1300,
+      "display_name": "Ship 02"
     },
     {
       "id": 3,
       "name_hex": "9b00a6529369949e9ef2",
-      "name_ascii_attempt": "�\u0000�R�i����",
+      "name_ascii_attempt": "��R�i����",
       "used_guns": 5,
       "used_crew": 15,
       "industry_requirement": 300,
@@ -51,12 +53,13 @@
       "capacity_tons": 70,
       "maximum_guns": 15,
       "sail_type": 5,
-      "base_price": 1800
+      "base_price": 1800,
+      "display_name": "Ship 03"
     },
     {
       "id": 4,
       "name_hex": "9fcb9bac949e9ef20000000000000001",
-      "name_ascii_attempt": "��������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001",
+      "name_ascii_attempt": "��������\u0001",
       "used_guns": 0,
       "used_crew": 35,
       "industry_requirement": 700,
@@ -68,12 +71,13 @@
       "capacity_tons": 500,
       "maximum_guns": 40,
       "sail_type": 1,
-      "base_price": 20000
+      "base_price": 20000,
+      "display_name": "Ship 04"
     },
     {
       "id": 5,
       "name_hex": "9bac92b49661949e9ef2000000025205",
-      "name_ascii_attempt": "�����a����\u0000\u0000\u0000\u0002R\u0005",
+      "name_ascii_attempt": "�����a����\u0002R\u0005",
       "used_guns": 0,
       "used_crew": 35476,
       "industry_requirement": 200,
@@ -85,12 +89,13 @@
       "capacity_tons": 80,
       "maximum_guns": 15,
       "sail_type": 5,
-      "base_price": 1400
+      "base_price": 1400,
+      "display_name": "Ship 05"
     },
     {
       "id": 6,
       "name_hex": "949e9ef20000000000000003321e96",
-      "name_ascii_attempt": "����\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00032\u001e�",
+      "name_ascii_attempt": "����\u00032\u001e�",
       "used_guns": 180,
       "used_crew": 24982,
       "industry_requirement": 200,
@@ -102,12 +107,13 @@
       "capacity_tons": 120,
       "maximum_guns": 20,
       "sail_type": 6,
-      "base_price": 2400
+      "base_price": 2400,
+      "display_name": "Ship 06"
     },
     {
       "id": 7,
       "name_hex": "9ef20000000000000004120a0f0037",
-      "name_ascii_attempt": "��\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0012\n\u000f\u00007",
+      "name_ascii_attempt": "��\u0004\u0012\n\u000f7",
       "used_guns": 172,
       "used_crew": 46226,
       "industry_requirement": 200,
@@ -119,12 +125,13 @@
       "capacity_tons": 120,
       "maximum_guns": 20,
       "sail_type": 5,
-      "base_price": 2400
+      "base_price": 2400,
+      "display_name": "Ship 07"
     },
     {
       "id": 8,
       "name_hex": "949e9ef200000005520a1e005000948a",
-      "name_ascii_attempt": "����\u0000\u0000\u0000\u0005R\n\u001e\u0000P\u0000��",
+      "name_ascii_attempt": "����\u0005R\n\u001eP��",
       "used_guns": 246,
       "used_crew": 40596,
       "industry_requirement": 400,
@@ -136,12 +143,13 @@
       "capacity_tons": 180,
       "maximum_guns": 20,
       "sail_type": 6,
-      "base_price": 10000
+      "base_price": 10000,
+      "display_name": "Ship 08"
     },
     {
       "id": 9,
       "name_hex": "000000000006520a1e005000948a9bac",
-      "name_ascii_attempt": "\u0000\u0000\u0000\u0000\u0000\u0006R\n\u001e\u0000P\u0000����",
+      "name_ascii_attempt": "\u0006R\n\u001eP����",
       "used_guns": 205,
       "used_crew": 40596,
       "industry_requirement": 500,
@@ -153,12 +161,13 @@
       "capacity_tons": 450,
       "maximum_guns": 40,
       "sail_type": 3,
-      "base_price": 30000
+      "base_price": 30000,
+      "display_name": "Ship 09"
     },
     {
       "id": 10,
       "name_hex": "00000007720f2d00780092e298cd949e",
-      "name_ascii_attempt": "\u0000\u0000\u0000\u0007r\u000f-\u0000x\u0000������",
+      "name_ascii_attempt": "\u0007r\u000f-x������",
       "used_guns": 0,
       "used_crew": 0,
       "industry_requirement": 600,
@@ -170,12 +179,13 @@
       "capacity_tons": 600,
       "maximum_guns": 50,
       "sail_type": 3,
-      "base_price": 40000
+      "base_price": 40000,
+      "display_name": "Ship 10"
     },
     {
       "id": 11,
       "name_hex": "0008721e5000540197bca3d1949e9ef2",
-      "name_ascii_attempt": "\u0000\br\u001eP\u0000T\u0001��������",
+      "name_ascii_attempt": "\br\u001ePT\u0001��������",
       "used_guns": 0,
       "used_crew": 0,
       "industry_requirement": 800,
@@ -187,12 +197,13 @@
       "capacity_tons": 800,
       "maximum_guns": 70,
       "sail_type": 1,
-      "base_price": 60000
+      "base_price": 60000,
+      "display_name": "Ship 11"
     },
     {
       "id": 12,
       "name_hex": "721e6400d60194e89bdc937792ca949e",
-      "name_ascii_attempt": "r\u001ed\u0000�\u0001�����w����",
+      "name_ascii_attempt": "r\u001ed�\u0001�����w����",
       "used_guns": 0,
       "used_crew": 2560,
       "industry_requirement": 500,
@@ -204,12 +215,13 @@
       "capacity_tons": 600,
       "maximum_guns": 40,
       "sail_type": 4,
-      "base_price": 44000
+      "base_price": 44000,
+      "display_name": "Ship 12"
     },
     {
       "id": 13,
       "name_hex": "b400260292b49bac949e9ef2",
-      "name_ascii_attempt": "�\u0000&\u0002��������",
+      "name_ascii_attempt": "�&\u0002��������",
       "used_guns": 11,
       "used_crew": 7762,
       "industry_requirement": 550,
@@ -221,7 +233,8 @@
       "capacity_tons": 150,
       "maximum_guns": 20,
       "sail_type": 6,
-      "base_price": 6000
+      "base_price": 6000,
+      "display_name": "Ship 13"
     },
     {
       "id": 14,
@@ -238,12 +251,13 @@
       "capacity_tons": 250,
       "maximum_guns": 40,
       "sail_type": 6,
-      "base_price": 16000
+      "base_price": 16000,
+      "display_name": "Ship 14"
     },
     {
       "id": 15,
       "name_hex": "9fcb9bac95b79ef2000000000000000d",
-      "name_ascii_attempt": "��������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\r",
+      "name_ascii_attempt": "��������\r",
       "used_guns": 0,
       "used_crew": 195,
       "industry_requirement": 1000,
@@ -255,12 +269,13 @@
       "capacity_tons": 650,
       "maximum_guns": 70,
       "sail_type": 5,
-      "base_price": 224000
+      "base_price": 224000,
+      "display_name": "Ship 15"
     },
     {
       "id": 16,
       "name_hex": "a3d195b79ef2000000000000000e5241",
-      "name_ascii_attempt": "������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000eRA",
+      "name_ascii_attempt": "������\u000eRA",
       "used_guns": 1,
       "used_crew": 46226,
       "industry_requirement": 1000,
@@ -272,12 +287,13 @@
       "capacity_tons": 1000,
       "maximum_guns": 120,
       "sail_type": 3,
-      "base_price": 300000
+      "base_price": 300000,
+      "display_name": "Ship 16"
     },
     {
       "id": 17,
       "name_hex": "92ca98cd949e9ef20000000f72780e01",
-      "name_ascii_attempt": "��������\u0000\u0000\u0000\u000frx\u000e\u0001",
+      "name_ascii_attempt": "��������\u000frx\u000e\u0001",
       "used_guns": 202,
       "used_crew": 52632,
       "industry_requirement": 1000,
@@ -289,12 +305,13 @@
       "capacity_tons": 1200,
       "maximum_guns": 150,
       "sail_type": 3,
-      "base_price": 320000
+      "base_price": 320000,
+      "display_name": "Ship 17"
     },
     {
       "id": 18,
       "name_hex": "9ef2000000000000001072782c010c03",
-      "name_ascii_attempt": "��\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010rx,\u0001\f\u0003",
+      "name_ascii_attempt": "��\u0010rx,\u0001\f\u0003",
       "used_guns": 107,
       "used_crew": 41364,
       "industry_requirement": 300,
@@ -306,12 +323,13 @@
       "capacity_tons": 500,
       "maximum_guns": 40,
       "sail_type": 4,
-      "base_price": 16000
+      "base_price": 16000,
+      "display_name": "Ship 18"
     },
     {
       "id": 19,
       "name_hex": "9ef2000000000011521e4b008b01a652",
-      "name_ascii_attempt": "��\u0000\u0000\u0000\u0000\u0000\u0011R\u001eK\u0000�\u0001�R",
+      "name_ascii_attempt": "��\u0011R\u001eK�\u0001�R",
       "used_guns": 180,
       "used_crew": 24982,
       "industry_requirement": 100,
@@ -323,12 +341,13 @@
       "capacity_tons": 120,
       "maximum_guns": 10,
       "sail_type": 6,
-      "base_price": 1400
+      "base_price": 1400,
+      "display_name": "Ship 19"
     },
     {
       "id": 20,
       "name_hex": "9ef200000012020a1e00500094f2ae31",
-      "name_ascii_attempt": "��\u0000\u0000\u0000\u0012\u0002\n\u001e\u0000P\u0000���1",
+      "name_ascii_attempt": "��\u0012\u0002\n\u001eP���1",
       "used_guns": 158,
       "used_crew": 62110,
       "industry_requirement": 400,
@@ -340,12 +359,13 @@
       "capacity_tons": 500,
       "maximum_guns": 30,
       "sail_type": 2,
-      "base_price": 34000
+      "base_price": 34000,
+      "display_name": "Ship 20"
     },
     {
       "id": 21,
       "name_hex": "00000013021eb400220198e393c6a076",
-      "name_ascii_attempt": "\u0000\u0000\u0000\u0013\u0002\u001e�\u0000\"\u0001�����v",
+      "name_ascii_attempt": "\u0013\u0002\u001e�\"\u0001�����v",
       "used_guns": 175,
       "used_crew": 0,
       "industry_requirement": 500,
@@ -357,12 +377,13 @@
       "capacity_tons": 950,
       "maximum_guns": 50,
       "sail_type": 2,
-      "base_price": 64000
+      "base_price": 64000,
+      "display_name": "Ship 21"
     },
     {
       "id": 22,
       "name_hex": "00140232400144029e77947594a195b7",
-      "name_ascii_attempt": "\u0000\u0014\u00022@\u0001D\u0002�w�u����",
+      "name_ascii_attempt": "\u0014\u00022@\u0001D\u0002�w�u����",
       "used_guns": 0,
       "used_crew": 0,
       "industry_requirement": 600,
@@ -374,12 +395,13 @@
       "capacity_tons": 450,
       "maximum_guns": 40,
       "sail_type": 4,
-      "base_price": 40000
+      "base_price": 40000,
+      "display_name": "Ship 22"
     },
     {
       "id": 23,
       "name_hex": "421ea0000401ae4d93f19ef2",
-      "name_ascii_attempt": "B\u001e�\u0000\u0004\u0001�M����",
+      "name_ascii_attempt": "B\u001e�\u0004\u0001�M����",
       "used_guns": 0,
       "used_crew": 5632,
       "industry_requirement": 1000,
@@ -391,7 +413,8 @@
       "capacity_tons": 1100,
       "maximum_guns": 100,
       "sail_type": 3,
-      "base_price": 140000
+      "base_price": 140000,
+      "display_name": "Ship 23"
     },
     {
       "id": 24,
@@ -408,7 +431,8 @@
       "capacity_tons": 500,
       "maximum_guns": 40,
       "sail_type": 3,
-      "base_price": 14000
+      "base_price": 14000,
+      "display_name": "Ship 24"
     },
     {
       "id": 25,
@@ -425,7 +449,8 @@
       "capacity_tons": 250,
       "maximum_guns": 20,
       "sail_type": 6,
-      "base_price": 2000
+      "base_price": 2000,
+      "display_name": "Ship 25"
     }
   ]
 }

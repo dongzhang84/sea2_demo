@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://b_main"]
+[gd_scene load_steps=5 format=3 uid="uid://b_main"]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
 [ext_resource type="Texture2D" path="res://assets/world/worldmap.png" id="2_world"]
 [ext_resource type="Script" path="res://scripts/wind_overlay.gd" id="3_wind"]
+[ext_resource type="PackedScene" path="res://scenes/event_dialog.tscn" id="4_event_dialog"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_main")
@@ -32,6 +33,17 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 4
 theme_override_font_sizes/font_size = 22
 
+[node name="DuraLabel" type="Label" parent="UI"]
+offset_left = 200.0
+offset_top = 20.0
+offset_right = 460.0
+offset_bottom = 50.0
+text = "Hull: 100/100"
+theme_override_colors/font_color = Color(0.7, 0.95, 0.7, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 18
+
 [node name="InfoLabel" type="Label" parent="UI"]
 offset_left = 20.0
 offset_top = 50.0
@@ -42,6 +54,9 @@ theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 3
 theme_override_font_sizes/font_size = 14
+
+[node name="EventDialog" parent="UI" instance=ExtResource("4_event_dialog")]
+visible = false
 
 [node name="PortScreenPanel" type="PanelContainer" parent="UI"]
 offset_left = 770.0

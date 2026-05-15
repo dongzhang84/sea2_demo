@@ -1,0 +1,106 @@
+{
+  "note": "Voyage events triggered randomly during sailing. portrait_id references assets/portraits/. icon_id references assets/items/. ",
+  "events": [
+    {
+      "id": "pirate_attack",
+      "type": "encounter",
+      "weight": 30,
+      "portrait_id": 85,
+      "title": "Pirates Ahead!",
+      "description": "A black-flagged ship cuts across your bow. The captain demands tribute or blood.",
+      "options": [
+        {"label": "Pay 100g tribute", "cost_gold": 100, "info": "Pirates take the gold and leave."},
+        {"label": "Fight them (-10 durability)", "damage": 10, "gain_gold": 80, "info": "Hard-won victory. You loot their hold."},
+        {"label": "Outrun (need tailwind)", "info": "You sail hard and slip away."}
+      ]
+    },
+    {
+      "id": "storm",
+      "type": "weather",
+      "weight": 25,
+      "portrait_id": null,
+      "icon_id": 14,
+      "title": "Sudden Storm",
+      "description": "Black clouds boil from the west. Lightning splits the sky. Your crew calls for orders.",
+      "options": [
+        {"label": "Sail through (-15 dura)", "damage": 15, "info": "The hull groans but you push through."},
+        {"label": "Lower sails and ride it out", "delay_sec": 3, "info": "You drift safely but lose time."}
+      ]
+    },
+    {
+      "id": "merchant_meet",
+      "type": "trade",
+      "weight": 25,
+      "portrait_id": 55,
+      "title": "Wandering Merchant",
+      "description": "An old trader hails your ship. 'I've a fine cargo at a fair price, captain.'",
+      "options": [
+        {"label": "Buy Spice for 80g", "cost_gold": 80, "gain_item": "Spice", "info": "A bargain — you'll triple it at port."},
+        {"label": "Buy Silk for 150g", "cost_gold": 150, "gain_item": "Silk", "info": "Fine cloth. Worth its weight in Lisbon."},
+        {"label": "Decline politely", "info": "You wave him off."}
+      ]
+    },
+    {
+      "id": "uncharted_island",
+      "type": "explore",
+      "weight": 15,
+      "portrait_id": null,
+      "icon_id": 30,
+      "title": "Land Ho!",
+      "description": "Your lookout cries out. A green island appears, not on any chart.",
+      "options": [
+        {"label": "Send ashore (chance of treasure)", "gain_gold": 150, "info": "You find a shipwreck. 150 gold in the chest."},
+        {"label": "Note position and sail on", "info": "Future voyages may pay off."}
+      ]
+    },
+    {
+      "id": "scholar",
+      "type": "social",
+      "weight": 10,
+      "portrait_id": 105,
+      "title": "Old Scholar",
+      "description": "A bearded scholar from Padua asks passage. 'I'll share my charts in return.'",
+      "options": [
+        {"label": "Accept (free)", "info": "His charts hint at trade routes you hadn't seen."},
+        {"label": "Refuse", "info": "He sighs and turns away."}
+      ]
+    },
+    {
+      "id": "noble_request",
+      "type": "quest",
+      "weight": 10,
+      "portrait_id": 35,
+      "title": "Noble Plea",
+      "description": "A noble's barge bobs in your path. 'Sir captain — my daughter is held in Tunis. 500 gold if you free her.'",
+      "options": [
+        {"label": "Accept the quest", "info": "(In a fuller game, this would trigger a rescue mission.)"},
+        {"label": "Decline", "info": "He prays you change your mind."}
+      ]
+    },
+    {
+      "id": "calm_sea",
+      "type": "weather",
+      "weight": 15,
+      "portrait_id": null,
+      "icon_id": 6,
+      "title": "Becalmed",
+      "description": "The wind dies. Your sails hang limp under the noon sun.",
+      "options": [
+        {"label": "Wait it out", "delay_sec": 4, "info": "Eventually a breeze returns."},
+        {"label": "Row (-5 dura)", "damage": 5, "info": "Hard work but you make slow progress."}
+      ]
+    },
+    {
+      "id": "good_winds",
+      "type": "weather",
+      "weight": 10,
+      "portrait_id": null,
+      "icon_id": 8,
+      "title": "Fair Winds",
+      "description": "A clean tailwind fills your sails. The crew sings.",
+      "options": [
+        {"label": "Press on", "speed_boost": 1.5, "info": "You make excellent time."}
+      ]
+    }
+  ]
+}

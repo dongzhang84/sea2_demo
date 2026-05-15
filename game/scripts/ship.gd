@@ -11,8 +11,20 @@ var moving: bool = false
 var target_port_id: int = -1
 var wind_overlay: Node2D = null  # injected by main
 
-@onready var sprite: Polygon2D = $Sprite
+@onready var sprite: Sprite2D = $Sprite
 @onready var trail: Line2D = $Trail
+
+# Animation between two frames
+var anim_timer: float = 0.0
+var anim_frame: int = 0
+const ANIM_PERIOD := 0.4
+
+
+func set_ship_sprite(sprite_idx: int) -> void:
+	"""Load ship_NN.png as the current sprite."""
+	var path := "res://assets/ships/ship_%02d.png" % sprite_idx
+	if ResourceLoader.exists(path):
+		sprite.texture = load(path)
 
 
 func get_current_speed() -> float:
@@ -53,7 +65,7 @@ func _process(delta: float) -> void:
 	if dist < 2.0:
 		global_position = target_pos
 		moving = false
-		var pid := target_port_id  # capture before reset
+		var pid := target_port_id
 		target_port_id = -1
 		arrived_at_port.emit(pid)
 		return
@@ -61,12 +73,20 @@ func _process(delta: float) -> void:
 	if step > dist:
 		step = dist
 	global_position += direction.normalized() * step
-	# Update ship rotation to face direction
-	if direction.length() > 0:
-		sprite.rotation = direction.angle() + PI / 2
-	# Update trail (every ~10px)
+	# No rotation on Sprite2D — sprite already shows ship from above-ish.
+	# Mirror flip based on horizontal direction.
+	if direction.x < 0:
+		sprite.flip_h = true
+	else:
+		sprite.flip_h = false
+	# Sail animation: alternate between ship_00.png and ship_01.png
+	anim_timer += delta
+	if anim_timer >= ANIM_PERIOD:
+		anim_timer = 0.0
+		anim_frame = 1 - anim_frame
+		set_ship_sprite(anim_frame)
+	# Trail
 	if trail.get_point_count() == 0 or global_position.distance_to(trail.get_point_position(trail.get_point_count() - 1)) > 8.0:
 		trail.add_point(global_position)
-		# Cap trail length
 		if trail.get_point_count() > 40:
 			trail.remove_point(0)

@@ -1,10 +1,11 @@
 extends Node2D
-## Main scene: world map + port markers + UI + ship + port screen.
+## Main scene: world map + ports + ship + events + UI.
 
 @onready var port_layer: Node2D = $PortLayer
 @onready var ship_layer: Node2D = $ShipLayer
 @onready var wind_overlay: Node2D = $WindOverlay
 @onready var gold_label: Label = $UI/GoldLabel
+@onready var dura_label: Label = $UI/DuraLabel
 @onready var info_label: Label = $UI/InfoLabel
 @onready var port_screen_panel: PanelContainer = $UI/PortScreenPanel
 @onready var port_screen_title: Label = $UI/PortScreenPanel/V/Title
@@ -12,14 +13,25 @@ extends Node2D
 @onready var governor_portrait: TextureRect = $UI/PortScreenPanel/V/GovernorRow/Portrait
 @onready var governor_label: Label = $UI/PortScreenPanel/V/GovernorRow/Label
 @onready var trade_list: VBoxContainer = $UI/PortScreenPanel/V/Scroll/List
+@onready var event_dialog: PanelContainer = $UI/EventDialog
 
 var ship: Node2D = null
 var current_port_id: int = -1
 
+const EVENT_CHANCE_PER_SEC := 0.04
+const MIN_TIME_BETWEEN_EVENTS := 5.0
+var time_since_event: float = MIN_TIME_BETWEEN_EVENTS
+
 
 func _ready() -> void:
+	randomize()
 	GameState.gold_changed.connect(_on_gold_changed)
+	GameState.ship_changed.connect(_on_ship_changed)
 	_on_gold_changed(GameState.gold)
+	_on_ship_changed()
+	port_screen_panel.visible = false
+	event_dialog.visible = false
+	event_dialog.option_chosen.connect(_on_event_option_chosen)
 	_spawn_ports()
 	_spawn_ship()
 	current_port_id = 0
@@ -27,7 +39,6 @@ func _ready() -> void:
 	if not start_port.is_empty():
 		ship.global_position = Vector2(start_port.world_x, start_port.world_y)
 		info_label.text = "Docked at %s. Click any port to sail." % start_port.name
-		# Auto-open port screen at start so player sees the trade UI immediately
 		_open_port_screen(start_port)
 
 
@@ -45,6 +56,33 @@ func _spawn_ship() -> void:
 	ship.wind_overlay = wind_overlay
 	ship_layer.add_child(ship)
 	ship.arrived_at_port.connect(_on_ship_arrived)
+
+
+func _process(delta: float) -> void:
+	if ship == null or not ship.moving:
+		return
+	if event_dialog.visible:
+		return
+	time_since_event += delta
+	if time_since_event < MIN_TIME_BETWEEN_EVENTS:
+		return
+	if randf() < EVENT_CHANCE_PER_SEC * delta * 60.0:
+		_trigger_random_event()
+
+
+func _trigger_random_event() -> void:
+	var event := GameState.pick_random_event()
+	if event.is_empty():
+		return
+	time_since_event = 0.0
+	event_dialog.show_event(event)
+	info_label.text = "Event: %s" % event.get("title", "...")
+
+
+func _on_event_option_chosen(opt: Dictionary) -> void:
+	GameState.apply_event_outcome(opt)
+	if opt.has("info"):
+		info_label.text = opt.info
 
 
 func _on_port_clicked(port: Dictionary) -> void:
@@ -68,11 +106,9 @@ func _on_ship_arrived(port_id: int) -> void:
 func _open_port_screen(port: Dictionary) -> void:
 	GameState.current_port_id = port.id
 	port_screen_title.text = "%s — %s" % [port.name, port.region]
-	# Load port screen image
 	var port_img_path := "res://assets/ports/" + str(port.get("port_screen", ""))
 	if ResourceLoader.exists(port_img_path):
 		port_screen_image.texture = load(port_img_path)
-	# Governor portrait
 	var gov_id: int = port.get("governor_portrait", 0)
 	var gov_path := "res://assets/portraits/%03d.png" % gov_id
 	if ResourceLoader.exists(gov_path):
@@ -90,7 +126,6 @@ func _populate_trade_list(port: Dictionary) -> void:
 		var price: int = port.goods[good_name]
 		var row := HBoxContainer.new()
 		row.custom_minimum_size = Vector2(0, 40)
-		# Icon
 		var icon_rect := TextureRect.new()
 		icon_rect.custom_minimum_size = Vector2(36, 36)
 		icon_rect.expand_mode = TextureRect.EXPAND_FIT_WIDTH_PROPORTIONAL
@@ -100,26 +135,22 @@ func _populate_trade_list(port: Dictionary) -> void:
 		if ResourceLoader.exists(icon_path):
 			icon_rect.texture = load(icon_path)
 		row.add_child(icon_rect)
-		# Name
 		var name_lbl := Label.new()
 		name_lbl.text = good_name
 		name_lbl.custom_minimum_size = Vector2(90, 0)
 		name_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 		row.add_child(name_lbl)
-		# Price
 		var price_lbl := Label.new()
 		price_lbl.text = "%dg" % price
 		price_lbl.custom_minimum_size = Vector2(60, 0)
 		price_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 		row.add_child(price_lbl)
-		# Inventory count
 		var inv_qty: int = GameState.inventory.get(good_name, 0)
 		var inv_lbl := Label.new()
 		inv_lbl.text = "x%d" % inv_qty
 		inv_lbl.custom_minimum_size = Vector2(40, 0)
 		inv_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 		row.add_child(inv_lbl)
-		# Buttons
 		var buy_btn := Button.new()
 		buy_btn.text = "Buy"
 		buy_btn.pressed.connect(_on_buy.bind(good_name, price))
@@ -149,6 +180,10 @@ func _on_sell(good: String, price: int) -> void:
 
 func _on_gold_changed(new_gold: int) -> void:
 	gold_label.text = "Gold: %d" % new_gold
+
+
+func _on_ship_changed() -> void:
+	dura_label.text = "Hull: %d/%d" % [GameState.ship_durability, GameState.ship_max_durability]
 
 
 func _on_close_pressed() -> void:
