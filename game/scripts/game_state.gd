@@ -19,6 +19,9 @@ var ship_max_guns: int = 10
 signal gold_changed(new_gold: int)
 signal inventory_changed()
 signal ship_changed()
+signal loaded()
+
+const SAVE_PATH := "user://save.json"
 
 
 func _ready() -> void:
@@ -124,6 +127,66 @@ func buy_ship(ship_id: int) -> bool:
 	gold_changed.emit(gold)
 	ship_changed.emit()
 	return true
+
+
+func save_game() -> bool:
+	var data := {
+		"gold": gold,
+		"inventory": inventory,
+		"current_port_id": current_port_id,
+		"ship_sprite_id": ship_sprite_id,
+		"ship_type_id": ship_type_id,
+		"ship_durability": ship_durability,
+		"ship_max_durability": ship_max_durability,
+		"ship_capacity": ship_capacity,
+		"ship_max_guns": ship_max_guns,
+		"timestamp": Time.get_datetime_string_from_system(),
+	}
+	var file := FileAccess.open(SAVE_PATH, FileAccess.WRITE)
+	if file == null:
+		push_error("Cannot open save file for writing")
+		return false
+	file.store_string(JSON.stringify(data, "  "))
+	file.close()
+	print("Saved game to ", SAVE_PATH)
+	return true
+
+
+func load_game() -> bool:
+	if not FileAccess.file_exists(SAVE_PATH):
+		return false
+	var file := FileAccess.open(SAVE_PATH, FileAccess.READ)
+	if file == null:
+		return false
+	var text := file.get_as_text()
+	file.close()
+	var parsed: Variant = JSON.parse_string(text)
+	if parsed == null or typeof(parsed) != TYPE_DICTIONARY:
+		return false
+	gold = int(parsed.get("gold", 1000))
+	inventory = parsed.get("inventory", {}).duplicate()
+	current_port_id = int(parsed.get("current_port_id", 0))
+	ship_sprite_id = int(parsed.get("ship_sprite_id", 0))
+	ship_type_id = int(parsed.get("ship_type_id", 1))
+	ship_durability = int(parsed.get("ship_durability", 30))
+	ship_max_durability = int(parsed.get("ship_max_durability", 30))
+	ship_capacity = int(parsed.get("ship_capacity", 50))
+	ship_max_guns = int(parsed.get("ship_max_guns", 10))
+	gold_changed.emit(gold)
+	inventory_changed.emit()
+	ship_changed.emit()
+	loaded.emit()
+	print("Loaded save from ", SAVE_PATH)
+	return true
+
+
+func has_save() -> bool:
+	return FileAccess.file_exists(SAVE_PATH)
+
+
+func delete_save() -> void:
+	if FileAccess.file_exists(SAVE_PATH):
+		DirAccess.remove_absolute(ProjectSettings.globalize_path(SAVE_PATH))
 
 
 func pick_random_event() -> Dictionary:

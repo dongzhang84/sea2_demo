@@ -38,20 +38,59 @@ func _ready() -> void:
 	combat_panel.combat_ended.connect(_on_combat_ended)
 	_spawn_ports()
 	_spawn_ship()
-	# Initialize player with cheapest ship (ship_id=1 = small caravel)
+	# Initialize starter ship before any potential load
 	var starter := GameState.get_ship(1)
 	if not starter.is_empty():
 		GameState.ship_durability = int(starter.get("durability", 30))
 		GameState.ship_max_durability = GameState.ship_durability
 		GameState.ship_capacity = int(starter.get("capacity_tons", 50))
 		GameState.ship_max_guns = int(starter.get("maximum_guns", 10))
-		GameState.ship_changed.emit()
+	# Try to auto-load save
+	if GameState.has_save() and GameState.load_game():
+		current_port_id = GameState.current_port_id
+		var loaded_port := GameState.get_port(current_port_id)
+		if not loaded_port.is_empty():
+			ship.global_position = Vector2(loaded_port.world_x, loaded_port.world_y)
+			info_label.text = "Save loaded. Docked at %s." % loaded_port.name
+			ship.refresh_from_game_state()
+			_open_port_screen(loaded_port)
+		return
+	# Otherwise fresh start
 	current_port_id = 0
+	GameState.ship_changed.emit()
 	var start_port := GameState.get_port(0)
 	if not start_port.is_empty():
 		ship.global_position = Vector2(start_port.world_x, start_port.world_y)
 		info_label.text = "Docked at %s. Click any port to sail." % start_port.name
 		_open_port_screen(start_port)
+
+
+func _on_save_pressed() -> void:
+	if ship != null and ship.moving:
+		info_label.text = "Can't save while sailing"
+		return
+	if GameState.save_game():
+		info_label.text = "Game saved."
+
+
+func _on_load_pressed() -> void:
+	if not GameState.has_save():
+		info_label.text = "No save found."
+		return
+	if GameState.load_game():
+		current_port_id = GameState.current_port_id
+		var p := GameState.get_port(current_port_id)
+		if not p.is_empty():
+			ship.global_position = Vector2(p.world_x, p.world_y)
+			ship.refresh_from_game_state()
+			ship.moving = false
+			_open_port_screen(p)
+			info_label.text = "Save loaded."
+
+
+func _on_new_pressed() -> void:
+	GameState.delete_save()
+	get_tree().reload_current_scene()
 
 
 func _spawn_ports() -> void:

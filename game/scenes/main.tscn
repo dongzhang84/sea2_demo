@@ -45,6 +45,24 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 4
 theme_override_font_sizes/font_size = 18
 
+[node name="SaveLoadRow" type="HBoxContainer" parent="UI"]
+offset_left = 460.0
+offset_top = 20.0
+offset_right = 760.0
+offset_bottom = 50.0
+
+[node name="SaveBtn" type="Button" parent="UI/SaveLoadRow"]
+text = "Save"
+custom_minimum_size = Vector2(70, 28)
+
+[node name="LoadBtn" type="Button" parent="UI/SaveLoadRow"]
+text = "Load"
+custom_minimum_size = Vector2(70, 28)
+
+[node name="NewGameBtn" type="Button" parent="UI/SaveLoadRow"]
+text = "New"
+custom_minimum_size = Vector2(70, 28)
+
 [node name="InfoLabel" type="Label" parent="UI"]
 offset_left = 20.0
 offset_top = 50.0
@@ -105,3 +123,6 @@ custom_minimum_size = Vector2(480, 300)
 text = "Close"
 
 [connection signal="pressed" from="UI/PortScreenPanel/V/CloseBtn" to="." method="_on_close_pressed"]
+[connection signal="pressed" from="UI/SaveLoadRow/SaveBtn" to="." method="_on_save_pressed"]
+[connection signal="pressed" from="UI/SaveLoadRow/LoadBtn" to="." method="_on_load_pressed"]
+[connection signal="pressed" from="UI/SaveLoadRow/NewGameBtn" to="." method="_on_new_pressed"]
