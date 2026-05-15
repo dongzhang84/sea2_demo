@@ -18,6 +18,11 @@ output/kao_png_v4/
 output/disc_png_v1/
 output/ships/
 
+# Event CG decode output — regeneratable, palette still WIP
+output/eventcg_endgrp/
+output/eventcg_graph/
+output/eventcg_opgraph/
+
 # What IS committed:
 #   output/contact_*.png        各资源总览图（少量，做 README 配图）
 #   output/game_data/*.json     游戏数据源（构建 game/data/ 用）
