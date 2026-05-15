@@ -16,18 +16,18 @@
   ],
   "starting_gold": 1000,
   "goods_icons": {
-    "Grain": 85,
-    "Iron": 109,
-    "Textile": 113,
-    "Spice": 97,
-    "Sugar": 76,
-    "Coffee": 72,
-    "Silk": 120,
-    "Tea": 82,
-    "Porcelain": 102,
+    "Grain": 64,
+    "Iron": 99,
+    "Textile": 97,
+    "Spice": 107,
+    "Sugar": 108,
+    "Coffee": 106,
+    "Silk": 112,
+    "Tea": 121,
+    "Porcelain": 100,
     "Gem": 117,
-    "Coral": 124,
-    "Carpet": 127
+    "Coral": 126,
+    "Carpet": 122
   },
   "ports": [
     {
