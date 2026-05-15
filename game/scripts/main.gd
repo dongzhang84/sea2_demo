@@ -34,6 +34,7 @@ func _pn(port: Dictionary) -> String:
 
 func _ready() -> void:
 	randomize()
+	AudioManager.play("port")
 	GameState.gold_changed.connect(_on_gold_changed)
 	GameState.ship_changed.connect(_on_ship_changed)
 	GameState.date_changed.connect(_on_date_changed)
@@ -178,6 +179,7 @@ func _on_port_clicked(port: Dictionary) -> void:
 		info_label.text = "起航前往 %s (约 %d 天)..." % [_pn(port), pending_sail_days]
 		ship.sail_to(Vector2(port.world_x, port.world_y), port.id)
 		port_screen_panel.visible = false
+		AudioManager.play("sea")
 
 
 func _on_ship_arrived(port_id: int) -> void:
@@ -187,6 +189,13 @@ func _on_ship_arrived(port_id: int) -> void:
 		pending_sail_days = 0
 	var port := GameState.get_port(port_id)
 	info_label.text = "抵达 %s。再点一次进入。" % _pn(port)
+	AudioManager.play("port")
+
+
+func _unhandled_input(event: InputEvent) -> void:
+	if event is InputEventKey and event.pressed and event.keycode == KEY_M:
+		var muted: bool = AudioManager.toggle_mute()
+		info_label.text = "音乐：" + ("静音" if muted else "开")
 
 
 func _open_port_screen(port: Dictionary) -> void:
