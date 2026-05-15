@@ -20,8 +20,8 @@
       "id": 0,
       "name": "Lisbon",
       "region": "Iberia",
-      "world_x": 69,
-      "world_y": 248,
+      "world_x": 43,
+      "world_y": 292,
       "goods": {
         "Grain": 255,
         "Iron": 320,
@@ -42,14 +42,15 @@
         1,
         7,
         13
-      ]
+      ],
+      "authentic_port_id": 42
     },
     {
       "id": 27,
       "name": "London",
       "region": "Northern Europe",
-      "world_x": 77,
-      "world_y": 160,
+      "world_x": 94,
+      "world_y": 176,
       "goods": {
         "Grain": 220,
         "Iron": 250,
@@ -69,14 +70,15 @@
         8,
         24,
         10
-      ]
+      ],
+      "authentic_port_id": 14
     },
     {
       "id": 38,
       "name": "Hamburg",
       "region": "Northern Europe",
-      "world_x": 129,
-      "world_y": 164,
+      "world_x": 126,
+      "world_y": 172,
       "goods": {
         "Grain": 210,
         "Iron": 275,
@@ -95,14 +97,15 @@
         18,
         14,
         9
-      ]
+      ],
+      "authentic_port_id": 16
     },
     {
       "id": 1,
       "name": "Seville",
       "region": "Iberia",
-      "world_x": 68,
-      "world_y": 274,
+      "world_x": 41,
+      "world_y": 329,
       "goods": {
         "Grain": 375,
         "Iron": 135,
@@ -124,14 +127,15 @@
         25,
         2,
         8
-      ]
+      ],
+      "authentic_port_id": 46
     },
     {
       "id": 65,
       "name": "Istanbul",
       "region": "Anatolia",
-      "world_x": 212,
-      "world_y": 212,
+      "world_x": 224,
+      "world_y": 257,
       "goods": {
         "Grain": 210,
         "Iron": 140,
@@ -148,14 +152,15 @@
         6,
         8,
         18
-      ]
+      ],
+      "authentic_port_id": 5
     },
     {
       "id": 78,
       "name": "Alexandria",
       "region": "Egypt",
-      "world_x": 219,
-      "world_y": 280,
+      "world_x": 222,
+      "world_y": 285,
       "goods": {
         "Grain": 300,
         "Iron": 300,
@@ -171,14 +176,15 @@
         19,
         2,
         14
-      ]
+      ],
+      "authentic_port_id": 59
     },
     {
       "id": 50,
       "name": "Calicut",
       "region": "India",
-      "world_x": 436,
-      "world_y": 362,
+      "world_x": 466,
+      "world_y": 404,
       "goods": {
         "Grain": 340,
         "Iron": 305,
@@ -198,14 +204,15 @@
         4,
         8,
         17
-      ]
+      ],
+      "authentic_port_id": 70
     },
     {
       "id": 60,
       "name": "Malacca",
       "region": "SE Asia",
-      "world_x": 533,
-      "world_y": 426,
+      "world_x": 622,
+      "world_y": 457,
       "goods": {
         "Grain": 295,
         "Iron": 210,
@@ -222,14 +229,15 @@
         3,
         8,
         24
-      ]
+      ],
+      "authentic_port_id": 97
     },
     {
       "id": 70,
       "name": "Nagasaki",
       "region": "Japan",
-      "world_x": 615,
-      "world_y": 220,
+      "world_x": 604,
+      "world_y": 222,
       "goods": {
         "Grain": 345,
         "Iron": 240,
@@ -247,14 +255,15 @@
         7,
         4,
         10
-      ]
+      ],
+      "authentic_port_id": 94
     },
     {
       "id": 99,
       "name": "Havana",
       "region": "Caribbean",
-      "world_x": 1026,
-      "world_y": 312,
+      "world_x": 1029,
+      "world_y": 354,
       "goods": {
         "Grain": 255,
         "Iron": 315,
@@ -271,7 +280,8 @@
         19,
         4,
         16
-      ]
+      ],
+      "authentic_port_id": 33
     }
   ],
   "goods_icons": {
