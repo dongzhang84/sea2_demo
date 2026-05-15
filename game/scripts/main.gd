@@ -15,6 +15,7 @@ extends Node2D
 @onready var governor_label: Label = $UI/PortScreenPanel/V/GovernorRow/Label
 @onready var trade_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/贸易/List
 @onready var shipyard_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/船坞/List
+@onready var tavern_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/酒馆/List
 @onready var event_dialog: PanelContainer = $UI/EventDialog
 @onready var combat_panel: PanelContainer = $UI/Combat
 
@@ -201,6 +202,7 @@ func _open_port_screen(port: Dictionary) -> void:
 	governor_label.text = "%s 总督" % _pn(port)
 	_populate_trade_list(port)
 	_populate_shipyard(port)
+	_populate_tavern(port)
 	port_screen_panel.visible = true
 
 
@@ -325,6 +327,79 @@ func _populate_trade_list(port: Dictionary) -> void:
 		sell_btn.pressed.connect(_on_sell.bind(good_name, price))
 		row.add_child(sell_btn)
 		trade_list.add_child(row)
+
+
+const TAVERN_GREETINGS := [
+	"风浪可不饶人，喝一杯再走吧。",
+	"听说最近海上不太平，当心海盗。",
+	"远方来的客人？这儿的酒可烈着呢。",
+	"想发财就去东边的香料群岛闯闯。",
+	"老水手都说，南风起时是出航的好日子。",
+]
+
+
+func _populate_tavern(port: Dictionary) -> void:
+	for child in tavern_list.get_children():
+		child.queue_free()
+	# Barkeep — a Kao portrait keyed to the port so it's stable per visit.
+	var pid: int = int(port.get("id", 0))
+	var npc_id: int = pid % 128
+	var row := HBoxContainer.new()
+	row.custom_minimum_size = Vector2(0, 72)
+	var portrait := TextureRect.new()
+	portrait.custom_minimum_size = Vector2(80, 64)
+	portrait.expand_mode = TextureRect.EXPAND_FIT_WIDTH_PROPORTIONAL
+	portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	var p_path := "res://assets/portraits/%03d.png" % npc_id
+	if ResourceLoader.exists(p_path):
+		portrait.texture = load(p_path)
+	row.add_child(portrait)
+	var greet := Label.new()
+	greet.text = "酒保：" + TAVERN_GREETINGS[pid % TAVERN_GREETINGS.size()]
+	greet.custom_minimum_size = Vector2(300, 0)
+	greet.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	greet.add_theme_font_size_override("font_size", 13)
+	row.add_child(greet)
+	tavern_list.add_child(row)
+	# Intel button
+	var intel_btn := Button.new()
+	intel_btn.text = "打听商情（消耗 1 天）"
+	intel_btn.pressed.connect(_on_tavern_intel.bind(port))
+	tavern_list.add_child(intel_btn)
+	var intel_lbl := Label.new()
+	intel_lbl.name = "IntelLabel"
+	intel_lbl.text = "——"
+	intel_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	intel_lbl.custom_minimum_size = Vector2(440, 0)
+	intel_lbl.add_theme_font_size_override("font_size", 13)
+	tavern_list.add_child(intel_lbl)
+
+
+func _on_tavern_intel(port: Dictionary) -> void:
+	# Pick a random good sold here, find where it fetches the best price.
+	var goods: Array = port.get("goods", {}).keys()
+	if goods.is_empty():
+		return
+	var good: String = goods[randi() % goods.size()]
+	var best_port: Dictionary = {}
+	var best_price: int = 0
+	for p in GameState.ports_data.get("ports", []):
+		var g: Dictionary = p.get("goods", {})
+		if not g.has(good):
+			continue
+		var price: int = int(g[good])
+		if price > best_price:
+			best_price = price
+			best_port = p
+	GameState.advance_days(1)
+	var intel_lbl: Label = tavern_list.get_node_or_null("IntelLabel")
+	if intel_lbl == null:
+		return
+	if best_port.is_empty():
+		intel_lbl.text = "酒保摇摇头，没打听到什么。"
+	else:
+		intel_lbl.text = "酒保压低声音：听说 %s 那边，%s 能卖到 %d 金币。" % [
+			_pn(best_port), good, best_price]
 
 
 func _on_buy(good: String, price: int) -> void:
