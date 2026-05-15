@@ -1,5 +1,5 @@
 {
-  "note": "Ports projected from strategy-guide lat/lon (calibrated projection) + coastal snap.",
+  "note": "projected + coastal snap + manual overrides",
   "goods_catalog": [
     "Grain",
     "Iron",
@@ -869,8 +869,8 @@
       "region": "北非",
       "lat": 36,
       "lon": -5,
-      "world_x": 81,
-      "world_y": 252,
+      "world_x": 88,
+      "world_y": 260,
       "goods": {
         "Grain": 79,
         "Iron": 431,

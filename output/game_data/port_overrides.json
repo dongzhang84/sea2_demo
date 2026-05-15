@@ -1,0 +1,6 @@
+{
+  "note": "Manual worldmap-coordinate overrides for ports the auto-projection placed wrong. Format: port_name -> [worldmap_x, worldmap_y].",
+  "overrides": {
+    "休达": [150, 390]
+  }
+}

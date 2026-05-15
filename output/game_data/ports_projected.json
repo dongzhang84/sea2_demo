@@ -1,5 +1,5 @@
 {
-  "projection": "x=(6.47*lon+169)%2160, y=-7.3*lat+643, +coastal snap",
+  "projection": "calibrated + coastal snap + manual overrides",
   "ports": [
     {
       "num": 1,
@@ -293,8 +293,8 @@
       "region": "北非",
       "lat": 36,
       "lon": -5,
-      "wx": 138,
-      "wy": 378,
+      "wx": 150,
+      "wy": 390,
       "proj_x": 136,
       "proj_y": 380
     },
