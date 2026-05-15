@@ -12,8 +12,8 @@ extends Node2D
 @onready var port_screen_image: TextureRect = $UI/PortScreenPanel/V/Image
 @onready var governor_portrait: TextureRect = $UI/PortScreenPanel/V/GovernorRow/Portrait
 @onready var governor_label: Label = $UI/PortScreenPanel/V/GovernorRow/Label
-@onready var trade_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/Trade/List
-@onready var shipyard_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/Shipyard/List
+@onready var trade_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/贸易/List
+@onready var shipyard_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/船坞/List
 @onready var event_dialog: PanelContainer = $UI/EventDialog
 @onready var combat_panel: PanelContainer = $UI/Combat
 
@@ -23,6 +23,10 @@ var current_port_id: int = -1
 const EVENT_CHANCE_PER_SEC := 0.04
 const MIN_TIME_BETWEEN_EVENTS := 5.0
 var time_since_event: float = MIN_TIME_BETWEEN_EVENTS
+
+
+func _pn(port: Dictionary) -> String:
+	return port.get("cn_name", port.get("name", "?"))
 
 
 func _ready() -> void:
@@ -51,7 +55,7 @@ func _ready() -> void:
 		var loaded_port := GameState.get_port(current_port_id)
 		if not loaded_port.is_empty():
 			ship.global_position = Vector2(loaded_port.world_x, loaded_port.world_y)
-			info_label.text = "Save loaded. Docked at %s." % loaded_port.name
+			info_label.text = "读取存档。停靠在 %s。" % _pn(loaded_port)
 			ship.refresh_from_game_state()
 			_open_port_screen(loaded_port)
 		return
@@ -61,21 +65,21 @@ func _ready() -> void:
 	var start_port := GameState.get_port(0)
 	if not start_port.is_empty():
 		ship.global_position = Vector2(start_port.world_x, start_port.world_y)
-		info_label.text = "Docked at %s. Click any port to sail." % start_port.name
+		info_label.text = "停靠在 %s。点击港口起航。" % _pn(start_port)
 		_open_port_screen(start_port)
 
 
 func _on_save_pressed() -> void:
 	if ship != null and ship.moving:
-		info_label.text = "Can't save while sailing"
+		info_label.text = "航行中无法存档"
 		return
 	if GameState.save_game():
-		info_label.text = "Game saved."
+		info_label.text = "游戏已保存。"
 
 
 func _on_load_pressed() -> void:
 	if not GameState.has_save():
-		info_label.text = "No save found."
+		info_label.text = "没有存档。"
 		return
 	if GameState.load_game():
 		current_port_id = GameState.current_port_id
@@ -85,7 +89,7 @@ func _on_load_pressed() -> void:
 			ship.refresh_from_game_state()
 			ship.moving = false
 			_open_port_screen(p)
-			info_label.text = "Save loaded."
+			info_label.text = "存档已读取。"
 
 
 func _on_new_pressed() -> void:
@@ -127,7 +131,7 @@ func _trigger_random_event() -> void:
 		return
 	time_since_event = 0.0
 	event_dialog.show_event(event)
-	info_label.text = "Event: %s" % event.get("title", "...")
+	info_label.text = "事件: %s" % event.get("title", "...")
 
 
 func _on_event_option_chosen(opt: Dictionary) -> void:
@@ -136,7 +140,7 @@ func _on_event_option_chosen(opt: Dictionary) -> void:
 		info_label.text = opt.info
 	# If option label mentions "Fight" — launch combat
 	if str(opt.get("label", "")).to_lower().contains("fight"):
-		combat_panel.start_combat("Pirate", 1)
+		combat_panel.start_combat("海盗", 1)
 
 
 func _on_combat_ended(outcome: String, rewards: Dictionary) -> void:
@@ -146,25 +150,25 @@ func _on_combat_ended(outcome: String, rewards: Dictionary) -> void:
 		if rewards.has("damage"):
 			GameState.ship_durability = max(0, GameState.ship_durability - int(rewards.damage))
 			GameState.ship_changed.emit()
-		info_label.text = "Victory! +%d gold" % rewards.get("gold", 0)
+		info_label.text = "胜利! +%d 金币" % rewards.get("gold", 0)
 	elif outcome == "defeat":
 		GameState.gold = max(0, GameState.gold - int(rewards.get("gold_loss", 0)))
 		GameState.gold_changed.emit(GameState.gold)
 		GameState.ship_durability = max(1, GameState.ship_durability / 2)
 		GameState.ship_changed.emit()
-		info_label.text = "Defeat! -%d gold, hull damaged" % rewards.get("gold_loss", 0)
+		info_label.text = "战败! -%d 金币,船体受损" % rewards.get("gold_loss", 0)
 	else:
-		info_label.text = "You escaped the battle."
+		info_label.text = "你逃离了战斗。"
 
 
 func _on_port_clicked(port: Dictionary) -> void:
 	if ship == null or ship.moving:
-		info_label.text = "Sailing — wait until arrival"
+		info_label.text = "航行中,请等待抵达"
 		return
 	if port.id == current_port_id:
 		_open_port_screen(port)
 	else:
-		info_label.text = "Setting sail to %s..." % port.name
+		info_label.text = "起航前往 %s..." % _pn(port)
 		ship.sail_to(Vector2(port.world_x, port.world_y), port.id)
 		port_screen_panel.visible = false
 
@@ -172,12 +176,12 @@ func _on_port_clicked(port: Dictionary) -> void:
 func _on_ship_arrived(port_id: int) -> void:
 	current_port_id = port_id
 	var port := GameState.get_port(port_id)
-	info_label.text = "Arrived at %s. Click again to enter." % port.name
+	info_label.text = "抵达 %s。再点一次进入。" % _pn(port)
 
 
 func _open_port_screen(port: Dictionary) -> void:
 	GameState.current_port_id = port.id
-	port_screen_title.text = "%s — %s" % [port.name, port.region]
+	port_screen_title.text = "%s · %s" % [_pn(port), port.get("region","")]
 	var port_img_path := "res://assets/ports/" + str(port.get("port_screen", ""))
 	if ResourceLoader.exists(port_img_path):
 		port_screen_image.texture = load(port_img_path)
@@ -185,7 +189,7 @@ func _open_port_screen(port: Dictionary) -> void:
 	var gov_path := "res://assets/portraits/%03d.png" % gov_id
 	if ResourceLoader.exists(gov_path):
 		governor_portrait.texture = load(gov_path)
-	governor_label.text = "Governor of %s" % port.name
+	governor_label.text = "%s 总督" % _pn(port)
 	_populate_trade_list(port)
 	_populate_shipyard(port)
 	port_screen_panel.visible = true
@@ -197,12 +201,12 @@ func _populate_shipyard(port: Dictionary) -> void:
 	var offered: Array = port.get("shipyard", [])
 	if offered.is_empty():
 		var lbl := Label.new()
-		lbl.text = "No shipyard here."
+		lbl.text = "此处没有船坞。"
 		shipyard_list.add_child(lbl)
 		return
 	# Header
 	var header := Label.new()
-	header.text = "Current ship: #%d (Hull %d/%d, Capacity %d, Guns %d)" % [
+	header.text = "当前船: %d 号 (船体 %d/%d, 容量 %d, 火炮 %d)" % [
 		GameState.ship_type_id, GameState.ship_durability,
 		GameState.ship_max_durability, GameState.ship_capacity, GameState.ship_max_guns]
 	header.add_theme_font_size_override("font_size", 13)
@@ -227,11 +231,11 @@ func _populate_shipyard(port: Dictionary) -> void:
 		var stats := VBoxContainer.new()
 		stats.custom_minimum_size = Vector2(260, 0)
 		var name_lbl := Label.new()
-		name_lbl.text = "Ship #%02d (sail %d)" % [ship_id, int(ship.get("sail_type", 0))]
+		name_lbl.text = "%d 号船 (帆型 %d)" % [ship_id, int(ship.get("sail_type", 0))]
 		name_lbl.add_theme_font_size_override("font_size", 14)
 		stats.add_child(name_lbl)
 		var detail_lbl := Label.new()
-		detail_lbl.text = "Cap %d  ·  Guns %d  ·  Dura %d  ·  Power %d" % [
+		detail_lbl.text = "容量 %d · 火炮 %d · 耐久 %d · 速度 %d" % [
 			int(ship.get("capacity_tons", 0)), int(ship.get("maximum_guns", 0)),
 			int(ship.get("durability", 0)), int(ship.get("power", 0))]
 		detail_lbl.add_theme_font_size_override("font_size", 12)
@@ -250,7 +254,7 @@ func _populate_shipyard(port: Dictionary) -> void:
 		row.add_child(price_lbl)
 		# Buy button
 		var buy_btn := Button.new()
-		buy_btn.text = "Buy"
+		buy_btn.text = "买"
 		buy_btn.pressed.connect(_on_buy_ship.bind(int(ship_id)))
 		row.add_child(buy_btn)
 		shipyard_list.add_child(row)
@@ -261,12 +265,12 @@ func _on_buy_ship(ship_id: int) -> void:
 		# Refresh ship sprite + repopulate
 		if ship != null and ship.has_method("refresh_from_game_state"):
 			ship.refresh_from_game_state()
-		info_label.text = "Acquired Ship #%d." % ship_id
+		info_label.text = "已购入 %d 号船。" % ship_id
 		var port := GameState.get_port(current_port_id)
 		if not port.is_empty():
 			_populate_shipyard(port)
 	else:
-		info_label.text = "Not enough gold for that ship."
+		info_label.text = "金币不足以购买此船。"
 
 
 func _populate_trade_list(port: Dictionary) -> void:
@@ -303,11 +307,11 @@ func _populate_trade_list(port: Dictionary) -> void:
 		inv_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 		row.add_child(inv_lbl)
 		var buy_btn := Button.new()
-		buy_btn.text = "Buy"
+		buy_btn.text = "买"
 		buy_btn.pressed.connect(_on_buy.bind(good_name, price))
 		row.add_child(buy_btn)
 		var sell_btn := Button.new()
-		sell_btn.text = "Sell"
+		sell_btn.text = "卖"
 		sell_btn.pressed.connect(_on_sell.bind(good_name, price))
 		row.add_child(sell_btn)
 		trade_list.add_child(row)
@@ -318,7 +322,7 @@ func _on_buy(good: String, price: int) -> void:
 		var port := GameState.get_port(current_port_id)
 		_populate_trade_list(port)
 	else:
-		info_label.text = "Not enough gold"
+		info_label.text = "金币不足"
 
 
 func _on_sell(good: String, price: int) -> void:
@@ -326,19 +330,19 @@ func _on_sell(good: String, price: int) -> void:
 		var port := GameState.get_port(current_port_id)
 		_populate_trade_list(port)
 	else:
-		info_label.text = "Nothing to sell"
+		info_label.text = "没有货物可卖"
 
 
 func _on_gold_changed(new_gold: int) -> void:
-	gold_label.text = "Gold: %d" % new_gold
+	gold_label.text = "金币: %d" % new_gold
 
 
 func _on_ship_changed() -> void:
-	dura_label.text = "Hull: %d/%d" % [GameState.ship_durability, GameState.ship_max_durability]
+	dura_label.text = "船体: %d/%d" % [GameState.ship_durability, GameState.ship_max_durability]
 
 
 func _on_close_pressed() -> void:
 	port_screen_panel.visible = false
 	var port := GameState.get_port(current_port_id)
 	if not port.is_empty():
-		info_label.text = "Docked at %s. Click any port to sail." % port.name
+		info_label.text = "停靠在 %s。点击港口起航。" % _pn(port)

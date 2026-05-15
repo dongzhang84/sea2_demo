@@ -16,14 +16,14 @@ func _ready() -> void:
 	area.mouse_exited.connect(_on_mouse_exited)
 	# Apply any data set before _ready
 	if not port_data.is_empty():
-		label.text = port_data.get("name", "?")
+		label.text = port_data.get("cn_name", port_data.get("name", "?"))
 
 
 func set_port_data(data: Dictionary) -> void:
 	port_data = data
 	# Only update label if node is ready (otherwise _ready() will apply it)
 	if is_node_ready():
-		label.text = data.get("name", "?")
+		label.text = data.get("cn_name", data.get("name", "?"))
 
 
 func _on_input_event(_viewport: Node, event: InputEvent, _shape_idx: int) -> void:
