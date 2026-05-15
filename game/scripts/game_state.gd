@@ -13,6 +13,8 @@ var ship_sprite_id: int = 0       # which sprite from assets/ships/ (0-31)
 var ship_type_id: int = 1          # which ship type from ships.json (1-25)
 var ship_durability: int = 100     # 0-100 hull condition
 var ship_max_durability: int = 100
+var ship_capacity: int = 50        # cargo capacity in tons
+var ship_max_guns: int = 10
 
 signal gold_changed(new_gold: int)
 signal inventory_changed()
@@ -95,6 +97,33 @@ func get_ship(id: int) -> Dictionary:
 		if s.get("id") == id:
 			return s
 	return {}
+
+
+func buy_ship(ship_id: int) -> bool:
+	"""Buy a new ship, swapping the current one. Trade-in worth 30% of new price."""
+	var ship := get_ship(ship_id)
+	if ship.is_empty():
+		return false
+	var price: int = int(ship.get("base_price", 0))
+	if price == 0:
+		return false
+	# Trade-in value of current ship (30% of its price)
+	var current := get_ship(ship_type_id)
+	var trade_in: int = int(current.get("base_price", 0) * 0.3) if not current.is_empty() else 0
+	var net_cost: int = max(0, price - trade_in)
+	if gold < net_cost:
+		return false
+	gold -= net_cost
+	ship_type_id = ship_id
+	ship_durability = int(ship.get("durability", 100))
+	ship_max_durability = ship_durability
+	ship_capacity = int(ship.get("capacity_tons", 50))
+	ship_max_guns = int(ship.get("maximum_guns", 10))
+	# Sprite mapping: 25 ships → 16 sprite pairs (each pair = 2 frames)
+	ship_sprite_id = ((ship_id - 1) % 16) * 2
+	gold_changed.emit(gold)
+	ship_changed.emit()
+	return true
 
 
 func pick_random_event() -> Dictionary:

@@ -12,7 +12,8 @@ extends Node2D
 @onready var port_screen_image: TextureRect = $UI/PortScreenPanel/V/Image
 @onready var governor_portrait: TextureRect = $UI/PortScreenPanel/V/GovernorRow/Portrait
 @onready var governor_label: Label = $UI/PortScreenPanel/V/GovernorRow/Label
-@onready var trade_list: VBoxContainer = $UI/PortScreenPanel/V/Scroll/List
+@onready var trade_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/Trade/List
+@onready var shipyard_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/Shipyard/List
 @onready var event_dialog: PanelContainer = $UI/EventDialog
 @onready var combat_panel: PanelContainer = $UI/Combat
 
@@ -37,6 +38,14 @@ func _ready() -> void:
 	combat_panel.combat_ended.connect(_on_combat_ended)
 	_spawn_ports()
 	_spawn_ship()
+	# Initialize player with cheapest ship (ship_id=1 = small caravel)
+	var starter := GameState.get_ship(1)
+	if not starter.is_empty():
+		GameState.ship_durability = int(starter.get("durability", 30))
+		GameState.ship_max_durability = GameState.ship_durability
+		GameState.ship_capacity = int(starter.get("capacity_tons", 50))
+		GameState.ship_max_guns = int(starter.get("maximum_guns", 10))
+		GameState.ship_changed.emit()
 	current_port_id = 0
 	var start_port := GameState.get_port(0)
 	if not start_port.is_empty():
@@ -139,7 +148,86 @@ func _open_port_screen(port: Dictionary) -> void:
 		governor_portrait.texture = load(gov_path)
 	governor_label.text = "Governor of %s" % port.name
 	_populate_trade_list(port)
+	_populate_shipyard(port)
 	port_screen_panel.visible = true
+
+
+func _populate_shipyard(port: Dictionary) -> void:
+	for child in shipyard_list.get_children():
+		child.queue_free()
+	var offered: Array = port.get("shipyard", [])
+	if offered.is_empty():
+		var lbl := Label.new()
+		lbl.text = "No shipyard here."
+		shipyard_list.add_child(lbl)
+		return
+	# Header
+	var header := Label.new()
+	header.text = "Current ship: #%d (Hull %d/%d, Capacity %d, Guns %d)" % [
+		GameState.ship_type_id, GameState.ship_durability,
+		GameState.ship_max_durability, GameState.ship_capacity, GameState.ship_max_guns]
+	header.add_theme_font_size_override("font_size", 13)
+	shipyard_list.add_child(header)
+	for ship_id in offered:
+		var ship := GameState.get_ship(int(ship_id))
+		if ship.is_empty():
+			continue
+		var row := HBoxContainer.new()
+		row.custom_minimum_size = Vector2(0, 56)
+		# Ship sprite
+		var sprite_idx: int = ((int(ship_id) - 1) % 16) * 2
+		var icon_rect := TextureRect.new()
+		icon_rect.custom_minimum_size = Vector2(48, 48)
+		icon_rect.expand_mode = TextureRect.EXPAND_FIT_WIDTH_PROPORTIONAL
+		icon_rect.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		var path := "res://assets/ships/ship_%02d.png" % sprite_idx
+		if ResourceLoader.exists(path):
+			icon_rect.texture = load(path)
+		row.add_child(icon_rect)
+		# Stats column
+		var stats := VBoxContainer.new()
+		stats.custom_minimum_size = Vector2(260, 0)
+		var name_lbl := Label.new()
+		name_lbl.text = "Ship #%02d (sail %d)" % [ship_id, int(ship.get("sail_type", 0))]
+		name_lbl.add_theme_font_size_override("font_size", 14)
+		stats.add_child(name_lbl)
+		var detail_lbl := Label.new()
+		detail_lbl.text = "Cap %d  ·  Guns %d  ·  Dura %d  ·  Power %d" % [
+			int(ship.get("capacity_tons", 0)), int(ship.get("maximum_guns", 0)),
+			int(ship.get("durability", 0)), int(ship.get("power", 0))]
+		detail_lbl.add_theme_font_size_override("font_size", 12)
+		stats.add_child(detail_lbl)
+		row.add_child(stats)
+		# Price
+		var trade_in: int = 0
+		var cur := GameState.get_ship(GameState.ship_type_id)
+		if not cur.is_empty():
+			trade_in = int(cur.get("base_price", 0) * 0.3)
+		var net: int = max(0, int(ship.get("base_price", 0)) - trade_in)
+		var price_lbl := Label.new()
+		price_lbl.text = "%dg" % net
+		price_lbl.custom_minimum_size = Vector2(80, 0)
+		price_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+		row.add_child(price_lbl)
+		# Buy button
+		var buy_btn := Button.new()
+		buy_btn.text = "Buy"
+		buy_btn.pressed.connect(_on_buy_ship.bind(int(ship_id)))
+		row.add_child(buy_btn)
+		shipyard_list.add_child(row)
+
+
+func _on_buy_ship(ship_id: int) -> void:
+	if GameState.buy_ship(ship_id):
+		# Refresh ship sprite + repopulate
+		if ship != null and ship.has_method("refresh_from_game_state"):
+			ship.refresh_from_game_state()
+		info_label.text = "Acquired Ship #%d." % ship_id
+		var port := GameState.get_port(current_port_id)
+		if not port.is_empty():
+			_populate_shipyard(port)
+	else:
+		info_label.text = "Not enough gold for that ship."
 
 
 func _populate_trade_list(port: Dictionary) -> void:

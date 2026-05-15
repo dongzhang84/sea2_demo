@@ -27,6 +27,12 @@ func set_ship_sprite(sprite_idx: int) -> void:
 		sprite.texture = load(path)
 
 
+func refresh_from_game_state() -> void:
+	"""Re-sync sprite from GameState (after ship purchase)."""
+	anim_frame = 0
+	set_ship_sprite(GameState.ship_sprite_id)
+
+
 func get_current_speed() -> float:
 	"""Speed is modulated by wind alignment. Tailwind 1.5x, headwind 0.5x, no wind 1.0x."""
 	if wind_overlay == null or not moving:
@@ -79,12 +85,12 @@ func _process(delta: float) -> void:
 		sprite.flip_h = true
 	else:
 		sprite.flip_h = false
-	# Sail animation: alternate between ship_00.png and ship_01.png
+	# Sail animation: alternate between sprite_id and sprite_id+1 (two frames per ship type)
 	anim_timer += delta
 	if anim_timer >= ANIM_PERIOD:
 		anim_timer = 0.0
 		anim_frame = 1 - anim_frame
-		set_ship_sprite(anim_frame)
+		set_ship_sprite(GameState.ship_sprite_id + anim_frame)
 	# Trail
 	if trail.get_point_count() == 0 or global_position.distance_to(trail.get_point_position(trail.get_point_count() - 1)) > 8.0:
 		trail.add_point(global_position)

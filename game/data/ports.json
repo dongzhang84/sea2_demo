@@ -36,7 +36,13 @@
         "Coral": 110
       },
       "governor_portrait": 0,
-      "port_screen": "port_000.png"
+      "port_screen": "port_000.png",
+      "shipyard": [
+        2,
+        1,
+        7,
+        13
+      ]
     },
     {
       "id": 27,
@@ -57,7 +63,13 @@
         "Coral": 65
       },
       "governor_portrait": 10,
-      "port_screen": "port_027.png"
+      "port_screen": "port_027.png",
+      "shipyard": [
+        5,
+        8,
+        24,
+        10
+      ]
     },
     {
       "id": 38,
@@ -77,7 +89,13 @@
         "Coral": 105
       },
       "governor_portrait": 15,
-      "port_screen": "port_038.png"
+      "port_screen": "port_038.png",
+      "shipyard": [
+        2,
+        18,
+        14,
+        9
+      ]
     },
     {
       "id": 1,
@@ -100,7 +118,13 @@
         "Carpet": 445
       },
       "governor_portrait": 5,
-      "port_screen": "port_001.png"
+      "port_screen": "port_001.png",
+      "shipyard": [
+        1,
+        25,
+        2,
+        8
+      ]
     },
     {
       "id": 65,
@@ -118,7 +142,13 @@
         "Carpet": 365
       },
       "governor_portrait": 25,
-      "port_screen": "port_065.png"
+      "port_screen": "port_065.png",
+      "shipyard": [
+        1,
+        6,
+        8,
+        18
+      ]
     },
     {
       "id": 78,
@@ -136,7 +166,12 @@
         "Coral": 180
       },
       "governor_portrait": 30,
-      "port_screen": "port_078.png"
+      "port_screen": "port_078.png",
+      "shipyard": [
+        19,
+        2,
+        14
+      ]
     },
     {
       "id": 50,
@@ -157,7 +192,13 @@
         "Carpet": 320
       },
       "governor_portrait": 50,
-      "port_screen": "port_050.png"
+      "port_screen": "port_050.png",
+      "shipyard": [
+        6,
+        4,
+        8,
+        17
+      ]
     },
     {
       "id": 60,
@@ -175,7 +216,13 @@
         "Carpet": 300
       },
       "governor_portrait": 55,
-      "port_screen": "port_060.png"
+      "port_screen": "port_060.png",
+      "shipyard": [
+        7,
+        3,
+        8,
+        24
+      ]
     },
     {
       "id": 70,
@@ -195,7 +242,12 @@
         "Coral": 230
       },
       "governor_portrait": 60,
-      "port_screen": "port_070.png"
+      "port_screen": "port_070.png",
+      "shipyard": [
+        7,
+        4,
+        10
+      ]
     },
     {
       "id": 99,
@@ -214,7 +266,12 @@
         "Gem": 325
       },
       "governor_portrait": 70,
-      "port_screen": "port_099.png"
+      "port_screen": "port_099.png",
+      "shipyard": [
+        19,
+        4,
+        16
+      ]
     }
   ],
   "goods_icons": {

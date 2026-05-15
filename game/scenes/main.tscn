@@ -90,10 +90,16 @@ stretch_mode = 5
 text = "Governor"
 theme_override_font_sizes/font_size = 14
 
-[node name="Scroll" type="ScrollContainer" parent="UI/PortScreenPanel/V"]
-custom_minimum_size = Vector2(480, 280)
+[node name="Tabs" type="TabContainer" parent="UI/PortScreenPanel/V"]
+custom_minimum_size = Vector2(480, 300)
 
-[node name="List" type="VBoxContainer" parent="UI/PortScreenPanel/V/Scroll"]
+[node name="Trade" type="ScrollContainer" parent="UI/PortScreenPanel/V/Tabs"]
+
+[node name="List" type="VBoxContainer" parent="UI/PortScreenPanel/V/Tabs/Trade"]
+
+[node name="Shipyard" type="ScrollContainer" parent="UI/PortScreenPanel/V/Tabs"]
+
+[node name="List" type="VBoxContainer" parent="UI/PortScreenPanel/V/Tabs/Shipyard"]
 
 [node name="CloseBtn" type="Button" parent="UI/PortScreenPanel/V"]
 text = "Close"
