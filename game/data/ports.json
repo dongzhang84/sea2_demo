@@ -19,9 +19,9 @@
     {
       "id": 0,
       "name": "Lisbon",
-      "region": "Iberia",
-      "world_x": 43,
-      "world_y": 292,
+      "region": "伊比利",
+      "world_x": 71,
+      "world_y": 228,
       "goods": {
         "Grain": 255,
         "Iron": 320,
@@ -43,14 +43,17 @@
         7,
         13
       ],
-      "authentic_port_id": 42
+      "authentic_port_id": 42,
+      "cn_name": "里斯本",
+      "lat": 39,
+      "lon": -10
     },
     {
       "id": 27,
       "name": "London",
-      "region": "Northern Europe",
-      "world_x": 94,
-      "world_y": 176,
+      "region": "北欧",
+      "world_x": 106,
+      "world_y": 163,
       "goods": {
         "Grain": 220,
         "Iron": 250,
@@ -71,14 +74,17 @@
         24,
         10
       ],
-      "authentic_port_id": 14
+      "authentic_port_id": 14,
+      "cn_name": "伦敦",
+      "lat": 52,
+      "lon": 0
     },
     {
       "id": 38,
       "name": "Hamburg",
-      "region": "Northern Europe",
-      "world_x": 126,
-      "world_y": 172,
+      "region": "北欧",
+      "world_x": 138,
+      "world_y": 148,
       "goods": {
         "Grain": 210,
         "Iron": 275,
@@ -98,14 +104,17 @@
         14,
         9
       ],
-      "authentic_port_id": 16
+      "authentic_port_id": 16,
+      "cn_name": "汉堡",
+      "lat": 55,
+      "lon": 9
     },
     {
       "id": 1,
       "name": "Seville",
-      "region": "Iberia",
-      "world_x": 41,
-      "world_y": 329,
+      "region": "伊比利",
+      "world_x": 85,
+      "world_y": 238,
       "goods": {
         "Grain": 375,
         "Iron": 135,
@@ -128,14 +137,17 @@
         2,
         8
       ],
-      "authentic_port_id": 46
+      "authentic_port_id": 46,
+      "cn_name": "塞维尔",
+      "lat": 37,
+      "lon": -6
     },
     {
       "id": 65,
       "name": "Istanbul",
-      "region": "Anatolia",
-      "world_x": 224,
-      "world_y": 257,
+      "region": "伊斯兰",
+      "world_x": 206,
+      "world_y": 218,
       "goods": {
         "Grain": 210,
         "Iron": 140,
@@ -153,14 +165,17 @@
         8,
         18
       ],
-      "authentic_port_id": 5
+      "authentic_port_id": 5,
+      "cn_name": "伊斯坦堡",
+      "lat": 41,
+      "lon": 28
     },
     {
       "id": 78,
       "name": "Alexandria",
-      "region": "Egypt",
-      "world_x": 222,
-      "world_y": 285,
+      "region": "伊斯兰",
+      "world_x": 209,
+      "world_y": 268,
       "goods": {
         "Grain": 300,
         "Iron": 300,
@@ -177,14 +192,17 @@
         2,
         14
       ],
-      "authentic_port_id": 59
+      "authentic_port_id": 59,
+      "cn_name": "亚力山卓",
+      "lat": 31,
+      "lon": 29
     },
     {
       "id": 50,
       "name": "Calicut",
-      "region": "India",
-      "world_x": 466,
-      "world_y": 404,
+      "region": "印度",
+      "world_x": 369,
+      "world_y": 362,
       "goods": {
         "Grain": 340,
         "Iron": 305,
@@ -205,14 +223,17 @@
         8,
         17
       ],
-      "authentic_port_id": 70
+      "authentic_port_id": 70,
+      "cn_name": "科泽科德",
+      "lat": 12,
+      "lon": 74
     },
     {
       "id": 60,
       "name": "Malacca",
-      "region": "SE Asia",
-      "world_x": 622,
-      "world_y": 457,
+      "region": "东南亚",
+      "world_x": 466,
+      "world_y": 402,
       "goods": {
         "Grain": 295,
         "Iron": 210,
@@ -230,14 +251,17 @@
         8,
         24
       ],
-      "authentic_port_id": 97
+      "authentic_port_id": 97,
+      "cn_name": "麻六甲",
+      "lat": 4,
+      "lon": 101
     },
     {
       "id": 70,
       "name": "Nagasaki",
-      "region": "Japan",
-      "world_x": 604,
-      "world_y": 222,
+      "region": "东亚",
+      "world_x": 565,
+      "world_y": 258,
       "goods": {
         "Grain": 345,
         "Iron": 240,
@@ -256,14 +280,17 @@
         4,
         10
       ],
-      "authentic_port_id": 94
+      "authentic_port_id": 94,
+      "cn_name": "长崎",
+      "lat": 33,
+      "lon": 129
     },
     {
       "id": 99,
       "name": "Havana",
-      "region": "Caribbean",
-      "world_x": 1029,
-      "world_y": 354,
+      "region": "亚美利加",
+      "world_x": 1078,
+      "world_y": 327,
       "goods": {
         "Grain": 255,
         "Iron": 315,
@@ -281,7 +308,10 @@
         4,
         16
       ],
-      "authentic_port_id": 33
+      "authentic_port_id": 33,
+      "cn_name": "哈瓦那",
+      "lat": 19,
+      "lon": -87
     }
   ],
   "goods_icons": {
