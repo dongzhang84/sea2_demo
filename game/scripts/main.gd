@@ -188,8 +188,10 @@ func _on_ship_arrived(port_id: int) -> void:
 		GameState.advance_days(pending_sail_days)
 		pending_sail_days = 0
 	var port := GameState.get_port(port_id)
-	info_label.text = "抵达 %s。再点一次进入。" % _pn(port)
+	info_label.text = "抵达 %s。" % _pn(port)
 	AudioManager.play("port")
+	if not port.is_empty():
+		_open_port_screen(port)
 
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -327,14 +329,18 @@ func _populate_trade_list(port: Dictionary) -> void:
 		inv_lbl.custom_minimum_size = Vector2(40, 0)
 		inv_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 		row.add_child(inv_lbl)
-		var buy_btn := Button.new()
-		buy_btn.text = "买"
-		buy_btn.pressed.connect(_on_buy.bind(good_name, price))
-		row.add_child(buy_btn)
-		var sell_btn := Button.new()
-		sell_btn.text = "卖"
-		sell_btn.pressed.connect(_on_sell.bind(good_name, price))
-		row.add_child(sell_btn)
+		for qty in [1, 10]:
+			var b := Button.new()
+			b.text = "买" if qty == 1 else "买%d" % qty
+			b.custom_minimum_size = Vector2(38, 0)
+			b.pressed.connect(_on_buy.bind(good_name, price, qty))
+			row.add_child(b)
+		for qty in [1, 10]:
+			var s := Button.new()
+			s.text = "卖" if qty == 1 else "卖%d" % qty
+			s.custom_minimum_size = Vector2(38, 0)
+			s.pressed.connect(_on_sell.bind(good_name, price, qty))
+			row.add_child(s)
 		trade_list.add_child(row)
 
 
@@ -411,18 +417,24 @@ func _on_tavern_intel(port: Dictionary) -> void:
 			_pn(best_port), good, best_price]
 
 
-func _on_buy(good: String, price: int) -> void:
-	if GameState.buy(good, 1, price):
-		var port := GameState.get_port(current_port_id)
-		_populate_trade_list(port)
+func _on_buy(good: String, price: int, qty: int = 1) -> void:
+	var bought := 0
+	while bought < qty and GameState.buy(good, 1, price):
+		bought += 1
+	if bought > 0:
+		info_label.text = "买入 %s ×%d" % [good, bought]
+		_populate_trade_list(GameState.get_port(current_port_id))
 	else:
 		info_label.text = "金币不足"
 
 
-func _on_sell(good: String, price: int) -> void:
-	if GameState.sell(good, 1, price):
-		var port := GameState.get_port(current_port_id)
-		_populate_trade_list(port)
+func _on_sell(good: String, price: int, qty: int = 1) -> void:
+	var sold := 0
+	while sold < qty and GameState.sell(good, 1, price):
+		sold += 1
+	if sold > 0:
+		info_label.text = "卖出 %s ×%d" % [good, sold]
+		_populate_trade_list(GameState.get_port(current_port_id))
 	else:
 		info_label.text = "没有货物可卖"
 

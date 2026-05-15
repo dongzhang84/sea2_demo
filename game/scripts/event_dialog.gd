@@ -4,6 +4,7 @@ extends PanelContainer
 signal option_chosen(option: Dictionary)
 
 @onready var title_lbl: Label = $V/Title
+@onready var cg_rect: TextureRect = $V/Cg
 @onready var portrait_rect: TextureRect = $V/Row/Portrait
 @onready var description_lbl: Label = $V/Row/Description
 @onready var options_box: VBoxContainer = $V/Options
@@ -12,6 +13,14 @@ signal option_chosen(option: Dictionary)
 func show_event(event: Dictionary) -> void:
 	title_lbl.text = event.get("title", "Event")
 	description_lbl.text = event.get("description", "")
+	# Event CG illustration (from RE'd event art)
+	var cg = event.get("cg")
+	cg_rect.visible = false
+	if cg != null:
+		var cg_path := "res://assets/events/" + str(cg)
+		if ResourceLoader.exists(cg_path):
+			cg_rect.texture = load(cg_path)
+			cg_rect.visible = true
 	# Portrait or icon
 	var port_id = event.get("portrait_id")
 	var icon_id = event.get("icon_id")
