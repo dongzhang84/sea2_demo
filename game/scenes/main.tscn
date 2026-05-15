@@ -105,6 +105,7 @@ visible = false
 visible = false
 
 [node name="PortScreenPanel" type="PanelContainer" parent="UI"]
+visible = false
 offset_left = 770.0
 offset_top = 48.0
 offset_right = 1270.0
