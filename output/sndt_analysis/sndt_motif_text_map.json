@@ -1,0 +1,4302 @@
+{
+  "total_records": 3449,
+  "mapped_to_text": 3449,
+  "unmapped": 0,
+  "mapped_ratio": 1.0,
+  "by_snr": [
+    {
+      "snr": 0,
+      "records": 0,
+      "mapped": 0,
+      "text_count": 192,
+      "ratio": 0
+    },
+    {
+      "snr": 1,
+      "records": 1070,
+      "mapped": 1070,
+      "text_count": 1176,
+      "ratio": 1.0
+    },
+    {
+      "snr": 2,
+      "records": 853,
+      "mapped": 853,
+      "text_count": 917,
+      "ratio": 1.0
+    },
+    {
+      "snr": 3,
+      "records": 456,
+      "mapped": 456,
+      "text_count": 532,
+      "ratio": 1.0
+    },
+    {
+      "snr": 4,
+      "records": 218,
+      "mapped": 218,
+      "text_count": 234,
+      "ratio": 1.0
+    },
+    {
+      "snr": 5,
+      "records": 251,
+      "mapped": 251,
+      "text_count": 326,
+      "ratio": 1.0
+    },
+    {
+      "snr": 6,
+      "records": 601,
+      "mapped": 601,
+      "text_count": 926,
+      "ratio": 1.0
+    }
+  ],
+  "top_scripts": [
+    {
+      "script": "Snr1.chunk0.sub0",
+      "records": 140,
+      "mapped": 140,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr3.chunk2.sub1",
+      "records": 99,
+      "mapped": 99,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "records": 85,
+      "mapped": 85,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "records": 79,
+      "mapped": 79,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk0.sub0",
+      "records": 74,
+      "mapped": 74,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr6.chunk1.sub0",
+      "records": 73,
+      "mapped": 73,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr5.chunk3.sub2",
+      "records": 68,
+      "mapped": 68,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr6.chunk2.sub4",
+      "records": 65,
+      "mapped": 65,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr3.chunk0.sub0",
+      "records": 61,
+      "mapped": 61,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk0.sub1",
+      "records": 58,
+      "mapped": 58,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr3.chunk0.sub2",
+      "records": 55,
+      "mapped": 55,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr6.chunk5.sub2",
+      "records": 55,
+      "mapped": 55,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr3.chunk5.sub1",
+      "records": 52,
+      "mapped": 52,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk6.sub2",
+      "records": 49,
+      "mapped": 49,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk7.sub2",
+      "records": 49,
+      "mapped": 49,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr6.chunk3.sub3",
+      "records": 48,
+      "mapped": 48,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk3.sub3",
+      "records": 45,
+      "mapped": 45,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr6.chunk2.sub1",
+      "records": 45,
+      "mapped": 45,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk5.sub2",
+      "records": 44,
+      "mapped": 44,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk3.sub4",
+      "records": 44,
+      "mapped": 44,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk7.sub7",
+      "records": 44,
+      "mapped": 44,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk5.sub0",
+      "records": 43,
+      "mapped": 43,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr5.chunk0.sub1",
+      "records": 43,
+      "mapped": 43,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk5.sub4",
+      "records": 42,
+      "mapped": 42,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr6.chunk0.sub1",
+      "records": 42,
+      "mapped": 42,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk5.sub6",
+      "records": 41,
+      "mapped": 41,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr6.chunk3.sub2",
+      "records": 40,
+      "mapped": 40,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "records": 37,
+      "mapped": 37,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk5.sub1",
+      "records": 36,
+      "mapped": 36,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr3.chunk4.sub1",
+      "records": 36,
+      "mapped": 36,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr4.chunk0.sub0",
+      "records": 36,
+      "mapped": 36,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr6.chunk5.sub1",
+      "records": 36,
+      "mapped": 36,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk5.sub2",
+      "records": 35,
+      "mapped": 35,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr3.chunk3.sub0",
+      "records": 35,
+      "mapped": 35,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "records": 34,
+      "mapped": 34,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk3.sub1",
+      "records": 34,
+      "mapped": 34,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "records": 33,
+      "mapped": 33,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr1.chunk5.sub3",
+      "records": 33,
+      "mapped": 33,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk6.sub6",
+      "records": 33,
+      "mapped": 33,
+      "ratio": 1.0
+    },
+    {
+      "script": "Snr2.chunk5.sub5",
+      "records": 32,
+      "mapped": 32,
+      "ratio": 1.0
+    }
+  ],
+  "mapped_examples": [
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0008",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 0,
+      "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0024",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 1,
+      "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x002d",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 2,
+      "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0036",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 3,
+      "text": "太太，這是$s家人的呀！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x003f",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 4,
+      "text": "可是，船長，我聽說公爵是跟某個貴族之間有恩怨呀．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0048",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 5,
+      "text": "是啊，聽說跟馬丁內斯侯爵意見不和．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0051",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 6,
+      "text": "問題就在這裡，由於他的原因，公爵無法離開這個國家．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x005a",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 7,
+      "text": "所以，很可能想要一個能替代他的優秀的人才．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0063",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 8,
+      "text": "哎呀，洛克，你雖然長相平凡，但頭腦卻很不錯呀！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x006c",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 9,
+      "text": "當然，因為長期跟隨過公爵嘛．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0075",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 10,
+      "text": "噢，不管怎麼說，我對少爺出海是贊成的．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x007e",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 11,
+      "text": "因為沒有比航海更能鍛練男子漢的．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0087",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 12,
+      "text": "好吧，我就把$n託給你了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0090",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 13,
+      "text": "另外，$n，聽路琪亞小姐說你現在還沒有多少航海的資金，是麼？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0099",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 14,
+      "text": "由於事情很突然，所以沒有準備好金幣，把這個給你吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x00a2",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 15,
+      "text": "這是以前我跟你父親要的銀髮飾．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x00ab",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 16,
+      "text": "把它賣掉當作資金吧，但對你爸要保密．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x00b4",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 17,
+      "text": "$n，一定要多加小心，上帝保佑你．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x00d0",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 18,
+      "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不讓您進家門．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x00e0",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 19,
+      "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不讓您進家門．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x00e9",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 20,
+      "text": "知道了，我只是想跟你告別呀．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x00f2",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 21,
+      "text": "大海像瞬間即改變其表情的怪物一樣危險．$n先生，請您一定要多加小心啊．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0102",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 22,
+      "text": "聽說父親叫我．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x010b",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 23,
+      "text": "〔$s公爵〕\\n噢，是$n啊，你現在劍術練得如何了？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0114",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 24,
+      "text": "還行，當然只是跟以前比較說的，若和父親比試的話，只能五場贏一場吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x011d",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 25,
+      "text": "是嗎，那麼航海術呢，學好啦？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0126",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 26,
+      "text": "大致從理論上學了一些，但沒有實際經驗，只是紙上談兵呀！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x012f",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 27,
+      "text": "是嗎，那麼對地理學呢，擅長嗎？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0138",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 28,
+      "text": "這個事嗎，由於不允許我離開里斯本，只能從書本上學了一些．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0141",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 29,
+      "text": "$n，不要小看書本呀．書是先人的智慧，能把你從困境中救出來．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x014a",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 30,
+      "text": "是．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0153",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 31,
+      "text": "$n，你彈琴怎麼樣？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x015c",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 32,
+      "text": "那是個人的愛好，沒法在人家的面前彈奏．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0165",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 33,
+      "text": "是嗎？聽說你得到許多女孩子們的好感呀！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x016e",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 34,
+      "text": "請不要笑話我．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0177",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 35,
+      "text": "哈哈哈，有機會讓我聽聽吧！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0180",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 36,
+      "text": "$n！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0189",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 37,
+      "text": "是．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0192",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 38,
+      "text": "今天有事告訴你．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x019b",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 39,
+      "text": "是什麼事啊？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x01a4",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 40,
+      "text": "你也知道吧，當我在你那個年齡時，已率領艦隊去討伐海盜了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x01ad",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 41,
+      "text": "是，我明白．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x01b6",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 42,
+      "text": "過去，不允許你從這個港口出航，是因為我擔心你不成熟，容易出事．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x01bf",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 43,
+      "text": "可是$s家族的人，不能老在陸地上待著．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x01c8",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 44,
+      "text": "你已經俱備了一定的知識，下一步是在海上實際鍛鍊．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x01d1",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 45,
+      "text": "這次派你去探險是葡萄牙首相兼海軍大臣萊昂·$s下達的命令．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x01da",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 46,
+      "text": "是．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x01e3",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 47,
+      "text": "去找出叫普萊斯特·約翰的國，也許你覺得這對你過於嚴厲．但是，除非你找到普萊斯特·約翰國，不然不許回家．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x01ec",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 48,
+      "text": "另外，我要發出公告，讓全城的人把你當作平民對待，你要有心理準備．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x01f5",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 49,
+      "text": "你的船已叫造船廠製造，在這期間作好出航前的準備吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0201",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 50,
+      "text": "洛克，洛克在嗎？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x020a",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 51,
+      "text": "〔老水手洛克〕\\n我在這裡．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0213",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 52,
+      "text": "我任命你為$n的教官，希望你把他鍛鍊成好水手．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x021c",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 53,
+      "text": "知道了，船長，啊！不對，公爵閣下．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0225",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 54,
+      "text": "不要因為他是我的兒子而客氣，要充分讓他鍛鍊啊！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0240",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 55,
+      "text": "$n，快回公爵府吧！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x024d",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 56,
+      "text": "〔紅鯨亭女老闆卡蕾珞娃〕\\n哎喲，$n，真少見呀！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0256",
+      "selector": 1,
+      "cc_arg": 98,
+      "c8_arg": 57,
+      "text": "〔歌女路琪亞〕\\n喂，我來唱歌，你彈琴給我伴奏吧！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x025f",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 58,
+      "text": "喂，路琪亞，對公子怎能用這種口氣說話．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0268",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 59,
+      "text": "哈哈哈，是路琪亞要我彈，我怎能不彈呀．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0274",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 60,
+      "text": "想起來了，$n，你家洛克先生正找您呢，聽說公爵叫您去．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x027d",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 61,
+      "text": "是嘛，那我早點回去了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0286",
+      "selector": 1,
+      "cc_arg": 98,
+      "c8_arg": 62,
+      "text": "嘿，要回去了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x02a3",
+      "selector": 1,
+      "cc_arg": 98,
+      "c8_arg": 63,
+      "text": "太太要您晚上10點到12點之間去公爵府．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x02b5",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 64,
+      "text": "$n先生，到底發生什麼事啊？街坊都鬧翻天了！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x02be",
+      "selector": 1,
+      "cc_arg": 98,
+      "c8_arg": 65,
+      "text": "喂，您真要出海啊！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x02c7",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 66,
+      "text": "是啊，這是$s家的啊．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x02d0",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 67,
+      "text": "但不知資金辦得怎麼樣了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x02d9",
+      "selector": 1,
+      "cc_arg": 98,
+      "c8_arg": 68,
+      "text": "我們去當遊吟詩人吧，去唱歌賺錢．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x02e2",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 69,
+      "text": "路琪亞，別說瞎話了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x02eb",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 70,
+      "text": "$n，這裡有金幣1000枚，請您一定用上它．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x02f4",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 71,
+      "text": "哎喲，想不到這生意不太興隆的酒館還有不少錢呢！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x02fd",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 72,
+      "text": "我們的買賣是不太好，真有點對不起您了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0306",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 73,
+      "text": "$n，您收下吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x030f",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 74,
+      "text": "不，這錢我不能收．我沒辦法還您呀．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0318",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 75,
+      "text": "沒關係．說實話，這是$s公爵委託保管的錢，他要求保密．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0321",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 76,
+      "text": "是交給您還是交給$n先生呢？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x032a",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 77,
+      "text": "是父親嗎？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0339",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 78,
+      "text": "但是要作為資金，還得再弄一些．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0342",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 79,
+      "text": "對了，跟太太商量一下好嗎？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x034b",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 80,
+      "text": "那辦不到，我已經不能再進家門了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0354",
+      "selector": 1,
+      "cc_arg": 98,
+      "c8_arg": 81,
+      "text": "沒關係，我去聯繫吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x035d",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 82,
+      "text": "喂，路琪亞！"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0367",
+      "selector": 1,
+      "cc_arg": 98,
+      "c8_arg": 83,
+      "text": "回來了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0370",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 84,
+      "text": "結果怎麼樣？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0379",
+      "selector": 1,
+      "cc_arg": 98,
+      "c8_arg": 85,
+      "text": "她說要您晚上10點到12點之間去公爵府．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0382",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 86,
+      "text": "謝謝你，路琪亞．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x03d2",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 91,
+      "text": "不，家父政務繁忙，我又沒有航海經驗．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x03e7",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 94,
+      "text": "是嗎，主教大人，那我就回家了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0418",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 98,
+      "text": "謝謝，那我就不客氣了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x042c",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 99,
+      "text": "不，我不能要主教大人的錢．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0435",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 100,
+      "text": "把這些錢捐給教會吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0454",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 102,
+      "text": "不，不能給主教大人添麻煩啊．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0471",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 105,
+      "text": "聽說主教大人找我有事．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0484",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 107,
+      "text": "主教大人，據我所知，您是在找航海者吧？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x04a5",
+      "selector": 2,
+      "cc_arg": 32,
+      "c8_arg": 112,
+      "text": "〔恩里克神父〕\\n是，主教大人．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x04c0",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 116,
+      "text": "什麼？要去日本！聽父親說，它在遙遠的東方，是個浮在大海上的美麗的島國．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x04c9",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 117,
+      "text": "您說的事我現在無能為力．不要說印度洋，就連伊比利我還從未離開過．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x04d2",
+      "selector": 2,
+      "cc_arg": 32,
+      "c8_arg": 118,
+      "text": "但那裡的人們還沒有受過神的教誨，有多少人在翹首以待我們的到來啊．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x04db",
+      "selector": 2,
+      "cc_arg": 32,
+      "c8_arg": 119,
+      "text": "不管怎麼說，法王廳已命令我去佈教．拜託您了，不論用多長時間都行．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x04e4",
+      "selector": 2,
+      "cc_arg": 32,
+      "c8_arg": 120,
+      "text": "請帶我去日本吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x04ed",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 121,
+      "text": "看你這麼懇切，我只好答應你了．可是說實話，不知道要多少年才能到那裡．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x04f8",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 122,
+      "text": "少爺，您那麼輕易就答應下來，您真有把握嗎？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0501",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 123,
+      "text": "日本確實非常遙遠，但千里之行始於足下，只要我們努力就一定會成功的．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x050a",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 124,
+      "text": "您說得有理．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0541",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 126,
+      "text": "很可能是洛克吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0554",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 128,
+      "text": "喂，船造好了嗎？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0594",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 135,
+      "text": "少爺，沒有船怎能出海呀．去造船廠看看吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x05ae",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 137,
+      "text": "噢，有什麼事嗎？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x05bb",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 138,
+      "text": "對了，是想找個可靠的航海者吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x05d4",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 139,
+      "text": "少爺，沒有資金就無法出航．那家酒店的老闆娘曾經照顧過公爵，找她商量一下不好嗎？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x05e1",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 140,
+      "text": "少爺，您想弄出海的資金吧．那家酒店的老闆娘曾經照顧過公爵，找她商量一下不好嗎？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x05ee",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 141,
+      "text": "少爺，資金還是不夠啊．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x05fe",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 142,
+      "text": "少爺，目前準備做什麼？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0607",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 143,
+      "text": "想先遊覽一下各地的港口．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0610",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 144,
+      "text": "這個主意不太高明．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0619",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 145,
+      "text": "為什麼？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0622",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 146,
+      "text": "海上航行要花巨大的費用，而我們沒有足夠的資金啊．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x062b",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 147,
+      "text": "飲水不必花錢買，這暫且不提，但招募水手，買糧食等都是不小的開銷呀．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0634",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 148,
+      "text": "你是說這些錢不夠用吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x063d",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 149,
+      "text": "是的，勉強夠用一個月的．但到那時候再想辦法就太晚了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0646",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 150,
+      "text": "遊覽各地港口，我贊成．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x064f",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 151,
+      "text": "洛克先生的意思是在沿途做生意吧？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0658",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 152,
+      "text": "對對對，是這個意思．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0661",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 153,
+      "text": "如果做生意，我們做什麼買賣呢？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x066a",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 154,
+      "text": "要是在里斯本的話，應該買它的特產岩鹽．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0673",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 155,
+      "text": "……"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x067c",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 156,
+      "text": "我以前在教會當過會計，對這些比較了解．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0685",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 157,
+      "text": "在這個港口花大約40枚金幣買的岩鹽，能在地中海的其它港口賣到60枚以上．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x069b",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 158,
+      "text": "船長，看來恩里克神父精通會計，請他作我們的會計好不好？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x06aa",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 159,
+      "text": "好吧，就這麼辦．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x06c8",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 160,
+      "text": "另外，請洛克當助手．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x06d9",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 161,
+      "text": "對了，我還記得些以前靠過的港口的物價．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x06e2",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 162,
+      "text": "你通過積載一覽表，可以知道你的貨物在哪賣得最好．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x06ef",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 163,
+      "text": "不，不好意思讓神父做這種工作．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x06f8",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 164,
+      "text": "不，我不在乎．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0701",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 165,
+      "text": "那，以後再拜託您吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x0710",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 166,
+      "text": "船長，請恩里克神父當會計，挺好的．"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x076d",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 175,
+      "text": "代管的東西？"
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset_hex": "0x07ee",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 186,
+      "text": "啊，是的．從今以後，把我當作一個普通航海者好了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0000",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 189,
+      "text": "先生，有一個想搭船的人．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0009",
+      "selector": 1,
+      "cc_arg": 0,
+      "c8_arg": 190,
+      "text": "洛克，求你叫我船長好不好．竟然有人想上我的船．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0012",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 191,
+      "text": "現在不是高興的時候，看，就是他．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x001b",
+      "selector": 2,
+      "cc_arg": 33,
+      "c8_arg": 192,
+      "text": "〔搭船者〕\\n疼呀！幹什麼？這麼粗魯．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0024",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 193,
+      "text": "說我粗魯，你這混蛋！"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x002d",
+      "selector": 1,
+      "cc_arg": 0,
+      "c8_arg": 194,
+      "text": "好了，洛克停手，你叫什麼名字？"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0036",
+      "selector": 2,
+      "cc_arg": 33,
+      "c8_arg": 195,
+      "text": "今天星期幾？"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x003f",
+      "selector": 1,
+      "cc_arg": 0,
+      "c8_arg": 196,
+      "text": "星期日．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0048",
+      "selector": 2,
+      "cc_arg": 33,
+      "c8_arg": 197,
+      "text": "那，我就叫多明戈吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0051",
+      "selector": 1,
+      "cc_arg": 0,
+      "c8_arg": 198,
+      "text": "不想說出名字，那好，想坐船就坐吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x005a",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 199,
+      "text": "少爺，不對，船長，真的要與來歷不明的傢伙同行嗎？"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0063",
+      "selector": 1,
+      "cc_arg": 0,
+      "c8_arg": 200,
+      "text": "沒關係，多一個同伴不是多些樂趣嗎？\\n恩里克神父，你說呢？"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x006c",
+      "selector": 2,
+      "cc_arg": 32,
+      "c8_arg": 201,
+      "text": "在上帝面前人人平等，這也許是上帝賜予我們的考驗．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0075",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 202,
+      "text": "真沒辦法！喂，小子！船長答應了．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0080",
+      "selector": 2,
+      "cc_arg": 33,
+      "c8_arg": 203,
+      "text": "太感謝了！"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0089",
+      "selector": 1,
+      "cc_arg": 0,
+      "c8_arg": 204,
+      "text": "沒有姓，不方便．對了，西班牙的明天叫瑪尼亞，就姓這個吧．"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x0092",
+      "selector": 2,
+      "cc_arg": 33,
+      "c8_arg": 205,
+      "text": "行呀！"
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset_hex": "0x009d",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 206,
+      "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+    },
+    {
+      "script": "Snr1.chunk1.sub0",
+      "offset_hex": "0x000c",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 207,
+      "text": "$n，你向麥克要了零花錢嗎？"
+    },
+    {
+      "script": "Snr1.chunk1.sub0",
+      "offset_hex": "0x0015",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 208,
+      "text": "要了，謝謝！"
+    },
+    {
+      "script": "Snr1.chunk1.sub0",
+      "offset_hex": "0x0022",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 209,
+      "text": "〔管家麥克〕\\n$n，公爵夫人把本月的零花錢1000枚金幣放在我這了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub0",
+      "offset_hex": "0x002b",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 210,
+      "text": "啊，謝謝！"
+    },
+    {
+      "script": "Snr1.chunk1.sub0",
+      "offset_hex": "0x0042",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 211,
+      "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0000",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 212,
+      "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x002a",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 213,
+      "text": "我太緊張了，趕快離開這個港口．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0033",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 214,
+      "text": "好吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0047",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 215,
+      "text": "我太緊張了，趕快離開這個港口．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0050",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 216,
+      "text": "好吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x005e",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 217,
+      "text": "我們還想在這裡再喝一點．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x006c",
+      "selector": 1,
+      "cc_arg": 0,
+      "c8_arg": 218,
+      "text": "如果不早一點去造船廠就……"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0087",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 219,
+      "text": "船長，我有一事放心不下．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0090",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 220,
+      "text": "噢，麥克，什麼事？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0099",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 221,
+      "text": "說實話，我在碼頭聽到了不好的傳聞．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x00a2",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 222,
+      "text": "我不知真假，聽說最近葡萄牙的皇太子失蹤了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x00ab",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 223,
+      "text": "說什麼？阿爾伯特殿下失蹤啦！"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x00b4",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 224,
+      "text": "如果是真的，那可是大事呀！"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x00bd",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 225,
+      "text": "王室和$s公爵家敵人太多，外有西班牙及奧斯曼帝國，內有軍閥主義的馬丁內斯侯爵．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x00c6",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 226,
+      "text": "船長，您一定見過阿爾伯特殿下吧？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x00cf",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 227,
+      "text": "見是見過，但是很早以前的事了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x00d8",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 228,
+      "text": "他跟我不一樣，是個腳踏實地的人．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x00e1",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 229,
+      "text": "可以說，他是認真考慮葡萄牙前途的高尚的人．呀，多明戈呢？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x00ea",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 230,
+      "text": "不知道，是不是回旅店了？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x00f3",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 231,
+      "text": "有點不放心，我先回旅店了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x010d",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 232,
+      "text": "說實話，我對船長有點不放心，所以跟著他．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0116",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 233,
+      "text": "沒想到，他正在和紅髮姑娘搏鬥，我一看不妙，叫出了那個姑娘最不想聽的名字．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x011f",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 234,
+      "text": "洛克，你知道那姑娘是誰？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0128",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 235,
+      "text": "是最近有名的女海盜卡特琳娜．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0131",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 236,
+      "text": "據說她原是西班牙海軍的軍官，竟然膽大包天地偷走了一艘艦隊的船．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x013a",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 237,
+      "text": "所以她一面躲避西班牙海軍追擊，一面進行她的海盜活動．但聽說她只襲擊葡萄牙的船隻．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0143",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 238,
+      "text": "那姑娘雖然把我說成她的仇敵……"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x014c",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 239,
+      "text": "在這個世界上，不知幾時會被人仇恨．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0155",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 240,
+      "text": "船長，您到底不放心什麼？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x015e",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 241,
+      "text": "多明戈呢？多明戈，不對，也許是阿爾伯特殿下．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0167",
+      "selector": 1,
+      "cc_arg": 33,
+      "c8_arg": 242,
+      "text": "嘿！終於讓你們認出來了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0170",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 243,
+      "text": "殿下，這可如何是好，皇宮裡已鬧哄哄了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0179",
+      "selector": 1,
+      "cc_arg": 33,
+      "c8_arg": 244,
+      "text": "有這事，我得趕快返回皇宮，由於我的緣故，好像給你的父親帶來了麻煩．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0182",
+      "selector": 1,
+      "cc_arg": 33,
+      "c8_arg": 245,
+      "text": "有那麼愚蠢的事，$s公爵涉嫌謀殺我．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x018b",
+      "selector": 1,
+      "cc_arg": 33,
+      "c8_arg": 246,
+      "text": "我剛才接到海盜偽造的信件，說$n先生在造船廠受了重傷，所以我就來了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0194",
+      "selector": 1,
+      "cc_arg": 33,
+      "c8_arg": 247,
+      "text": "襲擊我之前跟我說，殺完我歸罪於你．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x019d",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 248,
+      "text": "這可不得了，少爺，不對，船長，立即返回里斯本．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x01a6",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 249,
+      "text": "好吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x01af",
+      "selector": 1,
+      "cc_arg": 33,
+      "c8_arg": 250,
+      "text": "得趕在對$s公爵的審判會之前回去．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x01c7",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 252,
+      "text": "這事不要到處亂說．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x01d6",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 254,
+      "text": "你說什麼？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x01e5",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 256,
+      "text": "不會有這種情況，希望你不要跟別人說．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x01fe",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 258,
+      "text": "啊，太緊張了，趕快離開這個港吧！"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0207",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 259,
+      "text": "好吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0227",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 261,
+      "text": "多明戈在嗎？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x023f",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 263,
+      "text": "啊，太緊張了，趕快離開這個港吧！"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0248",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 264,
+      "text": "好吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0258",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 265,
+      "text": "多明戈，你在哪裡？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0261",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 266,
+      "text": "不好，有人來了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x026a",
+      "selector": 1,
+      "cc_arg": 33,
+      "c8_arg": 267,
+      "text": "船長，救救我．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0273",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 268,
+      "text": "你想把多明戈怎樣？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x027c",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 269,
+      "text": "那我只好送你們倆一起去黃泉．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x028f",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 270,
+      "text": "你最好乖乖地把多明戈放了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0298",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 271,
+      "text": "我才不放呢，再見吧！"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x02a6",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 272,
+      "text": "草包，看我一刀宰了你．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x02b1",
+      "selector": 2,
+      "cc_arg": 1,
+      "c8_arg": 273,
+      "text": "住手！"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x02ba",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 274,
+      "text": "你是誰？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x02c3",
+      "selector": 2,
+      "cc_arg": 1,
+      "c8_arg": 275,
+      "text": "跟你是同行，那麼多人打一個，算好漢嗎？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x02cc",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 276,
+      "text": "你，你是女的．對了，你就是那個叛逆的女海盜．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x02d5",
+      "selector": 2,
+      "cc_arg": 1,
+      "c8_arg": 277,
+      "text": "拔出劍來，你的對手是我！"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x02de",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 278,
+      "text": "畜生，我記住你了，後會有期．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x02e8",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 279,
+      "text": "為什麼那些人說的都一樣？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x02f1",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 280,
+      "text": "謝謝你救了我！"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x02fa",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 281,
+      "text": "不用謝!\\n你是葡萄牙人吧？"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0303",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 282,
+      "text": "我是$n·$s．為表示謝意，為您彈上一曲．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x030e",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 283,
+      "text": "我真是瞎了眼！怎麼救了$s家的人．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0322",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 284,
+      "text": "你怎麼啦？臉色都變了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x032b",
+      "selector": 2,
+      "cc_arg": 1,
+      "c8_arg": 285,
+      "text": "我是西班牙船長米珈羅·艾蘭茨的妹妹卡特琳娜，我要為哥哥報仇．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0334",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 286,
+      "text": "等等，我可沒有跟你決鬥的理由．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x033d",
+      "selector": 2,
+      "cc_arg": 1,
+      "c8_arg": 287,
+      "text": "快點，拔出劍！"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0347",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 288,
+      "text": "海盜卡特琳娜，我就知道你在這．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0350",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 289,
+      "text": "我們是艾澤格手下的人，以背叛西班牙的罪名逮捕你．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0359",
+      "selector": 2,
+      "cc_arg": 1,
+      "c8_arg": 290,
+      "text": "仇人就在眼前，但……\\n聽著，$s，總有一天會把你打入地獄的．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0363",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 291,
+      "text": "船長，趁著現在快走吧！不然會被那個可怕的女海盜殺了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x036c",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 292,
+      "text": "多明戈也未受傷，多虧有你搭救，謝謝洛克！"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x0381",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 293,
+      "text": "啊，太緊張了，趕快離開這個港．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x038a",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 294,
+      "text": "好吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x039c",
+      "selector": 1,
+      "cc_arg": 0,
+      "c8_arg": 295,
+      "text": "聽說，多明戈好像在旅店．"
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset_hex": "0x03aa",
+      "selector": 1,
+      "cc_arg": 0,
+      "c8_arg": 296,
+      "text": "如果不趕快去造船廠，就……"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0004",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 297,
+      "text": "$n，祝願你一路平安．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x001a",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 298,
+      "text": "$n，這次你救了他，辛苦了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0023",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 299,
+      "text": "不，我只是為公爵家做了應做的事．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x002c",
+      "selector": 2,
+      "cc_arg": 19,
+      "c8_arg": 300,
+      "text": "公爵，$n已能繼承$s家的家業了，您能不能讓他停止危險的航海？"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0043",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 302,
+      "text": "父親，這次的事，好像是馬丁內斯侯爵設的圈套．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x004c",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 303,
+      "text": "我想留在這裡，幫助父親，但……"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0055",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 304,
+      "text": "想法很好，但你要明白，當我的左右手，你還差得很遠．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x005e",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 305,
+      "text": "是．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0067",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 306,
+      "text": "另外，找到普萊斯特·約翰的國家，才是對我最大的幫助．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0070",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 307,
+      "text": "放心吧，我一定會找到普萊斯特·約翰的國家．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0079",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 308,
+      "text": "那就拜託你了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0086",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 309,
+      "text": "不，父親，我還沒找到普萊斯特·約翰的國家．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x008f",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 310,
+      "text": "另外，我離繼承父業還差得遠．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0098",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 311,
+      "text": "不要惦記我，幹你想幹的事去吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x00cf",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 312,
+      "text": "另外，給你一把寶劍，是對你這次功勞的獎勵．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x00db",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 313,
+      "text": "謝謝您．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x00e4",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 314,
+      "text": "$s公爵．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x00ed",
+      "selector": 2,
+      "cc_arg": 18,
+      "c8_arg": 315,
+      "text": "是皇太子，歡迎光臨．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x00f6",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 316,
+      "text": "這次的事給$s公爵添了麻煩，特來謝罪．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x00ff",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 317,
+      "text": "對不起，你已知道，我不能再航海了吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0119",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 318,
+      "text": "請你替我的船選一位新船長，或把船賣掉．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0122",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 319,
+      "text": "好，知道了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0160",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 320,
+      "text": "真有點捨不得！我送你到港口．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0169",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 321,
+      "text": "一起去吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0179",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 322,
+      "text": "$n，你要保護好殿下．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0186",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 323,
+      "text": "$n，你父親被以馬丁內斯為首的門閥貴族帶到皇宮去了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x018f",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 324,
+      "text": "你在這裡不安全，趕快走吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0198",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 325,
+      "text": "啊，母親平安無事．父親呢？"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x01a1",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 326,
+      "text": "很可能在審判會上．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x01aa",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 327,
+      "text": "要趕快把他背的黑鍋摘掉．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x01b3",
+      "selector": 2,
+      "cc_arg": 33,
+      "c8_arg": 328,
+      "text": "$n先生，我做了對不起您的事．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x01bc",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 329,
+      "text": "您不是阿爾伯特嗎？"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x01c5",
+      "selector": 2,
+      "cc_arg": 33,
+      "c8_arg": 330,
+      "text": "姊姊和外甥都沒認出我，可見我的改裝技術很高明．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x01ce",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 331,
+      "text": "別管別的事，去皇宮要緊，快換衣服．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x01ed",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 332,
+      "text": "不許你那樣做．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x01f6",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 333,
+      "text": "你這傢伙……怎麼老纏著我！"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x01ff",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 334,
+      "text": "來，決一勝負吧，這次可不會有紅毛丫頭礙事．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0208",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 335,
+      "text": "我也這麼想．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x021d",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 336,
+      "text": "哈哈，終於打敗了礙事的傢伙，先宰了你再說．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0226",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 337,
+      "text": "啊，$n……"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x022f",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 338,
+      "text": "怎能讓你這樣的壞蛋殺死船長！"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0238",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 339,
+      "text": "從背後刺殺，卑鄙的傢伙！\\n啊……"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0241",
+      "selector": 2,
+      "cc_arg": 32,
+      "c8_arg": 340,
+      "text": "他死了，主啊！請你指引這隻迷途的羔羊吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x024a",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 341,
+      "text": "船長，殺人真不是滋味．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0253",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 342,
+      "text": "對不起，你為了我……"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x025c",
+      "selector": 2,
+      "cc_arg": 32,
+      "c8_arg": 343,
+      "text": "我們為他祈禱吧！"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x026a",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 344,
+      "text": "可惡，被這傢伙打敗，太丢臉了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x02a8",
+      "selector": 1,
+      "cc_arg": 87,
+      "c8_arg": 345,
+      "text": "小傢伙，不簡單，但我也不能罷手．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x02b6",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 346,
+      "text": "殿下，趕快去皇宮．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x02bf",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 347,
+      "text": "〔阿爾伯特皇太子〕\\n馬上就去．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0308",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 350,
+      "text": "請你為我保管的船選一位新船長，或把它賣掉．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0311",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 351,
+      "text": "知道了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0320",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 352,
+      "text": "我就要回皇宮了，相處時間雖短，但很愉快．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0329",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 353,
+      "text": "希望殿下平安無事．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0376",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 354,
+      "text": "船長，趕快把皇太子送回皇宮吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0387",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 355,
+      "text": "這是港口，不去皇宮嗎？"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0390",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 356,
+      "text": "真想看海啊！多麼……"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0399",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 357,
+      "text": "船長，現在不是悠閒自得的時候．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x03a6",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 358,
+      "text": "船長，先回公爵府吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x03b5",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 359,
+      "text": "嘿，$n，還未出海呀？"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x03be",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 360,
+      "text": "路過里斯本時，來看我．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x03eb",
+      "selector": 2,
+      "cc_arg": 23,
+      "c8_arg": 364,
+      "text": "〔馬丁內斯侯爵〕\\n陛下，這些理由說明，$s公爵的罪狀是成立的．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x03f4",
+      "selector": 2,
+      "cc_arg": 23,
+      "c8_arg": 365,
+      "text": "不管什麼身分的人，反叛罪都要判極刑的．陛下，請下令處死謀反者$s．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x03fd",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 366,
+      "text": "……"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0407",
+      "selector": 1,
+      "cc_arg": 20,
+      "c8_arg": 367,
+      "text": "卿之所言極是，但沒有確鑿的証據之前，不能問罪．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0410",
+      "selector": 1,
+      "cc_arg": 20,
+      "c8_arg": 368,
+      "text": "另外，$s公爵不但是我乾兒子，而且是我國的第一功臣，沒必要急著下結論嘛．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0419",
+      "selector": 1,
+      "cc_arg": 20,
+      "c8_arg": 369,
+      "text": "可是，$s有什麼可說的，我想聽聽．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0423",
+      "selector": 2,
+      "cc_arg": 21,
+      "c8_arg": 370,
+      "text": "不，不必了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x042c",
+      "selector": 1,
+      "cc_arg": 20,
+      "c8_arg": 371,
+      "text": "嗯，是誰？"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0435",
+      "selector": 2,
+      "cc_arg": 21,
+      "c8_arg": 372,
+      "text": "父親，是我回來了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x043e",
+      "selector": 1,
+      "cc_arg": 20,
+      "c8_arg": 373,
+      "text": "是皇太子呀！這些日子到哪去啦？"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0447",
+      "selector": 2,
+      "cc_arg": 21,
+      "c8_arg": 374,
+      "text": "說來話長，我去了很多國家，開拓了視野．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0450",
+      "selector": 1,
+      "cc_arg": 20,
+      "c8_arg": 375,
+      "text": "回頭再教訓你，先向$s公爵賠罪．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0459",
+      "selector": 2,
+      "cc_arg": 18,
+      "c8_arg": 376,
+      "text": "陛下，請不要這樣．\\n快起來．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0462",
+      "selector": 1,
+      "cc_arg": 20,
+      "c8_arg": 377,
+      "text": "馬丁內斯，不管怎麼說，你還是太粗心大意了．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x046b",
+      "selector": 2,
+      "cc_arg": 23,
+      "c8_arg": 378,
+      "text": "哼！"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0475",
+      "selector": 1,
+      "cc_arg": 20,
+      "c8_arg": 379,
+      "text": "$s公爵，趕快回去安慰你夫人吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x048b",
+      "selector": 2,
+      "cc_arg": 33,
+      "c8_arg": 381,
+      "text": "等等，你還不知我是誰呢．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x0494",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 382,
+      "text": "這種裝束可不行，去我家把衣服換一下吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x04ab",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 383,
+      "text": "殿下，趕快去皇宮吧．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x04b4",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 384,
+      "text": "〔阿爾伯特皇太子〕\\n好．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x04c5",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 385,
+      "text": "$n，真捨不得跟你分離，但我們都有很多事要做．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x04ce",
+      "selector": 1,
+      "cc_arg": 21,
+      "c8_arg": 386,
+      "text": "走吧！我送你到港口．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x04db",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 387,
+      "text": "船長，公爵在公爵府等著你呢．"
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "offset_hex": "0x04f8",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 390,
+      "text": "沒問題的，父親不會有罪的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x0004",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 391,
+      "text": "$n，可不要勉強行事，願上帝保佑你．"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x0011",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 392,
+      "text": "〔管家麥克〕\\n是$n啊！歡迎您歸來．"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x001a",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 393,
+      "text": "$n，你回來了，這次航海感覺如何？"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x0023",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 394,
+      "text": "有一定收穫．"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x002c",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 395,
+      "text": "關於普萊斯特·約翰的事，怎麼樣啦？"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x0035",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 396,
+      "text": "還沒找到．"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x003e",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 397,
+      "text": "我已估計到工作的難度，但還是要完成它．"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x0047",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 398,
+      "text": "是．"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x0050",
+      "selector": 1,
+      "cc_arg": 18,
+      "c8_arg": 399,
+      "text": "去見你母親吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x005a",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 400,
+      "text": "$n，回來了？"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x0063",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 401,
+      "text": "是，母親．"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x006c",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 402,
+      "text": "你好像結實多了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub0",
+      "offset_hex": "0x0075",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 403,
+      "text": "但不要勉強行事，願上帝保佑你．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0000",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 404,
+      "text": "〔管家麥克〕\\n是$n呀，歡迎您歸來．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0009",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 405,
+      "text": "$n，不要太勉強行事，願上帝保佑你．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x001e",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 406,
+      "text": "洛克出事了嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0027",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 407,
+      "text": "沒事，那是洛克嗎？我有別的事，快點離開這個港口吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0041",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 408,
+      "text": "船長，您別磨磨蹭蹭的，那個丫頭可在這個港．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x004a",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 409,
+      "text": "不會有事的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0058",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 410,
+      "text": "船長，請您小心，那個丫頭也許在這個港口．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0061",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 411,
+      "text": "我想不會有問題的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0075",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 412,
+      "text": "不一定吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x007e",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 413,
+      "text": "不好，你看我不是早說了嘛！"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0087",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 414,
+      "text": "跟你決一勝負的時刻到了，讓我為哥哥和戀人報仇．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0090",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 415,
+      "text": "船長，這裡的事交給我，你快回船上去．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x00a7",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 417,
+      "text": "是不是有名，我不知道，但$n就是我．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x00b6",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 419,
+      "text": "那太危險了，趕快離開這個港．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x00cf",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 420,
+      "text": "洛克不會有事吧？"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x00d8",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 421,
+      "text": "不會有事的，那不是洛克嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x00e2",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 422,
+      "text": "那個丫頭真像隻山貓呀！"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x00eb",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 423,
+      "text": "沒出什麼事吧？"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x00f4",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 424,
+      "text": "什麼沒事，差點就完了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x00fd",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 425,
+      "text": "那卡特琳娜呢？"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0106",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 426,
+      "text": "她怎麼也不順從，就把她綁了起來，並用東西堵住她的嘴．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x010f",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 427,
+      "text": "幹得好！"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0118",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 428,
+      "text": "還是趕快離開這個港吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0133",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 429,
+      "text": "洛克不會有事吧？"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x013c",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 430,
+      "text": "沒事呀，那不是洛克嗎？還是趕快離開這個港吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0156",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 431,
+      "text": "船長，別磨磨蹭蹭的，那丫頭可在這個港！"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x015f",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 432,
+      "text": "不會有事的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x016d",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 433,
+      "text": "船長，請您小心！那丫頭也許在這個港口．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0176",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 434,
+      "text": "我想不會有事的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x018a",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 435,
+      "text": "那可不一定．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x0193",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 436,
+      "text": "不好，你看我早已說過了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x019c",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 437,
+      "text": "跟你決一勝負的時候到了，我要為哥哥和戀人報仇．"
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "offset_hex": "0x01a5",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 438,
+      "text": "船長，這裡的事交給我，你趕快回船上去．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0000",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 439,
+      "text": "〔管家麥克〕\\n是$n呀，回來了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0009",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 440,
+      "text": "$n，不要勉強行事，願上帝保佑你．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x001e",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 441,
+      "text": "洛克不會有事吧？"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0027",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 442,
+      "text": "應該不會有問題．我們還是趕快離開這個港口吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0041",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 443,
+      "text": "船長，我們趕快離開這個港吧，那個叫卡特琳娜的丫頭可不好對付．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x004a",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 444,
+      "text": "這個港口那麼大，不會輕易被發現的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0058",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 445,
+      "text": "船長，請您小心，那個丫頭也許在這港口．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0061",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 446,
+      "text": "不會有事的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0075",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 447,
+      "text": "可找到你了，$n．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x007e",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 448,
+      "text": "啊，終於被發現了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0087",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 449,
+      "text": "今天讓我們決一勝負吧！"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0090",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 450,
+      "text": "船長，這裡的事交給我，您趕快回船上去．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x00a7",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 452,
+      "text": "是呀，找我有事嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x00b6",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 454,
+      "text": "我不知道．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x00c5",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 456,
+      "text": "多危險呀！"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x00de",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 457,
+      "text": "洛克不會有事吧？"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x00e7",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 458,
+      "text": "估計不會，總是這樣．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x00f0",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 459,
+      "text": "那姑娘真不好對付．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x00f9",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 460,
+      "text": "洛克，沒事吧？"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0102",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 461,
+      "text": "每次都這樣．差點被殺了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x010b",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 462,
+      "text": "卡特琳娜呢？"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0114",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 463,
+      "text": "她總是反抗，就把她裝在米袋裡，關在市場了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x011d",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 464,
+      "text": "太過分了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0126",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 465,
+      "text": "別管這些，還是趕快從這個港口逃跑吧！照這樣下去，我比船長還要遭到仇視．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0141",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 466,
+      "text": "洛克不會有事吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x014a",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 467,
+      "text": "我估計不會的，那是常有的事，還是趕快離開這個港口．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0164",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 468,
+      "text": "船長，趕快離港吧，那個叫卡特琳娜的丫頭可不好對付．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x016d",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 469,
+      "text": "這港口那麼大，不會輕易被發現的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x017b",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 470,
+      "text": "船長，請你小心，那丫頭也許在這港口．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0184",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 471,
+      "text": "不會有事的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x0198",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 472,
+      "text": "可找到你啦，$n．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x01a1",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 473,
+      "text": "終於被發現了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x01aa",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 474,
+      "text": "讓我們今天一決勝負吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "offset_hex": "0x01b3",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 475,
+      "text": "船長，這裡的事交給我，您趕快回船上去．"
+    },
+    {
+      "script": "Snr1.chunk2.sub3",
+      "offset_hex": "0x0000",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 476,
+      "text": "〔管家麥克〕\\n是$n呀，歡迎您歸來．"
+    },
+    {
+      "script": "Snr1.chunk2.sub3",
+      "offset_hex": "0x0009",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 477,
+      "text": "$n，不要太勉強行事，願上帝保佑你．"
+    },
+    {
+      "script": "Snr1.chunk2.sub3",
+      "offset_hex": "0x001a",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 479,
+      "text": "是呀，我想，你是要跟我說女海盜卡特琳娜的事吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub3",
+      "offset_hex": "0x0029",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 481,
+      "text": "我也不好辦呀．"
+    },
+    {
+      "script": "Snr1.chunk2.sub3",
+      "offset_hex": "0x0038",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 483,
+      "text": "但我覺得她有點可憐．"
+    },
+    {
+      "script": "Snr1.chunk2.sub4",
+      "offset_hex": "0x0000",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 484,
+      "text": "〔管家麥克〕\\n是$n呀，歡迎您歸來．"
+    },
+    {
+      "script": "Snr1.chunk2.sub4",
+      "offset_hex": "0x0009",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 485,
+      "text": "$n，不要太勉強行事，願上帝保佑你．"
+    },
+    {
+      "script": "Snr1.chunk2.sub4",
+      "offset_hex": "0x0016",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 486,
+      "text": "$n，這次可不能饒了你，讓你跟那個可恨的老頭一起去死．"
+    },
+    {
+      "script": "Snr1.chunk2.sub4",
+      "offset_hex": "0x001f",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 487,
+      "text": "我已不想跑來跑去，好，了結你的心願吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub4",
+      "offset_hex": "0x0028",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 488,
+      "text": "船長，海盜可真喜歡你．"
+    },
+    {
+      "script": "Snr1.chunk2.sub5",
+      "offset_hex": "0x0011",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 489,
+      "text": "$n，記住，再見到你，就把你亂刀分屍．"
+    },
+    {
+      "script": "Snr1.chunk2.sub5",
+      "offset_hex": "0x001a",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 490,
+      "text": "好厲害的女海盜．"
+    },
+    {
+      "script": "Snr1.chunk2.sub5",
+      "offset_hex": "0x0028",
+      "selector": 1,
+      "cc_arg": 1,
+      "c8_arg": 491,
+      "text": "$n，今天算你贏，但這次的恥辱，我會洗清的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub5",
+      "offset_hex": "0x0031",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 492,
+      "text": "你把女海盜氣急了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0000",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 493,
+      "text": "〔管家麥克〕\\n是$n呀，歡迎光臨．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0009",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 494,
+      "text": "$n，不要太勉強行事，願上帝保佑你．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x001c",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 495,
+      "text": "船長，那個女海盜現在怎麼樣了？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0025",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 496,
+      "text": "她是不會甘心的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x002e",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 497,
+      "text": "但暫時不會追來的，聽說艾澤格司令正在追捕她．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0039",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 498,
+      "text": "能打擾一下嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0042",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 499,
+      "text": "什麼事，你是……"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x004b",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 500,
+      "text": "我是阿蘭·維斯特，商人，你們剛才說的是紅毛女海盜的事嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0054",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 501,
+      "text": "是呀，怎麼啦？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x005d",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 502,
+      "text": "她又來了，又盯上我們了？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0066",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 503,
+      "text": "不是的．你是葡萄牙的$n吧？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x006f",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 504,
+      "text": "是呀．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0078",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 505,
+      "text": "里斯本酒館的名叫路琪亞的姑娘失蹤了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0081",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 506,
+      "text": "你說什麼？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x008a",
+      "selector": 1,
+      "cc_arg": 40,
+      "c8_arg": 507,
+      "text": "聽說是被女海盜拐走了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0093",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 508,
+      "text": "這是我的夥伴薩達姆．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x009c",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 509,
+      "text": "我跟他一起去里斯本的酒館時，女老闆卡蕾珞娃託我們給你捎個口信．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00a5",
+      "selector": 1,
+      "cc_arg": 40,
+      "c8_arg": 510,
+      "text": "讓你去尋找路琪亞．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00ae",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 511,
+      "text": "這個女海盜太可惡了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00b7",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 512,
+      "text": "你是叫阿蘭吧，謝謝你特意送來口信．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00c0",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 513,
+      "text": "你是不是忘了一件大事？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00c9",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 514,
+      "text": "什麼事？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00d2",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 515,
+      "text": "我們伊斯蘭商人只為利益而活動．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00db",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 516,
+      "text": "原來是這個，想要金幣呀！"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00e4",
+      "selector": 1,
+      "cc_arg": 40,
+      "c8_arg": 517,
+      "text": "當然，誰不想要金幣．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00ed",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 518,
+      "text": "我還有別的事想託你辦．其實，我有個妹妹，但失散了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00f6",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 519,
+      "text": "名叫薩莎，如果還活著，也應十六七歲啦．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x00ff",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 520,
+      "text": "如果在旅行中見到她，請你把她帶到伊斯坦堡的旅館，好嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0108",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 521,
+      "text": "知道了，如果找到她，一定給你帶回來．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0111",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 522,
+      "text": "一定呀，那麼……"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x011a",
+      "selector": 1,
+      "cc_arg": 40,
+      "c8_arg": 523,
+      "text": "再見！"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0126",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 524,
+      "text": "該怎麼辦呢？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x012f",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 525,
+      "text": "這還用說，找到那個女海盜，勒死她不就是了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0138",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 526,
+      "text": "不太好吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0141",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 527,
+      "text": "你不同意我的想法？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x014a",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 528,
+      "text": "我總覺得背後有鬼，無法擺脫這種想法，另外，那個女海盜會做出那種卑鄙的事嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "offset_hex": "0x0153",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 529,
+      "text": "先回里斯本吧，以後再說．"
+    },
+    {
+      "script": "Snr1.chunk2.sub7",
+      "offset_hex": "0x0000",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 530,
+      "text": "〔管家麥克〕\\n是$n呀，歡迎您歸來．"
+    },
+    {
+      "script": "Snr1.chunk2.sub7",
+      "offset_hex": "0x0009",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 531,
+      "text": "聽說酒館裡的路琪亞小姐被拐走了，你趕快去吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub7",
+      "offset_hex": "0x001c",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 533,
+      "text": "我見到了叫阿蘭的商人，路琪亞的事是真的嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub7",
+      "offset_hex": "0x0032",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 536,
+      "text": "原來那個女海盜是罪犯，她肯定是為了報復那件事．"
+    },
+    {
+      "script": "Snr1.chunk2.sub7",
+      "offset_hex": "0x003b",
+      "selector": 1,
+      "cc_arg": 32,
+      "c8_arg": 537,
+      "text": "洛克，在沒有証據之前，不要下結論．"
+    },
+    {
+      "script": "Snr1.chunk2.sub7",
+      "offset_hex": "0x0044",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 538,
+      "text": "不管怎麼說，都要先找到卡特琳娜．"
+    },
+    {
+      "script": "Snr1.chunk2.sub7",
+      "offset_hex": "0x004d",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 539,
+      "text": "關鍵就是她．另外，順便辦阿蘭所託之事吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub7",
+      "offset_hex": "0x0056",
+      "selector": 1,
+      "cc_arg": 31,
+      "c8_arg": 540,
+      "text": "好的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0000",
+      "selector": 1,
+      "cc_arg": 6,
+      "c8_arg": 541,
+      "text": "〔管家麥克〕\\n是$n呀，歡迎您歸來．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0009",
+      "selector": 1,
+      "cc_arg": 19,
+      "c8_arg": 542,
+      "text": "$n，不要太勉強行事，願上帝保佑你．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0016",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 543,
+      "text": "$n，找到路琪亞了嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x001f",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 544,
+      "text": "沒有，但一定會找到的，提起精神來．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0028",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 545,
+      "text": "交給我們船長，你就放心吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0031",
+      "selector": 1,
+      "cc_arg": 97,
+      "c8_arg": 546,
+      "text": "請你一定找到路琪亞．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x004d",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 547,
+      "text": "這是中東的港口，不知那姑娘在這嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0056",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 548,
+      "text": "向老闆打聽一下吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x005f",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 549,
+      "text": "老闆，這酒館裡有叫薩莎的姑娘嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0075",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 550,
+      "text": "這是中東的港口，不知那姑娘在這嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x007e",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 551,
+      "text": "向老闆打聽一下吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0087",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 552,
+      "text": "老闆，這酒館裡有叫薩莎的姑娘嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0096",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 554,
+      "text": "沒辦法，去別的港口看看吧．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x00b2",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 555,
+      "text": "喂，老闆，你有沒有見過叫卡特琳娜的女海盜．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x00c1",
+      "selector": 2,
+      "cc_arg": 32,
+      "c8_arg": 557,
+      "text": "那麼，你知道薩莎姑娘的事嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x00dd",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 559,
+      "text": "求你好好想想！"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x00ec",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 561,
+      "text": "謝謝你！你可幫了大忙．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0103",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 563,
+      "text": "沒辦法，去別的港口看看．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0115",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 565,
+      "text": "終於找到你了．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x011e",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 566,
+      "text": "我想跟她說句話．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x012e",
+      "selector": 1,
+      "cc_arg": 127,
+      "c8_arg": 568,
+      "text": "找我有事嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0137",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 569,
+      "text": "有，是關於你家的事．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0140",
+      "selector": 1,
+      "cc_arg": 127,
+      "c8_arg": 570,
+      "text": "我的家？我沒有家，我一直孤苦一人．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0149",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 571,
+      "text": "你真的沒有哥哥嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0152",
+      "selector": 1,
+      "cc_arg": 127,
+      "c8_arg": 572,
+      "text": "也許有，但起碼不是你這個異族人！"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x015b",
+      "selector": 1,
+      "cc_arg": 127,
+      "c8_arg": 573,
+      "text": "你不會是用甜言蜜語，想把我騙到別的港口賣掉吧？"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0164",
+      "selector": 2,
+      "cc_arg": 32,
+      "c8_arg": 574,
+      "text": "小姐，對天發誓，我不會做那種事的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x016d",
+      "selector": 2,
+      "cc_arg": 31,
+      "c8_arg": 575,
+      "text": "不能這樣下去．"
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "offset_hex": "0x0176",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 576,
+      "text": "暫時先回伊斯坦堡，告訴阿蘭，他也是航海家，如果真是他妹妹的話，他會來接的．"
+    },
+    {
+      "script": "Snr1.chunk2.sub9",
+      "offset_hex": "0x0006",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 577,
+      "text": "你知道叫阿蘭的商人嗎？"
+    },
+    {
+      "script": "Snr1.chunk2.sub9",
+      "offset_hex": "0x001c",
+      "selector": 1,
+      "cc_arg": 40,
+      "c8_arg": 580,
+      "text": "是你們，很久沒見啦！阿蘭在旅館呢．"
+    },
+    {
+      "script": "Snr1.chunk2.sub9",
+      "offset_hex": "0x0025",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 581,
+      "text": "謝謝，我們去看看．"
+    },
+    {
+      "script": "Snr1.chunk2.sub9",
+      "offset_hex": "0x0032",
+      "selector": 2,
+      "cc_arg": 0,
+      "c8_arg": 582,
+      "text": "請問有個叫阿蘭的商人……"
+    },
+    {
+      "script": "Snr1.chunk2.sub9",
+      "offset_hex": "0x0044",
+      "selector": 1,
+      "cc_arg": 5,
+      "c8_arg": 584,
+      "text": "$n，很久沒見，薩莎的事，怎麼樣啦？"
+    }
+  ],
+  "unmapped_examples": []
+}
