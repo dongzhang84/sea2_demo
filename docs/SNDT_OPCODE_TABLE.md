@@ -39,10 +39,13 @@ appears 3449 times across 186 code areas. The alignment strongly suggests:
 |---|---:|---|---|
 | `0xc0` | 2 | small selector / condition setup | Motif prefix `c0 01` / `c0 02` repeats heavily |
 | `0xcc` | 3 | load/compare immediate or state id | Appears as `cc 00 xx` inside the motif |
-| `0xc8` | 3 | indexed action / text/event slot | Appears as `c8 00 xx`, often monotonically increasing |
+| `0xc8` | 3 | motif text id | In all 3449 motif records, `c8_arg` maps to a valid matching `Snr*.mes` text id |
 | `0xc7` | 1 | separator / commit / end-record | Ends each repeated motif record |
 
-Interpretation is not confirmed yet. Lengths are the useful part for the next disassembler pass.
+The `0xc8` operand is now strongly tied to text: `output/sndt_analysis/sndt_motif_text_map.md`
+maps all 3449 motif records to valid `Snr*.mes` entries with no unmapped records.
+The remaining unknowns are the control meaning of `c0`, `cc`, and `c7`, plus whether
+`0xc8` is also used outside this motif.
 
 ---
 
@@ -74,5 +77,6 @@ Use these candidate lengths to write a partial disassembler that only recognizes
 
 Then test whether the repeated motif areas decode cleanly and whether `0x0c` text references become less noisy.
 
-Runtime validation is still required before treating `0xc0/0xcc/0xc8/0xc7` semantics as real.
-
+Runtime validation is still required before treating `0xc0/0xcc/0xc7` semantics as real.
+For the motif form, `0xc8` should be treated as a text id unless contradictory runtime
+evidence appears.

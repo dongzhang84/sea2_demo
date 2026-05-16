@@ -149,7 +149,7 @@ output/sndt_topology/opcodes.json
 0xf2 len=1  return/end
 0xc0 len=?  probable condition/setup
 0xc7 len=?  probable separator/end-block
-0xc8 len=?  probable index/event op
+0xc8 len=3  motif text id
 0xcc len=?  probable compare/load immediate
 ```
 
@@ -367,7 +367,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
 | Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
 | Phase 3 最小 SNDT 实验 | 🟡 进行中 | `scripts/build_sndt_lab.py` + `output/sndt_lab/*` | 已生成最小 patch artifact |
-| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm | 已有部分长度候选 |
+| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + motif text map | `c8_arg` 已 100% 映射到 `.mes` 文本 |
 
 ### 已完成提交
 
@@ -411,6 +411,9 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `41e987b` | Add SNDT motif structure report | ✅ pushed |
 | `9fa9875` | Add motif topology exporter | ✅ pushed |
 | `b3677e2` | Export motif topology graph | ✅ pushed |
+| `363bb2c` | Update tracker for motif topology progress | ✅ pushed |
+| `24b709a` | Add SNDT motif text map analyzer | ✅ pushed |
+| `fafe2de` | Export SNDT motif text map | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -482,6 +485,7 @@ Phase 3 当前结论：
 | 写 motif 结构报告 | ✅ | `docs/SNDT_MOTIF_REPORT.md` |
 | 生成 motif topology v0 JSON | ✅ | `output/sndt_topology/topology_v0_motif.json` |
 | 生成 motif topology v0 DOT | ✅ | `output/sndt_topology/topology_v0_motif.dot` |
+| 验证 motif `c8_arg` 到 `.mes` 文本映射 | ✅ | `output/sndt_analysis/sndt_motif_text_map.*`，3449/3449 |
 | 生成 `topology_v1.json` | ⬜ | 执行拓扑，仍缺语义 |
 | 生成 `topology_v1.dot` | ⬜ | 可视化，仍缺语义 |
 | 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
@@ -489,7 +493,7 @@ Phase 3 当前结论：
 Phase 4 预研当前结论：
 
 ```text
-已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条 motif 记录的真实文本边
 未拿到：条件分支语义、变量语义、真实执行拓扑
 ```
 

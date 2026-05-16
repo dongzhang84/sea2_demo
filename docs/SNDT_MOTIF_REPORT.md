@@ -20,12 +20,12 @@ Current interpretation:
 ```text
 c0 selector     probably chooses a small mode/class, currently only 1 or 2
 cc u16          likely condition/state/group id
-c8 u16          likely index into a script-local/global table
+c8 u16          text id into the matching Snr*.mes file
 c7              record terminator / commit
 ```
 
-This is still a static interpretation. Runtime validation is required before
-using these names as final opcode semantics.
+The `c8` part is now backed by full text-map evidence. Runtime validation is
+still required before using the `c0`, `cc`, and `c7` names as final opcode semantics.
 
 ## Key Facts
 
@@ -35,6 +35,8 @@ using these names as final opcode semantics.
 | Contiguous runs | 977 |
 | Selector 1 records | 1728 |
 | Selector 2 records | 1721 |
+| Records whose `c8_arg` maps to matching `.mes` text | 3449 |
+| Unmapped `c8_arg` records | 0 |
 
 The selector split is almost exactly balanced:
 
@@ -44,6 +46,30 @@ selector 2: 1721
 ```
 
 This strongly suggests `selector` is a binary class or mode, not arbitrary data.
+
+## Text Map Evidence
+
+`output/sndt_analysis/sndt_motif_text_map.md` checks every motif record against
+the matching `Snr*.mes` file. The result is:
+
+```text
+3449 / 3449 motif records map to valid text ids
+0 unmapped records
+```
+
+Per-file coverage is also complete for every protagonist file that has motif records:
+
+```text
+Snr1 1070/1070
+Snr2  853/853
+Snr3  456/456
+Snr4  218/218
+Snr5  251/251
+Snr6  601/601
+```
+
+This upgrades `c8_arg` from "likely table index" to "motif text id". It also
+means the motif topology can attach real dialogue lines to internal event records.
 
 ## Longest Runs
 
@@ -126,11 +152,11 @@ This report does not prove:
 
 - what `selector=1` versus `selector=2` means
 - whether `cc_arg` is a flag, condition, location, character id, or state id
-- whether `c8_arg` points to text, code offsets, event ids, or another table
 - whether `c7` is truly a terminator or an action opcode
 
-It only proves that the repeated structure is real enough to guide the next
-disassembler and topology extraction pass.
+It proves that the repeated structure is real enough to guide the next
+disassembler and topology extraction pass, and that `c8_arg` is usable as a
+dialogue/text edge label in the current topology.
 
 ## Next Step
 
@@ -155,4 +181,3 @@ output/sndt_analysis/sndt_motif_records.json
 output/sndt_topology/topology_v0_motif.json
 output/sndt_topology/topology_v0_motif.dot
 ```
-
