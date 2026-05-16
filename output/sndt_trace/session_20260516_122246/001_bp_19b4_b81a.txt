@@ -1,0 +1,44 @@
+LOG: SDL: Current window pixel format: SDL_PIXELFORMAT_ARGB8888                                               
+LOG: Releasing keyboard                                                                                       
+LOG: Screen report: Method 'CoreGraphics' (1920.000 x 1080.000 pixels) at (0.000 x 0.000) (701.698 x 400.467 m
+m) (27.626 x 15.766 in) (69.500 x 68.500 DPI)                                                                 
+LOG: ISA BCLK: 8333333.333Hz (25000000/3)                                                                     
+LOG: monopal: green,                                                                                          
+LOG: Active save slot: 1 [Empty]                                                                              
+LOG: USING AVI+ZMBV                                                                                           
+LOG: Max 1073741824 sz 16384                                                                                  
+LOG: Final 16384                                                                                              
+LOG: Final arrangement: Below 4GB = 16384KB, Above 4GB = 0KB                                                  
+LOG: MIDI:Opened device:coreaudio                                                                             
+LOG: VOODOO LFB now at d0000000                                                                               
+LOG: Serial1: BASE 3f8h                                                                                       
+LOG: Serial2: BASE 2f8h                                                                                       
+LOG: Parallel1: BASE 378h                                                                                     
+LOG: MPU-401 Registering I/O ports as if IBM PC MPU-401 at base 330h                                          
+LOG: Memory I/O complexity optimization enabled aka option 'memory io optimization 1'. If the game or demo is 
+unable to draw to the screen properly, set the option to false.                                               
+LOG: The 'scanline render on demand' option is available and may provide a modest boost in video render perfor
+mance if set to true.                                                                                         
+LOG: Allocated APM BIOS pm entry point at f000:ce40                                                           
+LOG: Writing code to fce40                                                                                    
+LOG: Writing code to fce60                                                                                    
+LOG: ISA Plug & Play BIOS enabled                                                                             
+LOG: VGA ROM BIOS init callback                                                                               
+LOG: pixratio 1.000, dw false, dh false                                                                       
+LOG: Aspect ratio: 640 x 480  xToY=1.333 yToX=0.750                                                           
+2026-05-16 12:22:46.751 dosbox-x[50486:47133643] +[IMKClient subclass]: chose IMKClient_Modern                
+2026-05-16 12:22:46.751 dosbox-x[50486:47133643] +[IMKInputSession subclass]: chose IMKInputSession_Modern    
+BP 19b4:b81a                                                                                                  
+LOG: WARNING: No translation support (to host) for code page 0                                                
+LOG: pixratio 1.350, dw false, dh false                                                                       
+LOG: Aspect ratio: 720 x 540  xToY=1.333 yToX=0.750                                                           
+LOG: DOS keyboard layout loaded with main language code US for layout us                                      
+LOG: XMS: 50 handles allocated for use by the DOS environment                                                 
+LOG: EMS page frame at 0xe000-0xefff                                                                          
+LOG: COMMAND.COM env size:             720 bytes                                                              
+LOG: COMMAND.COM environment block:    0x0701 sz=0x002d                                                       
+LOG: COMMAND.COM main body (PSP):      0x072f sz=0x009a                                                       
+LOG: COMMAND.COM stack:                0x0749                                                                 
+LOG: pixratio 1.000, dw false, dh false                                                                       
+LOG: Aspect ratio: 640 x 480  xToY=1.333 yToX=0.750                                                           
+                                                                                                              

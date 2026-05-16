@@ -1,0 +1,44 @@
+LOG: Early LOG Init complete                                                                                  
+LOG: CONFIG: Loaded config file: /Users/dong/Projects/sea2_demo/game_dos/dosbox-x.conf                        
+LOG: DOSBox-X's working directory: /Users/dong/Projects/sea2_demo                                             
+LOG: Logging init: beginning logging proper. This is the end of the early init logging                        
+LOG: Logging: No logfile was given. All further logging will be discarded.                                    
+LOG: DOSBox-X version 2026.05.02 Commit 5817c64 (macOS ARM SDL2 64-bit)                                       
+LOG: macOS EXE path: dosbox-x                                                                                 
+LOG: macOS Resource path:                                                                                     
+LOG: macOS: NSTouchBar support detected in system                                                             
+LOG: Prevent capture: 0                                                                                       
+LOG: SDL: version 2.32.10, Video cocoa, Audio coreaudio                                                       
+LOG: Host keyboard layout is now us (US English)                                                              
+LOG: Mapper keyboard layout is now us (US English)                                                            
+LOG: SDL2 reports desktop display mode 1920 x 1080                                                            
+LOG: The default output for the video system: opengl                                                          
+LOG: OpenGL Version : 2.1 Metal - 89.3                                                                        
+LOG: Configured windowposition: -                                                                             
+LOG: SDL: Current window pixel format: SDL_PIXELFORMAT_ARGB8888                                               
+LOG: Releasing keyboard                                                                                       
+LOG: Screen report: Method 'CoreGraphics' (1920.000 x 1080.000 pixels) at (0.000 x 0.000) (701.698 x 400.467 m
+m) (27.626 x 15.766 in) (69.500 x 68.500 DPI)                                                                 
+LOG: ISA BCLK: 8333333.333Hz (25000000/3)                                                                     
+LOG: monopal: green,                                                                                          
+LOG: Active save slot: 1 [Empty]                                                                              
+LOG: USING AVI+ZMBV                                                                                           
+LOG: Max 1073741824 sz 16384                                                                                  
+LOG: Final 16384                                                                                              
+LOG: Final arrangement: Below 4GB = 16384KB, Above 4GB = 0KB                                                  
+LOG: MIDI:Opened device:coreaudio                                                                             
+LOG: VOODOO LFB now at d0000000                                                                               
+LOG: Serial1: BASE 3f8h                                                                                       
+LOG: Serial2: BASE 2f8h                                                                                       
+LOG: Parallel1: BASE 378h                                                                                     
+LOG: MPU-401 Registering I/O ports as if IBM PC MPU-401 at base 330h                                          
+LOG: Memory I/O complexity optimization enabled aka option 'memory io optimization 1'. If the game or demo is 
+unable to draw to the screen properly, set the option to false.                                               
+LOG: The 'scanline render on demand' option is available and may provide a modest boost in video render perfor
+mance if set to true.                                                                                         
+LOG: Allocated APM BIOS pm entry point at f000:ce40                                                           
+LOG: Writing code to fce40                                                                                    
+LOG: Writing code to fce60                                                                                    
+LOG: ISA Plug & Play BIOS enabled                                                                             
+LOG: VGA ROM BIOS init callback                                                                               
+                                                                                                              
