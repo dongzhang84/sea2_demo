@@ -151,22 +151,30 @@ def main() -> None:
         default=2.0,
         help="Seconds between snapshots while --watch-seconds is active.",
     )
+    parser.add_argument(
+        "--snapshot-only",
+        action="store_true",
+        help="Do not send commands; only capture the current debugger screen/watch samples.",
+    )
     args = parser.parse_args()
 
     runner = TraceRunner(make_session_dir())
     runner.ensure_driver(start=args.start_driver)
     runner.snapshot("initial")
 
-    if not args.no_default_breakpoints:
+    if args.snapshot_only:
+        pass
+    elif not args.no_default_breakpoints:
         for bp in DEFAULT_BREAKPOINTS:
             runner.set_breakpoint(bp)
 
-    for command in args.command:
-        runner.send(command)
-        runner.snapshot(f"cmd_{command}")
+    if not args.snapshot_only:
+        for command in args.command:
+            runner.send(command)
+            runner.snapshot(f"cmd_{command}")
 
-    runner.key("KEYF5")
-    runner.snapshot("after_continue")
+        runner.key("KEYF5")
+        runner.snapshot("after_continue")
     if args.watch_seconds > 0:
         deadline = time.time() + args.watch_seconds
         sample = 0
