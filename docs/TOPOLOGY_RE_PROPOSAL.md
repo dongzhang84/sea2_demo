@@ -1,4 +1,4 @@
-# 大航海 II 游戏拓扑逆向 Proposal
+# 大航海 II 游戏拓扑逆向 Proposal / Roadmap / Tracker
 
 > 目标：接着现有 Claude Code 工作，把项目从“资源/文本/原型游戏”重新拉回到
 > **游戏结构逻辑逆向**。这里的“拓扑”指：6 个主人公在什么状态、时间、地点、flag
@@ -157,9 +157,9 @@ output/sndt_topology/opcodes.json
 
 ---
 
-## 4. 执行计划
+## 4. Roadmap
 
-### Phase 1：整理现有事实，产出静态拓扑下限
+### Phase 1：整理现有事实，产出静态拓扑下限 — 已完成
 
 目标：不依赖 DOSBox，不依赖手玩，先把已有结构变成可审阅产物。
 
@@ -179,6 +179,15 @@ output/sndt_topology/opcodes.json
 - 能打开 `.dot` 看到每个主人公脚本的骨架。
 - 能在 markdown 里看到每个子脚本可能显示的文本。
 
+当前状态：
+
+- 已完成 `scripts/export_sndt_topology.py`。
+- 已生成 `output/sndt_topology/sndt_topology.json`。
+- 已生成 `output/sndt_topology/sndt_topology.dot`。
+- 已生成 `output/sndt_topology/sndt_text_refs.md`。
+- 已完成 `docs/SNDT_TOPOLOGY_STATIC_REPORT.md`。
+- 已 commit + push。
+
 风险：
 
 - 文本引用会有噪声，因为 opcode 长度表未恢复。
@@ -187,7 +196,7 @@ output/sndt_topology/opcodes.json
 
 - 不伪装成最终结果，明确标注 `confirmed/probable/noisy`。
 
-### Phase 2：自动化动态追踪
+### Phase 2：自动化动态追踪 — 进行中
 
 目标：替代“用户手动玩游戏”。
 
@@ -212,6 +221,20 @@ output/sndt_topology/opcodes.json
 - 用户不需要操作游戏。
 - runner 能重复跑到同一个断点或同一类事件检查点。
 - 每次运行留下结构化 log。
+
+当前状态：
+
+- 已完成 `scripts/sndt_trace_runner.py` 第一版。
+- 已实现自动连接 `/tmp/dbg_cmd` / `/tmp/dbg_screen.txt`。
+- 已实现自动下断点：
+  - `19B4:B81A`
+  - `0000:8EBC`
+- 已实现 `--watch-seconds` 定时采样。
+- 已实现 `--snapshot-only` 运行态采样。
+- 已验证两个断点都能设置成功。
+- 已完成 `scripts/dosbox_game_keys.py`，可通过 AppleScript 给 DOSBox-X 游戏窗口发键。
+- 已验证 GUI 按键脚本不会报权限错误。
+- 尚未稳定推进到 SNDT 事件命中点。
 
 风险：
 
@@ -330,3 +353,158 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 
 这会把“已经做到哪里”从散落的日志，变成一份实际拓扑草图。
 
+---
+
+## 7. Tracker
+
+> 规则：每完成一个文件或阶段性步骤，单独 commit + push。不要把无关脏文件混入提交。
+
+### 总体状态
+
+| 阶段 | 状态 | 产物 | 备注 |
+|---|---|---|---|
+| Proposal | ✅ 完成 | `docs/TOPOLOGY_RE_PROPOSAL.md` | 已合并 roadmap/tracker |
+| Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
+| Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
+| Phase 3 最小 SNDT 实验 | ⬜ 未开始 | `output/sndt_lab/*` | 下一条主攻路线之一 |
+| Phase 4 机器拓扑 v1 | ⬜ 未开始 | disasm + topology_v1 | 依赖 opcode 长度表 |
+
+### 已完成提交
+
+| Commit | 内容 | 状态 |
+|---|---|---|
+| `bb631b0` | Add topology reverse engineering proposal | ✅ pushed |
+| `a5eb1ac` | Add SNDT topology exporter | ✅ pushed |
+| `858e8f1` | Export static SNDT topology snapshot | ✅ pushed |
+| `c91f79b` | Add static SNDT topology report | ✅ pushed |
+| `aead9de` | Add scripted SNDT trace runner | ✅ pushed |
+| `31086fd` | Make SNDT trace runner wait for debugger output | ✅ pushed |
+| `63ed982` | Capture SNDT trace runner breakpoint setup | ✅ pushed |
+| `288c4c6` | Add watch snapshots to SNDT trace runner | ✅ pushed |
+| `58a265c` | Add snapshot-only mode to SNDT trace runner | ✅ pushed |
+| `8bec05a` | Capture SNDT trace watch sample | ✅ pushed |
+| `f366c15` | Add DOSBox game key driver | ✅ pushed |
+| `6e01bf5` | Capture game key trace baseline | ✅ pushed |
+
+### Phase 1 Checklist
+
+| Item | 状态 | 产物 |
+|---|---|---|
+| 解析 7 个 SNDT 文件为统一结构 | ✅ | `output/sndt_topology/sndt_topology.json` |
+| 导出 chunk / subscript / dispatch table | ✅ | `output/sndt_topology/sndt_topology.json` |
+| 导出 Graphviz 结构图 | ✅ | `output/sndt_topology/sndt_topology.dot` |
+| 导出文本引用候选 | ✅ | `output/sndt_topology/sndt_text_refs.md` |
+| 写静态拓扑报告 | ✅ | `docs/SNDT_TOPOLOGY_STATIC_REPORT.md` |
+| 标注文本引用噪声风险 | ✅ | JSON + report |
+
+Phase 1 结论：
+
+```text
+已拿到：容器拓扑 + 派发表边 + 文本引用候选
+未拿到：真实执行流 + opcode 语义
+```
+
+### Phase 2 Checklist
+
+| Item | 状态 | 产物 / 备注 |
+|---|---|---|
+| 封装 debugger command bridge | ✅ | `scripts/sndt_trace_runner.py` |
+| 自动设置 `19B4:B81A` 断点 | ✅ | `output/sndt_trace/session_20260516_095603/` |
+| 自动设置 `0000:8EBC` 断点 | ✅ | `output/sndt_trace/session_20260516_095603/` |
+| 修复命令发送节奏 | ✅ | `31086fd` |
+| 增加运行态 watch 采样 | ✅ | `288c4c6` |
+| 增加 snapshot-only 模式 | ✅ | `58a265c` |
+| 写 DOSBox-X 游戏窗口按键驱动 | ✅ | `scripts/dosbox_game_keys.py` |
+| 验证 GUI 按键权限 | ✅ | `6e01bf5` baseline |
+| 自动推进到 SNDT 事件命中 | ⬜ | 尚未完成 |
+| 命中 `19B4:B81A` 后采集寄存器/栈 | ⬜ | 待做 |
+| 命中 `0000:8EBC` 后单步/采样 | ⬜ | 待做 |
+
+Phase 2 当前结论：
+
+```text
+已拿到：自动下断点、自动采样、自动发游戏键
+未拿到：稳定触发 SNDT 事件 / 命中断点
+```
+
+### Phase 3 Checklist
+
+| Item | 状态 | 产物 / 备注 |
+|---|---|---|
+| 选择最小实验目标 | ⬜ | 候选 `Snr4` 或 `Snr0.chunk0` |
+| 生成 patch 方案 | ⬜ | `output/sndt_lab/patch_notes.md` |
+| 构造最小 `0c XX f2` 脚本 | ⬜ | `output/sndt_lab/minimal_*.dat` |
+| 重建 `SNRDAT.LZW` | ⬜ | 复用 `scripts/ls11_encode.py` |
+| 运行并观察 `0x0c` handler | ⬜ | 依赖动态追踪 |
+| 测量高频 opcode 长度 | ⬜ | 目标 `0xc0/0xc7/0xc8/0xcc` |
+
+### Phase 4 Checklist
+
+| Item | 状态 | 产物 / 备注 |
+|---|---|---|
+| 建立 opcode 长度表 | ⬜ | `docs/SNDT_OPCODE_TABLE.md` |
+| 写 `sndt_disasm.py` | ⬜ | 依赖长度表 |
+| 生成 `topology_v1.json` | ⬜ | 执行拓扑 |
+| 生成 `topology_v1.dot` | ⬜ | 可视化 |
+| 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
+
+---
+
+## 8. 下一步选择
+
+当前有两个实际可走方向。
+
+### 方向 A：继续动态追踪输入自动化
+
+目标：让脚本稳定推进到事件触发点，命中 `19B4:B81A` 或 `0000:8EBC`。
+
+下一步文件：
+
+```text
+scripts/dosbox_game_keys.py
+output/sndt_trace/session_*
+```
+
+优点：
+
+- 一旦命中，最接近真实解释器入口。
+- 能直接观察寄存器、栈、代码位置。
+
+风险：
+
+- 游戏画面状态和按键流程不稳定。
+- 可能继续陷入“怎么走到剧情点”的问题。
+
+### 方向 B：最小 SNDT patch 实验
+
+目标：不再依赖真实剧情触发，构造一个最小脚本观察解释器。
+
+下一步文件：
+
+```text
+scripts/build_sndt_lab.py
+output/sndt_lab/patch_notes.md
+output/sndt_lab/minimal_*.dat
+```
+
+优点：
+
+- 可重复、可控。
+- 更符合逆向实验方法。
+
+风险：
+
+- 需要确认游戏不会依赖被 patch 掉的上下文。
+- 仍需要某个入口能执行到该脚本。
+
+我的当前建议：
+
+```text
+优先做方向 B：最小 SNDT patch 实验。
+```
+
+理由：
+
+- Phase 2 已经证明自动断点和采样基础可用。
+- 继续调按键流程收益不稳定。
+- 最小 patch 能把问题收缩成“解释器如何处理一小段 bytecode”，更接近 opcode 长度表目标。
