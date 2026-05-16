@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "snr4_c0s0",
+    "patched_dat": "output/sndt_lab/Snr4_min_text_c0s0.dat",
+    "archive": "output/sndt_lab/SNRDAT_min_snr4_c0s0.LZW",
+    "info": "output/sndt_lab/patch_info_snr4_c0s0.json",
+    "notes": "output/sndt_lab/patch_notes_snr4_c0s0.md"
+  },
+  {
+    "slug": "snr1_c0s0",
+    "patched_dat": "output/sndt_lab/Snr1_min_text_c0s0.dat",
+    "archive": "output/sndt_lab/SNRDAT_min_snr1_c0s0.LZW",
+    "info": "output/sndt_lab/patch_info_snr1_c0s0.json",
+    "notes": "output/sndt_lab/patch_notes_snr1_c0s0.md"
+  }
+]
