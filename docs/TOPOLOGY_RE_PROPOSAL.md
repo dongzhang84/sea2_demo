@@ -406,6 +406,11 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `7c51bb3` | Add SNDT opcode candidate table | ✅ pushed |
 | `5bed201` | Add partial SNDT disassembler | ✅ pushed |
 | `e5c86d6` | Export partial SNDT disassembly | ✅ pushed |
+| `16116b6` | Add SNDT motif record extractor | ✅ pushed |
+| `632f26e` | Export SNDT motif record runs | ✅ pushed |
+| `41e987b` | Add SNDT motif structure report | ✅ pushed |
+| `9fa9875` | Add motif topology exporter | ✅ pushed |
+| `b3677e2` | Export motif topology graph | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -473,14 +478,18 @@ Phase 3 当前结论：
 | 建立 opcode 长度表 | 🟡 | `docs/SNDT_OPCODE_TABLE.md`，已含确认/强候选 |
 | 写 `sndt_disasm.py` | ✅ | `scripts/sndt_disasm.py` |
 | 生成 partial disasm | ✅ | `output/sndt_analysis/sndt_disasm_partial.*` |
-| 生成 `topology_v1.json` | ⬜ | 执行拓扑 |
-| 生成 `topology_v1.dot` | ⬜ | 可视化 |
+| 提取 motif record runs | ✅ | `output/sndt_analysis/sndt_motif_records.*` |
+| 写 motif 结构报告 | ✅ | `docs/SNDT_MOTIF_REPORT.md` |
+| 生成 motif topology v0 JSON | ✅ | `output/sndt_topology/topology_v0_motif.json` |
+| 生成 motif topology v0 DOT | ✅ | `output/sndt_topology/topology_v0_motif.dot` |
+| 生成 `topology_v1.json` | ⬜ | 执行拓扑，仍缺语义 |
+| 生成 `topology_v1.dot` | ⬜ | 可视化，仍缺语义 |
 | 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
 
 Phase 4 预研当前结论：
 
 ```text
-已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选，以及 partial disasm 输出
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif
 未拿到：条件分支语义、变量语义、真实执行拓扑
 ```
 
