@@ -4,6 +4,7 @@ extends Node2D
 @onready var port_layer: Node2D = $PortLayer
 @onready var ship_layer: Node2D = $ShipLayer
 @onready var wind_overlay: Node2D = $WindOverlay
+@onready var map_camera: Camera2D = $MapCamera
 @onready var gold_label: Label = $UI/GoldLabel
 @onready var dura_label: Label = $UI/DuraLabel
 @onready var date_label: Label = $UI/DateLabel
@@ -63,6 +64,7 @@ func _ready() -> void:
 			ship.global_position = Vector2(loaded_port.world_x, loaded_port.world_y)
 			info_label.text = "读取存档。停靠在 %s。" % _pn(loaded_port)
 			ship.refresh_from_game_state()
+			_snap_camera()
 			_open_port_screen(loaded_port)
 		return
 	# Otherwise fresh start
@@ -72,7 +74,14 @@ func _ready() -> void:
 	if not start_port.is_empty():
 		ship.global_position = Vector2(start_port.world_x, start_port.world_y)
 		info_label.text = "停靠在 %s。点击港口起航。" % _pn(start_port)
+		_snap_camera()
 		_open_port_screen(start_port)
+
+
+func _snap_camera() -> void:
+	if ship != null:
+		map_camera.position = ship.global_position
+		map_camera.reset_smoothing()
 
 
 func _on_save_pressed() -> void:
@@ -103,10 +112,17 @@ func _on_new_pressed() -> void:
 	get_tree().reload_current_scene()
 
 
+## 镜头放大倍数 —— 默认看局部海域而非整张世界图。
+const MAP_ZOOM := 4.0
+## 标记/船反向缩放, 抵消镜头放大, 保持合适的屏幕大小。
+const SPRITE_SCALE := 0.5
+
+
 func _spawn_ports() -> void:
 	for port in GameState.ports_data.get("ports", []):
 		var marker := preload("res://scenes/port_marker.tscn").instantiate()
 		marker.position = Vector2(port.world_x, port.world_y)
+		marker.scale = Vector2(SPRITE_SCALE, SPRITE_SCALE)
 		marker.set_port_data(port)
 		marker.clicked.connect(_on_port_clicked)
 		port_layer.add_child(marker)
@@ -115,11 +131,15 @@ func _spawn_ports() -> void:
 func _spawn_ship() -> void:
 	ship = preload("res://scenes/ship.tscn").instantiate()
 	ship.wind_overlay = wind_overlay
+	ship.scale = Vector2(SPRITE_SCALE, SPRITE_SCALE)
 	ship_layer.add_child(ship)
 	ship.arrived_at_port.connect(_on_ship_arrived)
 
 
 func _process(delta: float) -> void:
+	# 镜头始终跟随船 —— 默认就是「所在海域的局部地图」
+	if ship != null:
+		map_camera.position = ship.global_position
 	if ship == null or not ship.moving:
 		return
 	if event_dialog.visible:

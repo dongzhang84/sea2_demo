@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://b_main"]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
-[ext_resource type="Texture2D" path="res://assets/world/worldmap.png" id="2_world"]
+[ext_resource type="Texture2D" path="res://assets/world/worldmap_hi.png" id="2_world"]
 [ext_resource type="Script" path="res://scripts/wind_overlay.gd" id="3_wind"]
 [ext_resource type="PackedScene" path="res://scenes/event_dialog.tscn" id="4_event_dialog"]
 [ext_resource type="PackedScene" path="res://scenes/combat.tscn" id="5_combat"]
@@ -25,7 +25,7 @@ script = ExtResource("1_main")
 [node name="Worldmap" type="Sprite2D" parent="."]
 texture = ExtResource("2_world")
 centered = false
-scale = Vector2(0.593, 0.667)
+scale = Vector2(0.0846561, 0.0952381)
 
 [node name="WindOverlay" type="Node2D" parent="."]
 script = ExtResource("3_wind")
@@ -33,6 +33,15 @@ script = ExtResource("3_wind")
 [node name="PortLayer" type="Node2D" parent="."]
 
 [node name="ShipLayer" type="Node2D" parent="."]
+
+[node name="MapCamera" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
+limit_left = 0
+limit_top = 0
+limit_right = 1280
+limit_bottom = 720
+position_smoothing_enabled = true
+position_smoothing_speed = 6.0
 
 [node name="UI" type="CanvasLayer" parent="."]
 
