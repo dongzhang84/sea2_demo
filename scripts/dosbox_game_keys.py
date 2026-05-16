@@ -24,16 +24,27 @@ SEQUENCES: dict[str, list[str]] = {
 }
 
 
+PROCESS_NAMES = ["dosbox-x", "DOSBox-X"]
+
+
 def osascript_key(key: str) -> None:
-    script = f'''
+    code = key_code(key)
+    errors: list[str] = []
+    for process_name in PROCESS_NAMES:
+        script = f'''
+tell application "DOSBox-X" to activate
 tell application "System Events"
-  tell process "dosbox-x"
+  tell process "{process_name}"
     set frontmost to true
-    key code {key_code(key)}
+    key code {code}
   end tell
 end tell
 '''
-    subprocess.run(["osascript", "-e", script], check=True)
+        result = subprocess.run(["osascript", "-e", script], text=True, capture_output=True)
+        if result.returncode == 0:
+            return
+        errors.append(result.stderr.strip())
+    raise RuntimeError("; ".join(e for e in errors if e))
 
 
 def key_code(key: str) -> int:
