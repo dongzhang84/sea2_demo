@@ -24,7 +24,7 @@ LAB = ROOT / "output" / "sndt_lab"
 BACKUPS = LAB / "backups"
 MANIFEST = LAB / "install_manifest.json"
 GAME_SNRDAT = GAME_DOS / "SNRDAT.LZW"
-LAB_SNRDAT = LAB / "SNRDAT_min_snr4_c0s0.LZW"
+DEFAULT_LAB_SNRDAT = LAB / "SNRDAT_min_snr4_c0s0.LZW"
 
 
 def load_manifest() -> dict:
@@ -37,17 +37,17 @@ def save_manifest(data: dict) -> None:
     MANIFEST.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
 
 
-def install() -> None:
+def install(lab_archive: Path) -> None:
     if not GAME_SNRDAT.exists():
         raise FileNotFoundError(GAME_SNRDAT)
-    if not LAB_SNRDAT.exists():
-        raise FileNotFoundError(LAB_SNRDAT)
+    if not lab_archive.exists():
+        raise FileNotFoundError(lab_archive)
 
     BACKUPS.mkdir(parents=True, exist_ok=True)
     stamp = dt.datetime.now().strftime("%Y%m%d_%H%M%S")
     backup = BACKUPS / f"SNRDAT.original.{stamp}.LZW"
     shutil.copy2(GAME_SNRDAT, backup)
-    shutil.copy2(LAB_SNRDAT, GAME_SNRDAT)
+    shutil.copy2(lab_archive, GAME_SNRDAT)
 
     manifest = load_manifest()
     manifest["installs"].append(
@@ -55,14 +55,14 @@ def install() -> None:
             "timestamp": stamp,
             "action": "install",
             "backup": str(backup.relative_to(ROOT)),
-            "installed": str(LAB_SNRDAT.relative_to(ROOT)),
+            "installed": str(lab_archive.relative_to(ROOT)),
             "target": str(GAME_SNRDAT.relative_to(ROOT)),
         }
     )
     manifest["current_backup"] = str(backup.relative_to(ROOT))
     save_manifest(manifest)
     print(f"Backed up {GAME_SNRDAT} -> {backup}")
-    print(f"Installed {LAB_SNRDAT} -> {GAME_SNRDAT}")
+    print(f"Installed {lab_archive} -> {GAME_SNRDAT}")
 
 
 def restore() -> None:
@@ -90,9 +90,16 @@ def restore() -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("action", choices=["install", "restore"])
+    parser.add_argument(
+        "--archive",
+        type=Path,
+        default=DEFAULT_LAB_SNRDAT,
+        help="Lab SNRDAT archive to install. Defaults to the Snr4 minimal lab.",
+    )
     args = parser.parse_args()
     if args.action == "install":
-        install()
+        archive = args.archive if args.archive.is_absolute() else ROOT / args.archive
+        install(archive)
     else:
         restore()
 
