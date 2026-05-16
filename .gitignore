@@ -33,3 +33,12 @@ output/eventcg_opgraph/
 
 # Godot import cache
 game/.godot/
+
+output/eventcg_graph2/
+output/eventcg_event0/
+output/eventcg_event1/
+output/eventcg_event2/
+output/eventcg_event3/
+output/eventcg_event4/
+output/eventcg_event5/
+output/eventcg_event6/
