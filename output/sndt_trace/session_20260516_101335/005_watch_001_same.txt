@@ -1,0 +1,44 @@
+LOG: Early LOG Init complete                                                                                  
+LOG: CONFIG: Loaded config file: /Users/dong/Projects/sea2_demo/game_dos/dosbox-x.conf                        
+LOG: DOSBox-X's working directory: /Users/dong/Projects/sea2_demo                                             
+LOG: Logging init: beginning logging proper. This is the end of the early init logging                        
+LOG: Logging: No logfile was given. All further logging will be discarded.                                    
+LOG: DOSBox-X version 2026.05.02 Commit 5817c64 (macOS ARM SDL2 64-bit)                                       
+LOG: macOS EXE path: dosbox-x                                                                                 
+LOG: macOS Resource path:                                                                                     
+LOG: macOS: NSTouchBar support detected in system                                                             
+LOG: Prevent capture: 0                                                                                       
+2026-05-16 10:13:35.483 dosbox-x[45078:46899433] Failure on line 687 in function id scheduleApplicationNotific
+ation(LSNotificationCode, NSWorkspaceNotificationCenter *): noErr == _LSModifyNotification(notificationID, 1, 
+&code, 0, NULL, NULL, NULL)                                                                                   
+2026-05-16 10:13:35.517 dosbox-x[45078:46899433] TISFileInterrogator updateSystemInputSources false but old da
+ta invalid: currentCacheHeaderPtr nonNULL? 0, ->cacheFormatVersion 0, ->magicCookie 00000000, inputSourceTable
+CountSys 0                                                                                                    
+2026-05-16 10:13:35.521 dosbox-x[45078:46899436] Connection Invalid error for service com.apple.hiservices-xpc
+service.                                                                                                      
+2026-05-16 10:13:35.521 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+2026-05-16 10:13:35.522 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+Keyboard Layouts: duplicate keyboard layout identifier -17410.                                                
+Keyboard Layouts: keyboard layout identifier -17410 has been replaced with -28673.                            
+2026-05-16 10:13:35.531 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+2026-05-16 10:13:35.532 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+2026-05-16 10:13:35.539 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+2026-05-16 10:13:35.542 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+2026-05-16 10:13:35.543 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+2026-05-16 10:13:35.546 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+2026-05-16 10:13:35.547 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+2026-05-16 10:13:35.549 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+Keyboard Layouts: duplicate keyboard layout identifier -30769.                                                
+Keyboard Layouts: keyboard layout identifier -30769 has been replaced with -28674.                            
+Keyboard Layouts: duplicate keyboard layout identifier -14934.                                                
+Keyboard Layouts: keyboard layout identifier -14934 has been replaced with -28675.                            
+2026-05-16 10:13:35.560 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+2026-05-16 10:13:35.560 dosbox-x[45078:46899433] Error received in message reply handler: Connection invalid  
+LOG: E_Exit: Can't init SDL The video driver did not add any displays                                         
+E_Exit: Can't init SDL The video driver did not add any displays                                              
+                                                                                                              
+                                                                                                              
+                                                                                                              
+                                                                                                              
+                                                                                                              
+                                                                                                              
