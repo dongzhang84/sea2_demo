@@ -367,7 +367,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
 | Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
 | Phase 3 最小 SNDT 实验 | 🟡 进行中 | `scripts/build_sndt_lab.py` + `output/sndt_lab/*` | 已生成最小 patch artifact |
-| Phase 4 机器拓扑 v1 | ⬜ 未开始 | disasm + topology_v1 | 依赖 opcode 长度表 |
+| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm | 已有部分长度候选 |
 
 ### 已完成提交
 
@@ -388,6 +388,24 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `9e7e035` | Merge roadmap and tracker into topology proposal | ✅ pushed |
 | `b42f999` | Add minimal SNDT lab builder | ✅ pushed |
 | `7d4a3e1` | Build minimal SNDT lab artifact | ✅ pushed |
+| `ba8338d` | Add SNDT lab install helper | ✅ pushed |
+| `9d586a7` | Record SNDT lab install manifest | ✅ pushed |
+| `ed23f47` | Add force start mode to SNDT trace runner | ✅ pushed |
+| `a96ddc0` | Capture failed headless DOSBox lab start | ✅ pushed |
+| `7796d7e` | Capture GUI DOSBox lab start without debugger | ✅ pushed |
+| `bf91dd4` | Track DOSBox debugger driver with break start | ✅ pushed |
+| `0235c31` | Capture fresh debugger lab start | ✅ pushed |
+| `4e4bdd9` | Build SNDT lab artifacts for multiple targets | ✅ pushed |
+| `d870c1c` | Add João SNDT lab artifact | ✅ pushed |
+| `0d9a95b` | Allow selecting SNDT lab archive to install | ✅ pushed |
+| `bbc61cb` | Install João SNDT lab archive | ✅ pushed |
+| `31741b1` | Capture João lab debugger start | ✅ pushed |
+| `711b382` | Make DOSBox key driver find GUI process | ✅ pushed |
+| `753a2e4` | Add SNDT bytecode motif analyzer | ✅ pushed |
+| `73d79af` | Export SNDT bytecode motif analysis | ✅ pushed |
+| `7c51bb3` | Add SNDT opcode candidate table | ✅ pushed |
+| `5bed201` | Add partial SNDT disassembler | ✅ pushed |
+| `e5c86d6` | Export partial SNDT disassembly | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -452,11 +470,19 @@ Phase 3 当前结论：
 
 | Item | 状态 | 产物 / 备注 |
 |---|---|---|
-| 建立 opcode 长度表 | ⬜ | `docs/SNDT_OPCODE_TABLE.md` |
-| 写 `sndt_disasm.py` | ⬜ | 依赖长度表 |
+| 建立 opcode 长度表 | 🟡 | `docs/SNDT_OPCODE_TABLE.md`，已含确认/强候选 |
+| 写 `sndt_disasm.py` | ✅ | `scripts/sndt_disasm.py` |
+| 生成 partial disasm | ✅ | `output/sndt_analysis/sndt_disasm_partial.*` |
 | 生成 `topology_v1.json` | ⬜ | 执行拓扑 |
 | 生成 `topology_v1.dot` | ⬜ | 可视化 |
 | 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
+
+Phase 4 预研当前结论：
+
+```text
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选，以及 partial disasm 输出
+未拿到：条件分支语义、变量语义、真实执行拓扑
+```
 
 ---
 
