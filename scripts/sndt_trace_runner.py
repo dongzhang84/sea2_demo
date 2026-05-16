@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import subprocess
 import sys
 import time
@@ -67,15 +68,31 @@ class TraceRunner:
             time.sleep(0.25)
         raise TimeoutError("Timed out waiting for /tmp/dbg_screen.txt")
 
+    def screen_digest(self) -> str:
+        if not SCREEN.exists():
+            return ""
+        return hashlib.sha1(SCREEN.read_bytes()).hexdigest()
+
+    def wait_for_screen_change(self, before: str, timeout: float = 5.0) -> None:
+        deadline = time.time() + timeout
+        while time.time() < deadline:
+            if self.screen_digest() != before:
+                return
+            time.sleep(0.2)
+
     def send(self, command: str, raw: bool = False) -> None:
+        before = self.screen_digest()
         prefix = "RAW:" if raw else "LINE:"
         with CMD.open("a") as f:
             f.write(prefix + command + "\n")
+        self.wait_for_screen_change(before)
         time.sleep(self.settle)
 
     def key(self, name: str) -> None:
+        before = self.screen_digest()
         with CMD.open("a") as f:
             f.write(name + "\n")
+        self.wait_for_screen_change(before)
         time.sleep(self.settle)
 
     def snapshot(self, label: str) -> Path:
