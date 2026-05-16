@@ -1,0 +1,12 @@
+{
+  "installs": [
+    {
+      "timestamp": "20260516_101102",
+      "action": "install",
+      "backup": "output/sndt_lab/backups/SNRDAT.original.20260516_101102.LZW",
+      "installed": "output/sndt_lab/SNRDAT_min_snr4_c0s0.LZW",
+      "target": "game_dos/SNRDAT.LZW"
+    }
+  ],
+  "current_backup": "output/sndt_lab/backups/SNRDAT.original.20260516_101102.LZW"
+}
