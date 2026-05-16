@@ -1,0 +1,15 @@
+{
+  "target": {
+    "snr": 4,
+    "chunk": 0,
+    "subscript": 0,
+    "text_id": 0
+  },
+  "sub_start": 46,
+  "sub_end": 507,
+  "code_start": 74,
+  "code_len": 433,
+  "program_hex": "0c 00 f2",
+  "original_head_hex": "c0 01 cc 00 0f c8 00 00 c7 c0 01 cc 00 0f c8 00 01 c7 c0 02 cc 00 03 c8 00 02 c7 c0 02 cc 00 03",
+  "patched_head_hex": "0c 00 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2"
+}
