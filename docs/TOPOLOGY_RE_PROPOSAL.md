@@ -367,7 +367,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
 | Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
 | Phase 3 最小 SNDT 实验 | 🟡 进行中 | `scripts/build_sndt_lab.py` + `output/sndt_lab/*` | 已生成最小 patch artifact |
-| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + motif text map | `c8_arg` 已 100% 映射到 `.mes` 文本 |
+| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text-bearing motif topology | `topology_v0_motif` 已带文本边 |
 
 ### 已完成提交
 
@@ -414,6 +414,9 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `363bb2c` | Update tracker for motif topology progress | ✅ pushed |
 | `24b709a` | Add SNDT motif text map analyzer | ✅ pushed |
 | `fafe2de` | Export SNDT motif text map | ✅ pushed |
+| `8191679` | Update topology tracker with motif text evidence | ✅ pushed |
+| `3317239` | Add text previews to motif topology exporter | ✅ pushed |
+| `c64ca9c` | Export motif topology with text previews | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -483,8 +486,8 @@ Phase 3 当前结论：
 | 生成 partial disasm | ✅ | `output/sndt_analysis/sndt_disasm_partial.*` |
 | 提取 motif record runs | ✅ | `output/sndt_analysis/sndt_motif_records.*` |
 | 写 motif 结构报告 | ✅ | `docs/SNDT_MOTIF_REPORT.md` |
-| 生成 motif topology v0 JSON | ✅ | `output/sndt_topology/topology_v0_motif.json` |
-| 生成 motif topology v0 DOT | ✅ | `output/sndt_topology/topology_v0_motif.dot` |
+| 生成 motif topology v0 JSON | ✅ | `output/sndt_topology/topology_v0_motif.json`，已含 `records[].text_preview` |
+| 生成 motif topology v0 DOT | ✅ | `output/sndt_topology/topology_v0_motif.dot`，节点已显示文本摘要 |
 | 验证 motif `c8_arg` 到 `.mes` 文本映射 | ✅ | `output/sndt_analysis/sndt_motif_text_map.*`，3449/3449 |
 | 生成 `topology_v1.json` | ⬜ | 执行拓扑，仍缺语义 |
 | 生成 `topology_v1.dot` | ⬜ | 可视化，仍缺语义 |
@@ -493,7 +496,7 @@ Phase 3 当前结论：
 Phase 4 预研当前结论：
 
 ```text
-已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条 motif 记录的真实文本边
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条 motif 记录的真实文本边，并已把文本摘要并入拓扑 JSON/DOT
 未拿到：条件分支语义、变量语义、真实执行拓扑
 ```
 
