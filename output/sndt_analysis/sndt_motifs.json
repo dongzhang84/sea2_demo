@@ -1,0 +1,6421 @@
+{
+  "code_areas": 186,
+  "total_code_bytes": 63801,
+  "c0_cc_c8_c7_hits": 3449,
+  "c0_cc_c8_c7_examples": [
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 8,
+      "offset_hex": "0x0008",
+      "bytes": "c0 01 cc 00 06 c8 00 00 c7",
+      "c0_arg": 1,
+      "cc_arg": 6,
+      "c8_arg": 0
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 36,
+      "offset_hex": "0x0024",
+      "bytes": "c0 01 cc 00 13 c8 00 01 c7",
+      "c0_arg": 1,
+      "cc_arg": 19,
+      "c8_arg": 1
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 45,
+      "offset_hex": "0x002d",
+      "bytes": "c0 02 cc 00 00 c8 00 02 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 2
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 54,
+      "offset_hex": "0x0036",
+      "bytes": "c0 02 cc 00 1f c8 00 03 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 3
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 63,
+      "offset_hex": "0x003f",
+      "bytes": "c0 02 cc 00 1f c8 00 04 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 4
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 72,
+      "offset_hex": "0x0048",
+      "bytes": "c0 01 cc 00 13 c8 00 05 c7",
+      "c0_arg": 1,
+      "cc_arg": 19,
+      "c8_arg": 5
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 81,
+      "offset_hex": "0x0051",
+      "bytes": "c0 02 cc 00 1f c8 00 06 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 6
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 90,
+      "offset_hex": "0x005a",
+      "bytes": "c0 02 cc 00 1f c8 00 07 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 7
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 99,
+      "offset_hex": "0x0063",
+      "bytes": "c0 01 cc 00 13 c8 00 08 c7",
+      "c0_arg": 1,
+      "cc_arg": 19,
+      "c8_arg": 8
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 108,
+      "offset_hex": "0x006c",
+      "bytes": "c0 02 cc 00 1f c8 00 09 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 9
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 117,
+      "offset_hex": "0x0075",
+      "bytes": "c0 02 cc 00 1f c8 00 0a c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 10
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 126,
+      "offset_hex": "0x007e",
+      "bytes": "c0 02 cc 00 1f c8 00 0b c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 11
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 135,
+      "offset_hex": "0x0087",
+      "bytes": "c0 01 cc 00 13 c8 00 0c c7",
+      "c0_arg": 1,
+      "cc_arg": 19,
+      "c8_arg": 12
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 144,
+      "offset_hex": "0x0090",
+      "bytes": "c0 01 cc 00 13 c8 00 0d c7",
+      "c0_arg": 1,
+      "cc_arg": 19,
+      "c8_arg": 13
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 153,
+      "offset_hex": "0x0099",
+      "bytes": "c0 01 cc 00 13 c8 00 0e c7",
+      "c0_arg": 1,
+      "cc_arg": 19,
+      "c8_arg": 14
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 162,
+      "offset_hex": "0x00a2",
+      "bytes": "c0 01 cc 00 13 c8 00 0f c7",
+      "c0_arg": 1,
+      "cc_arg": 19,
+      "c8_arg": 15
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 171,
+      "offset_hex": "0x00ab",
+      "bytes": "c0 01 cc 00 13 c8 00 10 c7",
+      "c0_arg": 1,
+      "cc_arg": 19,
+      "c8_arg": 16
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 180,
+      "offset_hex": "0x00b4",
+      "bytes": "c0 01 cc 00 13 c8 00 11 c7",
+      "c0_arg": 1,
+      "cc_arg": 19,
+      "c8_arg": 17
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 208,
+      "offset_hex": "0x00d0",
+      "bytes": "c0 01 cc 00 06 c8 00 12 c7",
+      "c0_arg": 1,
+      "cc_arg": 6,
+      "c8_arg": 18
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 224,
+      "offset_hex": "0x00e0",
+      "bytes": "c0 01 cc 00 06 c8 00 13 c7",
+      "c0_arg": 1,
+      "cc_arg": 6,
+      "c8_arg": 19
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 233,
+      "offset_hex": "0x00e9",
+      "bytes": "c0 02 cc 00 00 c8 00 14 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 20
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 242,
+      "offset_hex": "0x00f2",
+      "bytes": "c0 01 cc 00 06 c8 00 15 c7",
+      "c0_arg": 1,
+      "cc_arg": 6,
+      "c8_arg": 21
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 258,
+      "offset_hex": "0x0102",
+      "bytes": "c0 02 cc 00 00 c8 00 16 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 22
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 267,
+      "offset_hex": "0x010b",
+      "bytes": "c0 01 cc 00 12 c8 00 17 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 23
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 276,
+      "offset_hex": "0x0114",
+      "bytes": "c0 02 cc 00 00 c8 00 18 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 24
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 285,
+      "offset_hex": "0x011d",
+      "bytes": "c0 01 cc 00 12 c8 00 19 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 25
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 294,
+      "offset_hex": "0x0126",
+      "bytes": "c0 02 cc 00 00 c8 00 1a c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 26
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 303,
+      "offset_hex": "0x012f",
+      "bytes": "c0 01 cc 00 12 c8 00 1b c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 27
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 312,
+      "offset_hex": "0x0138",
+      "bytes": "c0 02 cc 00 00 c8 00 1c c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 28
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 321,
+      "offset_hex": "0x0141",
+      "bytes": "c0 01 cc 00 12 c8 00 1d c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 29
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 330,
+      "offset_hex": "0x014a",
+      "bytes": "c0 02 cc 00 00 c8 00 1e c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 30
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 339,
+      "offset_hex": "0x0153",
+      "bytes": "c0 01 cc 00 12 c8 00 1f c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 31
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 348,
+      "offset_hex": "0x015c",
+      "bytes": "c0 02 cc 00 00 c8 00 20 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 32
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 357,
+      "offset_hex": "0x0165",
+      "bytes": "c0 01 cc 00 12 c8 00 21 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 33
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 366,
+      "offset_hex": "0x016e",
+      "bytes": "c0 02 cc 00 00 c8 00 22 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 34
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 375,
+      "offset_hex": "0x0177",
+      "bytes": "c0 01 cc 00 12 c8 00 23 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 35
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 384,
+      "offset_hex": "0x0180",
+      "bytes": "c0 01 cc 00 12 c8 00 24 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 36
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 393,
+      "offset_hex": "0x0189",
+      "bytes": "c0 02 cc 00 00 c8 00 25 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 37
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 402,
+      "offset_hex": "0x0192",
+      "bytes": "c0 01 cc 00 12 c8 00 26 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 38
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 411,
+      "offset_hex": "0x019b",
+      "bytes": "c0 02 cc 00 00 c8 00 27 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 39
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 420,
+      "offset_hex": "0x01a4",
+      "bytes": "c0 01 cc 00 12 c8 00 28 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 40
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 429,
+      "offset_hex": "0x01ad",
+      "bytes": "c0 02 cc 00 00 c8 00 29 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 41
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 438,
+      "offset_hex": "0x01b6",
+      "bytes": "c0 01 cc 00 12 c8 00 2a c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 42
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 447,
+      "offset_hex": "0x01bf",
+      "bytes": "c0 01 cc 00 12 c8 00 2b c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 43
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 456,
+      "offset_hex": "0x01c8",
+      "bytes": "c0 01 cc 00 12 c8 00 2c c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 44
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 465,
+      "offset_hex": "0x01d1",
+      "bytes": "c0 01 cc 00 12 c8 00 2d c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 45
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 474,
+      "offset_hex": "0x01da",
+      "bytes": "c0 02 cc 00 00 c8 00 2e c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 46
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 483,
+      "offset_hex": "0x01e3",
+      "bytes": "c0 01 cc 00 12 c8 00 2f c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 47
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 492,
+      "offset_hex": "0x01ec",
+      "bytes": "c0 01 cc 00 12 c8 00 30 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 48
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 501,
+      "offset_hex": "0x01f5",
+      "bytes": "c0 01 cc 00 12 c8 00 31 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 49
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 513,
+      "offset_hex": "0x0201",
+      "bytes": "c0 01 cc 00 12 c8 00 32 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 50
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 522,
+      "offset_hex": "0x020a",
+      "bytes": "c0 02 cc 00 1f c8 00 33 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 51
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 531,
+      "offset_hex": "0x0213",
+      "bytes": "c0 01 cc 00 12 c8 00 34 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 52
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 540,
+      "offset_hex": "0x021c",
+      "bytes": "c0 02 cc 00 1f c8 00 35 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 53
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 549,
+      "offset_hex": "0x0225",
+      "bytes": "c0 01 cc 00 12 c8 00 36 c7",
+      "c0_arg": 1,
+      "cc_arg": 18,
+      "c8_arg": 54
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 576,
+      "offset_hex": "0x0240",
+      "bytes": "c0 01 cc 00 61 c8 00 37 c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 55
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 589,
+      "offset_hex": "0x024d",
+      "bytes": "c0 01 cc 00 61 c8 00 38 c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 56
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 598,
+      "offset_hex": "0x0256",
+      "bytes": "c0 01 cc 00 62 c8 00 39 c7",
+      "c0_arg": 1,
+      "cc_arg": 98,
+      "c8_arg": 57
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 607,
+      "offset_hex": "0x025f",
+      "bytes": "c0 01 cc 00 61 c8 00 3a c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 58
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 616,
+      "offset_hex": "0x0268",
+      "bytes": "c0 02 cc 00 00 c8 00 3b c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 59
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 628,
+      "offset_hex": "0x0274",
+      "bytes": "c0 01 cc 00 61 c8 00 3c c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 60
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 637,
+      "offset_hex": "0x027d",
+      "bytes": "c0 02 cc 00 00 c8 00 3d c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 61
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 646,
+      "offset_hex": "0x0286",
+      "bytes": "c0 01 cc 00 62 c8 00 3e c7",
+      "c0_arg": 1,
+      "cc_arg": 98,
+      "c8_arg": 62
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 675,
+      "offset_hex": "0x02a3",
+      "bytes": "c0 01 cc 00 62 c8 00 3f c7",
+      "c0_arg": 1,
+      "cc_arg": 98,
+      "c8_arg": 63
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 693,
+      "offset_hex": "0x02b5",
+      "bytes": "c0 01 cc 00 61 c8 00 40 c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 64
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 702,
+      "offset_hex": "0x02be",
+      "bytes": "c0 01 cc 00 62 c8 00 41 c7",
+      "c0_arg": 1,
+      "cc_arg": 98,
+      "c8_arg": 65
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 711,
+      "offset_hex": "0x02c7",
+      "bytes": "c0 02 cc 00 00 c8 00 42 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 66
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 720,
+      "offset_hex": "0x02d0",
+      "bytes": "c0 02 cc 00 00 c8 00 43 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 67
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 729,
+      "offset_hex": "0x02d9",
+      "bytes": "c0 01 cc 00 62 c8 00 44 c7",
+      "c0_arg": 1,
+      "cc_arg": 98,
+      "c8_arg": 68
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 738,
+      "offset_hex": "0x02e2",
+      "bytes": "c0 01 cc 00 61 c8 00 45 c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 69
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 747,
+      "offset_hex": "0x02eb",
+      "bytes": "c0 01 cc 00 61 c8 00 46 c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 70
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 756,
+      "offset_hex": "0x02f4",
+      "bytes": "c0 01 cc 00 1f c8 00 47 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 71
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 765,
+      "offset_hex": "0x02fd",
+      "bytes": "c0 01 cc 00 61 c8 00 48 c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 72
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 774,
+      "offset_hex": "0x0306",
+      "bytes": "c0 01 cc 00 61 c8 00 49 c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 73
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 783,
+      "offset_hex": "0x030f",
+      "bytes": "c0 02 cc 00 00 c8 00 4a c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 74
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 792,
+      "offset_hex": "0x0318",
+      "bytes": "c0 01 cc 00 61 c8 00 4b c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 75
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 801,
+      "offset_hex": "0x0321",
+      "bytes": "c0 01 cc 00 61 c8 00 4c c7",
+      "c0_arg": 1,
+      "cc_arg": 97,
+      "c8_arg": 76
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 810,
+      "offset_hex": "0x032a",
+      "bytes": "c0 02 cc 00 00 c8 00 4d c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 77
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 825,
+      "offset_hex": "0x0339",
+      "bytes": "c0 01 cc 00 1f c8 00 4e c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 78
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 834,
+      "offset_hex": "0x0342",
+      "bytes": "c0 01 cc 00 1f c8 00 4f c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 79
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 843,
+      "offset_hex": "0x034b",
+      "bytes": "c0 02 cc 00 00 c8 00 50 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 80
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 852,
+      "offset_hex": "0x0354",
+      "bytes": "c0 01 cc 00 62 c8 00 51 c7",
+      "c0_arg": 1,
+      "cc_arg": 98,
+      "c8_arg": 81
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 861,
+      "offset_hex": "0x035d",
+      "bytes": "c0 02 cc 00 00 c8 00 52 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 82
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 871,
+      "offset_hex": "0x0367",
+      "bytes": "c0 01 cc 00 62 c8 00 53 c7",
+      "c0_arg": 1,
+      "cc_arg": 98,
+      "c8_arg": 83
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 880,
+      "offset_hex": "0x0370",
+      "bytes": "c0 01 cc 00 1f c8 00 54 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 84
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 889,
+      "offset_hex": "0x0379",
+      "bytes": "c0 01 cc 00 62 c8 00 55 c7",
+      "c0_arg": 1,
+      "cc_arg": 98,
+      "c8_arg": 85
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 898,
+      "offset_hex": "0x0382",
+      "bytes": "c0 02 cc 00 00 c8 00 56 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 86
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 978,
+      "offset_hex": "0x03d2",
+      "bytes": "c0 02 cc 00 00 c8 00 5b c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 91
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 999,
+      "offset_hex": "0x03e7",
+      "bytes": "c0 02 cc 00 00 c8 00 5e c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 94
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1048,
+      "offset_hex": "0x0418",
+      "bytes": "c0 02 cc 00 00 c8 00 62 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 98
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1068,
+      "offset_hex": "0x042c",
+      "bytes": "c0 02 cc 00 00 c8 00 63 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 99
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1077,
+      "offset_hex": "0x0435",
+      "bytes": "c0 02 cc 00 00 c8 00 64 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 100
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1108,
+      "offset_hex": "0x0454",
+      "bytes": "c0 02 cc 00 00 c8 00 66 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 102
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1137,
+      "offset_hex": "0x0471",
+      "bytes": "c0 02 cc 00 00 c8 00 69 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 105
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1156,
+      "offset_hex": "0x0484",
+      "bytes": "c0 02 cc 00 00 c8 00 6b c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 107
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1189,
+      "offset_hex": "0x04a5",
+      "bytes": "c0 02 cc 00 20 c8 00 70 c7",
+      "c0_arg": 2,
+      "cc_arg": 32,
+      "c8_arg": 112
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1216,
+      "offset_hex": "0x04c0",
+      "bytes": "c0 02 cc 00 00 c8 00 74 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 116
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1225,
+      "offset_hex": "0x04c9",
+      "bytes": "c0 02 cc 00 00 c8 00 75 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 117
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1234,
+      "offset_hex": "0x04d2",
+      "bytes": "c0 02 cc 00 20 c8 00 76 c7",
+      "c0_arg": 2,
+      "cc_arg": 32,
+      "c8_arg": 118
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1243,
+      "offset_hex": "0x04db",
+      "bytes": "c0 02 cc 00 20 c8 00 77 c7",
+      "c0_arg": 2,
+      "cc_arg": 32,
+      "c8_arg": 119
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1252,
+      "offset_hex": "0x04e4",
+      "bytes": "c0 02 cc 00 20 c8 00 78 c7",
+      "c0_arg": 2,
+      "cc_arg": 32,
+      "c8_arg": 120
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1261,
+      "offset_hex": "0x04ed",
+      "bytes": "c0 02 cc 00 00 c8 00 79 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 121
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1272,
+      "offset_hex": "0x04f8",
+      "bytes": "c0 02 cc 00 1f c8 00 7a c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 122
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1281,
+      "offset_hex": "0x0501",
+      "bytes": "c0 02 cc 00 00 c8 00 7b c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 123
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1290,
+      "offset_hex": "0x050a",
+      "bytes": "c0 02 cc 00 1f c8 00 7c c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 124
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1345,
+      "offset_hex": "0x0541",
+      "bytes": "c0 02 cc 00 00 c8 00 7e c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 126
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1364,
+      "offset_hex": "0x0554",
+      "bytes": "c0 02 cc 00 1f c8 00 80 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 128
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1428,
+      "offset_hex": "0x0594",
+      "bytes": "c0 01 cc 00 1f c8 00 87 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 135
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1454,
+      "offset_hex": "0x05ae",
+      "bytes": "c0 02 cc 00 00 c8 00 89 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 137
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1467,
+      "offset_hex": "0x05bb",
+      "bytes": "c0 02 cc 00 00 c8 00 8a c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 138
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1492,
+      "offset_hex": "0x05d4",
+      "bytes": "c0 01 cc 00 1f c8 00 8b c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 139
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1505,
+      "offset_hex": "0x05e1",
+      "bytes": "c0 01 cc 00 1f c8 00 8c c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 140
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1518,
+      "offset_hex": "0x05ee",
+      "bytes": "c0 01 cc 00 1f c8 00 8d c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 141
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1534,
+      "offset_hex": "0x05fe",
+      "bytes": "c0 01 cc 00 1f c8 00 8e c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 142
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1543,
+      "offset_hex": "0x0607",
+      "bytes": "c0 02 cc 00 00 c8 00 8f c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 143
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1552,
+      "offset_hex": "0x0610",
+      "bytes": "c0 01 cc 00 1f c8 00 90 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 144
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1561,
+      "offset_hex": "0x0619",
+      "bytes": "c0 02 cc 00 00 c8 00 91 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 145
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1570,
+      "offset_hex": "0x0622",
+      "bytes": "c0 01 cc 00 1f c8 00 92 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 146
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1579,
+      "offset_hex": "0x062b",
+      "bytes": "c0 01 cc 00 1f c8 00 93 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 147
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1588,
+      "offset_hex": "0x0634",
+      "bytes": "c0 02 cc 00 00 c8 00 94 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 148
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1597,
+      "offset_hex": "0x063d",
+      "bytes": "c0 01 cc 00 1f c8 00 95 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 149
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1606,
+      "offset_hex": "0x0646",
+      "bytes": "c0 01 cc 00 1f c8 00 96 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 150
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1615,
+      "offset_hex": "0x064f",
+      "bytes": "c0 01 cc 00 20 c8 00 97 c7",
+      "c0_arg": 1,
+      "cc_arg": 32,
+      "c8_arg": 151
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1624,
+      "offset_hex": "0x0658",
+      "bytes": "c0 01 cc 00 1f c8 00 98 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 152
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1633,
+      "offset_hex": "0x0661",
+      "bytes": "c0 02 cc 00 00 c8 00 99 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 153
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1642,
+      "offset_hex": "0x066a",
+      "bytes": "c0 01 cc 00 20 c8 00 9a c7",
+      "c0_arg": 1,
+      "cc_arg": 32,
+      "c8_arg": 154
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1651,
+      "offset_hex": "0x0673",
+      "bytes": "c0 02 cc 00 00 c8 00 9b c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 155
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1660,
+      "offset_hex": "0x067c",
+      "bytes": "c0 01 cc 00 20 c8 00 9c c7",
+      "c0_arg": 1,
+      "cc_arg": 32,
+      "c8_arg": 156
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1669,
+      "offset_hex": "0x0685",
+      "bytes": "c0 01 cc 00 20 c8 00 9d c7",
+      "c0_arg": 1,
+      "cc_arg": 32,
+      "c8_arg": 157
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1691,
+      "offset_hex": "0x069b",
+      "bytes": "c0 01 cc 00 1f c8 00 9e c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 158
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1706,
+      "offset_hex": "0x06aa",
+      "bytes": "c0 02 cc 00 00 c8 00 9f c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 159
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1736,
+      "offset_hex": "0x06c8",
+      "bytes": "c0 02 cc 00 00 c8 00 a0 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 160
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1753,
+      "offset_hex": "0x06d9",
+      "bytes": "c0 01 cc 00 20 c8 00 a1 c7",
+      "c0_arg": 1,
+      "cc_arg": 32,
+      "c8_arg": 161
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1762,
+      "offset_hex": "0x06e2",
+      "bytes": "c0 01 cc 00 20 c8 00 a2 c7",
+      "c0_arg": 1,
+      "cc_arg": 32,
+      "c8_arg": 162
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1775,
+      "offset_hex": "0x06ef",
+      "bytes": "c0 02 cc 00 00 c8 00 a3 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 163
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1784,
+      "offset_hex": "0x06f8",
+      "bytes": "c0 01 cc 00 20 c8 00 a4 c7",
+      "c0_arg": 1,
+      "cc_arg": 32,
+      "c8_arg": 164
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1793,
+      "offset_hex": "0x0701",
+      "bytes": "c0 02 cc 00 00 c8 00 a5 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 165
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1808,
+      "offset_hex": "0x0710",
+      "bytes": "c0 01 cc 00 1f c8 00 a6 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 166
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 1901,
+      "offset_hex": "0x076d",
+      "bytes": "c0 02 cc 00 00 c8 00 af c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 175
+    },
+    {
+      "script": "Snr1.chunk0.sub0",
+      "offset": 2030,
+      "offset_hex": "0x07ee",
+      "bytes": "c0 02 cc 00 00 c8 00 ba c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 186
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 0,
+      "offset_hex": "0x0000",
+      "bytes": "c0 02 cc 00 1f c8 00 bd c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 189
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 9,
+      "offset_hex": "0x0009",
+      "bytes": "c0 01 cc 00 00 c8 00 be c7",
+      "c0_arg": 1,
+      "cc_arg": 0,
+      "c8_arg": 190
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 18,
+      "offset_hex": "0x0012",
+      "bytes": "c0 02 cc 00 1f c8 00 bf c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 191
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 27,
+      "offset_hex": "0x001b",
+      "bytes": "c0 02 cc 00 21 c8 00 c0 c7",
+      "c0_arg": 2,
+      "cc_arg": 33,
+      "c8_arg": 192
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 36,
+      "offset_hex": "0x0024",
+      "bytes": "c0 02 cc 00 1f c8 00 c1 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 193
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 45,
+      "offset_hex": "0x002d",
+      "bytes": "c0 01 cc 00 00 c8 00 c2 c7",
+      "c0_arg": 1,
+      "cc_arg": 0,
+      "c8_arg": 194
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 54,
+      "offset_hex": "0x0036",
+      "bytes": "c0 02 cc 00 21 c8 00 c3 c7",
+      "c0_arg": 2,
+      "cc_arg": 33,
+      "c8_arg": 195
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 63,
+      "offset_hex": "0x003f",
+      "bytes": "c0 01 cc 00 00 c8 00 c4 c7",
+      "c0_arg": 1,
+      "cc_arg": 0,
+      "c8_arg": 196
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 72,
+      "offset_hex": "0x0048",
+      "bytes": "c0 02 cc 00 21 c8 00 c5 c7",
+      "c0_arg": 2,
+      "cc_arg": 33,
+      "c8_arg": 197
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 81,
+      "offset_hex": "0x0051",
+      "bytes": "c0 01 cc 00 00 c8 00 c6 c7",
+      "c0_arg": 1,
+      "cc_arg": 0,
+      "c8_arg": 198
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 90,
+      "offset_hex": "0x005a",
+      "bytes": "c0 02 cc 00 1f c8 00 c7 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 199
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 99,
+      "offset_hex": "0x0063",
+      "bytes": "c0 01 cc 00 00 c8 00 c8 c7",
+      "c0_arg": 1,
+      "cc_arg": 0,
+      "c8_arg": 200
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 108,
+      "offset_hex": "0x006c",
+      "bytes": "c0 02 cc 00 20 c8 00 c9 c7",
+      "c0_arg": 2,
+      "cc_arg": 32,
+      "c8_arg": 201
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 117,
+      "offset_hex": "0x0075",
+      "bytes": "c0 02 cc 00 1f c8 00 ca c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 202
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 128,
+      "offset_hex": "0x0080",
+      "bytes": "c0 02 cc 00 21 c8 00 cb c7",
+      "c0_arg": 2,
+      "cc_arg": 33,
+      "c8_arg": 203
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 137,
+      "offset_hex": "0x0089",
+      "bytes": "c0 01 cc 00 00 c8 00 cc c7",
+      "c0_arg": 1,
+      "cc_arg": 0,
+      "c8_arg": 204
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 146,
+      "offset_hex": "0x0092",
+      "bytes": "c0 02 cc 00 21 c8 00 cd c7",
+      "c0_arg": 2,
+      "cc_arg": 33,
+      "c8_arg": 205
+    },
+    {
+      "script": "Snr1.chunk0.sub1",
+      "offset": 157,
+      "offset_hex": "0x009d",
+      "bytes": "c0 01 cc 00 06 c8 00 ce c7",
+      "c0_arg": 1,
+      "cc_arg": 6,
+      "c8_arg": 206
+    },
+    {
+      "script": "Snr1.chunk1.sub0",
+      "offset": 12,
+      "offset_hex": "0x000c",
+      "bytes": "c0 01 cc 00 13 c8 00 cf c7",
+      "c0_arg": 1,
+      "cc_arg": 19,
+      "c8_arg": 207
+    },
+    {
+      "script": "Snr1.chunk1.sub0",
+      "offset": 21,
+      "offset_hex": "0x0015",
+      "bytes": "c0 02 cc 00 00 c8 00 d0 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 208
+    },
+    {
+      "script": "Snr1.chunk1.sub0",
+      "offset": 34,
+      "offset_hex": "0x0022",
+      "bytes": "c0 01 cc 00 06 c8 00 d1 c7",
+      "c0_arg": 1,
+      "cc_arg": 6,
+      "c8_arg": 209
+    },
+    {
+      "script": "Snr1.chunk1.sub0",
+      "offset": 43,
+      "offset_hex": "0x002b",
+      "bytes": "c0 02 cc 00 00 c8 00 d2 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 210
+    },
+    {
+      "script": "Snr1.chunk1.sub0",
+      "offset": 66,
+      "offset_hex": "0x0042",
+      "bytes": "c0 01 cc 00 06 c8 00 d3 c7",
+      "c0_arg": 1,
+      "cc_arg": 6,
+      "c8_arg": 211
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 0,
+      "offset_hex": "0x0000",
+      "bytes": "c0 01 cc 00 06 c8 00 d4 c7",
+      "c0_arg": 1,
+      "cc_arg": 6,
+      "c8_arg": 212
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 42,
+      "offset_hex": "0x002a",
+      "bytes": "c0 01 cc 00 1f c8 00 d5 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 213
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 51,
+      "offset_hex": "0x0033",
+      "bytes": "c0 02 cc 00 00 c8 00 d6 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 214
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 71,
+      "offset_hex": "0x0047",
+      "bytes": "c0 01 cc 00 1f c8 00 d7 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 215
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 80,
+      "offset_hex": "0x0050",
+      "bytes": "c0 02 cc 00 00 c8 00 d8 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 216
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 94,
+      "offset_hex": "0x005e",
+      "bytes": "c0 02 cc 00 1f c8 00 d9 c7",
+      "c0_arg": 2,
+      "cc_arg": 31,
+      "c8_arg": 217
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 108,
+      "offset_hex": "0x006c",
+      "bytes": "c0 01 cc 00 00 c8 00 da c7",
+      "c0_arg": 1,
+      "cc_arg": 0,
+      "c8_arg": 218
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 135,
+      "offset_hex": "0x0087",
+      "bytes": "c0 01 cc 00 1f c8 00 db c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 219
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 144,
+      "offset_hex": "0x0090",
+      "bytes": "c0 02 cc 00 00 c8 00 dc c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 220
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 153,
+      "offset_hex": "0x0099",
+      "bytes": "c0 01 cc 00 1f c8 00 dd c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 221
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 162,
+      "offset_hex": "0x00a2",
+      "bytes": "c0 01 cc 00 1f c8 00 de c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 222
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 171,
+      "offset_hex": "0x00ab",
+      "bytes": "c0 02 cc 00 00 c8 00 df c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 223
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 180,
+      "offset_hex": "0x00b4",
+      "bytes": "c0 02 cc 00 00 c8 00 e0 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 224
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 189,
+      "offset_hex": "0x00bd",
+      "bytes": "c0 01 cc 00 20 c8 00 e1 c7",
+      "c0_arg": 1,
+      "cc_arg": 32,
+      "c8_arg": 225
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 198,
+      "offset_hex": "0x00c6",
+      "bytes": "c0 01 cc 00 1f c8 00 e2 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 226
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 207,
+      "offset_hex": "0x00cf",
+      "bytes": "c0 02 cc 00 00 c8 00 e3 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 227
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 216,
+      "offset_hex": "0x00d8",
+      "bytes": "c0 02 cc 00 00 c8 00 e4 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 228
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 225,
+      "offset_hex": "0x00e1",
+      "bytes": "c0 02 cc 00 00 c8 00 e5 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 229
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 234,
+      "offset_hex": "0x00ea",
+      "bytes": "c0 01 cc 00 1f c8 00 e6 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 230
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 243,
+      "offset_hex": "0x00f3",
+      "bytes": "c0 02 cc 00 00 c8 00 e7 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 231
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 269,
+      "offset_hex": "0x010d",
+      "bytes": "c0 01 cc 00 1f c8 00 e8 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 232
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 278,
+      "offset_hex": "0x0116",
+      "bytes": "c0 01 cc 00 1f c8 00 e9 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 233
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 287,
+      "offset_hex": "0x011f",
+      "bytes": "c0 02 cc 00 00 c8 00 ea c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 234
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 296,
+      "offset_hex": "0x0128",
+      "bytes": "c0 01 cc 00 1f c8 00 eb c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 235
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 305,
+      "offset_hex": "0x0131",
+      "bytes": "c0 01 cc 00 1f c8 00 ec c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 236
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 314,
+      "offset_hex": "0x013a",
+      "bytes": "c0 01 cc 00 1f c8 00 ed c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 237
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 323,
+      "offset_hex": "0x0143",
+      "bytes": "c0 02 cc 00 00 c8 00 ee c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 238
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 332,
+      "offset_hex": "0x014c",
+      "bytes": "c0 01 cc 00 1f c8 00 ef c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 239
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 341,
+      "offset_hex": "0x0155",
+      "bytes": "c0 01 cc 00 1f c8 00 f0 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 240
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 350,
+      "offset_hex": "0x015e",
+      "bytes": "c0 02 cc 00 00 c8 00 f1 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 241
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 359,
+      "offset_hex": "0x0167",
+      "bytes": "c0 01 cc 00 21 c8 00 f2 c7",
+      "c0_arg": 1,
+      "cc_arg": 33,
+      "c8_arg": 242
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 368,
+      "offset_hex": "0x0170",
+      "bytes": "c0 02 cc 00 00 c8 00 f3 c7",
+      "c0_arg": 2,
+      "cc_arg": 0,
+      "c8_arg": 243
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 377,
+      "offset_hex": "0x0179",
+      "bytes": "c0 01 cc 00 21 c8 00 f4 c7",
+      "c0_arg": 1,
+      "cc_arg": 33,
+      "c8_arg": 244
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 386,
+      "offset_hex": "0x0182",
+      "bytes": "c0 01 cc 00 21 c8 00 f5 c7",
+      "c0_arg": 1,
+      "cc_arg": 33,
+      "c8_arg": 245
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 395,
+      "offset_hex": "0x018b",
+      "bytes": "c0 01 cc 00 21 c8 00 f6 c7",
+      "c0_arg": 1,
+      "cc_arg": 33,
+      "c8_arg": 246
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 404,
+      "offset_hex": "0x0194",
+      "bytes": "c0 01 cc 00 21 c8 00 f7 c7",
+      "c0_arg": 1,
+      "cc_arg": 33,
+      "c8_arg": 247
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "offset": 413,
+      "offset_hex": "0x019d",
+      "bytes": "c0 01 cc 00 1f c8 00 f8 c7",
+      "c0_arg": 1,
+      "cc_arg": 31,
+      "c8_arg": 248
+    }
+  ],
+  "top_3grams": [
+    {
+      "bytes": "c0 01 cc",
+      "count": 1734,
+      "example": "Snr1.chunk0.sub0@0x0008"
+    },
+    {
+      "bytes": "01 cc 00",
+      "count": 1734,
+      "example": "Snr1.chunk0.sub0@0x0009"
+    },
+    {
+      "bytes": "c0 02 cc",
+      "count": 1721,
+      "example": "Snr1.chunk0.sub0@0x002d"
+    },
+    {
+      "bytes": "02 cc 00",
+      "count": 1721,
+      "example": "Snr1.chunk0.sub0@0x002e"
+    },
+    {
+      "bytes": "c7 c0 02",
+      "count": 1450,
+      "example": "Snr1.chunk0.sub0@0x002c"
+    },
+    {
+      "bytes": "c7 c0 01",
+      "count": 1233,
+      "example": "Snr0.chunk6.sub1@0x00ec"
+    },
+    {
+      "bytes": "c0 00 c8",
+      "count": 687,
+      "example": "Snr0.chunk0.sub1@0x00e1"
+    },
+    {
+      "bytes": "00 c8 00",
+      "count": 450,
+      "example": "Snr0.chunk0.sub1@0x00e2"
+    },
+    {
+      "bytes": "00 00 c8",
+      "count": 425,
+      "example": "Snr1.chunk0.sub0@0x0030"
+    },
+    {
+      "bytes": "cc 00 00",
+      "count": 423,
+      "example": "Snr1.chunk0.sub0@0x002f"
+    },
+    {
+      "bytes": "c7 c0 00",
+      "count": 389,
+      "example": "Snr0.chunk0.sub1@0x00e6"
+    },
+    {
+      "bytes": "00 01 c8",
+      "count": 377,
+      "example": "Snr1.chunk1.sub1@0x02b4"
+    },
+    {
+      "bytes": "cc 00 01",
+      "count": 376,
+      "example": "Snr1.chunk1.sub1@0x02b3"
+    },
+    {
+      "bytes": "cc 00 05",
+      "count": 317,
+      "example": "Snr1.chunk2.sub6@0x003b"
+    },
+    {
+      "bytes": "00 05 c8",
+      "count": 317,
+      "example": "Snr1.chunk2.sub6@0x003c"
+    },
+    {
+      "bytes": "00 c8 01",
+      "count": 254,
+      "example": "Snr1.chunk1.sub1@0x01e9"
+    },
+    {
+      "bytes": "0c 3f 00",
+      "count": 231,
+      "example": "Snr0.chunk1.sub0@0x0087"
+    },
+    {
+      "bytes": "3f 00 01",
+      "count": 231,
+      "example": "Snr0.chunk1.sub0@0x0088"
+    },
+    {
+      "bytes": "cc 00 22",
+      "count": 227,
+      "example": "Snr2.chunk0.sub0@0x0044"
+    },
+    {
+      "bytes": "00 22 c8",
+      "count": 227,
+      "example": "Snr2.chunk0.sub0@0x0045"
+    },
+    {
+      "bytes": "00 c8 02",
+      "count": 198,
+      "example": "Snr1.chunk2.sub6@0x010c"
+    },
+    {
+      "bytes": "cc 00 1f",
+      "count": 197,
+      "example": "Snr1.chunk0.sub0@0x0038"
+    },
+    {
+      "bytes": "00 1f c8",
+      "count": 197,
+      "example": "Snr1.chunk0.sub0@0x0039"
+    },
+    {
+      "bytes": "cc 00 02",
+      "count": 197,
+      "example": "Snr2.chunk5.sub5@0x0021"
+    },
+    {
+      "bytes": "00 02 c8",
+      "count": 197,
+      "example": "Snr2.chunk5.sub5@0x0022"
+    },
+    {
+      "bytes": "cc 00 04",
+      "count": 188,
+      "example": "Snr1.chunk3.sub5@0x0031"
+    },
+    {
+      "bytes": "00 04 c8",
+      "count": 188,
+      "example": "Snr1.chunk3.sub5@0x0032"
+    },
+    {
+      "bytes": "00 00 05",
+      "count": 187,
+      "example": "Snr0.chunk0.sub0@0x0007"
+    },
+    {
+      "bytes": "00 c8 03",
+      "count": 158,
+      "example": "Snr1.chunk3.sub7@0x0057"
+    },
+    {
+      "bytes": "05 01 00",
+      "count": 157,
+      "example": "Snr1.chunk0.sub0@0x0518"
+    },
+    {
+      "bytes": "c7 f8 f2",
+      "count": 151,
+      "example": "Snr1.chunk0.sub0@0x03b3"
+    },
+    {
+      "bytes": "00 01 c0",
+      "count": 149,
+      "example": "Snr0.chunk1.sub0@0x0089"
+    },
+    {
+      "bytes": "cc 00 24",
+      "count": 144,
+      "example": "Snr2.chunk5.sub5@0x007b"
+    },
+    {
+      "bytes": "00 24 c8",
+      "count": 144,
+      "example": "Snr2.chunk5.sub5@0x007c"
+    },
+    {
+      "bytes": "c0 01 cd",
+      "count": 126,
+      "example": "Snr0.chunk6.sub1@0x00e5"
+    },
+    {
+      "bytes": "01 dc 00",
+      "count": 112,
+      "example": "Snr1.chunk0.sub0@0x0520"
+    },
+    {
+      "bytes": "11 00 01",
+      "count": 110,
+      "example": "Snr1.chunk0.sub0@0x051e"
+    },
+    {
+      "bytes": "05 c8 02",
+      "count": 107,
+      "example": "Snr1.chunk2.sub6@0x00c4"
+    },
+    {
+      "bytes": "00 01 dc",
+      "count": 105,
+      "example": "Snr1.chunk0.sub0@0x051f"
+    },
+    {
+      "bytes": "01 00 6d",
+      "count": 103,
+      "example": "Snr1.chunk1.sub0@0x005b"
+    },
+    {
+      "bytes": "00 6d 01",
+      "count": 103,
+      "example": "Snr1.chunk1.sub0@0x005c"
+    },
+    {
+      "bytes": "01 cd 32",
+      "count": 102,
+      "example": "Snr0.chunk6.sub1@0x00e6"
+    },
+    {
+      "bytes": "01 c8 01",
+      "count": 101,
+      "example": "Snr1.chunk1.sub1@0x02b5"
+    },
+    {
+      "bytes": "05 0a 09",
+      "count": 100,
+      "example": "Snr0.chunk0.sub0@0x0009"
+    },
+    {
+      "bytes": "cc 00 23",
+      "count": 100,
+      "example": "Snr2.chunk0.sub1@0x0081"
+    },
+    {
+      "bytes": "00 23 c8",
+      "count": 100,
+      "example": "Snr2.chunk0.sub1@0x0082"
+    },
+    {
+      "bytes": "04 c8 00",
+      "count": 100,
+      "example": "Snr5.chunk0.sub0@0x000e"
+    },
+    {
+      "bytes": "01 00 00",
+      "count": 99,
+      "example": "Snr1.chunk1.sub0@0x0057"
+    },
+    {
+      "bytes": "dc 00 04",
+      "count": 98,
+      "example": "Snr4.chunk0.sub0@0x0149"
+    },
+    {
+      "bytes": "d0 03 08",
+      "count": 96,
+      "example": "Snr1.chunk3.sub7@0x00d4"
+    }
+  ],
+  "top_4grams": [
+    {
+      "bytes": "c0 01 cc 00",
+      "count": 1734,
+      "example": "Snr1.chunk0.sub0@0x0008"
+    },
+    {
+      "bytes": "c0 02 cc 00",
+      "count": 1721,
+      "example": "Snr1.chunk0.sub0@0x002d"
+    },
+    {
+      "bytes": "c7 c0 02 cc",
+      "count": 1450,
+      "example": "Snr1.chunk0.sub0@0x002c"
+    },
+    {
+      "bytes": "c7 c0 01 cc",
+      "count": 1210,
+      "example": "Snr1.chunk0.sub0@0x0047"
+    },
+    {
+      "bytes": "cc 00 00 c8",
+      "count": 423,
+      "example": "Snr1.chunk0.sub0@0x002f"
+    },
+    {
+      "bytes": "c7 c0 00 c8",
+      "count": 389,
+      "example": "Snr0.chunk0.sub1@0x00e6"
+    },
+    {
+      "bytes": "cc 00 01 c8",
+      "count": 376,
+      "example": "Snr1.chunk1.sub1@0x02b3"
+    },
+    {
+      "bytes": "c0 00 c8 00",
+      "count": 367,
+      "example": "Snr0.chunk0.sub1@0x00e1"
+    },
+    {
+      "bytes": "02 cc 00 00",
+      "count": 360,
+      "example": "Snr1.chunk0.sub0@0x002e"
+    },
+    {
+      "bytes": "cc 00 05 c8",
+      "count": 317,
+      "example": "Snr1.chunk2.sub6@0x003b"
+    },
+    {
+      "bytes": "02 cc 00 01",
+      "count": 283,
+      "example": "Snr1.chunk1.sub1@0x02b2"
+    },
+    {
+      "bytes": "02 cc 00 05",
+      "count": 276,
+      "example": "Snr6.chunk0.sub0@0x001b"
+    },
+    {
+      "bytes": "0c 3f 00 01",
+      "count": 231,
+      "example": "Snr0.chunk1.sub0@0x0087"
+    },
+    {
+      "bytes": "cc 00 22 c8",
+      "count": 227,
+      "example": "Snr2.chunk0.sub0@0x0044"
+    },
+    {
+      "bytes": "cc 00 1f c8",
+      "count": 197,
+      "example": "Snr1.chunk0.sub0@0x0038"
+    },
+    {
+      "bytes": "cc 00 02 c8",
+      "count": 197,
+      "example": "Snr2.chunk5.sub5@0x0021"
+    },
+    {
+      "bytes": "cc 00 04 c8",
+      "count": 188,
+      "example": "Snr1.chunk3.sub5@0x0031"
+    },
+    {
+      "bytes": "02 cc 00 02",
+      "count": 179,
+      "example": "Snr3.chunk0.sub0@0x0015"
+    },
+    {
+      "bytes": "01 cc 00 22",
+      "count": 161,
+      "example": "Snr2.chunk0.sub0@0x0043"
+    },
+    {
+      "bytes": "c0 00 c8 01",
+      "count": 159,
+      "example": "Snr1.chunk1.sub1@0x01ee"
+    },
+    {
+      "bytes": "cc 00 24 c8",
+      "count": 144,
+      "example": "Snr2.chunk5.sub5@0x007b"
+    },
+    {
+      "bytes": "3f 00 01 c0",
+      "count": 143,
+      "example": "Snr0.chunk1.sub0@0x0088"
+    },
+    {
+      "bytes": "02 cc 00 04",
+      "count": 124,
+      "example": "Snr1.chunk3.sub14@0x0056"
+    },
+    {
+      "bytes": "01 cc 00 24",
+      "count": 117,
+      "example": "Snr2.chunk5.sub5@0x007a"
+    },
+    {
+      "bytes": "00 05 c8 02",
+      "count": 107,
+      "example": "Snr1.chunk2.sub6@0x00c3"
+    },
+    {
+      "bytes": "c0 00 c8 02",
+      "count": 106,
+      "example": "Snr1.chunk2.sub7@0x0016"
+    },
+    {
+      "bytes": "00 00 c8 03",
+      "count": 105,
+      "example": "Snr1.chunk3.sub7@0x0056"
+    },
+    {
+      "bytes": "00 01 dc 00",
+      "count": 103,
+      "example": "Snr1.chunk0.sub0@0x051f"
+    },
+    {
+      "bytes": "01 00 6d 01",
+      "count": 103,
+      "example": "Snr1.chunk1.sub0@0x005b"
+    },
+    {
+      "bytes": "c0 01 cd 32",
+      "count": 102,
+      "example": "Snr0.chunk6.sub1@0x00e5"
+    },
+    {
+      "bytes": "01 cc 00 1f",
+      "count": 102,
+      "example": "Snr1.chunk0.sub0@0x02f5"
+    },
+    {
+      "bytes": "05 01 00 6d",
+      "count": 102,
+      "example": "Snr1.chunk1.sub0@0x005a"
+    },
+    {
+      "bytes": "00 01 c8 01",
+      "count": 101,
+      "example": "Snr1.chunk1.sub1@0x02b4"
+    },
+    {
+      "bytes": "cc 00 23 c8",
+      "count": 100,
+      "example": "Snr2.chunk0.sub1@0x0081"
+    },
+    {
+      "bytes": "00 04 c8 00",
+      "count": 100,
+      "example": "Snr5.chunk0.sub0@0x000d"
+    },
+    {
+      "bytes": "d0 03 08 01",
+      "count": 96,
+      "example": "Snr1.chunk3.sub7@0x00d4"
+    },
+    {
+      "bytes": "00 22 c8 00",
+      "count": 96,
+      "example": "Snr2.chunk0.sub0@0x0045"
+    },
+    {
+      "bytes": "01 cd 32 c8",
+      "count": 95,
+      "example": "Snr0.chunk6.sub1@0x00e6"
+    },
+    {
+      "bytes": "cd 32 c8 00",
+      "count": 95,
+      "example": "Snr0.chunk6.sub1@0x00e7"
+    },
+    {
+      "bytes": "02 cc 00 1f",
+      "count": 95,
+      "example": "Snr1.chunk0.sub0@0x0037"
+    },
+    {
+      "bytes": "00 00 c8 01",
+      "count": 95,
+      "example": "Snr1.chunk1.sub1@0x01e8"
+    },
+    {
+      "bytes": "00 02 c8 00",
+      "count": 95,
+      "example": "Snr3.chunk0.sub0@0x0017"
+    },
+    {
+      "bytes": "11 00 01 dc",
+      "count": 94,
+      "example": "Snr1.chunk0.sub0@0x051e"
+    },
+    {
+      "bytes": "cc 00 28 c8",
+      "count": 94,
+      "example": "Snr1.chunk2.sub6@0x008c"
+    },
+    {
+      "bytes": "00 05 c8 00",
+      "count": 94,
+      "example": "Snr5.chunk3.sub0@0x00c5"
+    },
+    {
+      "bytes": "01 cc 00 01",
+      "count": 93,
+      "example": "Snr1.chunk1.sub1@0x02e9"
+    },
+    {
+      "bytes": "00 01 c8 00",
+      "count": 93,
+      "example": "Snr2.chunk0.sub0@0x004e"
+    },
+    {
+      "bytes": "00 00 c8 02",
+      "count": 92,
+      "example": "Snr1.chunk2.sub6@0x010b"
+    },
+    {
+      "bytes": "f2 0c 3f 00",
+      "count": 90,
+      "example": "Snr1.chunk0.sub0@0x03b5"
+    },
+    {
+      "bytes": "01 cc 00 63",
+      "count": 90,
+      "example": "Snr6.chunk0.sub1@0x0009"
+    }
+  ],
+  "top_5grams": [
+    {
+      "bytes": "c7 c0 02 cc 00",
+      "count": 1450,
+      "example": "Snr1.chunk0.sub0@0x002c"
+    },
+    {
+      "bytes": "c7 c0 01 cc 00",
+      "count": 1210,
+      "example": "Snr1.chunk0.sub0@0x0047"
+    },
+    {
+      "bytes": "c0 02 cc 00 00",
+      "count": 360,
+      "example": "Snr1.chunk0.sub0@0x002d"
+    },
+    {
+      "bytes": "02 cc 00 00 c8",
+      "count": 360,
+      "example": "Snr1.chunk0.sub0@0x002e"
+    },
+    {
+      "bytes": "c0 02 cc 00 01",
+      "count": 283,
+      "example": "Snr1.chunk1.sub1@0x02b1"
+    },
+    {
+      "bytes": "02 cc 00 01 c8",
+      "count": 283,
+      "example": "Snr1.chunk1.sub1@0x02b2"
+    },
+    {
+      "bytes": "c0 02 cc 00 05",
+      "count": 276,
+      "example": "Snr6.chunk0.sub0@0x001a"
+    },
+    {
+      "bytes": "02 cc 00 05 c8",
+      "count": 276,
+      "example": "Snr6.chunk0.sub0@0x001b"
+    },
+    {
+      "bytes": "c7 c0 00 c8 00",
+      "count": 197,
+      "example": "Snr0.chunk0.sub1@0x00e6"
+    },
+    {
+      "bytes": "c0 02 cc 00 02",
+      "count": 179,
+      "example": "Snr3.chunk0.sub0@0x0014"
+    },
+    {
+      "bytes": "02 cc 00 02 c8",
+      "count": 179,
+      "example": "Snr3.chunk0.sub0@0x0015"
+    },
+    {
+      "bytes": "c0 01 cc 00 22",
+      "count": 161,
+      "example": "Snr2.chunk0.sub0@0x0042"
+    },
+    {
+      "bytes": "01 cc 00 22 c8",
+      "count": 161,
+      "example": "Snr2.chunk0.sub0@0x0043"
+    },
+    {
+      "bytes": "0c 3f 00 01 c0",
+      "count": 143,
+      "example": "Snr0.chunk1.sub0@0x0087"
+    },
+    {
+      "bytes": "c0 02 cc 00 04",
+      "count": 124,
+      "example": "Snr1.chunk3.sub14@0x0055"
+    },
+    {
+      "bytes": "02 cc 00 04 c8",
+      "count": 124,
+      "example": "Snr1.chunk3.sub14@0x0056"
+    },
+    {
+      "bytes": "c0 01 cc 00 24",
+      "count": 117,
+      "example": "Snr2.chunk5.sub5@0x0079"
+    },
+    {
+      "bytes": "01 cc 00 24 c8",
+      "count": 117,
+      "example": "Snr2.chunk5.sub5@0x007a"
+    },
+    {
+      "bytes": "cc 00 05 c8 02",
+      "count": 107,
+      "example": "Snr1.chunk2.sub6@0x00c2"
+    },
+    {
+      "bytes": "cc 00 00 c8 03",
+      "count": 105,
+      "example": "Snr1.chunk3.sub7@0x0055"
+    },
+    {
+      "bytes": "c7 c0 00 c8 01",
+      "count": 103,
+      "example": "Snr1.chunk1.sub1@0x01ed"
+    },
+    {
+      "bytes": "c0 01 cc 00 1f",
+      "count": 102,
+      "example": "Snr1.chunk0.sub0@0x02f4"
+    },
+    {
+      "bytes": "01 cc 00 1f c8",
+      "count": 102,
+      "example": "Snr1.chunk0.sub0@0x02f5"
+    },
+    {
+      "bytes": "05 01 00 6d 01",
+      "count": 102,
+      "example": "Snr1.chunk1.sub0@0x005a"
+    },
+    {
+      "bytes": "cc 00 01 c8 01",
+      "count": 101,
+      "example": "Snr1.chunk1.sub1@0x02b3"
+    },
+    {
+      "bytes": "cc 00 04 c8 00",
+      "count": 100,
+      "example": "Snr5.chunk0.sub0@0x000c"
+    },
+    {
+      "bytes": "cc 00 22 c8 00",
+      "count": 96,
+      "example": "Snr2.chunk0.sub0@0x0044"
+    },
+    {
+      "bytes": "c0 01 cd 32 c8",
+      "count": 95,
+      "example": "Snr0.chunk6.sub1@0x00e5"
+    },
+    {
+      "bytes": "01 cd 32 c8 00",
+      "count": 95,
+      "example": "Snr0.chunk6.sub1@0x00e6"
+    },
+    {
+      "bytes": "c0 02 cc 00 1f",
+      "count": 95,
+      "example": "Snr1.chunk0.sub0@0x0036"
+    },
+    {
+      "bytes": "02 cc 00 1f c8",
+      "count": 95,
+      "example": "Snr1.chunk0.sub0@0x0037"
+    },
+    {
+      "bytes": "cc 00 00 c8 01",
+      "count": 95,
+      "example": "Snr1.chunk1.sub1@0x01e7"
+    },
+    {
+      "bytes": "cc 00 02 c8 00",
+      "count": 95,
+      "example": "Snr3.chunk0.sub0@0x0016"
+    },
+    {
+      "bytes": "cc 00 05 c8 00",
+      "count": 94,
+      "example": "Snr5.chunk3.sub0@0x00c4"
+    },
+    {
+      "bytes": "11 00 01 dc 00",
+      "count": 93,
+      "example": "Snr1.chunk0.sub0@0x051e"
+    },
+    {
+      "bytes": "c0 01 cc 00 01",
+      "count": 93,
+      "example": "Snr1.chunk1.sub1@0x02e8"
+    },
+    {
+      "bytes": "01 cc 00 01 c8",
+      "count": 93,
+      "example": "Snr1.chunk1.sub1@0x02e9"
+    },
+    {
+      "bytes": "cc 00 01 c8 00",
+      "count": 93,
+      "example": "Snr2.chunk0.sub0@0x004d"
+    },
+    {
+      "bytes": "cc 00 00 c8 02",
+      "count": 92,
+      "example": "Snr1.chunk2.sub6@0x010a"
+    },
+    {
+      "bytes": "f2 0c 3f 00 01",
+      "count": 90,
+      "example": "Snr1.chunk0.sub0@0x03b5"
+    },
+    {
+      "bytes": "c0 01 cc 00 63",
+      "count": 90,
+      "example": "Snr6.chunk0.sub1@0x0008"
+    },
+    {
+      "bytes": "01 cc 00 63 c8",
+      "count": 90,
+      "example": "Snr6.chunk0.sub1@0x0009"
+    },
+    {
+      "bytes": "cc 00 01 c8 02",
+      "count": 89,
+      "example": "Snr2.chunk5.sub2@0x0146"
+    },
+    {
+      "bytes": "c0 01 cc 00 06",
+      "count": 87,
+      "example": "Snr1.chunk0.sub0@0x0008"
+    },
+    {
+      "bytes": "01 cc 00 06 c8",
+      "count": 87,
+      "example": "Snr1.chunk0.sub0@0x0009"
+    },
+    {
+      "bytes": "cc 00 02 c8 01",
+      "count": 85,
+      "example": "Snr3.chunk2.sub1@0x0395"
+    },
+    {
+      "bytes": "cc 00 00 c8 00",
+      "count": 83,
+      "example": "Snr1.chunk0.sub0@0x002f"
+    },
+    {
+      "bytes": "00 01 c0 00 c8",
+      "count": 80,
+      "example": "Snr0.chunk1.sub0@0x0089"
+    },
+    {
+      "bytes": "3f 00 01 c0 00",
+      "count": 79,
+      "example": "Snr0.chunk1.sub0@0x0088"
+    },
+    {
+      "bytes": "cc 00 05 c8 01",
+      "count": 74,
+      "example": "Snr1.chunk2.sub6@0x003b"
+    }
+  ],
+  "opcode_contexts": {
+    "0x0c": [
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 5,
+        "offset_hex": "0x0005",
+        "context": "09 02 00 07 0c 0a 00 00 05 0a 09 d0 0b 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 17,
+        "offset_hex": "0x0011",
+        "context": "0b 01 0a 0d 0c 1d 00 00 05 1d 0b dc 09 02"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 29,
+        "offset_hex": "0x001d",
+        "context": "09 02 00 07 0c 0a 00 00 05 0a 09 d0 0b 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 42,
+        "offset_hex": "0x002a",
+        "context": "01 0a 00 04 0c 0b 0c 09 00 00 4c 0b 02 92"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 44,
+        "offset_hex": "0x002c",
+        "context": "00 04 0c 0b 0c 09 00 00 4c 0b 02 92 0b 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 53,
+        "offset_hex": "0x0035",
+        "context": "0b 02 92 0b 0c 00 4f 04 0c 0b 0c 09 00 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 57,
+        "offset_hex": "0x0039",
+        "context": "0c 00 4f 04 0c 0b 0c 09 00 01 4c 0b 02 92"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 59,
+        "offset_hex": "0x003b",
+        "context": "4f 04 0c 0b 0c 09 00 01 4c 0b 02 92 0b 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 68,
+        "offset_hex": "0x0044",
+        "context": "0b 02 92 0b 0c 00 5e 04 0c 0b 0c 09 00 02"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 72,
+        "offset_hex": "0x0048",
+        "context": "0c 00 5e 04 0c 0b 0c 09 00 02 00 0e 1d 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 74,
+        "offset_hex": "0x004a",
+        "context": "5e 04 0c 0b 0c 09 00 02 00 0e 1d 4c 0e 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 87,
+        "offset_hex": "0x0057",
+        "context": "01 42 0e 0e 0c 0f 01 f4 42 0e 0f d0 0b 03"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 114,
+        "offset_hex": "0x0072",
+        "context": "08 00 8e 82 0c 0e 00 8e 8d 0d 06 00 8e 2c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 169,
+        "offset_hex": "0x00a9",
+        "context": "0a 01 00 bd 0c 1e 00 00 8c 0a 02 00 c6 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 178,
+        "offset_hex": "0x00b2",
+        "context": "0a 02 00 c6 0c 1e 00 03 8c 09 01 00 cf 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 187,
+        "offset_hex": "0x00bb",
+        "context": "09 01 00 cf 0c 1e 00 06 8c 09 02 01 37 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 196,
+        "offset_hex": "0x00c4",
+        "context": "09 02 01 37 0c 0b 00 00 0c 29 00 00 d0 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 200,
+        "offset_hex": "0x00c8",
+        "context": "0c 0b 00 00 0c 29 00 00 d0 0c 10 0b 06 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 205,
+        "offset_hex": "0x00cd",
+        "context": "29 00 00 d0 0c 10 0b 06 0c 0d 00 00 05 0d"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 209,
+        "offset_hex": "0x00d1",
+        "context": "0c 10 0b 06 0c 0d 00 00 05 0d 0c 6d 0d b0"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 215,
+        "offset_hex": "0x00d7",
+        "context": "00 00 05 0d 0c 6d 0d b0 8c 0d 30 00 f3 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 243,
+        "offset_hex": "0x00f3",
+        "context": "28 07 01 07 0c 0a 00 01 8c 29 32 01 10 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 252,
+        "offset_hex": "0x00fc",
+        "context": "29 32 01 10 0c 0a 00 02 8f 1d 01 01 27 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 261,
+        "offset_hex": "0x0105",
+        "context": "1d 01 01 27 0c 0a 00 01 8c 28 07 01 27 8c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 275,
+        "offset_hex": "0x0113",
+        "context": "29 32 01 27 0c 0a 00 00 00 1e 0a 8d 28 07"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 328,
+        "offset_hex": "0x0148",
+        "context": "07 2a 01 64 0c 00 00 02 0c 01 00 02 0c 02"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 332,
+        "offset_hex": "0x014c",
+        "context": "0c 00 00 02 0c 01 00 02 0c 02 00 02 ed 03"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 336,
+        "offset_hex": "0x0150",
+        "context": "0c 01 00 02 0c 02 00 02 ed 03 eb 09 00 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 359,
+        "offset_hex": "0x0167",
+        "context": "09 02 00 07 0c 0a 00 00 05 0a 09 d0 0b 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 371,
+        "offset_hex": "0x0173",
+        "context": "0b 01 0a 0d 0c 17 00 00 05 17 0b 8e 17 06"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 395,
+        "offset_hex": "0x018b",
+        "context": "09 02 00 07 0c 0a 00 00 05 0a 09 d0 0b 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 407,
+        "offset_hex": "0x0197",
+        "context": "0b 01 0a 0d 0c 1d 00 00 05 1d 0b ad 10 02"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 429,
+        "offset_hex": "0x01ad",
+        "context": "09 02 00 07 0c 0a 00 00 05 0a 09 d0 0b 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 441,
+        "offset_hex": "0x01b9",
+        "context": "0b 01 0a 0d 0c 17 00 00 05 17 0b 8e 17 06"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 480,
+        "offset_hex": "0x01e0",
+        "context": "07 04 01 f4 0c 09 00 00 8e 07 25 01 fd 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 489,
+        "offset_hex": "0x01e9",
+        "context": "07 25 01 fd 0c 09 00 01 8c 17 01 02 17 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 506,
+        "offset_hex": "0x01fa",
+        "context": "07 09 02 0e 0c 09 00 00 8e 07 20 02 17 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 515,
+        "offset_hex": "0x0203",
+        "context": "07 20 02 17 0c 09 00 01 8c 17 02 02 31 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 532,
+        "offset_hex": "0x0214",
+        "context": "07 13 02 28 0c 09 00 00 8e 07 16 02 31 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 541,
+        "offset_hex": "0x021d",
+        "context": "07 16 02 31 0c 09 00 01 00 10 07 8c 09 00"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 585,
+        "offset_hex": "0x0249",
+        "context": "10 13 02 5d 0c 09 00 00 8e 10 50 02 66 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 594,
+        "offset_hex": "0x0252",
+        "context": "10 50 02 66 0c 09 00 01 8c 17 01 02 80 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 611,
+        "offset_hex": "0x0263",
+        "context": "10 22 02 77 0c 09 00 00 8e 10 41 02 80 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 620,
+        "offset_hex": "0x026c",
+        "context": "10 41 02 80 0c 09 00 01 8c 17 02 02 9a 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 637,
+        "offset_hex": "0x027d",
+        "context": "10 31 02 91 0c 09 00 00 8e 10 32 02 9a 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 646,
+        "offset_hex": "0x0286",
+        "context": "10 32 02 9a 0c 09 00 01 00 11 10 8c 09 00"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 677,
+        "offset_hex": "0x02a5",
+        "context": "09 02 00 07 0c 0a 00 00 05 0a 09 d0 0b 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 689,
+        "offset_hex": "0x02b1",
+        "context": "0b 01 0a 0d 0c 1d 00 00 05 1d 0b dc 09 02"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 701,
+        "offset_hex": "0x02bd",
+        "context": "09 02 00 07 0c 0a 00 00 05 0a 09 d0 0b 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 714,
+        "offset_hex": "0x02ca",
+        "context": "01 0a 00 04 0c 0b 0c 09 00 00 4c 0b 02 92"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 716,
+        "offset_hex": "0x02cc",
+        "context": "00 04 0c 0b 0c 09 00 00 4c 0b 02 92 0b 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 725,
+        "offset_hex": "0x02d5",
+        "context": "0b 02 92 0b 0c 02 ef 04 0c 0b 0c 09 00 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 729,
+        "offset_hex": "0x02d9",
+        "context": "0c 02 ef 04 0c 0b 0c 09 00 01 4c 0b 02 92"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 731,
+        "offset_hex": "0x02db",
+        "context": "ef 04 0c 0b 0c 09 00 01 4c 0b 02 92 0b 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 740,
+        "offset_hex": "0x02e4",
+        "context": "0b 02 92 0b 0c 02 fe 04 0c 0b 0c 09 00 02"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 744,
+        "offset_hex": "0x02e8",
+        "context": "0c 02 fe 04 0c 0b 0c 09 00 02 00 0e 1d 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 746,
+        "offset_hex": "0x02ea",
+        "context": "fe 04 0c 0b 0c 09 00 02 00 0e 1d 4c 0e 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 759,
+        "offset_hex": "0x02f7",
+        "context": "01 42 0e 0e 0c 0f 01 f4 42 0e 0f d0 0b 03"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 786,
+        "offset_hex": "0x0312",
+        "context": "08 03 2e 82 0c 0e 03 2e 8d 0d 06 03 2e 2c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 841,
+        "offset_hex": "0x0349",
+        "context": "0a 01 03 5d 0c 1e 00 00 8c 0a 02 03 66 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 850,
+        "offset_hex": "0x0352",
+        "context": "0a 02 03 66 0c 1e 00 03 8c 09 01 03 6f 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 859,
+        "offset_hex": "0x035b",
+        "context": "09 01 03 6f 0c 1e 00 06 8c 09 02 03 d7 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 868,
+        "offset_hex": "0x0364",
+        "context": "09 02 03 d7 0c 0b 00 00 0c 29 00 00 d0 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 872,
+        "offset_hex": "0x0368",
+        "context": "0c 0b 00 00 0c 29 00 00 d0 0c 10 0b 06 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 877,
+        "offset_hex": "0x036d",
+        "context": "29 00 00 d0 0c 10 0b 06 0c 0d 00 00 05 0d"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 881,
+        "offset_hex": "0x0371",
+        "context": "0c 10 0b 06 0c 0d 00 00 05 0d 0c 6d 0d b0"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 887,
+        "offset_hex": "0x0377",
+        "context": "00 00 05 0d 0c 6d 0d b0 8c 0d 30 03 93 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 915,
+        "offset_hex": "0x0393",
+        "context": "28 07 03 a7 0c 0a 00 01 8c 29 32 03 b0 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 924,
+        "offset_hex": "0x039c",
+        "context": "29 32 03 b0 0c 0a 00 02 8f 1d 01 03 c7 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 933,
+        "offset_hex": "0x03a5",
+        "context": "1d 01 03 c7 0c 0a 00 01 8c 28 07 03 c7 8c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 947,
+        "offset_hex": "0x03b3",
+        "context": "29 32 03 c7 0c 0a 00 00 00 1e 0a 8d 28 07"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 26,
+        "offset_hex": "0x001a",
+        "context": "07 04 00 26 0c 09 00 00 8e 07 25 00 2f 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 35,
+        "offset_hex": "0x0023",
+        "context": "07 25 00 2f 0c 09 00 01 8c 17 01 00 49 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 52,
+        "offset_hex": "0x0034",
+        "context": "07 09 00 40 0c 09 00 00 8e 07 20 00 49 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 61,
+        "offset_hex": "0x003d",
+        "context": "07 20 00 49 0c 09 00 01 8c 17 02 00 63 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 78,
+        "offset_hex": "0x004e",
+        "context": "07 13 00 5a 0c 09 00 00 8e 07 16 00 63 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 87,
+        "offset_hex": "0x0057",
+        "context": "07 16 00 63 0c 09 00 01 00 10 07 8c 09 00"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 131,
+        "offset_hex": "0x0083",
+        "context": "10 13 00 8f 0c 09 00 00 8e 10 50 00 98 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 140,
+        "offset_hex": "0x008c",
+        "context": "10 50 00 98 0c 09 00 01 8c 17 01 00 b2 4c"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 157,
+        "offset_hex": "0x009d",
+        "context": "10 22 00 a9 0c 09 00 00 8e 10 41 00 b2 0c"
+      }
+    ],
+    "0xad": [
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 126,
+        "offset_hex": "0x007e",
+        "context": "8e 2c 10 01 ad 10 01 3f eb 0a 00 03 8c 0a"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 414,
+        "offset_hex": "0x019e",
+        "context": "00 05 1d 0b ad 10 02 af 00 06 1e 00 08 1f"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 665,
+        "offset_hex": "0x0299",
+        "context": "8c 09 01 02 ad 41 11 0a ec 08 f2 dc 09 02"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 798,
+        "offset_hex": "0x031e",
+        "context": "2e 2c 10 01 ad 10 03 dc eb 0a 00 03 8c 0a"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 242,
+        "offset_hex": "0x00f2",
+        "context": "0c 06 00 00 ad 00 01 02 0c 06 00 01 f2"
+      },
+      {
+        "script": "Snr0.chunk0.sub2",
+        "offset": 231,
+        "offset_hex": "0x00e7",
+        "context": "0c 06 00 00 ad 00 00 f7 0c 06 00 02 f2"
+      },
+      {
+        "script": "Snr0.chunk0.sub3",
+        "offset": 252,
+        "offset_hex": "0x00fc",
+        "context": "0c 06 00 00 ad 00 01 2a c0 00 c8 00 05 c7"
+      },
+      {
+        "script": "Snr0.chunk0.sub4",
+        "offset": 281,
+        "offset_hex": "0x0119",
+        "context": "0c 06 00 00 ad 00 01 4a c0 00 c8 00 07 c7"
+      },
+      {
+        "script": "Snr0.chunk0.sub5",
+        "offset": 160,
+        "offset_hex": "0x00a0",
+        "context": "8f 10 22 00 ad 0c 09 00 00 8e 10 41 00 b6"
+      },
+      {
+        "script": "Snr0.chunk0.sub5",
+        "offset": 235,
+        "offset_hex": "0x00eb",
+        "context": "0c 06 00 00 ad 00 01 13 0f 18 02 4e 18 0c"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 33,
+        "offset_hex": "0x0021",
+        "context": "0c 3f 00 01 ad 00 00 69 c0 00 c8 00 0e c7"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 134,
+        "offset_hex": "0x0086",
+        "context": "00 10 e9 01 ad 01 00 c0 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 223,
+        "offset_hex": "0x00df",
+        "context": "04 40 19 0a ad 00 00 ee fe 01 b6 0c 3f 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 306,
+        "offset_hex": "0x0132",
+        "context": "00 14 e9 01 ad 01 01 6c dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 148,
+        "offset_hex": "0x0094",
+        "context": "00 1d e9 01 ad 01 00 d0 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 33,
+        "offset_hex": "0x0021",
+        "context": "0c 3f 00 01 ad 01 00 69 c0 00 c8 00 20 c7"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 97,
+        "offset_hex": "0x0061",
+        "context": "f1 fe 01 5c ad 02 00 7c c0 00 c8 00 21 c7"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 140,
+        "offset_hex": "0x008c",
+        "context": "00 23 e9 00 ad 00 00 c6 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 274,
+        "offset_hex": "0x0112",
+        "context": "04 40 19 0a ad 01 01 21 fe 01 5d ad 02 01"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 281,
+        "offset_hex": "0x0119",
+        "context": "21 fe 01 5d ad 02 01 28 fe 01 5d 0c 3f 00"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 48,
+        "offset_hex": "0x0030",
+        "context": "04 40 19 0a ad 03 00 6b 2c 03 00 d0 09 03"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 130,
+        "offset_hex": "0x0082",
+        "context": "13 00 00 e1 ad 02 00 a5 c0 00 c8 00 28 c7"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 248,
+        "offset_hex": "0x00f8",
+        "context": "00 2b e9 01 ad 01 01 3a dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 289,
+        "offset_hex": "0x0121",
+        "context": "00 37 e9 01 ad 01 01 88 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk6.sub0",
+        "offset": 50,
+        "offset_hex": "0x0032",
+        "context": "07 0a 00 46 ad 11 00 46 2c 11 00 2c 12 01"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 219,
+        "offset_hex": "0x00db",
+        "context": "00 42 e9 01 ad 01 01 26 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk7.sub0",
+        "offset": 50,
+        "offset_hex": "0x0032",
+        "context": "07 0a 00 46 ad 11 00 46 2c 11 00 2c 12 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 143,
+        "offset_hex": "0x008f",
+        "context": "07 0a 01 51 ad 01 00 c5 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 263,
+        "offset_hex": "0x0107",
+        "context": "00 57 e9 00 ad 00 01 4e c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk8.sub0",
+        "offset": 50,
+        "offset_hex": "0x0032",
+        "context": "07 0a 00 46 ad 11 00 46 2c 11 00 2c 12 01"
+      },
+      {
+        "script": "Snr0.chunk8.sub2",
+        "offset": 143,
+        "offset_hex": "0x008f",
+        "context": "07 0a 01 51 ad 01 00 c5 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk8.sub2",
+        "offset": 263,
+        "offset_hex": "0x0107",
+        "context": "00 76 e9 00 ad 00 01 4e c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk9.sub0",
+        "offset": 50,
+        "offset_hex": "0x0032",
+        "context": "07 0a 00 46 ad 11 00 46 2c 11 00 2c 12 01"
+      },
+      {
+        "script": "Snr0.chunk9.sub2",
+        "offset": 252,
+        "offset_hex": "0x00fc",
+        "context": "00 8c e9 01 ad 01 01 43 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk10.sub0",
+        "offset": 50,
+        "offset_hex": "0x0032",
+        "context": "07 0a 00 46 ad 11 00 46 2c 11 00 2c 12 01"
+      },
+      {
+        "script": "Snr0.chunk10.sub2",
+        "offset": 269,
+        "offset_hex": "0x010d",
+        "context": "00 98 e9 01 ad 01 01 54 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk11.sub0",
+        "offset": 50,
+        "offset_hex": "0x0032",
+        "context": "07 0a 00 46 ad 11 00 46 2c 11 00 2c 12 01"
+      },
+      {
+        "script": "Snr0.chunk11.sub2",
+        "offset": 286,
+        "offset_hex": "0x011e",
+        "context": "00 a2 e9 01 ad 01 01 65 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk12.sub0",
+        "offset": 50,
+        "offset_hex": "0x0032",
+        "context": "07 0a 00 46 ad 11 00 46 2c 11 00 2c 12 01"
+      },
+      {
+        "script": "Snr0.chunk12.sub1",
+        "offset": 238,
+        "offset_hex": "0x00ee",
+        "context": "cd 32 c8 00 ad 8c 12 04 01 0b c0 01 cd 32"
+      },
+      {
+        "script": "Snr0.chunk12.sub2",
+        "offset": 27,
+        "offset_hex": "0x001b",
+        "context": "2c 03 01 f2 ad 03 00 4a 2c 03 00 d0 09 03"
+      },
+      {
+        "script": "Snr0.chunk12.sub2",
+        "offset": 280,
+        "offset_hex": "0x0118",
+        "context": "00 bd e9 01 ad 01 01 67 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 0,
+        "offset_hex": "0x0000",
+        "context": "ad 00 01 2a ac 05 00 40 c0 01"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 20,
+        "offset_hex": "0x0014",
+        "context": "c7 fe 02 62 ad 05 01 2a ac 01 01 08 0f 01"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 220,
+        "offset_hex": "0x00dc",
+        "context": "c7 fe 02 62 ad 01 01 2a c0 01 cc 00 06 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 572,
+        "offset_hex": "0x023c",
+        "context": "ac 00 02 bf ad 04 02 75 c0 01 cc 00 61 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 659,
+        "offset_hex": "0x0293",
+        "context": "2c 04 01 f8 ad 00 03 cb ad 05 02 d9 ac 01"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 663,
+        "offset_hex": "0x0297",
+        "context": "ad 00 03 cb ad 05 02 d9 ac 01 02 d9 0c 3f"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 938,
+        "offset_hex": "0x03aa",
+        "context": "c8 00 57 c7 ad 00 03 e0 c0 00 c8 00 58 c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 958,
+        "offset_hex": "0x03be",
+        "context": "ac 00 04 20 ad 07 03 f4 c0 00 c8 00 59 c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1012,
+        "offset_hex": "0x03f4",
+        "context": "2c 07 01 f8 ad 00 05 5e ad 02 04 8f c0 00"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1016,
+        "offset_hex": "0x03f8",
+        "context": "ad 00 05 5e ad 02 04 8f c0 00 c8 00 5f c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1152,
+        "offset_hex": "0x0480",
+        "context": "c8 00 6a c7 ad 07 04 cb c0 02 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1360,
+        "offset_hex": "0x0550",
+        "context": "c8 00 7f c7 ad 00 05 a2 c0 02 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1420,
+        "offset_hex": "0x058c",
+        "context": "c8 00 86 c7 ad 00 07 48 ac 03 05 cc c0 01"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1463,
+        "offset_hex": "0x05b7",
+        "context": "c8 00 89 c7 ad 07 05 f0 c0 02 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1501,
+        "offset_hex": "0x05dd",
+        "context": "c8 00 8b c7 ad 08 06 16 c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1514,
+        "offset_hex": "0x05ea",
+        "context": "c8 00 8c c7 ad 05 06 23 c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1702,
+        "offset_hex": "0x06a6",
+        "context": "9e c7 e9 0b ad 0b 07 17 c0 02 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1850,
+        "offset_hex": "0x073a",
+        "context": "00 aa c7 f8 ad 00 07 7b ac 03 07 7b c0 00"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1884,
+        "offset_hex": "0x075c",
+        "context": "c0 00 c8 00 ad c7 f8 ad 00 07 c6 ac 09 07"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1887,
+        "offset_hex": "0x075f",
+        "context": "00 ad c7 f8 ad 00 07 c6 ac 09 07 bc c0 00"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1936,
+        "offset_hex": "0x0790",
+        "context": "03 2c 09 01 ad 09 07 c6 c0 00 c8 00 b2 c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 2011,
+        "offset_hex": "0x07db",
+        "context": "00 b8 c7 f8 ad 00 08 39 eb 00 00 03 8c 00"
+      },
+      {
+        "script": "Snr1.chunk1.sub0",
+        "offset": 8,
+        "offset_hex": "0x0008",
+        "context": "0a 03 00 4d ad 06 00 2e c0 01 cc 00 13 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 38,
+        "offset_hex": "0x0026",
+        "context": "4a fe 01 2a ad 01 00 63 c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 63,
+        "offset_hex": "0x003f",
+        "context": "c7 fe 01 29 ad 00 00 9a ad 01 00 7e c0 01"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 67,
+        "offset_hex": "0x0043",
+        "context": "ad 00 00 9a ad 01 00 7e c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 104,
+        "offset_hex": "0x0068",
+        "context": "00 d9 c7 f8 ad 08 00 9a c0 01 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 265,
+        "offset_hex": "0x0109",
+        "context": "f8 f2 f2 f2 ad 01 01 dd c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 445,
+        "offset_hex": "0x01bd",
+        "context": "ac 01 02 19 ad 00 02 19 c0 00 c8 00 fb c7"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 506,
+        "offset_hex": "0x01fa",
+        "context": "0c 3f 00 01 ad 01 02 38 c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 532,
+        "offset_hex": "0x0214",
+        "context": "fe 02 5e f8 ad 08 02 43 c0 00 c8 01 04 c7"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 547,
+        "offset_hex": "0x0223",
+        "context": "ac 08 02 5e ad 00 02 5e c0 02 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 571,
+        "offset_hex": "0x023b",
+        "context": "08 01 f8 f2 ad 01 02 76 c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 594,
+        "offset_hex": "0x0252",
+        "context": "01 08 c7 f8 ad 00 03 a0 ca 10 c0 02 cc 00"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 893,
+        "offset_hex": "0x037d",
+        "context": "00 00 f8 f2 ad 01 03 b8 c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 916,
+        "offset_hex": "0x0394",
+        "context": "01 26 c7 f8 ad 00 03 d8 ac 08 03 ca c0 01"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 934,
+        "offset_hex": "0x03a6",
+        "context": "01 27 c7 f8 ad 08 03 d8 c0 01 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 0,
+        "offset_hex": "0x0000",
+        "context": "ad 03 00 26 c0 01 cc 00 13 c8"
+      }
+    ],
+    "0xfe": [
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 234,
+        "offset_hex": "0x00ea",
+        "context": "8f 0b 63 00 fe fe 00 dc 8c 28 07 01 07 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 235,
+        "offset_hex": "0x00eb",
+        "context": "0b 63 00 fe fe 00 dc 8c 28 07 01 07 0c 0a"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 300,
+        "offset_hex": "0x012c",
+        "context": "1f 4c 1e 06 fe 01 95 0f 07 05 8f 07 29 01"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 742,
+        "offset_hex": "0x02e6",
+        "context": "92 0b 0c 02 fe 04 0c 0b 0c 09 00 02 00 0e"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 907,
+        "offset_hex": "0x038b",
+        "context": "0b 63 03 9e fe 03 7c 8c 28 07 03 a7 0c 0a"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 119,
+        "offset_hex": "0x0077",
+        "context": "c8 00 09 c7 fe 00 da d0 21 0c 11 04 d0 22"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 163,
+        "offset_hex": "0x00a3",
+        "context": "00 0c c7 f1 fe 00 d9 c0 00 c8 00 0d c7 e2"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 203,
+        "offset_hex": "0x00cb",
+        "context": "2c 00 00 f0 fe 00 d9 fe 00 da f8 f2"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 206,
+        "offset_hex": "0x00ce",
+        "context": "f0 fe 00 d9 fe 00 da f8 f2"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 94,
+        "offset_hex": "0x005e",
+        "context": "10 0c 0d f1 fe 01 b6 82 18 19 00 c3 d0 21"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 184,
+        "offset_hex": "0x00b8",
+        "context": "10 0c 0d f1 fe 01 b5 c0 00 c8 00 11 c7 f1"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 194,
+        "offset_hex": "0x00c2",
+        "context": "00 11 c7 f1 fe 01 b5 80 07 11 01 b2 0f 19"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 227,
+        "offset_hex": "0x00e3",
+        "context": "ad 00 00 ee fe 01 b6 0c 3f 00 01 82 18 19"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 285,
+        "offset_hex": "0x011d",
+        "context": "c7 2c 00 01 fe 01 b6 8c 0a 00 01 6f c0 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 356,
+        "offset_hex": "0x0164",
+        "context": "10 0c 0d f1 fe 01 b5 41 13 0a c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 368,
+        "offset_hex": "0x0170",
+        "context": "c8 00 15 c7 fe 01 b5 c0 00 c8 00 16 c7 dc"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 423,
+        "offset_hex": "0x01a7",
+        "context": "10 0c 0d f1 fe 01 b5 fe 01 b6 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 426,
+        "offset_hex": "0x01aa",
+        "context": "f1 fe 01 b5 fe 01 b6 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 188,
+        "offset_hex": "0x00bc",
+        "context": "00 19 c7 f1 fe 00 ee c0 00 c8 00 1a c7 e6"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 224,
+        "offset_hex": "0x00e0",
+        "context": "40 18 0a f0 fe 00 ee fe 00 ef f8 f2"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 227,
+        "offset_hex": "0x00e3",
+        "context": "f0 fe 00 ee fe 00 ef f8 f2"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 127,
+        "offset_hex": "0x007f",
+        "context": "10 0c 0d f1 fe 01 1a 8c 0a 00 00 d3 c0 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 200,
+        "offset_hex": "0x00c8",
+        "context": "0d e7 1b f1 fe 01 19 41 13 0a c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 212,
+        "offset_hex": "0x00d4",
+        "context": "c8 00 1e c7 fe 01 19 c0 00 c8 00 1f c7 dc"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 267,
+        "offset_hex": "0x010b",
+        "context": "10 0c 0d f1 fe 01 19 fe 01 1a f8 f2"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 270,
+        "offset_hex": "0x010e",
+        "context": "f1 fe 01 19 fe 01 1a f8 f2"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 94,
+        "offset_hex": "0x005e",
+        "context": "10 0c 0d f1 fe 01 5c ad 02 00 7c c0 00 c8"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 113,
+        "offset_hex": "0x0071",
+        "context": "02 e6 15 f1 fe 01 5c 82 18 19 00 c9 00 0c"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 190,
+        "offset_hex": "0x00be",
+        "context": "10 0c 0d f1 fe 01 5c c0 00 c8 00 24 c7 dc"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 245,
+        "offset_hex": "0x00f5",
+        "context": "10 0c 0d f1 fe 01 5c 80 07 11 01 59 0f 19"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 278,
+        "offset_hex": "0x0116",
+        "context": "ad 01 01 21 fe 01 5d ad 02 01 28 fe 01 5d"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 285,
+        "offset_hex": "0x011d",
+        "context": "ad 02 01 28 fe 01 5d 0c 3f 00 01 d0 21 0c"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 322,
+        "offset_hex": "0x0142",
+        "context": "c7 2c 01 01 fe 01 5c c0 00 c8 00 27 c7 2c"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 334,
+        "offset_hex": "0x014e",
+        "context": "c7 2c 02 01 fe 01 5c fe 01 5d f8 f2"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 337,
+        "offset_hex": "0x0151",
+        "context": "01 fe 01 5c fe 01 5d f8 f2"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 146,
+        "offset_hex": "0x0092",
+        "context": "02 e6 15 f1 fe 01 77 c0 00 c8 00 29 c7 e6"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 206,
+        "offset_hex": "0x00ce",
+        "context": "10 0c 0d f1 fe 01 77 82 18 19 01 3d 00 0c"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 298,
+        "offset_hex": "0x012a",
+        "context": "10 0c 0d f1 fe 01 77 c0 00 c8 00 2c c7 dc"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 353,
+        "offset_hex": "0x0161",
+        "context": "10 0c 0d f1 fe 01 77 fe 01 78 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 356,
+        "offset_hex": "0x0164",
+        "context": "f1 fe 01 77 fe 01 78 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 24,
+        "offset_hex": "0x0018",
+        "context": "0a ff 00 23 fe 00 08 8c 17 00 00 30 8e 0a"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 37,
+        "offset_hex": "0x0025",
+        "context": "0a 2a 00 30 fe 00 08 8e 17 01 00 3d 8f 0a"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 50,
+        "offset_hex": "0x0032",
+        "context": "0a 29 00 3d fe 00 08 8c 17 00 00 52 0c 13"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 145,
+        "offset_hex": "0x0091",
+        "context": "00 30 c7 f1 fe 00 b9 0f 18 02 4e 18 0c 0f"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 176,
+        "offset_hex": "0x00b0",
+        "context": "10 0c 0d f1 fe 01 f2 c0 00 c8 00 33 c7 4f"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 191,
+        "offset_hex": "0x00bf",
+        "context": "02 e6 15 f1 fe 01 f2 c0 00 c8 00 34 c7 c0"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 252,
+        "offset_hex": "0x00fc",
+        "context": "10 0c 0d f1 fe 01 f2 82 18 19 01 8b 00 0c"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 384,
+        "offset_hex": "0x0180",
+        "context": "10 0c 0d f1 fe 01 f2 c0 00 c8 00 38 c7 c0"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 325,
+        "offset_hex": "0x0145",
+        "context": "10 0c 0d f1 fe 01 6c c0 01 cd 32 8c 1d 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 350,
+        "offset_hex": "0x015e",
+        "context": "00 40 c7 f0 fe 01 6c fe 01 6d f8 f2"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 353,
+        "offset_hex": "0x0161",
+        "context": "f0 fe 01 6c fe 01 6d f8 f2"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 202,
+        "offset_hex": "0x00ca",
+        "context": "11 0c 0d f1 fe 01 3a 8c 0f 00 01 29 c0 01"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 282,
+        "offset_hex": "0x011a",
+        "context": "10 0c 0d f1 fe 01 3a 41 13 0f c0 01 cd 32"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 296,
+        "offset_hex": "0x0128",
+        "context": "c8 00 44 c7 fe 01 3a fe 01 3b f8 f2 dc 09"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 299,
+        "offset_hex": "0x012b",
+        "context": "c7 fe 01 3a fe 01 3b f8 f2 dc 09 02 00 07"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 152,
+        "offset_hex": "0x0098",
+        "context": "11 0a 00 a3 fe 00 8b c0 01 cd 32 c8 00 46"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 308,
+        "offset_hex": "0x0134",
+        "context": "10 0c 0d f1 fe 01 5b c0 01 cd 32 8c 1d 00"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 333,
+        "offset_hex": "0x014d",
+        "context": "00 50 c7 f0 fe 01 5b fe 01 5c f8 f2"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 336,
+        "offset_hex": "0x0150",
+        "context": "f0 fe 01 5b fe 01 5c f8 f2"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 186,
+        "offset_hex": "0x00ba",
+        "context": "11 0c 0d f1 fe 02 74 8c 12 00 00 d1 c0 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 326,
+        "offset_hex": "0x0146",
+        "context": "10 0c 0d f1 fe 02 74 80 07 11 02 71 8c 12"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 533,
+        "offset_hex": "0x0215",
+        "context": "64 11 0a 0b fe 02 74 8c 09 00 02 2d c0 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 614,
+        "offset_hex": "0x0266",
+        "context": "c8 00 64 c7 fe 02 74 fe 02 75 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 617,
+        "offset_hex": "0x0269",
+        "context": "c7 fe 02 74 fe 02 75 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk8.sub1",
+        "offset": 152,
+        "offset_hex": "0x0098",
+        "context": "11 0a 00 a3 fe 00 8b c0 01 cd 32 c8 00 65"
+      },
+      {
+        "script": "Snr0.chunk8.sub1",
+        "offset": 308,
+        "offset_hex": "0x0134",
+        "context": "10 0c 0d f1 fe 01 5b c0 01 cd 32 8c 1d 00"
+      },
+      {
+        "script": "Snr0.chunk8.sub1",
+        "offset": 333,
+        "offset_hex": "0x014d",
+        "context": "00 6f c7 f0 fe 01 5b fe 01 5c f8 f2"
+      },
+      {
+        "script": "Snr0.chunk8.sub1",
+        "offset": 336,
+        "offset_hex": "0x0150",
+        "context": "f0 fe 01 5b fe 01 5c f8 f2"
+      },
+      {
+        "script": "Snr0.chunk8.sub2",
+        "offset": 186,
+        "offset_hex": "0x00ba",
+        "context": "11 0c 0d f1 fe 02 74 8c 12 00 00 d1 c0 01"
+      },
+      {
+        "script": "Snr0.chunk8.sub2",
+        "offset": 326,
+        "offset_hex": "0x0146",
+        "context": "10 0c 0d f1 fe 02 74 80 07 11 02 71 8c 12"
+      },
+      {
+        "script": "Snr0.chunk8.sub2",
+        "offset": 533,
+        "offset_hex": "0x0215",
+        "context": "64 11 0a 0b fe 02 74 8c 09 00 02 2d c0 01"
+      },
+      {
+        "script": "Snr0.chunk8.sub2",
+        "offset": 614,
+        "offset_hex": "0x0266",
+        "context": "c8 00 83 c7 fe 02 74 fe 02 75 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk8.sub2",
+        "offset": 617,
+        "offset_hex": "0x0269",
+        "context": "c7 fe 02 74 fe 02 75 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk9.sub1",
+        "offset": 232,
+        "offset_hex": "0x00e8",
+        "context": "09 63 00 f3 fe 00 cd 82 0e 13 00 fb 00 0e"
+      },
+      {
+        "script": "Snr0.chunk9.sub1",
+        "offset": 342,
+        "offset_hex": "0x0156",
+        "context": "10 0c 0d f1 fe 01 7d c0 01 cd 32 8c 1d 00"
+      },
+      {
+        "script": "Snr0.chunk9.sub1",
+        "offset": 367,
+        "offset_hex": "0x016f",
+        "context": "00 8a c7 f0 fe 01 7d fe 01 7e f8 f2"
+      },
+      {
+        "script": "Snr0.chunk9.sub1",
+        "offset": 370,
+        "offset_hex": "0x0172",
+        "context": "f0 fe 01 7d fe 01 7e f8 f2"
+      },
+      {
+        "script": "Snr0.chunk9.sub2",
+        "offset": 193,
+        "offset_hex": "0x00c1",
+        "context": "09 63 00 cc fe 00 ae 82 0d 13 00 fb c0 01"
+      },
+      {
+        "script": "Snr0.chunk9.sub2",
+        "offset": 240,
+        "offset_hex": "0x00f0",
+        "context": "11 0c 0d f1 fe 01 49 c0 01 cd 32 c8 00 8c"
+      },
+      {
+        "script": "Snr0.chunk9.sub2",
+        "offset": 315,
+        "offset_hex": "0x013b",
+        "context": "10 0c 0d f1 fe 01 49 fe 01 4a f8 f2"
+      }
+    ],
+    "0xc7": [
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 932,
+        "offset_hex": "0x03a4",
+        "context": "8f 1d 01 03 c7 0c 0a 00 01 8c 28 07 03 c7"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 941,
+        "offset_hex": "0x03ad",
+        "context": "8c 28 07 03 c7 8c 29 32 03 c7 0c 0a 00 00"
+      },
+      {
+        "script": "Snr0.chunk0.sub0",
+        "offset": 946,
+        "offset_hex": "0x03b2",
+        "context": "8c 29 32 03 c7 0c 0a 00 00 00 1e 0a 8d 28"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 230,
+        "offset_hex": "0x00e6",
+        "context": "00 c8 00 00 c7 c0 00 c8 00 01 e9 00 0c 06"
+      },
+      {
+        "script": "Snr0.chunk0.sub3",
+        "offset": 240,
+        "offset_hex": "0x00f0",
+        "context": "00 c8 00 03 c7 c0 00 c8 00 04 e9 00 0c 06"
+      },
+      {
+        "script": "Snr0.chunk0.sub3",
+        "offset": 261,
+        "offset_hex": "0x0105",
+        "context": "00 c8 00 05 c7 0f 18 02 4e 18 0c 0f 0a 03"
+      },
+      {
+        "script": "Snr0.chunk0.sub4",
+        "offset": 290,
+        "offset_hex": "0x0122",
+        "context": "00 c8 00 07 c7 2c 03 00 0f 18 02 4e 18 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub5",
+        "offset": 186,
+        "offset_hex": "0x00ba",
+        "context": "8f 10 31 00 c7 0c 09 00 00 8e 10 32 00 d0"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 118,
+        "offset_hex": "0x0076",
+        "context": "00 c8 00 09 c7 fe 00 da d0 21 0c 11 04 d0"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 144,
+        "offset_hex": "0x0090",
+        "context": "00 c8 00 0a c7 c0 00 c8 00 0b e9 00 ac 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 161,
+        "offset_hex": "0x00a1",
+        "context": "00 c8 00 0c c7 f1 fe 00 d9 c0 00 c8 00 0d"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 171,
+        "offset_hex": "0x00ab",
+        "context": "00 c8 00 0d c7 e2 12 13 0f 18 02 4e 18 0c"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 42,
+        "offset_hex": "0x002a",
+        "context": "00 c8 00 0e c7 e6 15 dc 0a 02 00 07 0c 0b"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 126,
+        "offset_hex": "0x007e",
+        "context": "00 c8 00 0f c7 c0 00 c8 00 10 e9 01 ad 01"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 192,
+        "offset_hex": "0x00c0",
+        "context": "00 c8 00 11 c7 f1 fe 01 b5 80 07 11 01 b2"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 281,
+        "offset_hex": "0x0119",
+        "context": "00 c8 00 12 c7 2c 00 01 fe 01 b6 8c 0a 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 298,
+        "offset_hex": "0x012a",
+        "context": "00 c8 00 13 c7 c0 00 c8 00 14 e9 01 ad 01"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 367,
+        "offset_hex": "0x016f",
+        "context": "00 c8 00 15 c7 fe 01 b5 c0 00 c8 00 16 c7"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 376,
+        "offset_hex": "0x0178",
+        "context": "00 c8 00 16 c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 169,
+        "offset_hex": "0x00a9",
+        "context": "00 c8 00 17 c7 c0 00 c8 00 18 e9 00 ac 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 180,
+        "offset_hex": "0x00b4",
+        "context": "00 ac 00 00 c7 c0 00 c8 00 19 c7 f1 fe 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 186,
+        "offset_hex": "0x00ba",
+        "context": "00 c8 00 19 c7 f1 fe 00 ee c0 00 c8 00 1a"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 196,
+        "offset_hex": "0x00c4",
+        "context": "00 c8 00 1a c7 e6 1b 0f 18 02 4e 18 0c 0f"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 75,
+        "offset_hex": "0x004b",
+        "context": "00 c8 00 1b c7 e6 15 dc 0a 02 00 07 0c 0b"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 140,
+        "offset_hex": "0x008c",
+        "context": "00 c8 00 1c c7 c0 00 c8 00 1d e9 01 ad 01"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 211,
+        "offset_hex": "0x00d3",
+        "context": "00 c8 00 1e c7 fe 01 19 c0 00 c8 00 1f c7"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 220,
+        "offset_hex": "0x00dc",
+        "context": "00 c8 00 1f c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 42,
+        "offset_hex": "0x002a",
+        "context": "00 c8 00 20 c7 e6 15 dc 0a 02 00 07 0c 0b"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 106,
+        "offset_hex": "0x006a",
+        "context": "00 c8 00 21 c7 4f 15 02 e6 15 f1 fe 01 5c"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 132,
+        "offset_hex": "0x0084",
+        "context": "00 c8 00 22 c7 c0 00 c8 00 23 e9 00 ad 00"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 198,
+        "offset_hex": "0x00c6",
+        "context": "00 c8 00 24 c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 312,
+        "offset_hex": "0x0138",
+        "context": "00 c8 00 25 c7 c0 00 c8 00 26 c7 2c 01 01"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 318,
+        "offset_hex": "0x013e",
+        "context": "00 c8 00 26 c7 2c 01 01 fe 01 5c c0 00 c8"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 330,
+        "offset_hex": "0x014a",
+        "context": "00 c8 00 27 c7 2c 02 01 fe 01 5c fe 01 5d"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 139,
+        "offset_hex": "0x008b",
+        "context": "00 c8 00 28 c7 4f 15 02 e6 15 f1 fe 01 77"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 154,
+        "offset_hex": "0x009a",
+        "context": "00 c8 00 29 c7 e6 15 dc 0a 02 00 07 0c 0b"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 306,
+        "offset_hex": "0x0132",
+        "context": "00 c8 00 2c c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 120,
+        "offset_hex": "0x0078",
+        "context": "00 c8 00 2d c7 c0 00 c8 00 2e c7 c0 00 c8"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 126,
+        "offset_hex": "0x007e",
+        "context": "00 c8 00 2e c7 c0 00 c8 00 2f e9 00 ac 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 143,
+        "offset_hex": "0x008f",
+        "context": "00 c8 00 30 c7 f1 fe 00 b9 0f 18 02 4e 18"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 48,
+        "offset_hex": "0x0030",
+        "context": "00 c8 00 31 c7 0c 0a 27 10 42 0a 13 e7 0a"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 76,
+        "offset_hex": "0x004c",
+        "context": "00 c8 00 32 c7 e6 15 dc 0a 02 00 07 0c 0b"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 184,
+        "offset_hex": "0x00b8",
+        "context": "00 c8 00 33 c7 4f 15 02 e6 15 f1 fe 01 f2"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 199,
+        "offset_hex": "0x00c7",
+        "context": "00 c8 00 34 c7 c0 00 c8 00 35 c7 dc 0a 02"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 205,
+        "offset_hex": "0x00cd",
+        "context": "00 c8 00 35 c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 281,
+        "offset_hex": "0x0119",
+        "context": "00 c8 00 36 c7 c0 00 c8 00 37 e9 01 ad 01"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 392,
+        "offset_hex": "0x0188",
+        "context": "00 c8 00 38 c7 c0 00 c8 00 39 c7 dc 0a 02"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 398,
+        "offset_hex": "0x018e",
+        "context": "00 c8 00 39 c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 236,
+        "offset_hex": "0x00ec",
+        "context": "32 c8 00 3a c7 c0 01 cd 32 c8 00 3b c7 c0"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 244,
+        "offset_hex": "0x00f4",
+        "context": "32 c8 00 3b c7 c0 01 cd 32 c8 00 3c c7 c0"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 252,
+        "offset_hex": "0x00fc",
+        "context": "32 c8 00 3c c7 c0 01 cd 32 c8 00 3d e9 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 273,
+        "offset_hex": "0x0111",
+        "context": "32 c8 00 3e c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 348,
+        "offset_hex": "0x015c",
+        "context": "64 c8 00 40 c7 f0 fe 01 6c fe 01 6d f8 f2"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 170,
+        "offset_hex": "0x00aa",
+        "context": "32 c8 00 41 c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 230,
+        "offset_hex": "0x00e6",
+        "context": "32 c8 00 43 c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 295,
+        "offset_hex": "0x0127",
+        "context": "32 c8 00 44 c7 fe 01 3a fe 01 3b f8 f2 dc"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 359,
+        "offset_hex": "0x0167",
+        "context": "00 c8 00 45 c7 0c 3f 00 01 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 162,
+        "offset_hex": "0x00a2",
+        "context": "32 c8 00 46 c7 c0 01 cd 32 c8 00 47 c7 8c"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 170,
+        "offset_hex": "0x00aa",
+        "context": "32 c8 00 47 c7 8c 12 00 00 bf c0 01 cd 32"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 256,
+        "offset_hex": "0x0100",
+        "context": "32 c8 00 4e c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 331,
+        "offset_hex": "0x014b",
+        "context": "53 c8 00 50 c7 f0 fe 01 5b fe 01 5c f8 f2"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 154,
+        "offset_hex": "0x009a",
+        "context": "32 c8 00 51 c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 274,
+        "offset_hex": "0x0112",
+        "context": "32 c8 00 58 c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 404,
+        "offset_hex": "0x0194",
+        "context": "33 c8 00 59 c7 8c 09 01 01 aa c0 01 cd 33"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 417,
+        "offset_hex": "0x01a1",
+        "context": "33 c8 00 5a c7 8c 09 02 01 b7 c0 01 cd 33"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 430,
+        "offset_hex": "0x01ae",
+        "context": "33 c8 00 5b c7 8c 09 03 01 c4 c0 01 cd 33"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 443,
+        "offset_hex": "0x01bb",
+        "context": "33 c8 00 5c c7 8c 09 04 01 d1 c0 01 cd 33"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 456,
+        "offset_hex": "0x01c8",
+        "context": "33 c8 00 5d c7 8c 09 05 01 de c0 01 cd 33"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 469,
+        "offset_hex": "0x01d5",
+        "context": "33 c8 00 5e c7 2c 01 01 d0 0a 00 12 0b 40"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 548,
+        "offset_hex": "0x0224",
+        "context": "33 c8 00 5f c7 8c 09 01 02 3a c0 01 cd 33"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 561,
+        "offset_hex": "0x0231",
+        "context": "33 c8 00 60 c7 8c 09 02 02 47 c0 01 cd 33"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 574,
+        "offset_hex": "0x023e",
+        "context": "33 c8 00 61 c7 8c 09 03 02 54 c0 01 cd 33"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 587,
+        "offset_hex": "0x024b",
+        "context": "33 c8 00 62 c7 8c 09 04 02 61 c0 01 cd 33"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 600,
+        "offset_hex": "0x0258",
+        "context": "33 c8 00 63 c7 8c 09 05 02 6e c0 01 cd 33"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 613,
+        "offset_hex": "0x0265",
+        "context": "33 c8 00 64 c7 fe 02 74 fe 02 75 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk8.sub1",
+        "offset": 162,
+        "offset_hex": "0x00a2",
+        "context": "32 c8 00 65 c7 c0 01 cd 32 c8 00 66 c7 8c"
+      },
+      {
+        "script": "Snr0.chunk8.sub1",
+        "offset": 170,
+        "offset_hex": "0x00aa",
+        "context": "32 c8 00 66 c7 8c 12 00 00 bf c0 01 cd 32"
+      },
+      {
+        "script": "Snr0.chunk8.sub1",
+        "offset": 256,
+        "offset_hex": "0x0100",
+        "context": "32 c8 00 6d c7 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk8.sub1",
+        "offset": 331,
+        "offset_hex": "0x014b",
+        "context": "53 c8 00 6f c7 f0 fe 01 5b fe 01 5c f8 f2"
+      },
+      {
+        "script": "Snr0.chunk8.sub2",
+        "offset": 154,
+        "offset_hex": "0x009a",
+        "context": "32 c8 00 70 c7 dc 0a 02 00 07 0c 0b 00 00"
+      }
+    ],
+    "0xcc": [
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 174,
+        "offset_hex": "0x00ae",
+        "context": "8c 17 02 00 cc 4c 0a 1f 8f 10 31 00 c3 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 191,
+        "offset_hex": "0x00bf",
+        "context": "8e 10 32 00 cc 0c 09 00 01 00 11 10 8c 09"
+      },
+      {
+        "script": "Snr0.chunk0.sub2",
+        "offset": 174,
+        "offset_hex": "0x00ae",
+        "context": "8c 17 02 00 cc 4c 0a 1f 8f 10 31 00 c3 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub2",
+        "offset": 191,
+        "offset_hex": "0x00bf",
+        "context": "8e 10 32 00 cc 0c 09 00 01 00 11 10 8c 09"
+      },
+      {
+        "script": "Snr0.chunk9.sub2",
+        "offset": 192,
+        "offset_hex": "0x00c0",
+        "context": "8f 09 63 00 cc fe 00 ae 82 0d 13 00 fb c0"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 10,
+        "offset_hex": "0x000a",
+        "context": "00 40 c0 01 cc 00 06 c8 00 00 c7 fe 02 62"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 38,
+        "offset_hex": "0x0026",
+        "context": "00 f7 c0 01 cc 00 13 c8 00 01 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 47,
+        "offset_hex": "0x002f",
+        "context": "01 c7 c0 02 cc 00 00 c8 00 02 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 56,
+        "offset_hex": "0x0038",
+        "context": "02 c7 c0 02 cc 00 1f c8 00 03 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 65,
+        "offset_hex": "0x0041",
+        "context": "03 c7 c0 02 cc 00 1f c8 00 04 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 74,
+        "offset_hex": "0x004a",
+        "context": "04 c7 c0 01 cc 00 13 c8 00 05 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 83,
+        "offset_hex": "0x0053",
+        "context": "05 c7 c0 02 cc 00 1f c8 00 06 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 92,
+        "offset_hex": "0x005c",
+        "context": "06 c7 c0 02 cc 00 1f c8 00 07 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 101,
+        "offset_hex": "0x0065",
+        "context": "07 c7 c0 01 cc 00 13 c8 00 08 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 110,
+        "offset_hex": "0x006e",
+        "context": "08 c7 c0 02 cc 00 1f c8 00 09 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 119,
+        "offset_hex": "0x0077",
+        "context": "09 c7 c0 02 cc 00 1f c8 00 0a c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 128,
+        "offset_hex": "0x0080",
+        "context": "0a c7 c0 02 cc 00 1f c8 00 0b c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 137,
+        "offset_hex": "0x0089",
+        "context": "0b c7 c0 01 cc 00 13 c8 00 0c c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 146,
+        "offset_hex": "0x0092",
+        "context": "0c c7 c0 01 cc 00 13 c8 00 0d c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 155,
+        "offset_hex": "0x009b",
+        "context": "0d c7 c0 01 cc 00 13 c8 00 0e c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 164,
+        "offset_hex": "0x00a4",
+        "context": "0e c7 c0 01 cc 00 13 c8 00 0f c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 173,
+        "offset_hex": "0x00ad",
+        "context": "0f c7 c0 01 cc 00 13 c8 00 10 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 182,
+        "offset_hex": "0x00b6",
+        "context": "10 c7 c0 01 cc 00 13 c8 00 11 c7 dc 00 06"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 210,
+        "offset_hex": "0x00d2",
+        "context": "01 08 c0 01 cc 00 06 c8 00 12 c7 fe 02 62"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 226,
+        "offset_hex": "0x00e2",
+        "context": "01 2a c0 01 cc 00 06 c8 00 13 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 235,
+        "offset_hex": "0x00eb",
+        "context": "13 c7 c0 02 cc 00 00 c8 00 14 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 244,
+        "offset_hex": "0x00f4",
+        "context": "14 c7 c0 01 cc 00 06 c8 00 15 c7 fe 02 62"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 260,
+        "offset_hex": "0x0104",
+        "context": "02 62 c0 02 cc 00 00 c8 00 16 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 269,
+        "offset_hex": "0x010d",
+        "context": "16 c7 c0 01 cc 00 12 c8 00 17 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 278,
+        "offset_hex": "0x0116",
+        "context": "17 c7 c0 02 cc 00 00 c8 00 18 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 287,
+        "offset_hex": "0x011f",
+        "context": "18 c7 c0 01 cc 00 12 c8 00 19 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 296,
+        "offset_hex": "0x0128",
+        "context": "19 c7 c0 02 cc 00 00 c8 00 1a c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 305,
+        "offset_hex": "0x0131",
+        "context": "1a c7 c0 01 cc 00 12 c8 00 1b c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 314,
+        "offset_hex": "0x013a",
+        "context": "1b c7 c0 02 cc 00 00 c8 00 1c c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 323,
+        "offset_hex": "0x0143",
+        "context": "1c c7 c0 01 cc 00 12 c8 00 1d c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 332,
+        "offset_hex": "0x014c",
+        "context": "1d c7 c0 02 cc 00 00 c8 00 1e c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 341,
+        "offset_hex": "0x0155",
+        "context": "1e c7 c0 01 cc 00 12 c8 00 1f c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 350,
+        "offset_hex": "0x015e",
+        "context": "1f c7 c0 02 cc 00 00 c8 00 20 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 359,
+        "offset_hex": "0x0167",
+        "context": "20 c7 c0 01 cc 00 12 c8 00 21 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 368,
+        "offset_hex": "0x0170",
+        "context": "21 c7 c0 02 cc 00 00 c8 00 22 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 377,
+        "offset_hex": "0x0179",
+        "context": "22 c7 c0 01 cc 00 12 c8 00 23 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 386,
+        "offset_hex": "0x0182",
+        "context": "23 c7 c0 01 cc 00 12 c8 00 24 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 395,
+        "offset_hex": "0x018b",
+        "context": "24 c7 c0 02 cc 00 00 c8 00 25 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 404,
+        "offset_hex": "0x0194",
+        "context": "25 c7 c0 01 cc 00 12 c8 00 26 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 413,
+        "offset_hex": "0x019d",
+        "context": "26 c7 c0 02 cc 00 00 c8 00 27 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 422,
+        "offset_hex": "0x01a6",
+        "context": "27 c7 c0 01 cc 00 12 c8 00 28 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 431,
+        "offset_hex": "0x01af",
+        "context": "28 c7 c0 02 cc 00 00 c8 00 29 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 440,
+        "offset_hex": "0x01b8",
+        "context": "29 c7 c0 01 cc 00 12 c8 00 2a c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 449,
+        "offset_hex": "0x01c1",
+        "context": "2a c7 c0 01 cc 00 12 c8 00 2b c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 458,
+        "offset_hex": "0x01ca",
+        "context": "2b c7 c0 01 cc 00 12 c8 00 2c c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 467,
+        "offset_hex": "0x01d3",
+        "context": "2c c7 c0 01 cc 00 12 c8 00 2d c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 476,
+        "offset_hex": "0x01dc",
+        "context": "2d c7 c0 02 cc 00 00 c8 00 2e c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 485,
+        "offset_hex": "0x01e5",
+        "context": "2e c7 c0 01 cc 00 12 c8 00 2f c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 494,
+        "offset_hex": "0x01ee",
+        "context": "2f c7 c0 01 cc 00 12 c8 00 30 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 503,
+        "offset_hex": "0x01f7",
+        "context": "30 c7 c0 01 cc 00 12 c8 00 31 c7 f9 05 05"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 515,
+        "offset_hex": "0x0203",
+        "context": "05 05 c0 01 cc 00 12 c8 00 32 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 524,
+        "offset_hex": "0x020c",
+        "context": "32 c7 c0 02 cc 00 1f c8 00 33 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 533,
+        "offset_hex": "0x0215",
+        "context": "33 c7 c0 01 cc 00 12 c8 00 34 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 542,
+        "offset_hex": "0x021e",
+        "context": "34 c7 c0 02 cc 00 1f c8 00 35 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 551,
+        "offset_hex": "0x0227",
+        "context": "35 c7 c0 01 cc 00 12 c8 00 36 c7 fb 45 2c"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 578,
+        "offset_hex": "0x0242",
+        "context": "02 75 c0 01 cc 00 61 c8 00 37 c7 ac 04 02"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 591,
+        "offset_hex": "0x024f",
+        "context": "02 be c0 01 cc 00 61 c8 00 38 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 600,
+        "offset_hex": "0x0258",
+        "context": "38 c7 c0 01 cc 00 62 c8 00 39 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 609,
+        "offset_hex": "0x0261",
+        "context": "39 c7 c0 01 cc 00 61 c8 00 3a c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 618,
+        "offset_hex": "0x026a",
+        "context": "3a c7 c0 02 cc 00 00 c8 00 3b c7 c4 ca 04"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 630,
+        "offset_hex": "0x0276",
+        "context": "ca 04 c0 01 cc 00 61 c8 00 3c c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 639,
+        "offset_hex": "0x027f",
+        "context": "3c c7 c0 02 cc 00 00 c8 00 3d c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 648,
+        "offset_hex": "0x0288",
+        "context": "3d c7 c0 01 cc 00 62 c8 00 3e c7 2c 04 01"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 677,
+        "offset_hex": "0x02a5",
+        "context": "00 01 c0 01 cc 00 62 c8 00 3f c7 f8 ac 05"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 695,
+        "offset_hex": "0x02b7",
+        "context": "00 01 c0 01 cc 00 61 c8 00 40 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 704,
+        "offset_hex": "0x02c0",
+        "context": "40 c7 c0 01 cc 00 62 c8 00 41 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 713,
+        "offset_hex": "0x02c9",
+        "context": "41 c7 c0 02 cc 00 00 c8 00 42 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 722,
+        "offset_hex": "0x02d2",
+        "context": "42 c7 c0 02 cc 00 00 c8 00 43 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 731,
+        "offset_hex": "0x02db",
+        "context": "43 c7 c0 01 cc 00 62 c8 00 44 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 740,
+        "offset_hex": "0x02e4",
+        "context": "44 c7 c0 01 cc 00 61 c8 00 45 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 749,
+        "offset_hex": "0x02ed",
+        "context": "45 c7 c0 01 cc 00 61 c8 00 46 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 758,
+        "offset_hex": "0x02f6",
+        "context": "46 c7 c0 01 cc 00 1f c8 00 47 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 767,
+        "offset_hex": "0x02ff",
+        "context": "47 c7 c0 01 cc 00 61 c8 00 48 c7 c0 01 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 776,
+        "offset_hex": "0x0308",
+        "context": "48 c7 c0 01 cc 00 61 c8 00 49 c7 c0 02 cc"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 785,
+        "offset_hex": "0x0311",
+        "context": "49 c7 c0 02 cc 00 00 c8 00 4a c7 c0 01 cc"
+      }
+    ],
+    "0xc0": [
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 225,
+        "offset_hex": "0x00e1",
+        "context": "21 0c 11 04 c0 00 c8 00 00 c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 231,
+        "offset_hex": "0x00e7",
+        "context": "c8 00 00 c7 c0 00 c8 00 01 e9 00 0c 06 00"
+      },
+      {
+        "script": "Snr0.chunk0.sub2",
+        "offset": 220,
+        "offset_hex": "0x00dc",
+        "context": "20 0c 10 04 c0 00 c8 00 02 e9 00 0c 06 00"
+      },
+      {
+        "script": "Snr0.chunk0.sub3",
+        "offset": 235,
+        "offset_hex": "0x00eb",
+        "context": "20 0c 11 04 c0 00 c8 00 03 c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk0.sub3",
+        "offset": 241,
+        "offset_hex": "0x00f1",
+        "context": "c8 00 03 c7 c0 00 c8 00 04 e9 00 0c 06 00"
+      },
+      {
+        "script": "Snr0.chunk0.sub3",
+        "offset": 256,
+        "offset_hex": "0x0100",
+        "context": "ad 00 01 2a c0 00 c8 00 05 c7 0f 18 02 4e"
+      },
+      {
+        "script": "Snr0.chunk0.sub4",
+        "offset": 270,
+        "offset_hex": "0x010e",
+        "context": "0c 16 05 dc c0 00 c8 00 06 e9 00 0c 06 00"
+      },
+      {
+        "script": "Snr0.chunk0.sub4",
+        "offset": 285,
+        "offset_hex": "0x011d",
+        "context": "ad 00 01 4a c0 00 c8 00 07 c7 2c 03 00 0f"
+      },
+      {
+        "script": "Snr0.chunk0.sub5",
+        "offset": 224,
+        "offset_hex": "0x00e0",
+        "context": "20 0c 10 04 c0 00 c8 00 08 e9 00 0c 06 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 113,
+        "offset_hex": "0x0071",
+        "context": "13 00 00 82 c0 00 c8 00 09 c7 fe 00 da d0"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 139,
+        "offset_hex": "0x008b",
+        "context": "0c 3f 00 01 c0 00 c8 00 0a c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 145,
+        "offset_hex": "0x0091",
+        "context": "c8 00 0a c7 c0 00 c8 00 0b e9 00 ac 00 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 156,
+        "offset_hex": "0x009c",
+        "context": "ac 00 00 ae c0 00 c8 00 0c c7 f1 fe 00 d9"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 166,
+        "offset_hex": "0x00a6",
+        "context": "f1 fe 00 d9 c0 00 c8 00 0d c7 e2 12 13 0f"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 37,
+        "offset_hex": "0x0025",
+        "context": "ad 00 00 69 c0 00 c8 00 0e c7 e6 15 dc 0a"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 121,
+        "offset_hex": "0x0079",
+        "context": "18 41 0c 19 c0 00 c8 00 0f c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 127,
+        "offset_hex": "0x007f",
+        "context": "c8 00 0f c7 c0 00 c8 00 10 e9 01 ad 01 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 137,
+        "offset_hex": "0x0089",
+        "context": "01 ad 01 00 c0 dc 0a 02 00 07 0c 0b 00 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 187,
+        "offset_hex": "0x00bb",
+        "context": "f1 fe 01 b5 c0 00 c8 00 11 c7 f1 fe 01 b5"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 276,
+        "offset_hex": "0x0114",
+        "context": "0a 13 01 28 c0 00 c8 00 12 c7 2c 00 01 fe"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 293,
+        "offset_hex": "0x0125",
+        "context": "0a 00 01 6f c0 00 c8 00 13 c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 299,
+        "offset_hex": "0x012b",
+        "context": "c8 00 13 c7 c0 00 c8 00 14 e9 01 ad 01 01"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 362,
+        "offset_hex": "0x016a",
+        "context": "b5 41 13 0a c0 00 c8 00 15 c7 fe 01 b5 c0"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 371,
+        "offset_hex": "0x0173",
+        "context": "c7 fe 01 b5 c0 00 c8 00 16 c7 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 164,
+        "offset_hex": "0x00a4",
+        "context": "0c 3f 00 01 c0 00 c8 00 17 c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 170,
+        "offset_hex": "0x00aa",
+        "context": "c8 00 17 c7 c0 00 c8 00 18 e9 00 ac 00 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 181,
+        "offset_hex": "0x00b5",
+        "context": "ac 00 00 c7 c0 00 c8 00 19 c7 f1 fe 00 ee"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 191,
+        "offset_hex": "0x00bf",
+        "context": "f1 fe 00 ee c0 00 c8 00 1a c7 e6 1b 0f 18"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 70,
+        "offset_hex": "0x0046",
+        "context": "0a 13 00 8a c0 00 c8 00 1b c7 e6 15 dc 0a"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 135,
+        "offset_hex": "0x0087",
+        "context": "0a 00 00 d3 c0 00 c8 00 1c c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 141,
+        "offset_hex": "0x008d",
+        "context": "c8 00 1c c7 c0 00 c8 00 1d e9 01 ad 01 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 206,
+        "offset_hex": "0x00ce",
+        "context": "19 41 13 0a c0 00 c8 00 1e c7 fe 01 19 c0"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 215,
+        "offset_hex": "0x00d7",
+        "context": "c7 fe 01 19 c0 00 c8 00 1f c7 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 37,
+        "offset_hex": "0x0025",
+        "context": "ad 01 00 69 c0 00 c8 00 20 c7 e6 15 dc 0a"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 101,
+        "offset_hex": "0x0065",
+        "context": "ad 02 00 7c c0 00 c8 00 21 c7 4f 15 02 e6"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 127,
+        "offset_hex": "0x007f",
+        "context": "18 41 0c 19 c0 00 c8 00 22 c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 133,
+        "offset_hex": "0x0085",
+        "context": "c8 00 22 c7 c0 00 c8 00 23 e9 00 ad 00 00"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 193,
+        "offset_hex": "0x00c1",
+        "context": "f1 fe 01 5c c0 00 c8 00 24 c7 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 307,
+        "offset_hex": "0x0133",
+        "context": "21 0c 10 04 c0 00 c8 00 25 c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 313,
+        "offset_hex": "0x0139",
+        "context": "c8 00 25 c7 c0 00 c8 00 26 c7 2c 01 01 fe"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 325,
+        "offset_hex": "0x0145",
+        "context": "01 fe 01 5c c0 00 c8 00 27 c7 2c 02 01 fe"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 134,
+        "offset_hex": "0x0086",
+        "context": "ad 02 00 a5 c0 00 c8 00 28 c7 4f 15 02 e6"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 149,
+        "offset_hex": "0x0095",
+        "context": "f1 fe 01 77 c0 00 c8 00 29 c7 e6 15 dc 0a"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 231,
+        "offset_hex": "0x00e7",
+        "context": "0a 13 00 fc c0 00 c8 00 2a 81 0a 13 01 06"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 241,
+        "offset_hex": "0x00f1",
+        "context": "0a 13 01 06 c0 00 c8 00 2b e9 01 ad 01 01"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 301,
+        "offset_hex": "0x012d",
+        "context": "f1 fe 01 77 c0 00 c8 00 2c c7 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 115,
+        "offset_hex": "0x0073",
+        "context": "0c 3f 00 01 c0 00 c8 00 2d c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 121,
+        "offset_hex": "0x0079",
+        "context": "c8 00 2d c7 c0 00 c8 00 2e c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 127,
+        "offset_hex": "0x007f",
+        "context": "c8 00 2e c7 c0 00 c8 00 2f e9 00 ac 00 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 138,
+        "offset_hex": "0x008a",
+        "context": "ac 00 00 9c c0 00 c8 00 30 c7 f1 fe 00 b9"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 43,
+        "offset_hex": "0x002b",
+        "context": "09 0a 00 ca c0 00 c8 00 31 c7 0c 0a 27 10"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 71,
+        "offset_hex": "0x0047",
+        "context": "18 19 00 bb c0 00 c8 00 32 c7 e6 15 dc 0a"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 179,
+        "offset_hex": "0x00b3",
+        "context": "f1 fe 01 f2 c0 00 c8 00 33 c7 4f 15 02 e6"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 194,
+        "offset_hex": "0x00c2",
+        "context": "f1 fe 01 f2 c0 00 c8 00 34 c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 200,
+        "offset_hex": "0x00c8",
+        "context": "c8 00 34 c7 c0 00 c8 00 35 c7 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 276,
+        "offset_hex": "0x0114",
+        "context": "22 03 11 0d c0 00 c8 00 36 c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 282,
+        "offset_hex": "0x011a",
+        "context": "c8 00 36 c7 c0 00 c8 00 37 e9 01 ad 01 01"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 387,
+        "offset_hex": "0x0183",
+        "context": "f1 fe 01 f2 c0 00 c8 00 38 c7 c0 00 c8 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 393,
+        "offset_hex": "0x0189",
+        "context": "c8 00 38 c7 c0 00 c8 00 39 c7 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 229,
+        "offset_hex": "0x00e5",
+        "context": "00 04 23 22 c0 01 cd 32 c8 00 3a c7 c0 01"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 237,
+        "offset_hex": "0x00ed",
+        "context": "c8 00 3a c7 c0 01 cd 32 c8 00 3b c7 c0 01"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 245,
+        "offset_hex": "0x00f5",
+        "context": "c8 00 3b c7 c0 01 cd 32 c8 00 3c c7 c0 01"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 253,
+        "offset_hex": "0x00fd",
+        "context": "c8 00 3c c7 c0 01 cd 32 c8 00 3d e9 00 ac"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 266,
+        "offset_hex": "0x010a",
+        "context": "ac 00 01 50 c0 01 cd 32 c8 00 3e c7 dc 0a"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 328,
+        "offset_hex": "0x0148",
+        "context": "f1 fe 01 6c c0 01 cd 32 8c 1d 00 01 5c c8"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 163,
+        "offset_hex": "0x00a3",
+        "context": "0f 13 00 d9 c0 01 cd 32 c8 00 41 c7 dc 0a"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 210,
+        "offset_hex": "0x00d2",
+        "context": "0f 00 01 29 c0 01 cd 32 c8 00 42 e9 01 ad"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 223,
+        "offset_hex": "0x00df",
+        "context": "ad 01 01 26 c0 01 cd 32 c8 00 43 c7 dc 0a"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 288,
+        "offset_hex": "0x0120",
+        "context": "3a 41 13 0f c0 01 cd 32 c8 00 44 c7 fe 01"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 354,
+        "offset_hex": "0x0162",
+        "context": "07 0a 01 79 c0 00 c8 00 45 c7 0c 3f 00 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 155,
+        "offset_hex": "0x009b",
+        "context": "a3 fe 00 8b c0 01 cd 32 c8 00 46 c7 c0 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 163,
+        "offset_hex": "0x00a3",
+        "context": "c8 00 46 c7 c0 01 cd 32 c8 00 47 c7 8c 12"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 176,
+        "offset_hex": "0x00b0",
+        "context": "12 00 00 bf c0 01 cd 32 c8 00 48 8c 12 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 188,
+        "offset_hex": "0x00bc",
+        "context": "12 01 00 cb c0 01 cd 32 c8 00 49 8c 12 02"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 200,
+        "offset_hex": "0x00c8",
+        "context": "12 02 00 d7 c0 01 cd 32 c8 00 4a 8c 12 03"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 212,
+        "offset_hex": "0x00d4",
+        "context": "12 03 00 e3 c0 01 cd 32 c8 00 4b 8c 12 04"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 224,
+        "offset_hex": "0x00e0",
+        "context": "12 04 00 ef c0 01 cd 32 c8 00 4c 8c 12 05"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 236,
+        "offset_hex": "0x00ec",
+        "context": "12 05 00 fb c0 01 cd 32 c8 00 4d e9 00 ac"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 249,
+        "offset_hex": "0x00f9",
+        "context": "ac 00 01 3f c0 01 cd 32 c8 00 4e c7 dc 0a"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 311,
+        "offset_hex": "0x0137",
+        "context": "f1 fe 01 5b c0 01 cd 32 8c 1d 00 01 4b c8"
+      }
+    ],
+    "0xc8": [
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 227,
+        "offset_hex": "0x00e3",
+        "context": "11 04 c0 00 c8 00 00 c7 c0 00 c8 00 01 e9"
+      },
+      {
+        "script": "Snr0.chunk0.sub1",
+        "offset": 233,
+        "offset_hex": "0x00e9",
+        "context": "00 c7 c0 00 c8 00 01 e9 00 0c 06 00 00 ad"
+      },
+      {
+        "script": "Snr0.chunk0.sub2",
+        "offset": 222,
+        "offset_hex": "0x00de",
+        "context": "10 04 c0 00 c8 00 02 e9 00 0c 06 00 00 ad"
+      },
+      {
+        "script": "Snr0.chunk0.sub3",
+        "offset": 237,
+        "offset_hex": "0x00ed",
+        "context": "11 04 c0 00 c8 00 03 c7 c0 00 c8 00 04 e9"
+      },
+      {
+        "script": "Snr0.chunk0.sub3",
+        "offset": 243,
+        "offset_hex": "0x00f3",
+        "context": "03 c7 c0 00 c8 00 04 e9 00 0c 06 00 00 ad"
+      },
+      {
+        "script": "Snr0.chunk0.sub3",
+        "offset": 258,
+        "offset_hex": "0x0102",
+        "context": "01 2a c0 00 c8 00 05 c7 0f 18 02 4e 18 0c"
+      },
+      {
+        "script": "Snr0.chunk0.sub4",
+        "offset": 272,
+        "offset_hex": "0x0110",
+        "context": "05 dc c0 00 c8 00 06 e9 00 0c 06 00 00 ad"
+      },
+      {
+        "script": "Snr0.chunk0.sub4",
+        "offset": 287,
+        "offset_hex": "0x011f",
+        "context": "01 4a c0 00 c8 00 07 c7 2c 03 00 0f 18 02"
+      },
+      {
+        "script": "Snr0.chunk0.sub5",
+        "offset": 226,
+        "offset_hex": "0x00e2",
+        "context": "10 04 c0 00 c8 00 08 e9 00 0c 06 00 00 ad"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 57,
+        "offset_hex": "0x0039",
+        "context": "e8 0c 16 00 c8 8c 17 01 00 53 0c 14 00 02"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 115,
+        "offset_hex": "0x0073",
+        "context": "00 82 c0 00 c8 00 09 c7 fe 00 da d0 21 0c"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 141,
+        "offset_hex": "0x008d",
+        "context": "00 01 c0 00 c8 00 0a c7 c0 00 c8 00 0b e9"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 147,
+        "offset_hex": "0x0093",
+        "context": "0a c7 c0 00 c8 00 0b e9 00 ac 00 00 ae c0"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 158,
+        "offset_hex": "0x009e",
+        "context": "00 ae c0 00 c8 00 0c c7 f1 fe 00 d9 c0 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 168,
+        "offset_hex": "0x00a8",
+        "context": "00 d9 c0 00 c8 00 0d c7 e2 12 13 0f 18 02"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 39,
+        "offset_hex": "0x0027",
+        "context": "00 69 c0 00 c8 00 0e c7 e6 15 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 123,
+        "offset_hex": "0x007b",
+        "context": "0c 19 c0 00 c8 00 0f c7 c0 00 c8 00 10 e9"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 129,
+        "offset_hex": "0x0081",
+        "context": "0f c7 c0 00 c8 00 10 e9 01 ad 01 00 c0 dc"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 189,
+        "offset_hex": "0x00bd",
+        "context": "01 b5 c0 00 c8 00 11 c7 f1 fe 01 b5 80 07"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 278,
+        "offset_hex": "0x0116",
+        "context": "01 28 c0 00 c8 00 12 c7 2c 00 01 fe 01 b6"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 295,
+        "offset_hex": "0x0127",
+        "context": "01 6f c0 00 c8 00 13 c7 c0 00 c8 00 14 e9"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 301,
+        "offset_hex": "0x012d",
+        "context": "13 c7 c0 00 c8 00 14 e9 01 ad 01 01 6c dc"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 364,
+        "offset_hex": "0x016c",
+        "context": "13 0a c0 00 c8 00 15 c7 fe 01 b5 c0 00 c8"
+      },
+      {
+        "script": "Snr0.chunk1.sub1",
+        "offset": 373,
+        "offset_hex": "0x0175",
+        "context": "01 b5 c0 00 c8 00 16 c7 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 24,
+        "offset_hex": "0x0018",
+        "context": "e8 0c 16 00 c8 eb 12 00 06 4c 12 20 8c 17"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 166,
+        "offset_hex": "0x00a6",
+        "context": "00 01 c0 00 c8 00 17 c7 c0 00 c8 00 18 e9"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 172,
+        "offset_hex": "0x00ac",
+        "context": "17 c7 c0 00 c8 00 18 e9 00 ac 00 00 c7 c0"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 183,
+        "offset_hex": "0x00b7",
+        "context": "00 c7 c0 00 c8 00 19 c7 f1 fe 00 ee c0 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 193,
+        "offset_hex": "0x00c1",
+        "context": "00 ee c0 00 c8 00 1a c7 e6 1b 0f 18 02 4e"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 72,
+        "offset_hex": "0x0048",
+        "context": "00 8a c0 00 c8 00 1b c7 e6 15 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 137,
+        "offset_hex": "0x0089",
+        "context": "00 d3 c0 00 c8 00 1c c7 c0 00 c8 00 1d e9"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 143,
+        "offset_hex": "0x008f",
+        "context": "1c c7 c0 00 c8 00 1d e9 01 ad 01 00 d0 dc"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 208,
+        "offset_hex": "0x00d0",
+        "context": "13 0a c0 00 c8 00 1e c7 fe 01 19 c0 00 c8"
+      },
+      {
+        "script": "Snr0.chunk2.sub1",
+        "offset": 217,
+        "offset_hex": "0x00d9",
+        "context": "01 19 c0 00 c8 00 1f c7 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 39,
+        "offset_hex": "0x0027",
+        "context": "00 69 c0 00 c8 00 20 c7 e6 15 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 103,
+        "offset_hex": "0x0067",
+        "context": "00 7c c0 00 c8 00 21 c7 4f 15 02 e6 15 f1"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 129,
+        "offset_hex": "0x0081",
+        "context": "0c 19 c0 00 c8 00 22 c7 c0 00 c8 00 23 e9"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 135,
+        "offset_hex": "0x0087",
+        "context": "22 c7 c0 00 c8 00 23 e9 00 ad 00 00 c6 dc"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 195,
+        "offset_hex": "0x00c3",
+        "context": "01 5c c0 00 c8 00 24 c7 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 309,
+        "offset_hex": "0x0135",
+        "context": "10 04 c0 00 c8 00 25 c7 c0 00 c8 00 26 c7"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 315,
+        "offset_hex": "0x013b",
+        "context": "25 c7 c0 00 c8 00 26 c7 2c 01 01 fe 01 5c"
+      },
+      {
+        "script": "Snr0.chunk3.sub0",
+        "offset": 327,
+        "offset_hex": "0x0147",
+        "context": "01 5c c0 00 c8 00 27 c7 2c 02 01 fe 01 5c"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 136,
+        "offset_hex": "0x0088",
+        "context": "00 a5 c0 00 c8 00 28 c7 4f 15 02 e6 15 f1"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 151,
+        "offset_hex": "0x0097",
+        "context": "01 77 c0 00 c8 00 29 c7 e6 15 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 233,
+        "offset_hex": "0x00e9",
+        "context": "00 fc c0 00 c8 00 2a 81 0a 13 01 06 c0 00"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 243,
+        "offset_hex": "0x00f3",
+        "context": "01 06 c0 00 c8 00 2b e9 01 ad 01 01 3a dc"
+      },
+      {
+        "script": "Snr0.chunk4.sub0",
+        "offset": 303,
+        "offset_hex": "0x012f",
+        "context": "01 77 c0 00 c8 00 2c c7 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 117,
+        "offset_hex": "0x0075",
+        "context": "00 01 c0 00 c8 00 2d c7 c0 00 c8 00 2e c7"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 123,
+        "offset_hex": "0x007b",
+        "context": "2d c7 c0 00 c8 00 2e c7 c0 00 c8 00 2f e9"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 129,
+        "offset_hex": "0x0081",
+        "context": "2e c7 c0 00 c8 00 2f e9 00 ac 00 00 9c c0"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 140,
+        "offset_hex": "0x008c",
+        "context": "00 9c c0 00 c8 00 30 c7 f1 fe 00 b9 0f 18"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 45,
+        "offset_hex": "0x002d",
+        "context": "00 ca c0 00 c8 00 31 c7 0c 0a 27 10 42 0a"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 73,
+        "offset_hex": "0x0049",
+        "context": "00 bb c0 00 c8 00 32 c7 e6 15 dc 0a 02 00"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 181,
+        "offset_hex": "0x00b5",
+        "context": "01 f2 c0 00 c8 00 33 c7 4f 15 02 e6 15 f1"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 196,
+        "offset_hex": "0x00c4",
+        "context": "01 f2 c0 00 c8 00 34 c7 c0 00 c8 00 35 c7"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 202,
+        "offset_hex": "0x00ca",
+        "context": "34 c7 c0 00 c8 00 35 c7 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 278,
+        "offset_hex": "0x0116",
+        "context": "11 0d c0 00 c8 00 36 c7 c0 00 c8 00 37 e9"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 284,
+        "offset_hex": "0x011c",
+        "context": "36 c7 c0 00 c8 00 37 e9 01 ad 01 01 88 dc"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 389,
+        "offset_hex": "0x0185",
+        "context": "01 f2 c0 00 c8 00 38 c7 c0 00 c8 00 39 c7"
+      },
+      {
+        "script": "Snr0.chunk5.sub1",
+        "offset": 395,
+        "offset_hex": "0x018b",
+        "context": "38 c7 c0 00 c8 00 39 c7 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 233,
+        "offset_hex": "0x00e9",
+        "context": "c0 01 cd 32 c8 00 3a c7 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 241,
+        "offset_hex": "0x00f1",
+        "context": "c0 01 cd 32 c8 00 3b c7 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 249,
+        "offset_hex": "0x00f9",
+        "context": "c0 01 cd 32 c8 00 3c c7 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 257,
+        "offset_hex": "0x0101",
+        "context": "c0 01 cd 32 c8 00 3d e9 00 ac 00 01 50 c0"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 270,
+        "offset_hex": "0x010e",
+        "context": "c0 01 cd 32 c8 00 3e c7 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 337,
+        "offset_hex": "0x0151",
+        "context": "1d 00 01 5c c8 00 3f 8d 1d 00 01 64 c8 00"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 345,
+        "offset_hex": "0x0159",
+        "context": "1d 00 01 64 c8 00 40 c7 f0 fe 01 6c fe 01"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 167,
+        "offset_hex": "0x00a7",
+        "context": "c0 01 cd 32 c8 00 41 c7 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 214,
+        "offset_hex": "0x00d6",
+        "context": "c0 01 cd 32 c8 00 42 e9 01 ad 01 01 26 c0"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 227,
+        "offset_hex": "0x00e3",
+        "context": "c0 01 cd 32 c8 00 43 c7 dc 0a 02 00 07 0c"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 292,
+        "offset_hex": "0x0124",
+        "context": "c0 01 cd 32 c8 00 44 c7 fe 01 3a fe 01 3b"
+      },
+      {
+        "script": "Snr0.chunk6.sub2",
+        "offset": 356,
+        "offset_hex": "0x0164",
+        "context": "01 79 c0 00 c8 00 45 c7 0c 3f 00 01 f8 f2"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 159,
+        "offset_hex": "0x009f",
+        "context": "c0 01 cd 32 c8 00 46 c7 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 167,
+        "offset_hex": "0x00a7",
+        "context": "c0 01 cd 32 c8 00 47 c7 8c 12 00 00 bf c0"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 180,
+        "offset_hex": "0x00b4",
+        "context": "c0 01 cd 32 c8 00 48 8c 12 01 00 cb c0 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 192,
+        "offset_hex": "0x00c0",
+        "context": "c0 01 cd 32 c8 00 49 8c 12 02 00 d7 c0 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 204,
+        "offset_hex": "0x00cc",
+        "context": "c0 01 cd 32 c8 00 4a 8c 12 03 00 e3 c0 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 216,
+        "offset_hex": "0x00d8",
+        "context": "c0 01 cd 32 c8 00 4b 8c 12 04 00 ef c0 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 228,
+        "offset_hex": "0x00e4",
+        "context": "c0 01 cd 32 c8 00 4c 8c 12 05 00 fb c0 01"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 240,
+        "offset_hex": "0x00f0",
+        "context": "c0 01 cd 32 c8 00 4d e9 00 ac 00 01 3f c0"
+      }
+    ],
+    "0xac": [
+      {
+        "script": "Snr0.chunk0.sub3",
+        "offset": 159,
+        "offset_hex": "0x009f",
+        "context": "8f 10 22 00 ac 0c 09 00 00 8e 10 41 00 b5"
+      },
+      {
+        "script": "Snr0.chunk0.sub4",
+        "offset": 159,
+        "offset_hex": "0x009f",
+        "context": "8f 10 22 00 ac 0c 09 00 00 8e 10 41 00 b5"
+      },
+      {
+        "script": "Snr0.chunk1.sub0",
+        "offset": 152,
+        "offset_hex": "0x0098",
+        "context": "00 0b e9 00 ac 00 00 ae c0 00 c8 00 0c c7"
+      },
+      {
+        "script": "Snr0.chunk2.sub0",
+        "offset": 177,
+        "offset_hex": "0x00b1",
+        "context": "00 18 e9 00 ac 00 00 c7 c0 00 c8 00 19 c7"
+      },
+      {
+        "script": "Snr0.chunk5.sub0",
+        "offset": 134,
+        "offset_hex": "0x0086",
+        "context": "00 2f e9 00 ac 00 00 9c c0 00 c8 00 30 c7"
+      },
+      {
+        "script": "Snr0.chunk6.sub1",
+        "offset": 262,
+        "offset_hex": "0x0106",
+        "context": "00 3d e9 00 ac 00 01 50 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk7.sub1",
+        "offset": 245,
+        "offset_hex": "0x00f5",
+        "context": "00 4d e9 00 ac 00 01 3f c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk7.sub2",
+        "offset": 388,
+        "offset_hex": "0x0184",
+        "context": "0c 33 00 1c ac 01 02 20 8c 09 00 01 9d c0"
+      },
+      {
+        "script": "Snr0.chunk8.sub1",
+        "offset": 245,
+        "offset_hex": "0x00f5",
+        "context": "00 6c e9 00 ac 00 01 3f c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk8.sub2",
+        "offset": 388,
+        "offset_hex": "0x0184",
+        "context": "0c 33 00 1c ac 01 02 20 8c 09 00 01 9d c0"
+      },
+      {
+        "script": "Snr0.chunk9.sub1",
+        "offset": 279,
+        "offset_hex": "0x0117",
+        "context": "00 87 e9 00 ac 00 01 61 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk10.sub1",
+        "offset": 173,
+        "offset_hex": "0x00ad",
+        "context": "00 91 e9 00 ac 00 00 f7 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk11.sub1",
+        "offset": 224,
+        "offset_hex": "0x00e0",
+        "context": "00 9d e9 00 ac 00 01 2a c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk12.sub1",
+        "offset": 230,
+        "offset_hex": "0x00e6",
+        "context": "cd 32 c8 00 ac c7 c0 01 cd 32 c8 00 ad 8c"
+      },
+      {
+        "script": "Snr0.chunk12.sub1",
+        "offset": 301,
+        "offset_hex": "0x012d",
+        "context": "00 b3 e9 00 ac 00 01 77 c0 01 cd 32 c8 00"
+      },
+      {
+        "script": "Snr0.chunk12.sub2",
+        "offset": 190,
+        "offset_hex": "0x00be",
+        "context": "07 0a 01 94 ac 02 01 6a 8c 12 00 00 de c0"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 4,
+        "offset_hex": "0x0004",
+        "context": "ad 00 01 2a ac 05 00 40 c0 01 cc 00 06 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 24,
+        "offset_hex": "0x0018",
+        "context": "ad 05 01 2a ac 01 01 08 0f 01 07 8e 01 42"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 254,
+        "offset_hex": "0x00fe",
+        "context": "c7 fe 02 62 ac 00 02 62 c0 02 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 568,
+        "offset_hex": "0x0238",
+        "context": "02 62 f8 f2 ac 00 02 bf ad 04 02 75 c0 01"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 585,
+        "offset_hex": "0x0249",
+        "context": "c8 00 37 c7 ac 04 02 be c0 01 cc 00 61 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 667,
+        "offset_hex": "0x029b",
+        "context": "ad 05 02 d9 ac 01 02 d9 0c 3f 00 01 c0 01"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 685,
+        "offset_hex": "0x02ad",
+        "context": "00 3f c7 f8 ac 05 03 cb 0c 3f 00 01 c0 01"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 928,
+        "offset_hex": "0x03a0",
+        "context": "05 01 f8 f2 ac 00 03 d6 c0 00 c8 00 57 c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 954,
+        "offset_hex": "0x03ba",
+        "context": "0c 3f 00 01 ac 00 04 20 ad 07 03 f4 c0 00"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 968,
+        "offset_hex": "0x03c8",
+        "context": "c8 00 59 c7 ac 07 04 1f c0 00 c8 00 5a c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1026,
+        "offset_hex": "0x0402",
+        "context": "c8 00 5f c7 ac 08 04 8f 2c 08 01 c0 00 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1123,
+        "offset_hex": "0x0463",
+        "context": "c8 00 67 c7 ac 02 05 5e c0 00 c8 00 68 c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1133,
+        "offset_hex": "0x046d",
+        "context": "c8 00 68 c7 ac 07 04 ac c0 02 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1136,
+        "offset_hex": "0x0470",
+        "context": "c7 ac 07 04 ac c0 02 cc 00 00 c8 00 69 c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1331,
+        "offset_hex": "0x0533",
+        "context": "2c 02 01 f2 ac 03 05 a3 ac 00 05 7c c0 00"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1335,
+        "offset_hex": "0x0537",
+        "context": "ac 03 05 a3 ac 00 05 7c c0 00 c8 00 7d c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1400,
+        "offset_hex": "0x0578",
+        "context": "03 01 f8 f2 ac 00 05 b8 0c 3f 00 01 c0 00"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1424,
+        "offset_hex": "0x0590",
+        "context": "ad 00 07 48 ac 03 05 cc c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1440,
+        "offset_hex": "0x05a0",
+        "context": "c7 fe 07 48 ac 02 05 f4 c0 00 c8 00 88 c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1450,
+        "offset_hex": "0x05aa",
+        "context": "c8 00 88 c7 ac 07 05 e3 c0 02 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1480,
+        "offset_hex": "0x05c8",
+        "context": "f8 fe 07 48 ac 01 06 26 ac 05 06 16 ac 08"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1484,
+        "offset_hex": "0x05cc",
+        "context": "ac 01 06 26 ac 05 06 16 ac 08 06 09 c0 01"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1488,
+        "offset_hex": "0x05d0",
+        "context": "ac 05 06 16 ac 08 06 09 c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1530,
+        "offset_hex": "0x05fa",
+        "context": "c7 fe 07 48 ac 0a 07 48 c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1771,
+        "offset_hex": "0x06eb",
+        "context": "c8 00 a2 c7 ac 0b 07 36 c0 02 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1821,
+        "offset_hex": "0x071d",
+        "context": "2c 0a 01 f2 ac 00 07 66 c0 00 c8 00 a7 c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1854,
+        "offset_hex": "0x073e",
+        "context": "ad 00 07 7b ac 03 07 7b c0 00 c8 00 ab c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1868,
+        "offset_hex": "0x074c",
+        "context": "c0 00 c8 00 ac c7 f8 f2 0c 3f 00 01 ac 00"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1876,
+        "offset_hex": "0x0754",
+        "context": "0c 3f 00 01 ac 00 07 8b c0 00 c8 00 ad c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1891,
+        "offset_hex": "0x0763",
+        "context": "ad 00 07 c6 ac 09 07 bc c0 00 c8 00 ae c7"
+      },
+      {
+        "script": "Snr1.chunk0.sub0",
+        "offset": 1951,
+        "offset_hex": "0x079f",
+        "context": "0c 3f 00 01 ac 00 08 07 eb 00 00 03 8c 00"
+      },
+      {
+        "script": "Snr1.chunk1.sub0",
+        "offset": 30,
+        "offset_hex": "0x001e",
+        "context": "c8 00 d0 c7 ac 06 00 4d c0 01 cc 00 06 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 90,
+        "offset_hex": "0x005a",
+        "context": "00 d8 c7 f8 ac 08 00 8c c0 02 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 118,
+        "offset_hex": "0x0076",
+        "context": "00 da c7 f8 ac 00 01 29 0f 01 07 8e 01 0d"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 441,
+        "offset_hex": "0x01b9",
+        "context": "00 fa c7 f0 ac 01 02 19 ad 00 02 19 c0 00"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 543,
+        "offset_hex": "0x021f",
+        "context": "01 04 c7 f8 ac 08 02 5e ad 00 02 5e c0 02"
+      },
+      {
+        "script": "Snr1.chunk1.sub1",
+        "offset": 920,
+        "offset_hex": "0x0398",
+        "context": "ad 00 03 d8 ac 08 03 ca c0 01 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 14,
+        "offset_hex": "0x000e",
+        "context": "01 29 c7 f8 ac 03 03 06 ad 05 01 9a ad 02"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 130,
+        "offset_hex": "0x0082",
+        "context": "c8 01 34 c7 ac 10 00 fc c0 02 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 373,
+        "offset_hex": "0x0175",
+        "context": "c7 2c 03 01 ac 02 01 9a c0 01 cc 00 13 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 386,
+        "offset_hex": "0x0182",
+        "context": "c8 01 42 c7 ac 05 03 05 c0 01 cc 00 13 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 751,
+        "offset_hex": "0x02ef",
+        "context": "05 01 f8 f2 ac 04 03 c8 ad 03 03 86 dc 00"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 878,
+        "offset_hex": "0x036e",
+        "context": "fe 2c 04 01 ac 03 03 c8 ac 05 03 97 c0 01"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 882,
+        "offset_hex": "0x0372",
+        "context": "ac 03 03 c8 ac 05 03 97 c0 01 cc 00 20 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 899,
+        "offset_hex": "0x0383",
+        "context": "ad 05 03 c7 ac 02 03 ba c0 01 cc 00 15 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 967,
+        "offset_hex": "0x03c7",
+        "context": "c8 01 68 c7 ac 04 04 b6 ad 02 03 ee c0 00"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 982,
+        "offset_hex": "0x03d6",
+        "context": "01 69 c7 f8 ac 02 04 b6 ad 05 04 99 c0 00"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 1153,
+        "offset_hex": "0x0481",
+        "context": "c7 2c 02 01 ac 05 04 b5 c0 00 c8 01 7c c7"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 1183,
+        "offset_hex": "0x049f",
+        "context": "7e c7 f8 f2 ac 04 05 1a ad 05 04 fc ac 02"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 1191,
+        "offset_hex": "0x04a7",
+        "context": "ad 05 04 fc ac 02 04 d5 c0 02 cc 00 00 c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 1239,
+        "offset_hex": "0x04d7",
+        "context": "c8 01 82 c7 ac 03 04 fc c0 01 cc 00 1f c8"
+      },
+      {
+        "script": "Snr1.chunk1.sub2",
+        "offset": 1252,
+        "offset_hex": "0x04e4",
+        "context": "c8 01 83 c7 ac 05 05 1a 0c 3f 00 01 c0 00"
+      },
+      {
+        "script": "Snr1.chunk2.sub0",
+        "offset": 0,
+        "offset_hex": "0x0000",
+        "context": "ac 06 00 1d c0 01 cc 00 13 c8"
+      },
+      {
+        "script": "Snr1.chunk2.sub1",
+        "offset": 22,
+        "offset_hex": "0x0016",
+        "context": "f8 f2 f2 f2 ac 02 00 e6 ad 01 00 51 c0 02"
+      },
+      {
+        "script": "Snr1.chunk2.sub1",
+        "offset": 49,
+        "offset_hex": "0x0031",
+        "context": "01 97 c7 f8 ac 01 00 e6 ad 00 00 bd 0f 01"
+      },
+      {
+        "script": "Snr1.chunk2.sub1",
+        "offset": 157,
+        "offset_hex": "0x009d",
+        "context": "2c 01 01 f8 ac 00 00 e6 c0 00 c8 01 a0 c7"
+      },
+      {
+        "script": "Snr1.chunk2.sub1",
+        "offset": 199,
+        "offset_hex": "0x00c7",
+        "context": "00 01 f8 f2 ac 02 01 4a ad 01 01 4a c0 02"
+      },
+      {
+        "script": "Snr1.chunk2.sub1",
+        "offset": 287,
+        "offset_hex": "0x011f",
+        "context": "00 1f c8 01 ac c7 2c 00 00 2c 01 00 2c 02"
+      },
+      {
+        "script": "Snr1.chunk2.sub1",
+        "offset": 299,
+        "offset_hex": "0x012b",
+        "context": "2c 02 01 f2 ac 02 01 d2 ad 01 01 66 c0 02"
+      },
+      {
+        "script": "Snr1.chunk2.sub1",
+        "offset": 326,
+        "offset_hex": "0x0146",
+        "context": "01 ae c7 f8 ac 01 01 d2 ad 00 01 d2 0f 01"
+      },
+      {
+        "script": "Snr1.chunk2.sub2",
+        "offset": 22,
+        "offset_hex": "0x0016",
+        "context": "f8 f2 f2 f2 ac 02 00 f5 ad 01 00 51 c0 02"
+      },
+      {
+        "script": "Snr1.chunk2.sub2",
+        "offset": 49,
+        "offset_hex": "0x0031",
+        "context": "01 ba c7 f8 ac 01 00 f5 ad 00 00 bd 0f 01"
+      },
+      {
+        "script": "Snr1.chunk2.sub2",
+        "offset": 157,
+        "offset_hex": "0x009d",
+        "context": "2c 01 01 f8 ac 00 00 f5 c0 00 c8 01 c3 c7"
+      },
+      {
+        "script": "Snr1.chunk2.sub2",
+        "offset": 214,
+        "offset_hex": "0x00d6",
+        "context": "00 01 f8 f2 ac 02 01 58 ad 01 01 58 c0 02"
+      }
+    ]
+  }
+}
