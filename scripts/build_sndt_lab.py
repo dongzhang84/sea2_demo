@@ -38,7 +38,10 @@ class Target:
     text_id: int
 
 
-DEFAULT_TARGET = Target(snr_id=4, chunk_id=0, sub_id=0, text_id=0)
+DEFAULT_TARGETS = [
+    Target(snr_id=4, chunk_id=0, sub_id=0, text_id=0),
+    Target(snr_id=1, chunk_id=0, sub_id=0, text_id=0),
+]
 
 
 def read_u16be(data: bytes, off: int) -> int:
@@ -167,7 +170,19 @@ def build_ls11_archive(parts: list[bytes]) -> bytes:
     return bytes(out)
 
 
-def write_patch_notes(info: dict, archive_path: Path, patched_dat_path: Path) -> None:
+def target_slug(target: Target) -> str:
+    return f"snr{target.snr_id}_c{target.chunk_id}s{target.sub_id}"
+
+
+def write_patch_notes(info: dict, archive_path: Path, patched_dat_path: Path) -> Path:
+    slug = target_slug(
+        Target(
+            snr_id=info["target"]["snr"],
+            chunk_id=info["target"]["chunk"],
+            sub_id=info["target"]["subscript"],
+            text_id=info["target"]["text_id"],
+        )
+    )
     lines = [
         "# SNDT Lab Patch Notes",
         "",
@@ -201,27 +216,46 @@ def write_patch_notes(info: dict, archive_path: Path, patched_dat_path: Path) ->
         "",
         "These files are not copied into `game_dos/` automatically.",
     ]
-    (OUT_DIR / "patch_notes.md").write_text("\n".join(lines) + "\n")
+    path = OUT_DIR / f"patch_notes_{slug}.md"
+    path.write_text("\n".join(lines) + "\n")
+    return path
 
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     parts = [(KOUKAI / f"Snr{i}.dat").read_bytes() for i in range(7)]
-    patched, info = patch_target(parts, DEFAULT_TARGET)
+    manifest = []
+    for target in DEFAULT_TARGETS:
+        patched, info = patch_target(parts, target)
+        slug = target_slug(target)
+        patched_dat = OUT_DIR / f"Snr{target.snr_id}_min_text_c{target.chunk_id}s{target.sub_id}.dat"
+        archive = OUT_DIR / f"SNRDAT_min_{slug}.LZW"
+        info_json = OUT_DIR / f"patch_info_{slug}.json"
 
-    patched_dat = OUT_DIR / "Snr4_min_text_c0s0.dat"
-    archive = OUT_DIR / "SNRDAT_min_snr4_c0s0.LZW"
-    info_json = OUT_DIR / "patch_info.json"
+        patched_dat.write_bytes(patched[target.snr_id])
+        archive.write_bytes(build_ls11_archive(patched))
+        info_json.write_text(json.dumps(info, ensure_ascii=False, indent=2) + "\n")
+        notes = write_patch_notes(info, archive, patched_dat)
+        manifest.append(
+            {
+                "slug": slug,
+                "patched_dat": str(patched_dat.relative_to(ROOT)),
+                "archive": str(archive.relative_to(ROOT)),
+                "info": str(info_json.relative_to(ROOT)),
+                "notes": str(notes.relative_to(ROOT)),
+            }
+        )
 
-    patched_dat.write_bytes(patched[DEFAULT_TARGET.snr_id])
-    archive.write_bytes(build_ls11_archive(patched))
-    info_json.write_text(json.dumps(info, ensure_ascii=False, indent=2) + "\n")
-    write_patch_notes(info, archive, patched_dat)
+        print(f"Wrote {patched_dat}")
+        print(f"Wrote {archive}")
+        print(f"Wrote {info_json}")
+        print(f"Wrote {notes}")
 
-    print(f"Wrote {patched_dat}")
-    print(f"Wrote {archive}")
-    print(f"Wrote {info_json}")
-    print(f"Wrote {OUT_DIR / 'patch_notes.md'}")
+    (OUT_DIR / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+    # Backward-compatible aliases for the first target.
+    first = manifest[0]
+    (OUT_DIR / "patch_info.json").write_text((ROOT / first["info"]).read_text())
+    (OUT_DIR / "patch_notes.md").write_text((ROOT / first["notes"]).read_text())
 
 
 if __name__ == "__main__":
