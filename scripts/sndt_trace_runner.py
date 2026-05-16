@@ -139,6 +139,18 @@ def main() -> None:
         action="store_true",
         help="Only send commands passed with --command.",
     )
+    parser.add_argument(
+        "--watch-seconds",
+        type=float,
+        default=0.0,
+        help="After continuing, keep snapshotting debugger state for this many seconds.",
+    )
+    parser.add_argument(
+        "--watch-interval",
+        type=float,
+        default=2.0,
+        help="Seconds between snapshots while --watch-seconds is active.",
+    )
     args = parser.parse_args()
 
     runner = TraceRunner(make_session_dir())
@@ -155,6 +167,19 @@ def main() -> None:
 
     runner.key("KEYF5")
     runner.snapshot("after_continue")
+    if args.watch_seconds > 0:
+        deadline = time.time() + args.watch_seconds
+        sample = 0
+        last = ""
+        while time.time() < deadline:
+            runner.wait_for_screen()
+            digest = runner.screen_digest()
+            state = "changed" if digest != last else "same"
+            last = digest
+            path = runner.snapshot(f"watch_{sample:03d}_{state}")
+            print(f"Wrote {path}")
+            sample += 1
+            time.sleep(args.watch_interval)
     print(f"Wrote trace session: {runner.session_dir}")
 
 
