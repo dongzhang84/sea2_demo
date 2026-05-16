@@ -366,7 +366,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | Proposal | ✅ 完成 | `docs/TOPOLOGY_RE_PROPOSAL.md` | 已合并 roadmap/tracker |
 | Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
 | Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
-| Phase 3 最小 SNDT 实验 | ⬜ 未开始 | `output/sndt_lab/*` | 下一条主攻路线之一 |
+| Phase 3 最小 SNDT 实验 | 🟡 进行中 | `scripts/build_sndt_lab.py` + `output/sndt_lab/*` | 已生成最小 patch artifact |
 | Phase 4 机器拓扑 v1 | ⬜ 未开始 | disasm + topology_v1 | 依赖 opcode 长度表 |
 
 ### 已完成提交
@@ -385,6 +385,9 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `8bec05a` | Capture SNDT trace watch sample | ✅ pushed |
 | `f366c15` | Add DOSBox game key driver | ✅ pushed |
 | `6e01bf5` | Capture game key trace baseline | ✅ pushed |
+| `9e7e035` | Merge roadmap and tracker into topology proposal | ✅ pushed |
+| `b42f999` | Add minimal SNDT lab builder | ✅ pushed |
+| `7d4a3e1` | Build minimal SNDT lab artifact | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -431,12 +434,19 @@ Phase 2 当前结论：
 
 | Item | 状态 | 产物 / 备注 |
 |---|---|---|
-| 选择最小实验目标 | ⬜ | 候选 `Snr4` 或 `Snr0.chunk0` |
-| 生成 patch 方案 | ⬜ | `output/sndt_lab/patch_notes.md` |
-| 构造最小 `0c XX f2` 脚本 | ⬜ | `output/sndt_lab/minimal_*.dat` |
-| 重建 `SNRDAT.LZW` | ⬜ | 复用 `scripts/ls11_encode.py` |
+| 选择最小实验目标 | ✅ | 已选 `Snr4.chunk0.sub0` |
+| 生成 patch 方案 | ✅ | `output/sndt_lab/patch_notes.md` |
+| 构造最小 `0c XX f2` 脚本 | ✅ | `output/sndt_lab/Snr4_min_text_c0s0.dat` |
+| 重建 `SNRDAT.LZW` | ✅ | `output/sndt_lab/SNRDAT_min_snr4_c0s0.LZW` |
 | 运行并观察 `0x0c` handler | ⬜ | 依赖动态追踪 |
 | 测量高频 opcode 长度 | ⬜ | 目标 `0xc0/0xc7/0xc8/0xcc` |
+
+Phase 3 当前结论：
+
+```text
+已拿到：可重复、可检查、不会覆盖 game_dos/ 的最小 SNDT patch artifact
+未拿到：让游戏实际加载该 artifact 并命中 0x0c handler
+```
 
 ### Phase 4 Checklist
 
