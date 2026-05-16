@@ -8,17 +8,60 @@ subscripts contain structured internal table nodes.
 from __future__ import annotations
 
 import json
+import re
+import sys
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
+KOUKAI = Path("/Users/dong/Projects/Koukai2")
+if not KOUKAI.exists():
+    KOUKAI = ROOT / "game_dos"
 STATIC_TOPOLOGY = ROOT / "output" / "sndt_topology" / "sndt_topology.json"
 MOTIF_RECORDS = ROOT / "output" / "sndt_analysis" / "sndt_motif_records.json"
 OUT_DIR = ROOT / "output" / "sndt_topology"
 
+sys.path.insert(0, str(ROOT / "scripts"))
+from decode_text import decode_file  # noqa: E402
+
+
+SNR_RE = re.compile(r"Snr(\d+)\.")
+
 
 def load_inputs() -> tuple[dict, dict]:
     return json.loads(STATIC_TOPOLOGY.read_text()), json.loads(MOTIF_RECORDS.read_text())
+
+
+def load_texts() -> dict[int, list[str]]:
+    return {snr_id: decode_file(str(KOUKAI / f"Snr{snr_id}.mes")) for snr_id in range(7)}
+
+
+def snr_id_for_script(script: str) -> int:
+    match = SNR_RE.match(script)
+    if not match:
+        raise ValueError(script)
+    return int(match.group(1))
+
+
+def text_preview(text: str, limit: int = 64) -> str:
+    one_line = text.replace("\n", "\\n")
+    if len(one_line) <= limit:
+        return one_line
+    return one_line[: limit - 3] + "..."
+
+
+def motif_record_with_text(record: dict, texts: dict[int, list[str]]) -> dict:
+    snr_id = snr_id_for_script(record["script"])
+    text_id = record["c8_arg"]
+    text = texts[snr_id][text_id] if 0 <= text_id < len(texts[snr_id]) else ""
+    return {
+        "offset": record["offset"],
+        "offset_hex": record["offset_hex"],
+        "selector": record["selector"],
+        "cc_arg": record["cc_arg"],
+        "text_id": text_id,
+        "text_preview": text_preview(text),
+    }
 
 
 def build_motif_index(motif_data: dict) -> dict[str, list[dict]]:
@@ -31,6 +74,7 @@ def build_motif_index(motif_data: dict) -> dict[str, list[dict]]:
 
 
 def build_topology(static: dict, motif_data: dict) -> dict:
+    texts = load_texts()
     motif_index = build_motif_index(motif_data)
     files = []
     for file_info in static["files"]:
@@ -55,6 +99,9 @@ def build_topology(static: dict, motif_data: dict) -> dict:
                                 "cc_args": run["cc_args"],
                                 "c8_min": run["c8_min"],
                                 "c8_max": run["c8_max"],
+                                "text_ids": [record["c8_arg"] for record in run["records"]],
+                                "first_text": motif_record_with_text(run["records"][0], texts)["text_preview"],
+                                "records": [motif_record_with_text(record, texts) for record in run["records"]],
                                 "c8_monotonic_step1": run["c8_monotonic_step1"],
                             }
                             for i, run in enumerate(runs)
@@ -93,9 +140,11 @@ def write_dot(topology: dict) -> None:
                         f"count {run['count']}\\n"
                         f"sel {run['selectors']}\\n"
                         f"cc {run['cc_args'][:5]}\\n"
-                        f"c8 {run['c8_min']}..{run['c8_max']}"
+                        f"text {run['c8_min']}..{run['c8_max']}\\n"
+                        f"{run['first_text']}"
                     )
-                    lines.append(f"  {run_node} [shape=ellipse, label=\"{run_label}\"];")
+                    escaped_label = run_label.replace("\\", "\\\\").replace('"', '\\"')
+                    lines.append(f"  {run_node} [shape=ellipse, label=\"{escaped_label}\"];")
                     lines.append(f"  {sub_node} -> {run_node} [label=\"contains\"];")
     lines.append("}")
     (OUT_DIR / "topology_v0_motif.dot").write_text("\n".join(lines) + "\n")
