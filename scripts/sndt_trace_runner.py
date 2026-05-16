@@ -47,8 +47,14 @@ class TraceRunner:
         self.driver_proc: subprocess.Popen | None = None
         self.session_dir.mkdir(parents=True, exist_ok=True)
 
-    def ensure_driver(self, start: bool) -> None:
-        if CMD.exists() and SCREEN.exists():
+    def ensure_driver(self, start: bool, force: bool = False) -> None:
+        if force:
+            for path in (CMD, SCREEN, Path("/tmp/dbg_raw.log")):
+                try:
+                    path.unlink()
+                except FileNotFoundError:
+                    pass
+        if CMD.exists() and SCREEN.exists() and not force:
             return
         if not start:
             raise RuntimeError(
@@ -129,6 +135,11 @@ def main() -> None:
         help="Start scripts/dbg_driver.py if /tmp debugger files do not exist.",
     )
     parser.add_argument(
+        "--force-start-driver",
+        action="store_true",
+        help="Remove stale /tmp debugger files and start scripts/dbg_driver.py.",
+    )
+    parser.add_argument(
         "--command",
         action="append",
         default=[],
@@ -159,7 +170,7 @@ def main() -> None:
     args = parser.parse_args()
 
     runner = TraceRunner(make_session_dir())
-    runner.ensure_driver(start=args.start_driver)
+    runner.ensure_driver(start=args.start_driver or args.force_start_driver, force=args.force_start_driver)
     runner.snapshot("initial")
 
     if args.snapshot_only:
