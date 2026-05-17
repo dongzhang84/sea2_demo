@@ -1,0 +1,1100 @@
+{
+  "summary": {
+    "gap_count": 41,
+    "gap_bytes": 804
+  },
+  "top_bytes": [
+    {
+      "bytes": "00",
+      "count": 166
+    },
+    {
+      "bytes": "c0",
+      "count": 47
+    },
+    {
+      "bytes": "c8",
+      "count": 47
+    },
+    {
+      "bytes": "c7",
+      "count": 47
+    },
+    {
+      "bytes": "01",
+      "count": 45
+    },
+    {
+      "bytes": "ac",
+      "count": 31
+    },
+    {
+      "bytes": "07",
+      "count": 29
+    },
+    {
+      "bytes": "05",
+      "count": 27
+    },
+    {
+      "bytes": "ad",
+      "count": 22
+    },
+    {
+      "bytes": "03",
+      "count": 21
+    },
+    {
+      "bytes": "02",
+      "count": 18
+    },
+    {
+      "bytes": "04",
+      "count": 15
+    },
+    {
+      "bytes": "0c",
+      "count": 14
+    },
+    {
+      "bytes": "08",
+      "count": 12
+    },
+    {
+      "bytes": "f8",
+      "count": 12
+    },
+    {
+      "bytes": "dc",
+      "count": 11
+    },
+    {
+      "bytes": "2c",
+      "count": 11
+    },
+    {
+      "bytes": "f2",
+      "count": 10
+    },
+    {
+      "bytes": "fe",
+      "count": 9
+    },
+    {
+      "bytes": "8c",
+      "count": 9
+    },
+    {
+      "bytes": "06",
+      "count": 8
+    },
+    {
+      "bytes": "3f",
+      "count": 8
+    },
+    {
+      "bytes": "62",
+      "count": 7
+    },
+    {
+      "bytes": "1d",
+      "count": 7
+    },
+    {
+      "bytes": "0b",
+      "count": 7
+    },
+    {
+      "bytes": "48",
+      "count": 6
+    },
+    {
+      "bytes": "2e",
+      "count": 5
+    },
+    {
+      "bytes": "8f",
+      "count": 4
+    },
+    {
+      "bytes": "09",
+      "count": 4
+    },
+    {
+      "bytes": "2a",
+      "count": 3
+    },
+    {
+      "bytes": "0f",
+      "count": 3
+    },
+    {
+      "bytes": "45",
+      "count": 3
+    },
+    {
+      "bytes": "cb",
+      "count": 3
+    },
+    {
+      "bytes": "64",
+      "count": 3
+    },
+    {
+      "bytes": "20",
+      "count": 3
+    },
+    {
+      "bytes": "7b",
+      "count": 3
+    },
+    {
+      "bytes": "6c",
+      "count": 3
+    },
+    {
+      "bytes": "46",
+      "count": 3
+    },
+    {
+      "bytes": "0a",
+      "count": 3
+    },
+    {
+      "bytes": "fb",
+      "count": 2
+    }
+  ],
+  "top_opcode_like_bytes": [
+    {
+      "bytes": "c0",
+      "count": 47
+    },
+    {
+      "bytes": "c8",
+      "count": 47
+    },
+    {
+      "bytes": "c7",
+      "count": 47
+    },
+    {
+      "bytes": "ac",
+      "count": 31
+    },
+    {
+      "bytes": "ad",
+      "count": 22
+    },
+    {
+      "bytes": "f8",
+      "count": 12
+    },
+    {
+      "bytes": "dc",
+      "count": 11
+    },
+    {
+      "bytes": "f2",
+      "count": 10
+    },
+    {
+      "bytes": "fe",
+      "count": 9
+    },
+    {
+      "bytes": "8c",
+      "count": 9
+    },
+    {
+      "bytes": "8f",
+      "count": 4
+    },
+    {
+      "bytes": "cb",
+      "count": 3
+    },
+    {
+      "bytes": "fb",
+      "count": 2
+    },
+    {
+      "bytes": "c4",
+      "count": 2
+    },
+    {
+      "bytes": "d9",
+      "count": 2
+    },
+    {
+      "bytes": "e8",
+      "count": 2
+    },
+    {
+      "bytes": "e6",
+      "count": 2
+    },
+    {
+      "bytes": "f4",
+      "count": 2
+    },
+    {
+      "bytes": "b8",
+      "count": 2
+    },
+    {
+      "bytes": "f0",
+      "count": 2
+    },
+    {
+      "bytes": "8d",
+      "count": 2
+    },
+    {
+      "bytes": "c6",
+      "count": 2
+    },
+    {
+      "bytes": "bc",
+      "count": 2
+    },
+    {
+      "bytes": "eb",
+      "count": 2
+    },
+    {
+      "bytes": "8e",
+      "count": 1
+    },
+    {
+      "bytes": "f7",
+      "count": 1
+    },
+    {
+      "bytes": "f9",
+      "count": 1
+    },
+    {
+      "bytes": "bf",
+      "count": 1
+    },
+    {
+      "bytes": "be",
+      "count": 1
+    },
+    {
+      "bytes": "ca",
+      "count": 1
+    },
+    {
+      "bytes": "d6",
+      "count": 1
+    },
+    {
+      "bytes": "e0",
+      "count": 1
+    },
+    {
+      "bytes": "c9",
+      "count": 1
+    },
+    {
+      "bytes": "a3",
+      "count": 1
+    },
+    {
+      "bytes": "a2",
+      "count": 1
+    },
+    {
+      "bytes": "81",
+      "count": 1
+    },
+    {
+      "bytes": "82",
+      "count": 1
+    },
+    {
+      "bytes": "83",
+      "count": 1
+    },
+    {
+      "bytes": "fa",
+      "count": 1
+    },
+    {
+      "bytes": "84",
+      "count": 1
+    }
+  ],
+  "top_2grams": [
+    {
+      "bytes": "c0 00",
+      "count": 47
+    },
+    {
+      "bytes": "00 c8",
+      "count": 47
+    },
+    {
+      "bytes": "c8 00",
+      "count": 47
+    },
+    {
+      "bytes": "c7 c0",
+      "count": 17
+    },
+    {
+      "bytes": "00 01",
+      "count": 13
+    },
+    {
+      "bytes": "00 03",
+      "count": 12
+    },
+    {
+      "bytes": "ad 00",
+      "count": 9
+    },
+    {
+      "bytes": "dc 00",
+      "count": 9
+    },
+    {
+      "bytes": "ac 00",
+      "count": 9
+    },
+    {
+      "bytes": "1d 00",
+      "count": 7
+    },
+    {
+      "bytes": "00 07",
+      "count": 7
+    },
+    {
+      "bytes": "02 62",
+      "count": 6
+    },
+    {
+      "bytes": "0c 3f",
+      "count": 6
+    },
+    {
+      "bytes": "3f 00",
+      "count": 6
+    },
+    {
+      "bytes": "00 05",
+      "count": 6
+    },
+    {
+      "bytes": "07 48",
+      "count": 6
+    },
+    {
+      "bytes": "8c 00",
+      "count": 6
+    },
+    {
+      "bytes": "fe 02",
+      "count": 5
+    },
+    {
+      "bytes": "05 01",
+      "count": 5
+    },
+    {
+      "bytes": "f8 f2",
+      "count": 5
+    },
+    {
+      "bytes": "f2 ac",
+      "count": 5
+    },
+    {
+      "bytes": "f8 ad",
+      "count": 5
+    },
+    {
+      "bytes": "c7 f8",
+      "count": 5
+    },
+    {
+      "bytes": "c7 ac",
+      "count": 5
+    },
+    {
+      "bytes": "01 01",
+      "count": 4
+    },
+    {
+      "bytes": "00 02",
+      "count": 4
+    },
+    {
+      "bytes": "01 f8",
+      "count": 4
+    },
+    {
+      "bytes": "c7 ad",
+      "count": 4
+    },
+    {
+      "bytes": "01 00",
+      "count": 4
+    },
+    {
+      "bytes": "48 ac",
+      "count": 4
+    },
+    {
+      "bytes": "fe 07",
+      "count": 4
+    },
+    {
+      "bytes": "00 00",
+      "count": 4
+    },
+    {
+      "bytes": "01 2a",
+      "count": 3
+    },
+    {
+      "bytes": "ac 05",
+      "count": 3
+    },
+    {
+      "bytes": "05 00",
+      "count": 3
+    },
+    {
+      "bytes": "ad 05",
+      "count": 3
+    },
+    {
+      "bytes": "ac 01",
+      "count": 3
+    },
+    {
+      "bytes": "01 08",
+      "count": 3
+    },
+    {
+      "bytes": "01 fe",
+      "count": 3
+    },
+    {
+      "bytes": "00 64",
+      "count": 3
+    }
+  ],
+  "top_3grams": [
+    {
+      "bytes": "c0 00 c8",
+      "count": 47
+    },
+    {
+      "bytes": "00 c8 00",
+      "count": 47
+    },
+    {
+      "bytes": "c7 c0 00",
+      "count": 17
+    },
+    {
+      "bytes": "0c 3f 00",
+      "count": 6
+    },
+    {
+      "bytes": "3f 00 01",
+      "count": 6
+    },
+    {
+      "bytes": "fe 02 62",
+      "count": 5
+    },
+    {
+      "bytes": "f8 ad 00",
+      "count": 5
+    },
+    {
+      "bytes": "f2 ac 00",
+      "count": 4
+    },
+    {
+      "bytes": "07 48 ac",
+      "count": 4
+    },
+    {
+      "bytes": "fe 07 48",
+      "count": 4
+    },
+    {
+      "bytes": "f8 f2 ac",
+      "count": 3
+    },
+    {
+      "bytes": "1d 00 64",
+      "count": 3
+    },
+    {
+      "bytes": "c7 ad 00",
+      "count": 3
+    },
+    {
+      "bytes": "f2 0c 3f",
+      "count": 3
+    },
+    {
+      "bytes": "00 01 ac",
+      "count": 3
+    },
+    {
+      "bytes": "01 ac 00",
+      "count": 3
+    },
+    {
+      "bytes": "c7 ac 07",
+      "count": 3
+    },
+    {
+      "bytes": "dc 00 03",
+      "count": 3
+    },
+    {
+      "bytes": "ad 00 07",
+      "count": 3
+    },
+    {
+      "bytes": "c7 f8 ad",
+      "count": 3
+    },
+    {
+      "bytes": "c7 8c 00",
+      "count": 3
+    },
+    {
+      "bytes": "01 2a ac",
+      "count": 2
+    },
+    {
+      "bytes": "02 62 ad",
+      "count": 2
+    },
+    {
+      "bytes": "dc 00 06",
+      "count": 2
+    },
+    {
+      "bytes": "00 06 00",
+      "count": 2
+    },
+    {
+      "bytes": "06 00 3f",
+      "count": 2
+    },
+    {
+      "bytes": "01 fe 02",
+      "count": 2
+    },
+    {
+      "bytes": "ac 00 02",
+      "count": 2
+    },
+    {
+      "bytes": "01 f8 ad",
+      "count": 2
+    },
+    {
+      "bytes": "ad 00 03",
+      "count": 2
+    },
+    {
+      "bytes": "0c 00 03",
+      "count": 2
+    },
+    {
+      "bytes": "00 03 e8",
+      "count": 2
+    },
+    {
+      "bytes": "03 e8 e6",
+      "count": 2
+    },
+    {
+      "bytes": "e8 e6 00",
+      "count": 2
+    },
+    {
+      "bytes": "dc 00 05",
+      "count": 2
+    },
+    {
+      "bytes": "0f 1d 00",
+      "count": 2
+    },
+    {
+      "bytes": "01 f8 f2",
+      "count": 2
+    },
+    {
+      "bytes": "c7 f8 f2",
+      "count": 2
+    },
+    {
+      "bytes": "f8 f2 0c",
+      "count": 2
+    },
+    {
+      "bytes": "f4 c0 00",
+      "count": 2
+    }
+  ],
+  "top_4grams": [
+    {
+      "bytes": "c0 00 c8 00",
+      "count": 47
+    },
+    {
+      "bytes": "c7 c0 00 c8",
+      "count": 17
+    },
+    {
+      "bytes": "0c 3f 00 01",
+      "count": 6
+    },
+    {
+      "bytes": "f8 f2 ac 00",
+      "count": 3
+    },
+    {
+      "bytes": "f2 0c 3f 00",
+      "count": 3
+    },
+    {
+      "bytes": "3f 00 01 ac",
+      "count": 3
+    },
+    {
+      "bytes": "00 01 ac 00",
+      "count": 3
+    },
+    {
+      "bytes": "fe 07 48 ac",
+      "count": 3
+    },
+    {
+      "bytes": "c7 f8 ad 00",
+      "count": 3
+    },
+    {
+      "bytes": "fe 02 62 ad",
+      "count": 2
+    },
+    {
+      "bytes": "dc 00 06 00",
+      "count": 2
+    },
+    {
+      "bytes": "00 06 00 3f",
+      "count": 2
+    },
+    {
+      "bytes": "01 fe 02 62",
+      "count": 2
+    },
+    {
+      "bytes": "01 f8 ad 00",
+      "count": 2
+    },
+    {
+      "bytes": "0c 00 03 e8",
+      "count": 2
+    },
+    {
+      "bytes": "00 03 e8 e6",
+      "count": 2
+    },
+    {
+      "bytes": "03 e8 e6 00",
+      "count": 2
+    },
+    {
+      "bytes": "0f 1d 00 64",
+      "count": 2
+    },
+    {
+      "bytes": "01 f8 f2 ac",
+      "count": 2
+    },
+    {
+      "bytes": "c7 f8 f2 0c",
+      "count": 2
+    },
+    {
+      "bytes": "f8 f2 0c 3f",
+      "count": 2
+    },
+    {
+      "bytes": "f4 c0 00 c8",
+      "count": 2
+    },
+    {
+      "bytes": "c7 ac 07 04",
+      "count": 2
+    },
+    {
+      "bytes": "01 c0 00 c8",
+      "count": 2
+    },
+    {
+      "bytes": "15 05 01 00",
+      "count": 2
+    },
+    {
+      "bytes": "05 01 00 6c",
+      "count": 2
+    },
+    {
+      "bytes": "01 00 6c 01",
+      "count": 2
+    },
+    {
+      "bytes": "00 6c 01 20",
+      "count": 2
+    },
+    {
+      "bytes": "6c 01 20 11",
+      "count": 2
+    },
+    {
+      "bytes": "01 20 11 00",
+      "count": 2
+    },
+    {
+      "bytes": "20 11 00 01",
+      "count": 2
+    },
+    {
+      "bytes": "2e 05 0c 0b",
+      "count": 2
+    },
+    {
+      "bytes": "05 0c 0b 8d",
+      "count": 2
+    },
+    {
+      "bytes": "0c 0b 8d 0c",
+      "count": 2
+    },
+    {
+      "bytes": "f8 ad 00 07",
+      "count": 2
+    },
+    {
+      "bytes": "eb 00 00 03",
+      "count": 2
+    },
+    {
+      "bytes": "00 00 03 8c",
+      "count": 2
+    },
+    {
+      "bytes": "00 03 8c 00",
+      "count": 2
+    },
+    {
+      "bytes": "03 8c 00 00",
+      "count": 2
+    },
+    {
+      "bytes": "c7 8c 00 02",
+      "count": 2
+    }
+  ],
+  "leading_patterns": [
+    {
+      "bytes": "c0 00 c8 00",
+      "count": 9
+    },
+    {
+      "bytes": "fe 02 62 ad",
+      "count": 2
+    },
+    {
+      "bytes": "0c 00 03 e8",
+      "count": 2
+    },
+    {
+      "bytes": "fe 07 48 ac",
+      "count": 2
+    },
+    {
+      "bytes": "ad 00 01 2a",
+      "count": 1
+    },
+    {
+      "bytes": "dc 00 06 00",
+      "count": 1
+    },
+    {
+      "bytes": "fe 02 62 ac",
+      "count": 1
+    },
+    {
+      "bytes": "f9 05 05",
+      "count": 1
+    },
+    {
+      "bytes": "fb 45 2c 00",
+      "count": 1
+    },
+    {
+      "bytes": "ac 04 02 be",
+      "count": 1
+    },
+    {
+      "bytes": "c4 ca 04",
+      "count": 1
+    },
+    {
+      "bytes": "2c 04 01 f8",
+      "count": 1
+    },
+    {
+      "bytes": "f8 ac 05 03",
+      "count": 1
+    },
+    {
+      "bytes": "c4",
+      "count": 1
+    },
+    {
+      "bytes": "dc 00 05 00",
+      "count": 1
+    },
+    {
+      "bytes": "2c 07 01 f8",
+      "count": 1
+    },
+    {
+      "bytes": "fb 46",
+      "count": 1
+    },
+    {
+      "bytes": "dc 00 0c 62",
+      "count": 1
+    },
+    {
+      "bytes": "ad 07 05 f0",
+      "count": 1
+    },
+    {
+      "bytes": "f8 fe 07 48",
+      "count": 1
+    },
+    {
+      "bytes": "ad 08 06 16",
+      "count": 1
+    },
+    {
+      "bytes": "ad 05 06 23",
+      "count": 1
+    },
+    {
+      "bytes": "dc 0b 03 46",
+      "count": 1
+    },
+    {
+      "bytes": "e9 0b ad 0b",
+      "count": 1
+    },
+    {
+      "bytes": "dc 00 03 46",
+      "count": 1
+    },
+    {
+      "bytes": "dc 00 03 45",
+      "count": 1
+    },
+    {
+      "bytes": "ac 0b 07 36",
+      "count": 1
+    },
+    {
+      "bytes": "2c 0a 01 fe",
+      "count": 1
+    },
+    {
+      "bytes": "2c 0a 01 f2",
+      "count": 1
+    },
+    {
+      "bytes": "8c 00 01 08",
+      "count": 1
+    }
+  ],
+  "trailing_patterns": [
+    {
+      "bytes": "0c 3f 00 01",
+      "count": 2
+    },
+    {
+      "bytes": "ac 05 00 40",
+      "count": 1
+    },
+    {
+      "bytes": "01 42 00 f7",
+      "count": 1
+    },
+    {
+      "bytes": "01 41 01 08",
+      "count": 1
+    },
+    {
+      "bytes": "ad 01 01 2a",
+      "count": 1
+    },
+    {
+      "bytes": "ac 00 02 62",
+      "count": 1
+    },
+    {
+      "bytes": "f9 05 05",
+      "count": 1
+    },
+    {
+      "bytes": "ad 04 02 75",
+      "count": 1
+    },
+    {
+      "bytes": "ac 04 02 be",
+      "count": 1
+    },
+    {
+      "bytes": "c4 ca 04",
+      "count": 1
+    },
+    {
+      "bytes": "03 e8 e6 00",
+      "count": 1
+    },
+    {
+      "bytes": "c4",
+      "count": 1
+    },
+    {
+      "bytes": "c8 00 5a c7",
+      "count": 1
+    },
+    {
+      "bytes": "c8 00 5d c7",
+      "count": 1
+    },
+    {
+      "bytes": "01 00 04 53",
+      "count": 1
+    },
+    {
+      "bytes": "01 01 04 7b",
+      "count": 1
+    },
+    {
+      "bytes": "01 02 04 8f",
+      "count": 1
+    },
+    {
+      "bytes": "ac 07 04 ac",
+      "count": 1
+    },
+    {
+      "bytes": "ad 07 04 cb",
+      "count": 1
+    },
+    {
+      "bytes": "c8 00 6f c7",
+      "count": 1
+    },
+    {
+      "bytes": "c8 00 73 c7",
+      "count": 1
+    },
+    {
+      "bytes": "fb 46",
+      "count": 1
+    },
+    {
+      "bytes": "c8 00 7d c7",
+      "count": 1
+    },
+    {
+      "bytes": "ad 00 05 a2",
+      "count": 1
+    },
+    {
+      "bytes": "ac 03 05 cc",
+      "count": 1
+    },
+    {
+      "bytes": "ac 07 05 e3",
+      "count": 1
+    },
+    {
+      "bytes": "ad 07 05 f0",
+      "count": 1
+    },
+    {
+      "bytes": "ac 08 06 09",
+      "count": 1
+    },
+    {
+      "bytes": "ad 08 06 16",
+      "count": 1
+    },
+    {
+      "bytes": "ad 05 06 23",
+      "count": 1
+    },
+    {
+      "bytes": "ac 0a 07 48",
+      "count": 1
+    },
+    {
+      "bytes": "0c 04 07 3c",
+      "count": 1
+    },
+    {
+      "bytes": "ad 0b 07 17",
+      "count": 1
+    },
+    {
+      "bytes": "0c 03 07 05",
+      "count": 1
+    },
+    {
+      "bytes": "2e 1d 00 03",
+      "count": 1
+    },
+    {
+      "bytes": "ac 0b 07 36",
+      "count": 1
+    },
+    {
+      "bytes": "01 fe 07 48",
+      "count": 1
+    },
+    {
+      "bytes": "c8 00 ae c7",
+      "count": 1
+    },
+    {
+      "bytes": "c8 00 b9 c7",
+      "count": 1
+    },
+    {
+      "bytes": "c7 f2 f0 f2",
+      "count": 1
+    }
+  ]
+}
