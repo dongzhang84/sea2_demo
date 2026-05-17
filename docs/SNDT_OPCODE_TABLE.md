@@ -37,15 +37,24 @@ appears 3449 times across 186 code areas. The alignment strongly suggests:
 
 | Opcode | Candidate Length | Candidate Role | Evidence |
 |---|---:|---|---|
-| `0xc0` | 2 | small selector / condition setup | Motif prefix `c0 01` / `c0 02` repeats heavily |
-| `0xcc` | 3 | load/compare immediate or state id | Appears as `cc 00 xx` inside the motif |
+| `0xc0` | 2 | motif dialogue selector | Motif prefix `c0 01` / `c0 02`; selector counts are nearly balanced and often alternate in dialogue runs |
+| `0xcc` | 3 | local actor/state slot | `cc_arg` clusters line up with speaker/actor slots in João opening and other scenes |
 | `0xc8` | 3 | motif text id | In all 3449 motif records, `c8_arg` maps to a valid matching `Snr*.mes` text id |
 | `0xc7` | 1 | separator / commit / end-record | Ends each repeated motif record |
 
 The `0xc8` operand is now strongly tied to text: `output/sndt_analysis/sndt_motif_text_map.md`
 maps all 3449 motif records to valid `Snr*.mes` entries with no unmapped records.
-The remaining unknowns are the control meaning of `c0`, `cc`, and `c7`, plus whether
-`0xc8` is also used outside this motif.
+`output/sndt_analysis/sndt_selector_roles.md` shows selector counts of 1728 vs 1721 and
+frequent 1/2 alternation inside dialogue runs. The safe current name is
+`dialogue_selector`: it is not simply protagonist vs NPC.
+
+`output/sndt_analysis/sndt_cc_roles.md` shows 41 distinct `cc_arg` values. Several map
+cleanly to local actor slots in João opening, for example `cc=18` as the duke,
+`cc=31` as Rocco, `cc=32` as Enrique, `cc=97` as the tavern owner, and `cc=98`
+as Lucia. This may still mix actor slots and state/condition slots in other scenes.
+
+The remaining unknowns are the exact runtime meaning of `c0`, `cc`, and `c7`, plus
+whether `0xc8` is also used outside this motif.
 
 ---
 

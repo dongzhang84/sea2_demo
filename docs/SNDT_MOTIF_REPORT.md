@@ -18,14 +18,16 @@ suggests this is not accidental byte noise.
 Current interpretation:
 
 ```text
-c0 selector     probably chooses a small mode/class, currently only 1 or 2
-cc u16          likely condition/state/group id
+c0 selector     dialogue selector / channel candidate, currently only 1 or 2
+cc u16          local actor/state slot candidate
 c8 u16          text id into the matching Snr*.mes file
 c7              record terminator / commit
 ```
 
-The `c8` part is now backed by full text-map evidence. Runtime validation is
-still required before using the `c0`, `cc`, and `c7` names as final opcode semantics.
+The `c8` part is backed by full text-map evidence. `cc_arg` now has strong
+speaker/actor-slot evidence in João opening, and `selector` has strong dialogue
+alternation evidence. Runtime validation is still required before using the `c0`,
+`cc`, and `c7` names as final opcode semantics.
 
 ## Key Facts
 
@@ -46,6 +48,11 @@ selector 2: 1721
 ```
 
 This strongly suggests `selector` is a binary class or mode, not arbitrary data.
+
+`output/sndt_analysis/sndt_selector_roles.md` adds one important constraint:
+`selector` is not simply "player versus NPC". In João opening, `selector=2`
+is often João when `cc_arg=0`, but it can also be Rocco or Enrique when the
+local actor slot changes. The safe static name is therefore `dialogue_selector`.
 
 ## Text Map Evidence
 
@@ -70,6 +77,29 @@ Snr6  601/601
 
 This upgrades `c8_arg` from "likely table index" to "motif text id". It also
 means the motif topology can attach real dialogue lines to internal event records.
+
+## Actor Slot Evidence
+
+`output/sndt_analysis/sndt_cc_roles.md` clusters all 41 distinct `cc_arg` values.
+Several values resolve cleanly in João opening:
+
+```text
+cc=18 -> $s公爵
+cc=31 -> 老水手洛克
+cc=32 -> 恩里克神父
+cc=97 -> 紅鯨亭女老闆卡蕾珞娃
+cc=98 -> 歌女路琪亞
+cc=0  -> mostly João / protagonist self lines
+```
+
+This means the motif record now carries usable static dialogue metadata:
+
+```text
+selector + cc_arg + text_id -> speaker-ish text edge
+```
+
+The exact runtime role of `cc_arg` is still not final. It may be an actor slot,
+a condition slot, or a combined state-dependent dialogue slot.
 
 ## Longest Runs
 
@@ -150,8 +180,8 @@ state-index tables or condition-index tables used by the VM to choose what to do
 
 This report does not prove:
 
-- what `selector=1` versus `selector=2` means
-- whether `cc_arg` is a flag, condition, location, character id, or state id
+- the exact UI/runtime meaning of `selector=1` versus `selector=2`
+- whether every `cc_arg` is an actor slot, or whether some are flags/conditions/state ids
 - whether `c7` is truly a terminator or an action opcode
 
 It proves that the repeated structure is real enough to guide the next

@@ -423,6 +423,9 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `eae2344` | Export SNDT cc role clusters | ✅ pushed |
 | `649d508` | Add speaker hints to motif topology exporter | ✅ pushed |
 | `8e1eea5` | Export motif topology with speaker hints | ✅ pushed |
+| `26469ec` | Update tracker for cc role topology | ✅ pushed |
+| `1f720d8` | Add SNDT selector role analyzer | ✅ pushed |
+| `48bab5f` | Export SNDT selector role analysis | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -497,6 +500,7 @@ Phase 3 当前结论：
 | 验证 motif `c8_arg` 到 `.mes` 文本映射 | ✅ | `output/sndt_analysis/sndt_motif_text_map.*`，3449/3449 |
 | 聚类 motif `cc_arg` 角色/状态槽 | ✅ | `output/sndt_analysis/sndt_cc_roles.*`，41 个 distinct `cc_arg` |
 | 把 speaker hint 并入 topology v0 | ✅ | `topology_v0_motif.json` records 已含 `resolved_speaker` |
+| 分析 motif `selector` 语义 | ✅ | `output/sndt_analysis/sndt_selector_roles.*`，确认不是简单主角/NPC |
 | 生成 `topology_v1.json` | ⬜ | 执行拓扑，仍缺语义 |
 | 生成 `topology_v1.dot` | ⬜ | 可视化，仍缺语义 |
 | 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
@@ -504,7 +508,7 @@ Phase 3 当前结论：
 Phase 4 预研当前结论：
 
 ```text
-已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条 motif 记录的真实文本边、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽，并已把文本和 speaker hint 并入拓扑 JSON/DOT
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条 motif 记录的真实文本边、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据，并已把文本和 speaker hint 并入拓扑 JSON/DOT
 未拿到：条件分支语义、变量语义、真实执行拓扑
 ```
 
