@@ -8,11 +8,15 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
+KOUKAI = Path("/Users/dong/Projects/Koukai2")
+if not KOUKAI.exists():
+    KOUKAI = ROOT / "game_dos"
 OUT_DIR = ROOT / "output" / "sndt_analysis"
 CONTROL = OUT_DIR / "joao_control_candidates.json"
 SCRIPT_ID = "Snr1.chunk0.sub0"
 
 sys.path.insert(0, str(ROOT / "scripts"))
+from decode_text import decode_file  # noqa: E402
 from sndt_disasm import parse_code_areas  # noqa: E402
 
 
@@ -53,13 +57,20 @@ def decode_arg(raw: bytes) -> int | None:
     return value
 
 
-def disasm_span(code: bytes, start: int, end: int) -> tuple[list[dict], int]:
+def disasm_span(code: bytes, start: int, end: int, texts: list[str]) -> tuple[list[dict], int]:
     pos = start
     insns = []
     unknown = 0
     while pos < end:
         op = code[pos]
-        name, length = OPCODES.get(op, (f"db_{op:02x}", 1))
+        text = None
+        if op == 0x0C and pos + 1 < end:
+            name = "show_text_byte"
+            length = 2
+            text_id = code[pos + 1]
+            text = texts[text_id] if text_id < len(texts) else ""
+        else:
+            name, length = OPCODES.get(op, (f"db_{op:02x}", 1))
         if pos + length > end:
             name = f"db_{op:02x}"
             length = 1
@@ -73,6 +84,7 @@ def disasm_span(code: bytes, start: int, end: int) -> tuple[list[dict], int]:
                 "op": name,
                 "bytes": raw.hex(" "),
                 "arg": decode_arg(raw),
+                "text": text,
             }
         )
         pos += length
@@ -84,12 +96,13 @@ def main() -> None:
     control = json.loads(CONTROL.read_text())
     area = next(area for area in parse_code_areas(1) if area["id"] == SCRIPT_ID)
     code = area["code"]
+    texts = decode_file(str(KOUKAI / "Snr1.mes"))
 
     spans = []
     totals = {"instructions": 0, "unknown_bytes": 0, "residual_bytes": 0}
     opcode_counts = {}
     for span in control["residual_spans"]:
-        insns, unknown = disasm_span(code, span["start"], span["end"])
+        insns, unknown = disasm_span(code, span["start"], span["end"], texts)
         totals["instructions"] += len(insns)
         totals["unknown_bytes"] += unknown
         totals["residual_bytes"] += span["length"]
@@ -145,7 +158,10 @@ def main() -> None:
         ]
         for insn in span["instructions"]:
             arg = "" if insn["arg"] is None else f" {insn['arg']}"
-            lines.append(f"{insn['offset_hex']}: {insn['bytes']:<14} {insn['op']}{arg}")
+            text = ""
+            if insn.get("text"):
+                text = " ; " + insn["text"].replace("\n", "\\n")[:80]
+            lines.append(f"{insn['offset_hex']}: {insn['bytes']:<14} {insn['op']}{arg}{text}")
         lines += ["```", ""]
 
     lines += ["## Interpretation", ""]
