@@ -1,0 +1,8006 @@
+{
+  "schema": "joao_opening_gap_analysis_v1",
+  "source_script": "Snr1.chunk0.sub0",
+  "code_len": 2064,
+  "summary": {
+    "scene_count": 40,
+    "gap_count": 41,
+    "gap_bytes": 804,
+    "missing_text_count": 47
+  },
+  "missing_texts": [
+    {
+      "text_id": 87,
+      "text": "哎呀，是$n先生呀，$s公爵正在找您呢．"
+    },
+    {
+      "text_id": 88,
+      "text": "$n先生，公爵閣下有令要把您當作平民對待，所以請您不要再來皇宮了．"
+    },
+    {
+      "text_id": 89,
+      "text": "$n先生，回公爵府了嗎？"
+    },
+    {
+      "text_id": 90,
+      "text": "〔菲利普主教〕\\n哎唷，$n先生，$s公爵家有人要去航海嗎？"
+    },
+    {
+      "text_id": 92,
+      "text": "其實，我是來找有經驗的水手的．嘿，真難找．"
+    },
+    {
+      "text_id": 93,
+      "text": "啊，想起來了，從公爵府來的洛克先生正找您呢！"
+    },
+    {
+      "text_id": 95,
+      "text": "噢，$n先生，恩里克神父的事就拜託您啦．"
+    },
+    {
+      "text_id": 96,
+      "text": "另外，請把這些金幣作為資金的一部分使用吧．"
+    },
+    {
+      "text_id": 97,
+      "text": "接　　受\\n捐　　款\\n拒　　絕"
+    },
+    {
+      "text_id": 101,
+      "text": "噢，您是虔誠的人．上帝會保佑您的！"
+    },
+    {
+      "text_id": 103,
+      "text": "噢，您真謙虛啊！"
+    },
+    {
+      "text_id": 104,
+      "text": "〔菲利普主教〕\\n噢，$n先生，感謝您光臨．"
+    },
+    {
+      "text_id": 106,
+      "text": "是啊，我要拜託您辦點事．"
+    },
+    {
+      "text_id": 108,
+      "text": "是啊，我聽說$n先生要出海，是嗎？"
+    },
+    {
+      "text_id": 109,
+      "text": "尋找傳說中的普萊斯特·約翰王國是我們基督教徒的使命，祝您成功．"
+    },
+    {
+      "text_id": 110,
+      "text": "還有一件事，我有個宿願，希望您能幫我實現．"
+    },
+    {
+      "text_id": 111,
+      "text": "恩里克，恩里克神父，這邊來．"
+    },
+    {
+      "text_id": 113,
+      "text": "這是從弗朗西斯科會派遣來的傳教士，叫恩里克．"
+    },
+    {
+      "text_id": 114,
+      "text": "$n先生，您可能知道法王廳想向東方傳教吧．"
+    },
+    {
+      "text_id": 115,
+      "text": "拜託您把他送到日本吧．"
+    },
+    {
+      "text_id": 125,
+      "text": "少爺，我是受$s公爵之命造船的，到底是哪位要用這條船呀？"
+    },
+    {
+      "text_id": 127,
+      "text": "對了，想起來了．洛克正找您呢，說要您回公爵府．"
+    },
+    {
+      "text_id": 129,
+      "text": "原來是你呀，洛克，已經造好了．"
+    },
+    {
+      "text_id": 130,
+      "text": "按照萊昂公爵的命令，要把它造成同公爵首次坐的船一樣的拉丁級船．"
+    },
+    {
+      "text_id": 131,
+      "text": "船名是『海盧梅思2世』，是一種三角帆船，它易於操縱，適於初學者．"
+    },
+    {
+      "text_id": 132,
+      "text": "海盧梅思2世"
+    },
+    {
+      "text_id": 133,
+      "text": "$n先生，你如果有什麼困難就去酒館吧．"
+    },
+    {
+      "text_id": 134,
+      "text": "那家的老闆娘叫卡蕾珞娃，聽說令尊年輕時曾得到過她的幫助．"
+    },
+    {
+      "text_id": 136,
+      "text": "$n先生，菲利普主教正找您呢．"
+    },
+    {
+      "text_id": 167,
+      "text": "經常受到$s公爵的關照．"
+    },
+    {
+      "text_id": 168,
+      "text": "洛克先生從公爵府來找您了．"
+    },
+    {
+      "text_id": 169,
+      "text": "說起做生意，從本港買的岩鹽能在地中海賣高價．"
+    },
+    {
+      "text_id": 170,
+      "text": "和塞維爾的陶瓷器，可以在兩地之間做生意．"
+    },
+    {
+      "text_id": 171,
+      "text": "$n先生，對不起，好像您沒有船．"
+    },
+    {
+      "text_id": 172,
+      "text": "請您有了船，再來吧！"
+    },
+    {
+      "text_id": 173,
+      "text": "$n先生，洛克先生從公爵府來找您了．"
+    },
+    {
+      "text_id": 174,
+      "text": "$n先生，有要代管的東西吧？"
+    },
+    {
+      "text_id": 176,
+      "text": "公爵府管家的麥克先生，叫我等您來了，把花劍給您．"
+    },
+    {
+      "text_id": 177,
+      "text": "費用已付，請拿走吧．"
+    },
+    {
+      "text_id": 178,
+      "text": "對了，請注意，武器沒有裝佩是不能使用的．"
+    },
+    {
+      "text_id": 179,
+      "text": "經常受到$s公爵的關照．"
+    },
+    {
+      "text_id": 180,
+      "text": "洛克先生從公爵府來找您了．"
+    },
+    {
+      "text_id": 181,
+      "text": "$n先生，如有為難事，就去酒館．"
+    },
+    {
+      "text_id": 182,
+      "text": "因為聽說，公爵年輕時也得到過那家酒館女老闆的照顧．"
+    },
+    {
+      "text_id": 183,
+      "text": "$n公子，真少見，穿著便服來的．"
+    },
+    {
+      "text_id": 184,
+      "text": "您是$s家的人，快出海了吧？"
+    },
+    {
+      "text_id": 185,
+      "text": "$n先生，有公告說要把您當作平民對待，是真的嗎？"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gap_before_scene_00",
+      "start": 0,
+      "start_hex": "0x0000",
+      "end": 8,
+      "end_hex": "0x0008",
+      "length": 8,
+      "bytes": "ad 00 01 2a ac 05 00 40",
+      "known_ops": [],
+      "unknown_byte_count": 8,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 0,
+          "offset_hex": "0x0000",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1,
+          "offset_hex": "0x0001",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2,
+          "offset_hex": "0x0002",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 3,
+          "offset_hex": "0x0003",
+          "bytes": "2a",
+          "op": "db",
+          "args": [
+            42
+          ]
+        },
+        {
+          "offset": 4,
+          "offset_hex": "0x0004",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 5,
+          "offset_hex": "0x0005",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 6,
+          "offset_hex": "0x0006",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 7,
+          "offset_hex": "0x0007",
+          "bytes": "40",
+          "op": "db",
+          "args": [
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_01",
+      "start": 17,
+      "start_hex": "0x0011",
+      "end": 36,
+      "end_hex": "0x0024",
+      "length": 19,
+      "bytes": "fe 02 62 ad 05 01 2a ac 01 01 08 0f 01 07 8e 01 42 00 f7",
+      "known_ops": [],
+      "unknown_byte_count": 19,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 17,
+          "offset_hex": "0x0011",
+          "bytes": "fe",
+          "op": "db",
+          "args": [
+            254
+          ]
+        },
+        {
+          "offset": 18,
+          "offset_hex": "0x0012",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 19,
+          "offset_hex": "0x0013",
+          "bytes": "62",
+          "op": "db",
+          "args": [
+            98
+          ]
+        },
+        {
+          "offset": 20,
+          "offset_hex": "0x0014",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 21,
+          "offset_hex": "0x0015",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 22,
+          "offset_hex": "0x0016",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 23,
+          "offset_hex": "0x0017",
+          "bytes": "2a",
+          "op": "db",
+          "args": [
+            42
+          ]
+        },
+        {
+          "offset": 24,
+          "offset_hex": "0x0018",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 25,
+          "offset_hex": "0x0019",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 26,
+          "offset_hex": "0x001a",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 27,
+          "offset_hex": "0x001b",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 28,
+          "offset_hex": "0x001c",
+          "bytes": "0f",
+          "op": "db",
+          "args": [
+            15
+          ]
+        },
+        {
+          "offset": 29,
+          "offset_hex": "0x001d",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 30,
+          "offset_hex": "0x001e",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 31,
+          "offset_hex": "0x001f",
+          "bytes": "8e",
+          "op": "db",
+          "args": [
+            142
+          ]
+        },
+        {
+          "offset": 32,
+          "offset_hex": "0x0020",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 33,
+          "offset_hex": "0x0021",
+          "bytes": "42",
+          "op": "db",
+          "args": [
+            66
+          ]
+        },
+        {
+          "offset": 34,
+          "offset_hex": "0x0022",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 35,
+          "offset_hex": "0x0023",
+          "bytes": "f7",
+          "op": "db",
+          "args": [
+            247
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_02",
+      "start": 189,
+      "start_hex": "0x00bd",
+      "end": 208,
+      "end_hex": "0x00d0",
+      "length": 19,
+      "bytes": "dc 00 06 00 3f 1d 00 34 2c 01 01 fe 02 62 8f 01 41 01 08",
+      "known_ops": [],
+      "unknown_byte_count": 19,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 189,
+          "offset_hex": "0x00bd",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 190,
+          "offset_hex": "0x00be",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 191,
+          "offset_hex": "0x00bf",
+          "bytes": "06",
+          "op": "db",
+          "args": [
+            6
+          ]
+        },
+        {
+          "offset": 192,
+          "offset_hex": "0x00c0",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 193,
+          "offset_hex": "0x00c1",
+          "bytes": "3f",
+          "op": "db",
+          "args": [
+            63
+          ]
+        },
+        {
+          "offset": 194,
+          "offset_hex": "0x00c2",
+          "bytes": "1d",
+          "op": "db",
+          "args": [
+            29
+          ]
+        },
+        {
+          "offset": 195,
+          "offset_hex": "0x00c3",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 196,
+          "offset_hex": "0x00c4",
+          "bytes": "34",
+          "op": "db",
+          "args": [
+            52
+          ]
+        },
+        {
+          "offset": 197,
+          "offset_hex": "0x00c5",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 198,
+          "offset_hex": "0x00c6",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 199,
+          "offset_hex": "0x00c7",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 200,
+          "offset_hex": "0x00c8",
+          "bytes": "fe",
+          "op": "db",
+          "args": [
+            254
+          ]
+        },
+        {
+          "offset": 201,
+          "offset_hex": "0x00c9",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 202,
+          "offset_hex": "0x00ca",
+          "bytes": "62",
+          "op": "db",
+          "args": [
+            98
+          ]
+        },
+        {
+          "offset": 203,
+          "offset_hex": "0x00cb",
+          "bytes": "8f",
+          "op": "db",
+          "args": [
+            143
+          ]
+        },
+        {
+          "offset": 204,
+          "offset_hex": "0x00cc",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 205,
+          "offset_hex": "0x00cd",
+          "bytes": "41",
+          "op": "db",
+          "args": [
+            65
+          ]
+        },
+        {
+          "offset": 206,
+          "offset_hex": "0x00ce",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 207,
+          "offset_hex": "0x00cf",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_03",
+      "start": 217,
+      "start_hex": "0x00d9",
+      "end": 224,
+      "end_hex": "0x00e0",
+      "length": 7,
+      "bytes": "fe 02 62 ad 01 01 2a",
+      "known_ops": [],
+      "unknown_byte_count": 7,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 217,
+          "offset_hex": "0x00d9",
+          "bytes": "fe",
+          "op": "db",
+          "args": [
+            254
+          ]
+        },
+        {
+          "offset": 218,
+          "offset_hex": "0x00da",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 219,
+          "offset_hex": "0x00db",
+          "bytes": "62",
+          "op": "db",
+          "args": [
+            98
+          ]
+        },
+        {
+          "offset": 220,
+          "offset_hex": "0x00dc",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 221,
+          "offset_hex": "0x00dd",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 222,
+          "offset_hex": "0x00de",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 223,
+          "offset_hex": "0x00df",
+          "bytes": "2a",
+          "op": "db",
+          "args": [
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_04",
+      "start": 251,
+      "start_hex": "0x00fb",
+      "end": 258,
+      "end_hex": "0x0102",
+      "length": 7,
+      "bytes": "fe 02 62 ac 00 02 62",
+      "known_ops": [],
+      "unknown_byte_count": 7,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 251,
+          "offset_hex": "0x00fb",
+          "bytes": "fe",
+          "op": "db",
+          "args": [
+            254
+          ]
+        },
+        {
+          "offset": 252,
+          "offset_hex": "0x00fc",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 253,
+          "offset_hex": "0x00fd",
+          "bytes": "62",
+          "op": "db",
+          "args": [
+            98
+          ]
+        },
+        {
+          "offset": 254,
+          "offset_hex": "0x00fe",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 255,
+          "offset_hex": "0x00ff",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 256,
+          "offset_hex": "0x0100",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 257,
+          "offset_hex": "0x0101",
+          "bytes": "62",
+          "op": "db",
+          "args": [
+            98
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_05",
+      "start": 510,
+      "start_hex": "0x01fe",
+      "end": 513,
+      "end_hex": "0x0201",
+      "length": 3,
+      "bytes": "f9 05 05",
+      "known_ops": [],
+      "unknown_byte_count": 3,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 510,
+          "offset_hex": "0x01fe",
+          "bytes": "f9",
+          "op": "db",
+          "args": [
+            249
+          ]
+        },
+        {
+          "offset": 511,
+          "offset_hex": "0x01ff",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 512,
+          "offset_hex": "0x0200",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_06",
+      "start": 558,
+      "start_hex": "0x022e",
+      "end": 576,
+      "end_hex": "0x0240",
+      "length": 18,
+      "bytes": "fb 45 2c 00 01 fe 02 62 f8 f2 ac 00 02 bf ad 04 02 75",
+      "known_ops": [
+        {
+          "offset": 567,
+          "offset_hex": "0x0237",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 17,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 558,
+          "offset_hex": "0x022e",
+          "bytes": "fb",
+          "op": "db",
+          "args": [
+            251
+          ]
+        },
+        {
+          "offset": 559,
+          "offset_hex": "0x022f",
+          "bytes": "45",
+          "op": "db",
+          "args": [
+            69
+          ]
+        },
+        {
+          "offset": 560,
+          "offset_hex": "0x0230",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 561,
+          "offset_hex": "0x0231",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 562,
+          "offset_hex": "0x0232",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 563,
+          "offset_hex": "0x0233",
+          "bytes": "fe",
+          "op": "db",
+          "args": [
+            254
+          ]
+        },
+        {
+          "offset": 564,
+          "offset_hex": "0x0234",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 565,
+          "offset_hex": "0x0235",
+          "bytes": "62",
+          "op": "db",
+          "args": [
+            98
+          ]
+        },
+        {
+          "offset": 566,
+          "offset_hex": "0x0236",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 567,
+          "offset_hex": "0x0237",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 568,
+          "offset_hex": "0x0238",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 569,
+          "offset_hex": "0x0239",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 570,
+          "offset_hex": "0x023a",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 571,
+          "offset_hex": "0x023b",
+          "bytes": "bf",
+          "op": "db",
+          "args": [
+            191
+          ]
+        },
+        {
+          "offset": 572,
+          "offset_hex": "0x023c",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 573,
+          "offset_hex": "0x023d",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 574,
+          "offset_hex": "0x023e",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 575,
+          "offset_hex": "0x023f",
+          "bytes": "75",
+          "op": "db",
+          "args": [
+            117
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_07",
+      "start": 585,
+      "start_hex": "0x0249",
+      "end": 589,
+      "end_hex": "0x024d",
+      "length": 4,
+      "bytes": "ac 04 02 be",
+      "known_ops": [],
+      "unknown_byte_count": 4,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 585,
+          "offset_hex": "0x0249",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 586,
+          "offset_hex": "0x024a",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 587,
+          "offset_hex": "0x024b",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 588,
+          "offset_hex": "0x024c",
+          "bytes": "be",
+          "op": "db",
+          "args": [
+            190
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_08",
+      "start": 625,
+      "start_hex": "0x0271",
+      "end": 628,
+      "end_hex": "0x0274",
+      "length": 3,
+      "bytes": "c4 ca 04",
+      "known_ops": [],
+      "unknown_byte_count": 3,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 625,
+          "offset_hex": "0x0271",
+          "bytes": "c4",
+          "op": "db",
+          "args": [
+            196
+          ]
+        },
+        {
+          "offset": 626,
+          "offset_hex": "0x0272",
+          "bytes": "ca",
+          "op": "db",
+          "args": [
+            202
+          ]
+        },
+        {
+          "offset": 627,
+          "offset_hex": "0x0273",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_09",
+      "start": 655,
+      "start_hex": "0x028f",
+      "end": 675,
+      "end_hex": "0x02a3",
+      "length": 20,
+      "bytes": "2c 04 01 f8 ad 00 03 cb ad 05 02 d9 ac 01 02 d9 0c 3f 00 01",
+      "known_ops": [
+        {
+          "offset": 671,
+          "offset_hex": "0x029f",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        }
+      ],
+      "unknown_byte_count": 18,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x029f",
+          "text_id": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 655,
+          "offset_hex": "0x028f",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 656,
+          "offset_hex": "0x0290",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 657,
+          "offset_hex": "0x0291",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 658,
+          "offset_hex": "0x0292",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 659,
+          "offset_hex": "0x0293",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 660,
+          "offset_hex": "0x0294",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 661,
+          "offset_hex": "0x0295",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 662,
+          "offset_hex": "0x0296",
+          "bytes": "cb",
+          "op": "db",
+          "args": [
+            203
+          ]
+        },
+        {
+          "offset": 663,
+          "offset_hex": "0x0297",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 664,
+          "offset_hex": "0x0298",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 665,
+          "offset_hex": "0x0299",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 666,
+          "offset_hex": "0x029a",
+          "bytes": "d9",
+          "op": "db",
+          "args": [
+            217
+          ]
+        },
+        {
+          "offset": 667,
+          "offset_hex": "0x029b",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 668,
+          "offset_hex": "0x029c",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 669,
+          "offset_hex": "0x029d",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 670,
+          "offset_hex": "0x029e",
+          "bytes": "d9",
+          "op": "db",
+          "args": [
+            217
+          ]
+        },
+        {
+          "offset": 671,
+          "offset_hex": "0x029f",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 673,
+          "offset_hex": "0x02a1",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 674,
+          "offset_hex": "0x02a2",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_10",
+      "start": 684,
+      "start_hex": "0x02ac",
+      "end": 693,
+      "end_hex": "0x02b5",
+      "length": 9,
+      "bytes": "f8 ac 05 03 cb 0c 3f 00 01",
+      "known_ops": [
+        {
+          "offset": 689,
+          "offset_hex": "0x02b1",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        }
+      ],
+      "unknown_byte_count": 7,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x02b1",
+          "text_id": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 684,
+          "offset_hex": "0x02ac",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 685,
+          "offset_hex": "0x02ad",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 686,
+          "offset_hex": "0x02ae",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 687,
+          "offset_hex": "0x02af",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 688,
+          "offset_hex": "0x02b0",
+          "bytes": "cb",
+          "op": "db",
+          "args": [
+            203
+          ]
+        },
+        {
+          "offset": 689,
+          "offset_hex": "0x02b1",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 691,
+          "offset_hex": "0x02b3",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 692,
+          "offset_hex": "0x02b4",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_11",
+      "start": 819,
+      "start_hex": "0x0333",
+      "end": 825,
+      "end_hex": "0x0339",
+      "length": 6,
+      "bytes": "0c 00 03 e8 e6 00",
+      "known_ops": [
+        {
+          "offset": 819,
+          "offset_hex": "0x0333",
+          "bytes": "0c 00",
+          "op": "show_text",
+          "args": [
+            0
+          ],
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+        }
+      ],
+      "unknown_byte_count": 4,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x0333",
+          "text_id": 0,
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 819,
+          "offset_hex": "0x0333",
+          "bytes": "0c 00",
+          "op": "show_text",
+          "args": [
+            0
+          ],
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+        },
+        {
+          "offset": 821,
+          "offset_hex": "0x0335",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 822,
+          "offset_hex": "0x0336",
+          "bytes": "e8",
+          "op": "db",
+          "args": [
+            232
+          ]
+        },
+        {
+          "offset": 823,
+          "offset_hex": "0x0337",
+          "bytes": "e6",
+          "op": "db",
+          "args": [
+            230
+          ]
+        },
+        {
+          "offset": 824,
+          "offset_hex": "0x0338",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_12",
+      "start": 870,
+      "start_hex": "0x0366",
+      "end": 871,
+      "end_hex": "0x0367",
+      "length": 1,
+      "bytes": "c4",
+      "known_ops": [],
+      "unknown_byte_count": 1,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 870,
+          "offset_hex": "0x0366",
+          "bytes": "c4",
+          "op": "db",
+          "args": [
+            196
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_13",
+      "start": 907,
+      "start_hex": "0x038b",
+      "end": 978,
+      "end_hex": "0x03d2",
+      "length": 71,
+      "bytes": "dc 00 05 00 0f 1d 00 64 dc 00 05 01 0f 1d 00 64 2c 05 01 f8 f2 ac 00 03 d6 c0 00 c8 00 57 c7 ad 00 03 e0 c0 00 c8 00 58 c7 f8 f2 0c 3f 00 01 ac 00 04 20 ad 07 03 f4 c0 00 c8 00 59 c7 ac 07 04 1f c0 00 c8 00 5a c7",
+      "known_ops": [
+        {
+          "offset": 927,
+          "offset_hex": "0x039f",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 932,
+          "offset_hex": "0x03a4",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 934,
+          "offset_hex": "0x03a6",
+          "bytes": "c8 00 57",
+          "op": "c8",
+          "args": [
+            87
+          ]
+        },
+        {
+          "offset": 937,
+          "offset_hex": "0x03a9",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 942,
+          "offset_hex": "0x03ae",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 944,
+          "offset_hex": "0x03b0",
+          "bytes": "c8 00 58",
+          "op": "c8",
+          "args": [
+            88
+          ]
+        },
+        {
+          "offset": 947,
+          "offset_hex": "0x03b3",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 949,
+          "offset_hex": "0x03b5",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 950,
+          "offset_hex": "0x03b6",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 962,
+          "offset_hex": "0x03c2",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 964,
+          "offset_hex": "0x03c4",
+          "bytes": "c8 00 59",
+          "op": "c8",
+          "args": [
+            89
+          ]
+        },
+        {
+          "offset": 967,
+          "offset_hex": "0x03c7",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 972,
+          "offset_hex": "0x03cc",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 974,
+          "offset_hex": "0x03ce",
+          "bytes": "c8 00 5a",
+          "op": "c8",
+          "args": [
+            90
+          ]
+        },
+        {
+          "offset": 977,
+          "offset_hex": "0x03d1",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 43,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x03b6",
+          "text_id": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 907,
+          "offset_hex": "0x038b",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 908,
+          "offset_hex": "0x038c",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 909,
+          "offset_hex": "0x038d",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 910,
+          "offset_hex": "0x038e",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 911,
+          "offset_hex": "0x038f",
+          "bytes": "0f",
+          "op": "db",
+          "args": [
+            15
+          ]
+        },
+        {
+          "offset": 912,
+          "offset_hex": "0x0390",
+          "bytes": "1d",
+          "op": "db",
+          "args": [
+            29
+          ]
+        },
+        {
+          "offset": 913,
+          "offset_hex": "0x0391",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 914,
+          "offset_hex": "0x0392",
+          "bytes": "64",
+          "op": "db",
+          "args": [
+            100
+          ]
+        },
+        {
+          "offset": 915,
+          "offset_hex": "0x0393",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 916,
+          "offset_hex": "0x0394",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 917,
+          "offset_hex": "0x0395",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 918,
+          "offset_hex": "0x0396",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 919,
+          "offset_hex": "0x0397",
+          "bytes": "0f",
+          "op": "db",
+          "args": [
+            15
+          ]
+        },
+        {
+          "offset": 920,
+          "offset_hex": "0x0398",
+          "bytes": "1d",
+          "op": "db",
+          "args": [
+            29
+          ]
+        },
+        {
+          "offset": 921,
+          "offset_hex": "0x0399",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 922,
+          "offset_hex": "0x039a",
+          "bytes": "64",
+          "op": "db",
+          "args": [
+            100
+          ]
+        },
+        {
+          "offset": 923,
+          "offset_hex": "0x039b",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 924,
+          "offset_hex": "0x039c",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 925,
+          "offset_hex": "0x039d",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 926,
+          "offset_hex": "0x039e",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 927,
+          "offset_hex": "0x039f",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 928,
+          "offset_hex": "0x03a0",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 929,
+          "offset_hex": "0x03a1",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 930,
+          "offset_hex": "0x03a2",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 931,
+          "offset_hex": "0x03a3",
+          "bytes": "d6",
+          "op": "db",
+          "args": [
+            214
+          ]
+        },
+        {
+          "offset": 932,
+          "offset_hex": "0x03a4",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 934,
+          "offset_hex": "0x03a6",
+          "bytes": "c8 00 57",
+          "op": "c8",
+          "args": [
+            87
+          ]
+        },
+        {
+          "offset": 937,
+          "offset_hex": "0x03a9",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 938,
+          "offset_hex": "0x03aa",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 939,
+          "offset_hex": "0x03ab",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 940,
+          "offset_hex": "0x03ac",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 941,
+          "offset_hex": "0x03ad",
+          "bytes": "e0",
+          "op": "db",
+          "args": [
+            224
+          ]
+        },
+        {
+          "offset": 942,
+          "offset_hex": "0x03ae",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 944,
+          "offset_hex": "0x03b0",
+          "bytes": "c8 00 58",
+          "op": "c8",
+          "args": [
+            88
+          ]
+        },
+        {
+          "offset": 947,
+          "offset_hex": "0x03b3",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 948,
+          "offset_hex": "0x03b4",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 949,
+          "offset_hex": "0x03b5",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 950,
+          "offset_hex": "0x03b6",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 952,
+          "offset_hex": "0x03b8",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 953,
+          "offset_hex": "0x03b9",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 954,
+          "offset_hex": "0x03ba",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 955,
+          "offset_hex": "0x03bb",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 956,
+          "offset_hex": "0x03bc",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 957,
+          "offset_hex": "0x03bd",
+          "bytes": "20",
+          "op": "db",
+          "args": [
+            32
+          ]
+        },
+        {
+          "offset": 958,
+          "offset_hex": "0x03be",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 959,
+          "offset_hex": "0x03bf",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 960,
+          "offset_hex": "0x03c0",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 961,
+          "offset_hex": "0x03c1",
+          "bytes": "f4",
+          "op": "db",
+          "args": [
+            244
+          ]
+        },
+        {
+          "offset": 962,
+          "offset_hex": "0x03c2",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 964,
+          "offset_hex": "0x03c4",
+          "bytes": "c8 00 59",
+          "op": "c8",
+          "args": [
+            89
+          ]
+        },
+        {
+          "offset": 967,
+          "offset_hex": "0x03c7",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 968,
+          "offset_hex": "0x03c8",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 969,
+          "offset_hex": "0x03c9",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 970,
+          "offset_hex": "0x03ca",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 971,
+          "offset_hex": "0x03cb",
+          "bytes": "1f",
+          "op": "db",
+          "args": [
+            31
+          ]
+        },
+        {
+          "offset": 972,
+          "offset_hex": "0x03cc",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 974,
+          "offset_hex": "0x03ce",
+          "bytes": "c8 00 5a",
+          "op": "c8",
+          "args": [
+            90
+          ]
+        },
+        {
+          "offset": 977,
+          "offset_hex": "0x03d1",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_14",
+      "start": 987,
+      "start_hex": "0x03db",
+      "end": 999,
+      "end_hex": "0x03e7",
+      "length": 12,
+      "bytes": "c0 00 c8 00 5c c7 c0 00 c8 00 5d c7",
+      "known_ops": [
+        {
+          "offset": 987,
+          "offset_hex": "0x03db",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 989,
+          "offset_hex": "0x03dd",
+          "bytes": "c8 00 5c",
+          "op": "c8",
+          "args": [
+            92
+          ]
+        },
+        {
+          "offset": 992,
+          "offset_hex": "0x03e0",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 993,
+          "offset_hex": "0x03e1",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 995,
+          "offset_hex": "0x03e3",
+          "bytes": "c8 00 5d",
+          "op": "c8",
+          "args": [
+            93
+          ]
+        },
+        {
+          "offset": 998,
+          "offset_hex": "0x03e6",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 0,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 987,
+          "offset_hex": "0x03db",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 989,
+          "offset_hex": "0x03dd",
+          "bytes": "c8 00 5c",
+          "op": "c8",
+          "args": [
+            92
+          ]
+        },
+        {
+          "offset": 992,
+          "offset_hex": "0x03e0",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 993,
+          "offset_hex": "0x03e1",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 995,
+          "offset_hex": "0x03e3",
+          "bytes": "c8 00 5d",
+          "op": "c8",
+          "args": [
+            93
+          ]
+        },
+        {
+          "offset": 998,
+          "offset_hex": "0x03e6",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_15",
+      "start": 1008,
+      "start_hex": "0x03f0",
+      "end": 1048,
+      "end_hex": "0x0418",
+      "length": 40,
+      "bytes": "2c 07 01 f8 ad 00 05 5e ad 02 04 8f c0 00 c8 00 5f c7 ac 08 04 8f 2c 08 01 c0 00 c8 00 60 c7 c9 01 00 61 8c 01 00 04 53",
+      "known_ops": [
+        {
+          "offset": 1020,
+          "offset_hex": "0x03fc",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1022,
+          "offset_hex": "0x03fe",
+          "bytes": "c8 00 5f",
+          "op": "c8",
+          "args": [
+            95
+          ]
+        },
+        {
+          "offset": 1025,
+          "offset_hex": "0x0401",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1033,
+          "offset_hex": "0x0409",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1035,
+          "offset_hex": "0x040b",
+          "bytes": "c8 00 60",
+          "op": "c8",
+          "args": [
+            96
+          ]
+        },
+        {
+          "offset": 1038,
+          "offset_hex": "0x040e",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 28,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1008,
+          "offset_hex": "0x03f0",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 1009,
+          "offset_hex": "0x03f1",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1010,
+          "offset_hex": "0x03f2",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1011,
+          "offset_hex": "0x03f3",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 1012,
+          "offset_hex": "0x03f4",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1013,
+          "offset_hex": "0x03f5",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1014,
+          "offset_hex": "0x03f6",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1015,
+          "offset_hex": "0x03f7",
+          "bytes": "5e",
+          "op": "db",
+          "args": [
+            94
+          ]
+        },
+        {
+          "offset": 1016,
+          "offset_hex": "0x03f8",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1017,
+          "offset_hex": "0x03f9",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 1018,
+          "offset_hex": "0x03fa",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 1019,
+          "offset_hex": "0x03fb",
+          "bytes": "8f",
+          "op": "db",
+          "args": [
+            143
+          ]
+        },
+        {
+          "offset": 1020,
+          "offset_hex": "0x03fc",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1022,
+          "offset_hex": "0x03fe",
+          "bytes": "c8 00 5f",
+          "op": "c8",
+          "args": [
+            95
+          ]
+        },
+        {
+          "offset": 1025,
+          "offset_hex": "0x0401",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1026,
+          "offset_hex": "0x0402",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1027,
+          "offset_hex": "0x0403",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 1028,
+          "offset_hex": "0x0404",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 1029,
+          "offset_hex": "0x0405",
+          "bytes": "8f",
+          "op": "db",
+          "args": [
+            143
+          ]
+        },
+        {
+          "offset": 1030,
+          "offset_hex": "0x0406",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 1031,
+          "offset_hex": "0x0407",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 1032,
+          "offset_hex": "0x0408",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1033,
+          "offset_hex": "0x0409",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1035,
+          "offset_hex": "0x040b",
+          "bytes": "c8 00 60",
+          "op": "c8",
+          "args": [
+            96
+          ]
+        },
+        {
+          "offset": 1038,
+          "offset_hex": "0x040e",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1039,
+          "offset_hex": "0x040f",
+          "bytes": "c9",
+          "op": "db",
+          "args": [
+            201
+          ]
+        },
+        {
+          "offset": 1040,
+          "offset_hex": "0x0410",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1041,
+          "offset_hex": "0x0411",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1042,
+          "offset_hex": "0x0412",
+          "bytes": "61",
+          "op": "db",
+          "args": [
+            97
+          ]
+        },
+        {
+          "offset": 1043,
+          "offset_hex": "0x0413",
+          "bytes": "8c",
+          "op": "db",
+          "args": [
+            140
+          ]
+        },
+        {
+          "offset": 1044,
+          "offset_hex": "0x0414",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1045,
+          "offset_hex": "0x0415",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1046,
+          "offset_hex": "0x0416",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 1047,
+          "offset_hex": "0x0417",
+          "bytes": "53",
+          "op": "db",
+          "args": [
+            83
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_16",
+      "start": 1057,
+      "start_hex": "0x0421",
+      "end": 1068,
+      "end_hex": "0x042c",
+      "length": 11,
+      "bytes": "0c 00 03 e8 e6 00 8c 01 01 04 7b",
+      "known_ops": [
+        {
+          "offset": 1057,
+          "offset_hex": "0x0421",
+          "bytes": "0c 00",
+          "op": "show_text",
+          "args": [
+            0
+          ],
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+        }
+      ],
+      "unknown_byte_count": 9,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x0421",
+          "text_id": 0,
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 1057,
+          "offset_hex": "0x0421",
+          "bytes": "0c 00",
+          "op": "show_text",
+          "args": [
+            0
+          ],
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+        },
+        {
+          "offset": 1059,
+          "offset_hex": "0x0423",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1060,
+          "offset_hex": "0x0424",
+          "bytes": "e8",
+          "op": "db",
+          "args": [
+            232
+          ]
+        },
+        {
+          "offset": 1061,
+          "offset_hex": "0x0425",
+          "bytes": "e6",
+          "op": "db",
+          "args": [
+            230
+          ]
+        },
+        {
+          "offset": 1062,
+          "offset_hex": "0x0426",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1063,
+          "offset_hex": "0x0427",
+          "bytes": "8c",
+          "op": "db",
+          "args": [
+            140
+          ]
+        },
+        {
+          "offset": 1064,
+          "offset_hex": "0x0428",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1065,
+          "offset_hex": "0x0429",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1066,
+          "offset_hex": "0x042a",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 1067,
+          "offset_hex": "0x042b",
+          "bytes": "7b",
+          "op": "db",
+          "args": [
+            123
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_17",
+      "start": 1086,
+      "start_hex": "0x043e",
+      "end": 1108,
+      "end_hex": "0x0454",
+      "length": 22,
+      "bytes": "c0 00 c8 00 65 c7 dc 00 03 00 1c 4c 00 07 1d 00 64 8c 01 02 04 8f",
+      "known_ops": [
+        {
+          "offset": 1086,
+          "offset_hex": "0x043e",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1088,
+          "offset_hex": "0x0440",
+          "bytes": "c8 00 65",
+          "op": "c8",
+          "args": [
+            101
+          ]
+        },
+        {
+          "offset": 1091,
+          "offset_hex": "0x0443",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 16,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1086,
+          "offset_hex": "0x043e",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1088,
+          "offset_hex": "0x0440",
+          "bytes": "c8 00 65",
+          "op": "c8",
+          "args": [
+            101
+          ]
+        },
+        {
+          "offset": 1091,
+          "offset_hex": "0x0443",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1092,
+          "offset_hex": "0x0444",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 1093,
+          "offset_hex": "0x0445",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1094,
+          "offset_hex": "0x0446",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1095,
+          "offset_hex": "0x0447",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1096,
+          "offset_hex": "0x0448",
+          "bytes": "1c",
+          "op": "db",
+          "args": [
+            28
+          ]
+        },
+        {
+          "offset": 1097,
+          "offset_hex": "0x0449",
+          "bytes": "4c",
+          "op": "db",
+          "args": [
+            76
+          ]
+        },
+        {
+          "offset": 1098,
+          "offset_hex": "0x044a",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1099,
+          "offset_hex": "0x044b",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1100,
+          "offset_hex": "0x044c",
+          "bytes": "1d",
+          "op": "db",
+          "args": [
+            29
+          ]
+        },
+        {
+          "offset": 1101,
+          "offset_hex": "0x044d",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1102,
+          "offset_hex": "0x044e",
+          "bytes": "64",
+          "op": "db",
+          "args": [
+            100
+          ]
+        },
+        {
+          "offset": 1103,
+          "offset_hex": "0x044f",
+          "bytes": "8c",
+          "op": "db",
+          "args": [
+            140
+          ]
+        },
+        {
+          "offset": 1104,
+          "offset_hex": "0x0450",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1105,
+          "offset_hex": "0x0451",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 1106,
+          "offset_hex": "0x0452",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 1107,
+          "offset_hex": "0x0453",
+          "bytes": "8f",
+          "op": "db",
+          "args": [
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_18",
+      "start": 1117,
+      "start_hex": "0x045d",
+      "end": 1137,
+      "end_hex": "0x0471",
+      "length": 20,
+      "bytes": "c0 00 c8 00 67 c7 ac 02 05 5e c0 00 c8 00 68 c7 ac 07 04 ac",
+      "known_ops": [
+        {
+          "offset": 1117,
+          "offset_hex": "0x045d",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1119,
+          "offset_hex": "0x045f",
+          "bytes": "c8 00 67",
+          "op": "c8",
+          "args": [
+            103
+          ]
+        },
+        {
+          "offset": 1122,
+          "offset_hex": "0x0462",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1127,
+          "offset_hex": "0x0467",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1129,
+          "offset_hex": "0x0469",
+          "bytes": "c8 00 68",
+          "op": "c8",
+          "args": [
+            104
+          ]
+        },
+        {
+          "offset": 1132,
+          "offset_hex": "0x046c",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 8,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1117,
+          "offset_hex": "0x045d",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1119,
+          "offset_hex": "0x045f",
+          "bytes": "c8 00 67",
+          "op": "c8",
+          "args": [
+            103
+          ]
+        },
+        {
+          "offset": 1122,
+          "offset_hex": "0x0462",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1123,
+          "offset_hex": "0x0463",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1124,
+          "offset_hex": "0x0464",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 1125,
+          "offset_hex": "0x0465",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1126,
+          "offset_hex": "0x0466",
+          "bytes": "5e",
+          "op": "db",
+          "args": [
+            94
+          ]
+        },
+        {
+          "offset": 1127,
+          "offset_hex": "0x0467",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1129,
+          "offset_hex": "0x0469",
+          "bytes": "c8 00 68",
+          "op": "c8",
+          "args": [
+            104
+          ]
+        },
+        {
+          "offset": 1132,
+          "offset_hex": "0x046c",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1133,
+          "offset_hex": "0x046d",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1134,
+          "offset_hex": "0x046e",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1135,
+          "offset_hex": "0x046f",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 1136,
+          "offset_hex": "0x0470",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_19",
+      "start": 1146,
+      "start_hex": "0x047a",
+      "end": 1156,
+      "end_hex": "0x0484",
+      "length": 10,
+      "bytes": "c0 00 c8 00 6a c7 ad 07 04 cb",
+      "known_ops": [
+        {
+          "offset": 1146,
+          "offset_hex": "0x047a",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1148,
+          "offset_hex": "0x047c",
+          "bytes": "c8 00 6a",
+          "op": "c8",
+          "args": [
+            106
+          ]
+        },
+        {
+          "offset": 1151,
+          "offset_hex": "0x047f",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 4,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1146,
+          "offset_hex": "0x047a",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1148,
+          "offset_hex": "0x047c",
+          "bytes": "c8 00 6a",
+          "op": "c8",
+          "args": [
+            106
+          ]
+        },
+        {
+          "offset": 1151,
+          "offset_hex": "0x047f",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1152,
+          "offset_hex": "0x0480",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1153,
+          "offset_hex": "0x0481",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1154,
+          "offset_hex": "0x0482",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 1155,
+          "offset_hex": "0x0483",
+          "bytes": "cb",
+          "op": "db",
+          "args": [
+            203
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_20",
+      "start": 1165,
+      "start_hex": "0x048d",
+      "end": 1189,
+      "end_hex": "0x04a5",
+      "length": 24,
+      "bytes": "c0 00 c8 00 6c c7 c0 00 c8 00 6d c7 c0 00 c8 00 6e c7 c0 00 c8 00 6f c7",
+      "known_ops": [
+        {
+          "offset": 1165,
+          "offset_hex": "0x048d",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1167,
+          "offset_hex": "0x048f",
+          "bytes": "c8 00 6c",
+          "op": "c8",
+          "args": [
+            108
+          ]
+        },
+        {
+          "offset": 1170,
+          "offset_hex": "0x0492",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1171,
+          "offset_hex": "0x0493",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1173,
+          "offset_hex": "0x0495",
+          "bytes": "c8 00 6d",
+          "op": "c8",
+          "args": [
+            109
+          ]
+        },
+        {
+          "offset": 1176,
+          "offset_hex": "0x0498",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1177,
+          "offset_hex": "0x0499",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1179,
+          "offset_hex": "0x049b",
+          "bytes": "c8 00 6e",
+          "op": "c8",
+          "args": [
+            110
+          ]
+        },
+        {
+          "offset": 1182,
+          "offset_hex": "0x049e",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1183,
+          "offset_hex": "0x049f",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1185,
+          "offset_hex": "0x04a1",
+          "bytes": "c8 00 6f",
+          "op": "c8",
+          "args": [
+            111
+          ]
+        },
+        {
+          "offset": 1188,
+          "offset_hex": "0x04a4",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 0,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1165,
+          "offset_hex": "0x048d",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1167,
+          "offset_hex": "0x048f",
+          "bytes": "c8 00 6c",
+          "op": "c8",
+          "args": [
+            108
+          ]
+        },
+        {
+          "offset": 1170,
+          "offset_hex": "0x0492",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1171,
+          "offset_hex": "0x0493",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1173,
+          "offset_hex": "0x0495",
+          "bytes": "c8 00 6d",
+          "op": "c8",
+          "args": [
+            109
+          ]
+        },
+        {
+          "offset": 1176,
+          "offset_hex": "0x0498",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1177,
+          "offset_hex": "0x0499",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1179,
+          "offset_hex": "0x049b",
+          "bytes": "c8 00 6e",
+          "op": "c8",
+          "args": [
+            110
+          ]
+        },
+        {
+          "offset": 1182,
+          "offset_hex": "0x049e",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1183,
+          "offset_hex": "0x049f",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1185,
+          "offset_hex": "0x04a1",
+          "bytes": "c8 00 6f",
+          "op": "c8",
+          "args": [
+            111
+          ]
+        },
+        {
+          "offset": 1188,
+          "offset_hex": "0x04a4",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_21",
+      "start": 1198,
+      "start_hex": "0x04ae",
+      "end": 1216,
+      "end_hex": "0x04c0",
+      "length": 18,
+      "bytes": "c0 00 c8 00 71 c7 c0 00 c8 00 72 c7 c0 00 c8 00 73 c7",
+      "known_ops": [
+        {
+          "offset": 1198,
+          "offset_hex": "0x04ae",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1200,
+          "offset_hex": "0x04b0",
+          "bytes": "c8 00 71",
+          "op": "c8",
+          "args": [
+            113
+          ]
+        },
+        {
+          "offset": 1203,
+          "offset_hex": "0x04b3",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1204,
+          "offset_hex": "0x04b4",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1206,
+          "offset_hex": "0x04b6",
+          "bytes": "c8 00 72",
+          "op": "c8",
+          "args": [
+            114
+          ]
+        },
+        {
+          "offset": 1209,
+          "offset_hex": "0x04b9",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1210,
+          "offset_hex": "0x04ba",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1212,
+          "offset_hex": "0x04bc",
+          "bytes": "c8 00 73",
+          "op": "c8",
+          "args": [
+            115
+          ]
+        },
+        {
+          "offset": 1215,
+          "offset_hex": "0x04bf",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 0,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1198,
+          "offset_hex": "0x04ae",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1200,
+          "offset_hex": "0x04b0",
+          "bytes": "c8 00 71",
+          "op": "c8",
+          "args": [
+            113
+          ]
+        },
+        {
+          "offset": 1203,
+          "offset_hex": "0x04b3",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1204,
+          "offset_hex": "0x04b4",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1206,
+          "offset_hex": "0x04b6",
+          "bytes": "c8 00 72",
+          "op": "c8",
+          "args": [
+            114
+          ]
+        },
+        {
+          "offset": 1209,
+          "offset_hex": "0x04b9",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1210,
+          "offset_hex": "0x04ba",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1212,
+          "offset_hex": "0x04bc",
+          "bytes": "c8 00 73",
+          "op": "c8",
+          "args": [
+            115
+          ]
+        },
+        {
+          "offset": 1215,
+          "offset_hex": "0x04bf",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_22",
+      "start": 1270,
+      "start_hex": "0x04f6",
+      "end": 1272,
+      "end_hex": "0x04f8",
+      "length": 2,
+      "bytes": "fb 46",
+      "known_ops": [],
+      "unknown_byte_count": 2,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1270,
+          "offset_hex": "0x04f6",
+          "bytes": "fb",
+          "op": "db",
+          "args": [
+            251
+          ]
+        },
+        {
+          "offset": 1271,
+          "offset_hex": "0x04f7",
+          "bytes": "46",
+          "op": "db",
+          "args": [
+            70
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_23",
+      "start": 1299,
+      "start_hex": "0x0513",
+      "end": 1345,
+      "end_hex": "0x0541",
+      "length": 46,
+      "bytes": "dc 00 0c 62 15 05 01 00 6c 01 20 11 00 01 dc 00 0c 63 15 05 01 00 6c 01 20 11 00 01 2c 02 01 f2 ac 03 05 a3 ac 00 05 7c c0 00 c8 00 7d c7",
+      "known_ops": [
+        {
+          "offset": 1301,
+          "offset_hex": "0x0515",
+          "bytes": "0c 62",
+          "op": "show_text",
+          "args": [
+            98
+          ],
+          "text": "謝謝，那我就不客氣了．"
+        },
+        {
+          "offset": 1315,
+          "offset_hex": "0x0523",
+          "bytes": "0c 63",
+          "op": "show_text",
+          "args": [
+            99
+          ],
+          "text": "不，我不能要主教大人的錢．"
+        },
+        {
+          "offset": 1330,
+          "offset_hex": "0x0532",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 1339,
+          "offset_hex": "0x053b",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1341,
+          "offset_hex": "0x053d",
+          "bytes": "c8 00 7d",
+          "op": "c8",
+          "args": [
+            125
+          ]
+        },
+        {
+          "offset": 1344,
+          "offset_hex": "0x0540",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 35,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x0515",
+          "text_id": 98,
+          "text": "謝謝，那我就不客氣了．"
+        },
+        {
+          "offset_hex": "0x0523",
+          "text_id": 99,
+          "text": "不，我不能要主教大人的錢．"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 1299,
+          "offset_hex": "0x0513",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 1300,
+          "offset_hex": "0x0514",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1301,
+          "offset_hex": "0x0515",
+          "bytes": "0c 62",
+          "op": "show_text",
+          "args": [
+            98
+          ],
+          "text": "謝謝，那我就不客氣了．"
+        },
+        {
+          "offset": 1303,
+          "offset_hex": "0x0517",
+          "bytes": "15",
+          "op": "db",
+          "args": [
+            21
+          ]
+        },
+        {
+          "offset": 1304,
+          "offset_hex": "0x0518",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1305,
+          "offset_hex": "0x0519",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1306,
+          "offset_hex": "0x051a",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1307,
+          "offset_hex": "0x051b",
+          "bytes": "6c",
+          "op": "db",
+          "args": [
+            108
+          ]
+        },
+        {
+          "offset": 1308,
+          "offset_hex": "0x051c",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1309,
+          "offset_hex": "0x051d",
+          "bytes": "20",
+          "op": "db",
+          "args": [
+            32
+          ]
+        },
+        {
+          "offset": 1310,
+          "offset_hex": "0x051e",
+          "bytes": "11",
+          "op": "db",
+          "args": [
+            17
+          ]
+        },
+        {
+          "offset": 1311,
+          "offset_hex": "0x051f",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1312,
+          "offset_hex": "0x0520",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1313,
+          "offset_hex": "0x0521",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 1314,
+          "offset_hex": "0x0522",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1315,
+          "offset_hex": "0x0523",
+          "bytes": "0c 63",
+          "op": "show_text",
+          "args": [
+            99
+          ],
+          "text": "不，我不能要主教大人的錢．"
+        },
+        {
+          "offset": 1317,
+          "offset_hex": "0x0525",
+          "bytes": "15",
+          "op": "db",
+          "args": [
+            21
+          ]
+        },
+        {
+          "offset": 1318,
+          "offset_hex": "0x0526",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1319,
+          "offset_hex": "0x0527",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1320,
+          "offset_hex": "0x0528",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1321,
+          "offset_hex": "0x0529",
+          "bytes": "6c",
+          "op": "db",
+          "args": [
+            108
+          ]
+        },
+        {
+          "offset": 1322,
+          "offset_hex": "0x052a",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1323,
+          "offset_hex": "0x052b",
+          "bytes": "20",
+          "op": "db",
+          "args": [
+            32
+          ]
+        },
+        {
+          "offset": 1324,
+          "offset_hex": "0x052c",
+          "bytes": "11",
+          "op": "db",
+          "args": [
+            17
+          ]
+        },
+        {
+          "offset": 1325,
+          "offset_hex": "0x052d",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1326,
+          "offset_hex": "0x052e",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1327,
+          "offset_hex": "0x052f",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 1328,
+          "offset_hex": "0x0530",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 1329,
+          "offset_hex": "0x0531",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1330,
+          "offset_hex": "0x0532",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 1331,
+          "offset_hex": "0x0533",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1332,
+          "offset_hex": "0x0534",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1333,
+          "offset_hex": "0x0535",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1334,
+          "offset_hex": "0x0536",
+          "bytes": "a3",
+          "op": "db",
+          "args": [
+            163
+          ]
+        },
+        {
+          "offset": 1335,
+          "offset_hex": "0x0537",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1336,
+          "offset_hex": "0x0538",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1337,
+          "offset_hex": "0x0539",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1338,
+          "offset_hex": "0x053a",
+          "bytes": "7c",
+          "op": "db",
+          "args": [
+            124
+          ]
+        },
+        {
+          "offset": 1339,
+          "offset_hex": "0x053b",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1341,
+          "offset_hex": "0x053d",
+          "bytes": "c8 00 7d",
+          "op": "c8",
+          "args": [
+            125
+          ]
+        },
+        {
+          "offset": 1344,
+          "offset_hex": "0x0540",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_24",
+      "start": 1354,
+      "start_hex": "0x054a",
+      "end": 1364,
+      "end_hex": "0x0554",
+      "length": 10,
+      "bytes": "c0 00 c8 00 7f c7 ad 00 05 a2",
+      "known_ops": [
+        {
+          "offset": 1354,
+          "offset_hex": "0x054a",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1356,
+          "offset_hex": "0x054c",
+          "bytes": "c8 00 7f",
+          "op": "c8",
+          "args": [
+            127
+          ]
+        },
+        {
+          "offset": 1359,
+          "offset_hex": "0x054f",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 4,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1354,
+          "offset_hex": "0x054a",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1356,
+          "offset_hex": "0x054c",
+          "bytes": "c8 00 7f",
+          "op": "c8",
+          "args": [
+            127
+          ]
+        },
+        {
+          "offset": 1359,
+          "offset_hex": "0x054f",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1360,
+          "offset_hex": "0x0550",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1361,
+          "offset_hex": "0x0551",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1362,
+          "offset_hex": "0x0552",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1363,
+          "offset_hex": "0x0553",
+          "bytes": "a2",
+          "op": "db",
+          "args": [
+            162
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_25",
+      "start": 1373,
+      "start_hex": "0x055d",
+      "end": 1428,
+      "end_hex": "0x0594",
+      "length": 55,
+      "bytes": "c0 00 c8 00 81 c7 c0 00 c8 00 82 c7 c0 00 c8 00 83 c7 fa 05 00 84 2c 03 01 f8 f2 ac 00 05 b8 0c 3f 00 01 c0 00 c8 00 85 c7 c0 00 c8 00 86 c7 ad 00 07 48 ac 03 05 cc",
+      "known_ops": [
+        {
+          "offset": 1373,
+          "offset_hex": "0x055d",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1375,
+          "offset_hex": "0x055f",
+          "bytes": "c8 00 81",
+          "op": "c8",
+          "args": [
+            129
+          ]
+        },
+        {
+          "offset": 1378,
+          "offset_hex": "0x0562",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1379,
+          "offset_hex": "0x0563",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1381,
+          "offset_hex": "0x0565",
+          "bytes": "c8 00 82",
+          "op": "c8",
+          "args": [
+            130
+          ]
+        },
+        {
+          "offset": 1384,
+          "offset_hex": "0x0568",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1385,
+          "offset_hex": "0x0569",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1387,
+          "offset_hex": "0x056b",
+          "bytes": "c8 00 83",
+          "op": "c8",
+          "args": [
+            131
+          ]
+        },
+        {
+          "offset": 1390,
+          "offset_hex": "0x056e",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1399,
+          "offset_hex": "0x0577",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 1404,
+          "offset_hex": "0x057c",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 1408,
+          "offset_hex": "0x0580",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1410,
+          "offset_hex": "0x0582",
+          "bytes": "c8 00 85",
+          "op": "c8",
+          "args": [
+            133
+          ]
+        },
+        {
+          "offset": 1413,
+          "offset_hex": "0x0585",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1414,
+          "offset_hex": "0x0586",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1416,
+          "offset_hex": "0x0588",
+          "bytes": "c8 00 86",
+          "op": "c8",
+          "args": [
+            134
+          ]
+        },
+        {
+          "offset": 1419,
+          "offset_hex": "0x058b",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 22,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x057c",
+          "text_id": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 1373,
+          "offset_hex": "0x055d",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1375,
+          "offset_hex": "0x055f",
+          "bytes": "c8 00 81",
+          "op": "c8",
+          "args": [
+            129
+          ]
+        },
+        {
+          "offset": 1378,
+          "offset_hex": "0x0562",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1379,
+          "offset_hex": "0x0563",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1381,
+          "offset_hex": "0x0565",
+          "bytes": "c8 00 82",
+          "op": "c8",
+          "args": [
+            130
+          ]
+        },
+        {
+          "offset": 1384,
+          "offset_hex": "0x0568",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1385,
+          "offset_hex": "0x0569",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1387,
+          "offset_hex": "0x056b",
+          "bytes": "c8 00 83",
+          "op": "c8",
+          "args": [
+            131
+          ]
+        },
+        {
+          "offset": 1390,
+          "offset_hex": "0x056e",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1391,
+          "offset_hex": "0x056f",
+          "bytes": "fa",
+          "op": "db",
+          "args": [
+            250
+          ]
+        },
+        {
+          "offset": 1392,
+          "offset_hex": "0x0570",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1393,
+          "offset_hex": "0x0571",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1394,
+          "offset_hex": "0x0572",
+          "bytes": "84",
+          "op": "db",
+          "args": [
+            132
+          ]
+        },
+        {
+          "offset": 1395,
+          "offset_hex": "0x0573",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 1396,
+          "offset_hex": "0x0574",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1397,
+          "offset_hex": "0x0575",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1398,
+          "offset_hex": "0x0576",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 1399,
+          "offset_hex": "0x0577",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 1400,
+          "offset_hex": "0x0578",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1401,
+          "offset_hex": "0x0579",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1402,
+          "offset_hex": "0x057a",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1403,
+          "offset_hex": "0x057b",
+          "bytes": "b8",
+          "op": "db",
+          "args": [
+            184
+          ]
+        },
+        {
+          "offset": 1404,
+          "offset_hex": "0x057c",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 1406,
+          "offset_hex": "0x057e",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1407,
+          "offset_hex": "0x057f",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1408,
+          "offset_hex": "0x0580",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1410,
+          "offset_hex": "0x0582",
+          "bytes": "c8 00 85",
+          "op": "c8",
+          "args": [
+            133
+          ]
+        },
+        {
+          "offset": 1413,
+          "offset_hex": "0x0585",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1414,
+          "offset_hex": "0x0586",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1416,
+          "offset_hex": "0x0588",
+          "bytes": "c8 00 86",
+          "op": "c8",
+          "args": [
+            134
+          ]
+        },
+        {
+          "offset": 1419,
+          "offset_hex": "0x058b",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1420,
+          "offset_hex": "0x058c",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1421,
+          "offset_hex": "0x058d",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1422,
+          "offset_hex": "0x058e",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1423,
+          "offset_hex": "0x058f",
+          "bytes": "48",
+          "op": "db",
+          "args": [
+            72
+          ]
+        },
+        {
+          "offset": 1424,
+          "offset_hex": "0x0590",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1425,
+          "offset_hex": "0x0591",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1426,
+          "offset_hex": "0x0592",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1427,
+          "offset_hex": "0x0593",
+          "bytes": "cc",
+          "op": "db",
+          "args": [
+            204
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_26",
+      "start": 1437,
+      "start_hex": "0x059d",
+      "end": 1454,
+      "end_hex": "0x05ae",
+      "length": 17,
+      "bytes": "fe 07 48 ac 02 05 f4 c0 00 c8 00 88 c7 ac 07 05 e3",
+      "known_ops": [
+        {
+          "offset": 1444,
+          "offset_hex": "0x05a4",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1446,
+          "offset_hex": "0x05a6",
+          "bytes": "c8 00 88",
+          "op": "c8",
+          "args": [
+            136
+          ]
+        },
+        {
+          "offset": 1449,
+          "offset_hex": "0x05a9",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 11,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1437,
+          "offset_hex": "0x059d",
+          "bytes": "fe",
+          "op": "db",
+          "args": [
+            254
+          ]
+        },
+        {
+          "offset": 1438,
+          "offset_hex": "0x059e",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1439,
+          "offset_hex": "0x059f",
+          "bytes": "48",
+          "op": "db",
+          "args": [
+            72
+          ]
+        },
+        {
+          "offset": 1440,
+          "offset_hex": "0x05a0",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1441,
+          "offset_hex": "0x05a1",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 1442,
+          "offset_hex": "0x05a2",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1443,
+          "offset_hex": "0x05a3",
+          "bytes": "f4",
+          "op": "db",
+          "args": [
+            244
+          ]
+        },
+        {
+          "offset": 1444,
+          "offset_hex": "0x05a4",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1446,
+          "offset_hex": "0x05a6",
+          "bytes": "c8 00 88",
+          "op": "c8",
+          "args": [
+            136
+          ]
+        },
+        {
+          "offset": 1449,
+          "offset_hex": "0x05a9",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1450,
+          "offset_hex": "0x05aa",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1451,
+          "offset_hex": "0x05ab",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1452,
+          "offset_hex": "0x05ac",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1453,
+          "offset_hex": "0x05ad",
+          "bytes": "e3",
+          "op": "db",
+          "args": [
+            227
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_27",
+      "start": 1463,
+      "start_hex": "0x05b7",
+      "end": 1467,
+      "end_hex": "0x05bb",
+      "length": 4,
+      "bytes": "ad 07 05 f0",
+      "known_ops": [],
+      "unknown_byte_count": 4,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1463,
+          "offset_hex": "0x05b7",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1464,
+          "offset_hex": "0x05b8",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1465,
+          "offset_hex": "0x05b9",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1466,
+          "offset_hex": "0x05ba",
+          "bytes": "f0",
+          "op": "db",
+          "args": [
+            240
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_28",
+      "start": 1476,
+      "start_hex": "0x05c4",
+      "end": 1492,
+      "end_hex": "0x05d4",
+      "length": 16,
+      "bytes": "f8 fe 07 48 ac 01 06 26 ac 05 06 16 ac 08 06 09",
+      "known_ops": [],
+      "unknown_byte_count": 16,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1476,
+          "offset_hex": "0x05c4",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 1477,
+          "offset_hex": "0x05c5",
+          "bytes": "fe",
+          "op": "db",
+          "args": [
+            254
+          ]
+        },
+        {
+          "offset": 1478,
+          "offset_hex": "0x05c6",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1479,
+          "offset_hex": "0x05c7",
+          "bytes": "48",
+          "op": "db",
+          "args": [
+            72
+          ]
+        },
+        {
+          "offset": 1480,
+          "offset_hex": "0x05c8",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1481,
+          "offset_hex": "0x05c9",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1482,
+          "offset_hex": "0x05ca",
+          "bytes": "06",
+          "op": "db",
+          "args": [
+            6
+          ]
+        },
+        {
+          "offset": 1483,
+          "offset_hex": "0x05cb",
+          "bytes": "26",
+          "op": "db",
+          "args": [
+            38
+          ]
+        },
+        {
+          "offset": 1484,
+          "offset_hex": "0x05cc",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1485,
+          "offset_hex": "0x05cd",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1486,
+          "offset_hex": "0x05ce",
+          "bytes": "06",
+          "op": "db",
+          "args": [
+            6
+          ]
+        },
+        {
+          "offset": 1487,
+          "offset_hex": "0x05cf",
+          "bytes": "16",
+          "op": "db",
+          "args": [
+            22
+          ]
+        },
+        {
+          "offset": 1488,
+          "offset_hex": "0x05d0",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1489,
+          "offset_hex": "0x05d1",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 1490,
+          "offset_hex": "0x05d2",
+          "bytes": "06",
+          "op": "db",
+          "args": [
+            6
+          ]
+        },
+        {
+          "offset": 1491,
+          "offset_hex": "0x05d3",
+          "bytes": "09",
+          "op": "db",
+          "args": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_29",
+      "start": 1501,
+      "start_hex": "0x05dd",
+      "end": 1505,
+      "end_hex": "0x05e1",
+      "length": 4,
+      "bytes": "ad 08 06 16",
+      "known_ops": [],
+      "unknown_byte_count": 4,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1501,
+          "offset_hex": "0x05dd",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1502,
+          "offset_hex": "0x05de",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 1503,
+          "offset_hex": "0x05df",
+          "bytes": "06",
+          "op": "db",
+          "args": [
+            6
+          ]
+        },
+        {
+          "offset": 1504,
+          "offset_hex": "0x05e0",
+          "bytes": "16",
+          "op": "db",
+          "args": [
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_30",
+      "start": 1514,
+      "start_hex": "0x05ea",
+      "end": 1518,
+      "end_hex": "0x05ee",
+      "length": 4,
+      "bytes": "ad 05 06 23",
+      "known_ops": [],
+      "unknown_byte_count": 4,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1514,
+          "offset_hex": "0x05ea",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1515,
+          "offset_hex": "0x05eb",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1516,
+          "offset_hex": "0x05ec",
+          "bytes": "06",
+          "op": "db",
+          "args": [
+            6
+          ]
+        },
+        {
+          "offset": 1517,
+          "offset_hex": "0x05ed",
+          "bytes": "23",
+          "op": "db",
+          "args": [
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_31",
+      "start": 1527,
+      "start_hex": "0x05f7",
+      "end": 1534,
+      "end_hex": "0x05fe",
+      "length": 7,
+      "bytes": "fe 07 48 ac 0a 07 48",
+      "known_ops": [],
+      "unknown_byte_count": 7,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1527,
+          "offset_hex": "0x05f7",
+          "bytes": "fe",
+          "op": "db",
+          "args": [
+            254
+          ]
+        },
+        {
+          "offset": 1528,
+          "offset_hex": "0x05f8",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1529,
+          "offset_hex": "0x05f9",
+          "bytes": "48",
+          "op": "db",
+          "args": [
+            72
+          ]
+        },
+        {
+          "offset": 1530,
+          "offset_hex": "0x05fa",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1531,
+          "offset_hex": "0x05fb",
+          "bytes": "0a",
+          "op": "db",
+          "args": [
+            10
+          ]
+        },
+        {
+          "offset": 1532,
+          "offset_hex": "0x05fc",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1533,
+          "offset_hex": "0x05fd",
+          "bytes": "48",
+          "op": "db",
+          "args": [
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_32",
+      "start": 1678,
+      "start_hex": "0x068e",
+      "end": 1691,
+      "end_hex": "0x069b",
+      "length": 13,
+      "bytes": "dc 0b 03 46 2e 05 0c 0b 8d 0c 04 07 3c",
+      "known_ops": [
+        {
+          "offset": 1684,
+          "offset_hex": "0x0694",
+          "bytes": "0c 0b",
+          "op": "show_text",
+          "args": [
+            11
+          ],
+          "text": "因為沒有比航海更能鍛練男子漢的．"
+        },
+        {
+          "offset": 1687,
+          "offset_hex": "0x0697",
+          "bytes": "0c 04",
+          "op": "show_text",
+          "args": [
+            4
+          ],
+          "text": "可是，船長，我聽說公爵是跟某個貴族之間有恩怨呀．"
+        }
+      ],
+      "unknown_byte_count": 9,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x0694",
+          "text_id": 11,
+          "text": "因為沒有比航海更能鍛練男子漢的．"
+        },
+        {
+          "offset_hex": "0x0697",
+          "text_id": 4,
+          "text": "可是，船長，我聽說公爵是跟某個貴族之間有恩怨呀．"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 1678,
+          "offset_hex": "0x068e",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 1679,
+          "offset_hex": "0x068f",
+          "bytes": "0b",
+          "op": "db",
+          "args": [
+            11
+          ]
+        },
+        {
+          "offset": 1680,
+          "offset_hex": "0x0690",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1681,
+          "offset_hex": "0x0691",
+          "bytes": "46",
+          "op": "db",
+          "args": [
+            70
+          ]
+        },
+        {
+          "offset": 1682,
+          "offset_hex": "0x0692",
+          "bytes": "2e",
+          "op": "db",
+          "args": [
+            46
+          ]
+        },
+        {
+          "offset": 1683,
+          "offset_hex": "0x0693",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1684,
+          "offset_hex": "0x0694",
+          "bytes": "0c 0b",
+          "op": "show_text",
+          "args": [
+            11
+          ],
+          "text": "因為沒有比航海更能鍛練男子漢的．"
+        },
+        {
+          "offset": 1686,
+          "offset_hex": "0x0696",
+          "bytes": "8d",
+          "op": "db",
+          "args": [
+            141
+          ]
+        },
+        {
+          "offset": 1687,
+          "offset_hex": "0x0697",
+          "bytes": "0c 04",
+          "op": "show_text",
+          "args": [
+            4
+          ],
+          "text": "可是，船長，我聽說公爵是跟某個貴族之間有恩怨呀．"
+        },
+        {
+          "offset": 1689,
+          "offset_hex": "0x0699",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1690,
+          "offset_hex": "0x069a",
+          "bytes": "3c",
+          "op": "db",
+          "args": [
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_33",
+      "start": 1700,
+      "start_hex": "0x06a4",
+      "end": 1706,
+      "end_hex": "0x06aa",
+      "length": 6,
+      "bytes": "e9 0b ad 0b 07 17",
+      "known_ops": [],
+      "unknown_byte_count": 6,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1700,
+          "offset_hex": "0x06a4",
+          "bytes": "e9",
+          "op": "db",
+          "args": [
+            233
+          ]
+        },
+        {
+          "offset": 1701,
+          "offset_hex": "0x06a5",
+          "bytes": "0b",
+          "op": "db",
+          "args": [
+            11
+          ]
+        },
+        {
+          "offset": 1702,
+          "offset_hex": "0x06a6",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1703,
+          "offset_hex": "0x06a7",
+          "bytes": "0b",
+          "op": "db",
+          "args": [
+            11
+          ]
+        },
+        {
+          "offset": 1704,
+          "offset_hex": "0x06a8",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1705,
+          "offset_hex": "0x06a9",
+          "bytes": "17",
+          "op": "db",
+          "args": [
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_34",
+      "start": 1715,
+      "start_hex": "0x06b3",
+      "end": 1736,
+      "end_hex": "0x06c8",
+      "length": 21,
+      "bytes": "dc 00 03 46 2e 1d 00 04 dc 0b 03 45 2e 05 0c 0b 8d 0c 03 07 05",
+      "known_ops": [
+        {
+          "offset": 1729,
+          "offset_hex": "0x06c1",
+          "bytes": "0c 0b",
+          "op": "show_text",
+          "args": [
+            11
+          ],
+          "text": "因為沒有比航海更能鍛練男子漢的．"
+        },
+        {
+          "offset": 1732,
+          "offset_hex": "0x06c4",
+          "bytes": "0c 03",
+          "op": "show_text",
+          "args": [
+            3
+          ],
+          "text": "太太，這是$s家人的呀！"
+        }
+      ],
+      "unknown_byte_count": 17,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x06c1",
+          "text_id": 11,
+          "text": "因為沒有比航海更能鍛練男子漢的．"
+        },
+        {
+          "offset_hex": "0x06c4",
+          "text_id": 3,
+          "text": "太太，這是$s家人的呀！"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 1715,
+          "offset_hex": "0x06b3",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 1716,
+          "offset_hex": "0x06b4",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1717,
+          "offset_hex": "0x06b5",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1718,
+          "offset_hex": "0x06b6",
+          "bytes": "46",
+          "op": "db",
+          "args": [
+            70
+          ]
+        },
+        {
+          "offset": 1719,
+          "offset_hex": "0x06b7",
+          "bytes": "2e",
+          "op": "db",
+          "args": [
+            46
+          ]
+        },
+        {
+          "offset": 1720,
+          "offset_hex": "0x06b8",
+          "bytes": "1d",
+          "op": "db",
+          "args": [
+            29
+          ]
+        },
+        {
+          "offset": 1721,
+          "offset_hex": "0x06b9",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1722,
+          "offset_hex": "0x06ba",
+          "bytes": "04",
+          "op": "db",
+          "args": [
+            4
+          ]
+        },
+        {
+          "offset": 1723,
+          "offset_hex": "0x06bb",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 1724,
+          "offset_hex": "0x06bc",
+          "bytes": "0b",
+          "op": "db",
+          "args": [
+            11
+          ]
+        },
+        {
+          "offset": 1725,
+          "offset_hex": "0x06bd",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1726,
+          "offset_hex": "0x06be",
+          "bytes": "45",
+          "op": "db",
+          "args": [
+            69
+          ]
+        },
+        {
+          "offset": 1727,
+          "offset_hex": "0x06bf",
+          "bytes": "2e",
+          "op": "db",
+          "args": [
+            46
+          ]
+        },
+        {
+          "offset": 1728,
+          "offset_hex": "0x06c0",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        },
+        {
+          "offset": 1729,
+          "offset_hex": "0x06c1",
+          "bytes": "0c 0b",
+          "op": "show_text",
+          "args": [
+            11
+          ],
+          "text": "因為沒有比航海更能鍛練男子漢的．"
+        },
+        {
+          "offset": 1731,
+          "offset_hex": "0x06c3",
+          "bytes": "8d",
+          "op": "db",
+          "args": [
+            141
+          ]
+        },
+        {
+          "offset": 1732,
+          "offset_hex": "0x06c4",
+          "bytes": "0c 03",
+          "op": "show_text",
+          "args": [
+            3
+          ],
+          "text": "太太，這是$s家人的呀！"
+        },
+        {
+          "offset": 1734,
+          "offset_hex": "0x06c6",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1735,
+          "offset_hex": "0x06c7",
+          "bytes": "05",
+          "op": "db",
+          "args": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_35",
+      "start": 1745,
+      "start_hex": "0x06d1",
+      "end": 1753,
+      "end_hex": "0x06d9",
+      "length": 8,
+      "bytes": "dc 00 03 45 2e 1d 00 03",
+      "known_ops": [],
+      "unknown_byte_count": 8,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1745,
+          "offset_hex": "0x06d1",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 1746,
+          "offset_hex": "0x06d2",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1747,
+          "offset_hex": "0x06d3",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1748,
+          "offset_hex": "0x06d4",
+          "bytes": "45",
+          "op": "db",
+          "args": [
+            69
+          ]
+        },
+        {
+          "offset": 1749,
+          "offset_hex": "0x06d5",
+          "bytes": "2e",
+          "op": "db",
+          "args": [
+            46
+          ]
+        },
+        {
+          "offset": 1750,
+          "offset_hex": "0x06d6",
+          "bytes": "1d",
+          "op": "db",
+          "args": [
+            29
+          ]
+        },
+        {
+          "offset": 1751,
+          "offset_hex": "0x06d7",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1752,
+          "offset_hex": "0x06d8",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_36",
+      "start": 1771,
+      "start_hex": "0x06eb",
+      "end": 1775,
+      "end_hex": "0x06ef",
+      "length": 4,
+      "bytes": "ac 0b 07 36",
+      "known_ops": [],
+      "unknown_byte_count": 4,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1771,
+          "offset_hex": "0x06eb",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1772,
+          "offset_hex": "0x06ec",
+          "bytes": "0b",
+          "op": "db",
+          "args": [
+            11
+          ]
+        },
+        {
+          "offset": 1773,
+          "offset_hex": "0x06ed",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1774,
+          "offset_hex": "0x06ee",
+          "bytes": "36",
+          "op": "db",
+          "args": [
+            54
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_37",
+      "start": 1802,
+      "start_hex": "0x070a",
+      "end": 1808,
+      "end_hex": "0x0710",
+      "length": 6,
+      "bytes": "2c 0a 01 fe 07 48",
+      "known_ops": [],
+      "unknown_byte_count": 6,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 1802,
+          "offset_hex": "0x070a",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 1803,
+          "offset_hex": "0x070b",
+          "bytes": "0a",
+          "op": "db",
+          "args": [
+            10
+          ]
+        },
+        {
+          "offset": 1804,
+          "offset_hex": "0x070c",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1805,
+          "offset_hex": "0x070d",
+          "bytes": "fe",
+          "op": "db",
+          "args": [
+            254
+          ]
+        },
+        {
+          "offset": 1806,
+          "offset_hex": "0x070e",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1807,
+          "offset_hex": "0x070f",
+          "bytes": "48",
+          "op": "db",
+          "args": [
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_38",
+      "start": 1817,
+      "start_hex": "0x0719",
+      "end": 1901,
+      "end_hex": "0x076d",
+      "length": 84,
+      "bytes": "2c 0a 01 f2 ac 00 07 66 c0 00 c8 00 a7 c7 c0 00 c8 00 a8 c7 c0 00 c8 00 a9 c7 c0 00 c8 00 aa c7 f8 ad 00 07 7b ac 03 07 7b c0 00 c8 00 ab c7 c0 00 c8 00 ac c7 f8 f2 0c 3f 00 01 ac 00 07 8b c0 00 c8 00 ad c7 f8 ad 00 07 c6 ac 09 07 bc c0 00 c8 00 ae c7",
+      "known_ops": [
+        {
+          "offset": 1820,
+          "offset_hex": "0x071c",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 1825,
+          "offset_hex": "0x0721",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1827,
+          "offset_hex": "0x0723",
+          "bytes": "c8 00 a7",
+          "op": "c8",
+          "args": [
+            167
+          ]
+        },
+        {
+          "offset": 1830,
+          "offset_hex": "0x0726",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1831,
+          "offset_hex": "0x0727",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1833,
+          "offset_hex": "0x0729",
+          "bytes": "c8 00 a8",
+          "op": "c8",
+          "args": [
+            168
+          ]
+        },
+        {
+          "offset": 1836,
+          "offset_hex": "0x072c",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1837,
+          "offset_hex": "0x072d",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1839,
+          "offset_hex": "0x072f",
+          "bytes": "c8 00 a9",
+          "op": "c8",
+          "args": [
+            169
+          ]
+        },
+        {
+          "offset": 1842,
+          "offset_hex": "0x0732",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1843,
+          "offset_hex": "0x0733",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1845,
+          "offset_hex": "0x0735",
+          "bytes": "c8 00 aa",
+          "op": "c8",
+          "args": [
+            170
+          ]
+        },
+        {
+          "offset": 1848,
+          "offset_hex": "0x0738",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1858,
+          "offset_hex": "0x0742",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1860,
+          "offset_hex": "0x0744",
+          "bytes": "c8 00 ab",
+          "op": "c8",
+          "args": [
+            171
+          ]
+        },
+        {
+          "offset": 1863,
+          "offset_hex": "0x0747",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1864,
+          "offset_hex": "0x0748",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1866,
+          "offset_hex": "0x074a",
+          "bytes": "c8 00 ac",
+          "op": "c8",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1869,
+          "offset_hex": "0x074d",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1871,
+          "offset_hex": "0x074f",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 1872,
+          "offset_hex": "0x0750",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 1880,
+          "offset_hex": "0x0758",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1882,
+          "offset_hex": "0x075a",
+          "bytes": "c8 00 ad",
+          "op": "c8",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1885,
+          "offset_hex": "0x075d",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1895,
+          "offset_hex": "0x0767",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1897,
+          "offset_hex": "0x0769",
+          "bytes": "c8 00 ae",
+          "op": "c8",
+          "args": [
+            174
+          ]
+        },
+        {
+          "offset": 1900,
+          "offset_hex": "0x076c",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 32,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x0750",
+          "text_id": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 1817,
+          "offset_hex": "0x0719",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 1818,
+          "offset_hex": "0x071a",
+          "bytes": "0a",
+          "op": "db",
+          "args": [
+            10
+          ]
+        },
+        {
+          "offset": 1819,
+          "offset_hex": "0x071b",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1820,
+          "offset_hex": "0x071c",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 1821,
+          "offset_hex": "0x071d",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1822,
+          "offset_hex": "0x071e",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1823,
+          "offset_hex": "0x071f",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1824,
+          "offset_hex": "0x0720",
+          "bytes": "66",
+          "op": "db",
+          "args": [
+            102
+          ]
+        },
+        {
+          "offset": 1825,
+          "offset_hex": "0x0721",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1827,
+          "offset_hex": "0x0723",
+          "bytes": "c8 00 a7",
+          "op": "c8",
+          "args": [
+            167
+          ]
+        },
+        {
+          "offset": 1830,
+          "offset_hex": "0x0726",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1831,
+          "offset_hex": "0x0727",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1833,
+          "offset_hex": "0x0729",
+          "bytes": "c8 00 a8",
+          "op": "c8",
+          "args": [
+            168
+          ]
+        },
+        {
+          "offset": 1836,
+          "offset_hex": "0x072c",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1837,
+          "offset_hex": "0x072d",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1839,
+          "offset_hex": "0x072f",
+          "bytes": "c8 00 a9",
+          "op": "c8",
+          "args": [
+            169
+          ]
+        },
+        {
+          "offset": 1842,
+          "offset_hex": "0x0732",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1843,
+          "offset_hex": "0x0733",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1845,
+          "offset_hex": "0x0735",
+          "bytes": "c8 00 aa",
+          "op": "c8",
+          "args": [
+            170
+          ]
+        },
+        {
+          "offset": 1848,
+          "offset_hex": "0x0738",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1849,
+          "offset_hex": "0x0739",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 1850,
+          "offset_hex": "0x073a",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1851,
+          "offset_hex": "0x073b",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1852,
+          "offset_hex": "0x073c",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1853,
+          "offset_hex": "0x073d",
+          "bytes": "7b",
+          "op": "db",
+          "args": [
+            123
+          ]
+        },
+        {
+          "offset": 1854,
+          "offset_hex": "0x073e",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1855,
+          "offset_hex": "0x073f",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1856,
+          "offset_hex": "0x0740",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1857,
+          "offset_hex": "0x0741",
+          "bytes": "7b",
+          "op": "db",
+          "args": [
+            123
+          ]
+        },
+        {
+          "offset": 1858,
+          "offset_hex": "0x0742",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1860,
+          "offset_hex": "0x0744",
+          "bytes": "c8 00 ab",
+          "op": "c8",
+          "args": [
+            171
+          ]
+        },
+        {
+          "offset": 1863,
+          "offset_hex": "0x0747",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1864,
+          "offset_hex": "0x0748",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1866,
+          "offset_hex": "0x074a",
+          "bytes": "c8 00 ac",
+          "op": "c8",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1869,
+          "offset_hex": "0x074d",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1870,
+          "offset_hex": "0x074e",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 1871,
+          "offset_hex": "0x074f",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 1872,
+          "offset_hex": "0x0750",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 1874,
+          "offset_hex": "0x0752",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1875,
+          "offset_hex": "0x0753",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1876,
+          "offset_hex": "0x0754",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1877,
+          "offset_hex": "0x0755",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1878,
+          "offset_hex": "0x0756",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1879,
+          "offset_hex": "0x0757",
+          "bytes": "8b",
+          "op": "db",
+          "args": [
+            139
+          ]
+        },
+        {
+          "offset": 1880,
+          "offset_hex": "0x0758",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1882,
+          "offset_hex": "0x075a",
+          "bytes": "c8 00 ad",
+          "op": "c8",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1885,
+          "offset_hex": "0x075d",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1886,
+          "offset_hex": "0x075e",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 1887,
+          "offset_hex": "0x075f",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1888,
+          "offset_hex": "0x0760",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1889,
+          "offset_hex": "0x0761",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1890,
+          "offset_hex": "0x0762",
+          "bytes": "c6",
+          "op": "db",
+          "args": [
+            198
+          ]
+        },
+        {
+          "offset": 1891,
+          "offset_hex": "0x0763",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1892,
+          "offset_hex": "0x0764",
+          "bytes": "09",
+          "op": "db",
+          "args": [
+            9
+          ]
+        },
+        {
+          "offset": 1893,
+          "offset_hex": "0x0765",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1894,
+          "offset_hex": "0x0766",
+          "bytes": "bc",
+          "op": "db",
+          "args": [
+            188
+          ]
+        },
+        {
+          "offset": 1895,
+          "offset_hex": "0x0767",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1897,
+          "offset_hex": "0x0769",
+          "bytes": "c8 00 ae",
+          "op": "c8",
+          "args": [
+            174
+          ]
+        },
+        {
+          "offset": 1900,
+          "offset_hex": "0x076c",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ]
+    },
+    {
+      "id": "gap_before_scene_39",
+      "start": 1910,
+      "start_hex": "0x0776",
+      "end": 2030,
+      "end_hex": "0x07ee",
+      "length": 120,
+      "bytes": "c0 00 c8 00 b0 c7 c0 00 c8 00 b1 c7 dc 00 06 00 3f 4c 00 01 1d 00 03 2c 09 01 ad 09 07 c6 c0 00 c8 00 b2 c7 f2 0c 3f 00 01 ac 00 08 07 eb 00 00 03 8c 00 00 07 e4 c0 00 c8 00 b3 c7 c0 00 c8 00 b4 c7 8c 00 01 07 f5 c0 00 c8 00 b5 c7 c0 00 c8 00 b6 c7 8c 00 02 08 06 c0 00 c8 00 b7 c7 c0 00 c8 00 b8 c7 f8 ad 00 08 39 eb 00 00 03 8c 00 00 08 23 c0 00 c8 00 b9 c7",
+      "known_ops": [
+        {
+          "offset": 1910,
+          "offset_hex": "0x0776",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1912,
+          "offset_hex": "0x0778",
+          "bytes": "c8 00 b0",
+          "op": "c8",
+          "args": [
+            176
+          ]
+        },
+        {
+          "offset": 1915,
+          "offset_hex": "0x077b",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1916,
+          "offset_hex": "0x077c",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1918,
+          "offset_hex": "0x077e",
+          "bytes": "c8 00 b1",
+          "op": "c8",
+          "args": [
+            177
+          ]
+        },
+        {
+          "offset": 1921,
+          "offset_hex": "0x0781",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1940,
+          "offset_hex": "0x0794",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1942,
+          "offset_hex": "0x0796",
+          "bytes": "c8 00 b2",
+          "op": "c8",
+          "args": [
+            178
+          ]
+        },
+        {
+          "offset": 1945,
+          "offset_hex": "0x0799",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1946,
+          "offset_hex": "0x079a",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 1947,
+          "offset_hex": "0x079b",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 1964,
+          "offset_hex": "0x07ac",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1966,
+          "offset_hex": "0x07ae",
+          "bytes": "c8 00 b3",
+          "op": "c8",
+          "args": [
+            179
+          ]
+        },
+        {
+          "offset": 1969,
+          "offset_hex": "0x07b1",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1970,
+          "offset_hex": "0x07b2",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1972,
+          "offset_hex": "0x07b4",
+          "bytes": "c8 00 b4",
+          "op": "c8",
+          "args": [
+            180
+          ]
+        },
+        {
+          "offset": 1975,
+          "offset_hex": "0x07b7",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1981,
+          "offset_hex": "0x07bd",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1983,
+          "offset_hex": "0x07bf",
+          "bytes": "c8 00 b5",
+          "op": "c8",
+          "args": [
+            181
+          ]
+        },
+        {
+          "offset": 1986,
+          "offset_hex": "0x07c2",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1987,
+          "offset_hex": "0x07c3",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1989,
+          "offset_hex": "0x07c5",
+          "bytes": "c8 00 b6",
+          "op": "c8",
+          "args": [
+            182
+          ]
+        },
+        {
+          "offset": 1992,
+          "offset_hex": "0x07c8",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1998,
+          "offset_hex": "0x07ce",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2000,
+          "offset_hex": "0x07d0",
+          "bytes": "c8 00 b7",
+          "op": "c8",
+          "args": [
+            183
+          ]
+        },
+        {
+          "offset": 2003,
+          "offset_hex": "0x07d3",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 2004,
+          "offset_hex": "0x07d4",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2006,
+          "offset_hex": "0x07d6",
+          "bytes": "c8 00 b8",
+          "op": "c8",
+          "args": [
+            184
+          ]
+        },
+        {
+          "offset": 2009,
+          "offset_hex": "0x07d9",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 2024,
+          "offset_hex": "0x07e8",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2026,
+          "offset_hex": "0x07ea",
+          "bytes": "c8 00 b9",
+          "op": "c8",
+          "args": [
+            185
+          ]
+        },
+        {
+          "offset": 2029,
+          "offset_hex": "0x07ed",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 57,
+      "embedded_text_refs": [
+        {
+          "offset_hex": "0x079b",
+          "text_id": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        }
+      ],
+      "instructions": [
+        {
+          "offset": 1910,
+          "offset_hex": "0x0776",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1912,
+          "offset_hex": "0x0778",
+          "bytes": "c8 00 b0",
+          "op": "c8",
+          "args": [
+            176
+          ]
+        },
+        {
+          "offset": 1915,
+          "offset_hex": "0x077b",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1916,
+          "offset_hex": "0x077c",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1918,
+          "offset_hex": "0x077e",
+          "bytes": "c8 00 b1",
+          "op": "c8",
+          "args": [
+            177
+          ]
+        },
+        {
+          "offset": 1921,
+          "offset_hex": "0x0781",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1922,
+          "offset_hex": "0x0782",
+          "bytes": "dc",
+          "op": "db",
+          "args": [
+            220
+          ]
+        },
+        {
+          "offset": 1923,
+          "offset_hex": "0x0783",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1924,
+          "offset_hex": "0x0784",
+          "bytes": "06",
+          "op": "db",
+          "args": [
+            6
+          ]
+        },
+        {
+          "offset": 1925,
+          "offset_hex": "0x0785",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1926,
+          "offset_hex": "0x0786",
+          "bytes": "3f",
+          "op": "db",
+          "args": [
+            63
+          ]
+        },
+        {
+          "offset": 1927,
+          "offset_hex": "0x0787",
+          "bytes": "4c",
+          "op": "db",
+          "args": [
+            76
+          ]
+        },
+        {
+          "offset": 1928,
+          "offset_hex": "0x0788",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1929,
+          "offset_hex": "0x0789",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1930,
+          "offset_hex": "0x078a",
+          "bytes": "1d",
+          "op": "db",
+          "args": [
+            29
+          ]
+        },
+        {
+          "offset": 1931,
+          "offset_hex": "0x078b",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1932,
+          "offset_hex": "0x078c",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1933,
+          "offset_hex": "0x078d",
+          "bytes": "2c",
+          "op": "db",
+          "args": [
+            44
+          ]
+        },
+        {
+          "offset": 1934,
+          "offset_hex": "0x078e",
+          "bytes": "09",
+          "op": "db",
+          "args": [
+            9
+          ]
+        },
+        {
+          "offset": 1935,
+          "offset_hex": "0x078f",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1936,
+          "offset_hex": "0x0790",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 1937,
+          "offset_hex": "0x0791",
+          "bytes": "09",
+          "op": "db",
+          "args": [
+            9
+          ]
+        },
+        {
+          "offset": 1938,
+          "offset_hex": "0x0792",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1939,
+          "offset_hex": "0x0793",
+          "bytes": "c6",
+          "op": "db",
+          "args": [
+            198
+          ]
+        },
+        {
+          "offset": 1940,
+          "offset_hex": "0x0794",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1942,
+          "offset_hex": "0x0796",
+          "bytes": "c8 00 b2",
+          "op": "c8",
+          "args": [
+            178
+          ]
+        },
+        {
+          "offset": 1945,
+          "offset_hex": "0x0799",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1946,
+          "offset_hex": "0x079a",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 1947,
+          "offset_hex": "0x079b",
+          "bytes": "0c 3f",
+          "op": "show_text",
+          "args": [
+            63
+          ],
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 1949,
+          "offset_hex": "0x079d",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1950,
+          "offset_hex": "0x079e",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1951,
+          "offset_hex": "0x079f",
+          "bytes": "ac",
+          "op": "db",
+          "args": [
+            172
+          ]
+        },
+        {
+          "offset": 1952,
+          "offset_hex": "0x07a0",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1953,
+          "offset_hex": "0x07a1",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 1954,
+          "offset_hex": "0x07a2",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1955,
+          "offset_hex": "0x07a3",
+          "bytes": "eb",
+          "op": "db",
+          "args": [
+            235
+          ]
+        },
+        {
+          "offset": 1956,
+          "offset_hex": "0x07a4",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1957,
+          "offset_hex": "0x07a5",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1958,
+          "offset_hex": "0x07a6",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 1959,
+          "offset_hex": "0x07a7",
+          "bytes": "8c",
+          "op": "db",
+          "args": [
+            140
+          ]
+        },
+        {
+          "offset": 1960,
+          "offset_hex": "0x07a8",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1961,
+          "offset_hex": "0x07a9",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1962,
+          "offset_hex": "0x07aa",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1963,
+          "offset_hex": "0x07ab",
+          "bytes": "e4",
+          "op": "db",
+          "args": [
+            228
+          ]
+        },
+        {
+          "offset": 1964,
+          "offset_hex": "0x07ac",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1966,
+          "offset_hex": "0x07ae",
+          "bytes": "c8 00 b3",
+          "op": "c8",
+          "args": [
+            179
+          ]
+        },
+        {
+          "offset": 1969,
+          "offset_hex": "0x07b1",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1970,
+          "offset_hex": "0x07b2",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1972,
+          "offset_hex": "0x07b4",
+          "bytes": "c8 00 b4",
+          "op": "c8",
+          "args": [
+            180
+          ]
+        },
+        {
+          "offset": 1975,
+          "offset_hex": "0x07b7",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1976,
+          "offset_hex": "0x07b8",
+          "bytes": "8c",
+          "op": "db",
+          "args": [
+            140
+          ]
+        },
+        {
+          "offset": 1977,
+          "offset_hex": "0x07b9",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1978,
+          "offset_hex": "0x07ba",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 1979,
+          "offset_hex": "0x07bb",
+          "bytes": "07",
+          "op": "db",
+          "args": [
+            7
+          ]
+        },
+        {
+          "offset": 1980,
+          "offset_hex": "0x07bc",
+          "bytes": "f5",
+          "op": "db",
+          "args": [
+            245
+          ]
+        },
+        {
+          "offset": 1981,
+          "offset_hex": "0x07bd",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1983,
+          "offset_hex": "0x07bf",
+          "bytes": "c8 00 b5",
+          "op": "c8",
+          "args": [
+            181
+          ]
+        },
+        {
+          "offset": 1986,
+          "offset_hex": "0x07c2",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1987,
+          "offset_hex": "0x07c3",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1989,
+          "offset_hex": "0x07c5",
+          "bytes": "c8 00 b6",
+          "op": "c8",
+          "args": [
+            182
+          ]
+        },
+        {
+          "offset": 1992,
+          "offset_hex": "0x07c8",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 1993,
+          "offset_hex": "0x07c9",
+          "bytes": "8c",
+          "op": "db",
+          "args": [
+            140
+          ]
+        },
+        {
+          "offset": 1994,
+          "offset_hex": "0x07ca",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 1995,
+          "offset_hex": "0x07cb",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 1996,
+          "offset_hex": "0x07cc",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 1997,
+          "offset_hex": "0x07cd",
+          "bytes": "06",
+          "op": "db",
+          "args": [
+            6
+          ]
+        },
+        {
+          "offset": 1998,
+          "offset_hex": "0x07ce",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2000,
+          "offset_hex": "0x07d0",
+          "bytes": "c8 00 b7",
+          "op": "c8",
+          "args": [
+            183
+          ]
+        },
+        {
+          "offset": 2003,
+          "offset_hex": "0x07d3",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 2004,
+          "offset_hex": "0x07d4",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2006,
+          "offset_hex": "0x07d6",
+          "bytes": "c8 00 b8",
+          "op": "c8",
+          "args": [
+            184
+          ]
+        },
+        {
+          "offset": 2009,
+          "offset_hex": "0x07d9",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 2010,
+          "offset_hex": "0x07da",
+          "bytes": "f8",
+          "op": "db",
+          "args": [
+            248
+          ]
+        },
+        {
+          "offset": 2011,
+          "offset_hex": "0x07db",
+          "bytes": "ad",
+          "op": "db",
+          "args": [
+            173
+          ]
+        },
+        {
+          "offset": 2012,
+          "offset_hex": "0x07dc",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2013,
+          "offset_hex": "0x07dd",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 2014,
+          "offset_hex": "0x07de",
+          "bytes": "39",
+          "op": "db",
+          "args": [
+            57
+          ]
+        },
+        {
+          "offset": 2015,
+          "offset_hex": "0x07df",
+          "bytes": "eb",
+          "op": "db",
+          "args": [
+            235
+          ]
+        },
+        {
+          "offset": 2016,
+          "offset_hex": "0x07e0",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2017,
+          "offset_hex": "0x07e1",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2018,
+          "offset_hex": "0x07e2",
+          "bytes": "03",
+          "op": "db",
+          "args": [
+            3
+          ]
+        },
+        {
+          "offset": 2019,
+          "offset_hex": "0x07e3",
+          "bytes": "8c",
+          "op": "db",
+          "args": [
+            140
+          ]
+        },
+        {
+          "offset": 2020,
+          "offset_hex": "0x07e4",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2021,
+          "offset_hex": "0x07e5",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2022,
+          "offset_hex": "0x07e6",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 2023,
+          "offset_hex": "0x07e7",
+          "bytes": "23",
+          "op": "db",
+          "args": [
+            35
+          ]
+        },
+        {
+          "offset": 2024,
+          "offset_hex": "0x07e8",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2026,
+          "offset_hex": "0x07ea",
+          "bytes": "c8 00 b9",
+          "op": "c8",
+          "args": [
+            185
+          ]
+        },
+        {
+          "offset": 2029,
+          "offset_hex": "0x07ed",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        }
+      ]
+    },
+    {
+      "id": "gap_after_last_scene",
+      "start": 2039,
+      "start_hex": "0x07f7",
+      "end": 2064,
+      "end_hex": "0x0810",
+      "length": 25,
+      "bytes": "8c 00 01 08 2e c0 00 c8 00 bb c7 8c 00 02 08 39 c0 00 c8 00 bc c7 f2 f0 f2",
+      "known_ops": [
+        {
+          "offset": 2044,
+          "offset_hex": "0x07fc",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2046,
+          "offset_hex": "0x07fe",
+          "bytes": "c8 00 bb",
+          "op": "c8",
+          "args": [
+            187
+          ]
+        },
+        {
+          "offset": 2049,
+          "offset_hex": "0x0801",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 2055,
+          "offset_hex": "0x0807",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2057,
+          "offset_hex": "0x0809",
+          "bytes": "c8 00 bc",
+          "op": "c8",
+          "args": [
+            188
+          ]
+        },
+        {
+          "offset": 2060,
+          "offset_hex": "0x080c",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 2061,
+          "offset_hex": "0x080d",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 2063,
+          "offset_hex": "0x080f",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        }
+      ],
+      "unknown_byte_count": 11,
+      "embedded_text_refs": [],
+      "instructions": [
+        {
+          "offset": 2039,
+          "offset_hex": "0x07f7",
+          "bytes": "8c",
+          "op": "db",
+          "args": [
+            140
+          ]
+        },
+        {
+          "offset": 2040,
+          "offset_hex": "0x07f8",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2041,
+          "offset_hex": "0x07f9",
+          "bytes": "01",
+          "op": "db",
+          "args": [
+            1
+          ]
+        },
+        {
+          "offset": 2042,
+          "offset_hex": "0x07fa",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 2043,
+          "offset_hex": "0x07fb",
+          "bytes": "2e",
+          "op": "db",
+          "args": [
+            46
+          ]
+        },
+        {
+          "offset": 2044,
+          "offset_hex": "0x07fc",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2046,
+          "offset_hex": "0x07fe",
+          "bytes": "c8 00 bb",
+          "op": "c8",
+          "args": [
+            187
+          ]
+        },
+        {
+          "offset": 2049,
+          "offset_hex": "0x0801",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 2050,
+          "offset_hex": "0x0802",
+          "bytes": "8c",
+          "op": "db",
+          "args": [
+            140
+          ]
+        },
+        {
+          "offset": 2051,
+          "offset_hex": "0x0803",
+          "bytes": "00",
+          "op": "db",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2052,
+          "offset_hex": "0x0804",
+          "bytes": "02",
+          "op": "db",
+          "args": [
+            2
+          ]
+        },
+        {
+          "offset": 2053,
+          "offset_hex": "0x0805",
+          "bytes": "08",
+          "op": "db",
+          "args": [
+            8
+          ]
+        },
+        {
+          "offset": 2054,
+          "offset_hex": "0x0806",
+          "bytes": "39",
+          "op": "db",
+          "args": [
+            57
+          ]
+        },
+        {
+          "offset": 2055,
+          "offset_hex": "0x0807",
+          "bytes": "c0 00",
+          "op": "c0",
+          "args": [
+            0
+          ]
+        },
+        {
+          "offset": 2057,
+          "offset_hex": "0x0809",
+          "bytes": "c8 00 bc",
+          "op": "c8",
+          "args": [
+            188
+          ]
+        },
+        {
+          "offset": 2060,
+          "offset_hex": "0x080c",
+          "bytes": "c7",
+          "op": "c7",
+          "args": []
+        },
+        {
+          "offset": 2061,
+          "offset_hex": "0x080d",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        },
+        {
+          "offset": 2062,
+          "offset_hex": "0x080e",
+          "bytes": "f0",
+          "op": "db",
+          "args": [
+            240
+          ]
+        },
+        {
+          "offset": 2063,
+          "offset_hex": "0x080f",
+          "bytes": "f2",
+          "op": "end_subscript",
+          "args": []
+        }
+      ]
+    }
+  ]
+}
