@@ -538,6 +538,7 @@ Phase 3 当前结论：
 | 生成 João opening `topology_v1.json` | ✅ | `output/sndt_topology/joao_opening_topology_v1.json`，142 nodes / 208 edges |
 | 生成 João opening `topology_v1.dot` | ✅ | `output/sndt_topology/joao_opening_topology_v1.dot`，含 sequence/control/near-control 边 |
 | 写 João opening topology v1 报告 | ✅ | `docs/SNDT_JOAO_OPENING_TOPOLOGY_V1.md` |
+| 写 João edge validation targets | ✅ | `docs/SNDT_JOAO_EDGE_VALIDATION.md` |
 | 生成全局 `topology_v1.json` | ⬜ | 待把 João 局部方法推广到 Snr0-6 |
 | 生成全局 `topology_v1.dot` | ⬜ | 待全局推广 |
 | 写全局 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版全局机器拓扑报告 |
