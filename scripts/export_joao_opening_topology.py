@@ -9,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TOPOLOGY = ROOT / "output" / "sndt_topology" / "topology_v0_motif.json"
+SHORT_MOTIFS = ROOT / "output" / "sndt_analysis" / "sndt_short_text_motifs.json"
 OUT_DIR = ROOT / "output" / "sndt_topology"
 SCRIPT_ID = "Snr1.chunk0.sub0"
 
@@ -72,16 +73,64 @@ def build_slice(topology: dict) -> dict:
         )
         scenes[-1]["title"] = scene_title(scenes[-1])
 
+    short_records = []
+    if SHORT_MOTIFS.exists():
+        short_data = json.loads(SHORT_MOTIFS.read_text())
+        short_records = [
+            {
+                "id": f"{SCRIPT_ID}.short{index}",
+                "kind": "short_text",
+                "start": record["offset"],
+                "start_hex": record["offset_hex"],
+                "end": record["offset"] + 6,
+                "end_hex": f"0x{record['offset'] + 6:04x}",
+                "text_id": record["text_id"],
+                "text": record["text_preview"],
+            }
+            for index, record in enumerate(short_data["records"])
+            if record["script"] == SCRIPT_ID
+        ]
+
+    timeline = []
+    for scene in scenes:
+        timeline.append(
+            {
+                "kind": "motif_scene",
+                "id": scene["id"],
+                "start": scene["start"],
+                "start_hex": scene["start_hex"],
+                "end": scene["end"],
+                "end_hex": scene["end_hex"],
+                "text_range": scene["text_range"],
+                "record_count": scene["record_count"],
+                "speakers": scene["speakers"],
+                "title": scene["title"],
+            }
+        )
+    timeline.extend(short_records)
+    timeline.sort(key=lambda item: (item["start"], 0 if item["kind"] == "motif_scene" else 1))
+
+    all_text_ids = {record["text_id"] for scene in scenes for record in scene["records"]}
+    all_text_ids.update(record["text_id"] for record in short_records)
+
     return {
         "schema": "joao_opening_topology_slice_v1",
         "source_script": SCRIPT_ID,
-        "warning": "Static dialogue topology slice: scene order follows bytecode order, not yet proven runtime order.",
+        "warning": "Static dialogue topology slice: timeline follows bytecode order, not yet proven runtime order.",
         "summary": {
             "scene_count": len(scenes),
             "record_count": sum(scene["record_count"] for scene in scenes),
-            "text_range": [min(scene["text_range"][0] for scene in scenes), max(scene["text_range"][1] for scene in scenes)],
+            "short_text_count": len(short_records),
+            "timeline_items": len(timeline),
+            "text_range": [min(all_text_ids), max(all_text_ids)],
+            "text_coverage_count": len(all_text_ids),
+            "missing_text_ids_in_range": [
+                text_id for text_id in range(min(all_text_ids), max(all_text_ids) + 1) if text_id not in all_text_ids
+            ],
         },
         "scenes": scenes,
+        "short_text_records": short_records,
+        "timeline": timeline,
     }
 
 
@@ -94,7 +143,30 @@ def write_markdown(data: dict) -> None:
         "",
         f"- Scenes/runs: `{data['summary']['scene_count']}`",
         f"- Records: `{data['summary']['record_count']}`",
+        f"- Short text records: `{data['summary']['short_text_count']}`",
+        f"- Timeline items: `{data['summary']['timeline_items']}`",
         f"- Text range: `{data['summary']['text_range'][0]}..{data['summary']['text_range'][1]}`",
+        f"- Text coverage count: `{data['summary']['text_coverage_count']}`",
+        f"- Missing text IDs in range: `{data['summary']['missing_text_ids_in_range']}`",
+        "",
+        "## Bytecode Timeline",
+        "",
+        "| Item | Kind | Offset | Text | Speakers / Preview |",
+        "|---|---|---|---|---|",
+    ]
+    for item in data["timeline"]:
+        if item["kind"] == "motif_scene":
+            speakers = ", ".join(item["speakers"]) or "-"
+            text = f"{item['text_range'][0]}..{item['text_range'][1]}"
+            preview = f"{item['title']} / {speakers}"
+        else:
+            text = str(item["text_id"])
+            preview = item["text"]
+        lines.append(
+            f"| `{item['id']}` | {item['kind']} | `{item['start_hex']}..{item['end_hex']}` | {text} | {preview} |"
+        )
+
+    lines += [
         "",
         "## Scene Index",
         "",
@@ -139,16 +211,19 @@ def write_dot(data: dict) -> None:
         "  node [shape=box, fontname=\"Menlo\"];",
     ]
     previous = None
-    for index, scene in enumerate(data["scenes"]):
-        node = f"scene_{index:02d}"
-        speakers = ", ".join(scene["speakers"][:3]) or "-"
-        first_text = scene["records"][0]["text"].replace("\\", "\\\\").replace('"', '\\"')
-        label = (
-            f"{scene['id']}\\n"
-            f"text {scene['text_range'][0]}..{scene['text_range'][1]}\\n"
-            f"speakers {speakers}\\n"
-            f"{first_text}"
-        )
+    for index, item in enumerate(data["timeline"]):
+        node = f"item_{index:03d}"
+        if item["kind"] == "motif_scene":
+            speakers = ", ".join(item["speakers"][:3]) or "-"
+            label = (
+                f"{item['id']}\\n"
+                f"text {item['text_range'][0]}..{item['text_range'][1]}\\n"
+                f"speakers {speakers}\\n"
+                f"{item['title']}"
+            )
+        else:
+            preview = item["text"].replace("\\", "\\\\").replace('"', '\\"')
+            label = f"{item['id']}\\nshort text {item['text_id']}\\n{preview}"
         lines.append(f"  {node} [label=\"{label}\"];")
         if previous:
             lines.append(f"  {previous} -> {node} [label=\"bytecode next\"];")
