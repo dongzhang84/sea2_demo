@@ -1,0 +1,2108 @@
+{
+  "schema": "joao_opening_topology_slice_v1",
+  "source_script": "Snr1.chunk0.sub0",
+  "warning": "Static dialogue topology slice: scene order follows bytecode order, not yet proven runtime order.",
+  "summary": {
+    "scene_count": 40,
+    "record_count": 140,
+    "text_range": [
+      0,
+      186
+    ]
+  },
+  "scenes": [
+    {
+      "id": "Snr1.chunk0.sub0.run0",
+      "title": "管家麥克",
+      "start": 8,
+      "start_hex": "0x0008",
+      "end": 17,
+      "end_hex": "0x0011",
+      "record_count": 1,
+      "text_range": [
+        0,
+        0
+      ],
+      "selectors": {
+        "1": 1
+      },
+      "cc_args": [
+        6
+      ],
+      "speakers": [
+        "管家麥克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0008",
+          "selector": 1,
+          "cc_arg": 6,
+          "speaker": "管家麥克",
+          "text_id": 0,
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run1",
+      "title": "$s公爵夫人 / 老水手洛克",
+      "start": 36,
+      "start_hex": "0x0024",
+      "end": 189,
+      "end_hex": "0x00bd",
+      "record_count": 17,
+      "text_range": [
+        1,
+        17
+      ],
+      "selectors": {
+        "1": 9,
+        "2": 8
+      },
+      "cc_args": [
+        19,
+        31,
+        0
+      ],
+      "speakers": [
+        "$s公爵夫人",
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0024",
+          "selector": 1,
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 1,
+          "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+        },
+        {
+          "offset_hex": "0x002d",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 2,
+          "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+        },
+        {
+          "offset_hex": "0x0036",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 3,
+          "text": "太太，這是$s家人的呀！"
+        },
+        {
+          "offset_hex": "0x003f",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 4,
+          "text": "可是，船長，我聽說公爵是跟某個貴族之間有恩怨呀．"
+        },
+        {
+          "offset_hex": "0x0048",
+          "selector": 1,
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 5,
+          "text": "是啊，聽說跟馬丁內斯侯爵意見不和．"
+        },
+        {
+          "offset_hex": "0x0051",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 6,
+          "text": "問題就在這裡，由於他的原因，公爵無法離開這個國家．"
+        },
+        {
+          "offset_hex": "0x005a",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 7,
+          "text": "所以，很可能想要一個能替代他的優秀的人才．"
+        },
+        {
+          "offset_hex": "0x0063",
+          "selector": 1,
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 8,
+          "text": "哎呀，洛克，你雖然長相平凡，但頭腦卻很不錯呀！"
+        },
+        {
+          "offset_hex": "0x006c",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 9,
+          "text": "當然，因為長期跟隨過公爵嘛．"
+        },
+        {
+          "offset_hex": "0x0075",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 10,
+          "text": "噢，不管怎麼說，我對少爺出海是贊成的．"
+        },
+        {
+          "offset_hex": "0x007e",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 11,
+          "text": "因為沒有比航海更能鍛練男子漢的．"
+        },
+        {
+          "offset_hex": "0x0087",
+          "selector": 1,
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 12,
+          "text": "好吧，我就把$n託給你了．"
+        },
+        {
+          "offset_hex": "0x0090",
+          "selector": 1,
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 13,
+          "text": "另外，$n，聽路琪亞小姐說你現在還沒有多少航海的資金，是麼？"
+        },
+        {
+          "offset_hex": "0x0099",
+          "selector": 1,
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 14,
+          "text": "由於事情很突然，所以沒有準備好金幣，把這個給你吧．"
+        },
+        {
+          "offset_hex": "0x00a2",
+          "selector": 1,
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 15,
+          "text": "這是以前我跟你父親要的銀髮飾．"
+        },
+        {
+          "offset_hex": "0x00ab",
+          "selector": 1,
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 16,
+          "text": "把它賣掉當作資金吧，但對你爸要保密．"
+        },
+        {
+          "offset_hex": "0x00b4",
+          "selector": 1,
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 17,
+          "text": "$n，一定要多加小心，上帝保佑你．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run2",
+      "title": "管家麥克",
+      "start": 208,
+      "start_hex": "0x00d0",
+      "end": 217,
+      "end_hex": "0x00d9",
+      "record_count": 1,
+      "text_range": [
+        18,
+        18
+      ],
+      "selectors": {
+        "1": 1
+      },
+      "cc_args": [
+        6
+      ],
+      "speakers": [
+        "管家麥克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x00d0",
+          "selector": 1,
+          "cc_arg": 6,
+          "speaker": "管家麥克",
+          "text_id": 18,
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不讓您進家門．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run3",
+      "title": "管家麥克",
+      "start": 224,
+      "start_hex": "0x00e0",
+      "end": 251,
+      "end_hex": "0x00fb",
+      "record_count": 3,
+      "text_range": [
+        19,
+        21
+      ],
+      "selectors": {
+        "1": 2,
+        "2": 1
+      },
+      "cc_args": [
+        6,
+        0
+      ],
+      "speakers": [
+        "管家麥克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x00e0",
+          "selector": 1,
+          "cc_arg": 6,
+          "speaker": "管家麥克",
+          "text_id": 19,
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不讓您進家門．"
+        },
+        {
+          "offset_hex": "0x00e9",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 20,
+          "text": "知道了，我只是想跟你告別呀．"
+        },
+        {
+          "offset_hex": "0x00f2",
+          "selector": 1,
+          "cc_arg": 6,
+          "speaker": "管家麥克",
+          "text_id": 21,
+          "text": "大海像瞬間即改變其表情的怪物一樣危險．$n先生，請您一定要多加小心啊．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run4",
+      "title": "$s公爵",
+      "start": 258,
+      "start_hex": "0x0102",
+      "end": 510,
+      "end_hex": "0x01fe",
+      "record_count": 28,
+      "text_range": [
+        22,
+        49
+      ],
+      "selectors": {
+        "1": 17,
+        "2": 11
+      },
+      "cc_args": [
+        18,
+        0
+      ],
+      "speakers": [
+        "$s公爵"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0102",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 22,
+          "text": "聽說父親叫我．"
+        },
+        {
+          "offset_hex": "0x010b",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 23,
+          "text": "〔$s公爵〕\\n噢，是$n啊，你現在劍術練得如何了？"
+        },
+        {
+          "offset_hex": "0x0114",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 24,
+          "text": "還行，當然只是跟以前比較說的，若和父親比試的話，只能五場贏一場吧．"
+        },
+        {
+          "offset_hex": "0x011d",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 25,
+          "text": "是嗎，那麼航海術呢，學好啦？"
+        },
+        {
+          "offset_hex": "0x0126",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 26,
+          "text": "大致從理論上學了一些，但沒有實際經驗，只是紙上談兵呀！"
+        },
+        {
+          "offset_hex": "0x012f",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 27,
+          "text": "是嗎，那麼對地理學呢，擅長嗎？"
+        },
+        {
+          "offset_hex": "0x0138",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 28,
+          "text": "這個事嗎，由於不允許我離開里斯本，只能從書本上學了一些．"
+        },
+        {
+          "offset_hex": "0x0141",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 29,
+          "text": "$n，不要小看書本呀．書是先人的智慧，能把你從困境中救出來．"
+        },
+        {
+          "offset_hex": "0x014a",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 30,
+          "text": "是．"
+        },
+        {
+          "offset_hex": "0x0153",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 31,
+          "text": "$n，你彈琴怎麼樣？"
+        },
+        {
+          "offset_hex": "0x015c",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 32,
+          "text": "那是個人的愛好，沒法在人家的面前彈奏．"
+        },
+        {
+          "offset_hex": "0x0165",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 33,
+          "text": "是嗎？聽說你得到許多女孩子們的好感呀！"
+        },
+        {
+          "offset_hex": "0x016e",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 34,
+          "text": "請不要笑話我．"
+        },
+        {
+          "offset_hex": "0x0177",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 35,
+          "text": "哈哈哈，有機會讓我聽聽吧！"
+        },
+        {
+          "offset_hex": "0x0180",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 36,
+          "text": "$n！"
+        },
+        {
+          "offset_hex": "0x0189",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 37,
+          "text": "是．"
+        },
+        {
+          "offset_hex": "0x0192",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 38,
+          "text": "今天有事告訴你．"
+        },
+        {
+          "offset_hex": "0x019b",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 39,
+          "text": "是什麼事啊？"
+        },
+        {
+          "offset_hex": "0x01a4",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 40,
+          "text": "你也知道吧，當我在你那個年齡時，已率領艦隊去討伐海盜了．"
+        },
+        {
+          "offset_hex": "0x01ad",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 41,
+          "text": "是，我明白．"
+        },
+        {
+          "offset_hex": "0x01b6",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 42,
+          "text": "過去，不允許你從這個港口出航，是因為我擔心你不成熟，容易出事．"
+        },
+        {
+          "offset_hex": "0x01bf",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 43,
+          "text": "可是$s家族的人，不能老在陸地上待著．"
+        },
+        {
+          "offset_hex": "0x01c8",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 44,
+          "text": "你已經俱備了一定的知識，下一步是在海上實際鍛鍊．"
+        },
+        {
+          "offset_hex": "0x01d1",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 45,
+          "text": "這次派你去探險是葡萄牙首相兼海軍大臣萊昂·$s下達的命令．"
+        },
+        {
+          "offset_hex": "0x01da",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 46,
+          "text": "是．"
+        },
+        {
+          "offset_hex": "0x01e3",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 47,
+          "text": "去找出叫普萊斯特·約翰的國，也許你覺得這對你過於嚴厲．但是，除非你找到普萊斯特·約翰國，不然不許回家．"
+        },
+        {
+          "offset_hex": "0x01ec",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 48,
+          "text": "另外，我要發出公告，讓全城的人把你當作平民對待，你要有心理準備．"
+        },
+        {
+          "offset_hex": "0x01f5",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 49,
+          "text": "你的船已叫造船廠製造，在這期間作好出航前的準備吧．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run5",
+      "title": "$s公爵 / 老水手洛克",
+      "start": 513,
+      "start_hex": "0x0201",
+      "end": 558,
+      "end_hex": "0x022e",
+      "record_count": 5,
+      "text_range": [
+        50,
+        54
+      ],
+      "selectors": {
+        "1": 3,
+        "2": 2
+      },
+      "cc_args": [
+        18,
+        31
+      ],
+      "speakers": [
+        "$s公爵",
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0201",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 50,
+          "text": "洛克，洛克在嗎？"
+        },
+        {
+          "offset_hex": "0x020a",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 51,
+          "text": "〔老水手洛克〕\\n我在這裡．"
+        },
+        {
+          "offset_hex": "0x0213",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 52,
+          "text": "我任命你為$n的教官，希望你把他鍛鍊成好水手．"
+        },
+        {
+          "offset_hex": "0x021c",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 53,
+          "text": "知道了，船長，啊！不對，公爵閣下．"
+        },
+        {
+          "offset_hex": "0x0225",
+          "selector": 1,
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 54,
+          "text": "不要因為他是我的兒子而客氣，要充分讓他鍛鍊啊！"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run6",
+      "title": "紅鯨亭女老闆卡蕾珞娃",
+      "start": 576,
+      "start_hex": "0x0240",
+      "end": 585,
+      "end_hex": "0x0249",
+      "record_count": 1,
+      "text_range": [
+        55,
+        55
+      ],
+      "selectors": {
+        "1": 1
+      },
+      "cc_args": [
+        97
+      ],
+      "speakers": [
+        "紅鯨亭女老闆卡蕾珞娃"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0240",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 55,
+          "text": "$n，快回公爵府吧！"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run7",
+      "title": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞",
+      "start": 589,
+      "start_hex": "0x024d",
+      "end": 625,
+      "end_hex": "0x0271",
+      "record_count": 4,
+      "text_range": [
+        56,
+        59
+      ],
+      "selectors": {
+        "1": 3,
+        "2": 1
+      },
+      "cc_args": [
+        97,
+        98,
+        0
+      ],
+      "speakers": [
+        "紅鯨亭女老闆卡蕾珞娃",
+        "歌女路琪亞"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x024d",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 56,
+          "text": "〔紅鯨亭女老闆卡蕾珞娃〕\\n哎喲，$n，真少見呀！"
+        },
+        {
+          "offset_hex": "0x0256",
+          "selector": 1,
+          "cc_arg": 98,
+          "speaker": "歌女路琪亞",
+          "text_id": 57,
+          "text": "〔歌女路琪亞〕\\n喂，我來唱歌，你彈琴給我伴奏吧！"
+        },
+        {
+          "offset_hex": "0x025f",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 58,
+          "text": "喂，路琪亞，對公子怎能用這種口氣說話．"
+        },
+        {
+          "offset_hex": "0x0268",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 59,
+          "text": "哈哈哈，是路琪亞要我彈，我怎能不彈呀．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run8",
+      "title": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞",
+      "start": 628,
+      "start_hex": "0x0274",
+      "end": 655,
+      "end_hex": "0x028f",
+      "record_count": 3,
+      "text_range": [
+        60,
+        62
+      ],
+      "selectors": {
+        "1": 2,
+        "2": 1
+      },
+      "cc_args": [
+        97,
+        0,
+        98
+      ],
+      "speakers": [
+        "紅鯨亭女老闆卡蕾珞娃",
+        "歌女路琪亞"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0274",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 60,
+          "text": "想起來了，$n，你家洛克先生正找您呢，聽說公爵叫您去．"
+        },
+        {
+          "offset_hex": "0x027d",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 61,
+          "text": "是嘛，那我早點回去了．"
+        },
+        {
+          "offset_hex": "0x0286",
+          "selector": 1,
+          "cc_arg": 98,
+          "speaker": "歌女路琪亞",
+          "text_id": 62,
+          "text": "嘿，要回去了．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run9",
+      "title": "歌女路琪亞",
+      "start": 675,
+      "start_hex": "0x02a3",
+      "end": 684,
+      "end_hex": "0x02ac",
+      "record_count": 1,
+      "text_range": [
+        63,
+        63
+      ],
+      "selectors": {
+        "1": 1
+      },
+      "cc_args": [
+        98
+      ],
+      "speakers": [
+        "歌女路琪亞"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x02a3",
+          "selector": 1,
+          "cc_arg": 98,
+          "speaker": "歌女路琪亞",
+          "text_id": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run10",
+      "title": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞 / 老水手洛克",
+      "start": 693,
+      "start_hex": "0x02b5",
+      "end": 819,
+      "end_hex": "0x0333",
+      "record_count": 14,
+      "text_range": [
+        64,
+        77
+      ],
+      "selectors": {
+        "1": 10,
+        "2": 4
+      },
+      "cc_args": [
+        97,
+        0,
+        98,
+        31
+      ],
+      "speakers": [
+        "紅鯨亭女老闆卡蕾珞娃",
+        "歌女路琪亞",
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x02b5",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 64,
+          "text": "$n先生，到底發生什麼事啊？街坊都鬧翻天了！"
+        },
+        {
+          "offset_hex": "0x02be",
+          "selector": 1,
+          "cc_arg": 98,
+          "speaker": "歌女路琪亞",
+          "text_id": 65,
+          "text": "喂，您真要出海啊！"
+        },
+        {
+          "offset_hex": "0x02c7",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 66,
+          "text": "是啊，這是$s家的啊．"
+        },
+        {
+          "offset_hex": "0x02d0",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 67,
+          "text": "但不知資金辦得怎麼樣了．"
+        },
+        {
+          "offset_hex": "0x02d9",
+          "selector": 1,
+          "cc_arg": 98,
+          "speaker": "歌女路琪亞",
+          "text_id": 68,
+          "text": "我們去當遊吟詩人吧，去唱歌賺錢．"
+        },
+        {
+          "offset_hex": "0x02e2",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 69,
+          "text": "路琪亞，別說瞎話了．"
+        },
+        {
+          "offset_hex": "0x02eb",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 70,
+          "text": "$n，這裡有金幣1000枚，請您一定用上它．"
+        },
+        {
+          "offset_hex": "0x02f4",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 71,
+          "text": "哎喲，想不到這生意不太興隆的酒館還有不少錢呢！"
+        },
+        {
+          "offset_hex": "0x02fd",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 72,
+          "text": "我們的買賣是不太好，真有點對不起您了．"
+        },
+        {
+          "offset_hex": "0x0306",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 73,
+          "text": "$n，您收下吧．"
+        },
+        {
+          "offset_hex": "0x030f",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 74,
+          "text": "不，這錢我不能收．我沒辦法還您呀．"
+        },
+        {
+          "offset_hex": "0x0318",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 75,
+          "text": "沒關係．說實話，這是$s公爵委託保管的錢，他要求保密．"
+        },
+        {
+          "offset_hex": "0x0321",
+          "selector": 1,
+          "cc_arg": 97,
+          "speaker": "紅鯨亭女老闆卡蕾珞娃",
+          "text_id": 76,
+          "text": "是交給您還是交給$n先生呢？"
+        },
+        {
+          "offset_hex": "0x032a",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 77,
+          "text": "是父親嗎？"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run11",
+      "title": "老水手洛克 / 歌女路琪亞",
+      "start": 825,
+      "start_hex": "0x0339",
+      "end": 870,
+      "end_hex": "0x0366",
+      "record_count": 5,
+      "text_range": [
+        78,
+        82
+      ],
+      "selectors": {
+        "1": 3,
+        "2": 2
+      },
+      "cc_args": [
+        31,
+        0,
+        98
+      ],
+      "speakers": [
+        "老水手洛克",
+        "歌女路琪亞"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0339",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 78,
+          "text": "但是要作為資金，還得再弄一些．"
+        },
+        {
+          "offset_hex": "0x0342",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 79,
+          "text": "對了，跟太太商量一下好嗎？"
+        },
+        {
+          "offset_hex": "0x034b",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 80,
+          "text": "那辦不到，我已經不能再進家門了．"
+        },
+        {
+          "offset_hex": "0x0354",
+          "selector": 1,
+          "cc_arg": 98,
+          "speaker": "歌女路琪亞",
+          "text_id": 81,
+          "text": "沒關係，我去聯繫吧．"
+        },
+        {
+          "offset_hex": "0x035d",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 82,
+          "text": "喂，路琪亞！"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run12",
+      "title": "歌女路琪亞 / 老水手洛克",
+      "start": 871,
+      "start_hex": "0x0367",
+      "end": 907,
+      "end_hex": "0x038b",
+      "record_count": 4,
+      "text_range": [
+        83,
+        86
+      ],
+      "selectors": {
+        "1": 3,
+        "2": 1
+      },
+      "cc_args": [
+        98,
+        31,
+        0
+      ],
+      "speakers": [
+        "歌女路琪亞",
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0367",
+          "selector": 1,
+          "cc_arg": 98,
+          "speaker": "歌女路琪亞",
+          "text_id": 83,
+          "text": "回來了．"
+        },
+        {
+          "offset_hex": "0x0370",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 84,
+          "text": "結果怎麼樣？"
+        },
+        {
+          "offset_hex": "0x0379",
+          "selector": 1,
+          "cc_arg": 98,
+          "speaker": "歌女路琪亞",
+          "text_id": 85,
+          "text": "她說要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset_hex": "0x0382",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 86,
+          "text": "謝謝你，路琪亞．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run13",
+      "title": "João self/default lines",
+      "start": 978,
+      "start_hex": "0x03d2",
+      "end": 987,
+      "end_hex": "0x03db",
+      "record_count": 1,
+      "text_range": [
+        91,
+        91
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x03d2",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 91,
+          "text": "不，家父政務繁忙，我又沒有航海經驗．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run14",
+      "title": "João self/default lines",
+      "start": 999,
+      "start_hex": "0x03e7",
+      "end": 1008,
+      "end_hex": "0x03f0",
+      "record_count": 1,
+      "text_range": [
+        94,
+        94
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x03e7",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 94,
+          "text": "是嗎，主教大人，那我就回家了．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run15",
+      "title": "João self/default lines",
+      "start": 1048,
+      "start_hex": "0x0418",
+      "end": 1057,
+      "end_hex": "0x0421",
+      "record_count": 1,
+      "text_range": [
+        98,
+        98
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x0418",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 98,
+          "text": "謝謝，那我就不客氣了．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run16",
+      "title": "João self/default lines",
+      "start": 1068,
+      "start_hex": "0x042c",
+      "end": 1086,
+      "end_hex": "0x043e",
+      "record_count": 2,
+      "text_range": [
+        99,
+        100
+      ],
+      "selectors": {
+        "2": 2
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x042c",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 99,
+          "text": "不，我不能要主教大人的錢．"
+        },
+        {
+          "offset_hex": "0x0435",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 100,
+          "text": "把這些錢捐給教會吧．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run17",
+      "title": "João self/default lines",
+      "start": 1108,
+      "start_hex": "0x0454",
+      "end": 1117,
+      "end_hex": "0x045d",
+      "record_count": 1,
+      "text_range": [
+        102,
+        102
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x0454",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 102,
+          "text": "不，不能給主教大人添麻煩啊．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run18",
+      "title": "João self/default lines",
+      "start": 1137,
+      "start_hex": "0x0471",
+      "end": 1146,
+      "end_hex": "0x047a",
+      "record_count": 1,
+      "text_range": [
+        105,
+        105
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x0471",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 105,
+          "text": "聽說主教大人找我有事．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run19",
+      "title": "João self/default lines",
+      "start": 1156,
+      "start_hex": "0x0484",
+      "end": 1165,
+      "end_hex": "0x048d",
+      "record_count": 1,
+      "text_range": [
+        107,
+        107
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x0484",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 107,
+          "text": "主教大人，據我所知，您是在找航海者吧？"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run20",
+      "title": "恩里克神父",
+      "start": 1189,
+      "start_hex": "0x04a5",
+      "end": 1198,
+      "end_hex": "0x04ae",
+      "record_count": 1,
+      "text_range": [
+        112,
+        112
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        32
+      ],
+      "speakers": [
+        "恩里克神父"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x04a5",
+          "selector": 2,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 112,
+          "text": "〔恩里克神父〕\\n是，主教大人．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run21",
+      "title": "恩里克神父",
+      "start": 1216,
+      "start_hex": "0x04c0",
+      "end": 1270,
+      "end_hex": "0x04f6",
+      "record_count": 6,
+      "text_range": [
+        116,
+        121
+      ],
+      "selectors": {
+        "2": 6
+      },
+      "cc_args": [
+        0,
+        32
+      ],
+      "speakers": [
+        "恩里克神父"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x04c0",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 116,
+          "text": "什麼？要去日本！聽父親說，它在遙遠的東方，是個浮在大海上的美麗的島國．"
+        },
+        {
+          "offset_hex": "0x04c9",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 117,
+          "text": "您說的事我現在無能為力．不要說印度洋，就連伊比利我還從未離開過．"
+        },
+        {
+          "offset_hex": "0x04d2",
+          "selector": 2,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 118,
+          "text": "但那裡的人們還沒有受過神的教誨，有多少人在翹首以待我們的到來啊．"
+        },
+        {
+          "offset_hex": "0x04db",
+          "selector": 2,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 119,
+          "text": "不管怎麼說，法王廳已命令我去佈教．拜託您了，不論用多長時間都行．"
+        },
+        {
+          "offset_hex": "0x04e4",
+          "selector": 2,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 120,
+          "text": "請帶我去日本吧．"
+        },
+        {
+          "offset_hex": "0x04ed",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 121,
+          "text": "看你這麼懇切，我只好答應你了．可是說實話，不知道要多少年才能到那裡．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run22",
+      "title": "老水手洛克",
+      "start": 1272,
+      "start_hex": "0x04f8",
+      "end": 1299,
+      "end_hex": "0x0513",
+      "record_count": 3,
+      "text_range": [
+        122,
+        124
+      ],
+      "selectors": {
+        "2": 3
+      },
+      "cc_args": [
+        31,
+        0
+      ],
+      "speakers": [
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x04f8",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 122,
+          "text": "少爺，您那麼輕易就答應下來，您真有把握嗎？"
+        },
+        {
+          "offset_hex": "0x0501",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 123,
+          "text": "日本確實非常遙遠，但千里之行始於足下，只要我們努力就一定會成功的．"
+        },
+        {
+          "offset_hex": "0x050a",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 124,
+          "text": "您說得有理．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run23",
+      "title": "João self/default lines",
+      "start": 1345,
+      "start_hex": "0x0541",
+      "end": 1354,
+      "end_hex": "0x054a",
+      "record_count": 1,
+      "text_range": [
+        126,
+        126
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x0541",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 126,
+          "text": "很可能是洛克吧．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run24",
+      "title": "老水手洛克",
+      "start": 1364,
+      "start_hex": "0x0554",
+      "end": 1373,
+      "end_hex": "0x055d",
+      "record_count": 1,
+      "text_range": [
+        128,
+        128
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        31
+      ],
+      "speakers": [
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0554",
+          "selector": 2,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 128,
+          "text": "喂，船造好了嗎？"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run25",
+      "title": "老水手洛克",
+      "start": 1428,
+      "start_hex": "0x0594",
+      "end": 1437,
+      "end_hex": "0x059d",
+      "record_count": 1,
+      "text_range": [
+        135,
+        135
+      ],
+      "selectors": {
+        "1": 1
+      },
+      "cc_args": [
+        31
+      ],
+      "speakers": [
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0594",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 135,
+          "text": "少爺，沒有船怎能出海呀．去造船廠看看吧．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run26",
+      "title": "João self/default lines",
+      "start": 1454,
+      "start_hex": "0x05ae",
+      "end": 1463,
+      "end_hex": "0x05b7",
+      "record_count": 1,
+      "text_range": [
+        137,
+        137
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x05ae",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 137,
+          "text": "噢，有什麼事嗎？"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run27",
+      "title": "João self/default lines",
+      "start": 1467,
+      "start_hex": "0x05bb",
+      "end": 1476,
+      "end_hex": "0x05c4",
+      "record_count": 1,
+      "text_range": [
+        138,
+        138
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x05bb",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 138,
+          "text": "對了，是想找個可靠的航海者吧．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run28",
+      "title": "老水手洛克",
+      "start": 1492,
+      "start_hex": "0x05d4",
+      "end": 1501,
+      "end_hex": "0x05dd",
+      "record_count": 1,
+      "text_range": [
+        139,
+        139
+      ],
+      "selectors": {
+        "1": 1
+      },
+      "cc_args": [
+        31
+      ],
+      "speakers": [
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x05d4",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 139,
+          "text": "少爺，沒有資金就無法出航．那家酒店的老闆娘曾經照顧過公爵，找她商量一下不好嗎？"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run29",
+      "title": "老水手洛克",
+      "start": 1505,
+      "start_hex": "0x05e1",
+      "end": 1514,
+      "end_hex": "0x05ea",
+      "record_count": 1,
+      "text_range": [
+        140,
+        140
+      ],
+      "selectors": {
+        "1": 1
+      },
+      "cc_args": [
+        31
+      ],
+      "speakers": [
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x05e1",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 140,
+          "text": "少爺，您想弄出海的資金吧．那家酒店的老闆娘曾經照顧過公爵，找她商量一下不好嗎？"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run30",
+      "title": "老水手洛克",
+      "start": 1518,
+      "start_hex": "0x05ee",
+      "end": 1527,
+      "end_hex": "0x05f7",
+      "record_count": 1,
+      "text_range": [
+        141,
+        141
+      ],
+      "selectors": {
+        "1": 1
+      },
+      "cc_args": [
+        31
+      ],
+      "speakers": [
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x05ee",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 141,
+          "text": "少爺，資金還是不夠啊．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run31",
+      "title": "老水手洛克 / 恩里克神父",
+      "start": 1534,
+      "start_hex": "0x05fe",
+      "end": 1678,
+      "end_hex": "0x068e",
+      "record_count": 16,
+      "text_range": [
+        142,
+        157
+      ],
+      "selectors": {
+        "1": 11,
+        "2": 5
+      },
+      "cc_args": [
+        31,
+        0,
+        32
+      ],
+      "speakers": [
+        "老水手洛克",
+        "恩里克神父"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x05fe",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 142,
+          "text": "少爺，目前準備做什麼？"
+        },
+        {
+          "offset_hex": "0x0607",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 143,
+          "text": "想先遊覽一下各地的港口．"
+        },
+        {
+          "offset_hex": "0x0610",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 144,
+          "text": "這個主意不太高明．"
+        },
+        {
+          "offset_hex": "0x0619",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 145,
+          "text": "為什麼？"
+        },
+        {
+          "offset_hex": "0x0622",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 146,
+          "text": "海上航行要花巨大的費用，而我們沒有足夠的資金啊．"
+        },
+        {
+          "offset_hex": "0x062b",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 147,
+          "text": "飲水不必花錢買，這暫且不提，但招募水手，買糧食等都是不小的開銷呀．"
+        },
+        {
+          "offset_hex": "0x0634",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 148,
+          "text": "你是說這些錢不夠用吧．"
+        },
+        {
+          "offset_hex": "0x063d",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 149,
+          "text": "是的，勉強夠用一個月的．但到那時候再想辦法就太晚了．"
+        },
+        {
+          "offset_hex": "0x0646",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 150,
+          "text": "遊覽各地港口，我贊成．"
+        },
+        {
+          "offset_hex": "0x064f",
+          "selector": 1,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 151,
+          "text": "洛克先生的意思是在沿途做生意吧？"
+        },
+        {
+          "offset_hex": "0x0658",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 152,
+          "text": "對對對，是這個意思．"
+        },
+        {
+          "offset_hex": "0x0661",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 153,
+          "text": "如果做生意，我們做什麼買賣呢？"
+        },
+        {
+          "offset_hex": "0x066a",
+          "selector": 1,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 154,
+          "text": "要是在里斯本的話，應該買它的特產岩鹽．"
+        },
+        {
+          "offset_hex": "0x0673",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 155,
+          "text": "……"
+        },
+        {
+          "offset_hex": "0x067c",
+          "selector": 1,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 156,
+          "text": "我以前在教會當過會計，對這些比較了解．"
+        },
+        {
+          "offset_hex": "0x0685",
+          "selector": 1,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 157,
+          "text": "在這個港口花大約40枚金幣買的岩鹽，能在地中海的其它港口賣到60枚以上．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run32",
+      "title": "老水手洛克",
+      "start": 1691,
+      "start_hex": "0x069b",
+      "end": 1700,
+      "end_hex": "0x06a4",
+      "record_count": 1,
+      "text_range": [
+        158,
+        158
+      ],
+      "selectors": {
+        "1": 1
+      },
+      "cc_args": [
+        31
+      ],
+      "speakers": [
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x069b",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 158,
+          "text": "船長，看來恩里克神父精通會計，請他作我們的會計好不好？"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run33",
+      "title": "João self/default lines",
+      "start": 1706,
+      "start_hex": "0x06aa",
+      "end": 1715,
+      "end_hex": "0x06b3",
+      "record_count": 1,
+      "text_range": [
+        159,
+        159
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x06aa",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 159,
+          "text": "好吧，就這麼辦．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run34",
+      "title": "João self/default lines",
+      "start": 1736,
+      "start_hex": "0x06c8",
+      "end": 1745,
+      "end_hex": "0x06d1",
+      "record_count": 1,
+      "text_range": [
+        160,
+        160
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x06c8",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 160,
+          "text": "另外，請洛克當助手．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run35",
+      "title": "恩里克神父",
+      "start": 1753,
+      "start_hex": "0x06d9",
+      "end": 1771,
+      "end_hex": "0x06eb",
+      "record_count": 2,
+      "text_range": [
+        161,
+        162
+      ],
+      "selectors": {
+        "1": 2
+      },
+      "cc_args": [
+        32
+      ],
+      "speakers": [
+        "恩里克神父"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x06d9",
+          "selector": 1,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 161,
+          "text": "對了，我還記得些以前靠過的港口的物價．"
+        },
+        {
+          "offset_hex": "0x06e2",
+          "selector": 1,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 162,
+          "text": "你通過積載一覽表，可以知道你的貨物在哪賣得最好．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run36",
+      "title": "恩里克神父",
+      "start": 1775,
+      "start_hex": "0x06ef",
+      "end": 1802,
+      "end_hex": "0x070a",
+      "record_count": 3,
+      "text_range": [
+        163,
+        165
+      ],
+      "selectors": {
+        "2": 2,
+        "1": 1
+      },
+      "cc_args": [
+        0,
+        32
+      ],
+      "speakers": [
+        "恩里克神父"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x06ef",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 163,
+          "text": "不，不好意思讓神父做這種工作．"
+        },
+        {
+          "offset_hex": "0x06f8",
+          "selector": 1,
+          "cc_arg": 32,
+          "speaker": "恩里克神父",
+          "text_id": 164,
+          "text": "不，我不在乎．"
+        },
+        {
+          "offset_hex": "0x0701",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 165,
+          "text": "那，以後再拜託您吧．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run37",
+      "title": "老水手洛克",
+      "start": 1808,
+      "start_hex": "0x0710",
+      "end": 1817,
+      "end_hex": "0x0719",
+      "record_count": 1,
+      "text_range": [
+        166,
+        166
+      ],
+      "selectors": {
+        "1": 1
+      },
+      "cc_args": [
+        31
+      ],
+      "speakers": [
+        "老水手洛克"
+      ],
+      "records": [
+        {
+          "offset_hex": "0x0710",
+          "selector": 1,
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 166,
+          "text": "船長，請恩里克神父當會計，挺好的．"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run38",
+      "title": "João self/default lines",
+      "start": 1901,
+      "start_hex": "0x076d",
+      "end": 1910,
+      "end_hex": "0x0776",
+      "record_count": 1,
+      "text_range": [
+        175,
+        175
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x076d",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 175,
+          "text": "代管的東西？"
+        }
+      ]
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run39",
+      "title": "João self/default lines",
+      "start": 2030,
+      "start_hex": "0x07ee",
+      "end": 2039,
+      "end_hex": "0x07f7",
+      "record_count": 1,
+      "text_range": [
+        186,
+        186
+      ],
+      "selectors": {
+        "2": 1
+      },
+      "cc_args": [
+        0
+      ],
+      "speakers": [],
+      "records": [
+        {
+          "offset_hex": "0x07ee",
+          "selector": 2,
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 186,
+          "text": "啊，是的．從今以後，把我當作一個普通航海者好了．"
+        }
+      ]
+    }
+  ]
+}
