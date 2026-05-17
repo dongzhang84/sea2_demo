@@ -367,7 +367,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
 | Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
 | Phase 3 最小 SNDT 实验 | 🟡 进行中 | `scripts/build_sndt_lab.py` + `output/sndt_lab/*` | 已生成最小 patch artifact |
-| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text/speaker-bearing motif topology | 已有 João 开场可读拓扑切片 |
+| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text/speaker-bearing motif topology | João 开场文本拓扑已近完整 |
 
 ### 已完成提交
 
@@ -429,6 +429,15 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `7065160` | Update docs with selector role evidence | ✅ pushed |
 | `527bafd` | Add João opening topology exporter | ✅ pushed |
 | `c7d353c` | Export João opening topology slice | ✅ pushed |
+| `3376d8f` | Update tracker for João topology slice | ✅ pushed |
+| `5bf9d3e` | Add João topology gap analyzer | ✅ pushed |
+| `c6c99a1` | Export João topology gap analysis | ✅ pushed |
+| `230c15f` | Add João gap byte pattern analyzer | ✅ pushed |
+| `369a48a` | Export João gap byte patterns | ✅ pushed |
+| `9c6cc60` | Add SNDT short text motif extractor | ✅ pushed |
+| `b8df6ee` | Export SNDT short text motifs | ✅ pushed |
+| `609c497` | Merge short text motifs into João topology | ✅ pushed |
+| `9a1260d` | Export complete João text topology timeline | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -505,6 +514,9 @@ Phase 3 当前结论：
 | 把 speaker hint 并入 topology v0 | ✅ | `topology_v0_motif.json` records 已含 `resolved_speaker` |
 | 分析 motif `selector` 语义 | ✅ | `output/sndt_analysis/sndt_selector_roles.*`，确认不是简单主角/NPC |
 | 生成 João 开场可读拓扑切片 | ✅ | `output/sndt_topology/joao_opening_topology.*`，40 段/140 records |
+| 分析 João motif gaps | ✅ | `output/sndt_analysis/joao_opening_gaps.*`，41 gaps / 804 bytes |
+| 提取短文本 motif | ✅ | `output/sndt_analysis/sndt_short_text_motifs.*`，全局 669 条 |
+| 合并 João 完整文本 timeline | ✅ | `joao_opening_topology.*`，87 timeline items，覆盖 187/189 个文本 ID |
 | 生成 `topology_v1.json` | ⬜ | 执行拓扑，仍缺语义 |
 | 生成 `topology_v1.dot` | ⬜ | 可视化，仍缺语义 |
 | 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
@@ -512,8 +524,8 @@ Phase 3 当前结论：
 Phase 4 预研当前结论：
 
 ```text
-已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条 motif 记录的真实文本边、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据、João 开场 40 段/140 records 的可读拓扑切片
-未拿到：条件分支语义、变量语义、真实执行拓扑
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条长 motif 真实文本边、669 条短文本 motif、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据、João 开场 87 个 timeline item，覆盖文本 0..188 中的 187 个
+未拿到：条件分支语义、变量语义、真实执行拓扑；João 开场仍剩菜单文本 `97` 和船名 `132` 未归入文本 motif
 ```
 
 ---
