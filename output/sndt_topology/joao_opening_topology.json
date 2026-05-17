@@ -1,13 +1,20 @@
 {
   "schema": "joao_opening_topology_slice_v1",
   "source_script": "Snr1.chunk0.sub0",
-  "warning": "Static dialogue topology slice: scene order follows bytecode order, not yet proven runtime order.",
+  "warning": "Static dialogue topology slice: timeline follows bytecode order, not yet proven runtime order.",
   "summary": {
     "scene_count": 40,
     "record_count": 140,
+    "short_text_count": 47,
+    "timeline_items": 87,
     "text_range": [
       0,
-      186
+      188
+    ],
+    "text_coverage_count": 187,
+    "missing_text_ids_in_range": [
+      97,
+      132
     ]
   },
   "scenes": [
@@ -2103,6 +2110,1611 @@
           "text": "啊，是的．從今以後，把我當作一個普通航海者好了．"
         }
       ]
+    }
+  ],
+  "short_text_records": [
+    {
+      "id": "Snr1.chunk0.sub0.short44",
+      "kind": "short_text",
+      "start": 932,
+      "start_hex": "0x03a4",
+      "end": 938,
+      "end_hex": "0x03aa",
+      "text_id": 87,
+      "text": "哎呀，是$n先生呀，$s公爵正在找您呢．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short45",
+      "kind": "short_text",
+      "start": 942,
+      "start_hex": "0x03ae",
+      "end": 948,
+      "end_hex": "0x03b4",
+      "text_id": 88,
+      "text": "$n先生，公爵閣下有令要把您當作平民對待，所以請您不要再來皇宮了．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short46",
+      "kind": "short_text",
+      "start": 962,
+      "start_hex": "0x03c2",
+      "end": 968,
+      "end_hex": "0x03c8",
+      "text_id": 89,
+      "text": "$n先生，回公爵府了嗎？"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short47",
+      "kind": "short_text",
+      "start": 972,
+      "start_hex": "0x03cc",
+      "end": 978,
+      "end_hex": "0x03d2",
+      "text_id": 90,
+      "text": "〔菲利普主教〕\\n哎唷，$n先生，$s公爵家有人要去航海嗎？"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short48",
+      "kind": "short_text",
+      "start": 987,
+      "start_hex": "0x03db",
+      "end": 993,
+      "end_hex": "0x03e1",
+      "text_id": 92,
+      "text": "其實，我是來找有經驗的水手的．嘿，真難找．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short49",
+      "kind": "short_text",
+      "start": 993,
+      "start_hex": "0x03e1",
+      "end": 999,
+      "end_hex": "0x03e7",
+      "text_id": 93,
+      "text": "啊，想起來了，從公爵府來的洛克先生正找您呢！"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short50",
+      "kind": "short_text",
+      "start": 1020,
+      "start_hex": "0x03fc",
+      "end": 1026,
+      "end_hex": "0x0402",
+      "text_id": 95,
+      "text": "噢，$n先生，恩里克神父的事就拜託您啦．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short51",
+      "kind": "short_text",
+      "start": 1033,
+      "start_hex": "0x0409",
+      "end": 1039,
+      "end_hex": "0x040f",
+      "text_id": 96,
+      "text": "另外，請把這些金幣作為資金的一部分使用吧．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short52",
+      "kind": "short_text",
+      "start": 1086,
+      "start_hex": "0x043e",
+      "end": 1092,
+      "end_hex": "0x0444",
+      "text_id": 101,
+      "text": "噢，您是虔誠的人．上帝會保佑您的！"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short53",
+      "kind": "short_text",
+      "start": 1117,
+      "start_hex": "0x045d",
+      "end": 1123,
+      "end_hex": "0x0463",
+      "text_id": 103,
+      "text": "噢，您真謙虛啊！"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short54",
+      "kind": "short_text",
+      "start": 1127,
+      "start_hex": "0x0467",
+      "end": 1133,
+      "end_hex": "0x046d",
+      "text_id": 104,
+      "text": "〔菲利普主教〕\\n噢，$n先生，感謝您光臨．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short55",
+      "kind": "short_text",
+      "start": 1146,
+      "start_hex": "0x047a",
+      "end": 1152,
+      "end_hex": "0x0480",
+      "text_id": 106,
+      "text": "是啊，我要拜託您辦點事．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short56",
+      "kind": "short_text",
+      "start": 1165,
+      "start_hex": "0x048d",
+      "end": 1171,
+      "end_hex": "0x0493",
+      "text_id": 108,
+      "text": "是啊，我聽說$n先生要出海，是嗎？"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short57",
+      "kind": "short_text",
+      "start": 1171,
+      "start_hex": "0x0493",
+      "end": 1177,
+      "end_hex": "0x0499",
+      "text_id": 109,
+      "text": "尋找傳說中的普萊斯特·約翰王國是我們基督教徒的使命，祝您成功．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short58",
+      "kind": "short_text",
+      "start": 1177,
+      "start_hex": "0x0499",
+      "end": 1183,
+      "end_hex": "0x049f",
+      "text_id": 110,
+      "text": "還有一件事，我有個宿願，希望您能幫我實現．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short59",
+      "kind": "short_text",
+      "start": 1183,
+      "start_hex": "0x049f",
+      "end": 1189,
+      "end_hex": "0x04a5",
+      "text_id": 111,
+      "text": "恩里克，恩里克神父，這邊來．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short60",
+      "kind": "short_text",
+      "start": 1198,
+      "start_hex": "0x04ae",
+      "end": 1204,
+      "end_hex": "0x04b4",
+      "text_id": 113,
+      "text": "這是從弗朗西斯科會派遣來的傳教士，叫恩里克．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short61",
+      "kind": "short_text",
+      "start": 1204,
+      "start_hex": "0x04b4",
+      "end": 1210,
+      "end_hex": "0x04ba",
+      "text_id": 114,
+      "text": "$n先生，您可能知道法王廳想向東方傳教吧．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short62",
+      "kind": "short_text",
+      "start": 1210,
+      "start_hex": "0x04ba",
+      "end": 1216,
+      "end_hex": "0x04c0",
+      "text_id": 115,
+      "text": "拜託您把他送到日本吧．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short63",
+      "kind": "short_text",
+      "start": 1339,
+      "start_hex": "0x053b",
+      "end": 1345,
+      "end_hex": "0x0541",
+      "text_id": 125,
+      "text": "少爺，我是受$s公爵之命造船的，到底是哪位要用這條船呀？"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short64",
+      "kind": "short_text",
+      "start": 1354,
+      "start_hex": "0x054a",
+      "end": 1360,
+      "end_hex": "0x0550",
+      "text_id": 127,
+      "text": "對了，想起來了．洛克正找您呢，說要您回公爵府．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short65",
+      "kind": "short_text",
+      "start": 1373,
+      "start_hex": "0x055d",
+      "end": 1379,
+      "end_hex": "0x0563",
+      "text_id": 129,
+      "text": "原來是你呀，洛克，已經造好了．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short66",
+      "kind": "short_text",
+      "start": 1379,
+      "start_hex": "0x0563",
+      "end": 1385,
+      "end_hex": "0x0569",
+      "text_id": 130,
+      "text": "按照萊昂公爵的命令，要把它造成同公爵首次坐的船一樣的拉丁級船．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short67",
+      "kind": "short_text",
+      "start": 1385,
+      "start_hex": "0x0569",
+      "end": 1391,
+      "end_hex": "0x056f",
+      "text_id": 131,
+      "text": "船名是『海盧梅思2世』，是一種三角帆船，它易於操縱，適於初學者．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short68",
+      "kind": "short_text",
+      "start": 1408,
+      "start_hex": "0x0580",
+      "end": 1414,
+      "end_hex": "0x0586",
+      "text_id": 133,
+      "text": "$n先生，你如果有什麼困難就去酒館吧．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short69",
+      "kind": "short_text",
+      "start": 1414,
+      "start_hex": "0x0586",
+      "end": 1420,
+      "end_hex": "0x058c",
+      "text_id": 134,
+      "text": "那家的老闆娘叫卡蕾珞娃，聽說令尊年輕時曾得到過她的幫助．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short70",
+      "kind": "short_text",
+      "start": 1444,
+      "start_hex": "0x05a4",
+      "end": 1450,
+      "end_hex": "0x05aa",
+      "text_id": 136,
+      "text": "$n先生，菲利普主教正找您呢．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short71",
+      "kind": "short_text",
+      "start": 1825,
+      "start_hex": "0x0721",
+      "end": 1831,
+      "end_hex": "0x0727",
+      "text_id": 167,
+      "text": "經常受到$s公爵的關照．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short72",
+      "kind": "short_text",
+      "start": 1831,
+      "start_hex": "0x0727",
+      "end": 1837,
+      "end_hex": "0x072d",
+      "text_id": 168,
+      "text": "洛克先生從公爵府來找您了．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short73",
+      "kind": "short_text",
+      "start": 1837,
+      "start_hex": "0x072d",
+      "end": 1843,
+      "end_hex": "0x0733",
+      "text_id": 169,
+      "text": "說起做生意，從本港買的岩鹽能在地中海賣高價．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short74",
+      "kind": "short_text",
+      "start": 1843,
+      "start_hex": "0x0733",
+      "end": 1849,
+      "end_hex": "0x0739",
+      "text_id": 170,
+      "text": "和塞維爾的陶瓷器，可以在兩地之間做生意．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short75",
+      "kind": "short_text",
+      "start": 1858,
+      "start_hex": "0x0742",
+      "end": 1864,
+      "end_hex": "0x0748",
+      "text_id": 171,
+      "text": "$n先生，對不起，好像您沒有船．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short76",
+      "kind": "short_text",
+      "start": 1864,
+      "start_hex": "0x0748",
+      "end": 1870,
+      "end_hex": "0x074e",
+      "text_id": 172,
+      "text": "請您有了船，再來吧！"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short77",
+      "kind": "short_text",
+      "start": 1880,
+      "start_hex": "0x0758",
+      "end": 1886,
+      "end_hex": "0x075e",
+      "text_id": 173,
+      "text": "$n先生，洛克先生從公爵府來找您了．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short78",
+      "kind": "short_text",
+      "start": 1895,
+      "start_hex": "0x0767",
+      "end": 1901,
+      "end_hex": "0x076d",
+      "text_id": 174,
+      "text": "$n先生，有要代管的東西吧？"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short79",
+      "kind": "short_text",
+      "start": 1910,
+      "start_hex": "0x0776",
+      "end": 1916,
+      "end_hex": "0x077c",
+      "text_id": 176,
+      "text": "公爵府管家的麥克先生，叫我等您來了，把花劍給您．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short80",
+      "kind": "short_text",
+      "start": 1916,
+      "start_hex": "0x077c",
+      "end": 1922,
+      "end_hex": "0x0782",
+      "text_id": 177,
+      "text": "費用已付，請拿走吧．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short81",
+      "kind": "short_text",
+      "start": 1940,
+      "start_hex": "0x0794",
+      "end": 1946,
+      "end_hex": "0x079a",
+      "text_id": 178,
+      "text": "對了，請注意，武器沒有裝佩是不能使用的．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short82",
+      "kind": "short_text",
+      "start": 1964,
+      "start_hex": "0x07ac",
+      "end": 1970,
+      "end_hex": "0x07b2",
+      "text_id": 179,
+      "text": "經常受到$s公爵的關照．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short83",
+      "kind": "short_text",
+      "start": 1970,
+      "start_hex": "0x07b2",
+      "end": 1976,
+      "end_hex": "0x07b8",
+      "text_id": 180,
+      "text": "洛克先生從公爵府來找您了．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short84",
+      "kind": "short_text",
+      "start": 1981,
+      "start_hex": "0x07bd",
+      "end": 1987,
+      "end_hex": "0x07c3",
+      "text_id": 181,
+      "text": "$n先生，如有為難事，就去酒館．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short85",
+      "kind": "short_text",
+      "start": 1987,
+      "start_hex": "0x07c3",
+      "end": 1993,
+      "end_hex": "0x07c9",
+      "text_id": 182,
+      "text": "因為聽說，公爵年輕時也得到過那家酒館女老闆的照顧．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short86",
+      "kind": "short_text",
+      "start": 1998,
+      "start_hex": "0x07ce",
+      "end": 2004,
+      "end_hex": "0x07d4",
+      "text_id": 183,
+      "text": "$n公子，真少見，穿著便服來的．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short87",
+      "kind": "short_text",
+      "start": 2004,
+      "start_hex": "0x07d4",
+      "end": 2010,
+      "end_hex": "0x07da",
+      "text_id": 184,
+      "text": "您是$s家的人，快出海了吧？"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short88",
+      "kind": "short_text",
+      "start": 2024,
+      "start_hex": "0x07e8",
+      "end": 2030,
+      "end_hex": "0x07ee",
+      "text_id": 185,
+      "text": "$n先生，有公告說要把您當作平民對待，是真的嗎？"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short89",
+      "kind": "short_text",
+      "start": 2044,
+      "start_hex": "0x07fc",
+      "end": 2050,
+      "end_hex": "0x0802",
+      "text_id": 187,
+      "text": "$n先生，請您一定找到傳說中普萊斯特·約翰國．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short90",
+      "kind": "short_text",
+      "start": 2055,
+      "start_hex": "0x0807",
+      "end": 2061,
+      "end_hex": "0x080d",
+      "text_id": 188,
+      "text": "$n先生，終於要出海了！"
+    }
+  ],
+  "timeline": [
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run0",
+      "start": 8,
+      "start_hex": "0x0008",
+      "end": 17,
+      "end_hex": "0x0011",
+      "text_range": [
+        0,
+        0
+      ],
+      "record_count": 1,
+      "speakers": [
+        "管家麥克"
+      ],
+      "title": "管家麥克"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run1",
+      "start": 36,
+      "start_hex": "0x0024",
+      "end": 189,
+      "end_hex": "0x00bd",
+      "text_range": [
+        1,
+        17
+      ],
+      "record_count": 17,
+      "speakers": [
+        "$s公爵夫人",
+        "老水手洛克"
+      ],
+      "title": "$s公爵夫人 / 老水手洛克"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run2",
+      "start": 208,
+      "start_hex": "0x00d0",
+      "end": 217,
+      "end_hex": "0x00d9",
+      "text_range": [
+        18,
+        18
+      ],
+      "record_count": 1,
+      "speakers": [
+        "管家麥克"
+      ],
+      "title": "管家麥克"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run3",
+      "start": 224,
+      "start_hex": "0x00e0",
+      "end": 251,
+      "end_hex": "0x00fb",
+      "text_range": [
+        19,
+        21
+      ],
+      "record_count": 3,
+      "speakers": [
+        "管家麥克"
+      ],
+      "title": "管家麥克"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run4",
+      "start": 258,
+      "start_hex": "0x0102",
+      "end": 510,
+      "end_hex": "0x01fe",
+      "text_range": [
+        22,
+        49
+      ],
+      "record_count": 28,
+      "speakers": [
+        "$s公爵"
+      ],
+      "title": "$s公爵"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run5",
+      "start": 513,
+      "start_hex": "0x0201",
+      "end": 558,
+      "end_hex": "0x022e",
+      "text_range": [
+        50,
+        54
+      ],
+      "record_count": 5,
+      "speakers": [
+        "$s公爵",
+        "老水手洛克"
+      ],
+      "title": "$s公爵 / 老水手洛克"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run6",
+      "start": 576,
+      "start_hex": "0x0240",
+      "end": 585,
+      "end_hex": "0x0249",
+      "text_range": [
+        55,
+        55
+      ],
+      "record_count": 1,
+      "speakers": [
+        "紅鯨亭女老闆卡蕾珞娃"
+      ],
+      "title": "紅鯨亭女老闆卡蕾珞娃"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run7",
+      "start": 589,
+      "start_hex": "0x024d",
+      "end": 625,
+      "end_hex": "0x0271",
+      "text_range": [
+        56,
+        59
+      ],
+      "record_count": 4,
+      "speakers": [
+        "紅鯨亭女老闆卡蕾珞娃",
+        "歌女路琪亞"
+      ],
+      "title": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run8",
+      "start": 628,
+      "start_hex": "0x0274",
+      "end": 655,
+      "end_hex": "0x028f",
+      "text_range": [
+        60,
+        62
+      ],
+      "record_count": 3,
+      "speakers": [
+        "紅鯨亭女老闆卡蕾珞娃",
+        "歌女路琪亞"
+      ],
+      "title": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run9",
+      "start": 675,
+      "start_hex": "0x02a3",
+      "end": 684,
+      "end_hex": "0x02ac",
+      "text_range": [
+        63,
+        63
+      ],
+      "record_count": 1,
+      "speakers": [
+        "歌女路琪亞"
+      ],
+      "title": "歌女路琪亞"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run10",
+      "start": 693,
+      "start_hex": "0x02b5",
+      "end": 819,
+      "end_hex": "0x0333",
+      "text_range": [
+        64,
+        77
+      ],
+      "record_count": 14,
+      "speakers": [
+        "紅鯨亭女老闆卡蕾珞娃",
+        "歌女路琪亞",
+        "老水手洛克"
+      ],
+      "title": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞 / 老水手洛克"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run11",
+      "start": 825,
+      "start_hex": "0x0339",
+      "end": 870,
+      "end_hex": "0x0366",
+      "text_range": [
+        78,
+        82
+      ],
+      "record_count": 5,
+      "speakers": [
+        "老水手洛克",
+        "歌女路琪亞"
+      ],
+      "title": "老水手洛克 / 歌女路琪亞"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run12",
+      "start": 871,
+      "start_hex": "0x0367",
+      "end": 907,
+      "end_hex": "0x038b",
+      "text_range": [
+        83,
+        86
+      ],
+      "record_count": 4,
+      "speakers": [
+        "歌女路琪亞",
+        "老水手洛克"
+      ],
+      "title": "歌女路琪亞 / 老水手洛克"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short44",
+      "kind": "short_text",
+      "start": 932,
+      "start_hex": "0x03a4",
+      "end": 938,
+      "end_hex": "0x03aa",
+      "text_id": 87,
+      "text": "哎呀，是$n先生呀，$s公爵正在找您呢．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short45",
+      "kind": "short_text",
+      "start": 942,
+      "start_hex": "0x03ae",
+      "end": 948,
+      "end_hex": "0x03b4",
+      "text_id": 88,
+      "text": "$n先生，公爵閣下有令要把您當作平民對待，所以請您不要再來皇宮了．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short46",
+      "kind": "short_text",
+      "start": 962,
+      "start_hex": "0x03c2",
+      "end": 968,
+      "end_hex": "0x03c8",
+      "text_id": 89,
+      "text": "$n先生，回公爵府了嗎？"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short47",
+      "kind": "short_text",
+      "start": 972,
+      "start_hex": "0x03cc",
+      "end": 978,
+      "end_hex": "0x03d2",
+      "text_id": 90,
+      "text": "〔菲利普主教〕\\n哎唷，$n先生，$s公爵家有人要去航海嗎？"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run13",
+      "start": 978,
+      "start_hex": "0x03d2",
+      "end": 987,
+      "end_hex": "0x03db",
+      "text_range": [
+        91,
+        91
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short48",
+      "kind": "short_text",
+      "start": 987,
+      "start_hex": "0x03db",
+      "end": 993,
+      "end_hex": "0x03e1",
+      "text_id": 92,
+      "text": "其實，我是來找有經驗的水手的．嘿，真難找．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short49",
+      "kind": "short_text",
+      "start": 993,
+      "start_hex": "0x03e1",
+      "end": 999,
+      "end_hex": "0x03e7",
+      "text_id": 93,
+      "text": "啊，想起來了，從公爵府來的洛克先生正找您呢！"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run14",
+      "start": 999,
+      "start_hex": "0x03e7",
+      "end": 1008,
+      "end_hex": "0x03f0",
+      "text_range": [
+        94,
+        94
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short50",
+      "kind": "short_text",
+      "start": 1020,
+      "start_hex": "0x03fc",
+      "end": 1026,
+      "end_hex": "0x0402",
+      "text_id": 95,
+      "text": "噢，$n先生，恩里克神父的事就拜託您啦．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short51",
+      "kind": "short_text",
+      "start": 1033,
+      "start_hex": "0x0409",
+      "end": 1039,
+      "end_hex": "0x040f",
+      "text_id": 96,
+      "text": "另外，請把這些金幣作為資金的一部分使用吧．"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run15",
+      "start": 1048,
+      "start_hex": "0x0418",
+      "end": 1057,
+      "end_hex": "0x0421",
+      "text_range": [
+        98,
+        98
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run16",
+      "start": 1068,
+      "start_hex": "0x042c",
+      "end": 1086,
+      "end_hex": "0x043e",
+      "text_range": [
+        99,
+        100
+      ],
+      "record_count": 2,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short52",
+      "kind": "short_text",
+      "start": 1086,
+      "start_hex": "0x043e",
+      "end": 1092,
+      "end_hex": "0x0444",
+      "text_id": 101,
+      "text": "噢，您是虔誠的人．上帝會保佑您的！"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run17",
+      "start": 1108,
+      "start_hex": "0x0454",
+      "end": 1117,
+      "end_hex": "0x045d",
+      "text_range": [
+        102,
+        102
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short53",
+      "kind": "short_text",
+      "start": 1117,
+      "start_hex": "0x045d",
+      "end": 1123,
+      "end_hex": "0x0463",
+      "text_id": 103,
+      "text": "噢，您真謙虛啊！"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short54",
+      "kind": "short_text",
+      "start": 1127,
+      "start_hex": "0x0467",
+      "end": 1133,
+      "end_hex": "0x046d",
+      "text_id": 104,
+      "text": "〔菲利普主教〕\\n噢，$n先生，感謝您光臨．"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run18",
+      "start": 1137,
+      "start_hex": "0x0471",
+      "end": 1146,
+      "end_hex": "0x047a",
+      "text_range": [
+        105,
+        105
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short55",
+      "kind": "short_text",
+      "start": 1146,
+      "start_hex": "0x047a",
+      "end": 1152,
+      "end_hex": "0x0480",
+      "text_id": 106,
+      "text": "是啊，我要拜託您辦點事．"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run19",
+      "start": 1156,
+      "start_hex": "0x0484",
+      "end": 1165,
+      "end_hex": "0x048d",
+      "text_range": [
+        107,
+        107
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short56",
+      "kind": "short_text",
+      "start": 1165,
+      "start_hex": "0x048d",
+      "end": 1171,
+      "end_hex": "0x0493",
+      "text_id": 108,
+      "text": "是啊，我聽說$n先生要出海，是嗎？"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short57",
+      "kind": "short_text",
+      "start": 1171,
+      "start_hex": "0x0493",
+      "end": 1177,
+      "end_hex": "0x0499",
+      "text_id": 109,
+      "text": "尋找傳說中的普萊斯特·約翰王國是我們基督教徒的使命，祝您成功．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short58",
+      "kind": "short_text",
+      "start": 1177,
+      "start_hex": "0x0499",
+      "end": 1183,
+      "end_hex": "0x049f",
+      "text_id": 110,
+      "text": "還有一件事，我有個宿願，希望您能幫我實現．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short59",
+      "kind": "short_text",
+      "start": 1183,
+      "start_hex": "0x049f",
+      "end": 1189,
+      "end_hex": "0x04a5",
+      "text_id": 111,
+      "text": "恩里克，恩里克神父，這邊來．"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run20",
+      "start": 1189,
+      "start_hex": "0x04a5",
+      "end": 1198,
+      "end_hex": "0x04ae",
+      "text_range": [
+        112,
+        112
+      ],
+      "record_count": 1,
+      "speakers": [
+        "恩里克神父"
+      ],
+      "title": "恩里克神父"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short60",
+      "kind": "short_text",
+      "start": 1198,
+      "start_hex": "0x04ae",
+      "end": 1204,
+      "end_hex": "0x04b4",
+      "text_id": 113,
+      "text": "這是從弗朗西斯科會派遣來的傳教士，叫恩里克．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short61",
+      "kind": "short_text",
+      "start": 1204,
+      "start_hex": "0x04b4",
+      "end": 1210,
+      "end_hex": "0x04ba",
+      "text_id": 114,
+      "text": "$n先生，您可能知道法王廳想向東方傳教吧．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short62",
+      "kind": "short_text",
+      "start": 1210,
+      "start_hex": "0x04ba",
+      "end": 1216,
+      "end_hex": "0x04c0",
+      "text_id": 115,
+      "text": "拜託您把他送到日本吧．"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run21",
+      "start": 1216,
+      "start_hex": "0x04c0",
+      "end": 1270,
+      "end_hex": "0x04f6",
+      "text_range": [
+        116,
+        121
+      ],
+      "record_count": 6,
+      "speakers": [
+        "恩里克神父"
+      ],
+      "title": "恩里克神父"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run22",
+      "start": 1272,
+      "start_hex": "0x04f8",
+      "end": 1299,
+      "end_hex": "0x0513",
+      "text_range": [
+        122,
+        124
+      ],
+      "record_count": 3,
+      "speakers": [
+        "老水手洛克"
+      ],
+      "title": "老水手洛克"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short63",
+      "kind": "short_text",
+      "start": 1339,
+      "start_hex": "0x053b",
+      "end": 1345,
+      "end_hex": "0x0541",
+      "text_id": 125,
+      "text": "少爺，我是受$s公爵之命造船的，到底是哪位要用這條船呀？"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run23",
+      "start": 1345,
+      "start_hex": "0x0541",
+      "end": 1354,
+      "end_hex": "0x054a",
+      "text_range": [
+        126,
+        126
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short64",
+      "kind": "short_text",
+      "start": 1354,
+      "start_hex": "0x054a",
+      "end": 1360,
+      "end_hex": "0x0550",
+      "text_id": 127,
+      "text": "對了，想起來了．洛克正找您呢，說要您回公爵府．"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run24",
+      "start": 1364,
+      "start_hex": "0x0554",
+      "end": 1373,
+      "end_hex": "0x055d",
+      "text_range": [
+        128,
+        128
+      ],
+      "record_count": 1,
+      "speakers": [
+        "老水手洛克"
+      ],
+      "title": "老水手洛克"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short65",
+      "kind": "short_text",
+      "start": 1373,
+      "start_hex": "0x055d",
+      "end": 1379,
+      "end_hex": "0x0563",
+      "text_id": 129,
+      "text": "原來是你呀，洛克，已經造好了．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short66",
+      "kind": "short_text",
+      "start": 1379,
+      "start_hex": "0x0563",
+      "end": 1385,
+      "end_hex": "0x0569",
+      "text_id": 130,
+      "text": "按照萊昂公爵的命令，要把它造成同公爵首次坐的船一樣的拉丁級船．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short67",
+      "kind": "short_text",
+      "start": 1385,
+      "start_hex": "0x0569",
+      "end": 1391,
+      "end_hex": "0x056f",
+      "text_id": 131,
+      "text": "船名是『海盧梅思2世』，是一種三角帆船，它易於操縱，適於初學者．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short68",
+      "kind": "short_text",
+      "start": 1408,
+      "start_hex": "0x0580",
+      "end": 1414,
+      "end_hex": "0x0586",
+      "text_id": 133,
+      "text": "$n先生，你如果有什麼困難就去酒館吧．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short69",
+      "kind": "short_text",
+      "start": 1414,
+      "start_hex": "0x0586",
+      "end": 1420,
+      "end_hex": "0x058c",
+      "text_id": 134,
+      "text": "那家的老闆娘叫卡蕾珞娃，聽說令尊年輕時曾得到過她的幫助．"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run25",
+      "start": 1428,
+      "start_hex": "0x0594",
+      "end": 1437,
+      "end_hex": "0x059d",
+      "text_range": [
+        135,
+        135
+      ],
+      "record_count": 1,
+      "speakers": [
+        "老水手洛克"
+      ],
+      "title": "老水手洛克"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short70",
+      "kind": "short_text",
+      "start": 1444,
+      "start_hex": "0x05a4",
+      "end": 1450,
+      "end_hex": "0x05aa",
+      "text_id": 136,
+      "text": "$n先生，菲利普主教正找您呢．"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run26",
+      "start": 1454,
+      "start_hex": "0x05ae",
+      "end": 1463,
+      "end_hex": "0x05b7",
+      "text_range": [
+        137,
+        137
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run27",
+      "start": 1467,
+      "start_hex": "0x05bb",
+      "end": 1476,
+      "end_hex": "0x05c4",
+      "text_range": [
+        138,
+        138
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run28",
+      "start": 1492,
+      "start_hex": "0x05d4",
+      "end": 1501,
+      "end_hex": "0x05dd",
+      "text_range": [
+        139,
+        139
+      ],
+      "record_count": 1,
+      "speakers": [
+        "老水手洛克"
+      ],
+      "title": "老水手洛克"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run29",
+      "start": 1505,
+      "start_hex": "0x05e1",
+      "end": 1514,
+      "end_hex": "0x05ea",
+      "text_range": [
+        140,
+        140
+      ],
+      "record_count": 1,
+      "speakers": [
+        "老水手洛克"
+      ],
+      "title": "老水手洛克"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run30",
+      "start": 1518,
+      "start_hex": "0x05ee",
+      "end": 1527,
+      "end_hex": "0x05f7",
+      "text_range": [
+        141,
+        141
+      ],
+      "record_count": 1,
+      "speakers": [
+        "老水手洛克"
+      ],
+      "title": "老水手洛克"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run31",
+      "start": 1534,
+      "start_hex": "0x05fe",
+      "end": 1678,
+      "end_hex": "0x068e",
+      "text_range": [
+        142,
+        157
+      ],
+      "record_count": 16,
+      "speakers": [
+        "老水手洛克",
+        "恩里克神父"
+      ],
+      "title": "老水手洛克 / 恩里克神父"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run32",
+      "start": 1691,
+      "start_hex": "0x069b",
+      "end": 1700,
+      "end_hex": "0x06a4",
+      "text_range": [
+        158,
+        158
+      ],
+      "record_count": 1,
+      "speakers": [
+        "老水手洛克"
+      ],
+      "title": "老水手洛克"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run33",
+      "start": 1706,
+      "start_hex": "0x06aa",
+      "end": 1715,
+      "end_hex": "0x06b3",
+      "text_range": [
+        159,
+        159
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run34",
+      "start": 1736,
+      "start_hex": "0x06c8",
+      "end": 1745,
+      "end_hex": "0x06d1",
+      "text_range": [
+        160,
+        160
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run35",
+      "start": 1753,
+      "start_hex": "0x06d9",
+      "end": 1771,
+      "end_hex": "0x06eb",
+      "text_range": [
+        161,
+        162
+      ],
+      "record_count": 2,
+      "speakers": [
+        "恩里克神父"
+      ],
+      "title": "恩里克神父"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run36",
+      "start": 1775,
+      "start_hex": "0x06ef",
+      "end": 1802,
+      "end_hex": "0x070a",
+      "text_range": [
+        163,
+        165
+      ],
+      "record_count": 3,
+      "speakers": [
+        "恩里克神父"
+      ],
+      "title": "恩里克神父"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run37",
+      "start": 1808,
+      "start_hex": "0x0710",
+      "end": 1817,
+      "end_hex": "0x0719",
+      "text_range": [
+        166,
+        166
+      ],
+      "record_count": 1,
+      "speakers": [
+        "老水手洛克"
+      ],
+      "title": "老水手洛克"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short71",
+      "kind": "short_text",
+      "start": 1825,
+      "start_hex": "0x0721",
+      "end": 1831,
+      "end_hex": "0x0727",
+      "text_id": 167,
+      "text": "經常受到$s公爵的關照．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short72",
+      "kind": "short_text",
+      "start": 1831,
+      "start_hex": "0x0727",
+      "end": 1837,
+      "end_hex": "0x072d",
+      "text_id": 168,
+      "text": "洛克先生從公爵府來找您了．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short73",
+      "kind": "short_text",
+      "start": 1837,
+      "start_hex": "0x072d",
+      "end": 1843,
+      "end_hex": "0x0733",
+      "text_id": 169,
+      "text": "說起做生意，從本港買的岩鹽能在地中海賣高價．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short74",
+      "kind": "short_text",
+      "start": 1843,
+      "start_hex": "0x0733",
+      "end": 1849,
+      "end_hex": "0x0739",
+      "text_id": 170,
+      "text": "和塞維爾的陶瓷器，可以在兩地之間做生意．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short75",
+      "kind": "short_text",
+      "start": 1858,
+      "start_hex": "0x0742",
+      "end": 1864,
+      "end_hex": "0x0748",
+      "text_id": 171,
+      "text": "$n先生，對不起，好像您沒有船．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short76",
+      "kind": "short_text",
+      "start": 1864,
+      "start_hex": "0x0748",
+      "end": 1870,
+      "end_hex": "0x074e",
+      "text_id": 172,
+      "text": "請您有了船，再來吧！"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short77",
+      "kind": "short_text",
+      "start": 1880,
+      "start_hex": "0x0758",
+      "end": 1886,
+      "end_hex": "0x075e",
+      "text_id": 173,
+      "text": "$n先生，洛克先生從公爵府來找您了．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short78",
+      "kind": "short_text",
+      "start": 1895,
+      "start_hex": "0x0767",
+      "end": 1901,
+      "end_hex": "0x076d",
+      "text_id": 174,
+      "text": "$n先生，有要代管的東西吧？"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run38",
+      "start": 1901,
+      "start_hex": "0x076d",
+      "end": 1910,
+      "end_hex": "0x0776",
+      "text_range": [
+        175,
+        175
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short79",
+      "kind": "short_text",
+      "start": 1910,
+      "start_hex": "0x0776",
+      "end": 1916,
+      "end_hex": "0x077c",
+      "text_id": 176,
+      "text": "公爵府管家的麥克先生，叫我等您來了，把花劍給您．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short80",
+      "kind": "short_text",
+      "start": 1916,
+      "start_hex": "0x077c",
+      "end": 1922,
+      "end_hex": "0x0782",
+      "text_id": 177,
+      "text": "費用已付，請拿走吧．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short81",
+      "kind": "short_text",
+      "start": 1940,
+      "start_hex": "0x0794",
+      "end": 1946,
+      "end_hex": "0x079a",
+      "text_id": 178,
+      "text": "對了，請注意，武器沒有裝佩是不能使用的．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short82",
+      "kind": "short_text",
+      "start": 1964,
+      "start_hex": "0x07ac",
+      "end": 1970,
+      "end_hex": "0x07b2",
+      "text_id": 179,
+      "text": "經常受到$s公爵的關照．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short83",
+      "kind": "short_text",
+      "start": 1970,
+      "start_hex": "0x07b2",
+      "end": 1976,
+      "end_hex": "0x07b8",
+      "text_id": 180,
+      "text": "洛克先生從公爵府來找您了．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short84",
+      "kind": "short_text",
+      "start": 1981,
+      "start_hex": "0x07bd",
+      "end": 1987,
+      "end_hex": "0x07c3",
+      "text_id": 181,
+      "text": "$n先生，如有為難事，就去酒館．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short85",
+      "kind": "short_text",
+      "start": 1987,
+      "start_hex": "0x07c3",
+      "end": 1993,
+      "end_hex": "0x07c9",
+      "text_id": 182,
+      "text": "因為聽說，公爵年輕時也得到過那家酒館女老闆的照顧．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short86",
+      "kind": "short_text",
+      "start": 1998,
+      "start_hex": "0x07ce",
+      "end": 2004,
+      "end_hex": "0x07d4",
+      "text_id": 183,
+      "text": "$n公子，真少見，穿著便服來的．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short87",
+      "kind": "short_text",
+      "start": 2004,
+      "start_hex": "0x07d4",
+      "end": 2010,
+      "end_hex": "0x07da",
+      "text_id": 184,
+      "text": "您是$s家的人，快出海了吧？"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short88",
+      "kind": "short_text",
+      "start": 2024,
+      "start_hex": "0x07e8",
+      "end": 2030,
+      "end_hex": "0x07ee",
+      "text_id": 185,
+      "text": "$n先生，有公告說要把您當作平民對待，是真的嗎？"
+    },
+    {
+      "kind": "motif_scene",
+      "id": "Snr1.chunk0.sub0.run39",
+      "start": 2030,
+      "start_hex": "0x07ee",
+      "end": 2039,
+      "end_hex": "0x07f7",
+      "text_range": [
+        186,
+        186
+      ],
+      "record_count": 1,
+      "speakers": [],
+      "title": "João self/default lines"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short89",
+      "kind": "short_text",
+      "start": 2044,
+      "start_hex": "0x07fc",
+      "end": 2050,
+      "end_hex": "0x0802",
+      "text_id": 187,
+      "text": "$n先生，請您一定找到傳說中普萊斯特·約翰國．"
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short90",
+      "kind": "short_text",
+      "start": 2055,
+      "start_hex": "0x0807",
+      "end": 2061,
+      "end_hex": "0x080d",
+      "text_id": 188,
+      "text": "$n先生，終於要出海了！"
     }
   ]
 }

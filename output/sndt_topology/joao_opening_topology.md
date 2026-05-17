@@ -5,7 +5,103 @@ It groups the `c0/cc/c8/c7` motif records into contiguous dialogue/event segment
 
 - Scenes/runs: `40`
 - Records: `140`
-- Text range: `0..186`
+- Short text records: `47`
+- Timeline items: `87`
+- Text range: `0..188`
+- Text coverage count: `187`
+- Missing text IDs in range: `[97, 132]`
+
+## Bytecode Timeline
+
+| Item | Kind | Offset | Text | Speakers / Preview |
+|---|---|---|---|---|
+| `Snr1.chunk0.sub0.run0` | motif_scene | `0x0008..0x0011` | 0..0 | 管家麥克 / 管家麥克 |
+| `Snr1.chunk0.sub0.run1` | motif_scene | `0x0024..0x00bd` | 1..17 | $s公爵夫人 / 老水手洛克 / $s公爵夫人, 老水手洛克 |
+| `Snr1.chunk0.sub0.run2` | motif_scene | `0x00d0..0x00d9` | 18..18 | 管家麥克 / 管家麥克 |
+| `Snr1.chunk0.sub0.run3` | motif_scene | `0x00e0..0x00fb` | 19..21 | 管家麥克 / 管家麥克 |
+| `Snr1.chunk0.sub0.run4` | motif_scene | `0x0102..0x01fe` | 22..49 | $s公爵 / $s公爵 |
+| `Snr1.chunk0.sub0.run5` | motif_scene | `0x0201..0x022e` | 50..54 | $s公爵 / 老水手洛克 / $s公爵, 老水手洛克 |
+| `Snr1.chunk0.sub0.run6` | motif_scene | `0x0240..0x0249` | 55..55 | 紅鯨亭女老闆卡蕾珞娃 / 紅鯨亭女老闆卡蕾珞娃 |
+| `Snr1.chunk0.sub0.run7` | motif_scene | `0x024d..0x0271` | 56..59 | 紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞 / 紅鯨亭女老闆卡蕾珞娃, 歌女路琪亞 |
+| `Snr1.chunk0.sub0.run8` | motif_scene | `0x0274..0x028f` | 60..62 | 紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞 / 紅鯨亭女老闆卡蕾珞娃, 歌女路琪亞 |
+| `Snr1.chunk0.sub0.run9` | motif_scene | `0x02a3..0x02ac` | 63..63 | 歌女路琪亞 / 歌女路琪亞 |
+| `Snr1.chunk0.sub0.run10` | motif_scene | `0x02b5..0x0333` | 64..77 | 紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞 / 老水手洛克 / 紅鯨亭女老闆卡蕾珞娃, 歌女路琪亞, 老水手洛克 |
+| `Snr1.chunk0.sub0.run11` | motif_scene | `0x0339..0x0366` | 78..82 | 老水手洛克 / 歌女路琪亞 / 老水手洛克, 歌女路琪亞 |
+| `Snr1.chunk0.sub0.run12` | motif_scene | `0x0367..0x038b` | 83..86 | 歌女路琪亞 / 老水手洛克 / 歌女路琪亞, 老水手洛克 |
+| `Snr1.chunk0.sub0.short44` | short_text | `0x03a4..0x03aa` | 87 | 哎呀，是$n先生呀，$s公爵正在找您呢． |
+| `Snr1.chunk0.sub0.short45` | short_text | `0x03ae..0x03b4` | 88 | $n先生，公爵閣下有令要把您當作平民對待，所以請您不要再來皇宮了． |
+| `Snr1.chunk0.sub0.short46` | short_text | `0x03c2..0x03c8` | 89 | $n先生，回公爵府了嗎？ |
+| `Snr1.chunk0.sub0.short47` | short_text | `0x03cc..0x03d2` | 90 | 〔菲利普主教〕\n哎唷，$n先生，$s公爵家有人要去航海嗎？ |
+| `Snr1.chunk0.sub0.run13` | motif_scene | `0x03d2..0x03db` | 91..91 | João self/default lines / - |
+| `Snr1.chunk0.sub0.short48` | short_text | `0x03db..0x03e1` | 92 | 其實，我是來找有經驗的水手的．嘿，真難找． |
+| `Snr1.chunk0.sub0.short49` | short_text | `0x03e1..0x03e7` | 93 | 啊，想起來了，從公爵府來的洛克先生正找您呢！ |
+| `Snr1.chunk0.sub0.run14` | motif_scene | `0x03e7..0x03f0` | 94..94 | João self/default lines / - |
+| `Snr1.chunk0.sub0.short50` | short_text | `0x03fc..0x0402` | 95 | 噢，$n先生，恩里克神父的事就拜託您啦． |
+| `Snr1.chunk0.sub0.short51` | short_text | `0x0409..0x040f` | 96 | 另外，請把這些金幣作為資金的一部分使用吧． |
+| `Snr1.chunk0.sub0.run15` | motif_scene | `0x0418..0x0421` | 98..98 | João self/default lines / - |
+| `Snr1.chunk0.sub0.run16` | motif_scene | `0x042c..0x043e` | 99..100 | João self/default lines / - |
+| `Snr1.chunk0.sub0.short52` | short_text | `0x043e..0x0444` | 101 | 噢，您是虔誠的人．上帝會保佑您的！ |
+| `Snr1.chunk0.sub0.run17` | motif_scene | `0x0454..0x045d` | 102..102 | João self/default lines / - |
+| `Snr1.chunk0.sub0.short53` | short_text | `0x045d..0x0463` | 103 | 噢，您真謙虛啊！ |
+| `Snr1.chunk0.sub0.short54` | short_text | `0x0467..0x046d` | 104 | 〔菲利普主教〕\n噢，$n先生，感謝您光臨． |
+| `Snr1.chunk0.sub0.run18` | motif_scene | `0x0471..0x047a` | 105..105 | João self/default lines / - |
+| `Snr1.chunk0.sub0.short55` | short_text | `0x047a..0x0480` | 106 | 是啊，我要拜託您辦點事． |
+| `Snr1.chunk0.sub0.run19` | motif_scene | `0x0484..0x048d` | 107..107 | João self/default lines / - |
+| `Snr1.chunk0.sub0.short56` | short_text | `0x048d..0x0493` | 108 | 是啊，我聽說$n先生要出海，是嗎？ |
+| `Snr1.chunk0.sub0.short57` | short_text | `0x0493..0x0499` | 109 | 尋找傳說中的普萊斯特·約翰王國是我們基督教徒的使命，祝您成功． |
+| `Snr1.chunk0.sub0.short58` | short_text | `0x0499..0x049f` | 110 | 還有一件事，我有個宿願，希望您能幫我實現． |
+| `Snr1.chunk0.sub0.short59` | short_text | `0x049f..0x04a5` | 111 | 恩里克，恩里克神父，這邊來． |
+| `Snr1.chunk0.sub0.run20` | motif_scene | `0x04a5..0x04ae` | 112..112 | 恩里克神父 / 恩里克神父 |
+| `Snr1.chunk0.sub0.short60` | short_text | `0x04ae..0x04b4` | 113 | 這是從弗朗西斯科會派遣來的傳教士，叫恩里克． |
+| `Snr1.chunk0.sub0.short61` | short_text | `0x04b4..0x04ba` | 114 | $n先生，您可能知道法王廳想向東方傳教吧． |
+| `Snr1.chunk0.sub0.short62` | short_text | `0x04ba..0x04c0` | 115 | 拜託您把他送到日本吧． |
+| `Snr1.chunk0.sub0.run21` | motif_scene | `0x04c0..0x04f6` | 116..121 | 恩里克神父 / 恩里克神父 |
+| `Snr1.chunk0.sub0.run22` | motif_scene | `0x04f8..0x0513` | 122..124 | 老水手洛克 / 老水手洛克 |
+| `Snr1.chunk0.sub0.short63` | short_text | `0x053b..0x0541` | 125 | 少爺，我是受$s公爵之命造船的，到底是哪位要用這條船呀？ |
+| `Snr1.chunk0.sub0.run23` | motif_scene | `0x0541..0x054a` | 126..126 | João self/default lines / - |
+| `Snr1.chunk0.sub0.short64` | short_text | `0x054a..0x0550` | 127 | 對了，想起來了．洛克正找您呢，說要您回公爵府． |
+| `Snr1.chunk0.sub0.run24` | motif_scene | `0x0554..0x055d` | 128..128 | 老水手洛克 / 老水手洛克 |
+| `Snr1.chunk0.sub0.short65` | short_text | `0x055d..0x0563` | 129 | 原來是你呀，洛克，已經造好了． |
+| `Snr1.chunk0.sub0.short66` | short_text | `0x0563..0x0569` | 130 | 按照萊昂公爵的命令，要把它造成同公爵首次坐的船一樣的拉丁級船． |
+| `Snr1.chunk0.sub0.short67` | short_text | `0x0569..0x056f` | 131 | 船名是『海盧梅思2世』，是一種三角帆船，它易於操縱，適於初學者． |
+| `Snr1.chunk0.sub0.short68` | short_text | `0x0580..0x0586` | 133 | $n先生，你如果有什麼困難就去酒館吧． |
+| `Snr1.chunk0.sub0.short69` | short_text | `0x0586..0x058c` | 134 | 那家的老闆娘叫卡蕾珞娃，聽說令尊年輕時曾得到過她的幫助． |
+| `Snr1.chunk0.sub0.run25` | motif_scene | `0x0594..0x059d` | 135..135 | 老水手洛克 / 老水手洛克 |
+| `Snr1.chunk0.sub0.short70` | short_text | `0x05a4..0x05aa` | 136 | $n先生，菲利普主教正找您呢． |
+| `Snr1.chunk0.sub0.run26` | motif_scene | `0x05ae..0x05b7` | 137..137 | João self/default lines / - |
+| `Snr1.chunk0.sub0.run27` | motif_scene | `0x05bb..0x05c4` | 138..138 | João self/default lines / - |
+| `Snr1.chunk0.sub0.run28` | motif_scene | `0x05d4..0x05dd` | 139..139 | 老水手洛克 / 老水手洛克 |
+| `Snr1.chunk0.sub0.run29` | motif_scene | `0x05e1..0x05ea` | 140..140 | 老水手洛克 / 老水手洛克 |
+| `Snr1.chunk0.sub0.run30` | motif_scene | `0x05ee..0x05f7` | 141..141 | 老水手洛克 / 老水手洛克 |
+| `Snr1.chunk0.sub0.run31` | motif_scene | `0x05fe..0x068e` | 142..157 | 老水手洛克 / 恩里克神父 / 老水手洛克, 恩里克神父 |
+| `Snr1.chunk0.sub0.run32` | motif_scene | `0x069b..0x06a4` | 158..158 | 老水手洛克 / 老水手洛克 |
+| `Snr1.chunk0.sub0.run33` | motif_scene | `0x06aa..0x06b3` | 159..159 | João self/default lines / - |
+| `Snr1.chunk0.sub0.run34` | motif_scene | `0x06c8..0x06d1` | 160..160 | João self/default lines / - |
+| `Snr1.chunk0.sub0.run35` | motif_scene | `0x06d9..0x06eb` | 161..162 | 恩里克神父 / 恩里克神父 |
+| `Snr1.chunk0.sub0.run36` | motif_scene | `0x06ef..0x070a` | 163..165 | 恩里克神父 / 恩里克神父 |
+| `Snr1.chunk0.sub0.run37` | motif_scene | `0x0710..0x0719` | 166..166 | 老水手洛克 / 老水手洛克 |
+| `Snr1.chunk0.sub0.short71` | short_text | `0x0721..0x0727` | 167 | 經常受到$s公爵的關照． |
+| `Snr1.chunk0.sub0.short72` | short_text | `0x0727..0x072d` | 168 | 洛克先生從公爵府來找您了． |
+| `Snr1.chunk0.sub0.short73` | short_text | `0x072d..0x0733` | 169 | 說起做生意，從本港買的岩鹽能在地中海賣高價． |
+| `Snr1.chunk0.sub0.short74` | short_text | `0x0733..0x0739` | 170 | 和塞維爾的陶瓷器，可以在兩地之間做生意． |
+| `Snr1.chunk0.sub0.short75` | short_text | `0x0742..0x0748` | 171 | $n先生，對不起，好像您沒有船． |
+| `Snr1.chunk0.sub0.short76` | short_text | `0x0748..0x074e` | 172 | 請您有了船，再來吧！ |
+| `Snr1.chunk0.sub0.short77` | short_text | `0x0758..0x075e` | 173 | $n先生，洛克先生從公爵府來找您了． |
+| `Snr1.chunk0.sub0.short78` | short_text | `0x0767..0x076d` | 174 | $n先生，有要代管的東西吧？ |
+| `Snr1.chunk0.sub0.run38` | motif_scene | `0x076d..0x0776` | 175..175 | João self/default lines / - |
+| `Snr1.chunk0.sub0.short79` | short_text | `0x0776..0x077c` | 176 | 公爵府管家的麥克先生，叫我等您來了，把花劍給您． |
+| `Snr1.chunk0.sub0.short80` | short_text | `0x077c..0x0782` | 177 | 費用已付，請拿走吧． |
+| `Snr1.chunk0.sub0.short81` | short_text | `0x0794..0x079a` | 178 | 對了，請注意，武器沒有裝佩是不能使用的． |
+| `Snr1.chunk0.sub0.short82` | short_text | `0x07ac..0x07b2` | 179 | 經常受到$s公爵的關照． |
+| `Snr1.chunk0.sub0.short83` | short_text | `0x07b2..0x07b8` | 180 | 洛克先生從公爵府來找您了． |
+| `Snr1.chunk0.sub0.short84` | short_text | `0x07bd..0x07c3` | 181 | $n先生，如有為難事，就去酒館． |
+| `Snr1.chunk0.sub0.short85` | short_text | `0x07c3..0x07c9` | 182 | 因為聽說，公爵年輕時也得到過那家酒館女老闆的照顧． |
+| `Snr1.chunk0.sub0.short86` | short_text | `0x07ce..0x07d4` | 183 | $n公子，真少見，穿著便服來的． |
+| `Snr1.chunk0.sub0.short87` | short_text | `0x07d4..0x07da` | 184 | 您是$s家的人，快出海了吧？ |
+| `Snr1.chunk0.sub0.short88` | short_text | `0x07e8..0x07ee` | 185 | $n先生，有公告說要把您當作平民對待，是真的嗎？ |
+| `Snr1.chunk0.sub0.run39` | motif_scene | `0x07ee..0x07f7` | 186..186 | João self/default lines / - |
+| `Snr1.chunk0.sub0.short89` | short_text | `0x07fc..0x0802` | 187 | $n先生，請您一定找到傳說中普萊斯特·約翰國． |
+| `Snr1.chunk0.sub0.short90` | short_text | `0x0807..0x080d` | 188 | $n先生，終於要出海了！ |
 
 ## Scene Index
 
