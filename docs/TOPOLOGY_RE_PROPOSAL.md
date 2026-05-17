@@ -367,7 +367,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
 | Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
 | Phase 3 最小 SNDT 实验 | 🟡 进行中 | `scripts/build_sndt_lab.py` + `output/sndt_lab/*` | 已生成最小 patch artifact |
-| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text-bearing motif topology | `topology_v0_motif` 已带文本边 |
+| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text/speaker-bearing motif topology | `c8_arg` 文本边和 `cc_arg` 角色槽候选已入图 |
 
 ### 已完成提交
 
@@ -417,6 +417,12 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `8191679` | Update topology tracker with motif text evidence | ✅ pushed |
 | `3317239` | Add text previews to motif topology exporter | ✅ pushed |
 | `c64ca9c` | Export motif topology with text previews | ✅ pushed |
+| `5f6e816` | Update tracker for text-bearing motif topology | ✅ pushed |
+| `6a4686e` | Add SNDT cc role analyzer | ✅ pushed |
+| `8dff2c3` | Infer speakers in SNDT cc role analyzer | ✅ pushed |
+| `eae2344` | Export SNDT cc role clusters | ✅ pushed |
+| `649d508` | Add speaker hints to motif topology exporter | ✅ pushed |
+| `8e1eea5` | Export motif topology with speaker hints | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -489,6 +495,8 @@ Phase 3 当前结论：
 | 生成 motif topology v0 JSON | ✅ | `output/sndt_topology/topology_v0_motif.json`，已含 `records[].text_preview` |
 | 生成 motif topology v0 DOT | ✅ | `output/sndt_topology/topology_v0_motif.dot`，节点已显示文本摘要 |
 | 验证 motif `c8_arg` 到 `.mes` 文本映射 | ✅ | `output/sndt_analysis/sndt_motif_text_map.*`，3449/3449 |
+| 聚类 motif `cc_arg` 角色/状态槽 | ✅ | `output/sndt_analysis/sndt_cc_roles.*`，41 个 distinct `cc_arg` |
+| 把 speaker hint 并入 topology v0 | ✅ | `topology_v0_motif.json` records 已含 `resolved_speaker` |
 | 生成 `topology_v1.json` | ⬜ | 执行拓扑，仍缺语义 |
 | 生成 `topology_v1.dot` | ⬜ | 可视化，仍缺语义 |
 | 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
@@ -496,7 +504,7 @@ Phase 3 当前结论：
 Phase 4 预研当前结论：
 
 ```text
-已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条 motif 记录的真实文本边，并已把文本摘要并入拓扑 JSON/DOT
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条 motif 记录的真实文本边、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽，并已把文本和 speaker hint 并入拓扑 JSON/DOT
 未拿到：条件分支语义、变量语义、真实执行拓扑
 ```
 
