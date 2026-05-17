@@ -180,6 +180,56 @@ def confidence_rank(match: str) -> int:
     }[match]
 
 
+def candidate_prior(op: str, candidate_name: str) -> int:
+    """Prefer operand forms that look like actual script pointers.
+
+    The first operand byte in ad/ac/8c often behaves like a slot/group selector,
+    so raw high16 matches are more likely to be accidental than a big-endian
+    low16 or whole big-endian operand that lands near executable text.
+    """
+    if op in {"ad_control", "ac_control"}:
+        priorities = {
+            "operand_be": 90,
+            "low24_be": 85,
+            "low16_be": 80,
+            "high16_be": 30,
+            "high16_le": 20,
+            "low16_le": 10,
+            "operand_le": 5,
+            "low24_le": 5,
+        }
+    elif op == "8c_control":
+        priorities = {
+            "low16_be": 90,
+            "operand_be": 70,
+            "low24_be": 65,
+            "high16_be": 25,
+            "high16_le": 20,
+            "low16_le": 10,
+            "operand_le": 5,
+            "low24_le": 5,
+        }
+    else:
+        priorities = {
+            "operand_be": 90,
+            "low16_be": 90,
+            "high16_be": 70,
+            "operand_le": 5,
+            "low16_le": 5,
+            "high16_le": 5,
+        }
+    return priorities.get(candidate_name, 0)
+
+
+def edge_score(edge: dict) -> tuple[int, int, int, int]:
+    return (
+        confidence_rank(edge["match"]),
+        1 if edge["in_code_range"] else 0,
+        candidate_prior(edge["source_op"], edge["candidate"]),
+        -edge["nearest"]["distance"],
+    )
+
+
 def analyze() -> dict:
     disasm = load_json(DISASM_PATH)
     topology = load_json(TOPOLOGY_PATH)
@@ -191,7 +241,7 @@ def analyze() -> dict:
 
     edges = []
     summary_by_op_candidate = defaultdict(Counter)
-    best_by_instruction = []
+    preferred_by_instruction = []
 
     for ins in flatten_instructions(disasm):
         op = ins["op"]
@@ -221,16 +271,12 @@ def analyze() -> dict:
         if instruction_edges:
             best = max(
                 instruction_edges,
-                key=lambda edge: (
-                    confidence_rank(edge["match"]),
-                    edge["in_code_range"],
-                    -edge["nearest"]["distance"],
-                ),
+                key=edge_score,
             )
-            best_by_instruction.append(best)
+            preferred_by_instruction.append(best)
 
     match_counts = Counter(edge["match"] for edge in edges)
-    best_counts = Counter(edge["match"] for edge in best_by_instruction)
+    preferred_counts = Counter(edge["match"] for edge in preferred_by_instruction)
 
     return {
         "schema": "joao_control_edges_v1",
@@ -243,15 +289,15 @@ def analyze() -> dict:
             "code_len": code_len,
             "code_len_hex": hex4(code_len),
             "timeline_items": len(timeline),
-            "control_instructions": len(best_by_instruction),
+            "control_instructions": len(preferred_by_instruction),
             "candidate_edges": len(edges),
             "match_counts": dict(match_counts),
-            "best_match_counts": dict(best_counts),
+            "preferred_match_counts": dict(preferred_counts),
         },
         "summary_by_op_candidate": {
             key: dict(counter) for key, counter in sorted(summary_by_op_candidate.items())
         },
-        "best_by_instruction": best_by_instruction,
+        "preferred_by_instruction": preferred_by_instruction,
         "edges": edges,
     }
 
@@ -274,7 +320,7 @@ def write_markdown(report: dict) -> None:
     ]:
         lines.append(f"- {key}: {summary[key]}")
     lines.append(f"- match_counts: `{summary['match_counts']}`")
-    lines.append(f"- best_match_counts: `{summary['best_match_counts']}`")
+    lines.append(f"- preferred_match_counts: `{summary['preferred_match_counts']}`")
     lines.append("")
 
     lines.extend(
@@ -306,15 +352,15 @@ def write_markdown(report: dict) -> None:
 
     lines.extend(
         [
-            "## Likely Edge Interpretations",
+            "## Preferred Edge Interpretations",
             "",
-            "The strongest current signal is any candidate that lands exactly on a timeline start/end or inside a known motif/short-text range. Near matches are kept because some operands may point to the byte just before a text motif or to a small control prelude.",
+            "Preferred interpretations bias toward big-endian operand/low16 forms that look like script pointers. Near matches are kept because some operands may point to the byte just before a text motif or to a small control prelude.",
             "",
-            "| source | bytes | best candidate | target | match | timeline item | nearest |",
+            "| source | bytes | preferred candidate | target | match | timeline item | nearest |",
             "|---|---|---|---:|---|---|---|",
         ]
     )
-    for edge in report["best_by_instruction"]:
+    for edge in report["preferred_by_instruction"]:
         item = edge["item"] or edge["nearest"]["item"]
         item_label = ""
         if item:
