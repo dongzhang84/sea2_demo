@@ -1,0 +1,2265 @@
+{
+  "schema": "joao_control_layer_disasm_v0",
+  "source_script": "Snr1.chunk0.sub0",
+  "warning": "Prototype candidate-length disassembly; opcode semantics are not confirmed.",
+  "candidate_lengths": {
+    "ad": {
+      "name": "ad_control",
+      "length": 4
+    },
+    "ac": {
+      "name": "ac_control",
+      "length": 4
+    },
+    "fe": {
+      "name": "fe_control",
+      "length": 3
+    },
+    "f8": {
+      "name": "f8_prefix_or_branch",
+      "length": 1
+    },
+    "f9": {
+      "name": "f9_control",
+      "length": 3
+    },
+    "fb": {
+      "name": "fb_control",
+      "length": 2
+    },
+    "8c": {
+      "name": "8c_control",
+      "length": 5
+    },
+    "8f": {
+      "name": "8f_control",
+      "length": 4
+    },
+    "dc": {
+      "name": "dc_control",
+      "length": 4
+    },
+    "2c": {
+      "name": "2c_control",
+      "length": 3
+    },
+    "0f": {
+      "name": "0f_control",
+      "length": 3
+    },
+    "1d": {
+      "name": "1d_control",
+      "length": 3
+    },
+    "4c": {
+      "name": "4c_control",
+      "length": 3
+    },
+    "15": {
+      "name": "15_control",
+      "length": 5
+    },
+    "11": {
+      "name": "11_control",
+      "length": 3
+    },
+    "2e": {
+      "name": "2e_control",
+      "length": 2
+    },
+    "8d": {
+      "name": "8d_control",
+      "length": 3
+    },
+    "e6": {
+      "name": "e6_control",
+      "length": 2
+    },
+    "e9": {
+      "name": "e9_control",
+      "length": 2
+    },
+    "eb": {
+      "name": "eb_control",
+      "length": 4
+    },
+    "fa": {
+      "name": "fa_control",
+      "length": 4
+    },
+    "c9": {
+      "name": "c9_control",
+      "length": 4
+    },
+    "f0": {
+      "name": "f0_control",
+      "length": 1
+    },
+    "f2": {
+      "name": "end_subscript",
+      "length": 1
+    }
+  },
+  "summary": {
+    "instructions": 195,
+    "unknown_bytes": 43,
+    "residual_bytes": 522
+  },
+  "opcode_counts": {
+    "ac_control": 29,
+    "ad_control": 21,
+    "f8_prefix_or_branch": 12,
+    "2c_control": 11,
+    "dc_control": 11,
+    "end_subscript": 10,
+    "show_text_byte": 10,
+    "8c_control": 9,
+    "db_00": 9,
+    "db_01": 9,
+    "fe_control": 9,
+    "2e_control": 4,
+    "0f_control": 3,
+    "1d_control": 3,
+    "db_03": 3,
+    "11_control": 2,
+    "15_control": 2,
+    "4c_control": 2,
+    "8d_control": 2,
+    "db_04": 2,
+    "db_07": 2,
+    "db_20": 2,
+    "db_3f": 2,
+    "db_64": 2,
+    "db_c4": 2,
+    "db_e8": 2,
+    "e6_control": 2,
+    "eb_control": 2,
+    "fb_control": 2,
+    "8f_control": 1,
+    "c9_control": 1,
+    "db_05": 1,
+    "db_08": 1,
+    "db_1c": 1,
+    "db_3c": 1,
+    "db_42": 1,
+    "db_8e": 1,
+    "db_ca": 1,
+    "db_f7": 1,
+    "e9_control": 1,
+    "f0_control": 1,
+    "f9_control": 1,
+    "fa_control": 1
+  },
+  "spans": [
+    {
+      "start": 0,
+      "start_hex": "0x0000",
+      "end": 8,
+      "end_hex": "0x0008",
+      "length": 8,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 0,
+          "offset_hex": "0x0000",
+          "op": "ad_control",
+          "bytes": "ad 00 01 2a",
+          "arg": 298,
+          "text": null
+        },
+        {
+          "offset": 4,
+          "offset_hex": "0x0004",
+          "op": "ac_control",
+          "bytes": "ac 05 00 40",
+          "arg": 327744,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 17,
+      "start_hex": "0x0011",
+      "end": 36,
+      "end_hex": "0x0024",
+      "length": 19,
+      "unknown_bytes": 5,
+      "instructions": [
+        {
+          "offset": 17,
+          "offset_hex": "0x0011",
+          "op": "fe_control",
+          "bytes": "fe 02 62",
+          "arg": 610,
+          "text": null
+        },
+        {
+          "offset": 20,
+          "offset_hex": "0x0014",
+          "op": "ad_control",
+          "bytes": "ad 05 01 2a",
+          "arg": 327978,
+          "text": null
+        },
+        {
+          "offset": 24,
+          "offset_hex": "0x0018",
+          "op": "ac_control",
+          "bytes": "ac 01 01 08",
+          "arg": 65800,
+          "text": null
+        },
+        {
+          "offset": 28,
+          "offset_hex": "0x001c",
+          "op": "0f_control",
+          "bytes": "0f 01 07",
+          "arg": 263,
+          "text": null
+        },
+        {
+          "offset": 31,
+          "offset_hex": "0x001f",
+          "op": "db_8e",
+          "bytes": "8e",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 32,
+          "offset_hex": "0x0020",
+          "op": "db_01",
+          "bytes": "01",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 33,
+          "offset_hex": "0x0021",
+          "op": "db_42",
+          "bytes": "42",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 34,
+          "offset_hex": "0x0022",
+          "op": "db_00",
+          "bytes": "00",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 35,
+          "offset_hex": "0x0023",
+          "op": "db_f7",
+          "bytes": "f7",
+          "arg": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 189,
+      "start_hex": "0x00bd",
+      "end": 208,
+      "end_hex": "0x00d0",
+      "length": 19,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 189,
+          "offset_hex": "0x00bd",
+          "op": "dc_control",
+          "bytes": "dc 00 06 00",
+          "arg": 1536,
+          "text": null
+        },
+        {
+          "offset": 193,
+          "offset_hex": "0x00c1",
+          "op": "db_3f",
+          "bytes": "3f",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 194,
+          "offset_hex": "0x00c2",
+          "op": "1d_control",
+          "bytes": "1d 00 34",
+          "arg": 52,
+          "text": null
+        },
+        {
+          "offset": 197,
+          "offset_hex": "0x00c5",
+          "op": "2c_control",
+          "bytes": "2c 01 01",
+          "arg": 257,
+          "text": null
+        },
+        {
+          "offset": 200,
+          "offset_hex": "0x00c8",
+          "op": "fe_control",
+          "bytes": "fe 02 62",
+          "arg": 610,
+          "text": null
+        },
+        {
+          "offset": 203,
+          "offset_hex": "0x00cb",
+          "op": "8f_control",
+          "bytes": "8f 01 41 01",
+          "arg": 82177,
+          "text": null
+        },
+        {
+          "offset": 207,
+          "offset_hex": "0x00cf",
+          "op": "db_08",
+          "bytes": "08",
+          "arg": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 217,
+      "start_hex": "0x00d9",
+      "end": 224,
+      "end_hex": "0x00e0",
+      "length": 7,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 217,
+          "offset_hex": "0x00d9",
+          "op": "fe_control",
+          "bytes": "fe 02 62",
+          "arg": 610,
+          "text": null
+        },
+        {
+          "offset": 220,
+          "offset_hex": "0x00dc",
+          "op": "ad_control",
+          "bytes": "ad 01 01 2a",
+          "arg": 65834,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 251,
+      "start_hex": "0x00fb",
+      "end": 258,
+      "end_hex": "0x0102",
+      "length": 7,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 251,
+          "offset_hex": "0x00fb",
+          "op": "fe_control",
+          "bytes": "fe 02 62",
+          "arg": 610,
+          "text": null
+        },
+        {
+          "offset": 254,
+          "offset_hex": "0x00fe",
+          "op": "ac_control",
+          "bytes": "ac 00 02 62",
+          "arg": 610,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 510,
+      "start_hex": "0x01fe",
+      "end": 513,
+      "end_hex": "0x0201",
+      "length": 3,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 510,
+          "offset_hex": "0x01fe",
+          "op": "f9_control",
+          "bytes": "f9 05 05",
+          "arg": 1285,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 558,
+      "start_hex": "0x022e",
+      "end": 576,
+      "end_hex": "0x0240",
+      "length": 18,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 558,
+          "offset_hex": "0x022e",
+          "op": "fb_control",
+          "bytes": "fb 45",
+          "arg": 69,
+          "text": null
+        },
+        {
+          "offset": 560,
+          "offset_hex": "0x0230",
+          "op": "2c_control",
+          "bytes": "2c 00 01",
+          "arg": 1,
+          "text": null
+        },
+        {
+          "offset": 563,
+          "offset_hex": "0x0233",
+          "op": "fe_control",
+          "bytes": "fe 02 62",
+          "arg": 610,
+          "text": null
+        },
+        {
+          "offset": 566,
+          "offset_hex": "0x0236",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 567,
+          "offset_hex": "0x0237",
+          "op": "end_subscript",
+          "bytes": "f2",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 568,
+          "offset_hex": "0x0238",
+          "op": "ac_control",
+          "bytes": "ac 00 02 bf",
+          "arg": 703,
+          "text": null
+        },
+        {
+          "offset": 572,
+          "offset_hex": "0x023c",
+          "op": "ad_control",
+          "bytes": "ad 04 02 75",
+          "arg": 262773,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 585,
+      "start_hex": "0x0249",
+      "end": 589,
+      "end_hex": "0x024d",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 585,
+          "offset_hex": "0x0249",
+          "op": "ac_control",
+          "bytes": "ac 04 02 be",
+          "arg": 262846,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 625,
+      "start_hex": "0x0271",
+      "end": 628,
+      "end_hex": "0x0274",
+      "length": 3,
+      "unknown_bytes": 3,
+      "instructions": [
+        {
+          "offset": 625,
+          "offset_hex": "0x0271",
+          "op": "db_c4",
+          "bytes": "c4",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 626,
+          "offset_hex": "0x0272",
+          "op": "db_ca",
+          "bytes": "ca",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 627,
+          "offset_hex": "0x0273",
+          "op": "db_04",
+          "bytes": "04",
+          "arg": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 655,
+      "start_hex": "0x028f",
+      "end": 675,
+      "end_hex": "0x02a3",
+      "length": 20,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 655,
+          "offset_hex": "0x028f",
+          "op": "2c_control",
+          "bytes": "2c 04 01",
+          "arg": 1025,
+          "text": null
+        },
+        {
+          "offset": 658,
+          "offset_hex": "0x0292",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 659,
+          "offset_hex": "0x0293",
+          "op": "ad_control",
+          "bytes": "ad 00 03 cb",
+          "arg": 971,
+          "text": null
+        },
+        {
+          "offset": 663,
+          "offset_hex": "0x0297",
+          "op": "ad_control",
+          "bytes": "ad 05 02 d9",
+          "arg": 328409,
+          "text": null
+        },
+        {
+          "offset": 667,
+          "offset_hex": "0x029b",
+          "op": "ac_control",
+          "bytes": "ac 01 02 d9",
+          "arg": 66265,
+          "text": null
+        },
+        {
+          "offset": 671,
+          "offset_hex": "0x029f",
+          "op": "show_text_byte",
+          "bytes": "0c 3f",
+          "arg": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 673,
+          "offset_hex": "0x02a1",
+          "op": "db_00",
+          "bytes": "00",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 674,
+          "offset_hex": "0x02a2",
+          "op": "db_01",
+          "bytes": "01",
+          "arg": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 684,
+      "start_hex": "0x02ac",
+      "end": 693,
+      "end_hex": "0x02b5",
+      "length": 9,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 684,
+          "offset_hex": "0x02ac",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 685,
+          "offset_hex": "0x02ad",
+          "op": "ac_control",
+          "bytes": "ac 05 03 cb",
+          "arg": 328651,
+          "text": null
+        },
+        {
+          "offset": 689,
+          "offset_hex": "0x02b1",
+          "op": "show_text_byte",
+          "bytes": "0c 3f",
+          "arg": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 691,
+          "offset_hex": "0x02b3",
+          "op": "db_00",
+          "bytes": "00",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 692,
+          "offset_hex": "0x02b4",
+          "op": "db_01",
+          "bytes": "01",
+          "arg": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 819,
+      "start_hex": "0x0333",
+      "end": 825,
+      "end_hex": "0x0339",
+      "length": 6,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 819,
+          "offset_hex": "0x0333",
+          "op": "show_text_byte",
+          "bytes": "0c 00",
+          "arg": 0,
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+        },
+        {
+          "offset": 821,
+          "offset_hex": "0x0335",
+          "op": "db_03",
+          "bytes": "03",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 822,
+          "offset_hex": "0x0336",
+          "op": "db_e8",
+          "bytes": "e8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 823,
+          "offset_hex": "0x0337",
+          "op": "e6_control",
+          "bytes": "e6 00",
+          "arg": 0,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 870,
+      "start_hex": "0x0366",
+      "end": 871,
+      "end_hex": "0x0367",
+      "length": 1,
+      "unknown_bytes": 1,
+      "instructions": [
+        {
+          "offset": 870,
+          "offset_hex": "0x0366",
+          "op": "db_c4",
+          "bytes": "c4",
+          "arg": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 907,
+      "start_hex": "0x038b",
+      "end": 932,
+      "end_hex": "0x03a4",
+      "length": 25,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 907,
+          "offset_hex": "0x038b",
+          "op": "dc_control",
+          "bytes": "dc 00 05 00",
+          "arg": 1280,
+          "text": null
+        },
+        {
+          "offset": 911,
+          "offset_hex": "0x038f",
+          "op": "0f_control",
+          "bytes": "0f 1d 00",
+          "arg": 7424,
+          "text": null
+        },
+        {
+          "offset": 914,
+          "offset_hex": "0x0392",
+          "op": "db_64",
+          "bytes": "64",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 915,
+          "offset_hex": "0x0393",
+          "op": "dc_control",
+          "bytes": "dc 00 05 01",
+          "arg": 1281,
+          "text": null
+        },
+        {
+          "offset": 919,
+          "offset_hex": "0x0397",
+          "op": "0f_control",
+          "bytes": "0f 1d 00",
+          "arg": 7424,
+          "text": null
+        },
+        {
+          "offset": 922,
+          "offset_hex": "0x039a",
+          "op": "db_64",
+          "bytes": "64",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 923,
+          "offset_hex": "0x039b",
+          "op": "2c_control",
+          "bytes": "2c 05 01",
+          "arg": 1281,
+          "text": null
+        },
+        {
+          "offset": 926,
+          "offset_hex": "0x039e",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 927,
+          "offset_hex": "0x039f",
+          "op": "end_subscript",
+          "bytes": "f2",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 928,
+          "offset_hex": "0x03a0",
+          "op": "ac_control",
+          "bytes": "ac 00 03 d6",
+          "arg": 982,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 938,
+      "start_hex": "0x03aa",
+      "end": 942,
+      "end_hex": "0x03ae",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 938,
+          "offset_hex": "0x03aa",
+          "op": "ad_control",
+          "bytes": "ad 00 03 e0",
+          "arg": 992,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 948,
+      "start_hex": "0x03b4",
+      "end": 962,
+      "end_hex": "0x03c2",
+      "length": 14,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 948,
+          "offset_hex": "0x03b4",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 949,
+          "offset_hex": "0x03b5",
+          "op": "end_subscript",
+          "bytes": "f2",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 950,
+          "offset_hex": "0x03b6",
+          "op": "show_text_byte",
+          "bytes": "0c 3f",
+          "arg": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 952,
+          "offset_hex": "0x03b8",
+          "op": "db_00",
+          "bytes": "00",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 953,
+          "offset_hex": "0x03b9",
+          "op": "db_01",
+          "bytes": "01",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 954,
+          "offset_hex": "0x03ba",
+          "op": "ac_control",
+          "bytes": "ac 00 04 20",
+          "arg": 1056,
+          "text": null
+        },
+        {
+          "offset": 958,
+          "offset_hex": "0x03be",
+          "op": "ad_control",
+          "bytes": "ad 07 03 f4",
+          "arg": 459764,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 968,
+      "start_hex": "0x03c8",
+      "end": 972,
+      "end_hex": "0x03cc",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 968,
+          "offset_hex": "0x03c8",
+          "op": "ac_control",
+          "bytes": "ac 07 04 1f",
+          "arg": 459807,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1008,
+      "start_hex": "0x03f0",
+      "end": 1020,
+      "end_hex": "0x03fc",
+      "length": 12,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1008,
+          "offset_hex": "0x03f0",
+          "op": "2c_control",
+          "bytes": "2c 07 01",
+          "arg": 1793,
+          "text": null
+        },
+        {
+          "offset": 1011,
+          "offset_hex": "0x03f3",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1012,
+          "offset_hex": "0x03f4",
+          "op": "ad_control",
+          "bytes": "ad 00 05 5e",
+          "arg": 1374,
+          "text": null
+        },
+        {
+          "offset": 1016,
+          "offset_hex": "0x03f8",
+          "op": "ad_control",
+          "bytes": "ad 02 04 8f",
+          "arg": 132239,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1026,
+      "start_hex": "0x0402",
+      "end": 1033,
+      "end_hex": "0x0409",
+      "length": 7,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1026,
+          "offset_hex": "0x0402",
+          "op": "ac_control",
+          "bytes": "ac 08 04 8f",
+          "arg": 525455,
+          "text": null
+        },
+        {
+          "offset": 1030,
+          "offset_hex": "0x0406",
+          "op": "2c_control",
+          "bytes": "2c 08 01",
+          "arg": 2049,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1039,
+      "start_hex": "0x040f",
+      "end": 1048,
+      "end_hex": "0x0418",
+      "length": 9,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1039,
+          "offset_hex": "0x040f",
+          "op": "c9_control",
+          "bytes": "c9 01 00 61",
+          "arg": 65633,
+          "text": null
+        },
+        {
+          "offset": 1043,
+          "offset_hex": "0x0413",
+          "op": "8c_control",
+          "bytes": "8c 01 00 04 53",
+          "arg": 16778323,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1057,
+      "start_hex": "0x0421",
+      "end": 1068,
+      "end_hex": "0x042c",
+      "length": 11,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 1057,
+          "offset_hex": "0x0421",
+          "op": "show_text_byte",
+          "bytes": "0c 00",
+          "arg": 0,
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+        },
+        {
+          "offset": 1059,
+          "offset_hex": "0x0423",
+          "op": "db_03",
+          "bytes": "03",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1060,
+          "offset_hex": "0x0424",
+          "op": "db_e8",
+          "bytes": "e8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1061,
+          "offset_hex": "0x0425",
+          "op": "e6_control",
+          "bytes": "e6 00",
+          "arg": 0,
+          "text": null
+        },
+        {
+          "offset": 1063,
+          "offset_hex": "0x0427",
+          "op": "8c_control",
+          "bytes": "8c 01 01 04 7b",
+          "arg": 16843899,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1092,
+      "start_hex": "0x0444",
+      "end": 1108,
+      "end_hex": "0x0454",
+      "length": 16,
+      "unknown_bytes": 1,
+      "instructions": [
+        {
+          "offset": 1092,
+          "offset_hex": "0x0444",
+          "op": "dc_control",
+          "bytes": "dc 00 03 00",
+          "arg": 768,
+          "text": null
+        },
+        {
+          "offset": 1096,
+          "offset_hex": "0x0448",
+          "op": "db_1c",
+          "bytes": "1c",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1097,
+          "offset_hex": "0x0449",
+          "op": "4c_control",
+          "bytes": "4c 00 07",
+          "arg": 7,
+          "text": null
+        },
+        {
+          "offset": 1100,
+          "offset_hex": "0x044c",
+          "op": "1d_control",
+          "bytes": "1d 00 64",
+          "arg": 100,
+          "text": null
+        },
+        {
+          "offset": 1103,
+          "offset_hex": "0x044f",
+          "op": "8c_control",
+          "bytes": "8c 01 02 04 8f",
+          "arg": 16909455,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1123,
+      "start_hex": "0x0463",
+      "end": 1127,
+      "end_hex": "0x0467",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1123,
+          "offset_hex": "0x0463",
+          "op": "ac_control",
+          "bytes": "ac 02 05 5e",
+          "arg": 132446,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1133,
+      "start_hex": "0x046d",
+      "end": 1137,
+      "end_hex": "0x0471",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1133,
+          "offset_hex": "0x046d",
+          "op": "ac_control",
+          "bytes": "ac 07 04 ac",
+          "arg": 459948,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1152,
+      "start_hex": "0x0480",
+      "end": 1156,
+      "end_hex": "0x0484",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1152,
+          "offset_hex": "0x0480",
+          "op": "ad_control",
+          "bytes": "ad 07 04 cb",
+          "arg": 459979,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1270,
+      "start_hex": "0x04f6",
+      "end": 1272,
+      "end_hex": "0x04f8",
+      "length": 2,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1270,
+          "offset_hex": "0x04f6",
+          "op": "fb_control",
+          "bytes": "fb 46",
+          "arg": 70,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1299,
+      "start_hex": "0x0513",
+      "end": 1339,
+      "end_hex": "0x053b",
+      "length": 40,
+      "unknown_bytes": 4,
+      "instructions": [
+        {
+          "offset": 1299,
+          "offset_hex": "0x0513",
+          "op": "dc_control",
+          "bytes": "dc 00 0c 62",
+          "arg": 3170,
+          "text": null
+        },
+        {
+          "offset": 1303,
+          "offset_hex": "0x0517",
+          "op": "15_control",
+          "bytes": "15 05 01 00 6c",
+          "arg": 83951724,
+          "text": null
+        },
+        {
+          "offset": 1308,
+          "offset_hex": "0x051c",
+          "op": "db_01",
+          "bytes": "01",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1309,
+          "offset_hex": "0x051d",
+          "op": "db_20",
+          "bytes": "20",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1310,
+          "offset_hex": "0x051e",
+          "op": "11_control",
+          "bytes": "11 00 01",
+          "arg": 1,
+          "text": null
+        },
+        {
+          "offset": 1313,
+          "offset_hex": "0x0521",
+          "op": "dc_control",
+          "bytes": "dc 00 0c 63",
+          "arg": 3171,
+          "text": null
+        },
+        {
+          "offset": 1317,
+          "offset_hex": "0x0525",
+          "op": "15_control",
+          "bytes": "15 05 01 00 6c",
+          "arg": 83951724,
+          "text": null
+        },
+        {
+          "offset": 1322,
+          "offset_hex": "0x052a",
+          "op": "db_01",
+          "bytes": "01",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1323,
+          "offset_hex": "0x052b",
+          "op": "db_20",
+          "bytes": "20",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1324,
+          "offset_hex": "0x052c",
+          "op": "11_control",
+          "bytes": "11 00 01",
+          "arg": 1,
+          "text": null
+        },
+        {
+          "offset": 1327,
+          "offset_hex": "0x052f",
+          "op": "2c_control",
+          "bytes": "2c 02 01",
+          "arg": 513,
+          "text": null
+        },
+        {
+          "offset": 1330,
+          "offset_hex": "0x0532",
+          "op": "end_subscript",
+          "bytes": "f2",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1331,
+          "offset_hex": "0x0533",
+          "op": "ac_control",
+          "bytes": "ac 03 05 a3",
+          "arg": 198051,
+          "text": null
+        },
+        {
+          "offset": 1335,
+          "offset_hex": "0x0537",
+          "op": "ac_control",
+          "bytes": "ac 00 05 7c",
+          "arg": 1404,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1360,
+      "start_hex": "0x0550",
+      "end": 1364,
+      "end_hex": "0x0554",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1360,
+          "offset_hex": "0x0550",
+          "op": "ad_control",
+          "bytes": "ad 00 05 a2",
+          "arg": 1442,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1391,
+      "start_hex": "0x056f",
+      "end": 1408,
+      "end_hex": "0x0580",
+      "length": 17,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 1391,
+          "offset_hex": "0x056f",
+          "op": "fa_control",
+          "bytes": "fa 05 00 84",
+          "arg": 327812,
+          "text": null
+        },
+        {
+          "offset": 1395,
+          "offset_hex": "0x0573",
+          "op": "2c_control",
+          "bytes": "2c 03 01",
+          "arg": 769,
+          "text": null
+        },
+        {
+          "offset": 1398,
+          "offset_hex": "0x0576",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1399,
+          "offset_hex": "0x0577",
+          "op": "end_subscript",
+          "bytes": "f2",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1400,
+          "offset_hex": "0x0578",
+          "op": "ac_control",
+          "bytes": "ac 00 05 b8",
+          "arg": 1464,
+          "text": null
+        },
+        {
+          "offset": 1404,
+          "offset_hex": "0x057c",
+          "op": "show_text_byte",
+          "bytes": "0c 3f",
+          "arg": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 1406,
+          "offset_hex": "0x057e",
+          "op": "db_00",
+          "bytes": "00",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1407,
+          "offset_hex": "0x057f",
+          "op": "db_01",
+          "bytes": "01",
+          "arg": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1420,
+      "start_hex": "0x058c",
+      "end": 1428,
+      "end_hex": "0x0594",
+      "length": 8,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1420,
+          "offset_hex": "0x058c",
+          "op": "ad_control",
+          "bytes": "ad 00 07 48",
+          "arg": 1864,
+          "text": null
+        },
+        {
+          "offset": 1424,
+          "offset_hex": "0x0590",
+          "op": "ac_control",
+          "bytes": "ac 03 05 cc",
+          "arg": 198092,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1437,
+      "start_hex": "0x059d",
+      "end": 1444,
+      "end_hex": "0x05a4",
+      "length": 7,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1437,
+          "offset_hex": "0x059d",
+          "op": "fe_control",
+          "bytes": "fe 07 48",
+          "arg": 1864,
+          "text": null
+        },
+        {
+          "offset": 1440,
+          "offset_hex": "0x05a0",
+          "op": "ac_control",
+          "bytes": "ac 02 05 f4",
+          "arg": 132596,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1450,
+      "start_hex": "0x05aa",
+      "end": 1454,
+      "end_hex": "0x05ae",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1450,
+          "offset_hex": "0x05aa",
+          "op": "ac_control",
+          "bytes": "ac 07 05 e3",
+          "arg": 460259,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1463,
+      "start_hex": "0x05b7",
+      "end": 1467,
+      "end_hex": "0x05bb",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1463,
+          "offset_hex": "0x05b7",
+          "op": "ad_control",
+          "bytes": "ad 07 05 f0",
+          "arg": 460272,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1476,
+      "start_hex": "0x05c4",
+      "end": 1492,
+      "end_hex": "0x05d4",
+      "length": 16,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1476,
+          "offset_hex": "0x05c4",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1477,
+          "offset_hex": "0x05c5",
+          "op": "fe_control",
+          "bytes": "fe 07 48",
+          "arg": 1864,
+          "text": null
+        },
+        {
+          "offset": 1480,
+          "offset_hex": "0x05c8",
+          "op": "ac_control",
+          "bytes": "ac 01 06 26",
+          "arg": 67110,
+          "text": null
+        },
+        {
+          "offset": 1484,
+          "offset_hex": "0x05cc",
+          "op": "ac_control",
+          "bytes": "ac 05 06 16",
+          "arg": 329238,
+          "text": null
+        },
+        {
+          "offset": 1488,
+          "offset_hex": "0x05d0",
+          "op": "ac_control",
+          "bytes": "ac 08 06 09",
+          "arg": 525833,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1501,
+      "start_hex": "0x05dd",
+      "end": 1505,
+      "end_hex": "0x05e1",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1501,
+          "offset_hex": "0x05dd",
+          "op": "ad_control",
+          "bytes": "ad 08 06 16",
+          "arg": 525846,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1514,
+      "start_hex": "0x05ea",
+      "end": 1518,
+      "end_hex": "0x05ee",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1514,
+          "offset_hex": "0x05ea",
+          "op": "ad_control",
+          "bytes": "ad 05 06 23",
+          "arg": 329251,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1527,
+      "start_hex": "0x05f7",
+      "end": 1534,
+      "end_hex": "0x05fe",
+      "length": 7,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1527,
+          "offset_hex": "0x05f7",
+          "op": "fe_control",
+          "bytes": "fe 07 48",
+          "arg": 1864,
+          "text": null
+        },
+        {
+          "offset": 1530,
+          "offset_hex": "0x05fa",
+          "op": "ac_control",
+          "bytes": "ac 0a 07 48",
+          "arg": 657224,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1678,
+      "start_hex": "0x068e",
+      "end": 1691,
+      "end_hex": "0x069b",
+      "length": 13,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 1678,
+          "offset_hex": "0x068e",
+          "op": "dc_control",
+          "bytes": "dc 0b 03 46",
+          "arg": 721734,
+          "text": null
+        },
+        {
+          "offset": 1682,
+          "offset_hex": "0x0692",
+          "op": "2e_control",
+          "bytes": "2e 05",
+          "arg": 5,
+          "text": null
+        },
+        {
+          "offset": 1684,
+          "offset_hex": "0x0694",
+          "op": "show_text_byte",
+          "bytes": "0c 0b",
+          "arg": 11,
+          "text": "因為沒有比航海更能鍛練男子漢的．"
+        },
+        {
+          "offset": 1686,
+          "offset_hex": "0x0696",
+          "op": "8d_control",
+          "bytes": "8d 0c 04",
+          "arg": 3076,
+          "text": null
+        },
+        {
+          "offset": 1689,
+          "offset_hex": "0x0699",
+          "op": "db_07",
+          "bytes": "07",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1690,
+          "offset_hex": "0x069a",
+          "op": "db_3c",
+          "bytes": "3c",
+          "arg": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1700,
+      "start_hex": "0x06a4",
+      "end": 1706,
+      "end_hex": "0x06aa",
+      "length": 6,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1700,
+          "offset_hex": "0x06a4",
+          "op": "e9_control",
+          "bytes": "e9 0b",
+          "arg": 11,
+          "text": null
+        },
+        {
+          "offset": 1702,
+          "offset_hex": "0x06a6",
+          "op": "ad_control",
+          "bytes": "ad 0b 07 17",
+          "arg": 722711,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1715,
+      "start_hex": "0x06b3",
+      "end": 1736,
+      "end_hex": "0x06c8",
+      "length": 21,
+      "unknown_bytes": 4,
+      "instructions": [
+        {
+          "offset": 1715,
+          "offset_hex": "0x06b3",
+          "op": "dc_control",
+          "bytes": "dc 00 03 46",
+          "arg": 838,
+          "text": null
+        },
+        {
+          "offset": 1719,
+          "offset_hex": "0x06b7",
+          "op": "2e_control",
+          "bytes": "2e 1d",
+          "arg": 29,
+          "text": null
+        },
+        {
+          "offset": 1721,
+          "offset_hex": "0x06b9",
+          "op": "db_00",
+          "bytes": "00",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1722,
+          "offset_hex": "0x06ba",
+          "op": "db_04",
+          "bytes": "04",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1723,
+          "offset_hex": "0x06bb",
+          "op": "dc_control",
+          "bytes": "dc 0b 03 45",
+          "arg": 721733,
+          "text": null
+        },
+        {
+          "offset": 1727,
+          "offset_hex": "0x06bf",
+          "op": "2e_control",
+          "bytes": "2e 05",
+          "arg": 5,
+          "text": null
+        },
+        {
+          "offset": 1729,
+          "offset_hex": "0x06c1",
+          "op": "show_text_byte",
+          "bytes": "0c 0b",
+          "arg": 11,
+          "text": "因為沒有比航海更能鍛練男子漢的．"
+        },
+        {
+          "offset": 1731,
+          "offset_hex": "0x06c3",
+          "op": "8d_control",
+          "bytes": "8d 0c 03",
+          "arg": 3075,
+          "text": null
+        },
+        {
+          "offset": 1734,
+          "offset_hex": "0x06c6",
+          "op": "db_07",
+          "bytes": "07",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1735,
+          "offset_hex": "0x06c7",
+          "op": "db_05",
+          "bytes": "05",
+          "arg": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1745,
+      "start_hex": "0x06d1",
+      "end": 1753,
+      "end_hex": "0x06d9",
+      "length": 8,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 1745,
+          "offset_hex": "0x06d1",
+          "op": "dc_control",
+          "bytes": "dc 00 03 45",
+          "arg": 837,
+          "text": null
+        },
+        {
+          "offset": 1749,
+          "offset_hex": "0x06d5",
+          "op": "2e_control",
+          "bytes": "2e 1d",
+          "arg": 29,
+          "text": null
+        },
+        {
+          "offset": 1751,
+          "offset_hex": "0x06d7",
+          "op": "db_00",
+          "bytes": "00",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1752,
+          "offset_hex": "0x06d8",
+          "op": "db_03",
+          "bytes": "03",
+          "arg": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1771,
+      "start_hex": "0x06eb",
+      "end": 1775,
+      "end_hex": "0x06ef",
+      "length": 4,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1771,
+          "offset_hex": "0x06eb",
+          "op": "ac_control",
+          "bytes": "ac 0b 07 36",
+          "arg": 722742,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1802,
+      "start_hex": "0x070a",
+      "end": 1808,
+      "end_hex": "0x0710",
+      "length": 6,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1802,
+          "offset_hex": "0x070a",
+          "op": "2c_control",
+          "bytes": "2c 0a 01",
+          "arg": 2561,
+          "text": null
+        },
+        {
+          "offset": 1805,
+          "offset_hex": "0x070d",
+          "op": "fe_control",
+          "bytes": "fe 07 48",
+          "arg": 1864,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1817,
+      "start_hex": "0x0719",
+      "end": 1825,
+      "end_hex": "0x0721",
+      "length": 8,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1817,
+          "offset_hex": "0x0719",
+          "op": "2c_control",
+          "bytes": "2c 0a 01",
+          "arg": 2561,
+          "text": null
+        },
+        {
+          "offset": 1820,
+          "offset_hex": "0x071c",
+          "op": "end_subscript",
+          "bytes": "f2",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1821,
+          "offset_hex": "0x071d",
+          "op": "ac_control",
+          "bytes": "ac 00 07 66",
+          "arg": 1894,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1849,
+      "start_hex": "0x0739",
+      "end": 1858,
+      "end_hex": "0x0742",
+      "length": 9,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1849,
+          "offset_hex": "0x0739",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1850,
+          "offset_hex": "0x073a",
+          "op": "ad_control",
+          "bytes": "ad 00 07 7b",
+          "arg": 1915,
+          "text": null
+        },
+        {
+          "offset": 1854,
+          "offset_hex": "0x073e",
+          "op": "ac_control",
+          "bytes": "ac 03 07 7b",
+          "arg": 198523,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1870,
+      "start_hex": "0x074e",
+      "end": 1880,
+      "end_hex": "0x0758",
+      "length": 10,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 1870,
+          "offset_hex": "0x074e",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1871,
+          "offset_hex": "0x074f",
+          "op": "end_subscript",
+          "bytes": "f2",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1872,
+          "offset_hex": "0x0750",
+          "op": "show_text_byte",
+          "bytes": "0c 3f",
+          "arg": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 1874,
+          "offset_hex": "0x0752",
+          "op": "db_00",
+          "bytes": "00",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1875,
+          "offset_hex": "0x0753",
+          "op": "db_01",
+          "bytes": "01",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1876,
+          "offset_hex": "0x0754",
+          "op": "ac_control",
+          "bytes": "ac 00 07 8b",
+          "arg": 1931,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1886,
+      "start_hex": "0x075e",
+      "end": 1895,
+      "end_hex": "0x0767",
+      "length": 9,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1886,
+          "offset_hex": "0x075e",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1887,
+          "offset_hex": "0x075f",
+          "op": "ad_control",
+          "bytes": "ad 00 07 c6",
+          "arg": 1990,
+          "text": null
+        },
+        {
+          "offset": 1891,
+          "offset_hex": "0x0763",
+          "op": "ac_control",
+          "bytes": "ac 09 07 bc",
+          "arg": 591804,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1922,
+      "start_hex": "0x0782",
+      "end": 1940,
+      "end_hex": "0x0794",
+      "length": 18,
+      "unknown_bytes": 1,
+      "instructions": [
+        {
+          "offset": 1922,
+          "offset_hex": "0x0782",
+          "op": "dc_control",
+          "bytes": "dc 00 06 00",
+          "arg": 1536,
+          "text": null
+        },
+        {
+          "offset": 1926,
+          "offset_hex": "0x0786",
+          "op": "db_3f",
+          "bytes": "3f",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1927,
+          "offset_hex": "0x0787",
+          "op": "4c_control",
+          "bytes": "4c 00 01",
+          "arg": 1,
+          "text": null
+        },
+        {
+          "offset": 1930,
+          "offset_hex": "0x078a",
+          "op": "1d_control",
+          "bytes": "1d 00 03",
+          "arg": 3,
+          "text": null
+        },
+        {
+          "offset": 1933,
+          "offset_hex": "0x078d",
+          "op": "2c_control",
+          "bytes": "2c 09 01",
+          "arg": 2305,
+          "text": null
+        },
+        {
+          "offset": 1936,
+          "offset_hex": "0x0790",
+          "op": "ad_control",
+          "bytes": "ad 09 07 c6",
+          "arg": 591814,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1946,
+      "start_hex": "0x079a",
+      "end": 1964,
+      "end_hex": "0x07ac",
+      "length": 18,
+      "unknown_bytes": 2,
+      "instructions": [
+        {
+          "offset": 1946,
+          "offset_hex": "0x079a",
+          "op": "end_subscript",
+          "bytes": "f2",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1947,
+          "offset_hex": "0x079b",
+          "op": "show_text_byte",
+          "bytes": "0c 3f",
+          "arg": 63,
+          "text": "太太要您晚上10點到12點之間去公爵府．"
+        },
+        {
+          "offset": 1949,
+          "offset_hex": "0x079d",
+          "op": "db_00",
+          "bytes": "00",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1950,
+          "offset_hex": "0x079e",
+          "op": "db_01",
+          "bytes": "01",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 1951,
+          "offset_hex": "0x079f",
+          "op": "ac_control",
+          "bytes": "ac 00 08 07",
+          "arg": 2055,
+          "text": null
+        },
+        {
+          "offset": 1955,
+          "offset_hex": "0x07a3",
+          "op": "eb_control",
+          "bytes": "eb 00 00 03",
+          "arg": 3,
+          "text": null
+        },
+        {
+          "offset": 1959,
+          "offset_hex": "0x07a7",
+          "op": "8c_control",
+          "bytes": "8c 00 00 07 e4",
+          "arg": 2020,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1976,
+      "start_hex": "0x07b8",
+      "end": 1981,
+      "end_hex": "0x07bd",
+      "length": 5,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1976,
+          "offset_hex": "0x07b8",
+          "op": "8c_control",
+          "bytes": "8c 00 01 07 f5",
+          "arg": 67573,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 1993,
+      "start_hex": "0x07c9",
+      "end": 1998,
+      "end_hex": "0x07ce",
+      "length": 5,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 1993,
+          "offset_hex": "0x07c9",
+          "op": "8c_control",
+          "bytes": "8c 00 02 08 06",
+          "arg": 133126,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 2010,
+      "start_hex": "0x07da",
+      "end": 2024,
+      "end_hex": "0x07e8",
+      "length": 14,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 2010,
+          "offset_hex": "0x07da",
+          "op": "f8_prefix_or_branch",
+          "bytes": "f8",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 2011,
+          "offset_hex": "0x07db",
+          "op": "ad_control",
+          "bytes": "ad 00 08 39",
+          "arg": 2105,
+          "text": null
+        },
+        {
+          "offset": 2015,
+          "offset_hex": "0x07df",
+          "op": "eb_control",
+          "bytes": "eb 00 00 03",
+          "arg": 3,
+          "text": null
+        },
+        {
+          "offset": 2019,
+          "offset_hex": "0x07e3",
+          "op": "8c_control",
+          "bytes": "8c 00 00 08 23",
+          "arg": 2083,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 2039,
+      "start_hex": "0x07f7",
+      "end": 2044,
+      "end_hex": "0x07fc",
+      "length": 5,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 2039,
+          "offset_hex": "0x07f7",
+          "op": "8c_control",
+          "bytes": "8c 00 01 08 2e",
+          "arg": 67630,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 2050,
+      "start_hex": "0x0802",
+      "end": 2055,
+      "end_hex": "0x0807",
+      "length": 5,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 2050,
+          "offset_hex": "0x0802",
+          "op": "8c_control",
+          "bytes": "8c 00 02 08 39",
+          "arg": 133177,
+          "text": null
+        }
+      ]
+    },
+    {
+      "start": 2061,
+      "start_hex": "0x080d",
+      "end": 2064,
+      "end_hex": "0x0810",
+      "length": 3,
+      "unknown_bytes": 0,
+      "instructions": [
+        {
+          "offset": 2061,
+          "offset_hex": "0x080d",
+          "op": "end_subscript",
+          "bytes": "f2",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 2062,
+          "offset_hex": "0x080e",
+          "op": "f0_control",
+          "bytes": "f0",
+          "arg": null,
+          "text": null
+        },
+        {
+          "offset": 2063,
+          "offset_hex": "0x080f",
+          "op": "end_subscript",
+          "bytes": "f2",
+          "arg": null,
+          "text": null
+        }
+      ]
+    }
+  ]
+}
