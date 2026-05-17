@@ -62,12 +62,19 @@ whether `0xc8` is also used outside this motif.
 
 | Opcode | Current Notes |
 |---|---|
-| `0xad` | Appears near Snr1 opening code before the repeated `c0/cc/c8/c7` table |
-| `0xac` | Often appears near `0xad`; likely part of setup or call sequence |
-| `0xfe` | Seen near Snr1 opening code; may be control/branch-related |
+| `0xad` | João-slice candidate `len=4`; often appears near text segment boundaries and before known text spans |
+| `0xac` | João-slice candidate `len=4`; often pairs with `0xad`, likely branch/call/setup target form |
+| `0xfe` | João-slice candidate `len=3`; appears as repeated `fe 02 62` / `fe 07 48` separator/control forms |
+| `0xf8` | João-slice candidate `len=1`; often appears before `f2`, `ad`, `ac`, or `fe` |
+| `0xf9` | João-slice candidate `len=3`; seen as `f9 05 05` in João opening |
+| `0xfb` | João-slice candidate `len=2`; seen as `fb 45` / `fb 46` near segment exits |
+| `0x8c` | João-slice candidate `len=5`; repeated forms look target-like, e.g. `8c 00 01 08 2e` |
+| `0xdc` | João-slice candidate `len=4`; clusters with small numeric operands around condition-looking regions |
+| `0x2c` | João-slice candidate `len=3`; common before branch/end sequences |
 | `0xa3` | Appears as dispatch table tag in Snr0; bytecode role not confirmed |
-| `0xdc` | Previously observed in raw opcode notes; not length-known |
-| `0x8c` | Previously observed with 4-byte-looking records; not length-known |
+
+The João-slice candidates above are supported by `output/sndt_analysis/joao_control_candidates.md`
+and `output/sndt_analysis/joao_control_disasm.md`. They are not global confirmations yet.
 
 ---
 

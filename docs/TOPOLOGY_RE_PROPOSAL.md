@@ -367,7 +367,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
 | Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
 | Phase 3 最小 SNDT 实验 | 🟡 进行中 | `scripts/build_sndt_lab.py` + `output/sndt_lab/*` | 已生成最小 patch artifact |
-| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text/speaker-bearing motif topology | João 开场文本拓扑已近完整 |
+| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text/speaker/control topology | João 控制层已有候选反汇编 |
 
 ### 已完成提交
 
@@ -438,6 +438,12 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `b8df6ee` | Export SNDT short text motifs | ✅ pushed |
 | `609c497` | Merge short text motifs into João topology | ✅ pushed |
 | `9a1260d` | Export complete João text topology timeline | ✅ pushed |
+| `2d0930f` | Update tracker for short text motif topology | ✅ pushed |
+| `f302ed8` | Add João control candidate analyzer | ✅ pushed |
+| `9d2a406` | Export João control candidate analysis | ✅ pushed |
+| `74616da` | Add João control layer disassembler | ✅ pushed |
+| `580a53d` | Decode show text in João control layer | ✅ pushed |
+| `bd49bd6` | Export João control layer disassembly | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -517,6 +523,8 @@ Phase 3 当前结论：
 | 分析 João motif gaps | ✅ | `output/sndt_analysis/joao_opening_gaps.*`，41 gaps / 804 bytes |
 | 提取短文本 motif | ✅ | `output/sndt_analysis/sndt_short_text_motifs.*`，全局 669 条 |
 | 合并 João 完整文本 timeline | ✅ | `joao_opening_topology.*`，87 timeline items，覆盖 187/189 个文本 ID |
+| 分析 João residual 控制层 | ✅ | `output/sndt_analysis/joao_control_candidates.*`，55 spans / 522 bytes |
+| 原型反汇编 João 控制层 | ✅ | `output/sndt_analysis/joao_control_disasm.*`，候选长度覆盖后剩 43 unknown bytes |
 | 生成 `topology_v1.json` | ⬜ | 执行拓扑，仍缺语义 |
 | 生成 `topology_v1.dot` | ⬜ | 可视化，仍缺语义 |
 | 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
@@ -524,8 +532,8 @@ Phase 3 当前结论：
 Phase 4 预研当前结论：
 
 ```text
-已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条长 motif 真实文本边、669 条短文本 motif、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据、João 开场 87 个 timeline item，覆盖文本 0..188 中的 187 个
-未拿到：条件分支语义、变量语义、真实执行拓扑；João 开场仍剩菜单文本 `97` 和船名 `132` 未归入文本 motif
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条长 motif 真实文本边、669 条短文本 motif、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据、João 开场 87 个 timeline item，覆盖文本 0..188 中的 187 个，并已对 residual 控制层提出 `ad/ac/fe/f8/f9/fb/8c/dc/2c` 等候选长度
+未拿到：这些控制 opcode 的全局确认语义、变量语义、真实执行拓扑；João 开场仍剩菜单文本 `97` 和船名 `132` 未归入文本 motif
 ```
 
 ---
