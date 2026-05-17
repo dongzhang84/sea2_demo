@@ -367,7 +367,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
 | Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
 | Phase 3 最小 SNDT 实验 | 🟡 进行中 | `scripts/build_sndt_lab.py` + `output/sndt_lab/*` | 已生成最小 patch artifact |
-| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text/speaker/control topology | João 控制层已有候选反汇编和候选控制边 |
+| Phase 4 机器拓扑 v1 | 🟡 进行中 | opcode table + partial disasm + text/speaker/control topology | João opening v1 已生成候选执行拓扑 |
 
 ### 已完成提交
 
@@ -448,6 +448,11 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `1c5f5a8` | Add Joao control edge analyzer | ✅ pushed |
 | `2a955d4` | Refine Joao control edge scoring | ✅ pushed |
 | `bc224eb` | Export Joao control edge candidates | ✅ pushed |
+| `96e38f3` | Update tracker with Joao control edges | ✅ pushed |
+| `cf26faf` | Document Joao control edge candidates | ✅ pushed |
+| `f89dd1b` | Add Joao topology v1 exporter | ✅ pushed |
+| `cc9f018` | Export Joao opening topology v1 graph | ✅ pushed |
+| `ea698b1` | Document Joao opening topology v1 | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -530,28 +535,31 @@ Phase 3 当前结论：
 | 分析 João residual 控制层 | ✅ | `output/sndt_analysis/joao_control_candidates.*`，55 spans / 522 bytes |
 | 原型反汇编 João 控制层 | ✅ | `output/sndt_analysis/joao_control_disasm.*`，候选长度覆盖后剩 43 unknown bytes |
 | 验证 João 控制操作数是否像 offset 边 | ✅ | `output/sndt_analysis/joao_control_edges.*`，68 条控制指令中优选解释 63 条命中/近邻已知 timeline |
-| 生成 `topology_v1.json` | ⬜ | 执行拓扑，仍缺语义 |
-| 生成 `topology_v1.dot` | ⬜ | 可视化，仍缺语义 |
-| 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
+| 生成 João opening `topology_v1.json` | ✅ | `output/sndt_topology/joao_opening_topology_v1.json`，142 nodes / 208 edges |
+| 生成 João opening `topology_v1.dot` | ✅ | `output/sndt_topology/joao_opening_topology_v1.dot`，含 sequence/control/near-control 边 |
+| 写 João opening topology v1 报告 | ✅ | `docs/SNDT_JOAO_OPENING_TOPOLOGY_V1.md` |
+| 生成全局 `topology_v1.json` | ⬜ | 待把 João 局部方法推广到 Snr0-6 |
+| 生成全局 `topology_v1.dot` | ⬜ | 待全局推广 |
+| 写全局 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版全局机器拓扑报告 |
 
 Phase 4 预研当前结论：
 
 ```text
-已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条长 motif 真实文本边、669 条短文本 motif、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据、João 开场 87 个 timeline item，覆盖文本 0..188 中的 187 个；residual 控制层已提出 `ad/ac/fe/f8/f9/fb/8c/dc/2c` 等候选长度，并且 `ad/ac/8c/fe` 的操作数已能大量映射回 timeline offset
-未拿到：这些控制 opcode 的全局确认语义、变量语义、可直接执行的全局拓扑；João 开场仍剩菜单文本 `97` 和船名 `132` 未归入文本 motif
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条长 motif 真实文本边、669 条短文本 motif、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据、João 开场 87 个 timeline item，覆盖文本 0..188 中的 187 个；residual 控制层已提出 `ad/ac/fe/f8/f9/fb/8c/dc/2c` 等候选长度，并且 `ad/ac/8c/fe` 的操作数已能大量映射回 timeline offset；João opening topology v1 已生成 142 个节点、208 条边，其中 67 条是非顺序控制边
+未拿到：这些控制 opcode 的全局确认语义、变量语义、可直接执行的全局拓扑；João 开场仍剩菜单文本 `97` 和船名 `132` 未归入文本 motif；v1 仍是候选执行拓扑，需要动态追踪或 patch 实验证实边语义
 ```
 
 ---
 
 ## 8. 下一步选择
 
-当前主线已经从“文本 timeline”推进到“候选控制边”。下一步应该把候选边并入 João 开场拓扑导出，生成一个可审阅的 `topology_v1_joao_opening`。
+当前主线已经从“文本 timeline”推进到“候选控制边”，并已生成 João 开场局部执行拓扑 v1。下一步应该把这套方法推广到更多子脚本，或用动态追踪/patch 实验验证 v1 图中的具体控制边。
 
 ### 方向 A：生成 João 开场执行拓扑 v1
 
-目标：把 `joao_opening_topology.*` 的顺序 timeline 与 `joao_control_edges.*` 的候选控制边合并。
+状态：已完成。`joao_opening_topology.*` 的顺序 timeline 已与 `joao_control_edges.*` 的候选控制边合并。
 
-下一步文件：
+已生成文件：
 
 ```text
 scripts/export_joao_opening_topology_v1.py
@@ -621,11 +629,11 @@ output/sndt_lab/minimal_*.dat
 我的当前建议：
 
 ```text
-优先做方向 A：生成 João 开场执行拓扑 v1。
+优先做方向 B 或 C 来验证 João opening topology v1 的具体边。
 ```
 
 理由：
 
-- 现在已经有足够静态证据把 `ad/ac/8c/fe` 从“控制字节”推进为“候选控制边”。
-- 先生成可审阅图，能直接回应“拓扑现在做到哪里”。
-- 动态追踪和 patch 实验仍然需要做，但它们下一步应服务于验证 v1 图中的具体边，而不是继续泛泛找入口。
+- 静态图已经生成，继续堆静态推断的边际收益会下降。
+- 最有价值的下一步是验证 v1 图中的几条高置信边，例如 `fe 07 48`、`ad 00 07 48`、`ac 00 08 07`。
+- 验证方式可以走动态追踪，也可以走最小 patch；目标都应收窄到“证明一个 opcode 如何改变 bytecode 指针”。
