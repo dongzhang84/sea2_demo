@@ -367,7 +367,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
 | Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
 | Phase 3 最小 SNDT 实验 | 🟡 进行中 | `scripts/build_sndt_lab.py` + `output/sndt_lab/*` | 已生成最小 patch artifact |
-| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text/speaker-bearing motif topology | `c8_arg` 文本边和 `cc_arg` 角色槽候选已入图 |
+| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text/speaker-bearing motif topology | 已有 João 开场可读拓扑切片 |
 
 ### 已完成提交
 
@@ -426,6 +426,9 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `26469ec` | Update tracker for cc role topology | ✅ pushed |
 | `1f720d8` | Add SNDT selector role analyzer | ✅ pushed |
 | `48bab5f` | Export SNDT selector role analysis | ✅ pushed |
+| `7065160` | Update docs with selector role evidence | ✅ pushed |
+| `527bafd` | Add João opening topology exporter | ✅ pushed |
+| `c7d353c` | Export João opening topology slice | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -501,6 +504,7 @@ Phase 3 当前结论：
 | 聚类 motif `cc_arg` 角色/状态槽 | ✅ | `output/sndt_analysis/sndt_cc_roles.*`，41 个 distinct `cc_arg` |
 | 把 speaker hint 并入 topology v0 | ✅ | `topology_v0_motif.json` records 已含 `resolved_speaker` |
 | 分析 motif `selector` 语义 | ✅ | `output/sndt_analysis/sndt_selector_roles.*`，确认不是简单主角/NPC |
+| 生成 João 开场可读拓扑切片 | ✅ | `output/sndt_topology/joao_opening_topology.*`，40 段/140 records |
 | 生成 `topology_v1.json` | ⬜ | 执行拓扑，仍缺语义 |
 | 生成 `topology_v1.dot` | ⬜ | 可视化，仍缺语义 |
 | 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
@@ -508,7 +512,7 @@ Phase 3 当前结论：
 Phase 4 预研当前结论：
 
 ```text
-已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条 motif 记录的真实文本边、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据，并已把文本和 speaker hint 并入拓扑 JSON/DOT
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条 motif 记录的真实文本边、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据、João 开场 40 段/140 records 的可读拓扑切片
 未拿到：条件分支语义、变量语义、真实执行拓扑
 ```
 
