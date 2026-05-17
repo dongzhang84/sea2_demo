@@ -50,32 +50,48 @@ def main() -> None:
     motif = json.loads(MOTIF_RECORDS.read_text())
     texts = {snr_id: decode_file(str(KOUKAI / f"Snr{snr_id}.mes")) for snr_id in range(7)}
 
+    records_with_text = []
+    speaker_hints: dict[tuple[str, int], Counter[str]] = defaultdict(Counter)
+    for record in motif["records"]:
+        script = record["script"]
+        snr_id = snr_id_for_script(script)
+        text_id = record["c8_arg"]
+        text = texts[snr_id][text_id] if 0 <= text_id < len(texts[snr_id]) else ""
+        speaker = speaker_for_text(text)
+        if speaker:
+            speaker_hints[(script, record["cc_arg"])][speaker] += 1
+        records_with_text.append((record, text, speaker))
+
     cc_groups: dict[int, dict] = defaultdict(
         lambda: {
             "records": 0,
             "selectors": Counter(),
             "scripts": Counter(),
             "snrs": Counter(),
-            "speakers": Counter(),
+            "explicit_speakers": Counter(),
+            "resolved_speakers": Counter(),
             "examples": [],
         }
     )
     joao_opening = []
 
-    for record in motif["records"]:
+    for record, text, speaker in records_with_text:
         script = record["script"]
         snr_id = snr_id_for_script(script)
         text_id = record["c8_arg"]
-        text = texts[snr_id][text_id] if 0 <= text_id < len(texts[snr_id]) else ""
         cc_arg = record["cc_arg"]
+        resolved_speaker = speaker
+        if not resolved_speaker and speaker_hints.get((script, cc_arg)):
+            resolved_speaker = speaker_hints[(script, cc_arg)].most_common(1)[0][0]
         group = cc_groups[cc_arg]
         group["records"] += 1
         group["selectors"][record["selector"]] += 1
         group["scripts"][script] += 1
         group["snrs"][f"Snr{snr_id}"] += 1
-        speaker = speaker_for_text(text)
         if speaker:
-            group["speakers"][speaker] += 1
+            group["explicit_speakers"][speaker] += 1
+        if resolved_speaker:
+            group["resolved_speakers"][resolved_speaker] += 1
         if len(group["examples"]) < 12:
             group["examples"].append(
                 {
@@ -83,6 +99,7 @@ def main() -> None:
                     "offset_hex": record["offset_hex"],
                     "selector": record["selector"],
                     "text_id": text_id,
+                    "resolved_speaker": resolved_speaker,
                     "text": one_line(text),
                 }
             )
@@ -94,13 +111,15 @@ def main() -> None:
                     "cc_arg": cc_arg,
                     "text_id": text_id,
                     "speaker": speaker,
+                    "resolved_speaker": resolved_speaker,
                     "text": one_line(text),
                 }
             )
 
     groups = []
     for cc_arg, group in sorted(cc_groups.items(), key=lambda item: (-item[1]["records"], item[0])):
-        top_speakers = group["speakers"].most_common(10)
+        explicit_speakers = group["explicit_speakers"].most_common(10)
+        resolved_speakers = group["resolved_speakers"].most_common(10)
         groups.append(
             {
                 "cc_arg": cc_arg,
@@ -108,8 +127,11 @@ def main() -> None:
                 "selectors": dict(group["selectors"].most_common()),
                 "snrs": dict(group["snrs"].most_common()),
                 "top_scripts": group["scripts"].most_common(12),
-                "top_speakers": top_speakers,
-                "speaker_ratio": (sum(count for _, count in top_speakers) / group["records"]) if group["records"] else 0,
+                "explicit_speakers": explicit_speakers,
+                "resolved_speakers": resolved_speakers,
+                "resolved_speaker_ratio": (
+                    sum(count for _, count in resolved_speakers) / group["records"] if group["records"] else 0
+                ),
                 "examples": group["examples"],
             }
         )
@@ -135,11 +157,11 @@ def main() -> None:
         "",
         "## Top cc_arg Values",
         "",
-        "| cc_arg | records | selectors | top speakers / prefixes | top scripts |",
+        "| cc_arg | records | selectors | resolved speakers | top scripts |",
         "|---:|---:|---|---|---|",
     ]
     for group in groups[:40]:
-        speakers = ", ".join(f"{name}({count})" for name, count in group["top_speakers"][:4]) or "-"
+        speakers = ", ".join(f"{name}({count})" for name, count in group["resolved_speakers"][:4]) or "-"
         scripts = ", ".join(f"{script}({count})" for script, count in group["top_scripts"][:4])
         lines.append(
             f"| {group['cc_arg']} | {group['records']} | {group['selectors']} | {speakers} | {scripts} |"
@@ -147,7 +169,7 @@ def main() -> None:
 
     lines += ["", "## João Opening cc_arg Map", ""]
     for entry in joao_opening[:180]:
-        speaker = entry["speaker"] or "-"
+        speaker = entry["speaker"] or entry["resolved_speaker"] or "-"
         lines.append(
             f"- `{entry['offset_hex']}` sel={entry['selector']} cc={entry['cc_arg']} "
             f"text={entry['text_id']} speaker={speaker}: {entry['text']}"
