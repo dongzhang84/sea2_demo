@@ -367,7 +367,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | Phase 1 静态拓扑 | ✅ 完成 | exporter + JSON/DOT/报告 | 已能审阅结构骨架 |
 | Phase 2 动态追踪基础 | 🟡 进行中 | trace runner + key driver + trace samples | 已能自动下断点/采样/发键 |
 | Phase 3 最小 SNDT 实验 | 🟡 进行中 | `scripts/build_sndt_lab.py` + `output/sndt_lab/*` | 已生成最小 patch artifact |
-| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text/speaker/control topology | João 控制层已有候选反汇编 |
+| Phase 4 机器拓扑 v1 | 🟡 预研中 | opcode table + partial disasm + text/speaker/control topology | João 控制层已有候选反汇编和候选控制边 |
 
 ### 已完成提交
 
@@ -444,6 +444,10 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | `74616da` | Add João control layer disassembler | ✅ pushed |
 | `580a53d` | Decode show text in João control layer | ✅ pushed |
 | `bd49bd6` | Export João control layer disassembly | ✅ pushed |
+| `e625118` | Update docs with João control candidates | ✅ pushed |
+| `1c5f5a8` | Add Joao control edge analyzer | ✅ pushed |
+| `2a955d4` | Refine Joao control edge scoring | ✅ pushed |
+| `bc224eb` | Export Joao control edge candidates | ✅ pushed |
 
 ### Phase 1 Checklist
 
@@ -525,6 +529,7 @@ Phase 3 当前结论：
 | 合并 João 完整文本 timeline | ✅ | `joao_opening_topology.*`，87 timeline items，覆盖 187/189 个文本 ID |
 | 分析 João residual 控制层 | ✅ | `output/sndt_analysis/joao_control_candidates.*`，55 spans / 522 bytes |
 | 原型反汇编 João 控制层 | ✅ | `output/sndt_analysis/joao_control_disasm.*`，候选长度覆盖后剩 43 unknown bytes |
+| 验证 João 控制操作数是否像 offset 边 | ✅ | `output/sndt_analysis/joao_control_edges.*`，68 条控制指令中优选解释 63 条命中/近邻已知 timeline |
 | 生成 `topology_v1.json` | ⬜ | 执行拓扑，仍缺语义 |
 | 生成 `topology_v1.dot` | ⬜ | 可视化，仍缺语义 |
 | 写 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版机器拓扑报告 |
@@ -532,17 +537,45 @@ Phase 3 当前结论：
 Phase 4 预研当前结论：
 
 ```text
-已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条长 motif 真实文本边、669 条短文本 motif、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据、João 开场 87 个 timeline item，覆盖文本 0..188 中的 187 个，并已对 residual 控制层提出 `ad/ac/fe/f8/f9/fb/8c/dc/2c` 等候选长度
-未拿到：这些控制 opcode 的全局确认语义、变量语义、真实执行拓扑；João 开场仍剩菜单文本 `97` 和船名 `132` 未归入文本 motif
+已拿到：0xc0/0xcc/0xc8/0xc7 的强长度候选、partial disasm、977 个 motif-run 内部表节点、topology_v0_motif、3449 条长 motif 真实文本边、669 条短文本 motif、41 个 `cc_arg` 聚类、João 开场的局部 speaker/actor 槽、selector 的全局分布和对话轮换证据、João 开场 87 个 timeline item，覆盖文本 0..188 中的 187 个；residual 控制层已提出 `ad/ac/fe/f8/f9/fb/8c/dc/2c` 等候选长度，并且 `ad/ac/8c/fe` 的操作数已能大量映射回 timeline offset
+未拿到：这些控制 opcode 的全局确认语义、变量语义、可直接执行的全局拓扑；João 开场仍剩菜单文本 `97` 和船名 `132` 未归入文本 motif
 ```
 
 ---
 
 ## 8. 下一步选择
 
-当前有两个实际可走方向。
+当前主线已经从“文本 timeline”推进到“候选控制边”。下一步应该把候选边并入 João 开场拓扑导出，生成一个可审阅的 `topology_v1_joao_opening`。
 
-### 方向 A：继续动态追踪输入自动化
+### 方向 A：生成 João 开场执行拓扑 v1
+
+目标：把 `joao_opening_topology.*` 的顺序 timeline 与 `joao_control_edges.*` 的候选控制边合并。
+
+下一步文件：
+
+```text
+scripts/export_joao_opening_topology_v1.py
+output/sndt_topology/joao_opening_topology_v1.json
+output/sndt_topology/joao_opening_topology_v1.dot
+docs/SNDT_JOAO_OPENING_TOPOLOGY_V1.md
+```
+
+产物形态：
+
+- 节点：motif scene、short text、residual/control span。
+- 边：
+  - `sequence`：自然顺序边。
+  - `candidate_control`：来自 `ad/ac/8c/fe` 操作数的候选跳转边。
+  - `near_control`：差 1-4 字节的候选边，保留但降置信度。
+- 每条边带 `source_offset`、`opcode`、`raw_bytes`、`target_offset`、`confidence`。
+
+完成标准：
+
+- 能打开 JSON 看见 João 开场不是一条线，而是带候选分支/跳转的局部图。
+- DOT 图能显示文本节点之间的候选控制关系。
+- 报告明确哪些边是强证据，哪些只是 near-match。
+
+### 方向 B：继续动态追踪输入自动化
 
 目标：让脚本稳定推进到事件触发点，命中 `19B4:B81A` 或 `0000:8EBC`。
 
@@ -563,7 +596,7 @@ output/sndt_trace/session_*
 - 游戏画面状态和按键流程不稳定。
 - 可能继续陷入“怎么走到剧情点”的问题。
 
-### 方向 B：最小 SNDT patch 实验
+### 方向 C：最小 SNDT patch 实验
 
 目标：不再依赖真实剧情触发，构造一个最小脚本观察解释器。
 
@@ -588,11 +621,11 @@ output/sndt_lab/minimal_*.dat
 我的当前建议：
 
 ```text
-优先做方向 B：最小 SNDT patch 实验。
+优先做方向 A：生成 João 开场执行拓扑 v1。
 ```
 
 理由：
 
-- Phase 2 已经证明自动断点和采样基础可用。
-- 继续调按键流程收益不稳定。
-- 最小 patch 能把问题收缩成“解释器如何处理一小段 bytecode”，更接近 opcode 长度表目标。
+- 现在已经有足够静态证据把 `ad/ac/8c/fe` 从“控制字节”推进为“候选控制边”。
+- 先生成可审阅图，能直接回应“拓扑现在做到哪里”。
+- 动态追踪和 patch 实验仍然需要做，但它们下一步应服务于验证 v1 图中的具体边，而不是继续泛泛找入口。
