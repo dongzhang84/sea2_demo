@@ -58,17 +58,41 @@ whether `0xc8` is also used outside this motif.
 
 ---
 
+## Control Edge Candidates
+
+These are supported by the João opening residual-control analysis:
+
+- `output/sndt_analysis/joao_control_candidates.md`
+- `output/sndt_analysis/joao_control_disasm.md`
+- `output/sndt_analysis/joao_control_edges.md`
+
+The edge analyzer tested 68 control instructions against the 87-item João opening
+timeline. Across all operand interpretations it found 25 exact-start matches,
+4 exact-end matches, 128 inside-item matches, and 59 near-item matches. Under the
+current preferred interpretation, 63/68 instructions land on, inside, or near a
+known timeline item.
+
+| Opcode | Candidate Length | Candidate Role | Edge Evidence |
+|---|---:|---|---|
+| `0xad` | 4 | branch/call/setup with target operand | Big-endian low16/operand forms repeatedly land inside or near João timeline items; `ad 00 07 48` lands exactly on short text 172 at `0x0748` |
+| `0xac` | 4 | branch/call/setup with target operand | Often pairs with `0xad`; low16/operand forms repeatedly land inside or near João timeline items; `ac 00 08 07` lands exactly on short text 188 at `0x0807` |
+| `0xfe` | 3 | control transfer / separator target | Repeated `fe 02 62` and `fe 07 48`; preferred operand maps 9/9 into code range, including four exact starts |
+| `0x8c` | 5 | multi-way branch / indexed target form | Low16 big-endian target form maps several records into or near late João timeline nodes, e.g. `8c 00 00 07 e4` near short text 185 |
+
+This does not yet prove full runtime semantics. It does show that these bytes are
+not random residual data: their operands correlate strongly with script offsets.
+
 ## High-Priority Unknowns
 
 | Opcode | Current Notes |
 |---|---|
-| `0xad` | João-slice candidate `len=4`; often appears near text segment boundaries and before known text spans |
-| `0xac` | João-slice candidate `len=4`; often pairs with `0xad`, likely branch/call/setup target form |
-| `0xfe` | João-slice candidate `len=3`; appears as repeated `fe 02 62` / `fe 07 48` separator/control forms |
+| `0xad` | João-slice candidate `len=4`; control-edge evidence is strong, but exact semantic split between branch/call/setup is unknown |
+| `0xac` | João-slice candidate `len=4`; control-edge evidence is strong, but exact semantic split between branch/call/setup is unknown |
+| `0xfe` | João-slice candidate `len=3`; repeated `fe 02 62` / `fe 07 48` behave like target-bearing control forms |
 | `0xf8` | João-slice candidate `len=1`; often appears before `f2`, `ad`, `ac`, or `fe` |
 | `0xf9` | João-slice candidate `len=3`; seen as `f9 05 05` in João opening |
 | `0xfb` | João-slice candidate `len=2`; seen as `fb 45` / `fb 46` near segment exits |
-| `0x8c` | João-slice candidate `len=5`; repeated forms look target-like, e.g. `8c 00 01 08 2e` |
+| `0x8c` | João-slice candidate `len=5`; repeated forms look target-like and may encode indexed/multi-way branches |
 | `0xdc` | João-slice candidate `len=4`; clusters with small numeric operands around condition-looking regions |
 | `0x2c` | João-slice candidate `len=3`; common before branch/end sequences |
 | `0xa3` | Appears as dispatch table tag in Snr0; bytecode role not confirmed |
@@ -91,8 +115,10 @@ Use these candidate lengths to write a partial disassembler that only recognizes
 0xc7 len 1
 ```
 
-Then test whether the repeated motif areas decode cleanly and whether `0x0c` text references become less noisy.
+Then merge `joao_control_edges.*` into a João opening topology v1 export, separating
+sequence edges from candidate control edges.
 
 Runtime validation is still required before treating `0xc0/0xcc/0xc7` semantics as real.
 For the motif form, `0xc8` should be treated as a text id unless contradictory runtime
-evidence appears.
+evidence appears. Runtime validation is also required before assigning final branch/call
+semantics to `0xad/0xac/0xfe/0x8c`.
