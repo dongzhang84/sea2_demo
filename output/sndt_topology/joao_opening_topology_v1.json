@@ -1,0 +1,5186 @@
+{
+  "schema": "joao_opening_topology_v1",
+  "source_script": "Snr1.chunk0.sub0",
+  "inputs": {
+    "timeline": "output/sndt_topology/joao_opening_topology.json",
+    "control_disasm": "output/sndt_analysis/joao_control_disasm.json",
+    "control_edges": "output/sndt_analysis/joao_control_edges.json"
+  },
+  "summary": {
+    "node_count": 142,
+    "timeline_nodes": 87,
+    "control_span_nodes": 55,
+    "edge_count": 208,
+    "sequence_edges": 141,
+    "candidate_control_edges": 63,
+    "near_control_edges": 4,
+    "high_confidence_control_edges": 13,
+    "medium_confidence_control_edges": 50,
+    "low_confidence_control_edges": 4
+  },
+  "nodes": [
+    {
+      "id": "control_span_0x0000_0x0008",
+      "kind": "control_span",
+      "start": 0,
+      "start_hex": "0x0000",
+      "end": 8,
+      "end_hex": "0x0008",
+      "label": "control 0x0000-0x0008",
+      "instruction_count": 2,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ad_control": 1,
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run0",
+      "kind": "motif_scene",
+      "start": 8,
+      "start_hex": "0x0008",
+      "end": 17,
+      "end_hex": "0x0011",
+      "label": "管家麥克",
+      "text_range": [
+        0,
+        0
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run0",
+        "start": 8,
+        "start_hex": "0x0008",
+        "end": 17,
+        "end_hex": "0x0011",
+        "text_range": [
+          0,
+          0
+        ],
+        "record_count": 1,
+        "speakers": [
+          "管家麥克"
+        ],
+        "title": "管家麥克"
+      }
+    },
+    {
+      "id": "control_span_0x0011_0x0024",
+      "kind": "control_span",
+      "start": 17,
+      "start_hex": "0x0011",
+      "end": 36,
+      "end_hex": "0x0024",
+      "label": "control 0x0011-0x0024",
+      "instruction_count": 9,
+      "unknown_bytes": 5,
+      "op_counts": {
+        "fe_control": 1,
+        "ad_control": 1,
+        "ac_control": 1,
+        "0f_control": 1,
+        "db_8e": 1,
+        "db_01": 1,
+        "db_42": 1,
+        "db_00": 1,
+        "db_f7": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run1",
+      "kind": "motif_scene",
+      "start": 36,
+      "start_hex": "0x0024",
+      "end": 189,
+      "end_hex": "0x00bd",
+      "label": "$s公爵夫人 / 老水手洛克",
+      "text_range": [
+        1,
+        17
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run1",
+        "start": 36,
+        "start_hex": "0x0024",
+        "end": 189,
+        "end_hex": "0x00bd",
+        "text_range": [
+          1,
+          17
+        ],
+        "record_count": 17,
+        "speakers": [
+          "$s公爵夫人",
+          "老水手洛克"
+        ],
+        "title": "$s公爵夫人 / 老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x00bd_0x00d0",
+      "kind": "control_span",
+      "start": 189,
+      "start_hex": "0x00bd",
+      "end": 208,
+      "end_hex": "0x00d0",
+      "label": "control 0x00bd-0x00d0",
+      "instruction_count": 7,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "dc_control": 1,
+        "db_3f": 1,
+        "1d_control": 1,
+        "2c_control": 1,
+        "fe_control": 1,
+        "8f_control": 1,
+        "db_08": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run2",
+      "kind": "motif_scene",
+      "start": 208,
+      "start_hex": "0x00d0",
+      "end": 217,
+      "end_hex": "0x00d9",
+      "label": "管家麥克",
+      "text_range": [
+        18,
+        18
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run2",
+        "start": 208,
+        "start_hex": "0x00d0",
+        "end": 217,
+        "end_hex": "0x00d9",
+        "text_range": [
+          18,
+          18
+        ],
+        "record_count": 1,
+        "speakers": [
+          "管家麥克"
+        ],
+        "title": "管家麥克"
+      }
+    },
+    {
+      "id": "control_span_0x00d9_0x00e0",
+      "kind": "control_span",
+      "start": 217,
+      "start_hex": "0x00d9",
+      "end": 224,
+      "end_hex": "0x00e0",
+      "label": "control 0x00d9-0x00e0",
+      "instruction_count": 2,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "fe_control": 1,
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run3",
+      "kind": "motif_scene",
+      "start": 224,
+      "start_hex": "0x00e0",
+      "end": 251,
+      "end_hex": "0x00fb",
+      "label": "管家麥克",
+      "text_range": [
+        19,
+        21
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run3",
+        "start": 224,
+        "start_hex": "0x00e0",
+        "end": 251,
+        "end_hex": "0x00fb",
+        "text_range": [
+          19,
+          21
+        ],
+        "record_count": 3,
+        "speakers": [
+          "管家麥克"
+        ],
+        "title": "管家麥克"
+      }
+    },
+    {
+      "id": "control_span_0x00fb_0x0102",
+      "kind": "control_span",
+      "start": 251,
+      "start_hex": "0x00fb",
+      "end": 258,
+      "end_hex": "0x0102",
+      "label": "control 0x00fb-0x0102",
+      "instruction_count": 2,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "fe_control": 1,
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run4",
+      "kind": "motif_scene",
+      "start": 258,
+      "start_hex": "0x0102",
+      "end": 510,
+      "end_hex": "0x01fe",
+      "label": "$s公爵",
+      "text_range": [
+        22,
+        49
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run4",
+        "start": 258,
+        "start_hex": "0x0102",
+        "end": 510,
+        "end_hex": "0x01fe",
+        "text_range": [
+          22,
+          49
+        ],
+        "record_count": 28,
+        "speakers": [
+          "$s公爵"
+        ],
+        "title": "$s公爵"
+      }
+    },
+    {
+      "id": "control_span_0x01fe_0x0201",
+      "kind": "control_span",
+      "start": 510,
+      "start_hex": "0x01fe",
+      "end": 513,
+      "end_hex": "0x0201",
+      "label": "control 0x01fe-0x0201",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "f9_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run5",
+      "kind": "motif_scene",
+      "start": 513,
+      "start_hex": "0x0201",
+      "end": 558,
+      "end_hex": "0x022e",
+      "label": "$s公爵 / 老水手洛克",
+      "text_range": [
+        50,
+        54
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run5",
+        "start": 513,
+        "start_hex": "0x0201",
+        "end": 558,
+        "end_hex": "0x022e",
+        "text_range": [
+          50,
+          54
+        ],
+        "record_count": 5,
+        "speakers": [
+          "$s公爵",
+          "老水手洛克"
+        ],
+        "title": "$s公爵 / 老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x022e_0x0240",
+      "kind": "control_span",
+      "start": 558,
+      "start_hex": "0x022e",
+      "end": 576,
+      "end_hex": "0x0240",
+      "label": "control 0x022e-0x0240",
+      "instruction_count": 7,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "fb_control": 1,
+        "2c_control": 1,
+        "fe_control": 1,
+        "f8_prefix_or_branch": 1,
+        "end_subscript": 1,
+        "ac_control": 1,
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run6",
+      "kind": "motif_scene",
+      "start": 576,
+      "start_hex": "0x0240",
+      "end": 585,
+      "end_hex": "0x0249",
+      "label": "紅鯨亭女老闆卡蕾珞娃",
+      "text_range": [
+        55,
+        55
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run6",
+        "start": 576,
+        "start_hex": "0x0240",
+        "end": 585,
+        "end_hex": "0x0249",
+        "text_range": [
+          55,
+          55
+        ],
+        "record_count": 1,
+        "speakers": [
+          "紅鯨亭女老闆卡蕾珞娃"
+        ],
+        "title": "紅鯨亭女老闆卡蕾珞娃"
+      }
+    },
+    {
+      "id": "control_span_0x0249_0x024d",
+      "kind": "control_span",
+      "start": 585,
+      "start_hex": "0x0249",
+      "end": 589,
+      "end_hex": "0x024d",
+      "label": "control 0x0249-0x024d",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run7",
+      "kind": "motif_scene",
+      "start": 589,
+      "start_hex": "0x024d",
+      "end": 625,
+      "end_hex": "0x0271",
+      "label": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞",
+      "text_range": [
+        56,
+        59
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run7",
+        "start": 589,
+        "start_hex": "0x024d",
+        "end": 625,
+        "end_hex": "0x0271",
+        "text_range": [
+          56,
+          59
+        ],
+        "record_count": 4,
+        "speakers": [
+          "紅鯨亭女老闆卡蕾珞娃",
+          "歌女路琪亞"
+        ],
+        "title": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞"
+      }
+    },
+    {
+      "id": "control_span_0x0271_0x0274",
+      "kind": "control_span",
+      "start": 625,
+      "start_hex": "0x0271",
+      "end": 628,
+      "end_hex": "0x0274",
+      "label": "control 0x0271-0x0274",
+      "instruction_count": 3,
+      "unknown_bytes": 3,
+      "op_counts": {
+        "db_c4": 1,
+        "db_ca": 1,
+        "db_04": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run8",
+      "kind": "motif_scene",
+      "start": 628,
+      "start_hex": "0x0274",
+      "end": 655,
+      "end_hex": "0x028f",
+      "label": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞",
+      "text_range": [
+        60,
+        62
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run8",
+        "start": 628,
+        "start_hex": "0x0274",
+        "end": 655,
+        "end_hex": "0x028f",
+        "text_range": [
+          60,
+          62
+        ],
+        "record_count": 3,
+        "speakers": [
+          "紅鯨亭女老闆卡蕾珞娃",
+          "歌女路琪亞"
+        ],
+        "title": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞"
+      }
+    },
+    {
+      "id": "control_span_0x028f_0x02a3",
+      "kind": "control_span",
+      "start": 655,
+      "start_hex": "0x028f",
+      "end": 675,
+      "end_hex": "0x02a3",
+      "label": "control 0x028f-0x02a3",
+      "instruction_count": 8,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "2c_control": 1,
+        "f8_prefix_or_branch": 1,
+        "ad_control": 2,
+        "ac_control": 1,
+        "show_text_byte": 1,
+        "db_00": 1,
+        "db_01": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run9",
+      "kind": "motif_scene",
+      "start": 675,
+      "start_hex": "0x02a3",
+      "end": 684,
+      "end_hex": "0x02ac",
+      "label": "歌女路琪亞",
+      "text_range": [
+        63,
+        63
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run9",
+        "start": 675,
+        "start_hex": "0x02a3",
+        "end": 684,
+        "end_hex": "0x02ac",
+        "text_range": [
+          63,
+          63
+        ],
+        "record_count": 1,
+        "speakers": [
+          "歌女路琪亞"
+        ],
+        "title": "歌女路琪亞"
+      }
+    },
+    {
+      "id": "control_span_0x02ac_0x02b5",
+      "kind": "control_span",
+      "start": 684,
+      "start_hex": "0x02ac",
+      "end": 693,
+      "end_hex": "0x02b5",
+      "label": "control 0x02ac-0x02b5",
+      "instruction_count": 5,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "f8_prefix_or_branch": 1,
+        "ac_control": 1,
+        "show_text_byte": 1,
+        "db_00": 1,
+        "db_01": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run10",
+      "kind": "motif_scene",
+      "start": 693,
+      "start_hex": "0x02b5",
+      "end": 819,
+      "end_hex": "0x0333",
+      "label": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞 / 老水手洛克",
+      "text_range": [
+        64,
+        77
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run10",
+        "start": 693,
+        "start_hex": "0x02b5",
+        "end": 819,
+        "end_hex": "0x0333",
+        "text_range": [
+          64,
+          77
+        ],
+        "record_count": 14,
+        "speakers": [
+          "紅鯨亭女老闆卡蕾珞娃",
+          "歌女路琪亞",
+          "老水手洛克"
+        ],
+        "title": "紅鯨亭女老闆卡蕾珞娃 / 歌女路琪亞 / 老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x0333_0x0339",
+      "kind": "control_span",
+      "start": 819,
+      "start_hex": "0x0333",
+      "end": 825,
+      "end_hex": "0x0339",
+      "label": "control 0x0333-0x0339",
+      "instruction_count": 4,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "show_text_byte": 1,
+        "db_03": 1,
+        "db_e8": 1,
+        "e6_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run11",
+      "kind": "motif_scene",
+      "start": 825,
+      "start_hex": "0x0339",
+      "end": 870,
+      "end_hex": "0x0366",
+      "label": "老水手洛克 / 歌女路琪亞",
+      "text_range": [
+        78,
+        82
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run11",
+        "start": 825,
+        "start_hex": "0x0339",
+        "end": 870,
+        "end_hex": "0x0366",
+        "text_range": [
+          78,
+          82
+        ],
+        "record_count": 5,
+        "speakers": [
+          "老水手洛克",
+          "歌女路琪亞"
+        ],
+        "title": "老水手洛克 / 歌女路琪亞"
+      }
+    },
+    {
+      "id": "control_span_0x0366_0x0367",
+      "kind": "control_span",
+      "start": 870,
+      "start_hex": "0x0366",
+      "end": 871,
+      "end_hex": "0x0367",
+      "label": "control 0x0366-0x0367",
+      "instruction_count": 1,
+      "unknown_bytes": 1,
+      "op_counts": {
+        "db_c4": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run12",
+      "kind": "motif_scene",
+      "start": 871,
+      "start_hex": "0x0367",
+      "end": 907,
+      "end_hex": "0x038b",
+      "label": "歌女路琪亞 / 老水手洛克",
+      "text_range": [
+        83,
+        86
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run12",
+        "start": 871,
+        "start_hex": "0x0367",
+        "end": 907,
+        "end_hex": "0x038b",
+        "text_range": [
+          83,
+          86
+        ],
+        "record_count": 4,
+        "speakers": [
+          "歌女路琪亞",
+          "老水手洛克"
+        ],
+        "title": "歌女路琪亞 / 老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x038b_0x03a4",
+      "kind": "control_span",
+      "start": 907,
+      "start_hex": "0x038b",
+      "end": 932,
+      "end_hex": "0x03a4",
+      "label": "control 0x038b-0x03a4",
+      "instruction_count": 10,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "dc_control": 2,
+        "0f_control": 2,
+        "db_64": 2,
+        "2c_control": 1,
+        "f8_prefix_or_branch": 1,
+        "end_subscript": 1,
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short44",
+      "kind": "short_text",
+      "start": 932,
+      "start_hex": "0x03a4",
+      "end": 938,
+      "end_hex": "0x03aa",
+      "label": "text 87",
+      "text_range": null,
+      "text_id": 87,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short44",
+        "kind": "short_text",
+        "start": 932,
+        "start_hex": "0x03a4",
+        "end": 938,
+        "end_hex": "0x03aa",
+        "text_id": 87,
+        "text": "哎呀，是$n先生呀，$s公爵正在找您呢．"
+      }
+    },
+    {
+      "id": "control_span_0x03aa_0x03ae",
+      "kind": "control_span",
+      "start": 938,
+      "start_hex": "0x03aa",
+      "end": 942,
+      "end_hex": "0x03ae",
+      "label": "control 0x03aa-0x03ae",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short45",
+      "kind": "short_text",
+      "start": 942,
+      "start_hex": "0x03ae",
+      "end": 948,
+      "end_hex": "0x03b4",
+      "label": "text 88",
+      "text_range": null,
+      "text_id": 88,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short45",
+        "kind": "short_text",
+        "start": 942,
+        "start_hex": "0x03ae",
+        "end": 948,
+        "end_hex": "0x03b4",
+        "text_id": 88,
+        "text": "$n先生，公爵閣下有令要把您當作平民對待，所以請您不要再來皇宮了．"
+      }
+    },
+    {
+      "id": "control_span_0x03b4_0x03c2",
+      "kind": "control_span",
+      "start": 948,
+      "start_hex": "0x03b4",
+      "end": 962,
+      "end_hex": "0x03c2",
+      "label": "control 0x03b4-0x03c2",
+      "instruction_count": 7,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "f8_prefix_or_branch": 1,
+        "end_subscript": 1,
+        "show_text_byte": 1,
+        "db_00": 1,
+        "db_01": 1,
+        "ac_control": 1,
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short46",
+      "kind": "short_text",
+      "start": 962,
+      "start_hex": "0x03c2",
+      "end": 968,
+      "end_hex": "0x03c8",
+      "label": "text 89",
+      "text_range": null,
+      "text_id": 89,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short46",
+        "kind": "short_text",
+        "start": 962,
+        "start_hex": "0x03c2",
+        "end": 968,
+        "end_hex": "0x03c8",
+        "text_id": 89,
+        "text": "$n先生，回公爵府了嗎？"
+      }
+    },
+    {
+      "id": "control_span_0x03c8_0x03cc",
+      "kind": "control_span",
+      "start": 968,
+      "start_hex": "0x03c8",
+      "end": 972,
+      "end_hex": "0x03cc",
+      "label": "control 0x03c8-0x03cc",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short47",
+      "kind": "short_text",
+      "start": 972,
+      "start_hex": "0x03cc",
+      "end": 978,
+      "end_hex": "0x03d2",
+      "label": "text 90",
+      "text_range": null,
+      "text_id": 90,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short47",
+        "kind": "short_text",
+        "start": 972,
+        "start_hex": "0x03cc",
+        "end": 978,
+        "end_hex": "0x03d2",
+        "text_id": 90,
+        "text": "〔菲利普主教〕\\n哎唷，$n先生，$s公爵家有人要去航海嗎？"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run13",
+      "kind": "motif_scene",
+      "start": 978,
+      "start_hex": "0x03d2",
+      "end": 987,
+      "end_hex": "0x03db",
+      "label": "João self/default lines",
+      "text_range": [
+        91,
+        91
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run13",
+        "start": 978,
+        "start_hex": "0x03d2",
+        "end": 987,
+        "end_hex": "0x03db",
+        "text_range": [
+          91,
+          91
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short48",
+      "kind": "short_text",
+      "start": 987,
+      "start_hex": "0x03db",
+      "end": 993,
+      "end_hex": "0x03e1",
+      "label": "text 92",
+      "text_range": null,
+      "text_id": 92,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short48",
+        "kind": "short_text",
+        "start": 987,
+        "start_hex": "0x03db",
+        "end": 993,
+        "end_hex": "0x03e1",
+        "text_id": 92,
+        "text": "其實，我是來找有經驗的水手的．嘿，真難找．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short49",
+      "kind": "short_text",
+      "start": 993,
+      "start_hex": "0x03e1",
+      "end": 999,
+      "end_hex": "0x03e7",
+      "label": "text 93",
+      "text_range": null,
+      "text_id": 93,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short49",
+        "kind": "short_text",
+        "start": 993,
+        "start_hex": "0x03e1",
+        "end": 999,
+        "end_hex": "0x03e7",
+        "text_id": 93,
+        "text": "啊，想起來了，從公爵府來的洛克先生正找您呢！"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run14",
+      "kind": "motif_scene",
+      "start": 999,
+      "start_hex": "0x03e7",
+      "end": 1008,
+      "end_hex": "0x03f0",
+      "label": "João self/default lines",
+      "text_range": [
+        94,
+        94
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run14",
+        "start": 999,
+        "start_hex": "0x03e7",
+        "end": 1008,
+        "end_hex": "0x03f0",
+        "text_range": [
+          94,
+          94
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "control_span_0x03f0_0x03fc",
+      "kind": "control_span",
+      "start": 1008,
+      "start_hex": "0x03f0",
+      "end": 1020,
+      "end_hex": "0x03fc",
+      "label": "control 0x03f0-0x03fc",
+      "instruction_count": 4,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "2c_control": 1,
+        "f8_prefix_or_branch": 1,
+        "ad_control": 2
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short50",
+      "kind": "short_text",
+      "start": 1020,
+      "start_hex": "0x03fc",
+      "end": 1026,
+      "end_hex": "0x0402",
+      "label": "text 95",
+      "text_range": null,
+      "text_id": 95,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short50",
+        "kind": "short_text",
+        "start": 1020,
+        "start_hex": "0x03fc",
+        "end": 1026,
+        "end_hex": "0x0402",
+        "text_id": 95,
+        "text": "噢，$n先生，恩里克神父的事就拜託您啦．"
+      }
+    },
+    {
+      "id": "control_span_0x0402_0x0409",
+      "kind": "control_span",
+      "start": 1026,
+      "start_hex": "0x0402",
+      "end": 1033,
+      "end_hex": "0x0409",
+      "label": "control 0x0402-0x0409",
+      "instruction_count": 2,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ac_control": 1,
+        "2c_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short51",
+      "kind": "short_text",
+      "start": 1033,
+      "start_hex": "0x0409",
+      "end": 1039,
+      "end_hex": "0x040f",
+      "label": "text 96",
+      "text_range": null,
+      "text_id": 96,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short51",
+        "kind": "short_text",
+        "start": 1033,
+        "start_hex": "0x0409",
+        "end": 1039,
+        "end_hex": "0x040f",
+        "text_id": 96,
+        "text": "另外，請把這些金幣作為資金的一部分使用吧．"
+      }
+    },
+    {
+      "id": "control_span_0x040f_0x0418",
+      "kind": "control_span",
+      "start": 1039,
+      "start_hex": "0x040f",
+      "end": 1048,
+      "end_hex": "0x0418",
+      "label": "control 0x040f-0x0418",
+      "instruction_count": 2,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "c9_control": 1,
+        "8c_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run15",
+      "kind": "motif_scene",
+      "start": 1048,
+      "start_hex": "0x0418",
+      "end": 1057,
+      "end_hex": "0x0421",
+      "label": "João self/default lines",
+      "text_range": [
+        98,
+        98
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run15",
+        "start": 1048,
+        "start_hex": "0x0418",
+        "end": 1057,
+        "end_hex": "0x0421",
+        "text_range": [
+          98,
+          98
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "control_span_0x0421_0x042c",
+      "kind": "control_span",
+      "start": 1057,
+      "start_hex": "0x0421",
+      "end": 1068,
+      "end_hex": "0x042c",
+      "label": "control 0x0421-0x042c",
+      "instruction_count": 5,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "show_text_byte": 1,
+        "db_03": 1,
+        "db_e8": 1,
+        "e6_control": 1,
+        "8c_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run16",
+      "kind": "motif_scene",
+      "start": 1068,
+      "start_hex": "0x042c",
+      "end": 1086,
+      "end_hex": "0x043e",
+      "label": "João self/default lines",
+      "text_range": [
+        99,
+        100
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run16",
+        "start": 1068,
+        "start_hex": "0x042c",
+        "end": 1086,
+        "end_hex": "0x043e",
+        "text_range": [
+          99,
+          100
+        ],
+        "record_count": 2,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short52",
+      "kind": "short_text",
+      "start": 1086,
+      "start_hex": "0x043e",
+      "end": 1092,
+      "end_hex": "0x0444",
+      "label": "text 101",
+      "text_range": null,
+      "text_id": 101,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short52",
+        "kind": "short_text",
+        "start": 1086,
+        "start_hex": "0x043e",
+        "end": 1092,
+        "end_hex": "0x0444",
+        "text_id": 101,
+        "text": "噢，您是虔誠的人．上帝會保佑您的！"
+      }
+    },
+    {
+      "id": "control_span_0x0444_0x0454",
+      "kind": "control_span",
+      "start": 1092,
+      "start_hex": "0x0444",
+      "end": 1108,
+      "end_hex": "0x0454",
+      "label": "control 0x0444-0x0454",
+      "instruction_count": 5,
+      "unknown_bytes": 1,
+      "op_counts": {
+        "dc_control": 1,
+        "db_1c": 1,
+        "4c_control": 1,
+        "1d_control": 1,
+        "8c_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run17",
+      "kind": "motif_scene",
+      "start": 1108,
+      "start_hex": "0x0454",
+      "end": 1117,
+      "end_hex": "0x045d",
+      "label": "João self/default lines",
+      "text_range": [
+        102,
+        102
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run17",
+        "start": 1108,
+        "start_hex": "0x0454",
+        "end": 1117,
+        "end_hex": "0x045d",
+        "text_range": [
+          102,
+          102
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short53",
+      "kind": "short_text",
+      "start": 1117,
+      "start_hex": "0x045d",
+      "end": 1123,
+      "end_hex": "0x0463",
+      "label": "text 103",
+      "text_range": null,
+      "text_id": 103,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short53",
+        "kind": "short_text",
+        "start": 1117,
+        "start_hex": "0x045d",
+        "end": 1123,
+        "end_hex": "0x0463",
+        "text_id": 103,
+        "text": "噢，您真謙虛啊！"
+      }
+    },
+    {
+      "id": "control_span_0x0463_0x0467",
+      "kind": "control_span",
+      "start": 1123,
+      "start_hex": "0x0463",
+      "end": 1127,
+      "end_hex": "0x0467",
+      "label": "control 0x0463-0x0467",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short54",
+      "kind": "short_text",
+      "start": 1127,
+      "start_hex": "0x0467",
+      "end": 1133,
+      "end_hex": "0x046d",
+      "label": "text 104",
+      "text_range": null,
+      "text_id": 104,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short54",
+        "kind": "short_text",
+        "start": 1127,
+        "start_hex": "0x0467",
+        "end": 1133,
+        "end_hex": "0x046d",
+        "text_id": 104,
+        "text": "〔菲利普主教〕\\n噢，$n先生，感謝您光臨．"
+      }
+    },
+    {
+      "id": "control_span_0x046d_0x0471",
+      "kind": "control_span",
+      "start": 1133,
+      "start_hex": "0x046d",
+      "end": 1137,
+      "end_hex": "0x0471",
+      "label": "control 0x046d-0x0471",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run18",
+      "kind": "motif_scene",
+      "start": 1137,
+      "start_hex": "0x0471",
+      "end": 1146,
+      "end_hex": "0x047a",
+      "label": "João self/default lines",
+      "text_range": [
+        105,
+        105
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run18",
+        "start": 1137,
+        "start_hex": "0x0471",
+        "end": 1146,
+        "end_hex": "0x047a",
+        "text_range": [
+          105,
+          105
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short55",
+      "kind": "short_text",
+      "start": 1146,
+      "start_hex": "0x047a",
+      "end": 1152,
+      "end_hex": "0x0480",
+      "label": "text 106",
+      "text_range": null,
+      "text_id": 106,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short55",
+        "kind": "short_text",
+        "start": 1146,
+        "start_hex": "0x047a",
+        "end": 1152,
+        "end_hex": "0x0480",
+        "text_id": 106,
+        "text": "是啊，我要拜託您辦點事．"
+      }
+    },
+    {
+      "id": "control_span_0x0480_0x0484",
+      "kind": "control_span",
+      "start": 1152,
+      "start_hex": "0x0480",
+      "end": 1156,
+      "end_hex": "0x0484",
+      "label": "control 0x0480-0x0484",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run19",
+      "kind": "motif_scene",
+      "start": 1156,
+      "start_hex": "0x0484",
+      "end": 1165,
+      "end_hex": "0x048d",
+      "label": "João self/default lines",
+      "text_range": [
+        107,
+        107
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run19",
+        "start": 1156,
+        "start_hex": "0x0484",
+        "end": 1165,
+        "end_hex": "0x048d",
+        "text_range": [
+          107,
+          107
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short56",
+      "kind": "short_text",
+      "start": 1165,
+      "start_hex": "0x048d",
+      "end": 1171,
+      "end_hex": "0x0493",
+      "label": "text 108",
+      "text_range": null,
+      "text_id": 108,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short56",
+        "kind": "short_text",
+        "start": 1165,
+        "start_hex": "0x048d",
+        "end": 1171,
+        "end_hex": "0x0493",
+        "text_id": 108,
+        "text": "是啊，我聽說$n先生要出海，是嗎？"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short57",
+      "kind": "short_text",
+      "start": 1171,
+      "start_hex": "0x0493",
+      "end": 1177,
+      "end_hex": "0x0499",
+      "label": "text 109",
+      "text_range": null,
+      "text_id": 109,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short57",
+        "kind": "short_text",
+        "start": 1171,
+        "start_hex": "0x0493",
+        "end": 1177,
+        "end_hex": "0x0499",
+        "text_id": 109,
+        "text": "尋找傳說中的普萊斯特·約翰王國是我們基督教徒的使命，祝您成功．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short58",
+      "kind": "short_text",
+      "start": 1177,
+      "start_hex": "0x0499",
+      "end": 1183,
+      "end_hex": "0x049f",
+      "label": "text 110",
+      "text_range": null,
+      "text_id": 110,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short58",
+        "kind": "short_text",
+        "start": 1177,
+        "start_hex": "0x0499",
+        "end": 1183,
+        "end_hex": "0x049f",
+        "text_id": 110,
+        "text": "還有一件事，我有個宿願，希望您能幫我實現．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short59",
+      "kind": "short_text",
+      "start": 1183,
+      "start_hex": "0x049f",
+      "end": 1189,
+      "end_hex": "0x04a5",
+      "label": "text 111",
+      "text_range": null,
+      "text_id": 111,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short59",
+        "kind": "short_text",
+        "start": 1183,
+        "start_hex": "0x049f",
+        "end": 1189,
+        "end_hex": "0x04a5",
+        "text_id": 111,
+        "text": "恩里克，恩里克神父，這邊來．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run20",
+      "kind": "motif_scene",
+      "start": 1189,
+      "start_hex": "0x04a5",
+      "end": 1198,
+      "end_hex": "0x04ae",
+      "label": "恩里克神父",
+      "text_range": [
+        112,
+        112
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run20",
+        "start": 1189,
+        "start_hex": "0x04a5",
+        "end": 1198,
+        "end_hex": "0x04ae",
+        "text_range": [
+          112,
+          112
+        ],
+        "record_count": 1,
+        "speakers": [
+          "恩里克神父"
+        ],
+        "title": "恩里克神父"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short60",
+      "kind": "short_text",
+      "start": 1198,
+      "start_hex": "0x04ae",
+      "end": 1204,
+      "end_hex": "0x04b4",
+      "label": "text 113",
+      "text_range": null,
+      "text_id": 113,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short60",
+        "kind": "short_text",
+        "start": 1198,
+        "start_hex": "0x04ae",
+        "end": 1204,
+        "end_hex": "0x04b4",
+        "text_id": 113,
+        "text": "這是從弗朗西斯科會派遣來的傳教士，叫恩里克．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short61",
+      "kind": "short_text",
+      "start": 1204,
+      "start_hex": "0x04b4",
+      "end": 1210,
+      "end_hex": "0x04ba",
+      "label": "text 114",
+      "text_range": null,
+      "text_id": 114,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short61",
+        "kind": "short_text",
+        "start": 1204,
+        "start_hex": "0x04b4",
+        "end": 1210,
+        "end_hex": "0x04ba",
+        "text_id": 114,
+        "text": "$n先生，您可能知道法王廳想向東方傳教吧．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short62",
+      "kind": "short_text",
+      "start": 1210,
+      "start_hex": "0x04ba",
+      "end": 1216,
+      "end_hex": "0x04c0",
+      "label": "text 115",
+      "text_range": null,
+      "text_id": 115,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short62",
+        "kind": "short_text",
+        "start": 1210,
+        "start_hex": "0x04ba",
+        "end": 1216,
+        "end_hex": "0x04c0",
+        "text_id": 115,
+        "text": "拜託您把他送到日本吧．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run21",
+      "kind": "motif_scene",
+      "start": 1216,
+      "start_hex": "0x04c0",
+      "end": 1270,
+      "end_hex": "0x04f6",
+      "label": "恩里克神父",
+      "text_range": [
+        116,
+        121
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run21",
+        "start": 1216,
+        "start_hex": "0x04c0",
+        "end": 1270,
+        "end_hex": "0x04f6",
+        "text_range": [
+          116,
+          121
+        ],
+        "record_count": 6,
+        "speakers": [
+          "恩里克神父"
+        ],
+        "title": "恩里克神父"
+      }
+    },
+    {
+      "id": "control_span_0x04f6_0x04f8",
+      "kind": "control_span",
+      "start": 1270,
+      "start_hex": "0x04f6",
+      "end": 1272,
+      "end_hex": "0x04f8",
+      "label": "control 0x04f6-0x04f8",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "fb_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run22",
+      "kind": "motif_scene",
+      "start": 1272,
+      "start_hex": "0x04f8",
+      "end": 1299,
+      "end_hex": "0x0513",
+      "label": "老水手洛克",
+      "text_range": [
+        122,
+        124
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run22",
+        "start": 1272,
+        "start_hex": "0x04f8",
+        "end": 1299,
+        "end_hex": "0x0513",
+        "text_range": [
+          122,
+          124
+        ],
+        "record_count": 3,
+        "speakers": [
+          "老水手洛克"
+        ],
+        "title": "老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x0513_0x053b",
+      "kind": "control_span",
+      "start": 1299,
+      "start_hex": "0x0513",
+      "end": 1339,
+      "end_hex": "0x053b",
+      "label": "control 0x0513-0x053b",
+      "instruction_count": 14,
+      "unknown_bytes": 4,
+      "op_counts": {
+        "dc_control": 2,
+        "15_control": 2,
+        "db_01": 2,
+        "db_20": 2,
+        "11_control": 2,
+        "2c_control": 1,
+        "end_subscript": 1,
+        "ac_control": 2
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short63",
+      "kind": "short_text",
+      "start": 1339,
+      "start_hex": "0x053b",
+      "end": 1345,
+      "end_hex": "0x0541",
+      "label": "text 125",
+      "text_range": null,
+      "text_id": 125,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short63",
+        "kind": "short_text",
+        "start": 1339,
+        "start_hex": "0x053b",
+        "end": 1345,
+        "end_hex": "0x0541",
+        "text_id": 125,
+        "text": "少爺，我是受$s公爵之命造船的，到底是哪位要用這條船呀？"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run23",
+      "kind": "motif_scene",
+      "start": 1345,
+      "start_hex": "0x0541",
+      "end": 1354,
+      "end_hex": "0x054a",
+      "label": "João self/default lines",
+      "text_range": [
+        126,
+        126
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run23",
+        "start": 1345,
+        "start_hex": "0x0541",
+        "end": 1354,
+        "end_hex": "0x054a",
+        "text_range": [
+          126,
+          126
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short64",
+      "kind": "short_text",
+      "start": 1354,
+      "start_hex": "0x054a",
+      "end": 1360,
+      "end_hex": "0x0550",
+      "label": "text 127",
+      "text_range": null,
+      "text_id": 127,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short64",
+        "kind": "short_text",
+        "start": 1354,
+        "start_hex": "0x054a",
+        "end": 1360,
+        "end_hex": "0x0550",
+        "text_id": 127,
+        "text": "對了，想起來了．洛克正找您呢，說要您回公爵府．"
+      }
+    },
+    {
+      "id": "control_span_0x0550_0x0554",
+      "kind": "control_span",
+      "start": 1360,
+      "start_hex": "0x0550",
+      "end": 1364,
+      "end_hex": "0x0554",
+      "label": "control 0x0550-0x0554",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run24",
+      "kind": "motif_scene",
+      "start": 1364,
+      "start_hex": "0x0554",
+      "end": 1373,
+      "end_hex": "0x055d",
+      "label": "老水手洛克",
+      "text_range": [
+        128,
+        128
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run24",
+        "start": 1364,
+        "start_hex": "0x0554",
+        "end": 1373,
+        "end_hex": "0x055d",
+        "text_range": [
+          128,
+          128
+        ],
+        "record_count": 1,
+        "speakers": [
+          "老水手洛克"
+        ],
+        "title": "老水手洛克"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short65",
+      "kind": "short_text",
+      "start": 1373,
+      "start_hex": "0x055d",
+      "end": 1379,
+      "end_hex": "0x0563",
+      "label": "text 129",
+      "text_range": null,
+      "text_id": 129,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short65",
+        "kind": "short_text",
+        "start": 1373,
+        "start_hex": "0x055d",
+        "end": 1379,
+        "end_hex": "0x0563",
+        "text_id": 129,
+        "text": "原來是你呀，洛克，已經造好了．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short66",
+      "kind": "short_text",
+      "start": 1379,
+      "start_hex": "0x0563",
+      "end": 1385,
+      "end_hex": "0x0569",
+      "label": "text 130",
+      "text_range": null,
+      "text_id": 130,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short66",
+        "kind": "short_text",
+        "start": 1379,
+        "start_hex": "0x0563",
+        "end": 1385,
+        "end_hex": "0x0569",
+        "text_id": 130,
+        "text": "按照萊昂公爵的命令，要把它造成同公爵首次坐的船一樣的拉丁級船．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short67",
+      "kind": "short_text",
+      "start": 1385,
+      "start_hex": "0x0569",
+      "end": 1391,
+      "end_hex": "0x056f",
+      "label": "text 131",
+      "text_range": null,
+      "text_id": 131,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short67",
+        "kind": "short_text",
+        "start": 1385,
+        "start_hex": "0x0569",
+        "end": 1391,
+        "end_hex": "0x056f",
+        "text_id": 131,
+        "text": "船名是『海盧梅思2世』，是一種三角帆船，它易於操縱，適於初學者．"
+      }
+    },
+    {
+      "id": "control_span_0x056f_0x0580",
+      "kind": "control_span",
+      "start": 1391,
+      "start_hex": "0x056f",
+      "end": 1408,
+      "end_hex": "0x0580",
+      "label": "control 0x056f-0x0580",
+      "instruction_count": 8,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "fa_control": 1,
+        "2c_control": 1,
+        "f8_prefix_or_branch": 1,
+        "end_subscript": 1,
+        "ac_control": 1,
+        "show_text_byte": 1,
+        "db_00": 1,
+        "db_01": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short68",
+      "kind": "short_text",
+      "start": 1408,
+      "start_hex": "0x0580",
+      "end": 1414,
+      "end_hex": "0x0586",
+      "label": "text 133",
+      "text_range": null,
+      "text_id": 133,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short68",
+        "kind": "short_text",
+        "start": 1408,
+        "start_hex": "0x0580",
+        "end": 1414,
+        "end_hex": "0x0586",
+        "text_id": 133,
+        "text": "$n先生，你如果有什麼困難就去酒館吧．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short69",
+      "kind": "short_text",
+      "start": 1414,
+      "start_hex": "0x0586",
+      "end": 1420,
+      "end_hex": "0x058c",
+      "label": "text 134",
+      "text_range": null,
+      "text_id": 134,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short69",
+        "kind": "short_text",
+        "start": 1414,
+        "start_hex": "0x0586",
+        "end": 1420,
+        "end_hex": "0x058c",
+        "text_id": 134,
+        "text": "那家的老闆娘叫卡蕾珞娃，聽說令尊年輕時曾得到過她的幫助．"
+      }
+    },
+    {
+      "id": "control_span_0x058c_0x0594",
+      "kind": "control_span",
+      "start": 1420,
+      "start_hex": "0x058c",
+      "end": 1428,
+      "end_hex": "0x0594",
+      "label": "control 0x058c-0x0594",
+      "instruction_count": 2,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ad_control": 1,
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run25",
+      "kind": "motif_scene",
+      "start": 1428,
+      "start_hex": "0x0594",
+      "end": 1437,
+      "end_hex": "0x059d",
+      "label": "老水手洛克",
+      "text_range": [
+        135,
+        135
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run25",
+        "start": 1428,
+        "start_hex": "0x0594",
+        "end": 1437,
+        "end_hex": "0x059d",
+        "text_range": [
+          135,
+          135
+        ],
+        "record_count": 1,
+        "speakers": [
+          "老水手洛克"
+        ],
+        "title": "老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x059d_0x05a4",
+      "kind": "control_span",
+      "start": 1437,
+      "start_hex": "0x059d",
+      "end": 1444,
+      "end_hex": "0x05a4",
+      "label": "control 0x059d-0x05a4",
+      "instruction_count": 2,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "fe_control": 1,
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short70",
+      "kind": "short_text",
+      "start": 1444,
+      "start_hex": "0x05a4",
+      "end": 1450,
+      "end_hex": "0x05aa",
+      "label": "text 136",
+      "text_range": null,
+      "text_id": 136,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short70",
+        "kind": "short_text",
+        "start": 1444,
+        "start_hex": "0x05a4",
+        "end": 1450,
+        "end_hex": "0x05aa",
+        "text_id": 136,
+        "text": "$n先生，菲利普主教正找您呢．"
+      }
+    },
+    {
+      "id": "control_span_0x05aa_0x05ae",
+      "kind": "control_span",
+      "start": 1450,
+      "start_hex": "0x05aa",
+      "end": 1454,
+      "end_hex": "0x05ae",
+      "label": "control 0x05aa-0x05ae",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run26",
+      "kind": "motif_scene",
+      "start": 1454,
+      "start_hex": "0x05ae",
+      "end": 1463,
+      "end_hex": "0x05b7",
+      "label": "João self/default lines",
+      "text_range": [
+        137,
+        137
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run26",
+        "start": 1454,
+        "start_hex": "0x05ae",
+        "end": 1463,
+        "end_hex": "0x05b7",
+        "text_range": [
+          137,
+          137
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "control_span_0x05b7_0x05bb",
+      "kind": "control_span",
+      "start": 1463,
+      "start_hex": "0x05b7",
+      "end": 1467,
+      "end_hex": "0x05bb",
+      "label": "control 0x05b7-0x05bb",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run27",
+      "kind": "motif_scene",
+      "start": 1467,
+      "start_hex": "0x05bb",
+      "end": 1476,
+      "end_hex": "0x05c4",
+      "label": "João self/default lines",
+      "text_range": [
+        138,
+        138
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run27",
+        "start": 1467,
+        "start_hex": "0x05bb",
+        "end": 1476,
+        "end_hex": "0x05c4",
+        "text_range": [
+          138,
+          138
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "control_span_0x05c4_0x05d4",
+      "kind": "control_span",
+      "start": 1476,
+      "start_hex": "0x05c4",
+      "end": 1492,
+      "end_hex": "0x05d4",
+      "label": "control 0x05c4-0x05d4",
+      "instruction_count": 5,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "f8_prefix_or_branch": 1,
+        "fe_control": 1,
+        "ac_control": 3
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run28",
+      "kind": "motif_scene",
+      "start": 1492,
+      "start_hex": "0x05d4",
+      "end": 1501,
+      "end_hex": "0x05dd",
+      "label": "老水手洛克",
+      "text_range": [
+        139,
+        139
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run28",
+        "start": 1492,
+        "start_hex": "0x05d4",
+        "end": 1501,
+        "end_hex": "0x05dd",
+        "text_range": [
+          139,
+          139
+        ],
+        "record_count": 1,
+        "speakers": [
+          "老水手洛克"
+        ],
+        "title": "老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x05dd_0x05e1",
+      "kind": "control_span",
+      "start": 1501,
+      "start_hex": "0x05dd",
+      "end": 1505,
+      "end_hex": "0x05e1",
+      "label": "control 0x05dd-0x05e1",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run29",
+      "kind": "motif_scene",
+      "start": 1505,
+      "start_hex": "0x05e1",
+      "end": 1514,
+      "end_hex": "0x05ea",
+      "label": "老水手洛克",
+      "text_range": [
+        140,
+        140
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run29",
+        "start": 1505,
+        "start_hex": "0x05e1",
+        "end": 1514,
+        "end_hex": "0x05ea",
+        "text_range": [
+          140,
+          140
+        ],
+        "record_count": 1,
+        "speakers": [
+          "老水手洛克"
+        ],
+        "title": "老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x05ea_0x05ee",
+      "kind": "control_span",
+      "start": 1514,
+      "start_hex": "0x05ea",
+      "end": 1518,
+      "end_hex": "0x05ee",
+      "label": "control 0x05ea-0x05ee",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run30",
+      "kind": "motif_scene",
+      "start": 1518,
+      "start_hex": "0x05ee",
+      "end": 1527,
+      "end_hex": "0x05f7",
+      "label": "老水手洛克",
+      "text_range": [
+        141,
+        141
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run30",
+        "start": 1518,
+        "start_hex": "0x05ee",
+        "end": 1527,
+        "end_hex": "0x05f7",
+        "text_range": [
+          141,
+          141
+        ],
+        "record_count": 1,
+        "speakers": [
+          "老水手洛克"
+        ],
+        "title": "老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x05f7_0x05fe",
+      "kind": "control_span",
+      "start": 1527,
+      "start_hex": "0x05f7",
+      "end": 1534,
+      "end_hex": "0x05fe",
+      "label": "control 0x05f7-0x05fe",
+      "instruction_count": 2,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "fe_control": 1,
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run31",
+      "kind": "motif_scene",
+      "start": 1534,
+      "start_hex": "0x05fe",
+      "end": 1678,
+      "end_hex": "0x068e",
+      "label": "老水手洛克 / 恩里克神父",
+      "text_range": [
+        142,
+        157
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run31",
+        "start": 1534,
+        "start_hex": "0x05fe",
+        "end": 1678,
+        "end_hex": "0x068e",
+        "text_range": [
+          142,
+          157
+        ],
+        "record_count": 16,
+        "speakers": [
+          "老水手洛克",
+          "恩里克神父"
+        ],
+        "title": "老水手洛克 / 恩里克神父"
+      }
+    },
+    {
+      "id": "control_span_0x068e_0x069b",
+      "kind": "control_span",
+      "start": 1678,
+      "start_hex": "0x068e",
+      "end": 1691,
+      "end_hex": "0x069b",
+      "label": "control 0x068e-0x069b",
+      "instruction_count": 6,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "dc_control": 1,
+        "2e_control": 1,
+        "show_text_byte": 1,
+        "8d_control": 1,
+        "db_07": 1,
+        "db_3c": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run32",
+      "kind": "motif_scene",
+      "start": 1691,
+      "start_hex": "0x069b",
+      "end": 1700,
+      "end_hex": "0x06a4",
+      "label": "老水手洛克",
+      "text_range": [
+        158,
+        158
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run32",
+        "start": 1691,
+        "start_hex": "0x069b",
+        "end": 1700,
+        "end_hex": "0x06a4",
+        "text_range": [
+          158,
+          158
+        ],
+        "record_count": 1,
+        "speakers": [
+          "老水手洛克"
+        ],
+        "title": "老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x06a4_0x06aa",
+      "kind": "control_span",
+      "start": 1700,
+      "start_hex": "0x06a4",
+      "end": 1706,
+      "end_hex": "0x06aa",
+      "label": "control 0x06a4-0x06aa",
+      "instruction_count": 2,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "e9_control": 1,
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run33",
+      "kind": "motif_scene",
+      "start": 1706,
+      "start_hex": "0x06aa",
+      "end": 1715,
+      "end_hex": "0x06b3",
+      "label": "João self/default lines",
+      "text_range": [
+        159,
+        159
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run33",
+        "start": 1706,
+        "start_hex": "0x06aa",
+        "end": 1715,
+        "end_hex": "0x06b3",
+        "text_range": [
+          159,
+          159
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "control_span_0x06b3_0x06c8",
+      "kind": "control_span",
+      "start": 1715,
+      "start_hex": "0x06b3",
+      "end": 1736,
+      "end_hex": "0x06c8",
+      "label": "control 0x06b3-0x06c8",
+      "instruction_count": 10,
+      "unknown_bytes": 4,
+      "op_counts": {
+        "dc_control": 2,
+        "2e_control": 2,
+        "db_00": 1,
+        "db_04": 1,
+        "show_text_byte": 1,
+        "8d_control": 1,
+        "db_07": 1,
+        "db_05": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run34",
+      "kind": "motif_scene",
+      "start": 1736,
+      "start_hex": "0x06c8",
+      "end": 1745,
+      "end_hex": "0x06d1",
+      "label": "João self/default lines",
+      "text_range": [
+        160,
+        160
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run34",
+        "start": 1736,
+        "start_hex": "0x06c8",
+        "end": 1745,
+        "end_hex": "0x06d1",
+        "text_range": [
+          160,
+          160
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "control_span_0x06d1_0x06d9",
+      "kind": "control_span",
+      "start": 1745,
+      "start_hex": "0x06d1",
+      "end": 1753,
+      "end_hex": "0x06d9",
+      "label": "control 0x06d1-0x06d9",
+      "instruction_count": 4,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "dc_control": 1,
+        "2e_control": 1,
+        "db_00": 1,
+        "db_03": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run35",
+      "kind": "motif_scene",
+      "start": 1753,
+      "start_hex": "0x06d9",
+      "end": 1771,
+      "end_hex": "0x06eb",
+      "label": "恩里克神父",
+      "text_range": [
+        161,
+        162
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run35",
+        "start": 1753,
+        "start_hex": "0x06d9",
+        "end": 1771,
+        "end_hex": "0x06eb",
+        "text_range": [
+          161,
+          162
+        ],
+        "record_count": 2,
+        "speakers": [
+          "恩里克神父"
+        ],
+        "title": "恩里克神父"
+      }
+    },
+    {
+      "id": "control_span_0x06eb_0x06ef",
+      "kind": "control_span",
+      "start": 1771,
+      "start_hex": "0x06eb",
+      "end": 1775,
+      "end_hex": "0x06ef",
+      "label": "control 0x06eb-0x06ef",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run36",
+      "kind": "motif_scene",
+      "start": 1775,
+      "start_hex": "0x06ef",
+      "end": 1802,
+      "end_hex": "0x070a",
+      "label": "恩里克神父",
+      "text_range": [
+        163,
+        165
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run36",
+        "start": 1775,
+        "start_hex": "0x06ef",
+        "end": 1802,
+        "end_hex": "0x070a",
+        "text_range": [
+          163,
+          165
+        ],
+        "record_count": 3,
+        "speakers": [
+          "恩里克神父"
+        ],
+        "title": "恩里克神父"
+      }
+    },
+    {
+      "id": "control_span_0x070a_0x0710",
+      "kind": "control_span",
+      "start": 1802,
+      "start_hex": "0x070a",
+      "end": 1808,
+      "end_hex": "0x0710",
+      "label": "control 0x070a-0x0710",
+      "instruction_count": 2,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "2c_control": 1,
+        "fe_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run37",
+      "kind": "motif_scene",
+      "start": 1808,
+      "start_hex": "0x0710",
+      "end": 1817,
+      "end_hex": "0x0719",
+      "label": "老水手洛克",
+      "text_range": [
+        166,
+        166
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run37",
+        "start": 1808,
+        "start_hex": "0x0710",
+        "end": 1817,
+        "end_hex": "0x0719",
+        "text_range": [
+          166,
+          166
+        ],
+        "record_count": 1,
+        "speakers": [
+          "老水手洛克"
+        ],
+        "title": "老水手洛克"
+      }
+    },
+    {
+      "id": "control_span_0x0719_0x0721",
+      "kind": "control_span",
+      "start": 1817,
+      "start_hex": "0x0719",
+      "end": 1825,
+      "end_hex": "0x0721",
+      "label": "control 0x0719-0x0721",
+      "instruction_count": 3,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "2c_control": 1,
+        "end_subscript": 1,
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short71",
+      "kind": "short_text",
+      "start": 1825,
+      "start_hex": "0x0721",
+      "end": 1831,
+      "end_hex": "0x0727",
+      "label": "text 167",
+      "text_range": null,
+      "text_id": 167,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short71",
+        "kind": "short_text",
+        "start": 1825,
+        "start_hex": "0x0721",
+        "end": 1831,
+        "end_hex": "0x0727",
+        "text_id": 167,
+        "text": "經常受到$s公爵的關照．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short72",
+      "kind": "short_text",
+      "start": 1831,
+      "start_hex": "0x0727",
+      "end": 1837,
+      "end_hex": "0x072d",
+      "label": "text 168",
+      "text_range": null,
+      "text_id": 168,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short72",
+        "kind": "short_text",
+        "start": 1831,
+        "start_hex": "0x0727",
+        "end": 1837,
+        "end_hex": "0x072d",
+        "text_id": 168,
+        "text": "洛克先生從公爵府來找您了．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short73",
+      "kind": "short_text",
+      "start": 1837,
+      "start_hex": "0x072d",
+      "end": 1843,
+      "end_hex": "0x0733",
+      "label": "text 169",
+      "text_range": null,
+      "text_id": 169,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short73",
+        "kind": "short_text",
+        "start": 1837,
+        "start_hex": "0x072d",
+        "end": 1843,
+        "end_hex": "0x0733",
+        "text_id": 169,
+        "text": "說起做生意，從本港買的岩鹽能在地中海賣高價．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short74",
+      "kind": "short_text",
+      "start": 1843,
+      "start_hex": "0x0733",
+      "end": 1849,
+      "end_hex": "0x0739",
+      "label": "text 170",
+      "text_range": null,
+      "text_id": 170,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short74",
+        "kind": "short_text",
+        "start": 1843,
+        "start_hex": "0x0733",
+        "end": 1849,
+        "end_hex": "0x0739",
+        "text_id": 170,
+        "text": "和塞維爾的陶瓷器，可以在兩地之間做生意．"
+      }
+    },
+    {
+      "id": "control_span_0x0739_0x0742",
+      "kind": "control_span",
+      "start": 1849,
+      "start_hex": "0x0739",
+      "end": 1858,
+      "end_hex": "0x0742",
+      "label": "control 0x0739-0x0742",
+      "instruction_count": 3,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "f8_prefix_or_branch": 1,
+        "ad_control": 1,
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short75",
+      "kind": "short_text",
+      "start": 1858,
+      "start_hex": "0x0742",
+      "end": 1864,
+      "end_hex": "0x0748",
+      "label": "text 171",
+      "text_range": null,
+      "text_id": 171,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short75",
+        "kind": "short_text",
+        "start": 1858,
+        "start_hex": "0x0742",
+        "end": 1864,
+        "end_hex": "0x0748",
+        "text_id": 171,
+        "text": "$n先生，對不起，好像您沒有船．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short76",
+      "kind": "short_text",
+      "start": 1864,
+      "start_hex": "0x0748",
+      "end": 1870,
+      "end_hex": "0x074e",
+      "label": "text 172",
+      "text_range": null,
+      "text_id": 172,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short76",
+        "kind": "short_text",
+        "start": 1864,
+        "start_hex": "0x0748",
+        "end": 1870,
+        "end_hex": "0x074e",
+        "text_id": 172,
+        "text": "請您有了船，再來吧！"
+      }
+    },
+    {
+      "id": "control_span_0x074e_0x0758",
+      "kind": "control_span",
+      "start": 1870,
+      "start_hex": "0x074e",
+      "end": 1880,
+      "end_hex": "0x0758",
+      "label": "control 0x074e-0x0758",
+      "instruction_count": 6,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "f8_prefix_or_branch": 1,
+        "end_subscript": 1,
+        "show_text_byte": 1,
+        "db_00": 1,
+        "db_01": 1,
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short77",
+      "kind": "short_text",
+      "start": 1880,
+      "start_hex": "0x0758",
+      "end": 1886,
+      "end_hex": "0x075e",
+      "label": "text 173",
+      "text_range": null,
+      "text_id": 173,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short77",
+        "kind": "short_text",
+        "start": 1880,
+        "start_hex": "0x0758",
+        "end": 1886,
+        "end_hex": "0x075e",
+        "text_id": 173,
+        "text": "$n先生，洛克先生從公爵府來找您了．"
+      }
+    },
+    {
+      "id": "control_span_0x075e_0x0767",
+      "kind": "control_span",
+      "start": 1886,
+      "start_hex": "0x075e",
+      "end": 1895,
+      "end_hex": "0x0767",
+      "label": "control 0x075e-0x0767",
+      "instruction_count": 3,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "f8_prefix_or_branch": 1,
+        "ad_control": 1,
+        "ac_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short78",
+      "kind": "short_text",
+      "start": 1895,
+      "start_hex": "0x0767",
+      "end": 1901,
+      "end_hex": "0x076d",
+      "label": "text 174",
+      "text_range": null,
+      "text_id": 174,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short78",
+        "kind": "short_text",
+        "start": 1895,
+        "start_hex": "0x0767",
+        "end": 1901,
+        "end_hex": "0x076d",
+        "text_id": 174,
+        "text": "$n先生，有要代管的東西吧？"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run38",
+      "kind": "motif_scene",
+      "start": 1901,
+      "start_hex": "0x076d",
+      "end": 1910,
+      "end_hex": "0x0776",
+      "label": "João self/default lines",
+      "text_range": [
+        175,
+        175
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run38",
+        "start": 1901,
+        "start_hex": "0x076d",
+        "end": 1910,
+        "end_hex": "0x0776",
+        "text_range": [
+          175,
+          175
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short79",
+      "kind": "short_text",
+      "start": 1910,
+      "start_hex": "0x0776",
+      "end": 1916,
+      "end_hex": "0x077c",
+      "label": "text 176",
+      "text_range": null,
+      "text_id": 176,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short79",
+        "kind": "short_text",
+        "start": 1910,
+        "start_hex": "0x0776",
+        "end": 1916,
+        "end_hex": "0x077c",
+        "text_id": 176,
+        "text": "公爵府管家的麥克先生，叫我等您來了，把花劍給您．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short80",
+      "kind": "short_text",
+      "start": 1916,
+      "start_hex": "0x077c",
+      "end": 1922,
+      "end_hex": "0x0782",
+      "label": "text 177",
+      "text_range": null,
+      "text_id": 177,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short80",
+        "kind": "short_text",
+        "start": 1916,
+        "start_hex": "0x077c",
+        "end": 1922,
+        "end_hex": "0x0782",
+        "text_id": 177,
+        "text": "費用已付，請拿走吧．"
+      }
+    },
+    {
+      "id": "control_span_0x0782_0x0794",
+      "kind": "control_span",
+      "start": 1922,
+      "start_hex": "0x0782",
+      "end": 1940,
+      "end_hex": "0x0794",
+      "label": "control 0x0782-0x0794",
+      "instruction_count": 6,
+      "unknown_bytes": 1,
+      "op_counts": {
+        "dc_control": 1,
+        "db_3f": 1,
+        "4c_control": 1,
+        "1d_control": 1,
+        "2c_control": 1,
+        "ad_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short81",
+      "kind": "short_text",
+      "start": 1940,
+      "start_hex": "0x0794",
+      "end": 1946,
+      "end_hex": "0x079a",
+      "label": "text 178",
+      "text_range": null,
+      "text_id": 178,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short81",
+        "kind": "short_text",
+        "start": 1940,
+        "start_hex": "0x0794",
+        "end": 1946,
+        "end_hex": "0x079a",
+        "text_id": 178,
+        "text": "對了，請注意，武器沒有裝佩是不能使用的．"
+      }
+    },
+    {
+      "id": "control_span_0x079a_0x07ac",
+      "kind": "control_span",
+      "start": 1946,
+      "start_hex": "0x079a",
+      "end": 1964,
+      "end_hex": "0x07ac",
+      "label": "control 0x079a-0x07ac",
+      "instruction_count": 7,
+      "unknown_bytes": 2,
+      "op_counts": {
+        "end_subscript": 1,
+        "show_text_byte": 1,
+        "db_00": 1,
+        "db_01": 1,
+        "ac_control": 1,
+        "eb_control": 1,
+        "8c_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short82",
+      "kind": "short_text",
+      "start": 1964,
+      "start_hex": "0x07ac",
+      "end": 1970,
+      "end_hex": "0x07b2",
+      "label": "text 179",
+      "text_range": null,
+      "text_id": 179,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short82",
+        "kind": "short_text",
+        "start": 1964,
+        "start_hex": "0x07ac",
+        "end": 1970,
+        "end_hex": "0x07b2",
+        "text_id": 179,
+        "text": "經常受到$s公爵的關照．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short83",
+      "kind": "short_text",
+      "start": 1970,
+      "start_hex": "0x07b2",
+      "end": 1976,
+      "end_hex": "0x07b8",
+      "label": "text 180",
+      "text_range": null,
+      "text_id": 180,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short83",
+        "kind": "short_text",
+        "start": 1970,
+        "start_hex": "0x07b2",
+        "end": 1976,
+        "end_hex": "0x07b8",
+        "text_id": 180,
+        "text": "洛克先生從公爵府來找您了．"
+      }
+    },
+    {
+      "id": "control_span_0x07b8_0x07bd",
+      "kind": "control_span",
+      "start": 1976,
+      "start_hex": "0x07b8",
+      "end": 1981,
+      "end_hex": "0x07bd",
+      "label": "control 0x07b8-0x07bd",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "8c_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short84",
+      "kind": "short_text",
+      "start": 1981,
+      "start_hex": "0x07bd",
+      "end": 1987,
+      "end_hex": "0x07c3",
+      "label": "text 181",
+      "text_range": null,
+      "text_id": 181,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short84",
+        "kind": "short_text",
+        "start": 1981,
+        "start_hex": "0x07bd",
+        "end": 1987,
+        "end_hex": "0x07c3",
+        "text_id": 181,
+        "text": "$n先生，如有為難事，就去酒館．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short85",
+      "kind": "short_text",
+      "start": 1987,
+      "start_hex": "0x07c3",
+      "end": 1993,
+      "end_hex": "0x07c9",
+      "label": "text 182",
+      "text_range": null,
+      "text_id": 182,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short85",
+        "kind": "short_text",
+        "start": 1987,
+        "start_hex": "0x07c3",
+        "end": 1993,
+        "end_hex": "0x07c9",
+        "text_id": 182,
+        "text": "因為聽說，公爵年輕時也得到過那家酒館女老闆的照顧．"
+      }
+    },
+    {
+      "id": "control_span_0x07c9_0x07ce",
+      "kind": "control_span",
+      "start": 1993,
+      "start_hex": "0x07c9",
+      "end": 1998,
+      "end_hex": "0x07ce",
+      "label": "control 0x07c9-0x07ce",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "8c_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short86",
+      "kind": "short_text",
+      "start": 1998,
+      "start_hex": "0x07ce",
+      "end": 2004,
+      "end_hex": "0x07d4",
+      "label": "text 183",
+      "text_range": null,
+      "text_id": 183,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short86",
+        "kind": "short_text",
+        "start": 1998,
+        "start_hex": "0x07ce",
+        "end": 2004,
+        "end_hex": "0x07d4",
+        "text_id": 183,
+        "text": "$n公子，真少見，穿著便服來的．"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short87",
+      "kind": "short_text",
+      "start": 2004,
+      "start_hex": "0x07d4",
+      "end": 2010,
+      "end_hex": "0x07da",
+      "label": "text 184",
+      "text_range": null,
+      "text_id": 184,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short87",
+        "kind": "short_text",
+        "start": 2004,
+        "start_hex": "0x07d4",
+        "end": 2010,
+        "end_hex": "0x07da",
+        "text_id": 184,
+        "text": "您是$s家的人，快出海了吧？"
+      }
+    },
+    {
+      "id": "control_span_0x07da_0x07e8",
+      "kind": "control_span",
+      "start": 2010,
+      "start_hex": "0x07da",
+      "end": 2024,
+      "end_hex": "0x07e8",
+      "label": "control 0x07da-0x07e8",
+      "instruction_count": 4,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "f8_prefix_or_branch": 1,
+        "ad_control": 1,
+        "eb_control": 1,
+        "8c_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short88",
+      "kind": "short_text",
+      "start": 2024,
+      "start_hex": "0x07e8",
+      "end": 2030,
+      "end_hex": "0x07ee",
+      "label": "text 185",
+      "text_range": null,
+      "text_id": 185,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short88",
+        "kind": "short_text",
+        "start": 2024,
+        "start_hex": "0x07e8",
+        "end": 2030,
+        "end_hex": "0x07ee",
+        "text_id": 185,
+        "text": "$n先生，有公告說要把您當作平民對待，是真的嗎？"
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.run39",
+      "kind": "motif_scene",
+      "start": 2030,
+      "start_hex": "0x07ee",
+      "end": 2039,
+      "end_hex": "0x07f7",
+      "label": "João self/default lines",
+      "text_range": [
+        186,
+        186
+      ],
+      "text_id": null,
+      "source": {
+        "kind": "motif_scene",
+        "id": "Snr1.chunk0.sub0.run39",
+        "start": 2030,
+        "start_hex": "0x07ee",
+        "end": 2039,
+        "end_hex": "0x07f7",
+        "text_range": [
+          186,
+          186
+        ],
+        "record_count": 1,
+        "speakers": [],
+        "title": "João self/default lines"
+      }
+    },
+    {
+      "id": "control_span_0x07f7_0x07fc",
+      "kind": "control_span",
+      "start": 2039,
+      "start_hex": "0x07f7",
+      "end": 2044,
+      "end_hex": "0x07fc",
+      "label": "control 0x07f7-0x07fc",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "8c_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short89",
+      "kind": "short_text",
+      "start": 2044,
+      "start_hex": "0x07fc",
+      "end": 2050,
+      "end_hex": "0x0802",
+      "label": "text 187",
+      "text_range": null,
+      "text_id": 187,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short89",
+        "kind": "short_text",
+        "start": 2044,
+        "start_hex": "0x07fc",
+        "end": 2050,
+        "end_hex": "0x0802",
+        "text_id": 187,
+        "text": "$n先生，請您一定找到傳說中普萊斯特·約翰國．"
+      }
+    },
+    {
+      "id": "control_span_0x0802_0x0807",
+      "kind": "control_span",
+      "start": 2050,
+      "start_hex": "0x0802",
+      "end": 2055,
+      "end_hex": "0x0807",
+      "label": "control 0x0802-0x0807",
+      "instruction_count": 1,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "8c_control": 1
+      }
+    },
+    {
+      "id": "Snr1.chunk0.sub0.short90",
+      "kind": "short_text",
+      "start": 2055,
+      "start_hex": "0x0807",
+      "end": 2061,
+      "end_hex": "0x080d",
+      "label": "text 188",
+      "text_range": null,
+      "text_id": 188,
+      "source": {
+        "id": "Snr1.chunk0.sub0.short90",
+        "kind": "short_text",
+        "start": 2055,
+        "start_hex": "0x0807",
+        "end": 2061,
+        "end_hex": "0x080d",
+        "text_id": 188,
+        "text": "$n先生，終於要出海了！"
+      }
+    },
+    {
+      "id": "control_span_0x080d_0x0810",
+      "kind": "control_span",
+      "start": 2061,
+      "start_hex": "0x080d",
+      "end": 2064,
+      "end_hex": "0x0810",
+      "label": "control 0x080d-0x0810",
+      "instruction_count": 3,
+      "unknown_bytes": 0,
+      "op_counts": {
+        "end_subscript": 2,
+        "f0_control": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "seq_000",
+      "type": "sequence",
+      "from": "control_span_0x0000_0x0008",
+      "to": "Snr1.chunk0.sub0.run0",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_001",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run0",
+      "to": "control_span_0x0011_0x0024",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_002",
+      "type": "sequence",
+      "from": "control_span_0x0011_0x0024",
+      "to": "Snr1.chunk0.sub0.run1",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_003",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run1",
+      "to": "control_span_0x00bd_0x00d0",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_004",
+      "type": "sequence",
+      "from": "control_span_0x00bd_0x00d0",
+      "to": "Snr1.chunk0.sub0.run2",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_005",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run2",
+      "to": "control_span_0x00d9_0x00e0",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_006",
+      "type": "sequence",
+      "from": "control_span_0x00d9_0x00e0",
+      "to": "Snr1.chunk0.sub0.run3",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_007",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run3",
+      "to": "control_span_0x00fb_0x0102",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_008",
+      "type": "sequence",
+      "from": "control_span_0x00fb_0x0102",
+      "to": "Snr1.chunk0.sub0.run4",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_009",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run4",
+      "to": "control_span_0x01fe_0x0201",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_010",
+      "type": "sequence",
+      "from": "control_span_0x01fe_0x0201",
+      "to": "Snr1.chunk0.sub0.run5",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_011",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run5",
+      "to": "control_span_0x022e_0x0240",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_012",
+      "type": "sequence",
+      "from": "control_span_0x022e_0x0240",
+      "to": "Snr1.chunk0.sub0.run6",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_013",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run6",
+      "to": "control_span_0x0249_0x024d",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_014",
+      "type": "sequence",
+      "from": "control_span_0x0249_0x024d",
+      "to": "Snr1.chunk0.sub0.run7",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_015",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run7",
+      "to": "control_span_0x0271_0x0274",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_016",
+      "type": "sequence",
+      "from": "control_span_0x0271_0x0274",
+      "to": "Snr1.chunk0.sub0.run8",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_017",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run8",
+      "to": "control_span_0x028f_0x02a3",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_018",
+      "type": "sequence",
+      "from": "control_span_0x028f_0x02a3",
+      "to": "Snr1.chunk0.sub0.run9",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_019",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run9",
+      "to": "control_span_0x02ac_0x02b5",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_020",
+      "type": "sequence",
+      "from": "control_span_0x02ac_0x02b5",
+      "to": "Snr1.chunk0.sub0.run10",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_021",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run10",
+      "to": "control_span_0x0333_0x0339",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_022",
+      "type": "sequence",
+      "from": "control_span_0x0333_0x0339",
+      "to": "Snr1.chunk0.sub0.run11",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_023",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run11",
+      "to": "control_span_0x0366_0x0367",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_024",
+      "type": "sequence",
+      "from": "control_span_0x0366_0x0367",
+      "to": "Snr1.chunk0.sub0.run12",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_025",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run12",
+      "to": "control_span_0x038b_0x03a4",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_026",
+      "type": "sequence",
+      "from": "control_span_0x038b_0x03a4",
+      "to": "Snr1.chunk0.sub0.short44",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_027",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short44",
+      "to": "control_span_0x03aa_0x03ae",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_028",
+      "type": "sequence",
+      "from": "control_span_0x03aa_0x03ae",
+      "to": "Snr1.chunk0.sub0.short45",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_029",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short45",
+      "to": "control_span_0x03b4_0x03c2",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_030",
+      "type": "sequence",
+      "from": "control_span_0x03b4_0x03c2",
+      "to": "Snr1.chunk0.sub0.short46",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_031",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short46",
+      "to": "control_span_0x03c8_0x03cc",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_032",
+      "type": "sequence",
+      "from": "control_span_0x03c8_0x03cc",
+      "to": "Snr1.chunk0.sub0.short47",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_033",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short47",
+      "to": "Snr1.chunk0.sub0.run13",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_034",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run13",
+      "to": "Snr1.chunk0.sub0.short48",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_035",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short48",
+      "to": "Snr1.chunk0.sub0.short49",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_036",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short49",
+      "to": "Snr1.chunk0.sub0.run14",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_037",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run14",
+      "to": "control_span_0x03f0_0x03fc",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_038",
+      "type": "sequence",
+      "from": "control_span_0x03f0_0x03fc",
+      "to": "Snr1.chunk0.sub0.short50",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_039",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short50",
+      "to": "control_span_0x0402_0x0409",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_040",
+      "type": "sequence",
+      "from": "control_span_0x0402_0x0409",
+      "to": "Snr1.chunk0.sub0.short51",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_041",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short51",
+      "to": "control_span_0x040f_0x0418",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_042",
+      "type": "sequence",
+      "from": "control_span_0x040f_0x0418",
+      "to": "Snr1.chunk0.sub0.run15",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_043",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run15",
+      "to": "control_span_0x0421_0x042c",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_044",
+      "type": "sequence",
+      "from": "control_span_0x0421_0x042c",
+      "to": "Snr1.chunk0.sub0.run16",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_045",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run16",
+      "to": "Snr1.chunk0.sub0.short52",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_046",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short52",
+      "to": "control_span_0x0444_0x0454",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_047",
+      "type": "sequence",
+      "from": "control_span_0x0444_0x0454",
+      "to": "Snr1.chunk0.sub0.run17",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_048",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run17",
+      "to": "Snr1.chunk0.sub0.short53",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_049",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short53",
+      "to": "control_span_0x0463_0x0467",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_050",
+      "type": "sequence",
+      "from": "control_span_0x0463_0x0467",
+      "to": "Snr1.chunk0.sub0.short54",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_051",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short54",
+      "to": "control_span_0x046d_0x0471",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_052",
+      "type": "sequence",
+      "from": "control_span_0x046d_0x0471",
+      "to": "Snr1.chunk0.sub0.run18",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_053",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run18",
+      "to": "Snr1.chunk0.sub0.short55",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_054",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short55",
+      "to": "control_span_0x0480_0x0484",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_055",
+      "type": "sequence",
+      "from": "control_span_0x0480_0x0484",
+      "to": "Snr1.chunk0.sub0.run19",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_056",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run19",
+      "to": "Snr1.chunk0.sub0.short56",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_057",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short56",
+      "to": "Snr1.chunk0.sub0.short57",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_058",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short57",
+      "to": "Snr1.chunk0.sub0.short58",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_059",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short58",
+      "to": "Snr1.chunk0.sub0.short59",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_060",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short59",
+      "to": "Snr1.chunk0.sub0.run20",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_061",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run20",
+      "to": "Snr1.chunk0.sub0.short60",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_062",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short60",
+      "to": "Snr1.chunk0.sub0.short61",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_063",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short61",
+      "to": "Snr1.chunk0.sub0.short62",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_064",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short62",
+      "to": "Snr1.chunk0.sub0.run21",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_065",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run21",
+      "to": "control_span_0x04f6_0x04f8",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_066",
+      "type": "sequence",
+      "from": "control_span_0x04f6_0x04f8",
+      "to": "Snr1.chunk0.sub0.run22",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_067",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run22",
+      "to": "control_span_0x0513_0x053b",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_068",
+      "type": "sequence",
+      "from": "control_span_0x0513_0x053b",
+      "to": "Snr1.chunk0.sub0.short63",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_069",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short63",
+      "to": "Snr1.chunk0.sub0.run23",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_070",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run23",
+      "to": "Snr1.chunk0.sub0.short64",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_071",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short64",
+      "to": "control_span_0x0550_0x0554",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_072",
+      "type": "sequence",
+      "from": "control_span_0x0550_0x0554",
+      "to": "Snr1.chunk0.sub0.run24",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_073",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run24",
+      "to": "Snr1.chunk0.sub0.short65",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_074",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short65",
+      "to": "Snr1.chunk0.sub0.short66",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_075",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short66",
+      "to": "Snr1.chunk0.sub0.short67",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_076",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short67",
+      "to": "control_span_0x056f_0x0580",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_077",
+      "type": "sequence",
+      "from": "control_span_0x056f_0x0580",
+      "to": "Snr1.chunk0.sub0.short68",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_078",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short68",
+      "to": "Snr1.chunk0.sub0.short69",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_079",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short69",
+      "to": "control_span_0x058c_0x0594",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_080",
+      "type": "sequence",
+      "from": "control_span_0x058c_0x0594",
+      "to": "Snr1.chunk0.sub0.run25",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_081",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run25",
+      "to": "control_span_0x059d_0x05a4",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_082",
+      "type": "sequence",
+      "from": "control_span_0x059d_0x05a4",
+      "to": "Snr1.chunk0.sub0.short70",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_083",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short70",
+      "to": "control_span_0x05aa_0x05ae",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_084",
+      "type": "sequence",
+      "from": "control_span_0x05aa_0x05ae",
+      "to": "Snr1.chunk0.sub0.run26",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_085",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run26",
+      "to": "control_span_0x05b7_0x05bb",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_086",
+      "type": "sequence",
+      "from": "control_span_0x05b7_0x05bb",
+      "to": "Snr1.chunk0.sub0.run27",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_087",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run27",
+      "to": "control_span_0x05c4_0x05d4",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_088",
+      "type": "sequence",
+      "from": "control_span_0x05c4_0x05d4",
+      "to": "Snr1.chunk0.sub0.run28",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_089",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run28",
+      "to": "control_span_0x05dd_0x05e1",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_090",
+      "type": "sequence",
+      "from": "control_span_0x05dd_0x05e1",
+      "to": "Snr1.chunk0.sub0.run29",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_091",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run29",
+      "to": "control_span_0x05ea_0x05ee",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_092",
+      "type": "sequence",
+      "from": "control_span_0x05ea_0x05ee",
+      "to": "Snr1.chunk0.sub0.run30",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_093",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run30",
+      "to": "control_span_0x05f7_0x05fe",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_094",
+      "type": "sequence",
+      "from": "control_span_0x05f7_0x05fe",
+      "to": "Snr1.chunk0.sub0.run31",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_095",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run31",
+      "to": "control_span_0x068e_0x069b",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_096",
+      "type": "sequence",
+      "from": "control_span_0x068e_0x069b",
+      "to": "Snr1.chunk0.sub0.run32",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_097",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run32",
+      "to": "control_span_0x06a4_0x06aa",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_098",
+      "type": "sequence",
+      "from": "control_span_0x06a4_0x06aa",
+      "to": "Snr1.chunk0.sub0.run33",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_099",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run33",
+      "to": "control_span_0x06b3_0x06c8",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_100",
+      "type": "sequence",
+      "from": "control_span_0x06b3_0x06c8",
+      "to": "Snr1.chunk0.sub0.run34",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_101",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run34",
+      "to": "control_span_0x06d1_0x06d9",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_102",
+      "type": "sequence",
+      "from": "control_span_0x06d1_0x06d9",
+      "to": "Snr1.chunk0.sub0.run35",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_103",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run35",
+      "to": "control_span_0x06eb_0x06ef",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_104",
+      "type": "sequence",
+      "from": "control_span_0x06eb_0x06ef",
+      "to": "Snr1.chunk0.sub0.run36",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_105",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run36",
+      "to": "control_span_0x070a_0x0710",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_106",
+      "type": "sequence",
+      "from": "control_span_0x070a_0x0710",
+      "to": "Snr1.chunk0.sub0.run37",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_107",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run37",
+      "to": "control_span_0x0719_0x0721",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_108",
+      "type": "sequence",
+      "from": "control_span_0x0719_0x0721",
+      "to": "Snr1.chunk0.sub0.short71",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_109",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short71",
+      "to": "Snr1.chunk0.sub0.short72",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_110",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short72",
+      "to": "Snr1.chunk0.sub0.short73",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_111",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short73",
+      "to": "Snr1.chunk0.sub0.short74",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_112",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short74",
+      "to": "control_span_0x0739_0x0742",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_113",
+      "type": "sequence",
+      "from": "control_span_0x0739_0x0742",
+      "to": "Snr1.chunk0.sub0.short75",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_114",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short75",
+      "to": "Snr1.chunk0.sub0.short76",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_115",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short76",
+      "to": "control_span_0x074e_0x0758",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_116",
+      "type": "sequence",
+      "from": "control_span_0x074e_0x0758",
+      "to": "Snr1.chunk0.sub0.short77",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_117",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short77",
+      "to": "control_span_0x075e_0x0767",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_118",
+      "type": "sequence",
+      "from": "control_span_0x075e_0x0767",
+      "to": "Snr1.chunk0.sub0.short78",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_119",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short78",
+      "to": "Snr1.chunk0.sub0.run38",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_120",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run38",
+      "to": "Snr1.chunk0.sub0.short79",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_121",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short79",
+      "to": "Snr1.chunk0.sub0.short80",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_122",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short80",
+      "to": "control_span_0x0782_0x0794",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_123",
+      "type": "sequence",
+      "from": "control_span_0x0782_0x0794",
+      "to": "Snr1.chunk0.sub0.short81",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_124",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short81",
+      "to": "control_span_0x079a_0x07ac",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_125",
+      "type": "sequence",
+      "from": "control_span_0x079a_0x07ac",
+      "to": "Snr1.chunk0.sub0.short82",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_126",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short82",
+      "to": "Snr1.chunk0.sub0.short83",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_127",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short83",
+      "to": "control_span_0x07b8_0x07bd",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_128",
+      "type": "sequence",
+      "from": "control_span_0x07b8_0x07bd",
+      "to": "Snr1.chunk0.sub0.short84",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_129",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short84",
+      "to": "Snr1.chunk0.sub0.short85",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_130",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short85",
+      "to": "control_span_0x07c9_0x07ce",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_131",
+      "type": "sequence",
+      "from": "control_span_0x07c9_0x07ce",
+      "to": "Snr1.chunk0.sub0.short86",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_132",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short86",
+      "to": "Snr1.chunk0.sub0.short87",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_133",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short87",
+      "to": "control_span_0x07da_0x07e8",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_134",
+      "type": "sequence",
+      "from": "control_span_0x07da_0x07e8",
+      "to": "Snr1.chunk0.sub0.short88",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_135",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short88",
+      "to": "Snr1.chunk0.sub0.run39",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_136",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.run39",
+      "to": "control_span_0x07f7_0x07fc",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_137",
+      "type": "sequence",
+      "from": "control_span_0x07f7_0x07fc",
+      "to": "Snr1.chunk0.sub0.short89",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_138",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short89",
+      "to": "control_span_0x0802_0x0807",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_139",
+      "type": "sequence",
+      "from": "control_span_0x0802_0x0807",
+      "to": "Snr1.chunk0.sub0.short90",
+      "confidence": "structural"
+    },
+    {
+      "id": "seq_140",
+      "type": "sequence",
+      "from": "Snr1.chunk0.sub0.short90",
+      "to": "control_span_0x080d_0x0810",
+      "confidence": "structural"
+    },
+    {
+      "id": "ctrl_000",
+      "type": "candidate_control",
+      "from": "control_span_0x0000_0x0008",
+      "to": "Snr1.chunk0.sub0.run4",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 0,
+      "source_offset_hex": "0x0000",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 00 01 2a",
+      "target_offset": 298,
+      "target_offset_hex": "0x012a",
+      "candidate": "operand_be",
+      "nearest_distance": 40
+    },
+    {
+      "id": "ctrl_001",
+      "type": "candidate_control",
+      "from": "control_span_0x0000_0x0008",
+      "to": "Snr1.chunk0.sub0.run1",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 4,
+      "source_offset_hex": "0x0004",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 05 00 40",
+      "target_offset": 64,
+      "target_offset_hex": "0x0040",
+      "candidate": "low16_be",
+      "nearest_distance": 28
+    },
+    {
+      "id": "ctrl_002",
+      "type": "candidate_control",
+      "from": "control_span_0x0011_0x0024",
+      "to": "Snr1.chunk0.sub0.run7",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 17,
+      "source_offset_hex": "0x0011",
+      "opcode": "fe_control",
+      "raw_bytes": "fe 02 62",
+      "target_offset": 610,
+      "target_offset_hex": "0x0262",
+      "candidate": "operand_be",
+      "nearest_distance": 15
+    },
+    {
+      "id": "ctrl_003",
+      "type": "candidate_control",
+      "from": "control_span_0x0011_0x0024",
+      "to": "Snr1.chunk0.sub0.run4",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 20,
+      "source_offset_hex": "0x0014",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 05 01 2a",
+      "target_offset": 298,
+      "target_offset_hex": "0x012a",
+      "candidate": "low16_be",
+      "nearest_distance": 40
+    },
+    {
+      "id": "ctrl_004",
+      "type": "candidate_control",
+      "from": "control_span_0x0011_0x0024",
+      "to": "Snr1.chunk0.sub0.run4",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 24,
+      "source_offset_hex": "0x0018",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 01 01 08",
+      "target_offset": 264,
+      "target_offset_hex": "0x0108",
+      "candidate": "low16_be",
+      "nearest_distance": 6
+    },
+    {
+      "id": "ctrl_005",
+      "type": "candidate_control",
+      "from": "control_span_0x00bd_0x00d0",
+      "to": "Snr1.chunk0.sub0.run7",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 200,
+      "source_offset_hex": "0x00c8",
+      "opcode": "fe_control",
+      "raw_bytes": "fe 02 62",
+      "target_offset": 610,
+      "target_offset_hex": "0x0262",
+      "candidate": "operand_be",
+      "nearest_distance": 15
+    },
+    {
+      "id": "ctrl_006",
+      "type": "candidate_control",
+      "from": "control_span_0x00d9_0x00e0",
+      "to": "Snr1.chunk0.sub0.run7",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 217,
+      "source_offset_hex": "0x00d9",
+      "opcode": "fe_control",
+      "raw_bytes": "fe 02 62",
+      "target_offset": 610,
+      "target_offset_hex": "0x0262",
+      "candidate": "operand_be",
+      "nearest_distance": 15
+    },
+    {
+      "id": "ctrl_007",
+      "type": "candidate_control",
+      "from": "control_span_0x00d9_0x00e0",
+      "to": "Snr1.chunk0.sub0.run4",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 220,
+      "source_offset_hex": "0x00dc",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 01 01 2a",
+      "target_offset": 298,
+      "target_offset_hex": "0x012a",
+      "candidate": "low16_be",
+      "nearest_distance": 40
+    },
+    {
+      "id": "ctrl_008",
+      "type": "candidate_control",
+      "from": "control_span_0x00fb_0x0102",
+      "to": "Snr1.chunk0.sub0.run7",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 251,
+      "source_offset_hex": "0x00fb",
+      "opcode": "fe_control",
+      "raw_bytes": "fe 02 62",
+      "target_offset": 610,
+      "target_offset_hex": "0x0262",
+      "candidate": "operand_be",
+      "nearest_distance": 15
+    },
+    {
+      "id": "ctrl_009",
+      "type": "candidate_control",
+      "from": "control_span_0x00fb_0x0102",
+      "to": "Snr1.chunk0.sub0.run7",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 254,
+      "source_offset_hex": "0x00fe",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 00 02 62",
+      "target_offset": 610,
+      "target_offset_hex": "0x0262",
+      "candidate": "operand_be",
+      "nearest_distance": 15
+    },
+    {
+      "id": "ctrl_010",
+      "type": "candidate_control",
+      "from": "control_span_0x022e_0x0240",
+      "to": "Snr1.chunk0.sub0.run7",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 563,
+      "source_offset_hex": "0x0233",
+      "opcode": "fe_control",
+      "raw_bytes": "fe 02 62",
+      "target_offset": 610,
+      "target_offset_hex": "0x0262",
+      "candidate": "operand_be",
+      "nearest_distance": 15
+    },
+    {
+      "id": "ctrl_011",
+      "type": "candidate_control",
+      "from": "control_span_0x022e_0x0240",
+      "to": "Snr1.chunk0.sub0.run10",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 568,
+      "source_offset_hex": "0x0238",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 00 02 bf",
+      "target_offset": 703,
+      "target_offset_hex": "0x02bf",
+      "candidate": "operand_be",
+      "nearest_distance": 10
+    },
+    {
+      "id": "ctrl_012",
+      "type": "candidate_control",
+      "from": "control_span_0x022e_0x0240",
+      "to": "Snr1.chunk0.sub0.short50",
+      "confidence": "high",
+      "match": "exact_end",
+      "source_offset": 572,
+      "source_offset_hex": "0x023c",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 04 02 75",
+      "target_offset": 1026,
+      "target_offset_hex": "0x0402",
+      "candidate": "high16_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_013",
+      "type": "candidate_control",
+      "from": "control_span_0x0249_0x024d",
+      "to": "Snr1.chunk0.sub0.short50",
+      "confidence": "high",
+      "match": "exact_end",
+      "source_offset": 585,
+      "source_offset_hex": "0x0249",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 04 02 be",
+      "target_offset": 1026,
+      "target_offset_hex": "0x0402",
+      "candidate": "high16_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_014",
+      "type": "candidate_control",
+      "from": "control_span_0x028f_0x02a3",
+      "to": "Snr1.chunk0.sub0.run10",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 659,
+      "source_offset_hex": "0x0293",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 00 03 cb",
+      "target_offset": 768,
+      "target_offset_hex": "0x0300",
+      "candidate": "high16_le",
+      "nearest_distance": 51
+    },
+    {
+      "id": "ctrl_015",
+      "type": "candidate_control",
+      "from": "control_span_0x028f_0x02a3",
+      "to": "Snr1.chunk0.sub0.run10",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 663,
+      "source_offset_hex": "0x0297",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 05 02 d9",
+      "target_offset": 729,
+      "target_offset_hex": "0x02d9",
+      "candidate": "low16_be",
+      "nearest_distance": 36
+    },
+    {
+      "id": "ctrl_016",
+      "type": "candidate_control",
+      "from": "control_span_0x028f_0x02a3",
+      "to": "Snr1.chunk0.sub0.run4",
+      "confidence": "high",
+      "match": "exact_start",
+      "source_offset": 667,
+      "source_offset_hex": "0x029b",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 01 02 d9",
+      "target_offset": 258,
+      "target_offset_hex": "0x0102",
+      "candidate": "high16_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_017",
+      "type": "candidate_control",
+      "from": "control_span_0x02ac_0x02b5",
+      "to": "Snr1.chunk0.sub0.run22",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 685,
+      "source_offset_hex": "0x02ad",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 05 03 cb",
+      "target_offset": 1283,
+      "target_offset_hex": "0x0503",
+      "candidate": "high16_be",
+      "nearest_distance": 11
+    },
+    {
+      "id": "ctrl_018",
+      "type": "candidate_control",
+      "from": "control_span_0x038b_0x03a4",
+      "to": "Snr1.chunk0.sub0.run13",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 928,
+      "source_offset_hex": "0x03a0",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 00 03 d6",
+      "target_offset": 982,
+      "target_offset_hex": "0x03d6",
+      "candidate": "operand_be",
+      "nearest_distance": 4
+    },
+    {
+      "id": "ctrl_019",
+      "type": "candidate_control",
+      "from": "control_span_0x03aa_0x03ae",
+      "to": "Snr1.chunk0.sub0.short48",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 938,
+      "source_offset_hex": "0x03aa",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 00 03 e0",
+      "target_offset": 992,
+      "target_offset_hex": "0x03e0",
+      "candidate": "operand_be",
+      "nearest_distance": 1
+    },
+    {
+      "id": "ctrl_020",
+      "type": "candidate_control",
+      "from": "control_span_0x03b4_0x03c2",
+      "to": "Snr1.chunk0.sub0.run15",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 954,
+      "source_offset_hex": "0x03ba",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 00 04 20",
+      "target_offset": 1056,
+      "target_offset_hex": "0x0420",
+      "candidate": "operand_be",
+      "nearest_distance": 1
+    },
+    {
+      "id": "ctrl_021",
+      "type": "candidate_control",
+      "from": "control_span_0x03b4_0x03c2",
+      "to": "Snr1.chunk0.sub0.run36",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 958,
+      "source_offset_hex": "0x03be",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 07 03 f4",
+      "target_offset": 1795,
+      "target_offset_hex": "0x0703",
+      "candidate": "high16_be",
+      "nearest_distance": 7
+    },
+    {
+      "id": "ctrl_022",
+      "type": "candidate_control",
+      "from": "control_span_0x03c8_0x03cc",
+      "to": "Snr1.chunk0.sub0.run15",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 968,
+      "source_offset_hex": "0x03c8",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 07 04 1f",
+      "target_offset": 1055,
+      "target_offset_hex": "0x041f",
+      "candidate": "low16_be",
+      "nearest_distance": 2
+    },
+    {
+      "id": "ctrl_023",
+      "type": "candidate_control",
+      "from": "control_span_0x03f0_0x03fc",
+      "to": "Snr1.chunk0.sub0.short65",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1012,
+      "source_offset_hex": "0x03f4",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 00 05 5e",
+      "target_offset": 1374,
+      "target_offset_hex": "0x055e",
+      "candidate": "operand_be",
+      "nearest_distance": 1
+    },
+    {
+      "id": "ctrl_024",
+      "type": "candidate_control",
+      "from": "control_span_0x03f0_0x03fc",
+      "to": "Snr1.chunk0.sub0.short50",
+      "confidence": "high",
+      "match": "exact_end",
+      "source_offset": 1016,
+      "source_offset_hex": "0x03f8",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 02 04 8f",
+      "target_offset": 1026,
+      "target_offset_hex": "0x0402",
+      "candidate": "high16_le",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_025",
+      "type": "candidate_control",
+      "from": "control_span_0x0402_0x0409",
+      "to": "Snr1.chunk0.sub0.short56",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1026,
+      "source_offset_hex": "0x0402",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 08 04 8f",
+      "target_offset": 1167,
+      "target_offset_hex": "0x048f",
+      "candidate": "low16_be",
+      "nearest_distance": 2
+    },
+    {
+      "id": "ctrl_026",
+      "type": "near_control",
+      "from": "control_span_0x040f_0x0418",
+      "to": "Snr1.chunk0.sub0.run17",
+      "confidence": "low",
+      "match": "near_item",
+      "source_offset": 1043,
+      "source_offset_hex": "0x0413",
+      "opcode": "8c_control",
+      "raw_bytes": "8c 01 00 04 53",
+      "target_offset": 1107,
+      "target_offset_hex": "0x0453",
+      "candidate": "low16_be",
+      "nearest_distance": 1
+    },
+    {
+      "id": "ctrl_027",
+      "type": "candidate_control",
+      "from": "control_span_0x0421_0x042c",
+      "to": "Snr1.chunk0.sub0.short55",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1063,
+      "source_offset_hex": "0x0427",
+      "opcode": "8c_control",
+      "raw_bytes": "8c 01 01 04 7b",
+      "target_offset": 1147,
+      "target_offset_hex": "0x047b",
+      "candidate": "low16_be",
+      "nearest_distance": 1
+    },
+    {
+      "id": "ctrl_028",
+      "type": "candidate_control",
+      "from": "control_span_0x0444_0x0454",
+      "to": "Snr1.chunk0.sub0.run4",
+      "confidence": "high",
+      "match": "exact_start",
+      "source_offset": 1103,
+      "source_offset_hex": "0x044f",
+      "opcode": "8c_control",
+      "raw_bytes": "8c 01 02 04 8f",
+      "target_offset": 258,
+      "target_offset_hex": "0x0102",
+      "candidate": "high16_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_029",
+      "type": "candidate_control",
+      "from": "control_span_0x0463_0x0467",
+      "to": "Snr1.chunk0.sub0.short65",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1123,
+      "source_offset_hex": "0x0463",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 02 05 5e",
+      "target_offset": 1374,
+      "target_offset_hex": "0x055e",
+      "candidate": "low16_be",
+      "nearest_distance": 1
+    },
+    {
+      "id": "ctrl_030",
+      "type": "candidate_control",
+      "from": "control_span_0x046d_0x0471",
+      "to": "Snr1.chunk0.sub0.run20",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1133,
+      "source_offset_hex": "0x046d",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 07 04 ac",
+      "target_offset": 1196,
+      "target_offset_hex": "0x04ac",
+      "candidate": "low16_be",
+      "nearest_distance": 2
+    },
+    {
+      "id": "ctrl_031",
+      "type": "candidate_control",
+      "from": "control_span_0x0480_0x0484",
+      "to": "Snr1.chunk0.sub0.run21",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1152,
+      "source_offset_hex": "0x0480",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 07 04 cb",
+      "target_offset": 1227,
+      "target_offset_hex": "0x04cb",
+      "candidate": "low16_be",
+      "nearest_distance": 11
+    },
+    {
+      "id": "ctrl_032",
+      "type": "candidate_control",
+      "from": "control_span_0x0513_0x053b",
+      "to": "Snr1.chunk0.sub0.run10",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1331,
+      "source_offset_hex": "0x0533",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 03 05 a3",
+      "target_offset": 773,
+      "target_offset_hex": "0x0305",
+      "candidate": "high16_be",
+      "nearest_distance": 46
+    },
+    {
+      "id": "ctrl_033",
+      "type": "candidate_control",
+      "from": "control_span_0x0513_0x053b",
+      "to": "Snr1.chunk0.sub0.run22",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1335,
+      "source_offset_hex": "0x0537",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 00 05 7c",
+      "target_offset": 1280,
+      "target_offset_hex": "0x0500",
+      "candidate": "high16_le",
+      "nearest_distance": 8
+    },
+    {
+      "id": "ctrl_034",
+      "type": "candidate_control",
+      "from": "control_span_0x0550_0x0554",
+      "to": "Snr1.chunk0.sub0.run22",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1360,
+      "source_offset_hex": "0x0550",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 00 05 a2",
+      "target_offset": 1280,
+      "target_offset_hex": "0x0500",
+      "candidate": "high16_le",
+      "nearest_distance": 8
+    },
+    {
+      "id": "ctrl_035",
+      "type": "candidate_control",
+      "from": "control_span_0x056f_0x0580",
+      "to": "Snr1.chunk0.sub0.run22",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1400,
+      "source_offset_hex": "0x0578",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 00 05 b8",
+      "target_offset": 1280,
+      "target_offset_hex": "0x0500",
+      "candidate": "high16_le",
+      "nearest_distance": 8
+    },
+    {
+      "id": "ctrl_036",
+      "type": "candidate_control",
+      "from": "control_span_0x058c_0x0594",
+      "to": "Snr1.chunk0.sub0.short76",
+      "confidence": "high",
+      "match": "exact_start",
+      "source_offset": 1420,
+      "source_offset_hex": "0x058c",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 00 07 48",
+      "target_offset": 1864,
+      "target_offset_hex": "0x0748",
+      "candidate": "operand_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_037",
+      "type": "candidate_control",
+      "from": "control_span_0x058c_0x0594",
+      "to": "Snr1.chunk0.sub0.run10",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1424,
+      "source_offset_hex": "0x0590",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 03 05 cc",
+      "target_offset": 773,
+      "target_offset_hex": "0x0305",
+      "candidate": "high16_be",
+      "nearest_distance": 46
+    },
+    {
+      "id": "ctrl_038",
+      "type": "candidate_control",
+      "from": "control_span_0x059d_0x05a4",
+      "to": "Snr1.chunk0.sub0.short76",
+      "confidence": "high",
+      "match": "exact_start",
+      "source_offset": 1437,
+      "source_offset_hex": "0x059d",
+      "opcode": "fe_control",
+      "raw_bytes": "fe 07 48",
+      "target_offset": 1864,
+      "target_offset_hex": "0x0748",
+      "candidate": "operand_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_039",
+      "type": "candidate_control",
+      "from": "control_span_0x059d_0x05a4",
+      "to": "Snr1.chunk0.sub0.run30",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1440,
+      "source_offset_hex": "0x05a0",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 02 05 f4",
+      "target_offset": 1524,
+      "target_offset_hex": "0x05f4",
+      "candidate": "low16_be",
+      "nearest_distance": 3
+    },
+    {
+      "id": "ctrl_040",
+      "type": "candidate_control",
+      "from": "control_span_0x05aa_0x05ae",
+      "to": "Snr1.chunk0.sub0.run29",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1450,
+      "source_offset_hex": "0x05aa",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 07 05 e3",
+      "target_offset": 1507,
+      "target_offset_hex": "0x05e3",
+      "candidate": "low16_be",
+      "nearest_distance": 2
+    },
+    {
+      "id": "ctrl_041",
+      "type": "candidate_control",
+      "from": "control_span_0x05b7_0x05bb",
+      "to": "Snr1.chunk0.sub0.run30",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1463,
+      "source_offset_hex": "0x05b7",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 07 05 f0",
+      "target_offset": 1520,
+      "target_offset_hex": "0x05f0",
+      "candidate": "low16_be",
+      "nearest_distance": 2
+    },
+    {
+      "id": "ctrl_042",
+      "type": "candidate_control",
+      "from": "control_span_0x05c4_0x05d4",
+      "to": "Snr1.chunk0.sub0.short76",
+      "confidence": "high",
+      "match": "exact_start",
+      "source_offset": 1477,
+      "source_offset_hex": "0x05c5",
+      "opcode": "fe_control",
+      "raw_bytes": "fe 07 48",
+      "target_offset": 1864,
+      "target_offset_hex": "0x0748",
+      "candidate": "operand_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_043",
+      "type": "candidate_control",
+      "from": "control_span_0x05c4_0x05d4",
+      "to": "Snr1.chunk0.sub0.run31",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1480,
+      "source_offset_hex": "0x05c8",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 01 06 26",
+      "target_offset": 1574,
+      "target_offset_hex": "0x0626",
+      "candidate": "low16_be",
+      "nearest_distance": 40
+    },
+    {
+      "id": "ctrl_044",
+      "type": "candidate_control",
+      "from": "control_span_0x05c4_0x05d4",
+      "to": "Snr1.chunk0.sub0.run31",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1484,
+      "source_offset_hex": "0x05cc",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 05 06 16",
+      "target_offset": 1558,
+      "target_offset_hex": "0x0616",
+      "candidate": "low16_be",
+      "nearest_distance": 24
+    },
+    {
+      "id": "ctrl_045",
+      "type": "candidate_control",
+      "from": "control_span_0x05c4_0x05d4",
+      "to": "Snr1.chunk0.sub0.run31",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1488,
+      "source_offset_hex": "0x05d0",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 08 06 09",
+      "target_offset": 1545,
+      "target_offset_hex": "0x0609",
+      "candidate": "low16_be",
+      "nearest_distance": 11
+    },
+    {
+      "id": "ctrl_046",
+      "type": "candidate_control",
+      "from": "control_span_0x05dd_0x05e1",
+      "to": "Snr1.chunk0.sub0.run31",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1501,
+      "source_offset_hex": "0x05dd",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 08 06 16",
+      "target_offset": 1558,
+      "target_offset_hex": "0x0616",
+      "candidate": "low16_be",
+      "nearest_distance": 24
+    },
+    {
+      "id": "ctrl_047",
+      "type": "candidate_control",
+      "from": "control_span_0x05ea_0x05ee",
+      "to": "Snr1.chunk0.sub0.run31",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1514,
+      "source_offset_hex": "0x05ea",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 05 06 23",
+      "target_offset": 1571,
+      "target_offset_hex": "0x0623",
+      "candidate": "low16_be",
+      "nearest_distance": 37
+    },
+    {
+      "id": "ctrl_048",
+      "type": "candidate_control",
+      "from": "control_span_0x05f7_0x05fe",
+      "to": "Snr1.chunk0.sub0.short76",
+      "confidence": "high",
+      "match": "exact_start",
+      "source_offset": 1527,
+      "source_offset_hex": "0x05f7",
+      "opcode": "fe_control",
+      "raw_bytes": "fe 07 48",
+      "target_offset": 1864,
+      "target_offset_hex": "0x0748",
+      "candidate": "operand_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_049",
+      "type": "candidate_control",
+      "from": "control_span_0x05f7_0x05fe",
+      "to": "Snr1.chunk0.sub0.short76",
+      "confidence": "high",
+      "match": "exact_start",
+      "source_offset": 1530,
+      "source_offset_hex": "0x05fa",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 0a 07 48",
+      "target_offset": 1864,
+      "target_offset_hex": "0x0748",
+      "candidate": "low16_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_050",
+      "type": "candidate_control",
+      "from": "control_span_0x06a4_0x06aa",
+      "to": "Snr1.chunk0.sub0.run37",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1702,
+      "source_offset_hex": "0x06a6",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 0b 07 17",
+      "target_offset": 1815,
+      "target_offset_hex": "0x0717",
+      "candidate": "low16_be",
+      "nearest_distance": 2
+    },
+    {
+      "id": "ctrl_051",
+      "type": "candidate_control",
+      "from": "control_span_0x06eb_0x06ef",
+      "to": "Snr1.chunk0.sub0.short74",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1771,
+      "source_offset_hex": "0x06eb",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 0b 07 36",
+      "target_offset": 1846,
+      "target_offset_hex": "0x0736",
+      "candidate": "low16_be",
+      "nearest_distance": 3
+    },
+    {
+      "id": "ctrl_052",
+      "type": "candidate_control",
+      "from": "control_span_0x070a_0x0710",
+      "to": "Snr1.chunk0.sub0.short76",
+      "confidence": "high",
+      "match": "exact_start",
+      "source_offset": 1805,
+      "source_offset_hex": "0x070d",
+      "opcode": "fe_control",
+      "raw_bytes": "fe 07 48",
+      "target_offset": 1864,
+      "target_offset_hex": "0x0748",
+      "candidate": "operand_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_053",
+      "type": "candidate_control",
+      "from": "control_span_0x0719_0x0721",
+      "to": "Snr1.chunk0.sub0.run36",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1821,
+      "source_offset_hex": "0x071d",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 00 07 66",
+      "target_offset": 1792,
+      "target_offset_hex": "0x0700",
+      "candidate": "high16_le",
+      "nearest_distance": 10
+    },
+    {
+      "id": "ctrl_054",
+      "type": "candidate_control",
+      "from": "control_span_0x0739_0x0742",
+      "to": "Snr1.chunk0.sub0.short79",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1850,
+      "source_offset_hex": "0x073a",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 00 07 7b",
+      "target_offset": 1915,
+      "target_offset_hex": "0x077b",
+      "candidate": "operand_be",
+      "nearest_distance": 1
+    },
+    {
+      "id": "ctrl_055",
+      "type": "candidate_control",
+      "from": "control_span_0x0739_0x0742",
+      "to": "Snr1.chunk0.sub0.short79",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1854,
+      "source_offset_hex": "0x073e",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 03 07 7b",
+      "target_offset": 1915,
+      "target_offset_hex": "0x077b",
+      "candidate": "low16_be",
+      "nearest_distance": 1
+    },
+    {
+      "id": "ctrl_056",
+      "type": "candidate_control",
+      "from": "control_span_0x074e_0x0758",
+      "to": "Snr1.chunk0.sub0.run36",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1876,
+      "source_offset_hex": "0x0754",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 00 07 8b",
+      "target_offset": 1792,
+      "target_offset_hex": "0x0700",
+      "candidate": "high16_le",
+      "nearest_distance": 10
+    },
+    {
+      "id": "ctrl_057",
+      "type": "candidate_control",
+      "from": "control_span_0x075e_0x0767",
+      "to": "Snr1.chunk0.sub0.short85",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1887,
+      "source_offset_hex": "0x075f",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 00 07 c6",
+      "target_offset": 1990,
+      "target_offset_hex": "0x07c6",
+      "candidate": "operand_be",
+      "nearest_distance": 3
+    },
+    {
+      "id": "ctrl_058",
+      "type": "candidate_control",
+      "from": "control_span_0x075e_0x0767",
+      "to": "Snr1.chunk0.sub0.run36",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1891,
+      "source_offset_hex": "0x0763",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 09 07 bc",
+      "target_offset": 1801,
+      "target_offset_hex": "0x0709",
+      "candidate": "high16_le",
+      "nearest_distance": 1
+    },
+    {
+      "id": "ctrl_059",
+      "type": "candidate_control",
+      "from": "control_span_0x0782_0x0794",
+      "to": "Snr1.chunk0.sub0.short85",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1936,
+      "source_offset_hex": "0x0790",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 09 07 c6",
+      "target_offset": 1990,
+      "target_offset_hex": "0x07c6",
+      "candidate": "low16_be",
+      "nearest_distance": 3
+    },
+    {
+      "id": "ctrl_060",
+      "type": "candidate_control",
+      "from": "control_span_0x079a_0x07ac",
+      "to": "Snr1.chunk0.sub0.short90",
+      "confidence": "high",
+      "match": "exact_start",
+      "source_offset": 1951,
+      "source_offset_hex": "0x079f",
+      "opcode": "ac_control",
+      "raw_bytes": "ac 00 08 07",
+      "target_offset": 2055,
+      "target_offset_hex": "0x0807",
+      "candidate": "operand_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_061",
+      "type": "near_control",
+      "from": "control_span_0x079a_0x07ac",
+      "to": "Snr1.chunk0.sub0.short88",
+      "confidence": "low",
+      "match": "near_item",
+      "source_offset": 1959,
+      "source_offset_hex": "0x07a7",
+      "opcode": "8c_control",
+      "raw_bytes": "8c 00 00 07 e4",
+      "target_offset": 2020,
+      "target_offset_hex": "0x07e4",
+      "candidate": "low16_be",
+      "nearest_distance": 4
+    },
+    {
+      "id": "ctrl_062",
+      "type": "candidate_control",
+      "from": "control_span_0x07b8_0x07bd",
+      "to": "Snr1.chunk0.sub0.run39",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1976,
+      "source_offset_hex": "0x07b8",
+      "opcode": "8c_control",
+      "raw_bytes": "8c 00 01 07 f5",
+      "target_offset": 2037,
+      "target_offset_hex": "0x07f5",
+      "candidate": "low16_be",
+      "nearest_distance": 2
+    },
+    {
+      "id": "ctrl_063",
+      "type": "candidate_control",
+      "from": "control_span_0x07c9_0x07ce",
+      "to": "Snr1.chunk0.sub0.run31",
+      "confidence": "medium",
+      "match": "inside_item",
+      "source_offset": 1993,
+      "source_offset_hex": "0x07c9",
+      "opcode": "8c_control",
+      "raw_bytes": "8c 00 02 08 06",
+      "target_offset": 1544,
+      "target_offset_hex": "0x0608",
+      "candidate": "low16_le",
+      "nearest_distance": 10
+    },
+    {
+      "id": "ctrl_064",
+      "type": "candidate_control",
+      "from": "control_span_0x07da_0x07e8",
+      "to": "Snr1.chunk0.sub0.run0",
+      "confidence": "high",
+      "match": "exact_start",
+      "source_offset": 2011,
+      "source_offset_hex": "0x07db",
+      "opcode": "ad_control",
+      "raw_bytes": "ad 00 08 39",
+      "target_offset": 8,
+      "target_offset_hex": "0x0008",
+      "candidate": "high16_be",
+      "nearest_distance": 0
+    },
+    {
+      "id": "ctrl_065",
+      "type": "near_control",
+      "from": "control_span_0x07f7_0x07fc",
+      "to": "Snr1.chunk0.sub0.run4",
+      "confidence": "low",
+      "match": "near_item",
+      "source_offset": 2039,
+      "source_offset_hex": "0x07f7",
+      "opcode": "8c_control",
+      "raw_bytes": "8c 00 01 08 2e",
+      "target_offset": 256,
+      "target_offset_hex": "0x0100",
+      "candidate": "high16_le",
+      "nearest_distance": 2
+    },
+    {
+      "id": "ctrl_066",
+      "type": "near_control",
+      "from": "control_span_0x0802_0x0807",
+      "to": "Snr1.chunk0.sub0.run5",
+      "confidence": "low",
+      "match": "near_item",
+      "source_offset": 2050,
+      "source_offset_hex": "0x0802",
+      "opcode": "8c_control",
+      "raw_bytes": "8c 00 02 08 39",
+      "target_offset": 512,
+      "target_offset_hex": "0x0200",
+      "candidate": "high16_le",
+      "nearest_distance": 1
+    }
+  ]
+}
