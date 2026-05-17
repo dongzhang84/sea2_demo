@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+from collections import Counter, defaultdict
 from pathlib import Path
 
 
@@ -73,8 +74,38 @@ def build_motif_index(motif_data: dict) -> dict[str, list[dict]]:
     return by_script
 
 
+def speaker_for_text(text: str) -> str | None:
+    match = re.match(r"^〔([^〕]+)〕", text)
+    if not match:
+        return None
+    return match.group(1)
+
+
+def build_speaker_hints(motif_data: dict, texts: dict[int, list[str]]) -> dict[tuple[str, int], Counter[str]]:
+    hints: dict[tuple[str, int], Counter[str]] = defaultdict(Counter)
+    for record in motif_data["records"]:
+        snr_id = snr_id_for_script(record["script"])
+        text_id = record["c8_arg"]
+        text = texts[snr_id][text_id] if 0 <= text_id < len(texts[snr_id]) else ""
+        speaker = speaker_for_text(text)
+        if speaker:
+            hints[(record["script"], record["cc_arg"])][speaker] += 1
+    return hints
+
+
+def resolved_speaker_for_record(record: dict, text: str, hints: dict[tuple[str, int], Counter[str]]) -> str | None:
+    speaker = speaker_for_text(text)
+    if speaker:
+        return speaker
+    candidates = hints.get((record["script"], record["cc_arg"]))
+    if candidates:
+        return candidates.most_common(1)[0][0]
+    return None
+
+
 def build_topology(static: dict, motif_data: dict) -> dict:
     texts = load_texts()
+    speaker_hints = build_speaker_hints(motif_data, texts)
     motif_index = build_motif_index(motif_data)
     files = []
     for file_info in static["files"]:
@@ -101,7 +132,22 @@ def build_topology(static: dict, motif_data: dict) -> dict:
                                 "c8_max": run["c8_max"],
                                 "text_ids": [record["c8_arg"] for record in run["records"]],
                                 "first_text": motif_record_with_text(run["records"][0], texts)["text_preview"],
-                                "records": [motif_record_with_text(record, texts) for record in run["records"]],
+                                "first_speaker": resolved_speaker_for_record(
+                                    run["records"][0],
+                                    texts[snr_id_for_script(run["records"][0]["script"])][run["records"][0]["c8_arg"]],
+                                    speaker_hints,
+                                ),
+                                "records": [
+                                    {
+                                        **motif_record_with_text(record, texts),
+                                        "resolved_speaker": resolved_speaker_for_record(
+                                            record,
+                                            texts[snr_id_for_script(record["script"])][record["c8_arg"]],
+                                            speaker_hints,
+                                        ),
+                                    }
+                                    for record in run["records"]
+                                ],
                                 "c8_monotonic_step1": run["c8_monotonic_step1"],
                             }
                             for i, run in enumerate(runs)
@@ -141,6 +187,7 @@ def write_dot(topology: dict) -> None:
                         f"sel {run['selectors']}\\n"
                         f"cc {run['cc_args'][:5]}\\n"
                         f"text {run['c8_min']}..{run['c8_max']}\\n"
+                        f"speaker {run['first_speaker'] or '-'}\\n"
                         f"{run['first_text']}"
                     )
                     escaped_label = run_label.replace("\\", "\\\\").replace('"', '\\"')
