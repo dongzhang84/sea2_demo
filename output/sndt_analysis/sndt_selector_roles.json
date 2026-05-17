@@ -1,0 +1,2464 @@
+{
+  "summary": {
+    "selector_counts": {
+      "1": 1728,
+      "2": 1721
+    },
+    "transitions": [
+      {
+        "from": 1,
+        "to": 2,
+        "count": 948
+      },
+      {
+        "from": 2,
+        "to": 1,
+        "count": 874
+      },
+      {
+        "from": 2,
+        "to": 2,
+        "count": 762
+      },
+      {
+        "from": 1,
+        "to": 1,
+        "count": 724
+      }
+    ]
+  },
+  "selectors": {
+    "1": {
+      "records": 1728,
+      "top_cc_args": [
+        [
+          34,
+          161
+        ],
+        [
+          36,
+          117
+        ],
+        [
+          31,
+          102
+        ],
+        [
+          1,
+          93
+        ],
+        [
+          99,
+          89
+        ],
+        [
+          6,
+          87
+        ],
+        [
+          40,
+          72
+        ],
+        [
+          97,
+          69
+        ],
+        [
+          15,
+          65
+        ],
+        [
+          25,
+          64
+        ],
+        [
+          0,
+          63
+        ],
+        [
+          4,
+          63
+        ],
+        [
+          32,
+          61
+        ],
+        [
+          19,
+          55
+        ],
+        [
+          22,
+          44
+        ],
+        [
+          35,
+          42
+        ],
+        [
+          96,
+          42
+        ],
+        [
+          98,
+          41
+        ],
+        [
+          5,
+          41
+        ],
+        [
+          18,
+          31
+        ]
+      ],
+      "top_speakers": [
+        [
+          "管家麥克",
+          53
+        ],
+        [
+          "皮耶德·康迪",
+          22
+        ],
+        [
+          "$s公爵",
+          20
+        ],
+        [
+          "艾澤格司令",
+          19
+        ],
+        [
+          "老水手洛克",
+          17
+        ],
+        [
+          "地理學家梅爾卡特",
+          17
+        ],
+        [
+          "約翰·法雷爾",
+          17
+        ],
+        [
+          "海員馬休·路易",
+          16
+        ],
+        [
+          "阿爾伯特皇太子",
+          14
+        ],
+        [
+          "麥克白",
+          12
+        ],
+        [
+          "亨利8世",
+          12
+        ],
+        [
+          "朋友薩達姆",
+          12
+        ],
+        [
+          "紅鯨亭女老闆卡蕾珞娃",
+          11
+        ],
+        [
+          "塔法利一世",
+          11
+        ],
+        [
+          "桑多中尉",
+          11
+        ],
+        [
+          "$s公爵夫人",
+          9
+        ],
+        [
+          "監督官吉爾伯特",
+          9
+        ],
+        [
+          "歌女路琪亞",
+          8
+        ],
+        [
+          "女海盜卡特琳娜",
+          8
+        ],
+        [
+          "恩里克神父",
+          7
+        ]
+      ],
+      "examples": [
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0008",
+          "cc_arg": 6,
+          "speaker": "管家麥克",
+          "text_id": 0,
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0024",
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 1,
+          "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0048",
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 5,
+          "text": "是啊，聽說跟馬丁內斯侯爵意見不和．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0063",
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 8,
+          "text": "哎呀，洛克，你雖然長相平凡，但頭腦卻很不錯呀！"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0087",
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 12,
+          "text": "好吧，我就把$n託給你了．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0090",
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 13,
+          "text": "另外，$n，聽路琪亞小姐說你現在還沒有多少航海的資金，是麼？"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0099",
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 14,
+          "text": "由於事情很突然，所以沒有準備好金幣，把這個給你吧．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x00a2",
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 15,
+          "text": "這是以前我跟你父親要的銀髮飾．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x00ab",
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 16,
+          "text": "把它賣掉當作資金吧，但對你爸要保密．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x00b4",
+          "cc_arg": 19,
+          "speaker": "$s公爵夫人",
+          "text_id": 17,
+          "text": "$n，一定要多加小心，上帝保佑你．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x00d0",
+          "cc_arg": 6,
+          "speaker": "管家麥克",
+          "text_id": 18,
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不讓您進家門．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x00e0",
+          "cc_arg": 6,
+          "speaker": "管家麥克",
+          "text_id": 19,
+          "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不讓您進家門．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x00f2",
+          "cc_arg": 6,
+          "speaker": "管家麥克",
+          "text_id": 21,
+          "text": "大海像瞬間即改變其表情的怪物一樣危險．$n先生，請您一定要多加小心啊．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x010b",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 23,
+          "text": "〔$s公爵〕\\n噢，是$n啊，你現在劍術練得如何了？"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x011d",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 25,
+          "text": "是嗎，那麼航海術呢，學好啦？"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x012f",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 27,
+          "text": "是嗎，那麼對地理學呢，擅長嗎？"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0141",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 29,
+          "text": "$n，不要小看書本呀．書是先人的智慧，能把你從困境中救出來．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0153",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 31,
+          "text": "$n，你彈琴怎麼樣？"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0165",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 33,
+          "text": "是嗎？聽說你得到許多女孩子們的好感呀！"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0177",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 35,
+          "text": "哈哈哈，有機會讓我聽聽吧！"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0180",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 36,
+          "text": "$n！"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0192",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 38,
+          "text": "今天有事告訴你．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x01a4",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 40,
+          "text": "你也知道吧，當我在你那個年齡時，已率領艦隊去討伐海盜了．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x01b6",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 42,
+          "text": "過去，不允許你從這個港口出航，是因為我擔心你不成熟，容易出事．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x01bf",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 43,
+          "text": "可是$s家族的人，不能老在陸地上待著．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x01c8",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 44,
+          "text": "你已經俱備了一定的知識，下一步是在海上實際鍛鍊．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x01d1",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 45,
+          "text": "這次派你去探險是葡萄牙首相兼海軍大臣萊昂·$s下達的命令．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x01e3",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 47,
+          "text": "去找出叫普萊斯特·約翰的國，也許你覺得這對你過於嚴厲．但是，除非你找到普萊斯特·約翰國，不然不許回家．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x01ec",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 48,
+          "text": "另外，我要發出公告，讓全城的人把你當作平民對待，你要有心理準備．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x01f5",
+          "cc_arg": 18,
+          "speaker": "$s公爵",
+          "text_id": 49,
+          "text": "你的船已叫造船廠製造，在這期間作好出航前的準備吧．"
+        }
+      ]
+    },
+    "2": {
+      "records": 1721,
+      "top_cc_args": [
+        [
+          0,
+          360
+        ],
+        [
+          1,
+          283
+        ],
+        [
+          5,
+          276
+        ],
+        [
+          2,
+          179
+        ],
+        [
+          4,
+          124
+        ],
+        [
+          31,
+          95
+        ],
+        [
+          3,
+          68
+        ],
+        [
+          34,
+          66
+        ],
+        [
+          35,
+          58
+        ],
+        [
+          127,
+          35
+        ],
+        [
+          36,
+          27
+        ],
+        [
+          40,
+          22
+        ],
+        [
+          32,
+          17
+        ],
+        [
+          39,
+          17
+        ],
+        [
+          29,
+          15
+        ],
+        [
+          30,
+          14
+        ],
+        [
+          19,
+          13
+        ],
+        [
+          25,
+          13
+        ],
+        [
+          38,
+          10
+        ],
+        [
+          33,
+          8
+        ]
+      ],
+      "top_speakers": [
+        [
+          "老水手洛克",
+          12
+        ],
+        [
+          "女海盜卡特琳娜",
+          12
+        ],
+        [
+          "翻譯勞拉",
+          12
+        ],
+        [
+          "蘇萊曼大帝",
+          11
+        ],
+        [
+          "桑多中尉",
+          10
+        ],
+        [
+          "搭船者",
+          5
+        ],
+        [
+          "桑多",
+          5
+        ],
+        [
+          "恩里克神父",
+          4
+        ],
+        [
+          "紀德",
+          4
+        ],
+        [
+          "馬丁內斯侯爵",
+          3
+        ],
+        [
+          "阿爾伯特皇太子",
+          3
+        ],
+        [
+          "塔法利一世",
+          3
+        ],
+        [
+          "艾澤格",
+          3
+        ],
+        [
+          "皮耶德·康迪",
+          3
+        ],
+        [
+          "朋友凱麥隆",
+          2
+        ],
+        [
+          "麥克白",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x002d",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 2,
+          "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0036",
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 3,
+          "text": "太太，這是$s家人的呀！"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x003f",
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 4,
+          "text": "可是，船長，我聽說公爵是跟某個貴族之間有恩怨呀．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0051",
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 6,
+          "text": "問題就在這裡，由於他的原因，公爵無法離開這個國家．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x005a",
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 7,
+          "text": "所以，很可能想要一個能替代他的優秀的人才．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x006c",
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 9,
+          "text": "當然，因為長期跟隨過公爵嘛．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0075",
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 10,
+          "text": "噢，不管怎麼說，我對少爺出海是贊成的．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x007e",
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 11,
+          "text": "因為沒有比航海更能鍛練男子漢的．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x00e9",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 20,
+          "text": "知道了，我只是想跟你告別呀．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0102",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 22,
+          "text": "聽說父親叫我．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0114",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 24,
+          "text": "還行，當然只是跟以前比較說的，若和父親比試的話，只能五場贏一場吧．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0126",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 26,
+          "text": "大致從理論上學了一些，但沒有實際經驗，只是紙上談兵呀！"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0138",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 28,
+          "text": "這個事嗎，由於不允許我離開里斯本，只能從書本上學了一些．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x014a",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 30,
+          "text": "是．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x015c",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 32,
+          "text": "那是個人的愛好，沒法在人家的面前彈奏．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x016e",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 34,
+          "text": "請不要笑話我．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0189",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 37,
+          "text": "是．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x019b",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 39,
+          "text": "是什麼事啊？"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x01ad",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 41,
+          "text": "是，我明白．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x01da",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 46,
+          "text": "是．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x020a",
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 51,
+          "text": "〔老水手洛克〕\\n我在這裡．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x021c",
+          "cc_arg": 31,
+          "speaker": "老水手洛克",
+          "text_id": 53,
+          "text": "知道了，船長，啊！不對，公爵閣下．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x0268",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 59,
+          "text": "哈哈哈，是路琪亞要我彈，我怎能不彈呀．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x027d",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 61,
+          "text": "是嘛，那我早點回去了．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x02c7",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 66,
+          "text": "是啊，這是$s家的啊．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x02d0",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 67,
+          "text": "但不知資金辦得怎麼樣了．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x030f",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 74,
+          "text": "不，這錢我不能收．我沒辦法還您呀．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x032a",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 77,
+          "text": "是父親嗎？"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x034b",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 80,
+          "text": "那辦不到，我已經不能再進家門了．"
+        },
+        {
+          "script": "Snr1.chunk0.sub0",
+          "offset_hex": "0x035d",
+          "cc_arg": 0,
+          "speaker": null,
+          "text_id": 82,
+          "text": "喂，路琪亞！"
+        }
+      ]
+    }
+  },
+  "by_snr": {
+    "Snr1": {
+      "1": 578,
+      "2": 492
+    },
+    "Snr2": {
+      "1": 451,
+      "2": 402
+    },
+    "Snr3": {
+      "2": 233,
+      "1": 223
+    },
+    "Snr4": {
+      "1": 119,
+      "2": 99
+    },
+    "Snr5": {
+      "2": 144,
+      "1": 107
+    },
+    "Snr6": {
+      "2": 351,
+      "1": 250
+    }
+  },
+  "top_scripts": [
+    {
+      "script": "Snr1.chunk0.sub0",
+      "selectors": {
+        "1": 76,
+        "2": 64
+      },
+      "records": 140
+    },
+    {
+      "script": "Snr3.chunk2.sub1",
+      "selectors": {
+        "2": 63,
+        "1": 36
+      },
+      "records": 99
+    },
+    {
+      "script": "Snr1.chunk1.sub2",
+      "selectors": {
+        "1": 46,
+        "2": 39
+      },
+      "records": 85
+    },
+    {
+      "script": "Snr1.chunk1.sub1",
+      "selectors": {
+        "1": 40,
+        "2": 39
+      },
+      "records": 79
+    },
+    {
+      "script": "Snr2.chunk0.sub0",
+      "selectors": {
+        "1": 38,
+        "2": 36
+      },
+      "records": 74
+    },
+    {
+      "script": "Snr6.chunk1.sub0",
+      "selectors": {
+        "2": 40,
+        "1": 33
+      },
+      "records": 73
+    },
+    {
+      "script": "Snr5.chunk3.sub2",
+      "selectors": {
+        "1": 37,
+        "2": 31
+      },
+      "records": 68
+    },
+    {
+      "script": "Snr6.chunk2.sub4",
+      "selectors": {
+        "2": 50,
+        "1": 15
+      },
+      "records": 65
+    },
+    {
+      "script": "Snr3.chunk0.sub0",
+      "selectors": {
+        "1": 37,
+        "2": 24
+      },
+      "records": 61
+    },
+    {
+      "script": "Snr2.chunk0.sub1",
+      "selectors": {
+        "1": 33,
+        "2": 25
+      },
+      "records": 58
+    },
+    {
+      "script": "Snr3.chunk0.sub2",
+      "selectors": {
+        "2": 40,
+        "1": 15
+      },
+      "records": 55
+    },
+    {
+      "script": "Snr6.chunk5.sub2",
+      "selectors": {
+        "1": 32,
+        "2": 23
+      },
+      "records": 55
+    },
+    {
+      "script": "Snr3.chunk5.sub1",
+      "selectors": {
+        "2": 29,
+        "1": 23
+      },
+      "records": 52
+    },
+    {
+      "script": "Snr2.chunk6.sub2",
+      "selectors": {
+        "2": 25,
+        "1": 24
+      },
+      "records": 49
+    },
+    {
+      "script": "Snr2.chunk7.sub2",
+      "selectors": {
+        "1": 30,
+        "2": 19
+      },
+      "records": 49
+    },
+    {
+      "script": "Snr6.chunk3.sub3",
+      "selectors": {
+        "1": 29,
+        "2": 19
+      },
+      "records": 48
+    },
+    {
+      "script": "Snr1.chunk3.sub3",
+      "selectors": {
+        "2": 23,
+        "1": 22
+      },
+      "records": 45
+    },
+    {
+      "script": "Snr6.chunk2.sub1",
+      "selectors": {
+        "1": 25,
+        "2": 20
+      },
+      "records": 45
+    },
+    {
+      "script": "Snr1.chunk5.sub2",
+      "selectors": {
+        "1": 22,
+        "2": 22
+      },
+      "records": 44
+    },
+    {
+      "script": "Snr2.chunk3.sub4",
+      "selectors": {
+        "2": 25,
+        "1": 19
+      },
+      "records": 44
+    },
+    {
+      "script": "Snr2.chunk7.sub7",
+      "selectors": {
+        "1": 25,
+        "2": 19
+      },
+      "records": 44
+    },
+    {
+      "script": "Snr2.chunk5.sub0",
+      "selectors": {
+        "1": 25,
+        "2": 18
+      },
+      "records": 43
+    },
+    {
+      "script": "Snr5.chunk0.sub1",
+      "selectors": {
+        "2": 31,
+        "1": 12
+      },
+      "records": 43
+    },
+    {
+      "script": "Snr1.chunk5.sub4",
+      "selectors": {
+        "1": 27,
+        "2": 15
+      },
+      "records": 42
+    },
+    {
+      "script": "Snr6.chunk0.sub1",
+      "selectors": {
+        "2": 34,
+        "1": 8
+      },
+      "records": 42
+    },
+    {
+      "script": "Snr1.chunk5.sub6",
+      "selectors": {
+        "2": 21,
+        "1": 20
+      },
+      "records": 41
+    },
+    {
+      "script": "Snr6.chunk3.sub2",
+      "selectors": {
+        "2": 23,
+        "1": 17
+      },
+      "records": 40
+    },
+    {
+      "script": "Snr1.chunk2.sub6",
+      "selectors": {
+        "1": 24,
+        "2": 13
+      },
+      "records": 37
+    },
+    {
+      "script": "Snr2.chunk5.sub1",
+      "selectors": {
+        "1": 18,
+        "2": 18
+      },
+      "records": 36
+    },
+    {
+      "script": "Snr3.chunk4.sub1",
+      "selectors": {
+        "1": 20,
+        "2": 16
+      },
+      "records": 36
+    },
+    {
+      "script": "Snr4.chunk0.sub0",
+      "selectors": {
+        "1": 21,
+        "2": 15
+      },
+      "records": 36
+    },
+    {
+      "script": "Snr6.chunk5.sub1",
+      "selectors": {
+        "2": 21,
+        "1": 15
+      },
+      "records": 36
+    },
+    {
+      "script": "Snr2.chunk5.sub2",
+      "selectors": {
+        "1": 22,
+        "2": 13
+      },
+      "records": 35
+    },
+    {
+      "script": "Snr3.chunk3.sub0",
+      "selectors": {
+        "1": 25,
+        "2": 10
+      },
+      "records": 35
+    },
+    {
+      "script": "Snr1.chunk2.sub2",
+      "selectors": {
+        "1": 18,
+        "2": 16
+      },
+      "records": 34
+    },
+    {
+      "script": "Snr1.chunk3.sub1",
+      "selectors": {
+        "1": 24,
+        "2": 10
+      },
+      "records": 34
+    },
+    {
+      "script": "Snr1.chunk2.sub1",
+      "selectors": {
+        "1": 18,
+        "2": 15
+      },
+      "records": 33
+    },
+    {
+      "script": "Snr1.chunk5.sub3",
+      "selectors": {
+        "1": 17,
+        "2": 16
+      },
+      "records": 33
+    },
+    {
+      "script": "Snr2.chunk6.sub6",
+      "selectors": {
+        "1": 19,
+        "2": 14
+      },
+      "records": 33
+    },
+    {
+      "script": "Snr2.chunk5.sub5",
+      "selectors": {
+        "1": 17,
+        "2": 15
+      },
+      "records": 32
+    },
+    {
+      "script": "Snr2.chunk6.sub1",
+      "selectors": {
+        "1": 19,
+        "2": 13
+      },
+      "records": 32
+    },
+    {
+      "script": "Snr4.chunk4.sub2",
+      "selectors": {
+        "1": 18,
+        "2": 14
+      },
+      "records": 32
+    },
+    {
+      "script": "Snr6.chunk0.sub0",
+      "selectors": {
+        "2": 20,
+        "1": 12
+      },
+      "records": 32
+    },
+    {
+      "script": "Snr6.chunk3.sub1",
+      "selectors": {
+        "1": 16,
+        "2": 14
+      },
+      "records": 30
+    },
+    {
+      "script": "Snr1.chunk2.sub8",
+      "selectors": {
+        "2": 21,
+        "1": 8
+      },
+      "records": 29
+    },
+    {
+      "script": "Snr4.chunk1.sub0",
+      "selectors": {
+        "2": 21,
+        "1": 8
+      },
+      "records": 29
+    },
+    {
+      "script": "Snr2.chunk1.sub4",
+      "selectors": {
+        "2": 20,
+        "1": 8
+      },
+      "records": 28
+    },
+    {
+      "script": "Snr3.chunk5.sub3",
+      "selectors": {
+        "1": 15,
+        "2": 13
+      },
+      "records": 28
+    },
+    {
+      "script": "Snr4.chunk4.sub0",
+      "selectors": {
+        "1": 17,
+        "2": 11
+      },
+      "records": 28
+    },
+    {
+      "script": "Snr1.chunk3.sub5",
+      "selectors": {
+        "1": 16,
+        "2": 11
+      },
+      "records": 27
+    },
+    {
+      "script": "Snr1.chunk3.sub13",
+      "selectors": {
+        "1": 18,
+        "2": 9
+      },
+      "records": 27
+    },
+    {
+      "script": "Snr1.chunk3.sub8",
+      "selectors": {
+        "1": 14,
+        "2": 12
+      },
+      "records": 26
+    },
+    {
+      "script": "Snr1.chunk5.sub5",
+      "selectors": {
+        "2": 17,
+        "1": 9
+      },
+      "records": 26
+    },
+    {
+      "script": "Snr3.chunk5.sub2",
+      "selectors": {
+        "1": 16,
+        "2": 10
+      },
+      "records": 26
+    },
+    {
+      "script": "Snr5.chunk0.sub0",
+      "selectors": {
+        "2": 20,
+        "1": 6
+      },
+      "records": 26
+    },
+    {
+      "script": "Snr1.chunk4.sub1",
+      "selectors": {
+        "1": 14,
+        "2": 11
+      },
+      "records": 25
+    },
+    {
+      "script": "Snr1.chunk3.sub14",
+      "selectors": {
+        "2": 13,
+        "1": 11
+      },
+      "records": 24
+    },
+    {
+      "script": "Snr5.chunk2.sub0",
+      "selectors": {
+        "1": 16,
+        "2": 8
+      },
+      "records": 24
+    },
+    {
+      "script": "Snr1.chunk3.sub12",
+      "selectors": {
+        "1": 14,
+        "2": 9
+      },
+      "records": 23
+    },
+    {
+      "script": "Snr2.chunk7.sub6",
+      "selectors": {
+        "2": 17,
+        "1": 6
+      },
+      "records": 23
+    }
+  ],
+  "joao_opening": [
+    {
+      "offset_hex": "0x0008",
+      "selector": 1,
+      "cc_arg": 6,
+      "speaker": "管家麥克",
+      "text_id": 0,
+      "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+    },
+    {
+      "offset_hex": "0x0024",
+      "selector": 1,
+      "cc_arg": 19,
+      "speaker": "$s公爵夫人",
+      "text_id": 1,
+      "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+    },
+    {
+      "offset_hex": "0x002d",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 2,
+      "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+    },
+    {
+      "offset_hex": "0x0036",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 3,
+      "text": "太太，這是$s家人的呀！"
+    },
+    {
+      "offset_hex": "0x003f",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 4,
+      "text": "可是，船長，我聽說公爵是跟某個貴族之間有恩怨呀．"
+    },
+    {
+      "offset_hex": "0x0048",
+      "selector": 1,
+      "cc_arg": 19,
+      "speaker": "$s公爵夫人",
+      "text_id": 5,
+      "text": "是啊，聽說跟馬丁內斯侯爵意見不和．"
+    },
+    {
+      "offset_hex": "0x0051",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 6,
+      "text": "問題就在這裡，由於他的原因，公爵無法離開這個國家．"
+    },
+    {
+      "offset_hex": "0x005a",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 7,
+      "text": "所以，很可能想要一個能替代他的優秀的人才．"
+    },
+    {
+      "offset_hex": "0x0063",
+      "selector": 1,
+      "cc_arg": 19,
+      "speaker": "$s公爵夫人",
+      "text_id": 8,
+      "text": "哎呀，洛克，你雖然長相平凡，但頭腦卻很不錯呀！"
+    },
+    {
+      "offset_hex": "0x006c",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 9,
+      "text": "當然，因為長期跟隨過公爵嘛．"
+    },
+    {
+      "offset_hex": "0x0075",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 10,
+      "text": "噢，不管怎麼說，我對少爺出海是贊成的．"
+    },
+    {
+      "offset_hex": "0x007e",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 11,
+      "text": "因為沒有比航海更能鍛練男子漢的．"
+    },
+    {
+      "offset_hex": "0x0087",
+      "selector": 1,
+      "cc_arg": 19,
+      "speaker": "$s公爵夫人",
+      "text_id": 12,
+      "text": "好吧，我就把$n託給你了．"
+    },
+    {
+      "offset_hex": "0x0090",
+      "selector": 1,
+      "cc_arg": 19,
+      "speaker": "$s公爵夫人",
+      "text_id": 13,
+      "text": "另外，$n，聽路琪亞小姐說你現在還沒有多少航海的資金，是麼？"
+    },
+    {
+      "offset_hex": "0x0099",
+      "selector": 1,
+      "cc_arg": 19,
+      "speaker": "$s公爵夫人",
+      "text_id": 14,
+      "text": "由於事情很突然，所以沒有準備好金幣，把這個給你吧．"
+    },
+    {
+      "offset_hex": "0x00a2",
+      "selector": 1,
+      "cc_arg": 19,
+      "speaker": "$s公爵夫人",
+      "text_id": 15,
+      "text": "這是以前我跟你父親要的銀髮飾．"
+    },
+    {
+      "offset_hex": "0x00ab",
+      "selector": 1,
+      "cc_arg": 19,
+      "speaker": "$s公爵夫人",
+      "text_id": 16,
+      "text": "把它賣掉當作資金吧，但對你爸要保密．"
+    },
+    {
+      "offset_hex": "0x00b4",
+      "selector": 1,
+      "cc_arg": 19,
+      "speaker": "$s公爵夫人",
+      "text_id": 17,
+      "text": "$n，一定要多加小心，上帝保佑你．"
+    },
+    {
+      "offset_hex": "0x00d0",
+      "selector": 1,
+      "cc_arg": 6,
+      "speaker": "管家麥克",
+      "text_id": 18,
+      "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不讓您進家門．"
+    },
+    {
+      "offset_hex": "0x00e0",
+      "selector": 1,
+      "cc_arg": 6,
+      "speaker": "管家麥克",
+      "text_id": 19,
+      "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不讓您進家門．"
+    },
+    {
+      "offset_hex": "0x00e9",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 20,
+      "text": "知道了，我只是想跟你告別呀．"
+    },
+    {
+      "offset_hex": "0x00f2",
+      "selector": 1,
+      "cc_arg": 6,
+      "speaker": "管家麥克",
+      "text_id": 21,
+      "text": "大海像瞬間即改變其表情的怪物一樣危險．$n先生，請您一定要多加小心啊．"
+    },
+    {
+      "offset_hex": "0x0102",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 22,
+      "text": "聽說父親叫我．"
+    },
+    {
+      "offset_hex": "0x010b",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 23,
+      "text": "〔$s公爵〕\\n噢，是$n啊，你現在劍術練得如何了？"
+    },
+    {
+      "offset_hex": "0x0114",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 24,
+      "text": "還行，當然只是跟以前比較說的，若和父親比試的話，只能五場贏一場吧．"
+    },
+    {
+      "offset_hex": "0x011d",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 25,
+      "text": "是嗎，那麼航海術呢，學好啦？"
+    },
+    {
+      "offset_hex": "0x0126",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 26,
+      "text": "大致從理論上學了一些，但沒有實際經驗，只是紙上談兵呀！"
+    },
+    {
+      "offset_hex": "0x012f",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 27,
+      "text": "是嗎，那麼對地理學呢，擅長嗎？"
+    },
+    {
+      "offset_hex": "0x0138",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 28,
+      "text": "這個事嗎，由於不允許我離開里斯本，只能從書本上學了一些．"
+    },
+    {
+      "offset_hex": "0x0141",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 29,
+      "text": "$n，不要小看書本呀．書是先人的智慧，能把你從困境中救出來．"
+    },
+    {
+      "offset_hex": "0x014a",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 30,
+      "text": "是．"
+    },
+    {
+      "offset_hex": "0x0153",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 31,
+      "text": "$n，你彈琴怎麼樣？"
+    },
+    {
+      "offset_hex": "0x015c",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 32,
+      "text": "那是個人的愛好，沒法在人家的面前彈奏．"
+    },
+    {
+      "offset_hex": "0x0165",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 33,
+      "text": "是嗎？聽說你得到許多女孩子們的好感呀！"
+    },
+    {
+      "offset_hex": "0x016e",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 34,
+      "text": "請不要笑話我．"
+    },
+    {
+      "offset_hex": "0x0177",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 35,
+      "text": "哈哈哈，有機會讓我聽聽吧！"
+    },
+    {
+      "offset_hex": "0x0180",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 36,
+      "text": "$n！"
+    },
+    {
+      "offset_hex": "0x0189",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 37,
+      "text": "是．"
+    },
+    {
+      "offset_hex": "0x0192",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 38,
+      "text": "今天有事告訴你．"
+    },
+    {
+      "offset_hex": "0x019b",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 39,
+      "text": "是什麼事啊？"
+    },
+    {
+      "offset_hex": "0x01a4",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 40,
+      "text": "你也知道吧，當我在你那個年齡時，已率領艦隊去討伐海盜了．"
+    },
+    {
+      "offset_hex": "0x01ad",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 41,
+      "text": "是，我明白．"
+    },
+    {
+      "offset_hex": "0x01b6",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 42,
+      "text": "過去，不允許你從這個港口出航，是因為我擔心你不成熟，容易出事．"
+    },
+    {
+      "offset_hex": "0x01bf",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 43,
+      "text": "可是$s家族的人，不能老在陸地上待著．"
+    },
+    {
+      "offset_hex": "0x01c8",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 44,
+      "text": "你已經俱備了一定的知識，下一步是在海上實際鍛鍊．"
+    },
+    {
+      "offset_hex": "0x01d1",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 45,
+      "text": "這次派你去探險是葡萄牙首相兼海軍大臣萊昂·$s下達的命令．"
+    },
+    {
+      "offset_hex": "0x01da",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 46,
+      "text": "是．"
+    },
+    {
+      "offset_hex": "0x01e3",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 47,
+      "text": "去找出叫普萊斯特·約翰的國，也許你覺得這對你過於嚴厲．但是，除非你找到普萊斯特·約翰國，不然不許回家．"
+    },
+    {
+      "offset_hex": "0x01ec",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 48,
+      "text": "另外，我要發出公告，讓全城的人把你當作平民對待，你要有心理準備．"
+    },
+    {
+      "offset_hex": "0x01f5",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 49,
+      "text": "你的船已叫造船廠製造，在這期間作好出航前的準備吧．"
+    },
+    {
+      "offset_hex": "0x0201",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 50,
+      "text": "洛克，洛克在嗎？"
+    },
+    {
+      "offset_hex": "0x020a",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 51,
+      "text": "〔老水手洛克〕\\n我在這裡．"
+    },
+    {
+      "offset_hex": "0x0213",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 52,
+      "text": "我任命你為$n的教官，希望你把他鍛鍊成好水手．"
+    },
+    {
+      "offset_hex": "0x021c",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 53,
+      "text": "知道了，船長，啊！不對，公爵閣下．"
+    },
+    {
+      "offset_hex": "0x0225",
+      "selector": 1,
+      "cc_arg": 18,
+      "speaker": "$s公爵",
+      "text_id": 54,
+      "text": "不要因為他是我的兒子而客氣，要充分讓他鍛鍊啊！"
+    },
+    {
+      "offset_hex": "0x0240",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 55,
+      "text": "$n，快回公爵府吧！"
+    },
+    {
+      "offset_hex": "0x024d",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 56,
+      "text": "〔紅鯨亭女老闆卡蕾珞娃〕\\n哎喲，$n，真少見呀！"
+    },
+    {
+      "offset_hex": "0x0256",
+      "selector": 1,
+      "cc_arg": 98,
+      "speaker": "歌女路琪亞",
+      "text_id": 57,
+      "text": "〔歌女路琪亞〕\\n喂，我來唱歌，你彈琴給我伴奏吧！"
+    },
+    {
+      "offset_hex": "0x025f",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 58,
+      "text": "喂，路琪亞，對公子怎能用這種口氣說話．"
+    },
+    {
+      "offset_hex": "0x0268",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 59,
+      "text": "哈哈哈，是路琪亞要我彈，我怎能不彈呀．"
+    },
+    {
+      "offset_hex": "0x0274",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 60,
+      "text": "想起來了，$n，你家洛克先生正找您呢，聽說公爵叫您去．"
+    },
+    {
+      "offset_hex": "0x027d",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 61,
+      "text": "是嘛，那我早點回去了．"
+    },
+    {
+      "offset_hex": "0x0286",
+      "selector": 1,
+      "cc_arg": 98,
+      "speaker": "歌女路琪亞",
+      "text_id": 62,
+      "text": "嘿，要回去了．"
+    },
+    {
+      "offset_hex": "0x02a3",
+      "selector": 1,
+      "cc_arg": 98,
+      "speaker": "歌女路琪亞",
+      "text_id": 63,
+      "text": "太太要您晚上10點到12點之間去公爵府．"
+    },
+    {
+      "offset_hex": "0x02b5",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 64,
+      "text": "$n先生，到底發生什麼事啊？街坊都鬧翻天了！"
+    },
+    {
+      "offset_hex": "0x02be",
+      "selector": 1,
+      "cc_arg": 98,
+      "speaker": "歌女路琪亞",
+      "text_id": 65,
+      "text": "喂，您真要出海啊！"
+    },
+    {
+      "offset_hex": "0x02c7",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 66,
+      "text": "是啊，這是$s家的啊．"
+    },
+    {
+      "offset_hex": "0x02d0",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 67,
+      "text": "但不知資金辦得怎麼樣了．"
+    },
+    {
+      "offset_hex": "0x02d9",
+      "selector": 1,
+      "cc_arg": 98,
+      "speaker": "歌女路琪亞",
+      "text_id": 68,
+      "text": "我們去當遊吟詩人吧，去唱歌賺錢．"
+    },
+    {
+      "offset_hex": "0x02e2",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 69,
+      "text": "路琪亞，別說瞎話了．"
+    },
+    {
+      "offset_hex": "0x02eb",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 70,
+      "text": "$n，這裡有金幣1000枚，請您一定用上它．"
+    },
+    {
+      "offset_hex": "0x02f4",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 71,
+      "text": "哎喲，想不到這生意不太興隆的酒館還有不少錢呢！"
+    },
+    {
+      "offset_hex": "0x02fd",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 72,
+      "text": "我們的買賣是不太好，真有點對不起您了．"
+    },
+    {
+      "offset_hex": "0x0306",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 73,
+      "text": "$n，您收下吧．"
+    },
+    {
+      "offset_hex": "0x030f",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 74,
+      "text": "不，這錢我不能收．我沒辦法還您呀．"
+    },
+    {
+      "offset_hex": "0x0318",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 75,
+      "text": "沒關係．說實話，這是$s公爵委託保管的錢，他要求保密．"
+    },
+    {
+      "offset_hex": "0x0321",
+      "selector": 1,
+      "cc_arg": 97,
+      "speaker": "紅鯨亭女老闆卡蕾珞娃",
+      "text_id": 76,
+      "text": "是交給您還是交給$n先生呢？"
+    },
+    {
+      "offset_hex": "0x032a",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 77,
+      "text": "是父親嗎？"
+    },
+    {
+      "offset_hex": "0x0339",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 78,
+      "text": "但是要作為資金，還得再弄一些．"
+    },
+    {
+      "offset_hex": "0x0342",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 79,
+      "text": "對了，跟太太商量一下好嗎？"
+    },
+    {
+      "offset_hex": "0x034b",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 80,
+      "text": "那辦不到，我已經不能再進家門了．"
+    },
+    {
+      "offset_hex": "0x0354",
+      "selector": 1,
+      "cc_arg": 98,
+      "speaker": "歌女路琪亞",
+      "text_id": 81,
+      "text": "沒關係，我去聯繫吧．"
+    },
+    {
+      "offset_hex": "0x035d",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 82,
+      "text": "喂，路琪亞！"
+    },
+    {
+      "offset_hex": "0x0367",
+      "selector": 1,
+      "cc_arg": 98,
+      "speaker": "歌女路琪亞",
+      "text_id": 83,
+      "text": "回來了．"
+    },
+    {
+      "offset_hex": "0x0370",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 84,
+      "text": "結果怎麼樣？"
+    },
+    {
+      "offset_hex": "0x0379",
+      "selector": 1,
+      "cc_arg": 98,
+      "speaker": "歌女路琪亞",
+      "text_id": 85,
+      "text": "她說要您晚上10點到12點之間去公爵府．"
+    },
+    {
+      "offset_hex": "0x0382",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 86,
+      "text": "謝謝你，路琪亞．"
+    },
+    {
+      "offset_hex": "0x03d2",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 91,
+      "text": "不，家父政務繁忙，我又沒有航海經驗．"
+    },
+    {
+      "offset_hex": "0x03e7",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 94,
+      "text": "是嗎，主教大人，那我就回家了．"
+    },
+    {
+      "offset_hex": "0x0418",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 98,
+      "text": "謝謝，那我就不客氣了．"
+    },
+    {
+      "offset_hex": "0x042c",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 99,
+      "text": "不，我不能要主教大人的錢．"
+    },
+    {
+      "offset_hex": "0x0435",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 100,
+      "text": "把這些錢捐給教會吧．"
+    },
+    {
+      "offset_hex": "0x0454",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 102,
+      "text": "不，不能給主教大人添麻煩啊．"
+    },
+    {
+      "offset_hex": "0x0471",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 105,
+      "text": "聽說主教大人找我有事．"
+    },
+    {
+      "offset_hex": "0x0484",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 107,
+      "text": "主教大人，據我所知，您是在找航海者吧？"
+    },
+    {
+      "offset_hex": "0x04a5",
+      "selector": 2,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 112,
+      "text": "〔恩里克神父〕\\n是，主教大人．"
+    },
+    {
+      "offset_hex": "0x04c0",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 116,
+      "text": "什麼？要去日本！聽父親說，它在遙遠的東方，是個浮在大海上的美麗的島國．"
+    },
+    {
+      "offset_hex": "0x04c9",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 117,
+      "text": "您說的事我現在無能為力．不要說印度洋，就連伊比利我還從未離開過．"
+    },
+    {
+      "offset_hex": "0x04d2",
+      "selector": 2,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 118,
+      "text": "但那裡的人們還沒有受過神的教誨，有多少人在翹首以待我們的到來啊．"
+    },
+    {
+      "offset_hex": "0x04db",
+      "selector": 2,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 119,
+      "text": "不管怎麼說，法王廳已命令我去佈教．拜託您了，不論用多長時間都行．"
+    },
+    {
+      "offset_hex": "0x04e4",
+      "selector": 2,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 120,
+      "text": "請帶我去日本吧．"
+    },
+    {
+      "offset_hex": "0x04ed",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 121,
+      "text": "看你這麼懇切，我只好答應你了．可是說實話，不知道要多少年才能到那裡．"
+    },
+    {
+      "offset_hex": "0x04f8",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 122,
+      "text": "少爺，您那麼輕易就答應下來，您真有把握嗎？"
+    },
+    {
+      "offset_hex": "0x0501",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 123,
+      "text": "日本確實非常遙遠，但千里之行始於足下，只要我們努力就一定會成功的．"
+    },
+    {
+      "offset_hex": "0x050a",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 124,
+      "text": "您說得有理．"
+    },
+    {
+      "offset_hex": "0x0541",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 126,
+      "text": "很可能是洛克吧．"
+    },
+    {
+      "offset_hex": "0x0554",
+      "selector": 2,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 128,
+      "text": "喂，船造好了嗎？"
+    },
+    {
+      "offset_hex": "0x0594",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 135,
+      "text": "少爺，沒有船怎能出海呀．去造船廠看看吧．"
+    },
+    {
+      "offset_hex": "0x05ae",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 137,
+      "text": "噢，有什麼事嗎？"
+    },
+    {
+      "offset_hex": "0x05bb",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 138,
+      "text": "對了，是想找個可靠的航海者吧．"
+    },
+    {
+      "offset_hex": "0x05d4",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 139,
+      "text": "少爺，沒有資金就無法出航．那家酒店的老闆娘曾經照顧過公爵，找她商量一下不好嗎？"
+    },
+    {
+      "offset_hex": "0x05e1",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 140,
+      "text": "少爺，您想弄出海的資金吧．那家酒店的老闆娘曾經照顧過公爵，找她商量一下不好嗎？"
+    },
+    {
+      "offset_hex": "0x05ee",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 141,
+      "text": "少爺，資金還是不夠啊．"
+    },
+    {
+      "offset_hex": "0x05fe",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 142,
+      "text": "少爺，目前準備做什麼？"
+    },
+    {
+      "offset_hex": "0x0607",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 143,
+      "text": "想先遊覽一下各地的港口．"
+    },
+    {
+      "offset_hex": "0x0610",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 144,
+      "text": "這個主意不太高明．"
+    },
+    {
+      "offset_hex": "0x0619",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 145,
+      "text": "為什麼？"
+    },
+    {
+      "offset_hex": "0x0622",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 146,
+      "text": "海上航行要花巨大的費用，而我們沒有足夠的資金啊．"
+    },
+    {
+      "offset_hex": "0x062b",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 147,
+      "text": "飲水不必花錢買，這暫且不提，但招募水手，買糧食等都是不小的開銷呀．"
+    },
+    {
+      "offset_hex": "0x0634",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 148,
+      "text": "你是說這些錢不夠用吧．"
+    },
+    {
+      "offset_hex": "0x063d",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 149,
+      "text": "是的，勉強夠用一個月的．但到那時候再想辦法就太晚了．"
+    },
+    {
+      "offset_hex": "0x0646",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 150,
+      "text": "遊覽各地港口，我贊成．"
+    },
+    {
+      "offset_hex": "0x064f",
+      "selector": 1,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 151,
+      "text": "洛克先生的意思是在沿途做生意吧？"
+    },
+    {
+      "offset_hex": "0x0658",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 152,
+      "text": "對對對，是這個意思．"
+    },
+    {
+      "offset_hex": "0x0661",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 153,
+      "text": "如果做生意，我們做什麼買賣呢？"
+    },
+    {
+      "offset_hex": "0x066a",
+      "selector": 1,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 154,
+      "text": "要是在里斯本的話，應該買它的特產岩鹽．"
+    },
+    {
+      "offset_hex": "0x0673",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 155,
+      "text": "……"
+    },
+    {
+      "offset_hex": "0x067c",
+      "selector": 1,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 156,
+      "text": "我以前在教會當過會計，對這些比較了解．"
+    },
+    {
+      "offset_hex": "0x0685",
+      "selector": 1,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 157,
+      "text": "在這個港口花大約40枚金幣買的岩鹽，能在地中海的其它港口賣到60枚以上．"
+    },
+    {
+      "offset_hex": "0x069b",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 158,
+      "text": "船長，看來恩里克神父精通會計，請他作我們的會計好不好？"
+    },
+    {
+      "offset_hex": "0x06aa",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 159,
+      "text": "好吧，就這麼辦．"
+    },
+    {
+      "offset_hex": "0x06c8",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 160,
+      "text": "另外，請洛克當助手．"
+    },
+    {
+      "offset_hex": "0x06d9",
+      "selector": 1,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 161,
+      "text": "對了，我還記得些以前靠過的港口的物價．"
+    },
+    {
+      "offset_hex": "0x06e2",
+      "selector": 1,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 162,
+      "text": "你通過積載一覽表，可以知道你的貨物在哪賣得最好．"
+    },
+    {
+      "offset_hex": "0x06ef",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 163,
+      "text": "不，不好意思讓神父做這種工作．"
+    },
+    {
+      "offset_hex": "0x06f8",
+      "selector": 1,
+      "cc_arg": 32,
+      "speaker": "恩里克神父",
+      "text_id": 164,
+      "text": "不，我不在乎．"
+    },
+    {
+      "offset_hex": "0x0701",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 165,
+      "text": "那，以後再拜託您吧．"
+    },
+    {
+      "offset_hex": "0x0710",
+      "selector": 1,
+      "cc_arg": 31,
+      "speaker": "老水手洛克",
+      "text_id": 166,
+      "text": "船長，請恩里克神父當會計，挺好的．"
+    },
+    {
+      "offset_hex": "0x076d",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 175,
+      "text": "代管的東西？"
+    },
+    {
+      "offset_hex": "0x07ee",
+      "selector": 2,
+      "cc_arg": 0,
+      "speaker": null,
+      "text_id": 186,
+      "text": "啊，是的．從今以後，把我當作一個普通航海者好了．"
+    }
+  ]
+}
