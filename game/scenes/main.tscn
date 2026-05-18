@@ -162,9 +162,9 @@ theme_override_font_sizes/font_size = 14
 custom_minimum_size = Vector2(480, 220)
 size_flags_vertical = 3
 
-[node name="贸易" type="ScrollContainer" parent="UI/PortScreenPanel/V/Tabs"]
+[node name="商店" type="ScrollContainer" parent="UI/PortScreenPanel/V/Tabs"]
 
-[node name="List" type="VBoxContainer" parent="UI/PortScreenPanel/V/Tabs/贸易"]
+[node name="List" type="VBoxContainer" parent="UI/PortScreenPanel/V/Tabs/商店"]
 
 [node name="船坞" type="ScrollContainer" parent="UI/PortScreenPanel/V/Tabs"]
 

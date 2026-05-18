@@ -10,6 +10,8 @@ var target_pos: Vector2 = Vector2.ZERO
 var moving: bool = false
 var target_port_id: int = -1
 var wind_overlay: Node2D = null  # injected by main
+var path_points: Array[Vector2] = []
+var path_index: int = 0
 
 @onready var sprite: Sprite2D = $Sprite
 @onready var trail: Line2D = $Trail
@@ -56,11 +58,40 @@ func _ready() -> void:
 
 
 func sail_to(pos: Vector2, port_id: int) -> void:
+	path_points.clear()
+	path_index = 0
 	target_pos = pos
 	target_port_id = port_id
 	moving = true
 	trail.clear_points()
 	trail.add_point(global_position)
+
+
+func sail_to_path(points: Array, port_id: int) -> void:
+	path_points = []
+	for point in points:
+		path_points.append(Vector2(point))
+	if path_points.is_empty():
+		sail_to(global_position, port_id)
+		return
+	target_port_id = port_id
+	moving = true
+	path_index = 0
+	trail.clear_points()
+	trail.add_point(global_position)
+	_advance_waypoint()
+
+
+func _advance_waypoint() -> void:
+	if path_index >= path_points.size():
+		moving = false
+		var pid := target_port_id
+		target_port_id = -1
+		path_points.clear()
+		arrived_at_port.emit(pid)
+		return
+	target_pos = path_points[path_index]
+	path_index += 1
 
 
 func _process(delta: float) -> void:
@@ -70,9 +101,13 @@ func _process(delta: float) -> void:
 	var dist := direction.length()
 	if dist < 2.0:
 		global_position = target_pos
+		if path_index < path_points.size():
+			_advance_waypoint()
+			return
 		moving = false
 		var pid := target_port_id
 		target_port_id = -1
+		path_points.clear()
 		arrived_at_port.emit(pid)
 		return
 	var step := get_current_speed() * delta

@@ -19,7 +19,9 @@ This is Phase 4 of the master plan. The MVP demonstrates the core trading loop a
 - ✅ Sea combat
 - ✅ Random voyage events
 - ✅ Save / load
+- ✅ Port panel with 商店 / 船坞 / 酒馆 / 剧情 / 航线 tabs
 - ✅ Story quest tab for bridge-node samples
+- ✅ Automatic sea routing that avoids obvious land crossings
 - ⬜ Modern art (currently using RE'd worldmap as placeholder)
 
 ## Run

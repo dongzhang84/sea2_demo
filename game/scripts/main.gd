@@ -14,7 +14,7 @@ extends Node2D
 @onready var port_screen_image: TextureRect = $UI/PortScreenPanel/V/Image
 @onready var governor_portrait: TextureRect = $UI/PortScreenPanel/V/GovernorRow/Portrait
 @onready var governor_label: Label = $UI/PortScreenPanel/V/GovernorRow/Label
-@onready var trade_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/贸易/List
+@onready var trade_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/商店/List
 @onready var shipyard_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/船坞/List
 @onready var tavern_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/酒馆/List
 @onready var story_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/剧情/List
@@ -25,10 +25,15 @@ extends Node2D
 var ship: Node2D = null
 var current_port_id: int = -1
 var pending_sail_days: int = 0
+var route_grid: AStarGrid2D = null
+var route_image: Image = null
 
 const EVENT_CHANCE_PER_SEC := 0.04
 const MIN_TIME_BETWEEN_EVENTS := 5.0
 var time_since_event: float = MIN_TIME_BETWEEN_EVENTS
+const ROUTE_CELL_SIZE := 12
+const ROUTE_WATER_THRESHOLD := 0.08
+const MAP_DISPLAY_SIZE := Vector2(1280.0, 720.0)
 
 
 func _pn(port: Dictionary) -> String:
@@ -51,6 +56,7 @@ func _ready() -> void:
 	combat_panel.combat_ended.connect(_on_combat_ended)
 	_spawn_ports()
 	_spawn_ship()
+	_ensure_route_grid()
 	# Initialize starter ship before any potential load
 	var starter := GameState.get_ship(1)
 	if not starter.is_empty():
@@ -86,6 +92,110 @@ func _snap_camera() -> void:
 	if ship != null:
 		map_camera.position = ship.global_position
 		map_camera.reset_smoothing()
+
+
+func _ensure_route_grid() -> bool:
+	if route_grid != null:
+		return true
+	var tex := load("res://assets/world/worldmap_hi.png") as Texture2D
+	if tex == null:
+		return false
+	route_image = tex.get_image()
+	if route_image == null:
+		return false
+	var grid_w: int = int(ceil(MAP_DISPLAY_SIZE.x / float(ROUTE_CELL_SIZE)))
+	var grid_h: int = int(ceil(MAP_DISPLAY_SIZE.y / float(ROUTE_CELL_SIZE)))
+	route_grid = AStarGrid2D.new()
+	route_grid.region = Rect2i(0, 0, grid_w, grid_h)
+	route_grid.cell_size = Vector2i(1, 1)
+	route_grid.diagonal_mode = AStarGrid2D.DIAGONAL_MODE_ALWAYS
+	route_grid.update()
+	for y in range(grid_h):
+		for x in range(grid_w):
+			var cell := Vector2i(x, y)
+			if not _route_cell_is_water(cell, grid_w, grid_h):
+				route_grid.set_point_solid(cell, true)
+	return true
+
+
+func _route_cell_is_water(cell: Vector2i, grid_w: int, grid_h: int) -> bool:
+	if route_image == null:
+		return true
+	var img_w: int = route_image.get_width()
+	var img_h: int = route_image.get_height()
+	var sx: int = clampi(int(((float(cell.x) + 0.5) / float(grid_w)) * float(img_w - 1)), 0, img_w - 1)
+	var sy: int = clampi(int(((float(cell.y) + 0.5) / float(grid_h)) * float(img_h - 1)), 0, img_h - 1)
+	var c: Color = route_image.get_pixel(sx, sy)
+	return c.b > c.g + 0.03 and c.b > c.r + 0.03
+
+
+func _world_to_route_cell(pos: Vector2) -> Vector2i:
+	var grid_w: int = int(route_grid.region.size.x)
+	var grid_h: int = int(route_grid.region.size.y)
+	var cx: int = clampi(int(pos.x / float(ROUTE_CELL_SIZE)), 0, grid_w - 1)
+	var cy: int = clampi(int(pos.y / float(ROUTE_CELL_SIZE)), 0, grid_h - 1)
+	return Vector2i(cx, cy)
+
+
+func _route_cell_to_world(cell: Vector2i) -> Vector2:
+	return Vector2(
+		(float(cell.x) + 0.5) * float(ROUTE_CELL_SIZE),
+		(float(cell.y) + 0.5) * float(ROUTE_CELL_SIZE)
+	)
+
+
+func _nearest_water_cell(cell: Vector2i) -> Vector2i:
+	if route_grid == null:
+		return cell
+	if not route_grid.is_point_solid(cell):
+		return cell
+	var limit: int = max(route_grid.region.size.x, route_grid.region.size.y)
+	for radius in range(1, min(limit, 20)):
+		for dy in range(-radius, radius + 1):
+			for dx in range(-radius, radius + 1):
+				if abs(dx) != radius and abs(dy) != radius:
+					continue
+				var candidate := cell + Vector2i(dx, dy)
+				if not route_grid.region.has_point(candidate):
+					continue
+				if not route_grid.is_point_solid(candidate):
+					return candidate
+	return cell
+
+
+func _plan_route_points(from_pos: Vector2, to_pos: Vector2) -> Array:
+	if not _ensure_route_grid():
+		return [from_pos, to_pos]
+	var grid_w: int = int(route_grid.region.size.x)
+	var grid_h: int = int(route_grid.region.size.y)
+	var start_cell := _nearest_water_cell(_world_to_route_cell(from_pos))
+	var end_cell := _nearest_water_cell(_world_to_route_cell(to_pos))
+	var path_cells: PackedVector2Array = route_grid.get_point_path(start_cell, end_cell)
+	if path_cells.is_empty():
+		return [from_pos, to_pos]
+	var points: Array = []
+	points.append(from_pos)
+	for p in path_cells:
+		var cell := Vector2i(int(p.x), int(p.y))
+		if not route_grid.region.has_point(cell):
+			continue
+		var world_point := _route_cell_to_world(cell)
+		if points.is_empty() or (points[points.size() - 1] as Vector2).distance_to(world_point) > 4.0:
+			points.append(world_point)
+	if points[points.size() - 1].distance_to(to_pos) > 4.0:
+		points.append(to_pos)
+	if points.size() < 2:
+		return [from_pos, to_pos]
+	return points
+
+
+func _route_path_length(points: Array) -> float:
+	var total: float = 0.0
+	if points.size() < 2:
+		return total
+	for i in range(1, points.size()):
+		total += (points[i - 1] as Vector2).distance_to(points[i] as Vector2)
+	return total
 
 
 func _on_save_pressed() -> void:
@@ -206,10 +316,15 @@ func _on_port_clicked(port: Dictionary) -> void:
 func _sail_to_port(port: Dictionary) -> void:
 	if ship == null or port.is_empty():
 		return
-	var dist := ship.global_position.distance_to(Vector2(port.world_x, port.world_y))
-	pending_sail_days = max(1, int(dist / 25.0))
+	var dest_pos := Vector2(port.world_x, port.world_y)
+	var route_points := _plan_route_points(ship.global_position, dest_pos)
+	var route_dist: float = _route_path_length(route_points)
+	pending_sail_days = max(1, int(route_dist / 25.0))
 	info_label.text = "起航前往 %s (约 %d 天)..." % [_pn(port), pending_sail_days]
-	ship.sail_to(Vector2(port.world_x, port.world_y), port.id)
+	if ship.has_method("sail_to_path") and route_points.size() >= 2:
+		ship.sail_to_path(route_points, port.id)
+	else:
+		ship.sail_to(dest_pos, port.id)
 	port_screen_panel.visible = false
 	AudioManager.play("sea")
 
@@ -333,6 +448,10 @@ func _on_buy_ship(ship_id: int) -> void:
 func _populate_trade_list(port: Dictionary) -> void:
 	for child in trade_list.get_children():
 		child.queue_free()
+	var header := Label.new()
+	header.text = "商店（买卖货物）"
+	header.add_theme_font_size_override("font_size", 14)
+	trade_list.add_child(header)
 	var icons_map: Dictionary = GameState.ports_data.get("goods_icons", {})
 	for good_name in port.goods.keys():
 		# Seasonal price: base × month factor
