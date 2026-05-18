@@ -1,123 +1,89 @@
-# sea2_demo - 大航海时代 II 资源逆向与新原型
+# sea2_demo — 大航海時代II 资源逆向
 
-这个仓库现在分成两条线：
+KOEI《大航海時代II》(Uncharted Waters II, 1993, PC-9801) 的资源文件逆向。
 
-- `game/` - Godot 4 的可玩原型
-- `docs/`、`output/`、`scripts/` - 逆向资料、导出数据、分析脚本和设计文档
+源文件不在 git 里（本地路径 `/Users/dong/Projects/Koukai2/`）。
 
-源素材不在 git 里。本地原始目录是 `/Users/dong/Projects/Koukai2/`。
+> **版本说明**：磁盘上的是**台湾繁体汉化版**（不是日文原版）。`2.pat` 是繁体中文字模（6800 字），消息文本中的双字节对通过自定义查找表索引到 2.pat。汉化作者保留了日版 Shift-JIS 字节结构（这样游戏引擎不用改），只把日文字模文件换成了繁体字模——所以 Big5 / GBK / SJIS 标准解码都解不出来，需要从 `Main.exe` 反汇编出 byte→tile mapping。
 
-## 先看什么
-
-如果你想快速知道这个仓库到底在做什么，先看这几份：
-
-- [game/README.md](game/README.md:1) - 原型游戏怎么运行
-- [docs/游戏逻辑说明.md](docs/游戏逻辑说明.md:1) - 逆向出来的剧情拓扑、事件和文本整理
-- [docs/PHASE4_MVP_SPEC.md](docs/PHASE4_MVP_SPEC.md:1) - 下一步实现用的最小规格
-- [docs/PHASE3_DESIGN_DOC.md](docs/PHASE3_DESIGN_DOC.md:1) - 从逆向结果压出来的设计稿
-
-如果你想看路线图和 tracker，打开：
-
-- [ROADMAP.md](ROADMAP.md:1)
-- [docs/TOPOLOGY_RE_PROPOSAL.md](docs/TOPOLOGY_RE_PROPOSAL.md:1)
-
-## 当前状态
-
-### 原型游戏
-
-[`game/`](game) 是 Phase 4 的 Godot 4 项目。它已经包含：
-
-- 世界地图
-- 贸易
-- 航行
-- 风向和洋流
-- 随机事件
-- 海战
-- 买船
-- 存档
-- 中文 UI
-- 原创 BGM
-
-具体运行说明见 [game/README.md](game/README.md:1)。
-
-### 逆向成果
-
-已经整理出来的主要内容包括：
-
-- 视觉资源：头像、港口图、世界图、船图、决斗 sprite、角色走路帧
-- 数据表：港口、风洋流、船、海怪、人物目录
-- 文本：UI、菜单、任务、六条主人公剧情文本
-- 拓扑：`docs/游戏逻辑说明.md`
-- 设计稿：`docs/PHASE3_DESIGN_DOC.md`
-- MVP 规格：`docs/PHASE4_MVP_SPEC.md`
-
-### 资源状态概览
+## 当前进度
 
 | 资源 | 状态 | 输出 |
 |---|---|---|
-| `Kao.lzw` - 128 张头像 | 已完成 | `output/contact_kao_v4.png` |
-| `Kao.lzw` - 128 个 48x48 发现物/道具 | 已完成 | `output/contact_disc_v1.png` |
-| `Portchip.lzw` - 港口 tile atlas | 已完成 | `output/portchip_v2/` |
-| `Portmap.lzw` - 港口地图 | 已完成 | `output/contact_portmap_v2_2x2.png` |
-| `Worldmap.lzw` - 世界地图 | 已完成 | `output/contact_worldmap_v2.png` |
-| `Iap1-6.lzw` / `Iae1.lzw` - 决斗 sprite | 已完成 | `output/contact_iap{1-6}_v1.png` / `contact_iae1_v1.png` |
-| `Char.lzw` - 角色 walking sprite | 已完成 | `output/contact_char_v2.png` |
-| `Opgraph.lzw` - 事件 CG | 仍在攻坚 | - |
-| `Data1.lzw` - 船数据和船 sprite | 已完成 | `output/contact_ships.png` |
-| `Message.dat` - UI / 对话文本 | 已抽出 | `output/messages.json` + `messages.txt` |
-| `2.pat` - 繁体中文字模 | 已完成 | `output/fonts/2pat_first256.png` |
-| 100 港口数据库 | 已完成 | `output/game_data/ports_full.json` |
+| `Kao.lzw` — 128 张头像 | ✅ | ![](output/contact_kao_v4.png) |
+| `Kao.lzw` — 128 个 48×48 发现物/道具 | ✅ | ![](output/contact_disc_v1.png) |
+| `Portchip.lzw` — 7 套港口 tile atlas | ✅ | `output/portchip_v2/` |
+| `Portmap.lzw` — 101 个港口地图（图为前 4 个） | ✅ | ![](output/contact_portmap_v2_2x2.png) |
+| `Worldmap.lzw` — 3 张世界地图（含沙漠/海岸/极地后处理）| ✅ | ![](output/contact_worldmap_v2.png) |
+| `Iap1-6.lzw` `Iae1.lzw` — 875 决斗 sprite（6 玩家 + 1 敌人）| ✅ | `output/contact_iap{1-6}_v1.png` `contact_iae1_v1.png` |
+| `Char.lzw` — 72 角色 walking sprite（不是字体！）| ✅ | ![](output/contact_char_v2.png) |
+| `Opgraph.lzw` — 事件 CG | 🟥 卡住（内层压缩） | — |
+| `Data1.lzw` — 25 船 stats + 32 船 sprite | ✅ | ![](output/contact_ships.png) |
+| `Message.dat` — 1022 条对话/UI 消息 | ✅ 字节抽完 / 字符映射 TODO | `output/messages.json` + `messages.txt` |
+| `2.pat` — 繁体中文字体（6800 个 16×16 字模）| ✅ | ![](output/fonts/2pat_first256.png) |
+| **100 港口数据**（名称/经纬度/特产，来自攻略）| ✅ | 见游戏截图 ![](screenshots/game_v19.png) |
 
-## 怎么跑
+完整计划见 **[ROADMAP.md](ROADMAP.md)**。技术细节见 **[CLAUDE.md](CLAUDE.md)**。
 
-### 运行原型游戏
+**Phase 1 数据表** → [`output/game_data/`](output/game_data/)：港口 stats、风/洋流网格、海怪、25 船 stats、128 人物目录、**100 港口完整数据库**（`ports_full.json`，名称+经纬度+坐标）。港口对照表见 [`docs/PORTS_CATALOG.md`](docs/PORTS_CATALOG.md)。
 
-1. 安装 Godot 4.4+
-2. 打开 `game/project.godot`
-3. 按 F5
+**Phase 2 RE 进度** → [`docs/PHASE2_PROGRESS.md`](docs/PHASE2_PROGRESS.md)（找到文件 wrapper + KOUKAI2.DAT 主数据文件）。
 
-或者直接双击根目录的 `play.command`。
+**Phase 3 新游戏设计 spec** → [`docs/PHASE3_DESIGN_DOC.md`](docs/PHASE3_DESIGN_DOC.md)（含 MVP→Beta→v1 roadmap）。
 
-### 重新生成资源
+**Phase 4 新游戏 MVP** → [`game/`](game) — Godot 4 项目。已实现：世界地图 + 10 港口（真实经纬度定位）+ 交易（12 商品带图标）+ 风向洋流 + 船导航 + 航行事件（海盗/风暴/商队等 8 种）+ 海战 + 港口买船（25 船型）+ 存档。用上了 RE 出来的头像/道具图标/港口大图/船 sprite。
+
+## 跑一遍
 
 ```bash
 pip install Pillow numpy
 
+# 1. 解压所有 .lzw → output/lzw_parts/{Kao,Portchip,...}/
 python3 scripts/inventory_lzw.py
-python3 scripts/render_kao_v4.py
-python3 scripts/render_disc_v1.py
-python3 scripts/render_portchip_v2.py
-python3 scripts/render_portmap_v2.py
-python3 scripts/render_worldmap_v2.py
+
+# 2. 渲染所有解出来的资源
+python3 scripts/render_kao_v4.py        # 128 头像
+python3 scripts/render_disc_v1.py       # 128 发现物
+python3 scripts/render_portchip_v2.py   # 7 套 atlas
+python3 scripts/render_portmap_v2.py    # 101 港口
+python3 scripts/render_worldmap_v2.py   # 3 张世界图（含后处理）
 ```
 
 ## 目录
 
-```text
-sea2_demo/
-├── game/                Godot 4 原型
-├── docs/                逆向结果、拓扑、设计稿
-├── output/              生成的 JSON / PNG / 报告
-├── scripts/             逆向、导出、渲染脚本
-├── ROADMAP.md           总路线图
-├── CLAUDE.md            工具约定和格式说明
-└── play.command         一键启动原型
+```
+scripts/
+  ls11_decode.py              — LS10/LS11/Ls12 解压器
+  inventory_lzw.py            — 批量解压所有 .lzw
+  render_kao_v4.py            — 80×64 / 3-plane / 8 色头像
+  render_disc_v1.py           — 48×48 / 3-plane / 8 色发现物
+  render_portchip_v2.py       — 16×16 / 4bpp / 16 色港口 atlas
+  render_portmap_v2.py        — Portmap × Portchip × Chip_no.dat
+  render_worldmap_v1.py       — 块解码 + tile 拼图（基础版）
+  render_worldmap_v2.py       — v1 + 沙漠/海岸/极地后处理
+  experiments/                — 失败的尝试，保留作历史记录
+
+output/
+  contact_*.png               — 各资源的总览图
+  kao_png_v4/ disc_png_v1/    — 单图（128 张）
+  portchip_v2/ portmap_v2/    — 全部 atlas / 港口图
+  worldmap_v2/                — 世界图缩略 PNG + 4×tile JPG
+  ships/                      — 32 张船 sprite
+  game_data/                  — Phase 1 数据 JSON（港口/船/风/人物等）
+  lzw_parts/                  — LS11 解压出的原始 part（gitignore）
+
+game/                         — Phase 4 Godot 4 游戏项目
+  scenes/ scripts/            — 游戏代码
+  data/                       — 从 output/game_data/ 衍生的游戏数据
+  assets/                     — 从 output/ 复制的素材
+  screenshots/                — MVP 进度截图
 ```
 
 ## 关键参考
 
-- [JohanLi/uncharted-waters-2-research](https://github.com/JohanLi/uncharted-waters-2-research) - tile 编码、large tileset、worldmap 后处理、决斗 UI 的重要参考
-- [tzengyuxio/kaodata](https://github.com/tzengyuxio/kaodata) - LS11 解压算法参考
+- [JohanLi/uncharted-waters-2-research](https://github.com/JohanLi/uncharted-waters-2-research) — 救命级参考：tile 编码、large tileset、worldmap 后处理、决斗 UI
+- [tzengyuxio/kaodata](https://github.com/tzengyuxio/kaodata) — LS11 解压算法
 
 ## 技术细节
 
-见 [CLAUDE.md](CLAUDE.md)：
-
-- LS11 位流规范
-- 各 `.lzw` 的位图编码
-- Worldmap 块编码 + 后处理 pipeline
-
-## 备注
-
-- `output/` 里很多文件是中间产物和自动生成结果。
-- 顶层 README 负责仓库入口和现状，不再放长过程日志；过程说明集中在 `ROADMAP.md`、`docs/TOPOLOGY_RE_PROPOSAL.md` 和 `docs/游戏逻辑说明.md`。
+参见 [CLAUDE.md](CLAUDE.md)：LS11 位流规范、各 `.lzw` 的位图编码、Worldmap 块编码 + 后处理 pipeline。
