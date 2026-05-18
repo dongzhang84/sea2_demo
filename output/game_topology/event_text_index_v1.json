@@ -1,0 +1,1792 @@
+{
+  "schema": "sea2_event_text_index_v1",
+  "source": {
+    "bridge": "output/game_topology/event_script_bridge_v1.json"
+  },
+  "summary": {
+    "event_count": 33,
+    "text_count": 23,
+    "shared_text_count": 23
+  },
+  "texts": [
+    {
+      "text_id": 63,
+      "text": "太太要您晚上10點到12點之間去公爵府．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S1_E1",
+        "S1_E2",
+        "S1_E3",
+        "S1_E4",
+        "S1_E5",
+        "S1_E6",
+        "S2_E1",
+        "S2_E4",
+        "S2_E5",
+        "S2_E6",
+        "S3_E1",
+        "S3_E2",
+        "S4_E1",
+        "S4_E2",
+        "S4_E3",
+        "S4_E4",
+        "S4_E5",
+        "S5_E1",
+        "S5_E2",
+        "S5_E3",
+        "S5_E4",
+        "S5_E5",
+        "S5_E6",
+        "S6_E1",
+        "S6_E2",
+        "S6_E3",
+        "S6_E4",
+        "S6_E5",
+        "S6_E6"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S1_E1",
+          "event_label": "被逐出家门",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk0.sub0"
+        },
+        {
+          "event_id": "S1_E2",
+          "event_label": "公爵府筹资",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S1_E3",
+          "event_label": "造船完成",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S1_E4",
+          "event_label": "恩里克神父同行",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S1_E5",
+          "event_label": "约翰传闻",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S1_E6",
+          "event_label": "卡特琳娜卷入",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S2_E1",
+          "event_label": "哥哥失踪",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk0.sub0"
+        },
+        {
+          "event_id": "S2_E4",
+          "event_label": "港口情报循环",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk7.sub7"
+        },
+        {
+          "event_id": "S2_E5",
+          "event_label": "卡特琳娜卷入",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk7.sub7"
+        },
+        {
+          "event_id": "S2_E6",
+          "event_label": "私掠 / 复仇",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk7.sub7"
+        },
+        {
+          "event_id": "S3_E1",
+          "event_label": "国王召见",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk3.sub0"
+        },
+        {
+          "event_id": "S3_E2",
+          "event_label": "私掠许可 / 资金",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk3.sub0"
+        },
+        {
+          "event_id": "S4_E1",
+          "event_label": "梅尔卡特求助",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        },
+        {
+          "event_id": "S4_E2",
+          "event_label": "世界地图计划",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        },
+        {
+          "event_id": "S4_E3",
+          "event_label": "劳拉找家乡",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        },
+        {
+          "event_id": "S4_E4",
+          "event_label": "黄海 / 日本",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        },
+        {
+          "event_id": "S4_E5",
+          "event_label": "南美 / 黄金之国",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        },
+        {
+          "event_id": "S5_E1",
+          "event_label": "欠债 / 无资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk0.sub0"
+        },
+        {
+          "event_id": "S5_E2",
+          "event_label": "公爵夫人资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        },
+        {
+          "event_id": "S5_E3",
+          "event_label": "冒险报告",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        },
+        {
+          "event_id": "S5_E4",
+          "event_label": "金质奖章",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E5",
+          "event_label": "黄金之国 / 圣人手杖",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E6",
+          "event_label": "法布利斯 / 家族线",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S6_E1",
+          "event_label": "穷困 / 没船",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk1.sub0"
+        },
+        {
+          "event_id": "S6_E2",
+          "event_label": "萨达姆帮忙",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk2.sub4"
+        },
+        {
+          "event_id": "S6_E3",
+          "event_label": "修船 / 借债",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk3.sub3"
+        },
+        {
+          "event_id": "S6_E4",
+          "event_label": "贸易 / 投资",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk3.sub3"
+        },
+        {
+          "event_id": "S6_E5",
+          "event_label": "寻找薩莎",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk4.sub0"
+        },
+        {
+          "event_id": "S6_E6",
+          "event_label": "奥斯曼任务 / 同盟港",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk4.sub0"
+        }
+      ]
+    },
+    {
+      "text_id": 1,
+      "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！",
+      "confidence": "noisy",
+      "event_ids": [
+        "S1_E1",
+        "S1_E2",
+        "S1_E3",
+        "S1_E4",
+        "S1_E5",
+        "S1_E6",
+        "S2_E1",
+        "S2_E2",
+        "S2_E3",
+        "S2_E4",
+        "S2_E5",
+        "S2_E6",
+        "S3_E1",
+        "S3_E2",
+        "S3_E3",
+        "S3_E4",
+        "S5_E2",
+        "S5_E3",
+        "S5_E4",
+        "S5_E5",
+        "S5_E6",
+        "S6_E3",
+        "S6_E4",
+        "S6_E5",
+        "S6_E6"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S1_E1",
+          "event_label": "被逐出家门",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk1.sub0"
+        },
+        {
+          "event_id": "S1_E2",
+          "event_label": "公爵府筹资",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk1.sub0"
+        },
+        {
+          "event_id": "S1_E3",
+          "event_label": "造船完成",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk1.sub0"
+        },
+        {
+          "event_id": "S1_E4",
+          "event_label": "恩里克神父同行",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S1_E5",
+          "event_label": "约翰传闻",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S1_E6",
+          "event_label": "卡特琳娜卷入",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S2_E1",
+          "event_label": "哥哥失踪",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E2",
+          "event_label": "调查真相",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E3",
+          "event_label": "军方阻止",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E4",
+          "event_label": "港口情报循环",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E5",
+          "event_label": "卡特琳娜卷入",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E6",
+          "event_label": "私掠 / 复仇",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S3_E1",
+          "event_label": "国王召见",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk0.sub0"
+        },
+        {
+          "event_id": "S3_E2",
+          "event_label": "私掠许可 / 资金",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk0.sub0"
+        },
+        {
+          "event_id": "S3_E3",
+          "event_label": "组建舰队",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk4.sub3"
+        },
+        {
+          "event_id": "S3_E4",
+          "event_label": "对抗西班牙",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk4.sub3"
+        },
+        {
+          "event_id": "S5_E2",
+          "event_label": "公爵夫人资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E3",
+          "event_label": "冒险报告",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E4",
+          "event_label": "金质奖章",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E5",
+          "event_label": "黄金之国 / 圣人手杖",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E6",
+          "event_label": "法布利斯 / 家族线",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S6_E3",
+          "event_label": "修船 / 借债",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk4.sub0"
+        },
+        {
+          "event_id": "S6_E4",
+          "event_label": "贸易 / 投资",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk4.sub0"
+        },
+        {
+          "event_id": "S6_E5",
+          "event_label": "寻找薩莎",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk4.sub0"
+        },
+        {
+          "event_id": "S6_E6",
+          "event_label": "奥斯曼任务 / 同盟港",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk4.sub0"
+        }
+      ]
+    },
+    {
+      "text_id": 0,
+      "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S1_E1",
+        "S1_E2",
+        "S1_E3",
+        "S2_E1",
+        "S2_E2",
+        "S2_E3",
+        "S2_E4",
+        "S2_E5",
+        "S2_E6",
+        "S3_E3",
+        "S3_E4",
+        "S4_E1",
+        "S4_E2",
+        "S5_E1",
+        "S5_E2",
+        "S5_E3",
+        "S5_E4",
+        "S5_E5",
+        "S5_E6",
+        "S6_E1"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S1_E1",
+          "event_label": "被逐出家门",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk0.sub0"
+        },
+        {
+          "event_id": "S1_E2",
+          "event_label": "公爵府筹资",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk1.sub0"
+        },
+        {
+          "event_id": "S1_E3",
+          "event_label": "造船完成",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E1",
+          "event_label": "哥哥失踪",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E2",
+          "event_label": "调查真相",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E3",
+          "event_label": "军方阻止",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E4",
+          "event_label": "港口情报循环",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E5",
+          "event_label": "卡特琳娜卷入",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E6",
+          "event_label": "私掠 / 复仇",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S3_E3",
+          "event_label": "组建舰队",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk4.sub3"
+        },
+        {
+          "event_id": "S3_E4",
+          "event_label": "对抗西班牙",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk4.sub3"
+        },
+        {
+          "event_id": "S4_E1",
+          "event_label": "梅尔卡特求助",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk0.sub0"
+        },
+        {
+          "event_id": "S4_E2",
+          "event_label": "世界地图计划",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk0.sub0"
+        },
+        {
+          "event_id": "S5_E1",
+          "event_label": "欠债 / 无资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk0.sub0"
+        },
+        {
+          "event_id": "S5_E2",
+          "event_label": "公爵夫人资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E3",
+          "event_label": "冒险报告",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E4",
+          "event_label": "金质奖章",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E5",
+          "event_label": "黄金之国 / 圣人手杖",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E6",
+          "event_label": "法布利斯 / 家族线",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S6_E1",
+          "event_label": "穷困 / 没船",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk1.sub0"
+        }
+      ]
+    },
+    {
+      "text_id": 2,
+      "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S1_E1",
+        "S1_E2",
+        "S1_E3",
+        "S1_E4",
+        "S1_E5",
+        "S1_E6",
+        "S3_E1",
+        "S3_E2",
+        "S5_E2",
+        "S5_E3",
+        "S5_E4",
+        "S5_E5",
+        "S5_E6",
+        "S6_E1"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S1_E1",
+          "event_label": "被逐出家门",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk1.sub0"
+        },
+        {
+          "event_id": "S1_E2",
+          "event_label": "公爵府筹资",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk1.sub0"
+        },
+        {
+          "event_id": "S1_E3",
+          "event_label": "造船完成",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk1.sub0"
+        },
+        {
+          "event_id": "S1_E4",
+          "event_label": "恩里克神父同行",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S1_E5",
+          "event_label": "约翰传闻",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S1_E6",
+          "event_label": "卡特琳娜卷入",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk3.sub0"
+        },
+        {
+          "event_id": "S3_E1",
+          "event_label": "国王召见",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk3.sub0"
+        },
+        {
+          "event_id": "S3_E2",
+          "event_label": "私掠许可 / 资金",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk3.sub0"
+        },
+        {
+          "event_id": "S5_E2",
+          "event_label": "公爵夫人资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E3",
+          "event_label": "冒险报告",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E4",
+          "event_label": "金质奖章",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E5",
+          "event_label": "黄金之国 / 圣人手杖",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E6",
+          "event_label": "法布利斯 / 家族线",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S6_E1",
+          "event_label": "穷困 / 没船",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk1.sub0"
+        }
+      ]
+    },
+    {
+      "text_id": 199,
+      "text": "少爺，不對，船長，真的要與來歷不明的傢伙同行嗎？",
+      "confidence": "noisy",
+      "event_ids": [
+        "S1_E1",
+        "S2_E1",
+        "S3_E1",
+        "S3_E2",
+        "S4_E1",
+        "S4_E2",
+        "S5_E1",
+        "S5_E4",
+        "S5_E5",
+        "S5_E6"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S1_E1",
+          "event_label": "被逐出家门",
+          "line": "Snr1",
+          "source_subscript": "Snr1.chunk0.sub0"
+        },
+        {
+          "event_id": "S2_E1",
+          "event_label": "哥哥失踪",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk0.sub0"
+        },
+        {
+          "event_id": "S3_E1",
+          "event_label": "国王召见",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk0.sub0"
+        },
+        {
+          "event_id": "S3_E2",
+          "event_label": "私掠许可 / 资金",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk0.sub0"
+        },
+        {
+          "event_id": "S4_E1",
+          "event_label": "梅尔卡特求助",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk0.sub0"
+        },
+        {
+          "event_id": "S4_E2",
+          "event_label": "世界地图计划",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk0.sub0"
+        },
+        {
+          "event_id": "S5_E1",
+          "event_label": "欠债 / 无资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk0.sub0"
+        },
+        {
+          "event_id": "S5_E4",
+          "event_label": "金质奖章",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk3.sub2"
+        },
+        {
+          "event_id": "S5_E5",
+          "event_label": "黄金之国 / 圣人手杖",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk3.sub2"
+        },
+        {
+          "event_id": "S5_E6",
+          "event_label": "法布利斯 / 家族线",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk3.sub2"
+        }
+      ]
+    },
+    {
+      "text_id": 3,
+      "text": "噢，是$s中尉，今天一個人來的啊！",
+      "confidence": "noisy",
+      "event_ids": [
+        "S2_E1",
+        "S2_E2",
+        "S2_E3",
+        "S5_E2",
+        "S5_E3",
+        "S5_E4",
+        "S5_E5",
+        "S5_E6",
+        "S6_E1"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S2_E1",
+          "event_label": "哥哥失踪",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E2",
+          "event_label": "调查真相",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E3",
+          "event_label": "军方阻止",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S5_E2",
+          "event_label": "公爵夫人资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E3",
+          "event_label": "冒险报告",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E4",
+          "event_label": "金质奖章",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E5",
+          "event_label": "黄金之国 / 圣人手杖",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S5_E6",
+          "event_label": "法布利斯 / 家族线",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub2"
+        },
+        {
+          "event_id": "S6_E1",
+          "event_label": "穷困 / 没船",
+          "line": "Snr6",
+          "source_subscript": "Snr6.chunk1.sub0"
+        }
+      ]
+    },
+    {
+      "text_id": 4,
+      "text": "對了，剛才桑多中尉來過這裡，是來找你的．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S2_E1",
+        "S2_E2",
+        "S2_E3",
+        "S2_E4",
+        "S2_E5",
+        "S2_E6",
+        "S3_E3",
+        "S3_E4"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S2_E1",
+          "event_label": "哥哥失踪",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E2",
+          "event_label": "调查真相",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E3",
+          "event_label": "军方阻止",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk1.sub0"
+        },
+        {
+          "event_id": "S2_E4",
+          "event_label": "港口情报循环",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E5",
+          "event_label": "卡特琳娜卷入",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E6",
+          "event_label": "私掠 / 复仇",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S3_E3",
+          "event_label": "组建舰队",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk4.sub3"
+        },
+        {
+          "event_id": "S3_E4",
+          "event_label": "对抗西班牙",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk4.sub3"
+        }
+      ]
+    },
+    {
+      "text_id": 5,
+      "text": "後來，他往城堡那邊去了，一定是去城堡右側的司令部了．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S2_E2",
+        "S2_E3",
+        "S2_E4",
+        "S2_E5",
+        "S2_E6",
+        "S3_E3",
+        "S3_E4"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S2_E2",
+          "event_label": "调查真相",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E3",
+          "event_label": "军方阻止",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E4",
+          "event_label": "港口情报循环",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E5",
+          "event_label": "卡特琳娜卷入",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E6",
+          "event_label": "私掠 / 复仇",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S3_E3",
+          "event_label": "组建舰队",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk4.sub3"
+        },
+        {
+          "event_id": "S3_E4",
+          "event_label": "对抗西班牙",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk4.sub3"
+        }
+      ]
+    },
+    {
+      "text_id": 12,
+      "text": "我總覺得哥哥不是因暴風雨而遇難的．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S2_E2",
+        "S2_E3",
+        "S2_E4",
+        "S2_E5",
+        "S2_E6",
+        "S3_E3",
+        "S3_E4"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S2_E2",
+          "event_label": "调查真相",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E3",
+          "event_label": "军方阻止",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E4",
+          "event_label": "港口情报循环",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E5",
+          "event_label": "卡特琳娜卷入",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S2_E6",
+          "event_label": "私掠 / 复仇",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk6.sub3"
+        },
+        {
+          "event_id": "S3_E3",
+          "event_label": "组建舰队",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk4.sub3"
+        },
+        {
+          "event_id": "S3_E4",
+          "event_label": "对抗西班牙",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk4.sub3"
+        }
+      ]
+    },
+    {
+      "text_id": 97,
+      "text": "謝謝，$n．\\n謝謝，斯塔特．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S4_E1",
+        "S4_E2",
+        "S4_E3",
+        "S4_E4",
+        "S4_E5"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S4_E1",
+          "event_label": "梅尔卡特求助",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk0.sub0"
+        },
+        {
+          "event_id": "S4_E2",
+          "event_label": "世界地图计划",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk0.sub0"
+        },
+        {
+          "event_id": "S4_E3",
+          "event_label": "劳拉找家乡",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub3"
+        },
+        {
+          "event_id": "S4_E4",
+          "event_label": "黄海 / 日本",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub3"
+        },
+        {
+          "event_id": "S4_E5",
+          "event_label": "南美 / 黄金之国",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub3"
+        }
+      ]
+    },
+    {
+      "text_id": 98,
+      "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S4_E1",
+        "S4_E2",
+        "S4_E3",
+        "S4_E4",
+        "S4_E5"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S4_E1",
+          "event_label": "梅尔卡特求助",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk0.sub0"
+        },
+        {
+          "event_id": "S4_E2",
+          "event_label": "世界地图计划",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk0.sub0"
+        },
+        {
+          "event_id": "S4_E3",
+          "event_label": "劳拉找家乡",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        },
+        {
+          "event_id": "S4_E4",
+          "event_label": "黄海 / 日本",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        },
+        {
+          "event_id": "S4_E5",
+          "event_label": "南美 / 黄金之国",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        }
+      ]
+    },
+    {
+      "text_id": 99,
+      "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S4_E1",
+        "S4_E2",
+        "S4_E3",
+        "S4_E4",
+        "S4_E5"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S4_E1",
+          "event_label": "梅尔卡特求助",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk0.sub0"
+        },
+        {
+          "event_id": "S4_E2",
+          "event_label": "世界地图计划",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk0.sub0"
+        },
+        {
+          "event_id": "S4_E3",
+          "event_label": "劳拉找家乡",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        },
+        {
+          "event_id": "S4_E4",
+          "event_label": "黄海 / 日本",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        },
+        {
+          "event_id": "S4_E5",
+          "event_label": "南美 / 黄金之国",
+          "line": "Snr4",
+          "source_subscript": "Snr4.chunk4.sub1"
+        }
+      ]
+    },
+    {
+      "text_id": 9,
+      "text": "嗨，老闆，還那麼忙！",
+      "confidence": "noisy",
+      "event_ids": [
+        "S2_E4",
+        "S2_E5",
+        "S2_E6"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S2_E4",
+          "event_label": "港口情报循环",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk7.sub7"
+        },
+        {
+          "event_id": "S2_E5",
+          "event_label": "卡特琳娜卷入",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk7.sub7"
+        },
+        {
+          "event_id": "S2_E6",
+          "event_label": "私掠 / 复仇",
+          "line": "Snr2",
+          "source_subscript": "Snr2.chunk7.sub7"
+        }
+      ]
+    },
+    {
+      "text_id": 16,
+      "text": "那，我來準備船，路上可沒有多餘的時間．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S5_E1",
+        "S5_E2",
+        "S5_E3"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S5_E1",
+          "event_label": "欠债 / 无资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        },
+        {
+          "event_id": "S5_E2",
+          "event_label": "公爵夫人资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        },
+        {
+          "event_id": "S5_E3",
+          "event_label": "冒险报告",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        }
+      ]
+    },
+    {
+      "text_id": 17,
+      "text": "法爾孔",
+      "confidence": "noisy",
+      "event_ids": [
+        "S5_E1",
+        "S5_E2",
+        "S5_E3"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S5_E1",
+          "event_label": "欠债 / 无资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        },
+        {
+          "event_id": "S5_E2",
+          "event_label": "公爵夫人资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        },
+        {
+          "event_id": "S5_E3",
+          "event_label": "冒险报告",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        }
+      ]
+    },
+    {
+      "text_id": 18,
+      "text": "你見到凱麥隆了嗎？",
+      "confidence": "noisy",
+      "event_ids": [
+        "S5_E1",
+        "S5_E2",
+        "S5_E3"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S5_E1",
+          "event_label": "欠债 / 无资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        },
+        {
+          "event_id": "S5_E2",
+          "event_label": "公爵夫人资助",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        },
+        {
+          "event_id": "S5_E3",
+          "event_label": "冒险报告",
+          "line": "Snr5",
+          "source_subscript": "Snr5.chunk2.sub1"
+        }
+      ]
+    },
+    {
+      "text_id": 11,
+      "text": "完全正確．西班牙把從新大陸獲取的財富作為後盾，想要席捲整個歐洲．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S3_E1",
+        "S3_E2"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S3_E1",
+          "event_label": "国王召见",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk0.sub0"
+        },
+        {
+          "event_id": "S3_E2",
+          "event_label": "私掠许可 / 资金",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk0.sub0"
+        }
+      ]
+    },
+    {
+      "text_id": 13,
+      "text": "現在讓你當皇家艦隊總司令如何？",
+      "confidence": "noisy",
+      "event_ids": [
+        "S3_E1",
+        "S3_E2"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S3_E1",
+          "event_label": "国王召见",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk0.sub0"
+        },
+        {
+          "event_id": "S3_E2",
+          "event_label": "私掠许可 / 资金",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk0.sub0"
+        }
+      ]
+    },
+    {
+      "text_id": 15,
+      "text": "這對我來說是無上光榮，我願意接受．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S3_E3",
+        "S3_E4"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S3_E3",
+          "event_label": "组建舰队",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk5.sub3"
+        },
+        {
+          "event_id": "S3_E4",
+          "event_label": "对抗西班牙",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk5.sub3"
+        }
+      ]
+    },
+    {
+      "text_id": 20,
+      "text": "你想要多少資金申請好了，剩下的事交給吉爾巴特就行了．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S3_E1",
+        "S3_E2"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S3_E1",
+          "event_label": "国王召见",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk3.sub0"
+        },
+        {
+          "event_id": "S3_E2",
+          "event_label": "私掠许可 / 资金",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk3.sub0"
+        }
+      ]
+    },
+    {
+      "text_id": 24,
+      "text": "嗯．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S3_E3",
+        "S3_E4"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S3_E3",
+          "event_label": "组建舰队",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk5.sub3"
+        },
+        {
+          "event_id": "S3_E4",
+          "event_label": "对抗西班牙",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk5.sub3"
+        }
+      ]
+    },
+    {
+      "text_id": 25,
+      "text": "造船廠已經準備好船了，對你來說那船有點太高級了．\\n除此之外，再給你配備一名優秀人才．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S3_E3",
+        "S3_E4"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S3_E3",
+          "event_label": "组建舰队",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk5.sub3"
+        },
+        {
+          "event_id": "S3_E4",
+          "event_label": "对抗西班牙",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk5.sub3"
+        }
+      ]
+    },
+    {
+      "text_id": 76,
+      "text": "把船停在港口裡啦．",
+      "confidence": "noisy",
+      "event_ids": [
+        "S3_E1",
+        "S3_E2"
+      ],
+      "occurrences": [
+        {
+          "event_id": "S3_E1",
+          "event_label": "国王召见",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk0.sub0"
+        },
+        {
+          "event_id": "S3_E2",
+          "event_label": "私掠许可 / 资金",
+          "line": "Snr3",
+          "source_subscript": "Snr3.chunk0.sub0"
+        }
+      ]
+    }
+  ],
+  "events_by_line": {
+    "Snr1": [
+      {
+        "event_id": "S1_E1",
+        "event_label": "被逐出家门",
+        "text_ids": [
+          199,
+          63,
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "event_id": "S1_E2",
+        "event_label": "公爵府筹资",
+        "text_ids": [
+          0,
+          1,
+          2,
+          63
+        ]
+      },
+      {
+        "event_id": "S1_E3",
+        "event_label": "造船完成",
+        "text_ids": [
+          0,
+          1,
+          2,
+          63
+        ]
+      },
+      {
+        "event_id": "S1_E4",
+        "event_label": "恩里克神父同行",
+        "text_ids": [
+          63,
+          1,
+          2
+        ]
+      },
+      {
+        "event_id": "S1_E5",
+        "event_label": "约翰传闻",
+        "text_ids": [
+          63,
+          1,
+          2
+        ]
+      },
+      {
+        "event_id": "S1_E6",
+        "event_label": "卡特琳娜卷入",
+        "text_ids": [
+          63,
+          1,
+          2
+        ]
+      }
+    ],
+    "Snr2": [
+      {
+        "event_id": "S2_E1",
+        "event_label": "哥哥失踪",
+        "text_ids": [
+          63,
+          199,
+          1,
+          3,
+          0,
+          4
+        ]
+      },
+      {
+        "event_id": "S2_E2",
+        "event_label": "调查真相",
+        "text_ids": [
+          1,
+          3,
+          0,
+          4,
+          12,
+          5
+        ]
+      },
+      {
+        "event_id": "S2_E3",
+        "event_label": "军方阻止",
+        "text_ids": [
+          1,
+          3,
+          0,
+          4,
+          12,
+          5
+        ]
+      },
+      {
+        "event_id": "S2_E4",
+        "event_label": "港口情报循环",
+        "text_ids": [
+          12,
+          0,
+          1,
+          4,
+          5,
+          63,
+          9
+        ]
+      },
+      {
+        "event_id": "S2_E5",
+        "event_label": "卡特琳娜卷入",
+        "text_ids": [
+          12,
+          0,
+          1,
+          4,
+          5,
+          63,
+          9
+        ]
+      },
+      {
+        "event_id": "S2_E6",
+        "event_label": "私掠 / 复仇",
+        "text_ids": [
+          12,
+          0,
+          1,
+          4,
+          5,
+          63,
+          9
+        ]
+      }
+    ],
+    "Snr3": [
+      {
+        "event_id": "S3_E1",
+        "event_label": "国王召见",
+        "text_ids": [
+          199,
+          11,
+          1,
+          13,
+          76,
+          2,
+          63,
+          20
+        ]
+      },
+      {
+        "event_id": "S3_E2",
+        "event_label": "私掠许可 / 资金",
+        "text_ids": [
+          199,
+          11,
+          1,
+          13,
+          76,
+          2,
+          63,
+          20
+        ]
+      },
+      {
+        "event_id": "S3_E3",
+        "event_label": "组建舰队",
+        "text_ids": [
+          0,
+          1,
+          4,
+          5,
+          12,
+          15,
+          24,
+          25
+        ]
+      },
+      {
+        "event_id": "S3_E4",
+        "event_label": "对抗西班牙",
+        "text_ids": [
+          0,
+          1,
+          4,
+          5,
+          12,
+          15,
+          24,
+          25
+        ]
+      }
+    ],
+    "Snr4": [
+      {
+        "event_id": "S4_E1",
+        "event_label": "梅尔卡特求助",
+        "text_ids": [
+          199,
+          0,
+          97,
+          98,
+          99,
+          63
+        ]
+      },
+      {
+        "event_id": "S4_E2",
+        "event_label": "世界地图计划",
+        "text_ids": [
+          199,
+          0,
+          97,
+          98,
+          99,
+          63
+        ]
+      },
+      {
+        "event_id": "S4_E3",
+        "event_label": "劳拉找家乡",
+        "text_ids": [
+          63,
+          98,
+          99,
+          97
+        ]
+      },
+      {
+        "event_id": "S4_E4",
+        "event_label": "黄海 / 日本",
+        "text_ids": [
+          63,
+          98,
+          99,
+          97
+        ]
+      },
+      {
+        "event_id": "S4_E5",
+        "event_label": "南美 / 黄金之国",
+        "text_ids": [
+          63,
+          98,
+          99,
+          97
+        ]
+      }
+    ],
+    "Snr5": [
+      {
+        "event_id": "S5_E1",
+        "event_label": "欠债 / 无资助",
+        "text_ids": [
+          199,
+          0,
+          63,
+          18,
+          16,
+          17
+        ]
+      },
+      {
+        "event_id": "S5_E2",
+        "event_label": "公爵夫人资助",
+        "text_ids": [
+          63,
+          18,
+          16,
+          17,
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "event_id": "S5_E3",
+        "event_label": "冒险报告",
+        "text_ids": [
+          63,
+          18,
+          16,
+          17,
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "event_id": "S5_E4",
+        "event_label": "金质奖章",
+        "text_ids": [
+          63,
+          0,
+          1,
+          2,
+          3,
+          199
+        ]
+      },
+      {
+        "event_id": "S5_E5",
+        "event_label": "黄金之国 / 圣人手杖",
+        "text_ids": [
+          63,
+          0,
+          1,
+          2,
+          3,
+          199
+        ]
+      },
+      {
+        "event_id": "S5_E6",
+        "event_label": "法布利斯 / 家族线",
+        "text_ids": [
+          63,
+          0,
+          1,
+          2,
+          3,
+          199
+        ]
+      }
+    ],
+    "Snr6": [
+      {
+        "event_id": "S6_E1",
+        "event_label": "穷困 / 没船",
+        "text_ids": [
+          63,
+          2,
+          0,
+          3
+        ]
+      },
+      {
+        "event_id": "S6_E2",
+        "event_label": "萨达姆帮忙",
+        "text_ids": [
+          63
+        ]
+      },
+      {
+        "event_id": "S6_E3",
+        "event_label": "修船 / 借债",
+        "text_ids": [
+          63,
+          1
+        ]
+      },
+      {
+        "event_id": "S6_E4",
+        "event_label": "贸易 / 投资",
+        "text_ids": [
+          63,
+          1
+        ]
+      },
+      {
+        "event_id": "S6_E5",
+        "event_label": "寻找薩莎",
+        "text_ids": [
+          63,
+          1
+        ]
+      },
+      {
+        "event_id": "S6_E6",
+        "event_label": "奥斯曼任务 / 同盟港",
+        "text_ids": [
+          63,
+          1
+        ]
+      }
+    ]
+  }
+}
