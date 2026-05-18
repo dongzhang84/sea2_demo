@@ -17,6 +17,7 @@ extends Node2D
 @onready var trade_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/贸易/List
 @onready var shipyard_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/船坞/List
 @onready var tavern_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/酒馆/List
+@onready var story_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/剧情/List
 @onready var event_dialog: PanelContainer = $UI/EventDialog
 @onready var combat_panel: PanelContainer = $UI/Combat
 
@@ -65,16 +66,18 @@ func _ready() -> void:
 			info_label.text = "读取存档。停靠在 %s。" % _pn(loaded_port)
 			ship.refresh_from_game_state()
 			_snap_camera()
+			_apply_story_progress(loaded_port)
 			_open_port_screen(loaded_port)
 		return
 	# Otherwise fresh start
+	GameState.reset_game()
 	current_port_id = 0
-	GameState.ship_changed.emit()
 	var start_port := GameState.get_port(0)
 	if not start_port.is_empty():
 		ship.global_position = Vector2(start_port.world_x, start_port.world_y)
 		info_label.text = "停靠在 %s。点击港口起航。" % _pn(start_port)
 		_snap_camera()
+		_apply_story_progress(start_port)
 		_open_port_screen(start_port)
 
 
@@ -103,12 +106,14 @@ func _on_load_pressed() -> void:
 			ship.global_position = Vector2(p.world_x, p.world_y)
 			ship.refresh_from_game_state()
 			ship.moving = false
+			_apply_story_progress(p)
 			_open_port_screen(p)
 			info_label.text = "存档已读取。"
 
 
 func _on_new_pressed() -> void:
 	GameState.delete_save()
+	GameState.reset_game()
 	get_tree().reload_current_scene()
 
 
@@ -211,6 +216,7 @@ func _on_ship_arrived(port_id: int) -> void:
 	info_label.text = "抵达 %s。" % _pn(port)
 	AudioManager.play("port")
 	if not port.is_empty():
+		_apply_story_progress(port)
 		_open_port_screen(port)
 
 
@@ -234,6 +240,7 @@ func _open_port_screen(port: Dictionary) -> void:
 	_populate_trade_list(port)
 	_populate_shipyard(port)
 	_populate_tavern(port)
+	_populate_story_list(port)
 	port_screen_panel.visible = true
 
 
@@ -408,6 +415,73 @@ func _populate_tavern(port: Dictionary) -> void:
 	intel_lbl.custom_minimum_size = Vector2(440, 0)
 	intel_lbl.add_theme_font_size_override("font_size", 13)
 	tavern_list.add_child(intel_lbl)
+
+
+func _populate_story_list(port: Dictionary) -> void:
+	for child in story_list.get_children():
+		child.queue_free()
+	var active := GameState.get_active_story_quest()
+	var active_lbl := Label.new()
+	active_lbl.text = GameState.quest_progress_text()
+	active_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	active_lbl.custom_minimum_size = Vector2(440, 0)
+	active_lbl.add_theme_font_size_override("font_size", 13)
+	story_list.add_child(active_lbl)
+	if not active.is_empty():
+		var active_desc := Label.new()
+		active_desc.text = GameState.quest_offer_text(active)
+		active_desc.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		active_desc.custom_minimum_size = Vector2(440, 0)
+		active_desc.add_theme_font_size_override("font_size", 13)
+		story_list.add_child(active_desc)
+		return
+	var offers := GameState.get_available_story_quests(int(port.get("id", -1)))
+	if offers.is_empty():
+		var none_lbl := Label.new()
+		none_lbl.text = "这里没有新的主线委托。"
+		none_lbl.add_theme_font_size_override("font_size", 13)
+		story_list.add_child(none_lbl)
+		return
+	var head := Label.new()
+	head.text = "可接委托"
+	head.add_theme_font_size_override("font_size", 14)
+	story_list.add_child(head)
+	for quest in offers:
+		var box := VBoxContainer.new()
+		box.custom_minimum_size = Vector2(0, 72)
+		var title := Label.new()
+		title.text = str(quest.get("title", "任务"))
+		title.add_theme_font_size_override("font_size", 14)
+		box.add_child(title)
+		var desc := Label.new()
+		desc.text = str(quest.get("summary", ""))
+		desc.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		desc.custom_minimum_size = Vector2(440, 0)
+		desc.add_theme_font_size_override("font_size", 12)
+		box.add_child(desc)
+		var btn := Button.new()
+		btn.text = "接受"
+		btn.pressed.connect(_on_accept_story_quest.bind(str(quest.get("id", ""))))
+		box.add_child(btn)
+		story_list.add_child(box)
+
+
+func _on_accept_story_quest(quest_id: String) -> void:
+	if GameState.start_story_quest(quest_id):
+		var quest := GameState.get_story_quest(quest_id)
+		info_label.text = str(quest.get("accept_text", "任务已接下。"))
+		var port := GameState.get_port(current_port_id)
+		if not port.is_empty():
+			_populate_story_list(port)
+	else:
+		info_label.text = "当前无法接下这个任务。"
+
+
+func _apply_story_progress(port: Dictionary) -> void:
+	var notes := GameState.progress_story_quests_on_port_arrival(int(port.get("id", -1)))
+	if notes.is_empty():
+		return
+	info_label.text = str(notes[notes.size() - 1])
 
 
 func _on_tavern_intel(port: Dictionary) -> void:

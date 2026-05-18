@@ -7,17 +7,19 @@
 
 ## MVP Status
 
-This is Phase 4 of the master plan. The MVP demonstrates the core trading loop:
+This is Phase 4 of the master plan. The MVP demonstrates the core trading loop and a first story-bridge slice:
 
 - ✅ World map background (rendered from RE'd Worldmap.lzw)
 - ✅ 10 port markers placed on real-world geographic positions
 - ✅ Click port → trade panel with 7-12 commodities per port
 - ✅ Prices derived from `Za_dat.dat` (the RE'd per-port stat table)
 - ✅ Buy / sell with gold balance
-- ⬜ Ship movement between ports (TODO)
-- ⬜ Wind / current model (uses `Windcur.dat` 30×45 grid, TODO)
-- ⬜ Sea combat (TODO)
-- ⬜ Events (TODO)
+- ✅ Ship movement between ports
+- ✅ Wind / current model (uses `Windcur.dat` 30×45 grid)
+- ✅ Sea combat
+- ✅ Random voyage events
+- ✅ Save / load
+- ✅ Story quest tab for bridge-node samples
 - ⬜ Modern art (currently using RE'd worldmap as placeholder)
 
 ## Run
@@ -29,7 +31,7 @@ This is Phase 4 of the master plan. The MVP demonstrates the core trading loop:
 ## Project layout
 
 ```
-sea_demo_new/
+sea2_demo/game/
 ├── project.godot           Godot project config
 ├── scenes/
 │   ├── main.tscn           Main scene: worldmap + UI + port layer
@@ -42,7 +44,8 @@ sea_demo_new/
 │   ├── world/worldmap.png  From sea2_demo Worldmap.lzw RE
 │   └── icon.svg            App icon
 └── data/
-    └── ports.json          10 curated ports with commodities + prices
+    ├── ports.json          10 curated ports with commodities + prices
+    └── story_quests.json   3 bridge-node sample quests
 ```
 
 ## Data Pipeline
@@ -62,8 +65,7 @@ positions based on the RE'd port atlas (Chip_no.dat).
 
 ## Next Steps
 
-1. **Ship sprite + movement** — animate position between ports
-2. **Wind/current overlay** — use the 30×45 grid from Windcur.dat
-3. **Modern art** — replace placeholder worldmap with custom pixel art
-4. **Combat prototype** — hex grid + 大航海II's wind-angle mechanics
-5. **Event system** — YAML-driven trigger framework
+1. **Modern art** — replace placeholder worldmap with custom pixel art
+2. **Expand story bridge content** — add more quest nodes and branching flags
+3. **Combat prototype** — if needed, turn sea combat into a fuller tactical layer
+4. **Event system** — make the trigger framework more data-driven and less hardcoded

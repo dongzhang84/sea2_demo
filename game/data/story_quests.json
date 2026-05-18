@@ -1,0 +1,61 @@
+{
+  "note": "Small story quest chain for the MVP vertical slice. Each quest is a bridge-node sample: origin port -> waypoints -> return port.",
+  "quests": [
+    {
+      "id": "duchess_funding",
+      "title": "公爵夫人的出海委托",
+      "giver": "公爵夫人",
+      "origin_port_id": 0,
+      "waypoints": [1],
+      "return_port_id": 0,
+      "required_flags": [],
+      "summary": "先去塞维尔跑一趟，再回来向公爵夫人报告。",
+      "reward_gold": 300,
+      "reward_capacity_bonus": 5,
+      "reward_flags": ["duchess_trust"],
+      "accept_text": "公爵夫人要你证明自己真的能出海。先去塞维尔，再回里斯本。",
+      "waypoint_texts": {
+        "1": "塞维尔的港口传闻里，已经出现了约翰·法雷尔的名字。"
+      },
+      "complete_text": "公爵夫人认可了你的第一段航程，并愿意继续给你资源。"
+    },
+    {
+      "id": "john_farrell_clue",
+      "title": "约翰·法雷尔的线索",
+      "giver": "港口传闻",
+      "origin_port_id": 1,
+      "waypoints": [3, 2],
+      "return_port_id": 1,
+      "required_flags": ["duchess_trust"],
+      "summary": "沿地中海跑一圈，听到约翰·法雷尔的消息，再回塞维尔。",
+      "reward_gold": 450,
+      "reward_durability_bonus": 10,
+      "reward_flags": ["john_clue"],
+      "accept_text": "你在塞维尔听到关于约翰·法雷尔的更具体线索。去巴塞隆纳和伊斯坦堡看看。",
+      "waypoint_texts": {
+        "3": "巴塞隆纳的酒馆里，有人说约翰·法雷尔和卡特琳娜都在追同一条线索。",
+        "2": "伊斯坦堡的中间商提到，约翰·法雷尔的目标还牵着更大的世界坐标。"
+      },
+      "complete_text": "你把这条线索重新带回塞维尔，约翰·法雷尔的轴线开始清晰。"
+    },
+    {
+      "id": "shylock_credit",
+      "title": "夏洛克的账本",
+      "giver": "夏洛克",
+      "origin_port_id": 13,
+      "waypoints": [5, 13],
+      "return_port_id": 13,
+      "required_flags": ["john_clue"],
+      "summary": "去突尼斯转一圈，再回威尼斯，换到真正能滚动的贸易信用。",
+      "reward_gold": 600,
+      "reward_capacity_bonus": 10,
+      "reward_flags": ["trade_credit"],
+      "accept_text": "夏洛克愿意看你的账本，但要你先证明自己能跑通贸易路线。",
+      "waypoint_texts": {
+        "5": "突尼斯能让你的货物和账本一起转起来。",
+        "13": "回到威尼斯，夏洛克才会认真和你谈信用。"
+      },
+      "complete_text": "夏洛克认可了你的贸易能力，银行信用正式打开。"
+    }
+  ]
+}
