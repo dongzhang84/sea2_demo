@@ -219,7 +219,8 @@
           "line": "Snr6",
           "source_subscript": "Snr6.chunk4.sub0"
         }
-      ]
+      ],
+      "event_count": 29
     },
     {
       "text_id": 1,
@@ -403,7 +404,8 @@
           "line": "Snr6",
           "source_subscript": "Snr6.chunk4.sub0"
         }
-      ]
+      ],
+      "event_count": 25
     },
     {
       "text_id": 0,
@@ -552,7 +554,8 @@
           "line": "Snr6",
           "source_subscript": "Snr6.chunk1.sub0"
         }
-      ]
+      ],
+      "event_count": 20
     },
     {
       "text_id": 2,
@@ -659,7 +662,8 @@
           "line": "Snr6",
           "source_subscript": "Snr6.chunk1.sub0"
         }
-      ]
+      ],
+      "event_count": 14
     },
     {
       "text_id": 199,
@@ -738,7 +742,8 @@
           "line": "Snr5",
           "source_subscript": "Snr5.chunk3.sub2"
         }
-      ]
+      ],
+      "event_count": 10
     },
     {
       "text_id": 3,
@@ -810,7 +815,8 @@
           "line": "Snr6",
           "source_subscript": "Snr6.chunk1.sub0"
         }
-      ]
+      ],
+      "event_count": 9
     },
     {
       "text_id": 4,
@@ -875,7 +881,8 @@
           "line": "Snr3",
           "source_subscript": "Snr3.chunk4.sub3"
         }
-      ]
+      ],
+      "event_count": 8
     },
     {
       "text_id": 5,
@@ -933,7 +940,8 @@
           "line": "Snr3",
           "source_subscript": "Snr3.chunk4.sub3"
         }
-      ]
+      ],
+      "event_count": 7
     },
     {
       "text_id": 12,
@@ -991,7 +999,8 @@
           "line": "Snr3",
           "source_subscript": "Snr3.chunk4.sub3"
         }
-      ]
+      ],
+      "event_count": 7
     },
     {
       "text_id": 97,
@@ -1035,7 +1044,8 @@
           "line": "Snr4",
           "source_subscript": "Snr4.chunk4.sub3"
         }
-      ]
+      ],
+      "event_count": 5
     },
     {
       "text_id": 98,
@@ -1079,7 +1089,8 @@
           "line": "Snr4",
           "source_subscript": "Snr4.chunk4.sub1"
         }
-      ]
+      ],
+      "event_count": 5
     },
     {
       "text_id": 99,
@@ -1123,7 +1134,8 @@
           "line": "Snr4",
           "source_subscript": "Snr4.chunk4.sub1"
         }
-      ]
+      ],
+      "event_count": 5
     },
     {
       "text_id": 9,
@@ -1153,7 +1165,8 @@
           "line": "Snr2",
           "source_subscript": "Snr2.chunk7.sub7"
         }
-      ]
+      ],
+      "event_count": 3
     },
     {
       "text_id": 16,
@@ -1183,7 +1196,8 @@
           "line": "Snr5",
           "source_subscript": "Snr5.chunk2.sub1"
         }
-      ]
+      ],
+      "event_count": 3
     },
     {
       "text_id": 17,
@@ -1213,7 +1227,8 @@
           "line": "Snr5",
           "source_subscript": "Snr5.chunk2.sub1"
         }
-      ]
+      ],
+      "event_count": 3
     },
     {
       "text_id": 18,
@@ -1243,7 +1258,8 @@
           "line": "Snr5",
           "source_subscript": "Snr5.chunk2.sub1"
         }
-      ]
+      ],
+      "event_count": 3
     },
     {
       "text_id": 11,
@@ -1266,7 +1282,8 @@
           "line": "Snr3",
           "source_subscript": "Snr3.chunk0.sub0"
         }
-      ]
+      ],
+      "event_count": 2
     },
     {
       "text_id": 13,
@@ -1289,7 +1306,8 @@
           "line": "Snr3",
           "source_subscript": "Snr3.chunk0.sub0"
         }
-      ]
+      ],
+      "event_count": 2
     },
     {
       "text_id": 15,
@@ -1312,7 +1330,8 @@
           "line": "Snr3",
           "source_subscript": "Snr3.chunk5.sub3"
         }
-      ]
+      ],
+      "event_count": 2
     },
     {
       "text_id": 20,
@@ -1335,7 +1354,8 @@
           "line": "Snr3",
           "source_subscript": "Snr3.chunk3.sub0"
         }
-      ]
+      ],
+      "event_count": 2
     },
     {
       "text_id": 24,
@@ -1358,7 +1378,8 @@
           "line": "Snr3",
           "source_subscript": "Snr3.chunk5.sub3"
         }
-      ]
+      ],
+      "event_count": 2
     },
     {
       "text_id": 25,
@@ -1381,7 +1402,8 @@
           "line": "Snr3",
           "source_subscript": "Snr3.chunk5.sub3"
         }
-      ]
+      ],
+      "event_count": 2
     },
     {
       "text_id": 76,
@@ -1404,7 +1426,8 @@
           "line": "Snr3",
           "source_subscript": "Snr3.chunk0.sub0"
         }
-      ]
+      ],
+      "event_count": 2
     }
   ],
   "events_by_line": {
@@ -1418,6 +1441,13 @@
           0,
           1,
           2
+        ],
+        "ranked_text_ids": [
+          199,
+          2,
+          0,
+          1,
+          63
         ]
       },
       {
@@ -1427,6 +1457,12 @@
           0,
           1,
           2,
+          63
+        ],
+        "ranked_text_ids": [
+          2,
+          0,
+          1,
           63
         ]
       },
@@ -1438,6 +1474,12 @@
           1,
           2,
           63
+        ],
+        "ranked_text_ids": [
+          2,
+          0,
+          1,
+          63
         ]
       },
       {
@@ -1447,6 +1489,11 @@
           63,
           1,
           2
+        ],
+        "ranked_text_ids": [
+          2,
+          1,
+          63
         ]
       },
       {
@@ -1456,6 +1503,11 @@
           63,
           1,
           2
+        ],
+        "ranked_text_ids": [
+          2,
+          1,
+          63
         ]
       },
       {
@@ -1465,6 +1517,11 @@
           63,
           1,
           2
+        ],
+        "ranked_text_ids": [
+          2,
+          1,
+          63
         ]
       }
     ],
@@ -1479,6 +1536,14 @@
           3,
           0,
           4
+        ],
+        "ranked_text_ids": [
+          4,
+          3,
+          199,
+          0,
+          1,
+          63
         ]
       },
       {
@@ -1491,6 +1556,14 @@
           4,
           12,
           5
+        ],
+        "ranked_text_ids": [
+          5,
+          12,
+          4,
+          3,
+          0,
+          1
         ]
       },
       {
@@ -1503,6 +1576,14 @@
           4,
           12,
           5
+        ],
+        "ranked_text_ids": [
+          5,
+          12,
+          4,
+          3,
+          0,
+          1
         ]
       },
       {
@@ -1516,6 +1597,15 @@
           5,
           63,
           9
+        ],
+        "ranked_text_ids": [
+          9,
+          5,
+          12,
+          4,
+          0,
+          1,
+          63
         ]
       },
       {
@@ -1529,6 +1619,15 @@
           5,
           63,
           9
+        ],
+        "ranked_text_ids": [
+          9,
+          5,
+          12,
+          4,
+          0,
+          1,
+          63
         ]
       },
       {
@@ -1542,6 +1641,15 @@
           5,
           63,
           9
+        ],
+        "ranked_text_ids": [
+          9,
+          5,
+          12,
+          4,
+          0,
+          1,
+          63
         ]
       }
     ],
@@ -1558,6 +1666,16 @@
           2,
           63,
           20
+        ],
+        "ranked_text_ids": [
+          11,
+          13,
+          20,
+          76,
+          199,
+          2,
+          1,
+          63
         ]
       },
       {
@@ -1572,6 +1690,16 @@
           2,
           63,
           20
+        ],
+        "ranked_text_ids": [
+          11,
+          13,
+          20,
+          76,
+          199,
+          2,
+          1,
+          63
         ]
       },
       {
@@ -1586,6 +1714,16 @@
           15,
           24,
           25
+        ],
+        "ranked_text_ids": [
+          15,
+          24,
+          25,
+          5,
+          12,
+          4,
+          0,
+          1
         ]
       },
       {
@@ -1600,6 +1738,16 @@
           15,
           24,
           25
+        ],
+        "ranked_text_ids": [
+          15,
+          24,
+          25,
+          5,
+          12,
+          4,
+          0,
+          1
         ]
       }
     ],
@@ -1614,6 +1762,14 @@
           98,
           99,
           63
+        ],
+        "ranked_text_ids": [
+          97,
+          98,
+          99,
+          199,
+          0,
+          63
         ]
       },
       {
@@ -1626,6 +1782,14 @@
           98,
           99,
           63
+        ],
+        "ranked_text_ids": [
+          97,
+          98,
+          99,
+          199,
+          0,
+          63
         ]
       },
       {
@@ -1636,6 +1800,12 @@
           98,
           99,
           97
+        ],
+        "ranked_text_ids": [
+          97,
+          98,
+          99,
+          63
         ]
       },
       {
@@ -1646,6 +1816,12 @@
           98,
           99,
           97
+        ],
+        "ranked_text_ids": [
+          97,
+          98,
+          99,
+          63
         ]
       },
       {
@@ -1656,6 +1832,12 @@
           98,
           99,
           97
+        ],
+        "ranked_text_ids": [
+          97,
+          98,
+          99,
+          63
         ]
       }
     ],
@@ -1670,6 +1852,14 @@
           18,
           16,
           17
+        ],
+        "ranked_text_ids": [
+          16,
+          17,
+          18,
+          199,
+          0,
+          63
         ]
       },
       {
@@ -1684,6 +1874,16 @@
           1,
           2,
           3
+        ],
+        "ranked_text_ids": [
+          16,
+          17,
+          18,
+          3,
+          2,
+          0,
+          1,
+          63
         ]
       },
       {
@@ -1698,6 +1898,16 @@
           1,
           2,
           3
+        ],
+        "ranked_text_ids": [
+          16,
+          17,
+          18,
+          3,
+          2,
+          0,
+          1,
+          63
         ]
       },
       {
@@ -1710,6 +1920,14 @@
           2,
           3,
           199
+        ],
+        "ranked_text_ids": [
+          3,
+          199,
+          2,
+          0,
+          1,
+          63
         ]
       },
       {
@@ -1722,6 +1940,14 @@
           2,
           3,
           199
+        ],
+        "ranked_text_ids": [
+          3,
+          199,
+          2,
+          0,
+          1,
+          63
         ]
       },
       {
@@ -1734,6 +1960,14 @@
           2,
           3,
           199
+        ],
+        "ranked_text_ids": [
+          3,
+          199,
+          2,
+          0,
+          1,
+          63
         ]
       }
     ],
@@ -1746,12 +1980,21 @@
           2,
           0,
           3
+        ],
+        "ranked_text_ids": [
+          3,
+          2,
+          0,
+          63
         ]
       },
       {
         "event_id": "S6_E2",
         "event_label": "萨达姆帮忙",
         "text_ids": [
+          63
+        ],
+        "ranked_text_ids": [
           63
         ]
       },
@@ -1761,6 +2004,10 @@
         "text_ids": [
           63,
           1
+        ],
+        "ranked_text_ids": [
+          1,
+          63
         ]
       },
       {
@@ -1769,6 +2016,10 @@
         "text_ids": [
           63,
           1
+        ],
+        "ranked_text_ids": [
+          1,
+          63
         ]
       },
       {
@@ -1777,6 +2028,10 @@
         "text_ids": [
           63,
           1
+        ],
+        "ranked_text_ids": [
+          1,
+          63
         ]
       },
       {
@@ -1785,6 +2040,10 @@
         "text_ids": [
           63,
           1
+        ],
+        "ranked_text_ids": [
+          1,
+          63
         ]
       }
     ]

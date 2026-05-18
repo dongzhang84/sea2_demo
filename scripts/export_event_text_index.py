@@ -51,6 +51,20 @@ def build_index() -> dict:
     texts = sorted(texts_by_id.values(), key=lambda item: (-len(item["event_ids"]), item["text_id"]))
     for entry in texts:
         entry["occurrences"] = sorted(entry["occurrences"], key=lambda item: (item["line"], item["event_id"], item["source_subscript"]))
+        entry["event_count"] = len(entry["event_ids"])
+
+    text_event_counts = {entry["text_id"]: len(entry["event_ids"]) for entry in texts}
+
+    def rank_event_texts(event: dict) -> list[int]:
+        ids = [e["text_id"] for e in event.get("evidence", [])]
+        seen: set[int] = set()
+        unique_ids: list[int] = []
+        for text_id in ids:
+            if text_id in seen:
+                continue
+            seen.add(text_id)
+            unique_ids.append(text_id)
+        return sorted(unique_ids, key=lambda text_id: (text_event_counts.get(text_id, 0), text_id))
 
     lines = {
         "schema": "sea2_event_text_index_v1",
@@ -69,6 +83,7 @@ def build_index() -> dict:
                     "event_id": event["event_id"],
                     "event_label": event["event_label"],
                     "text_ids": [e["text_id"] for e in event.get("evidence", [])],
+                    "ranked_text_ids": rank_event_texts(event),
                 }
                 for event in events
             ]
@@ -101,8 +116,9 @@ def build_report(index: dict) -> str:
     for line, events in index["events_by_line"].items():
         lines.append(f"### {line}")
         for event in events:
-            text_ids = ", ".join(f"#{text_id}" for text_id in event["text_ids"][:8])
-            lines.append(f"- {event['event_id']} {event['event_label']} | texts={text_ids}")
+            ranked_ids = ", ".join(f"#{text_id}" for text_id in event["ranked_text_ids"][:8])
+            raw_ids = ", ".join(f"#{text_id}" for text_id in event["text_ids"][:8])
+            lines.append(f"- {event['event_id']} {event['event_label']} | ranked={ranked_ids} | raw={raw_ids}")
     return "\n".join(lines) + "\n"
 
 
