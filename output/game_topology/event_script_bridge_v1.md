@@ -3,39 +3,133 @@
 - schema: `sea2_event_script_bridge_v1`
 - topology: `output/game_topology/game_topology_bundle_v1.json`
 - script_index: `output/sndt_topology/sndt_script_index_v1.json`
+- alignment_note: Event rows are aligned to the nearest anchor subscript(s) by position within each storyline, not runtime-confirmed traces.
 - events: 33
 
 ## Event Coverage
-- S1_E1 被逐出家门 | Snr1 | subscripts=4 | actors=Mack,Duke,Duchess
-- S1_E2 公爵府筹资 | Snr1 | subscripts=4 | actors=Duchess,Locke,Lucia
-- S1_E3 造船完成 | Snr1 | subscripts=4 | actors=Locke
-- S1_E4 恩里克神父同行 | Snr1 | subscripts=4 | actors=Philippe,Enrique
-- S1_E5 约翰传闻 | Snr1 | subscripts=4 | actors=John
-- S1_E6 卡特琳娜卷入 | Snr1 | subscripts=4 | actors=Catalina
-- S2_E1 哥哥失踪 | Snr2 | subscripts=4 | actors=Sando
-- S2_E2 调查真相 | Snr2 | subscripts=4 | actors=Ezeg
-- S2_E3 军方阻止 | Snr2 | subscripts=4 | actors=Ezeg
-- S2_E4 港口情报循环 | Snr2 | subscripts=4 | actors=Catalina,Sando
-- S2_E5 卡特琳娜卷入 | Snr2 | subscripts=4 | actors=Catalina
-- S2_E6 私掠 / 复仇 | Snr2 | subscripts=4 | actors=Sando,Ezeg
-- S3_E1 国王召见 | Snr3 | subscripts=4 | actors=Henry8,Albert,Gilbert
-- S3_E2 私掠许可 / 资金 | Snr3 | subscripts=4 | actors=Gilbert,Henry8
-- S3_E3 组建舰队 | Snr3 | subscripts=4 | actors=HenryKing,Gilbert
-- S3_E4 对抗西班牙 | Snr3 | subscripts=4 | actors=Carlos
-- S4_E1 梅尔卡特求助 | Snr4 | subscripts=3 | actors=Mercator
-- S4_E2 世界地图计划 | Snr4 | subscripts=3 | actors=Mercator,Laura
-- S4_E3 劳拉找家乡 | Snr4 | subscripts=3 | actors=Laura
-- S4_E4 黄海 / 日本 | Snr4 | subscripts=3 | actors=Laura
-- S4_E5 南美 / 黄金之国 | Snr4 | subscripts=3 | actors=Fabrice
-- S5_E1 欠债 / 无资助 | Snr5 | subscripts=4 | actors=PiedCondi,Radinan
-- S5_E2 公爵夫人资助 | Snr5 | subscripts=4 | actors=Duchess,Cameron
-- S5_E3 冒险报告 | Snr5 | subscripts=4 | actors=Duchess,Cameron
-- S5_E4 金质奖章 | Snr5 | subscripts=4 | actors=John
-- S5_E5 黄金之国 / 圣人手杖 | Snr5 | subscripts=4 | actors=Fabrice,John
-- S5_E6 法布利斯 / 家族线 | Snr5 | subscripts=4 | actors=Fabrice,Duchess
-- S6_E1 穷困 / 没船 | Snr6 | subscripts=5 | actors=Tidia
-- S6_E2 萨达姆帮忙 | Snr6 | subscripts=5 | actors=Sadaam
-- S6_E3 修船 / 借债 | Snr6 | subscripts=5 | actors=Sherlock,Pied
-- S6_E4 贸易 / 投资 | Snr6 | subscripts=5 | actors=Sherlock,Pied,Radinan
-- S6_E5 寻找薩莎 | Snr6 | subscripts=5 | actors=Laura,Sasha
-- S6_E6 奥斯曼任务 / 同盟港 | Snr6 | subscripts=5 | actors=Suleiman
+- S1_E1 被逐出家门 | Snr1 | subscripts=Snr1.chunk0.sub0,Snr1.chunk1.sub0 | dispatch=13 | text_refs=18 | actors=Mack,Duke,Duchess
+  - Snr1.chunk0.sub0 | text#199: 少爺，不對，船長，真的要與來歷不明的傢伙同行嗎？
+  - Snr1.chunk0.sub0 | text#63: 太太要您晚上10點到12點之間去公爵府．
+  - Snr1.chunk0.sub0 | text#0: 〔管家麥克〕\n$n，很對不起，公爵有令，不許您進家門．
+- S1_E2 公爵府筹资 | Snr1 | subscripts=Snr1.chunk1.sub0,Snr1.chunk3.sub0 | dispatch=6 | text_refs=6 | actors=Duchess,Locke,Lucia
+  - Snr1.chunk1.sub0 | text#0: 〔管家麥克〕\n$n，很對不起，公爵有令，不許您進家門．
+  - Snr1.chunk1.sub0 | text#1: 〔$s公爵夫人〕\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！
+  - Snr1.chunk1.sub0 | text#2: 請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．
+- S1_E3 造船完成 | Snr1 | subscripts=Snr1.chunk1.sub0,Snr1.chunk3.sub0 | dispatch=6 | text_refs=6 | actors=Locke
+  - Snr1.chunk1.sub0 | text#0: 〔管家麥克〕\n$n，很對不起，公爵有令，不許您進家門．
+  - Snr1.chunk1.sub0 | text#1: 〔$s公爵夫人〕\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！
+  - Snr1.chunk1.sub0 | text#2: 請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．
+- S1_E4 恩里克神父同行 | Snr1 | subscripts=Snr1.chunk3.sub0,Snr1.chunk5.sub0 | dispatch=6 | text_refs=6 | actors=Philippe,Enrique
+  - Snr1.chunk3.sub0 | text#63: 太太要您晚上10點到12點之間去公爵府．
+  - Snr1.chunk3.sub0 | text#1: 〔$s公爵夫人〕\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！
+  - Snr1.chunk3.sub0 | text#2: 請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．
+- S1_E5 约翰传闻 | Snr1 | subscripts=Snr1.chunk3.sub0,Snr1.chunk5.sub0 | dispatch=6 | text_refs=6 | actors=John
+  - Snr1.chunk3.sub0 | text#63: 太太要您晚上10點到12點之間去公爵府．
+  - Snr1.chunk3.sub0 | text#1: 〔$s公爵夫人〕\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！
+  - Snr1.chunk3.sub0 | text#2: 請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．
+- S1_E6 卡特琳娜卷入 | Snr1 | subscripts=Snr1.chunk3.sub0,Snr1.chunk5.sub0 | dispatch=6 | text_refs=6 | actors=Catalina
+  - Snr1.chunk3.sub0 | text#63: 太太要您晚上10點到12點之間去公爵府．
+  - Snr1.chunk3.sub0 | text#1: 〔$s公爵夫人〕\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！
+  - Snr1.chunk3.sub0 | text#2: 請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．
+- S2_E1 哥哥失踪 | Snr2 | subscripts=Snr2.chunk0.sub0,Snr2.chunk1.sub0 | dispatch=12 | text_refs=13 | actors=Sando
+  - Snr2.chunk0.sub0 | text#63: ……
+  - Snr2.chunk0.sub0 | text#199: 瞧，敵人的戰船起火了！好像他們的密集陣形遭到了火攻．
+  - Snr2.chunk1.sub0 | text#1: 他要你馬上去司令部．
+- S2_E2 调查真相 | Snr2 | subscripts=Snr2.chunk1.sub0,Snr2.chunk6.sub3 | dispatch=7 | text_refs=11 | actors=Ezeg
+  - Snr2.chunk1.sub0 | text#1: 他要你馬上去司令部．
+  - Snr2.chunk1.sub0 | text#3: 噢，是$s中尉，今天一個人來的啊！
+  - Snr2.chunk1.sub0 | text#0: $s中尉，你好，剛才桑多中尉來找你了．
+- S2_E3 军方阻止 | Snr2 | subscripts=Snr2.chunk1.sub0,Snr2.chunk6.sub3 | dispatch=7 | text_refs=11 | actors=Ezeg
+  - Snr2.chunk1.sub0 | text#1: 他要你馬上去司令部．
+  - Snr2.chunk1.sub0 | text#3: 噢，是$s中尉，今天一個人來的啊！
+  - Snr2.chunk1.sub0 | text#0: $s中尉，你好，剛才桑多中尉來找你了．
+- S2_E4 港口情报循环 | Snr2 | subscripts=Snr2.chunk6.sub3,Snr2.chunk7.sub7 | dispatch=5 | text_refs=28 | actors=Catalina,Sando
+  - Snr2.chunk6.sub3 | text#12: 我總覺得哥哥不是因暴風雨而遇難的．
+  - Snr2.chunk6.sub3 | text#0: $s中尉，你好，剛才桑多中尉來找你了．
+  - Snr2.chunk6.sub3 | text#1: 他要你馬上去司令部．
+- S2_E5 卡特琳娜卷入 | Snr2 | subscripts=Snr2.chunk6.sub3,Snr2.chunk7.sub7 | dispatch=5 | text_refs=28 | actors=Catalina
+  - Snr2.chunk6.sub3 | text#12: 我總覺得哥哥不是因暴風雨而遇難的．
+  - Snr2.chunk6.sub3 | text#0: $s中尉，你好，剛才桑多中尉來找你了．
+  - Snr2.chunk6.sub3 | text#1: 他要你馬上去司令部．
+- S2_E6 私掠 / 复仇 | Snr2 | subscripts=Snr2.chunk6.sub3,Snr2.chunk7.sub7 | dispatch=5 | text_refs=28 | actors=Sando,Ezeg
+  - Snr2.chunk6.sub3 | text#12: 我總覺得哥哥不是因暴風雨而遇難的．
+  - Snr2.chunk6.sub3 | text#0: $s中尉，你好，剛才桑多中尉來找你了．
+  - Snr2.chunk6.sub3 | text#1: 他要你馬上去司令部．
+- S3_E1 国王召见 | Snr3 | subscripts=Snr3.chunk0.sub0,Snr3.chunk3.sub0 | dispatch=8 | text_refs=19 | actors=Henry8,Albert,Gilbert
+  - Snr3.chunk0.sub0 | text#199: 看像是船員．
+  - Snr3.chunk0.sub0 | text#11: 完全正確．西班牙把從新大陸獲取的財富作為後盾，想要席捲整個歐洲．
+  - Snr3.chunk0.sub0 | text#1: 〔監督官吉爾伯特〕\n陛下召見還這麼磨蹭，真是大膽！
+- S3_E2 私掠许可 / 资金 | Snr3 | subscripts=Snr3.chunk0.sub0,Snr3.chunk3.sub0 | dispatch=8 | text_refs=19 | actors=Gilbert,Henry8
+  - Snr3.chunk0.sub0 | text#199: 看像是船員．
+  - Snr3.chunk0.sub0 | text#11: 完全正確．西班牙把從新大陸獲取的財富作為後盾，想要席捲整個歐洲．
+  - Snr3.chunk0.sub0 | text#1: 〔監督官吉爾伯特〕\n陛下召見還這麼磨蹭，真是大膽！
+- S3_E3 组建舰队 | Snr3 | subscripts=Snr3.chunk4.sub3,Snr3.chunk5.sub3 | dispatch=8 | text_refs=23 | actors=HenryKing,Gilbert
+  - Snr3.chunk4.sub3 | text#0: 國王正找您呢！\n快請進！
+  - Snr3.chunk4.sub3 | text#1: 〔監督官吉爾伯特〕\n陛下召見還這麼磨蹭，真是大膽！
+  - Snr3.chunk4.sub3 | text#4: 啊！早呀！
+- S3_E4 对抗西班牙 | Snr3 | subscripts=Snr3.chunk4.sub3,Snr3.chunk5.sub3 | dispatch=8 | text_refs=23 | actors=Carlos
+  - Snr3.chunk4.sub3 | text#0: 國王正找您呢！\n快請進！
+  - Snr3.chunk4.sub3 | text#1: 〔監督官吉爾伯特〕\n陛下召見還這麼磨蹭，真是大膽！
+  - Snr3.chunk4.sub3 | text#4: 啊！早呀！
+- S4_E1 梅尔卡特求助 | Snr4 | subscripts=Snr4.chunk0.sub0,Snr4.chunk4.sub1 | dispatch=8 | text_refs=10 | actors=Mercator
+  - Snr4.chunk0.sub0 | text#199: 今後請不要再背棄我，不然的話，你要失去朋友和信用的．
+  - Snr4.chunk0.sub0 | text#0: 〔地理學家梅爾卡特〕\n啊！$n，正好，我正找你呢．
+  - Snr4.chunk0.sub0 | text#97: 謝謝，$n．\n謝謝，斯塔特．
+- S4_E2 世界地图计划 | Snr4 | subscripts=Snr4.chunk0.sub0,Snr4.chunk4.sub1 | dispatch=8 | text_refs=10 | actors=Mercator,Laura
+  - Snr4.chunk0.sub0 | text#199: 今後請不要再背棄我，不然的話，你要失去朋友和信用的．
+  - Snr4.chunk0.sub0 | text#0: 〔地理學家梅爾卡特〕\n啊！$n，正好，我正找你呢．
+  - Snr4.chunk0.sub0 | text#97: 謝謝，$n．\n謝謝，斯塔特．
+- S4_E3 劳拉找家乡 | Snr4 | subscripts=Snr4.chunk4.sub1,Snr4.chunk4.sub3 | dispatch=5 | text_refs=10 | actors=Laura
+  - Snr4.chunk4.sub1 | text#63: 我會對你們有用的，我會講世界各國的語言．
+  - Snr4.chunk4.sub1 | text#98: 斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．
+  - Snr4.chunk4.sub1 | text#99: 寬闊的大海延展到彼岸，真是羅曼蒂克呢．
+- S4_E4 黄海 / 日本 | Snr4 | subscripts=Snr4.chunk4.sub1,Snr4.chunk4.sub3 | dispatch=5 | text_refs=10 | actors=Laura
+  - Snr4.chunk4.sub1 | text#63: 我會對你們有用的，我會講世界各國的語言．
+  - Snr4.chunk4.sub1 | text#98: 斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．
+  - Snr4.chunk4.sub1 | text#99: 寬闊的大海延展到彼岸，真是羅曼蒂克呢．
+- S4_E5 南美 / 黄金之国 | Snr4 | subscripts=Snr4.chunk4.sub1,Snr4.chunk4.sub3 | dispatch=5 | text_refs=10 | actors=Fabrice
+  - Snr4.chunk4.sub1 | text#63: 我會對你們有用的，我會講世界各國的語言．
+  - Snr4.chunk4.sub1 | text#98: 斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．
+  - Snr4.chunk4.sub1 | text#99: 寬闊的大海延展到彼岸，真是羅曼蒂克呢．
+- S5_E1 欠债 / 无资助 | Snr5 | subscripts=Snr5.chunk0.sub0,Snr5.chunk2.sub1 | dispatch=13 | text_refs=14 | actors=PiedCondi,Radinan
+  - Snr5.chunk0.sub0 | text#199: 這個港口大概有人知道聖人手杖的傳說．
+  - Snr5.chunk0.sub0 | text#0: 啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．
+  - Snr5.chunk0.sub0 | text#63: 是啊，那位資助人的家在哪？
+- S5_E2 公爵夫人资助 | Snr5 | subscripts=Snr5.chunk2.sub1,Snr5.chunk2.sub2 | dispatch=11 | text_refs=30 | actors=Duchess,Cameron
+  - Snr5.chunk2.sub1 | text#63: 是啊，那位資助人的家在哪？
+  - Snr5.chunk2.sub1 | text#18: 你見到凱麥隆了嗎？
+  - Snr5.chunk2.sub1 | text#16: 那，我來準備船，路上可沒有多餘的時間．
+- S5_E3 冒险报告 | Snr5 | subscripts=Snr5.chunk2.sub1,Snr5.chunk2.sub2 | dispatch=11 | text_refs=30 | actors=Duchess,Cameron
+  - Snr5.chunk2.sub1 | text#63: 是啊，那位資助人的家在哪？
+  - Snr5.chunk2.sub1 | text#18: 你見到凱麥隆了嗎？
+  - Snr5.chunk2.sub1 | text#16: 那，我來準備船，路上可沒有多餘的時間．
+- S5_E4 金质奖章 | Snr5 | subscripts=Snr5.chunk2.sub2,Snr5.chunk3.sub2 | dispatch=14 | text_refs=25 | actors=John
+  - Snr5.chunk2.sub2 | text#63: 是啊，那位資助人的家在哪？
+  - Snr5.chunk2.sub2 | text#0: 啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．
+  - Snr5.chunk2.sub2 | text#1: 啊，明白了．再等等，借的錢我一定還．
+- S5_E5 黄金之国 / 圣人手杖 | Snr5 | subscripts=Snr5.chunk2.sub2,Snr5.chunk3.sub2 | dispatch=14 | text_refs=25 | actors=Fabrice,John
+  - Snr5.chunk2.sub2 | text#63: 是啊，那位資助人的家在哪？
+  - Snr5.chunk2.sub2 | text#0: 啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．
+  - Snr5.chunk2.sub2 | text#1: 啊，明白了．再等等，借的錢我一定還．
+- S5_E6 法布利斯 / 家族线 | Snr5 | subscripts=Snr5.chunk2.sub2,Snr5.chunk3.sub2 | dispatch=14 | text_refs=25 | actors=Fabrice,Duchess
+  - Snr5.chunk2.sub2 | text#63: 是啊，那位資助人的家在哪？
+  - Snr5.chunk2.sub2 | text#0: 啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．
+  - Snr5.chunk2.sub2 | text#1: 啊，明白了．再等等，借的錢我一定還．
+- S6_E1 穷困 / 没船 | Snr6 | subscripts=Snr6.chunk1.sub0,Snr6.chunk2.sub4 | dispatch=26 | text_refs=51 | actors=Tidia
+  - Snr6.chunk1.sub0 | text#63: 都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．
+  - Snr6.chunk1.sub0 | text#2: 對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．
+  - Snr6.chunk1.sub0 | text#0: 你這個$n，一分錢沒有卻又跑來了，是衝著蒂迪亞來的吧？
+- S6_E2 萨达姆帮忙 | Snr6 | subscripts=Snr6.chunk2.sub4,Snr6.chunk3.sub3 | dispatch=33 | text_refs=34 | actors=Sadaam
+  - Snr6.chunk2.sub4 | text#63: 都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．
+- S6_E3 修船 / 借债 | Snr6 | subscripts=Snr6.chunk3.sub3,Snr6.chunk4.sub0 | dispatch=31 | text_refs=45 | actors=Sherlock,Pied
+  - Snr6.chunk3.sub3 | text#63: 都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．
+  - Snr6.chunk4.sub0 | text#1: 不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．
+- S6_E4 贸易 / 投资 | Snr6 | subscripts=Snr6.chunk3.sub3,Snr6.chunk4.sub0 | dispatch=31 | text_refs=45 | actors=Sherlock,Pied,Radinan
+  - Snr6.chunk3.sub3 | text#63: 都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．
+  - Snr6.chunk4.sub0 | text#1: 不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．
+- S6_E5 寻找薩莎 | Snr6 | subscripts=Snr6.chunk4.sub0,Snr6.chunk5.sub0 | dispatch=25 | text_refs=36 | actors=Laura,Sasha
+  - Snr6.chunk4.sub0 | text#63: 都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．
+  - Snr6.chunk4.sub0 | text#1: 不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．
+- S6_E6 奥斯曼任务 / 同盟港 | Snr6 | subscripts=Snr6.chunk4.sub0,Snr6.chunk5.sub0 | dispatch=25 | text_refs=36 | actors=Suleiman
+  - Snr6.chunk4.sub0 | text#63: 都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．
+  - Snr6.chunk4.sub0 | text#1: 不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．
