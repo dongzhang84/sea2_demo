@@ -199,12 +199,18 @@ func _on_port_clicked(port: Dictionary) -> void:
 	if port.id == current_port_id:
 		_open_port_screen(port)
 	else:
-		var dist := ship.global_position.distance_to(Vector2(port.world_x, port.world_y))
-		pending_sail_days = max(1, int(dist / 25.0))
-		info_label.text = "起航前往 %s (约 %d 天)..." % [_pn(port), pending_sail_days]
-		ship.sail_to(Vector2(port.world_x, port.world_y), port.id)
-		port_screen_panel.visible = false
-		AudioManager.play("sea")
+		_sail_to_port(port)
+
+
+func _sail_to_port(port: Dictionary) -> void:
+	if ship == null or port.is_empty():
+		return
+	var dist := ship.global_position.distance_to(Vector2(port.world_x, port.world_y))
+	pending_sail_days = max(1, int(dist / 25.0))
+	info_label.text = "起航前往 %s (约 %d 天)..." % [_pn(port), pending_sail_days]
+	ship.sail_to(Vector2(port.world_x, port.world_y), port.id)
+	port_screen_panel.visible = false
+	AudioManager.play("sea")
 
 
 func _on_ship_arrived(port_id: int) -> void:
@@ -434,6 +440,31 @@ func _populate_story_list(port: Dictionary) -> void:
 		active_desc.custom_minimum_size = Vector2(440, 0)
 		active_desc.add_theme_font_size_override("font_size", 13)
 		story_list.add_child(active_desc)
+		var next_port_id := GameState.get_story_quest_next_port_id()
+		if next_port_id >= 0:
+			var next_port := GameState.get_port(next_port_id)
+			var next_box := HBoxContainer.new()
+			next_box.custom_minimum_size = Vector2(0, 40)
+			var next_lbl := Label.new()
+			next_lbl.text = "下一站：%s" % GameState.get_story_quest_next_port_name()
+			next_lbl.custom_minimum_size = Vector2(280, 0)
+			next_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+			next_box.add_child(next_lbl)
+			var go_btn := Button.new()
+			go_btn.text = "前往下一站"
+			go_btn.disabled = next_port.is_empty() or int(port.get("id", -1)) == next_port_id
+			go_btn.pressed.connect(_on_story_travel_next)
+			next_box.add_child(go_btn)
+			story_list.add_child(next_box)
+		var return_box := HBoxContainer.new()
+		return_box.custom_minimum_size = Vector2(0, 34)
+		var return_lbl := Label.new()
+		return_lbl.text = "到站后自动推进；返回起点后结算奖励。"
+		return_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		return_lbl.custom_minimum_size = Vector2(440, 0)
+		return_lbl.add_theme_font_size_override("font_size", 12)
+		return_box.add_child(return_lbl)
+		story_list.add_child(return_box)
 		return
 	var offers := GameState.get_available_story_quests(int(port.get("id", -1)))
 	if offers.is_empty():
@@ -475,6 +506,25 @@ func _on_accept_story_quest(quest_id: String) -> void:
 			_populate_story_list(port)
 	else:
 		info_label.text = "当前无法接下这个任务。"
+
+
+func _on_story_travel_next() -> void:
+	var next_port_id := GameState.get_story_quest_next_port_id()
+	if next_port_id < 0:
+		info_label.text = "当前没有可前往的剧情站点。"
+		return
+	if ship == null or ship.moving:
+		info_label.text = "航行中,请等待抵达"
+		return
+	var port := GameState.get_port(next_port_id)
+	if port.is_empty():
+		info_label.text = "剧情目标港口不存在。"
+		return
+	if int(port.get("id", -1)) == current_port_id:
+		_open_port_screen(port)
+		info_label.text = "已抵达剧情下一站。"
+		return
+	_sail_to_port(port)
 
 
 func _apply_story_progress(port: Dictionary) -> void:

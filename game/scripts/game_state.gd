@@ -205,6 +205,26 @@ func quest_progress_text() -> String:
 		_port_name(return_port_id)]
 
 
+func get_story_quest_next_port_id() -> int:
+	var quest := get_active_story_quest()
+	if quest.is_empty():
+		return -1
+	var stage := int(story_quest_state.get("stage", 0))
+	var waypoints: Array = quest.get("waypoints", [])
+	if stage >= 1 and stage <= waypoints.size():
+		return int(waypoints[stage - 1])
+	if stage == waypoints.size() + 1:
+		return int(quest.get("return_port_id", -1))
+	return -1
+
+
+func get_story_quest_next_port_name() -> String:
+	var port_id := get_story_quest_next_port_id()
+	if port_id < 0:
+		return ""
+	return _port_name(port_id)
+
+
 func quest_offer_text(quest: Dictionary) -> String:
 	if quest.is_empty():
 		return ""

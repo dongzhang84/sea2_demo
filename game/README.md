@@ -24,9 +24,17 @@ This is Phase 4 of the master plan. The MVP demonstrates the core trading loop a
 
 ## Run
 
-1. Install Godot 4.4+
-2. Open `project.godot` in the Godot editor
-3. Press F5 (Play)
+### Fast start
+
+- Double-click [`../play.command`](../play.command) to launch the game directly.
+- If that does not work, install Godot 4.4+ and open `project.godot`, then press F5.
+
+### Controls
+
+- Click a port marker on the map to sail there.
+- Use the `剧情` tab inside a port to accept a quest or jump to the next story stop.
+- `M` toggles music mute.
+- `保存 / 读取 / 新局` are in the top-right row.
 
 ## Project layout
 

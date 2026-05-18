@@ -107,6 +107,17 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 3
 theme_override_font_sizes/font_size = 14
 
+[node name="HelpLabel" type="Label" parent="UI"]
+offset_left = 20.0
+offset_top = 74.0
+offset_right = 980.0
+offset_bottom = 96.0
+text = "操作提示：左键点港口起航；剧情页可接任务或一键前往下一站；M 静音；保存/读取/新局在右上。"
+theme_override_colors/font_color = Color(0.9, 0.9, 0.9, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 12
+
 [node name="EventDialog" parent="UI" instance=ExtResource("4_event_dialog")]
 visible = false
 
