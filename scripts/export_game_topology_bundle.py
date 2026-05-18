@@ -264,6 +264,29 @@ def main() -> None:
     bundle = build_bundle()
     out = OUT_DIR / "game_topology_bundle_v1.json"
     out.write_text(json.dumps(bundle, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    event_index = {
+        "schema": "sea2_game_topology_events_index_v1",
+        "source": "output/game_topology/game_topology_bundle_v1.json",
+        "events_by_line": {
+            line: [
+                {
+                    "id": node["id"],
+                    "label": node["label"],
+                    "actors": node["actors"],
+                    "locations": node["locations"],
+                    "state_before": node["state_before"],
+                    "state_after": node["state_after"],
+                }
+                for node in bundle["graphs"]["events"]["nodes"]
+                if node["line"] == line
+            ]
+            for line in ["Snr1", "Snr2", "Snr3", "Snr4", "Snr5", "Snr6"]
+        },
+    }
+    (OUT_DIR / "game_topology_events_index_v1.json").write_text(
+        json.dumps(event_index, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     print(f"Wrote {out}")
 
 

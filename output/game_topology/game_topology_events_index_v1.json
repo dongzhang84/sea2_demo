@@ -1,0 +1,463 @@
+{
+  "schema": "sea2_game_topology_events_index_v1",
+  "source": "output/game_topology/game_topology_bundle_v1.json",
+  "events_by_line": {
+    "Snr1": [
+      {
+        "id": "S1_E1",
+        "label": "被逐出家门",
+        "actors": [
+          "Mack",
+          "Duke",
+          "Duchess"
+        ],
+        "locations": [
+          "Lisbon",
+          "DukeHouse"
+        ],
+        "state_before": "HomeOutside",
+        "state_after": "Funding"
+      },
+      {
+        "id": "S1_E2",
+        "label": "公爵府筹资",
+        "actors": [
+          "Duchess",
+          "Locke",
+          "Lucia"
+        ],
+        "locations": [
+          "DukeHouse",
+          "Tavern",
+          "Church"
+        ],
+        "state_before": "Funding",
+        "state_after": "CanShip"
+      },
+      {
+        "id": "S1_E3",
+        "label": "造船完成",
+        "actors": [
+          "Locke"
+        ],
+        "locations": [
+          "Shipyard"
+        ],
+        "state_before": "CanShip",
+        "state_after": "AtSea"
+      },
+      {
+        "id": "S1_E4",
+        "label": "恩里克神父同行",
+        "actors": [
+          "Philippe",
+          "Enrique"
+        ],
+        "locations": [
+          "Church",
+          "Port"
+        ],
+        "state_before": "AtSea",
+        "state_after": "FarEast"
+      },
+      {
+        "id": "S1_E5",
+        "label": "约翰传闻",
+        "actors": [
+          "John"
+        ],
+        "locations": [
+          "Port",
+          "Tavern"
+        ],
+        "state_before": "FarEast",
+        "state_after": "InfoLoop"
+      },
+      {
+        "id": "S1_E6",
+        "label": "卡特琳娜卷入",
+        "actors": [
+          "Catalina"
+        ],
+        "locations": [
+          "Port",
+          "Sea"
+        ],
+        "state_before": "InfoLoop",
+        "state_after": "Revenge"
+      }
+    ],
+    "Snr2": [
+      {
+        "id": "S2_E1",
+        "label": "哥哥失踪",
+        "actors": [
+          "Sando"
+        ],
+        "locations": [
+          "Command"
+        ],
+        "state_before": "HomeOutside",
+        "state_after": "Revenge"
+      },
+      {
+        "id": "S2_E2",
+        "label": "调查真相",
+        "actors": [
+          "Ezeg"
+        ],
+        "locations": [
+          "Command",
+          "Port"
+        ],
+        "state_before": "Revenge",
+        "state_after": "InfoLoop"
+      },
+      {
+        "id": "S2_E3",
+        "label": "军方阻止",
+        "actors": [
+          "Ezeg"
+        ],
+        "locations": [
+          "Command"
+        ],
+        "state_before": "InfoLoop",
+        "state_after": "Revenge"
+      },
+      {
+        "id": "S2_E4",
+        "label": "港口情报循环",
+        "actors": [
+          "Catalina",
+          "Sando"
+        ],
+        "locations": [
+          "Port",
+          "Tavern"
+        ],
+        "state_before": "Revenge",
+        "state_after": "InfoLoop"
+      },
+      {
+        "id": "S2_E5",
+        "label": "卡特琳娜卷入",
+        "actors": [
+          "Catalina"
+        ],
+        "locations": [
+          "Port",
+          "Sea"
+        ],
+        "state_before": "InfoLoop",
+        "state_after": "Revenge"
+      },
+      {
+        "id": "S2_E6",
+        "label": "私掠 / 复仇",
+        "actors": [
+          "Sando",
+          "Ezeg"
+        ],
+        "locations": [
+          "Sea",
+          "Command"
+        ],
+        "state_before": "Revenge",
+        "state_after": "Trade"
+      }
+    ],
+    "Snr3": [
+      {
+        "id": "S3_E1",
+        "label": "国王召见",
+        "actors": [
+          "Henry8",
+          "Albert",
+          "Gilbert"
+        ],
+        "locations": [
+          "Court"
+        ],
+        "state_before": "HomeOutside",
+        "state_after": "StateTask"
+      },
+      {
+        "id": "S3_E2",
+        "label": "私掠许可 / 资金",
+        "actors": [
+          "Gilbert",
+          "Henry8"
+        ],
+        "locations": [
+          "Court",
+          "Port"
+        ],
+        "state_before": "StateTask",
+        "state_after": "CanShip"
+      },
+      {
+        "id": "S3_E3",
+        "label": "组建舰队",
+        "actors": [
+          "HenryKing",
+          "Gilbert"
+        ],
+        "locations": [
+          "Port"
+        ],
+        "state_before": "CanShip",
+        "state_after": "AtSea"
+      },
+      {
+        "id": "S3_E4",
+        "label": "对抗西班牙",
+        "actors": [
+          "Carlos"
+        ],
+        "locations": [
+          "Sea",
+          "NewWorld"
+        ],
+        "state_before": "AtSea",
+        "state_after": "Revenge"
+      }
+    ],
+    "Snr4": [
+      {
+        "id": "S4_E1",
+        "label": "梅尔卡特求助",
+        "actors": [
+          "Mercator"
+        ],
+        "locations": [
+          "Lisbon",
+          "DukeHouse"
+        ],
+        "state_before": "HomeOutside",
+        "state_after": "InfoLoop"
+      },
+      {
+        "id": "S4_E2",
+        "label": "世界地图计划",
+        "actors": [
+          "Mercator",
+          "Laura"
+        ],
+        "locations": [
+          "Shipyard",
+          "Port"
+        ],
+        "state_before": "InfoLoop",
+        "state_after": "FarEast"
+      },
+      {
+        "id": "S4_E3",
+        "label": "劳拉找家乡",
+        "actors": [
+          "Laura"
+        ],
+        "locations": [
+          "Sea",
+          "Port"
+        ],
+        "state_before": "FarEast",
+        "state_after": "SeekSasha"
+      },
+      {
+        "id": "S4_E4",
+        "label": "黄海 / 日本",
+        "actors": [
+          "Laura"
+        ],
+        "locations": [
+          "EastAsia",
+          "Japan"
+        ],
+        "state_before": "SeekSasha",
+        "state_after": "FarEast"
+      },
+      {
+        "id": "S4_E5",
+        "label": "南美 / 黄金之国",
+        "actors": [
+          "Fabrice"
+        ],
+        "locations": [
+          "SouthAmerica",
+          "NewWorld"
+        ],
+        "state_before": "FarEast",
+        "state_after": "Treasure"
+      }
+    ],
+    "Snr5": [
+      {
+        "id": "S5_E1",
+        "label": "欠债 / 无资助",
+        "actors": [
+          "PiedCondi",
+          "Radinan"
+        ],
+        "locations": [
+          "Lisbon",
+          "Tavern"
+        ],
+        "state_before": "HomeOutside",
+        "state_after": "Funding"
+      },
+      {
+        "id": "S5_E2",
+        "label": "公爵夫人资助",
+        "actors": [
+          "Duchess",
+          "Cameron"
+        ],
+        "locations": [
+          "DukeHouse",
+          "Lisbon"
+        ],
+        "state_before": "Funding",
+        "state_after": "CanShip"
+      },
+      {
+        "id": "S5_E3",
+        "label": "冒险报告",
+        "actors": [
+          "Duchess",
+          "Cameron"
+        ],
+        "locations": [
+          "Port",
+          "Tavern"
+        ],
+        "state_before": "CanShip",
+        "state_after": "InfoLoop"
+      },
+      {
+        "id": "S5_E4",
+        "label": "金质奖章",
+        "actors": [
+          "John"
+        ],
+        "locations": [
+          "Port",
+          "Sea"
+        ],
+        "state_before": "InfoLoop",
+        "state_after": "Treasure"
+      },
+      {
+        "id": "S5_E5",
+        "label": "黄金之国 / 圣人手杖",
+        "actors": [
+          "Fabrice",
+          "John"
+        ],
+        "locations": [
+          "SouthAmerica",
+          "NewWorld"
+        ],
+        "state_before": "Treasure",
+        "state_after": "WorldConfirmed"
+      },
+      {
+        "id": "S5_E6",
+        "label": "法布利斯 / 家族线",
+        "actors": [
+          "Fabrice",
+          "Duchess"
+        ],
+        "locations": [
+          "Lisbon",
+          "DukeHouse"
+        ],
+        "state_before": "WorldConfirmed",
+        "state_after": "StateTask"
+      }
+    ],
+    "Snr6": [
+      {
+        "id": "S6_E1",
+        "label": "穷困 / 没船",
+        "actors": [
+          "Tidia"
+        ],
+        "locations": [
+          "Tavern",
+          "Port"
+        ],
+        "state_before": "HomeOutside",
+        "state_after": "Funding"
+      },
+      {
+        "id": "S6_E2",
+        "label": "萨达姆帮忙",
+        "actors": [
+          "Sadaam"
+        ],
+        "locations": [
+          "Shipyard"
+        ],
+        "state_before": "Funding",
+        "state_after": "CanShip"
+      },
+      {
+        "id": "S6_E3",
+        "label": "修船 / 借债",
+        "actors": [
+          "Sherlock",
+          "Pied"
+        ],
+        "locations": [
+          "Shipyard",
+          "Port"
+        ],
+        "state_before": "CanShip",
+        "state_after": "Trade"
+      },
+      {
+        "id": "S6_E4",
+        "label": "贸易 / 投资",
+        "actors": [
+          "Sherlock",
+          "Pied",
+          "Radinan"
+        ],
+        "locations": [
+          "Port",
+          "Tavern"
+        ],
+        "state_before": "Trade",
+        "state_after": "Trade"
+      },
+      {
+        "id": "S6_E5",
+        "label": "寻找薩莎",
+        "actors": [
+          "Laura",
+          "Sasha"
+        ],
+        "locations": [
+          "Istanbul",
+          "Port"
+        ],
+        "state_before": "Trade",
+        "state_after": "SeekSasha"
+      },
+      {
+        "id": "S6_E6",
+        "label": "奥斯曼任务 / 同盟港",
+        "actors": [
+          "Suleiman"
+        ],
+        "locations": [
+          "Istanbul",
+          "Port"
+        ],
+        "state_before": "SeekSasha",
+        "state_after": "StateTask"
+      }
+    ]
+  }
+}
