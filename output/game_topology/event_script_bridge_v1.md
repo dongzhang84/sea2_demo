@@ -6,36 +6,36 @@
 - events: 33
 
 ## Event Coverage
-- S1_E1 被逐出家门 | Snr1 | chunks=6 | actors=Mack,Duke,Duchess
-- S1_E2 公爵府筹资 | Snr1 | chunks=6 | actors=Duchess,Locke,Lucia
-- S1_E3 造船完成 | Snr1 | chunks=6 | actors=Locke
-- S1_E4 恩里克神父同行 | Snr1 | chunks=6 | actors=Philippe,Enrique
-- S1_E5 约翰传闻 | Snr1 | chunks=6 | actors=John
-- S1_E6 卡特琳娜卷入 | Snr1 | chunks=6 | actors=Catalina
-- S2_E1 哥哥失踪 | Snr2 | chunks=8 | actors=Sando
-- S2_E2 调查真相 | Snr2 | chunks=8 | actors=Ezeg
-- S2_E3 军方阻止 | Snr2 | chunks=8 | actors=Ezeg
-- S2_E4 港口情报循环 | Snr2 | chunks=8 | actors=Catalina,Sando
-- S2_E5 卡特琳娜卷入 | Snr2 | chunks=8 | actors=Catalina
-- S2_E6 私掠 / 复仇 | Snr2 | chunks=8 | actors=Sando,Ezeg
-- S3_E1 国王召见 | Snr3 | chunks=6 | actors=Henry8,Albert,Gilbert
-- S3_E2 私掠许可 / 资金 | Snr3 | chunks=6 | actors=Gilbert,Henry8
-- S3_E3 组建舰队 | Snr3 | chunks=6 | actors=HenryKing,Gilbert
-- S3_E4 对抗西班牙 | Snr3 | chunks=6 | actors=Carlos
-- S4_E1 梅尔卡特求助 | Snr4 | chunks=5 | actors=Mercator
-- S4_E2 世界地图计划 | Snr4 | chunks=5 | actors=Mercator,Laura
-- S4_E3 劳拉找家乡 | Snr4 | chunks=5 | actors=Laura
-- S4_E4 黄海 / 日本 | Snr4 | chunks=5 | actors=Laura
-- S4_E5 南美 / 黄金之国 | Snr4 | chunks=5 | actors=Fabrice
-- S5_E1 欠债 / 无资助 | Snr5 | chunks=4 | actors=PiedCondi,Radinan
-- S5_E2 公爵夫人资助 | Snr5 | chunks=4 | actors=Duchess,Cameron
-- S5_E3 冒险报告 | Snr5 | chunks=4 | actors=Duchess,Cameron
-- S5_E4 金质奖章 | Snr5 | chunks=4 | actors=John
-- S5_E5 黄金之国 / 圣人手杖 | Snr5 | chunks=4 | actors=Fabrice,John
-- S5_E6 法布利斯 / 家族线 | Snr5 | chunks=4 | actors=Fabrice,Duchess
-- S6_E1 穷困 / 没船 | Snr6 | chunks=6 | actors=Tidia
-- S6_E2 萨达姆帮忙 | Snr6 | chunks=6 | actors=Sadaam
-- S6_E3 修船 / 借债 | Snr6 | chunks=6 | actors=Sherlock,Pied
-- S6_E4 贸易 / 投资 | Snr6 | chunks=6 | actors=Sherlock,Pied,Radinan
-- S6_E5 寻找薩莎 | Snr6 | chunks=6 | actors=Laura,Sasha
-- S6_E6 奥斯曼任务 / 同盟港 | Snr6 | chunks=6 | actors=Suleiman
+- S1_E1 被逐出家门 | Snr1 | subscripts=4 | actors=Mack,Duke,Duchess
+- S1_E2 公爵府筹资 | Snr1 | subscripts=4 | actors=Duchess,Locke,Lucia
+- S1_E3 造船完成 | Snr1 | subscripts=4 | actors=Locke
+- S1_E4 恩里克神父同行 | Snr1 | subscripts=4 | actors=Philippe,Enrique
+- S1_E5 约翰传闻 | Snr1 | subscripts=4 | actors=John
+- S1_E6 卡特琳娜卷入 | Snr1 | subscripts=4 | actors=Catalina
+- S2_E1 哥哥失踪 | Snr2 | subscripts=4 | actors=Sando
+- S2_E2 调查真相 | Snr2 | subscripts=4 | actors=Ezeg
+- S2_E3 军方阻止 | Snr2 | subscripts=4 | actors=Ezeg
+- S2_E4 港口情报循环 | Snr2 | subscripts=4 | actors=Catalina,Sando
+- S2_E5 卡特琳娜卷入 | Snr2 | subscripts=4 | actors=Catalina
+- S2_E6 私掠 / 复仇 | Snr2 | subscripts=4 | actors=Sando,Ezeg
+- S3_E1 国王召见 | Snr3 | subscripts=4 | actors=Henry8,Albert,Gilbert
+- S3_E2 私掠许可 / 资金 | Snr3 | subscripts=4 | actors=Gilbert,Henry8
+- S3_E3 组建舰队 | Snr3 | subscripts=4 | actors=HenryKing,Gilbert
+- S3_E4 对抗西班牙 | Snr3 | subscripts=4 | actors=Carlos
+- S4_E1 梅尔卡特求助 | Snr4 | subscripts=3 | actors=Mercator
+- S4_E2 世界地图计划 | Snr4 | subscripts=3 | actors=Mercator,Laura
+- S4_E3 劳拉找家乡 | Snr4 | subscripts=3 | actors=Laura
+- S4_E4 黄海 / 日本 | Snr4 | subscripts=3 | actors=Laura
+- S4_E5 南美 / 黄金之国 | Snr4 | subscripts=3 | actors=Fabrice
+- S5_E1 欠债 / 无资助 | Snr5 | subscripts=4 | actors=PiedCondi,Radinan
+- S5_E2 公爵夫人资助 | Snr5 | subscripts=4 | actors=Duchess,Cameron
+- S5_E3 冒险报告 | Snr5 | subscripts=4 | actors=Duchess,Cameron
+- S5_E4 金质奖章 | Snr5 | subscripts=4 | actors=John
+- S5_E5 黄金之国 / 圣人手杖 | Snr5 | subscripts=4 | actors=Fabrice,John
+- S5_E6 法布利斯 / 家族线 | Snr5 | subscripts=4 | actors=Fabrice,Duchess
+- S6_E1 穷困 / 没船 | Snr6 | subscripts=5 | actors=Tidia
+- S6_E2 萨达姆帮忙 | Snr6 | subscripts=5 | actors=Sadaam
+- S6_E3 修船 / 借债 | Snr6 | subscripts=5 | actors=Sherlock,Pied
+- S6_E4 贸易 / 投资 | Snr6 | subscripts=5 | actors=Sherlock,Pied,Radinan
+- S6_E5 寻找薩莎 | Snr6 | subscripts=5 | actors=Laura,Sasha
+- S6_E6 奥斯曼任务 / 同盟港 | Snr6 | subscripts=5 | actors=Suleiman

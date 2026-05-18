@@ -20,48 +20,140 @@
         "Lisbon",
         "DukeHouse"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr1.chunk0",
+          "id": "Snr1.chunk0.sub0",
+          "chunk": "Snr1.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 12,
-          "text_ref_count": 15
+          "dispatch_count": 10,
+          "text_ref_count": 15,
+          "first_text_refs": [
+            {
+              "offset_rel": 142,
+              "offset_hex": "0x008e",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "少爺，不對，船長，真的要與來歷不明的傢伙同行嗎？"
+            },
+            {
+              "offset_rel": 671,
+              "offset_hex": "0x029f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 689,
+              "offset_hex": "0x02b1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 950,
+              "offset_hex": "0x03b6",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk1",
-          "index": 1,
-          "subscript_count": 3,
-          "dispatch_count": 16,
-          "text_ref_count": 20
+          "id": "Snr1.chunk1.sub0",
+          "chunk": "Snr1.chunk1",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 52,
+              "offset_hex": "0x0034",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 112,
+              "offset_hex": "0x0070",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk2",
-          "index": 2,
-          "subscript_count": 10,
-          "dispatch_count": 36,
-          "text_ref_count": 12
+          "id": "Snr1.chunk3.sub0",
+          "chunk": "Snr1.chunk3",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 60,
+              "offset_hex": "0x003c",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 70,
+              "offset_hex": "0x0046",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 96,
+              "offset_hex": "0x0060",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk3",
-          "index": 3,
-          "subscript_count": 15,
-          "dispatch_count": 49,
-          "text_ref_count": 42
-        },
-        {
-          "id": "Snr1.chunk4",
-          "index": 4,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 12
-        },
-        {
-          "id": "Snr1.chunk5",
-          "index": 5,
-          "subscript_count": 8,
-          "dispatch_count": 31,
-          "text_ref_count": 41
+          "id": "Snr1.chunk5.sub0",
+          "chunk": "Snr1.chunk5",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 69,
+              "offset_hex": "0x0045",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 79,
+              "offset_hex": "0x004f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 105,
+              "offset_hex": "0x0069",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         }
       ]
     },
@@ -81,48 +173,140 @@
         "Tavern",
         "Church"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr1.chunk0",
+          "id": "Snr1.chunk0.sub0",
+          "chunk": "Snr1.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 12,
-          "text_ref_count": 15
+          "dispatch_count": 10,
+          "text_ref_count": 15,
+          "first_text_refs": [
+            {
+              "offset_rel": 142,
+              "offset_hex": "0x008e",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "少爺，不對，船長，真的要與來歷不明的傢伙同行嗎？"
+            },
+            {
+              "offset_rel": 671,
+              "offset_hex": "0x029f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 689,
+              "offset_hex": "0x02b1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 950,
+              "offset_hex": "0x03b6",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk1",
-          "index": 1,
-          "subscript_count": 3,
-          "dispatch_count": 16,
-          "text_ref_count": 20
+          "id": "Snr1.chunk1.sub0",
+          "chunk": "Snr1.chunk1",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 52,
+              "offset_hex": "0x0034",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 112,
+              "offset_hex": "0x0070",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk2",
-          "index": 2,
-          "subscript_count": 10,
-          "dispatch_count": 36,
-          "text_ref_count": 12
+          "id": "Snr1.chunk3.sub0",
+          "chunk": "Snr1.chunk3",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 60,
+              "offset_hex": "0x003c",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 70,
+              "offset_hex": "0x0046",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 96,
+              "offset_hex": "0x0060",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk3",
-          "index": 3,
-          "subscript_count": 15,
-          "dispatch_count": 49,
-          "text_ref_count": 42
-        },
-        {
-          "id": "Snr1.chunk4",
-          "index": 4,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 12
-        },
-        {
-          "id": "Snr1.chunk5",
-          "index": 5,
-          "subscript_count": 8,
-          "dispatch_count": 31,
-          "text_ref_count": 41
+          "id": "Snr1.chunk5.sub0",
+          "chunk": "Snr1.chunk5",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 69,
+              "offset_hex": "0x0045",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 79,
+              "offset_hex": "0x004f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 105,
+              "offset_hex": "0x0069",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         }
       ]
     },
@@ -138,48 +322,140 @@
       "locations": [
         "Shipyard"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr1.chunk0",
+          "id": "Snr1.chunk0.sub0",
+          "chunk": "Snr1.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 12,
-          "text_ref_count": 15
+          "dispatch_count": 10,
+          "text_ref_count": 15,
+          "first_text_refs": [
+            {
+              "offset_rel": 142,
+              "offset_hex": "0x008e",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "少爺，不對，船長，真的要與來歷不明的傢伙同行嗎？"
+            },
+            {
+              "offset_rel": 671,
+              "offset_hex": "0x029f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 689,
+              "offset_hex": "0x02b1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 950,
+              "offset_hex": "0x03b6",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk1",
-          "index": 1,
-          "subscript_count": 3,
-          "dispatch_count": 16,
-          "text_ref_count": 20
+          "id": "Snr1.chunk1.sub0",
+          "chunk": "Snr1.chunk1",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 52,
+              "offset_hex": "0x0034",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 112,
+              "offset_hex": "0x0070",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk2",
-          "index": 2,
-          "subscript_count": 10,
-          "dispatch_count": 36,
-          "text_ref_count": 12
+          "id": "Snr1.chunk3.sub0",
+          "chunk": "Snr1.chunk3",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 60,
+              "offset_hex": "0x003c",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 70,
+              "offset_hex": "0x0046",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 96,
+              "offset_hex": "0x0060",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk3",
-          "index": 3,
-          "subscript_count": 15,
-          "dispatch_count": 49,
-          "text_ref_count": 42
-        },
-        {
-          "id": "Snr1.chunk4",
-          "index": 4,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 12
-        },
-        {
-          "id": "Snr1.chunk5",
-          "index": 5,
-          "subscript_count": 8,
-          "dispatch_count": 31,
-          "text_ref_count": 41
+          "id": "Snr1.chunk5.sub0",
+          "chunk": "Snr1.chunk5",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 69,
+              "offset_hex": "0x0045",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 79,
+              "offset_hex": "0x004f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 105,
+              "offset_hex": "0x0069",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         }
       ]
     },
@@ -197,48 +473,140 @@
         "Church",
         "Port"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr1.chunk0",
+          "id": "Snr1.chunk0.sub0",
+          "chunk": "Snr1.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 12,
-          "text_ref_count": 15
+          "dispatch_count": 10,
+          "text_ref_count": 15,
+          "first_text_refs": [
+            {
+              "offset_rel": 142,
+              "offset_hex": "0x008e",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "少爺，不對，船長，真的要與來歷不明的傢伙同行嗎？"
+            },
+            {
+              "offset_rel": 671,
+              "offset_hex": "0x029f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 689,
+              "offset_hex": "0x02b1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 950,
+              "offset_hex": "0x03b6",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk1",
-          "index": 1,
-          "subscript_count": 3,
-          "dispatch_count": 16,
-          "text_ref_count": 20
+          "id": "Snr1.chunk1.sub0",
+          "chunk": "Snr1.chunk1",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 52,
+              "offset_hex": "0x0034",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 112,
+              "offset_hex": "0x0070",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk2",
-          "index": 2,
-          "subscript_count": 10,
-          "dispatch_count": 36,
-          "text_ref_count": 12
+          "id": "Snr1.chunk3.sub0",
+          "chunk": "Snr1.chunk3",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 60,
+              "offset_hex": "0x003c",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 70,
+              "offset_hex": "0x0046",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 96,
+              "offset_hex": "0x0060",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk3",
-          "index": 3,
-          "subscript_count": 15,
-          "dispatch_count": 49,
-          "text_ref_count": 42
-        },
-        {
-          "id": "Snr1.chunk4",
-          "index": 4,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 12
-        },
-        {
-          "id": "Snr1.chunk5",
-          "index": 5,
-          "subscript_count": 8,
-          "dispatch_count": 31,
-          "text_ref_count": 41
+          "id": "Snr1.chunk5.sub0",
+          "chunk": "Snr1.chunk5",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 69,
+              "offset_hex": "0x0045",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 79,
+              "offset_hex": "0x004f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 105,
+              "offset_hex": "0x0069",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         }
       ]
     },
@@ -255,48 +623,140 @@
         "Port",
         "Tavern"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr1.chunk0",
+          "id": "Snr1.chunk0.sub0",
+          "chunk": "Snr1.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 12,
-          "text_ref_count": 15
+          "dispatch_count": 10,
+          "text_ref_count": 15,
+          "first_text_refs": [
+            {
+              "offset_rel": 142,
+              "offset_hex": "0x008e",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "少爺，不對，船長，真的要與來歷不明的傢伙同行嗎？"
+            },
+            {
+              "offset_rel": 671,
+              "offset_hex": "0x029f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 689,
+              "offset_hex": "0x02b1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 950,
+              "offset_hex": "0x03b6",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk1",
-          "index": 1,
-          "subscript_count": 3,
-          "dispatch_count": 16,
-          "text_ref_count": 20
+          "id": "Snr1.chunk1.sub0",
+          "chunk": "Snr1.chunk1",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 52,
+              "offset_hex": "0x0034",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 112,
+              "offset_hex": "0x0070",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk2",
-          "index": 2,
-          "subscript_count": 10,
-          "dispatch_count": 36,
-          "text_ref_count": 12
+          "id": "Snr1.chunk3.sub0",
+          "chunk": "Snr1.chunk3",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 60,
+              "offset_hex": "0x003c",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 70,
+              "offset_hex": "0x0046",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 96,
+              "offset_hex": "0x0060",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk3",
-          "index": 3,
-          "subscript_count": 15,
-          "dispatch_count": 49,
-          "text_ref_count": 42
-        },
-        {
-          "id": "Snr1.chunk4",
-          "index": 4,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 12
-        },
-        {
-          "id": "Snr1.chunk5",
-          "index": 5,
-          "subscript_count": 8,
-          "dispatch_count": 31,
-          "text_ref_count": 41
+          "id": "Snr1.chunk5.sub0",
+          "chunk": "Snr1.chunk5",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 69,
+              "offset_hex": "0x0045",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 79,
+              "offset_hex": "0x004f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 105,
+              "offset_hex": "0x0069",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         }
       ]
     },
@@ -313,48 +773,140 @@
         "Port",
         "Sea"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr1.chunk0",
+          "id": "Snr1.chunk0.sub0",
+          "chunk": "Snr1.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 12,
-          "text_ref_count": 15
+          "dispatch_count": 10,
+          "text_ref_count": 15,
+          "first_text_refs": [
+            {
+              "offset_rel": 142,
+              "offset_hex": "0x008e",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "少爺，不對，船長，真的要與來歷不明的傢伙同行嗎？"
+            },
+            {
+              "offset_rel": 671,
+              "offset_hex": "0x029f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 689,
+              "offset_hex": "0x02b1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 950,
+              "offset_hex": "0x03b6",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk1",
-          "index": 1,
-          "subscript_count": 3,
-          "dispatch_count": 16,
-          "text_ref_count": 20
+          "id": "Snr1.chunk1.sub0",
+          "chunk": "Snr1.chunk1",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 52,
+              "offset_hex": "0x0034",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔管家麥克〕\\n$n，很對不起，公爵有令，不許您進家門．"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 112,
+              "offset_hex": "0x0070",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk2",
-          "index": 2,
-          "subscript_count": 10,
-          "dispatch_count": 36,
-          "text_ref_count": 12
+          "id": "Snr1.chunk3.sub0",
+          "chunk": "Snr1.chunk3",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 60,
+              "offset_hex": "0x003c",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 70,
+              "offset_hex": "0x0046",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 96,
+              "offset_hex": "0x0060",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         },
         {
-          "id": "Snr1.chunk3",
-          "index": 3,
-          "subscript_count": 15,
-          "dispatch_count": 49,
-          "text_ref_count": 42
-        },
-        {
-          "id": "Snr1.chunk4",
-          "index": 4,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 12
-        },
-        {
-          "id": "Snr1.chunk5",
-          "index": 5,
-          "subscript_count": 8,
-          "dispatch_count": 31,
-          "text_ref_count": 41
+          "id": "Snr1.chunk5.sub0",
+          "chunk": "Snr1.chunk5",
+          "index": 0,
+          "dispatch_count": 3,
+          "text_ref_count": 3,
+          "first_text_refs": [
+            {
+              "offset_rel": 69,
+              "offset_hex": "0x0045",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "太太要您晚上10點到12點之間去公爵府．"
+            },
+            {
+              "offset_rel": 79,
+              "offset_hex": "0x004f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔$s公爵夫人〕\\n哎呀，$n，這事已聽你父親說了，突然要你走出家，真殘酷呀！"
+            },
+            {
+              "offset_rel": 105,
+              "offset_hex": "0x0069",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "請不要擔心，有那麼一天找到普萊斯特·約翰國後，一定回來的．"
+            }
+          ]
         }
       ]
     },
@@ -370,62 +922,182 @@
       "locations": [
         "Command"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr2.chunk0",
+          "id": "Snr2.chunk0.sub0",
+          "chunk": "Snr2.chunk0",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 17,
-          "text_ref_count": 11
+          "dispatch_count": 8,
+          "text_ref_count": 7,
+          "first_text_refs": [
+            {
+              "offset_rel": 6,
+              "offset_hex": "0x0006",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 33,
+              "offset_hex": "0x0021",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 62,
+              "offset_hex": "0x003e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 141,
+              "offset_hex": "0x008d",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "瞧，敵人的戰船起火了！好像他們的密集陣形遭到了火攻．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk1",
-          "index": 1,
-          "subscript_count": 5,
-          "dispatch_count": 12,
-          "text_ref_count": 14
+          "id": "Snr2.chunk1.sub0",
+          "chunk": "Snr2.chunk1",
+          "index": 0,
+          "dispatch_count": 4,
+          "text_ref_count": 6,
+          "first_text_refs": [
+            {
+              "offset_rel": 18,
+              "offset_hex": "0x0012",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 39,
+              "offset_hex": "0x0027",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "噢，是$s中尉，今天一個人來的啊！"
+            },
+            {
+              "offset_rel": 154,
+              "offset_hex": "0x009a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 158,
+              "offset_hex": "0x009e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 162,
+              "offset_hex": "0x00a2",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk2",
-          "index": 2,
-          "subscript_count": 2,
-          "dispatch_count": 7,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk3",
+          "id": "Snr2.chunk6.sub3",
+          "chunk": "Snr2.chunk6",
           "index": 3,
-          "subscript_count": 5,
-          "dispatch_count": 23,
-          "text_ref_count": 4
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 106,
+              "offset_hex": "0x006a",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            },
+            {
+              "offset_rel": 107,
+              "offset_hex": "0x006b",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 111,
+              "offset_hex": "0x006f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 5,
+              "confidence": "noisy",
+              "text": "後來，他往城堡那邊去了，一定是去城堡右側的司令部了．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk4",
-          "index": 4,
-          "subscript_count": 9,
-          "dispatch_count": 32,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk5",
-          "index": 5,
-          "subscript_count": 7,
-          "dispatch_count": 24,
-          "text_ref_count": 8
-        },
-        {
-          "id": "Snr2.chunk6",
-          "index": 6,
-          "subscript_count": 7,
-          "dispatch_count": 25,
-          "text_ref_count": 11
-        },
-        {
-          "id": "Snr2.chunk7",
+          "id": "Snr2.chunk7.sub7",
+          "chunk": "Snr2.chunk7",
           "index": 7,
-          "subscript_count": 8,
-          "dispatch_count": 21,
-          "text_ref_count": 37
+          "dispatch_count": 2,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 9,
+              "confidence": "noisy",
+              "text": "嗨，老闆，還那麼忙！"
+            },
+            {
+              "offset_rel": 90,
+              "offset_hex": "0x005a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 94,
+              "offset_hex": "0x005e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 177,
+              "offset_hex": "0x00b1",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            }
+          ]
         }
       ]
     },
@@ -442,62 +1114,182 @@
         "Command",
         "Port"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr2.chunk0",
+          "id": "Snr2.chunk0.sub0",
+          "chunk": "Snr2.chunk0",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 17,
-          "text_ref_count": 11
+          "dispatch_count": 8,
+          "text_ref_count": 7,
+          "first_text_refs": [
+            {
+              "offset_rel": 6,
+              "offset_hex": "0x0006",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 33,
+              "offset_hex": "0x0021",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 62,
+              "offset_hex": "0x003e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 141,
+              "offset_hex": "0x008d",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "瞧，敵人的戰船起火了！好像他們的密集陣形遭到了火攻．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk1",
-          "index": 1,
-          "subscript_count": 5,
-          "dispatch_count": 12,
-          "text_ref_count": 14
+          "id": "Snr2.chunk1.sub0",
+          "chunk": "Snr2.chunk1",
+          "index": 0,
+          "dispatch_count": 4,
+          "text_ref_count": 6,
+          "first_text_refs": [
+            {
+              "offset_rel": 18,
+              "offset_hex": "0x0012",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 39,
+              "offset_hex": "0x0027",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "噢，是$s中尉，今天一個人來的啊！"
+            },
+            {
+              "offset_rel": 154,
+              "offset_hex": "0x009a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 158,
+              "offset_hex": "0x009e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 162,
+              "offset_hex": "0x00a2",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk2",
-          "index": 2,
-          "subscript_count": 2,
-          "dispatch_count": 7,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk3",
+          "id": "Snr2.chunk6.sub3",
+          "chunk": "Snr2.chunk6",
           "index": 3,
-          "subscript_count": 5,
-          "dispatch_count": 23,
-          "text_ref_count": 4
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 106,
+              "offset_hex": "0x006a",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            },
+            {
+              "offset_rel": 107,
+              "offset_hex": "0x006b",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 111,
+              "offset_hex": "0x006f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 5,
+              "confidence": "noisy",
+              "text": "後來，他往城堡那邊去了，一定是去城堡右側的司令部了．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk4",
-          "index": 4,
-          "subscript_count": 9,
-          "dispatch_count": 32,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk5",
-          "index": 5,
-          "subscript_count": 7,
-          "dispatch_count": 24,
-          "text_ref_count": 8
-        },
-        {
-          "id": "Snr2.chunk6",
-          "index": 6,
-          "subscript_count": 7,
-          "dispatch_count": 25,
-          "text_ref_count": 11
-        },
-        {
-          "id": "Snr2.chunk7",
+          "id": "Snr2.chunk7.sub7",
+          "chunk": "Snr2.chunk7",
           "index": 7,
-          "subscript_count": 8,
-          "dispatch_count": 21,
-          "text_ref_count": 37
+          "dispatch_count": 2,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 9,
+              "confidence": "noisy",
+              "text": "嗨，老闆，還那麼忙！"
+            },
+            {
+              "offset_rel": 90,
+              "offset_hex": "0x005a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 94,
+              "offset_hex": "0x005e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 177,
+              "offset_hex": "0x00b1",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            }
+          ]
         }
       ]
     },
@@ -513,62 +1305,182 @@
       "locations": [
         "Command"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr2.chunk0",
+          "id": "Snr2.chunk0.sub0",
+          "chunk": "Snr2.chunk0",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 17,
-          "text_ref_count": 11
+          "dispatch_count": 8,
+          "text_ref_count": 7,
+          "first_text_refs": [
+            {
+              "offset_rel": 6,
+              "offset_hex": "0x0006",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 33,
+              "offset_hex": "0x0021",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 62,
+              "offset_hex": "0x003e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 141,
+              "offset_hex": "0x008d",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "瞧，敵人的戰船起火了！好像他們的密集陣形遭到了火攻．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk1",
-          "index": 1,
-          "subscript_count": 5,
-          "dispatch_count": 12,
-          "text_ref_count": 14
+          "id": "Snr2.chunk1.sub0",
+          "chunk": "Snr2.chunk1",
+          "index": 0,
+          "dispatch_count": 4,
+          "text_ref_count": 6,
+          "first_text_refs": [
+            {
+              "offset_rel": 18,
+              "offset_hex": "0x0012",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 39,
+              "offset_hex": "0x0027",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "噢，是$s中尉，今天一個人來的啊！"
+            },
+            {
+              "offset_rel": 154,
+              "offset_hex": "0x009a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 158,
+              "offset_hex": "0x009e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 162,
+              "offset_hex": "0x00a2",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk2",
-          "index": 2,
-          "subscript_count": 2,
-          "dispatch_count": 7,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk3",
+          "id": "Snr2.chunk6.sub3",
+          "chunk": "Snr2.chunk6",
           "index": 3,
-          "subscript_count": 5,
-          "dispatch_count": 23,
-          "text_ref_count": 4
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 106,
+              "offset_hex": "0x006a",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            },
+            {
+              "offset_rel": 107,
+              "offset_hex": "0x006b",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 111,
+              "offset_hex": "0x006f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 5,
+              "confidence": "noisy",
+              "text": "後來，他往城堡那邊去了，一定是去城堡右側的司令部了．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk4",
-          "index": 4,
-          "subscript_count": 9,
-          "dispatch_count": 32,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk5",
-          "index": 5,
-          "subscript_count": 7,
-          "dispatch_count": 24,
-          "text_ref_count": 8
-        },
-        {
-          "id": "Snr2.chunk6",
-          "index": 6,
-          "subscript_count": 7,
-          "dispatch_count": 25,
-          "text_ref_count": 11
-        },
-        {
-          "id": "Snr2.chunk7",
+          "id": "Snr2.chunk7.sub7",
+          "chunk": "Snr2.chunk7",
           "index": 7,
-          "subscript_count": 8,
-          "dispatch_count": 21,
-          "text_ref_count": 37
+          "dispatch_count": 2,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 9,
+              "confidence": "noisy",
+              "text": "嗨，老闆，還那麼忙！"
+            },
+            {
+              "offset_rel": 90,
+              "offset_hex": "0x005a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 94,
+              "offset_hex": "0x005e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 177,
+              "offset_hex": "0x00b1",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            }
+          ]
         }
       ]
     },
@@ -586,62 +1498,182 @@
         "Port",
         "Tavern"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr2.chunk0",
+          "id": "Snr2.chunk0.sub0",
+          "chunk": "Snr2.chunk0",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 17,
-          "text_ref_count": 11
+          "dispatch_count": 8,
+          "text_ref_count": 7,
+          "first_text_refs": [
+            {
+              "offset_rel": 6,
+              "offset_hex": "0x0006",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 33,
+              "offset_hex": "0x0021",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 62,
+              "offset_hex": "0x003e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 141,
+              "offset_hex": "0x008d",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "瞧，敵人的戰船起火了！好像他們的密集陣形遭到了火攻．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk1",
-          "index": 1,
-          "subscript_count": 5,
-          "dispatch_count": 12,
-          "text_ref_count": 14
+          "id": "Snr2.chunk1.sub0",
+          "chunk": "Snr2.chunk1",
+          "index": 0,
+          "dispatch_count": 4,
+          "text_ref_count": 6,
+          "first_text_refs": [
+            {
+              "offset_rel": 18,
+              "offset_hex": "0x0012",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 39,
+              "offset_hex": "0x0027",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "噢，是$s中尉，今天一個人來的啊！"
+            },
+            {
+              "offset_rel": 154,
+              "offset_hex": "0x009a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 158,
+              "offset_hex": "0x009e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 162,
+              "offset_hex": "0x00a2",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk2",
-          "index": 2,
-          "subscript_count": 2,
-          "dispatch_count": 7,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk3",
+          "id": "Snr2.chunk6.sub3",
+          "chunk": "Snr2.chunk6",
           "index": 3,
-          "subscript_count": 5,
-          "dispatch_count": 23,
-          "text_ref_count": 4
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 106,
+              "offset_hex": "0x006a",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            },
+            {
+              "offset_rel": 107,
+              "offset_hex": "0x006b",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 111,
+              "offset_hex": "0x006f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 5,
+              "confidence": "noisy",
+              "text": "後來，他往城堡那邊去了，一定是去城堡右側的司令部了．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk4",
-          "index": 4,
-          "subscript_count": 9,
-          "dispatch_count": 32,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk5",
-          "index": 5,
-          "subscript_count": 7,
-          "dispatch_count": 24,
-          "text_ref_count": 8
-        },
-        {
-          "id": "Snr2.chunk6",
-          "index": 6,
-          "subscript_count": 7,
-          "dispatch_count": 25,
-          "text_ref_count": 11
-        },
-        {
-          "id": "Snr2.chunk7",
+          "id": "Snr2.chunk7.sub7",
+          "chunk": "Snr2.chunk7",
           "index": 7,
-          "subscript_count": 8,
-          "dispatch_count": 21,
-          "text_ref_count": 37
+          "dispatch_count": 2,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 9,
+              "confidence": "noisy",
+              "text": "嗨，老闆，還那麼忙！"
+            },
+            {
+              "offset_rel": 90,
+              "offset_hex": "0x005a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 94,
+              "offset_hex": "0x005e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 177,
+              "offset_hex": "0x00b1",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            }
+          ]
         }
       ]
     },
@@ -658,62 +1690,182 @@
         "Port",
         "Sea"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr2.chunk0",
+          "id": "Snr2.chunk0.sub0",
+          "chunk": "Snr2.chunk0",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 17,
-          "text_ref_count": 11
+          "dispatch_count": 8,
+          "text_ref_count": 7,
+          "first_text_refs": [
+            {
+              "offset_rel": 6,
+              "offset_hex": "0x0006",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 33,
+              "offset_hex": "0x0021",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 62,
+              "offset_hex": "0x003e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 141,
+              "offset_hex": "0x008d",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "瞧，敵人的戰船起火了！好像他們的密集陣形遭到了火攻．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk1",
-          "index": 1,
-          "subscript_count": 5,
-          "dispatch_count": 12,
-          "text_ref_count": 14
+          "id": "Snr2.chunk1.sub0",
+          "chunk": "Snr2.chunk1",
+          "index": 0,
+          "dispatch_count": 4,
+          "text_ref_count": 6,
+          "first_text_refs": [
+            {
+              "offset_rel": 18,
+              "offset_hex": "0x0012",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 39,
+              "offset_hex": "0x0027",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "噢，是$s中尉，今天一個人來的啊！"
+            },
+            {
+              "offset_rel": 154,
+              "offset_hex": "0x009a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 158,
+              "offset_hex": "0x009e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 162,
+              "offset_hex": "0x00a2",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk2",
-          "index": 2,
-          "subscript_count": 2,
-          "dispatch_count": 7,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk3",
+          "id": "Snr2.chunk6.sub3",
+          "chunk": "Snr2.chunk6",
           "index": 3,
-          "subscript_count": 5,
-          "dispatch_count": 23,
-          "text_ref_count": 4
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 106,
+              "offset_hex": "0x006a",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            },
+            {
+              "offset_rel": 107,
+              "offset_hex": "0x006b",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 111,
+              "offset_hex": "0x006f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 5,
+              "confidence": "noisy",
+              "text": "後來，他往城堡那邊去了，一定是去城堡右側的司令部了．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk4",
-          "index": 4,
-          "subscript_count": 9,
-          "dispatch_count": 32,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk5",
-          "index": 5,
-          "subscript_count": 7,
-          "dispatch_count": 24,
-          "text_ref_count": 8
-        },
-        {
-          "id": "Snr2.chunk6",
-          "index": 6,
-          "subscript_count": 7,
-          "dispatch_count": 25,
-          "text_ref_count": 11
-        },
-        {
-          "id": "Snr2.chunk7",
+          "id": "Snr2.chunk7.sub7",
+          "chunk": "Snr2.chunk7",
           "index": 7,
-          "subscript_count": 8,
-          "dispatch_count": 21,
-          "text_ref_count": 37
+          "dispatch_count": 2,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 9,
+              "confidence": "noisy",
+              "text": "嗨，老闆，還那麼忙！"
+            },
+            {
+              "offset_rel": 90,
+              "offset_hex": "0x005a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 94,
+              "offset_hex": "0x005e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 177,
+              "offset_hex": "0x00b1",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            }
+          ]
         }
       ]
     },
@@ -731,62 +1883,182 @@
         "Sea",
         "Command"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr2.chunk0",
+          "id": "Snr2.chunk0.sub0",
+          "chunk": "Snr2.chunk0",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 17,
-          "text_ref_count": 11
+          "dispatch_count": 8,
+          "text_ref_count": 7,
+          "first_text_refs": [
+            {
+              "offset_rel": 6,
+              "offset_hex": "0x0006",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 33,
+              "offset_hex": "0x0021",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 62,
+              "offset_hex": "0x003e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 141,
+              "offset_hex": "0x008d",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "瞧，敵人的戰船起火了！好像他們的密集陣形遭到了火攻．"
+            },
+            {
+              "offset_rel": 819,
+              "offset_hex": "0x0333",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk1",
-          "index": 1,
-          "subscript_count": 5,
-          "dispatch_count": 12,
-          "text_ref_count": 14
+          "id": "Snr2.chunk1.sub0",
+          "chunk": "Snr2.chunk1",
+          "index": 0,
+          "dispatch_count": 4,
+          "text_ref_count": 6,
+          "first_text_refs": [
+            {
+              "offset_rel": 18,
+              "offset_hex": "0x0012",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 39,
+              "offset_hex": "0x0027",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "噢，是$s中尉，今天一個人來的啊！"
+            },
+            {
+              "offset_rel": 154,
+              "offset_hex": "0x009a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 158,
+              "offset_hex": "0x009e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 162,
+              "offset_hex": "0x00a2",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk2",
-          "index": 2,
-          "subscript_count": 2,
-          "dispatch_count": 7,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk3",
+          "id": "Snr2.chunk6.sub3",
+          "chunk": "Snr2.chunk6",
           "index": 3,
-          "subscript_count": 5,
-          "dispatch_count": 23,
-          "text_ref_count": 4
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 106,
+              "offset_hex": "0x006a",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            },
+            {
+              "offset_rel": 107,
+              "offset_hex": "0x006b",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 111,
+              "offset_hex": "0x006f",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 5,
+              "confidence": "noisy",
+              "text": "後來，他往城堡那邊去了，一定是去城堡右側的司令部了．"
+            }
+          ]
         },
         {
-          "id": "Snr2.chunk4",
-          "index": 4,
-          "subscript_count": 9,
-          "dispatch_count": 32,
-          "text_ref_count": 4
-        },
-        {
-          "id": "Snr2.chunk5",
-          "index": 5,
-          "subscript_count": 7,
-          "dispatch_count": 24,
-          "text_ref_count": 8
-        },
-        {
-          "id": "Snr2.chunk6",
-          "index": 6,
-          "subscript_count": 7,
-          "dispatch_count": 25,
-          "text_ref_count": 11
-        },
-        {
-          "id": "Snr2.chunk7",
+          "id": "Snr2.chunk7.sub7",
+          "chunk": "Snr2.chunk7",
           "index": 7,
-          "subscript_count": 8,
-          "dispatch_count": 21,
-          "text_ref_count": 37
+          "dispatch_count": 2,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "……"
+            },
+            {
+              "offset_rel": 86,
+              "offset_hex": "0x0056",
+              "text_id": 9,
+              "confidence": "noisy",
+              "text": "嗨，老闆，還那麼忙！"
+            },
+            {
+              "offset_rel": 90,
+              "offset_hex": "0x005a",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "$s中尉，你好，剛才桑多中尉來找你了．"
+            },
+            {
+              "offset_rel": 94,
+              "offset_hex": "0x005e",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "他要你馬上去司令部．"
+            },
+            {
+              "offset_rel": 177,
+              "offset_hex": "0x00b1",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            }
+          ]
         }
       ]
     },
@@ -804,48 +2076,182 @@
       "locations": [
         "Court"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr3.chunk0",
+          "id": "Snr3.chunk0.sub0",
+          "chunk": "Snr3.chunk0",
           "index": 0,
-          "subscript_count": 4,
-          "dispatch_count": 19,
-          "text_ref_count": 16
+          "dispatch_count": 6,
+          "text_ref_count": 8,
+          "first_text_refs": [
+            {
+              "offset_rel": 116,
+              "offset_hex": "0x0074",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "看像是船員．"
+            },
+            {
+              "offset_rel": 186,
+              "offset_hex": "0x00ba",
+              "text_id": 11,
+              "confidence": "noisy",
+              "text": "完全正確．西班牙把從新大陸獲取的財富作為後盾，想要席捲整個歐洲．"
+            },
+            {
+              "offset_rel": 194,
+              "offset_hex": "0x00c2",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 198,
+              "offset_hex": "0x00c6",
+              "text_id": 13,
+              "confidence": "noisy",
+              "text": "現在讓你當皇家艦隊總司令如何？"
+            },
+            {
+              "offset_rel": 204,
+              "offset_hex": "0x00cc",
+              "text_id": 76,
+              "confidence": "noisy",
+              "text": "把船停在港口裡啦．"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk1",
-          "index": 1,
-          "subscript_count": 3,
-          "dispatch_count": 5,
-          "text_ref_count": 4
+          "id": "Snr3.chunk3.sub0",
+          "chunk": "Snr3.chunk3",
+          "index": 0,
+          "dispatch_count": 2,
+          "text_ref_count": 11,
+          "first_text_refs": [
+            {
+              "offset_rel": 5,
+              "offset_hex": "0x0005",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 31,
+              "offset_hex": "0x001f",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對不起，我這不趕來了嗎？\\n你有話等我見過陛下後再談．"
+            },
+            {
+              "offset_rel": 56,
+              "offset_hex": "0x0038",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "你就是吉爾巴特爵士說的那個海員嗎？"
+            },
+            {
+              "offset_rel": 281,
+              "offset_hex": "0x0119",
+              "text_id": 20,
+              "confidence": "noisy",
+              "text": "你想要多少資金申請好了，剩下的事交給吉爾巴特就行了．"
+            },
+            {
+              "offset_rel": 290,
+              "offset_hex": "0x0122",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk2",
-          "index": 2,
-          "subscript_count": 2,
-          "dispatch_count": 13,
-          "text_ref_count": 5
-        },
-        {
-          "id": "Snr3.chunk3",
+          "id": "Snr3.chunk4.sub3",
+          "chunk": "Snr3.chunk4",
           "index": 3,
-          "subscript_count": 2,
-          "dispatch_count": 3,
-          "text_ref_count": 12
+          "dispatch_count": 1,
+          "text_ref_count": 8,
+          "first_text_refs": [
+            {
+              "offset_rel": 35,
+              "offset_hex": "0x0023",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "國王正找您呢！\\n快請進！"
+            },
+            {
+              "offset_rel": 39,
+              "offset_hex": "0x0027",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "啊！早呀！"
+            },
+            {
+              "offset_rel": 47,
+              "offset_hex": "0x002f",
+              "text_id": 5,
+              "confidence": "noisy",
+              "text": "〔亨利8世〕\\n你可來了．今天，召你來此是因為我相信你的能力，要交給你一項任務．"
+            },
+            {
+              "offset_rel": 101,
+              "offset_hex": "0x0065",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "做為我們大英帝國絕不能等閒視之，我們要為我們王國的發展組織建立強大的艦隊！"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk4",
-          "index": 4,
-          "subscript_count": 9,
-          "dispatch_count": 16,
-          "text_ref_count": 26
-        },
-        {
-          "id": "Snr3.chunk5",
-          "index": 5,
-          "subscript_count": 5,
-          "dispatch_count": 27,
-          "text_ref_count": 29
+          "id": "Snr3.chunk5.sub3",
+          "chunk": "Snr3.chunk5",
+          "index": 3,
+          "dispatch_count": 7,
+          "text_ref_count": 15,
+          "first_text_refs": [
+            {
+              "offset_rel": 9,
+              "offset_hex": "0x0009",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            },
+            {
+              "offset_rel": 26,
+              "offset_hex": "0x001a",
+              "text_id": 24,
+              "confidence": "noisy",
+              "text": "嗯．"
+            },
+            {
+              "offset_rel": 29,
+              "offset_hex": "0x001d",
+              "text_id": 25,
+              "confidence": "noisy",
+              "text": "造船廠已經準備好船了，對你來說那船有點太高級了．\\n除此之外，再給你配備一名優秀人才．"
+            },
+            {
+              "offset_rel": 107,
+              "offset_hex": "0x006b",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "哼，小子！牛脾氣，看我以後怎麼收拾你！"
+            },
+            {
+              "offset_rel": 136,
+              "offset_hex": "0x0088",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            }
+          ]
         }
       ]
     },
@@ -863,48 +2269,182 @@
         "Court",
         "Port"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr3.chunk0",
+          "id": "Snr3.chunk0.sub0",
+          "chunk": "Snr3.chunk0",
           "index": 0,
-          "subscript_count": 4,
-          "dispatch_count": 19,
-          "text_ref_count": 16
+          "dispatch_count": 6,
+          "text_ref_count": 8,
+          "first_text_refs": [
+            {
+              "offset_rel": 116,
+              "offset_hex": "0x0074",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "看像是船員．"
+            },
+            {
+              "offset_rel": 186,
+              "offset_hex": "0x00ba",
+              "text_id": 11,
+              "confidence": "noisy",
+              "text": "完全正確．西班牙把從新大陸獲取的財富作為後盾，想要席捲整個歐洲．"
+            },
+            {
+              "offset_rel": 194,
+              "offset_hex": "0x00c2",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 198,
+              "offset_hex": "0x00c6",
+              "text_id": 13,
+              "confidence": "noisy",
+              "text": "現在讓你當皇家艦隊總司令如何？"
+            },
+            {
+              "offset_rel": 204,
+              "offset_hex": "0x00cc",
+              "text_id": 76,
+              "confidence": "noisy",
+              "text": "把船停在港口裡啦．"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk1",
-          "index": 1,
-          "subscript_count": 3,
-          "dispatch_count": 5,
-          "text_ref_count": 4
+          "id": "Snr3.chunk3.sub0",
+          "chunk": "Snr3.chunk3",
+          "index": 0,
+          "dispatch_count": 2,
+          "text_ref_count": 11,
+          "first_text_refs": [
+            {
+              "offset_rel": 5,
+              "offset_hex": "0x0005",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 31,
+              "offset_hex": "0x001f",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對不起，我這不趕來了嗎？\\n你有話等我見過陛下後再談．"
+            },
+            {
+              "offset_rel": 56,
+              "offset_hex": "0x0038",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "你就是吉爾巴特爵士說的那個海員嗎？"
+            },
+            {
+              "offset_rel": 281,
+              "offset_hex": "0x0119",
+              "text_id": 20,
+              "confidence": "noisy",
+              "text": "你想要多少資金申請好了，剩下的事交給吉爾巴特就行了．"
+            },
+            {
+              "offset_rel": 290,
+              "offset_hex": "0x0122",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk2",
-          "index": 2,
-          "subscript_count": 2,
-          "dispatch_count": 13,
-          "text_ref_count": 5
-        },
-        {
-          "id": "Snr3.chunk3",
+          "id": "Snr3.chunk4.sub3",
+          "chunk": "Snr3.chunk4",
           "index": 3,
-          "subscript_count": 2,
-          "dispatch_count": 3,
-          "text_ref_count": 12
+          "dispatch_count": 1,
+          "text_ref_count": 8,
+          "first_text_refs": [
+            {
+              "offset_rel": 35,
+              "offset_hex": "0x0023",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "國王正找您呢！\\n快請進！"
+            },
+            {
+              "offset_rel": 39,
+              "offset_hex": "0x0027",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "啊！早呀！"
+            },
+            {
+              "offset_rel": 47,
+              "offset_hex": "0x002f",
+              "text_id": 5,
+              "confidence": "noisy",
+              "text": "〔亨利8世〕\\n你可來了．今天，召你來此是因為我相信你的能力，要交給你一項任務．"
+            },
+            {
+              "offset_rel": 101,
+              "offset_hex": "0x0065",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "做為我們大英帝國絕不能等閒視之，我們要為我們王國的發展組織建立強大的艦隊！"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk4",
-          "index": 4,
-          "subscript_count": 9,
-          "dispatch_count": 16,
-          "text_ref_count": 26
-        },
-        {
-          "id": "Snr3.chunk5",
-          "index": 5,
-          "subscript_count": 5,
-          "dispatch_count": 27,
-          "text_ref_count": 29
+          "id": "Snr3.chunk5.sub3",
+          "chunk": "Snr3.chunk5",
+          "index": 3,
+          "dispatch_count": 7,
+          "text_ref_count": 15,
+          "first_text_refs": [
+            {
+              "offset_rel": 9,
+              "offset_hex": "0x0009",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            },
+            {
+              "offset_rel": 26,
+              "offset_hex": "0x001a",
+              "text_id": 24,
+              "confidence": "noisy",
+              "text": "嗯．"
+            },
+            {
+              "offset_rel": 29,
+              "offset_hex": "0x001d",
+              "text_id": 25,
+              "confidence": "noisy",
+              "text": "造船廠已經準備好船了，對你來說那船有點太高級了．\\n除此之外，再給你配備一名優秀人才．"
+            },
+            {
+              "offset_rel": 107,
+              "offset_hex": "0x006b",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "哼，小子！牛脾氣，看我以後怎麼收拾你！"
+            },
+            {
+              "offset_rel": 136,
+              "offset_hex": "0x0088",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            }
+          ]
         }
       ]
     },
@@ -921,48 +2461,182 @@
       "locations": [
         "Port"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr3.chunk0",
+          "id": "Snr3.chunk0.sub0",
+          "chunk": "Snr3.chunk0",
           "index": 0,
-          "subscript_count": 4,
-          "dispatch_count": 19,
-          "text_ref_count": 16
+          "dispatch_count": 6,
+          "text_ref_count": 8,
+          "first_text_refs": [
+            {
+              "offset_rel": 116,
+              "offset_hex": "0x0074",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "看像是船員．"
+            },
+            {
+              "offset_rel": 186,
+              "offset_hex": "0x00ba",
+              "text_id": 11,
+              "confidence": "noisy",
+              "text": "完全正確．西班牙把從新大陸獲取的財富作為後盾，想要席捲整個歐洲．"
+            },
+            {
+              "offset_rel": 194,
+              "offset_hex": "0x00c2",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 198,
+              "offset_hex": "0x00c6",
+              "text_id": 13,
+              "confidence": "noisy",
+              "text": "現在讓你當皇家艦隊總司令如何？"
+            },
+            {
+              "offset_rel": 204,
+              "offset_hex": "0x00cc",
+              "text_id": 76,
+              "confidence": "noisy",
+              "text": "把船停在港口裡啦．"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk1",
-          "index": 1,
-          "subscript_count": 3,
-          "dispatch_count": 5,
-          "text_ref_count": 4
+          "id": "Snr3.chunk3.sub0",
+          "chunk": "Snr3.chunk3",
+          "index": 0,
+          "dispatch_count": 2,
+          "text_ref_count": 11,
+          "first_text_refs": [
+            {
+              "offset_rel": 5,
+              "offset_hex": "0x0005",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 31,
+              "offset_hex": "0x001f",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對不起，我這不趕來了嗎？\\n你有話等我見過陛下後再談．"
+            },
+            {
+              "offset_rel": 56,
+              "offset_hex": "0x0038",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "你就是吉爾巴特爵士說的那個海員嗎？"
+            },
+            {
+              "offset_rel": 281,
+              "offset_hex": "0x0119",
+              "text_id": 20,
+              "confidence": "noisy",
+              "text": "你想要多少資金申請好了，剩下的事交給吉爾巴特就行了．"
+            },
+            {
+              "offset_rel": 290,
+              "offset_hex": "0x0122",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk2",
-          "index": 2,
-          "subscript_count": 2,
-          "dispatch_count": 13,
-          "text_ref_count": 5
-        },
-        {
-          "id": "Snr3.chunk3",
+          "id": "Snr3.chunk4.sub3",
+          "chunk": "Snr3.chunk4",
           "index": 3,
-          "subscript_count": 2,
-          "dispatch_count": 3,
-          "text_ref_count": 12
+          "dispatch_count": 1,
+          "text_ref_count": 8,
+          "first_text_refs": [
+            {
+              "offset_rel": 35,
+              "offset_hex": "0x0023",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "國王正找您呢！\\n快請進！"
+            },
+            {
+              "offset_rel": 39,
+              "offset_hex": "0x0027",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "啊！早呀！"
+            },
+            {
+              "offset_rel": 47,
+              "offset_hex": "0x002f",
+              "text_id": 5,
+              "confidence": "noisy",
+              "text": "〔亨利8世〕\\n你可來了．今天，召你來此是因為我相信你的能力，要交給你一項任務．"
+            },
+            {
+              "offset_rel": 101,
+              "offset_hex": "0x0065",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "做為我們大英帝國絕不能等閒視之，我們要為我們王國的發展組織建立強大的艦隊！"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk4",
-          "index": 4,
-          "subscript_count": 9,
-          "dispatch_count": 16,
-          "text_ref_count": 26
-        },
-        {
-          "id": "Snr3.chunk5",
-          "index": 5,
-          "subscript_count": 5,
-          "dispatch_count": 27,
-          "text_ref_count": 29
+          "id": "Snr3.chunk5.sub3",
+          "chunk": "Snr3.chunk5",
+          "index": 3,
+          "dispatch_count": 7,
+          "text_ref_count": 15,
+          "first_text_refs": [
+            {
+              "offset_rel": 9,
+              "offset_hex": "0x0009",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            },
+            {
+              "offset_rel": 26,
+              "offset_hex": "0x001a",
+              "text_id": 24,
+              "confidence": "noisy",
+              "text": "嗯．"
+            },
+            {
+              "offset_rel": 29,
+              "offset_hex": "0x001d",
+              "text_id": 25,
+              "confidence": "noisy",
+              "text": "造船廠已經準備好船了，對你來說那船有點太高級了．\\n除此之外，再給你配備一名優秀人才．"
+            },
+            {
+              "offset_rel": 107,
+              "offset_hex": "0x006b",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "哼，小子！牛脾氣，看我以後怎麼收拾你！"
+            },
+            {
+              "offset_rel": 136,
+              "offset_hex": "0x0088",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            }
+          ]
         }
       ]
     },
@@ -979,48 +2653,182 @@
         "Sea",
         "NewWorld"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr3.chunk0",
+          "id": "Snr3.chunk0.sub0",
+          "chunk": "Snr3.chunk0",
           "index": 0,
-          "subscript_count": 4,
-          "dispatch_count": 19,
-          "text_ref_count": 16
+          "dispatch_count": 6,
+          "text_ref_count": 8,
+          "first_text_refs": [
+            {
+              "offset_rel": 116,
+              "offset_hex": "0x0074",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "看像是船員．"
+            },
+            {
+              "offset_rel": 186,
+              "offset_hex": "0x00ba",
+              "text_id": 11,
+              "confidence": "noisy",
+              "text": "完全正確．西班牙把從新大陸獲取的財富作為後盾，想要席捲整個歐洲．"
+            },
+            {
+              "offset_rel": 194,
+              "offset_hex": "0x00c2",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 198,
+              "offset_hex": "0x00c6",
+              "text_id": 13,
+              "confidence": "noisy",
+              "text": "現在讓你當皇家艦隊總司令如何？"
+            },
+            {
+              "offset_rel": 204,
+              "offset_hex": "0x00cc",
+              "text_id": 76,
+              "confidence": "noisy",
+              "text": "把船停在港口裡啦．"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk1",
-          "index": 1,
-          "subscript_count": 3,
-          "dispatch_count": 5,
-          "text_ref_count": 4
+          "id": "Snr3.chunk3.sub0",
+          "chunk": "Snr3.chunk3",
+          "index": 0,
+          "dispatch_count": 2,
+          "text_ref_count": 11,
+          "first_text_refs": [
+            {
+              "offset_rel": 5,
+              "offset_hex": "0x0005",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 31,
+              "offset_hex": "0x001f",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對不起，我這不趕來了嗎？\\n你有話等我見過陛下後再談．"
+            },
+            {
+              "offset_rel": 56,
+              "offset_hex": "0x0038",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "你就是吉爾巴特爵士說的那個海員嗎？"
+            },
+            {
+              "offset_rel": 281,
+              "offset_hex": "0x0119",
+              "text_id": 20,
+              "confidence": "noisy",
+              "text": "你想要多少資金申請好了，剩下的事交給吉爾巴特就行了．"
+            },
+            {
+              "offset_rel": 290,
+              "offset_hex": "0x0122",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk2",
-          "index": 2,
-          "subscript_count": 2,
-          "dispatch_count": 13,
-          "text_ref_count": 5
-        },
-        {
-          "id": "Snr3.chunk3",
+          "id": "Snr3.chunk4.sub3",
+          "chunk": "Snr3.chunk4",
           "index": 3,
-          "subscript_count": 2,
-          "dispatch_count": 3,
-          "text_ref_count": 12
+          "dispatch_count": 1,
+          "text_ref_count": 8,
+          "first_text_refs": [
+            {
+              "offset_rel": 35,
+              "offset_hex": "0x0023",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "國王正找您呢！\\n快請進！"
+            },
+            {
+              "offset_rel": 39,
+              "offset_hex": "0x0027",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "〔監督官吉爾伯特〕\\n陛下召見還這麼磨蹭，真是大膽！"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 4,
+              "confidence": "noisy",
+              "text": "啊！早呀！"
+            },
+            {
+              "offset_rel": 47,
+              "offset_hex": "0x002f",
+              "text_id": 5,
+              "confidence": "noisy",
+              "text": "〔亨利8世〕\\n你可來了．今天，召你來此是因為我相信你的能力，要交給你一項任務．"
+            },
+            {
+              "offset_rel": 101,
+              "offset_hex": "0x0065",
+              "text_id": 12,
+              "confidence": "noisy",
+              "text": "做為我們大英帝國絕不能等閒視之，我們要為我們王國的發展組織建立強大的艦隊！"
+            }
+          ]
         },
         {
-          "id": "Snr3.chunk4",
-          "index": 4,
-          "subscript_count": 9,
-          "dispatch_count": 16,
-          "text_ref_count": 26
-        },
-        {
-          "id": "Snr3.chunk5",
-          "index": 5,
-          "subscript_count": 5,
-          "dispatch_count": 27,
-          "text_ref_count": 29
+          "id": "Snr3.chunk5.sub3",
+          "chunk": "Snr3.chunk5",
+          "index": 3,
+          "dispatch_count": 7,
+          "text_ref_count": 15,
+          "first_text_refs": [
+            {
+              "offset_rel": 9,
+              "offset_hex": "0x0009",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            },
+            {
+              "offset_rel": 26,
+              "offset_hex": "0x001a",
+              "text_id": 24,
+              "confidence": "noisy",
+              "text": "嗯．"
+            },
+            {
+              "offset_rel": 29,
+              "offset_hex": "0x001d",
+              "text_id": 25,
+              "confidence": "noisy",
+              "text": "造船廠已經準備好船了，對你來說那船有點太高級了．\\n除此之外，再給你配備一名優秀人才．"
+            },
+            {
+              "offset_rel": 107,
+              "offset_hex": "0x006b",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "哼，小子！牛脾氣，看我以後怎麼收拾你！"
+            },
+            {
+              "offset_rel": 136,
+              "offset_hex": "0x0088",
+              "text_id": 15,
+              "confidence": "noisy",
+              "text": "這對我來說是無上光榮，我願意接受．"
+            }
+          ]
         }
       ]
     },
@@ -1037,41 +2845,138 @@
         "Lisbon",
         "DukeHouse"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr4.chunk0",
+          "id": "Snr4.chunk0.sub0",
+          "chunk": "Snr4.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 5
+          "dispatch_count": 6,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "今後請不要再背棄我，不然的話，你要失去朋友和信用的．"
+            },
+            {
+              "offset_rel": 180,
+              "offset_hex": "0x00b4",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔地理學家梅爾卡特〕\\n啊！$n，正好，我正找你呢．"
+            },
+            {
+              "offset_rel": 345,
+              "offset_hex": "0x0159",
+              "text_id": 97,
+              "confidence": "noisy",
+              "text": "謝謝，$n．\\n謝謝，斯塔特．"
+            },
+            {
+              "offset_rel": 359,
+              "offset_hex": "0x0167",
+              "text_id": 98,
+              "confidence": "noisy",
+              "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．"
+            },
+            {
+              "offset_rel": 373,
+              "offset_hex": "0x0175",
+              "text_id": 99,
+              "confidence": "noisy",
+              "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．"
+            }
+          ]
         },
         {
-          "id": "Snr4.chunk1",
+          "id": "Snr4.chunk4.sub1",
+          "chunk": "Snr4.chunk4",
           "index": 1,
-          "subscript_count": 1,
           "dispatch_count": 2,
-          "text_ref_count": 3
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 205,
+              "offset_hex": "0x00cd",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 256,
+              "offset_hex": "0x0100",
+              "text_id": 98,
+              "confidence": "noisy",
+              "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．"
+            },
+            {
+              "offset_rel": 270,
+              "offset_hex": "0x010e",
+              "text_id": 99,
+              "confidence": "noisy",
+              "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．"
+            }
+          ]
         },
         {
-          "id": "Snr4.chunk2",
-          "index": 2,
-          "subscript_count": 1,
-          "dispatch_count": 2,
-          "text_ref_count": 3
-        },
-        {
-          "id": "Snr4.chunk3",
+          "id": "Snr4.chunk4.sub3",
+          "chunk": "Snr4.chunk4",
           "index": 3,
-          "subscript_count": 1,
-          "dispatch_count": 2,
-          "text_ref_count": 3
-        },
-        {
-          "id": "Snr4.chunk4",
-          "index": 4,
-          "subscript_count": 5,
-          "dispatch_count": 14,
-          "text_ref_count": 19
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 209,
+              "offset_hex": "0x00d1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 373,
+              "offset_hex": "0x0175",
+              "text_id": 97,
+              "confidence": "noisy",
+              "text": "謝謝，$n．\\n謝謝，斯塔特．"
+            },
+            {
+              "offset_rel": 403,
+              "offset_hex": "0x0193",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            }
+          ]
         }
       ]
     },
@@ -1089,41 +2994,138 @@
         "Shipyard",
         "Port"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr4.chunk0",
+          "id": "Snr4.chunk0.sub0",
+          "chunk": "Snr4.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 5
+          "dispatch_count": 6,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "今後請不要再背棄我，不然的話，你要失去朋友和信用的．"
+            },
+            {
+              "offset_rel": 180,
+              "offset_hex": "0x00b4",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔地理學家梅爾卡特〕\\n啊！$n，正好，我正找你呢．"
+            },
+            {
+              "offset_rel": 345,
+              "offset_hex": "0x0159",
+              "text_id": 97,
+              "confidence": "noisy",
+              "text": "謝謝，$n．\\n謝謝，斯塔特．"
+            },
+            {
+              "offset_rel": 359,
+              "offset_hex": "0x0167",
+              "text_id": 98,
+              "confidence": "noisy",
+              "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．"
+            },
+            {
+              "offset_rel": 373,
+              "offset_hex": "0x0175",
+              "text_id": 99,
+              "confidence": "noisy",
+              "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．"
+            }
+          ]
         },
         {
-          "id": "Snr4.chunk1",
+          "id": "Snr4.chunk4.sub1",
+          "chunk": "Snr4.chunk4",
           "index": 1,
-          "subscript_count": 1,
           "dispatch_count": 2,
-          "text_ref_count": 3
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 205,
+              "offset_hex": "0x00cd",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 256,
+              "offset_hex": "0x0100",
+              "text_id": 98,
+              "confidence": "noisy",
+              "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．"
+            },
+            {
+              "offset_rel": 270,
+              "offset_hex": "0x010e",
+              "text_id": 99,
+              "confidence": "noisy",
+              "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．"
+            }
+          ]
         },
         {
-          "id": "Snr4.chunk2",
-          "index": 2,
-          "subscript_count": 1,
-          "dispatch_count": 2,
-          "text_ref_count": 3
-        },
-        {
-          "id": "Snr4.chunk3",
+          "id": "Snr4.chunk4.sub3",
+          "chunk": "Snr4.chunk4",
           "index": 3,
-          "subscript_count": 1,
-          "dispatch_count": 2,
-          "text_ref_count": 3
-        },
-        {
-          "id": "Snr4.chunk4",
-          "index": 4,
-          "subscript_count": 5,
-          "dispatch_count": 14,
-          "text_ref_count": 19
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 209,
+              "offset_hex": "0x00d1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 373,
+              "offset_hex": "0x0175",
+              "text_id": 97,
+              "confidence": "noisy",
+              "text": "謝謝，$n．\\n謝謝，斯塔特．"
+            },
+            {
+              "offset_rel": 403,
+              "offset_hex": "0x0193",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            }
+          ]
         }
       ]
     },
@@ -1140,41 +3142,138 @@
         "Sea",
         "Port"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr4.chunk0",
+          "id": "Snr4.chunk0.sub0",
+          "chunk": "Snr4.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 5
+          "dispatch_count": 6,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "今後請不要再背棄我，不然的話，你要失去朋友和信用的．"
+            },
+            {
+              "offset_rel": 180,
+              "offset_hex": "0x00b4",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔地理學家梅爾卡特〕\\n啊！$n，正好，我正找你呢．"
+            },
+            {
+              "offset_rel": 345,
+              "offset_hex": "0x0159",
+              "text_id": 97,
+              "confidence": "noisy",
+              "text": "謝謝，$n．\\n謝謝，斯塔特．"
+            },
+            {
+              "offset_rel": 359,
+              "offset_hex": "0x0167",
+              "text_id": 98,
+              "confidence": "noisy",
+              "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．"
+            },
+            {
+              "offset_rel": 373,
+              "offset_hex": "0x0175",
+              "text_id": 99,
+              "confidence": "noisy",
+              "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．"
+            }
+          ]
         },
         {
-          "id": "Snr4.chunk1",
+          "id": "Snr4.chunk4.sub1",
+          "chunk": "Snr4.chunk4",
           "index": 1,
-          "subscript_count": 1,
           "dispatch_count": 2,
-          "text_ref_count": 3
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 205,
+              "offset_hex": "0x00cd",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 256,
+              "offset_hex": "0x0100",
+              "text_id": 98,
+              "confidence": "noisy",
+              "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．"
+            },
+            {
+              "offset_rel": 270,
+              "offset_hex": "0x010e",
+              "text_id": 99,
+              "confidence": "noisy",
+              "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．"
+            }
+          ]
         },
         {
-          "id": "Snr4.chunk2",
-          "index": 2,
-          "subscript_count": 1,
-          "dispatch_count": 2,
-          "text_ref_count": 3
-        },
-        {
-          "id": "Snr4.chunk3",
+          "id": "Snr4.chunk4.sub3",
+          "chunk": "Snr4.chunk4",
           "index": 3,
-          "subscript_count": 1,
-          "dispatch_count": 2,
-          "text_ref_count": 3
-        },
-        {
-          "id": "Snr4.chunk4",
-          "index": 4,
-          "subscript_count": 5,
-          "dispatch_count": 14,
-          "text_ref_count": 19
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 209,
+              "offset_hex": "0x00d1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 373,
+              "offset_hex": "0x0175",
+              "text_id": 97,
+              "confidence": "noisy",
+              "text": "謝謝，$n．\\n謝謝，斯塔特．"
+            },
+            {
+              "offset_rel": 403,
+              "offset_hex": "0x0193",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            }
+          ]
         }
       ]
     },
@@ -1191,41 +3290,138 @@
         "EastAsia",
         "Japan"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr4.chunk0",
+          "id": "Snr4.chunk0.sub0",
+          "chunk": "Snr4.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 5
+          "dispatch_count": 6,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "今後請不要再背棄我，不然的話，你要失去朋友和信用的．"
+            },
+            {
+              "offset_rel": 180,
+              "offset_hex": "0x00b4",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔地理學家梅爾卡特〕\\n啊！$n，正好，我正找你呢．"
+            },
+            {
+              "offset_rel": 345,
+              "offset_hex": "0x0159",
+              "text_id": 97,
+              "confidence": "noisy",
+              "text": "謝謝，$n．\\n謝謝，斯塔特．"
+            },
+            {
+              "offset_rel": 359,
+              "offset_hex": "0x0167",
+              "text_id": 98,
+              "confidence": "noisy",
+              "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．"
+            },
+            {
+              "offset_rel": 373,
+              "offset_hex": "0x0175",
+              "text_id": 99,
+              "confidence": "noisy",
+              "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．"
+            }
+          ]
         },
         {
-          "id": "Snr4.chunk1",
+          "id": "Snr4.chunk4.sub1",
+          "chunk": "Snr4.chunk4",
           "index": 1,
-          "subscript_count": 1,
           "dispatch_count": 2,
-          "text_ref_count": 3
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 205,
+              "offset_hex": "0x00cd",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 256,
+              "offset_hex": "0x0100",
+              "text_id": 98,
+              "confidence": "noisy",
+              "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．"
+            },
+            {
+              "offset_rel": 270,
+              "offset_hex": "0x010e",
+              "text_id": 99,
+              "confidence": "noisy",
+              "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．"
+            }
+          ]
         },
         {
-          "id": "Snr4.chunk2",
-          "index": 2,
-          "subscript_count": 1,
-          "dispatch_count": 2,
-          "text_ref_count": 3
-        },
-        {
-          "id": "Snr4.chunk3",
+          "id": "Snr4.chunk4.sub3",
+          "chunk": "Snr4.chunk4",
           "index": 3,
-          "subscript_count": 1,
-          "dispatch_count": 2,
-          "text_ref_count": 3
-        },
-        {
-          "id": "Snr4.chunk4",
-          "index": 4,
-          "subscript_count": 5,
-          "dispatch_count": 14,
-          "text_ref_count": 19
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 209,
+              "offset_hex": "0x00d1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 373,
+              "offset_hex": "0x0175",
+              "text_id": 97,
+              "confidence": "noisy",
+              "text": "謝謝，$n．\\n謝謝，斯塔特．"
+            },
+            {
+              "offset_rel": 403,
+              "offset_hex": "0x0193",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            }
+          ]
         }
       ]
     },
@@ -1242,41 +3438,138 @@
         "SouthAmerica",
         "NewWorld"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr4.chunk0",
+          "id": "Snr4.chunk0.sub0",
+          "chunk": "Snr4.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 8,
-          "text_ref_count": 5
+          "dispatch_count": 6,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "今後請不要再背棄我，不然的話，你要失去朋友和信用的．"
+            },
+            {
+              "offset_rel": 180,
+              "offset_hex": "0x00b4",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "〔地理學家梅爾卡特〕\\n啊！$n，正好，我正找你呢．"
+            },
+            {
+              "offset_rel": 345,
+              "offset_hex": "0x0159",
+              "text_id": 97,
+              "confidence": "noisy",
+              "text": "謝謝，$n．\\n謝謝，斯塔特．"
+            },
+            {
+              "offset_rel": 359,
+              "offset_hex": "0x0167",
+              "text_id": 98,
+              "confidence": "noisy",
+              "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．"
+            },
+            {
+              "offset_rel": 373,
+              "offset_hex": "0x0175",
+              "text_id": 99,
+              "confidence": "noisy",
+              "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．"
+            }
+          ]
         },
         {
-          "id": "Snr4.chunk1",
+          "id": "Snr4.chunk4.sub1",
+          "chunk": "Snr4.chunk4",
           "index": 1,
-          "subscript_count": 1,
           "dispatch_count": 2,
-          "text_ref_count": 3
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 205,
+              "offset_hex": "0x00cd",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 256,
+              "offset_hex": "0x0100",
+              "text_id": 98,
+              "confidence": "noisy",
+              "text": "斯塔特，大海真有意思．早晨的海，夜晚的海，都很美麗．出來航海真是太好了．"
+            },
+            {
+              "offset_rel": 270,
+              "offset_hex": "0x010e",
+              "text_id": 99,
+              "confidence": "noisy",
+              "text": "寬闊的大海延展到彼岸，真是羅曼蒂克呢．"
+            }
+          ]
         },
         {
-          "id": "Snr4.chunk2",
-          "index": 2,
-          "subscript_count": 1,
-          "dispatch_count": 2,
-          "text_ref_count": 3
-        },
-        {
-          "id": "Snr4.chunk3",
+          "id": "Snr4.chunk4.sub3",
+          "chunk": "Snr4.chunk4",
           "index": 3,
-          "subscript_count": 1,
-          "dispatch_count": 2,
-          "text_ref_count": 3
-        },
-        {
-          "id": "Snr4.chunk4",
-          "index": 4,
-          "subscript_count": 5,
-          "dispatch_count": 14,
-          "text_ref_count": 19
+          "dispatch_count": 3,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 209,
+              "offset_hex": "0x00d1",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            },
+            {
+              "offset_rel": 373,
+              "offset_hex": "0x0175",
+              "text_id": 97,
+              "confidence": "noisy",
+              "text": "謝謝，$n．\\n謝謝，斯塔特．"
+            },
+            {
+              "offset_rel": 403,
+              "offset_hex": "0x0193",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "我會對你們有用的，我會講世界各國的語言．"
+            }
+          ]
         }
       ]
     },
@@ -1294,34 +3587,175 @@
         "Lisbon",
         "Tavern"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr5.chunk0",
+          "id": "Snr5.chunk0.sub0",
+          "chunk": "Snr5.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 22,
-          "text_ref_count": 8
+          "dispatch_count": 9,
+          "text_ref_count": 4,
+          "first_text_refs": [
+            {
+              "offset_rel": 123,
+              "offset_hex": "0x007b",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 216,
+              "offset_hex": "0x00d8",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 415,
+              "offset_hex": "0x019f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk1",
+          "id": "Snr5.chunk2.sub1",
+          "chunk": "Snr5.chunk2",
           "index": 1,
-          "subscript_count": 2,
           "dispatch_count": 4,
-          "text_ref_count": 15
+          "text_ref_count": 10,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 185,
+              "offset_hex": "0x00b9",
+              "text_id": 18,
+              "confidence": "noisy",
+              "text": "你見到凱麥隆了嗎？"
+            },
+            {
+              "offset_rel": 272,
+              "offset_hex": "0x0110",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 354,
+              "offset_hex": "0x0162",
+              "text_id": 16,
+              "confidence": "noisy",
+              "text": "那，我來準備船，路上可沒有多餘的時間．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 17,
+              "confidence": "noisy",
+              "text": "法爾孔"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk2",
+          "id": "Snr5.chunk2.sub2",
+          "chunk": "Snr5.chunk2",
           "index": 2,
-          "subscript_count": 3,
-          "dispatch_count": 13,
-          "text_ref_count": 33
+          "dispatch_count": 7,
+          "text_ref_count": 20,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 156,
+              "offset_hex": "0x009c",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 160,
+              "offset_hex": "0x00a0",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "啊，明白了．再等等，借的錢我一定還．"
+            },
+            {
+              "offset_rel": 262,
+              "offset_hex": "0x0106",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "〔朋友凱麥隆〕\\n是$n嗎？"
+            },
+            {
+              "offset_rel": 269,
+              "offset_hex": "0x010d",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "回來啦，凱麥隆．我直講正題啦."
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 14,
-          "text_ref_count": 9
+          "id": "Snr5.chunk3.sub2",
+          "chunk": "Snr5.chunk3",
+          "index": 2,
+          "dispatch_count": 7,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 161,
+              "offset_hex": "0x00a1",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 295,
+              "offset_hex": "0x0127",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 770,
+              "offset_hex": "0x0302",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 783,
+              "offset_hex": "0x030f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         }
       ]
     },
@@ -1339,34 +3773,175 @@
         "DukeHouse",
         "Lisbon"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr5.chunk0",
+          "id": "Snr5.chunk0.sub0",
+          "chunk": "Snr5.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 22,
-          "text_ref_count": 8
+          "dispatch_count": 9,
+          "text_ref_count": 4,
+          "first_text_refs": [
+            {
+              "offset_rel": 123,
+              "offset_hex": "0x007b",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 216,
+              "offset_hex": "0x00d8",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 415,
+              "offset_hex": "0x019f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk1",
+          "id": "Snr5.chunk2.sub1",
+          "chunk": "Snr5.chunk2",
           "index": 1,
-          "subscript_count": 2,
           "dispatch_count": 4,
-          "text_ref_count": 15
+          "text_ref_count": 10,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 185,
+              "offset_hex": "0x00b9",
+              "text_id": 18,
+              "confidence": "noisy",
+              "text": "你見到凱麥隆了嗎？"
+            },
+            {
+              "offset_rel": 272,
+              "offset_hex": "0x0110",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 354,
+              "offset_hex": "0x0162",
+              "text_id": 16,
+              "confidence": "noisy",
+              "text": "那，我來準備船，路上可沒有多餘的時間．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 17,
+              "confidence": "noisy",
+              "text": "法爾孔"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk2",
+          "id": "Snr5.chunk2.sub2",
+          "chunk": "Snr5.chunk2",
           "index": 2,
-          "subscript_count": 3,
-          "dispatch_count": 13,
-          "text_ref_count": 33
+          "dispatch_count": 7,
+          "text_ref_count": 20,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 156,
+              "offset_hex": "0x009c",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 160,
+              "offset_hex": "0x00a0",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "啊，明白了．再等等，借的錢我一定還．"
+            },
+            {
+              "offset_rel": 262,
+              "offset_hex": "0x0106",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "〔朋友凱麥隆〕\\n是$n嗎？"
+            },
+            {
+              "offset_rel": 269,
+              "offset_hex": "0x010d",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "回來啦，凱麥隆．我直講正題啦."
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 14,
-          "text_ref_count": 9
+          "id": "Snr5.chunk3.sub2",
+          "chunk": "Snr5.chunk3",
+          "index": 2,
+          "dispatch_count": 7,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 161,
+              "offset_hex": "0x00a1",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 295,
+              "offset_hex": "0x0127",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 770,
+              "offset_hex": "0x0302",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 783,
+              "offset_hex": "0x030f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         }
       ]
     },
@@ -1384,34 +3959,175 @@
         "Port",
         "Tavern"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr5.chunk0",
+          "id": "Snr5.chunk0.sub0",
+          "chunk": "Snr5.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 22,
-          "text_ref_count": 8
+          "dispatch_count": 9,
+          "text_ref_count": 4,
+          "first_text_refs": [
+            {
+              "offset_rel": 123,
+              "offset_hex": "0x007b",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 216,
+              "offset_hex": "0x00d8",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 415,
+              "offset_hex": "0x019f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk1",
+          "id": "Snr5.chunk2.sub1",
+          "chunk": "Snr5.chunk2",
           "index": 1,
-          "subscript_count": 2,
           "dispatch_count": 4,
-          "text_ref_count": 15
+          "text_ref_count": 10,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 185,
+              "offset_hex": "0x00b9",
+              "text_id": 18,
+              "confidence": "noisy",
+              "text": "你見到凱麥隆了嗎？"
+            },
+            {
+              "offset_rel": 272,
+              "offset_hex": "0x0110",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 354,
+              "offset_hex": "0x0162",
+              "text_id": 16,
+              "confidence": "noisy",
+              "text": "那，我來準備船，路上可沒有多餘的時間．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 17,
+              "confidence": "noisy",
+              "text": "法爾孔"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk2",
+          "id": "Snr5.chunk2.sub2",
+          "chunk": "Snr5.chunk2",
           "index": 2,
-          "subscript_count": 3,
-          "dispatch_count": 13,
-          "text_ref_count": 33
+          "dispatch_count": 7,
+          "text_ref_count": 20,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 156,
+              "offset_hex": "0x009c",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 160,
+              "offset_hex": "0x00a0",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "啊，明白了．再等等，借的錢我一定還．"
+            },
+            {
+              "offset_rel": 262,
+              "offset_hex": "0x0106",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "〔朋友凱麥隆〕\\n是$n嗎？"
+            },
+            {
+              "offset_rel": 269,
+              "offset_hex": "0x010d",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "回來啦，凱麥隆．我直講正題啦."
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 14,
-          "text_ref_count": 9
+          "id": "Snr5.chunk3.sub2",
+          "chunk": "Snr5.chunk3",
+          "index": 2,
+          "dispatch_count": 7,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 161,
+              "offset_hex": "0x00a1",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 295,
+              "offset_hex": "0x0127",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 770,
+              "offset_hex": "0x0302",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 783,
+              "offset_hex": "0x030f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         }
       ]
     },
@@ -1428,34 +4144,175 @@
         "Port",
         "Sea"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr5.chunk0",
+          "id": "Snr5.chunk0.sub0",
+          "chunk": "Snr5.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 22,
-          "text_ref_count": 8
+          "dispatch_count": 9,
+          "text_ref_count": 4,
+          "first_text_refs": [
+            {
+              "offset_rel": 123,
+              "offset_hex": "0x007b",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 216,
+              "offset_hex": "0x00d8",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 415,
+              "offset_hex": "0x019f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk1",
+          "id": "Snr5.chunk2.sub1",
+          "chunk": "Snr5.chunk2",
           "index": 1,
-          "subscript_count": 2,
           "dispatch_count": 4,
-          "text_ref_count": 15
+          "text_ref_count": 10,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 185,
+              "offset_hex": "0x00b9",
+              "text_id": 18,
+              "confidence": "noisy",
+              "text": "你見到凱麥隆了嗎？"
+            },
+            {
+              "offset_rel": 272,
+              "offset_hex": "0x0110",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 354,
+              "offset_hex": "0x0162",
+              "text_id": 16,
+              "confidence": "noisy",
+              "text": "那，我來準備船，路上可沒有多餘的時間．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 17,
+              "confidence": "noisy",
+              "text": "法爾孔"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk2",
+          "id": "Snr5.chunk2.sub2",
+          "chunk": "Snr5.chunk2",
           "index": 2,
-          "subscript_count": 3,
-          "dispatch_count": 13,
-          "text_ref_count": 33
+          "dispatch_count": 7,
+          "text_ref_count": 20,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 156,
+              "offset_hex": "0x009c",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 160,
+              "offset_hex": "0x00a0",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "啊，明白了．再等等，借的錢我一定還．"
+            },
+            {
+              "offset_rel": 262,
+              "offset_hex": "0x0106",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "〔朋友凱麥隆〕\\n是$n嗎？"
+            },
+            {
+              "offset_rel": 269,
+              "offset_hex": "0x010d",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "回來啦，凱麥隆．我直講正題啦."
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 14,
-          "text_ref_count": 9
+          "id": "Snr5.chunk3.sub2",
+          "chunk": "Snr5.chunk3",
+          "index": 2,
+          "dispatch_count": 7,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 161,
+              "offset_hex": "0x00a1",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 295,
+              "offset_hex": "0x0127",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 770,
+              "offset_hex": "0x0302",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 783,
+              "offset_hex": "0x030f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         }
       ]
     },
@@ -1473,34 +4330,175 @@
         "SouthAmerica",
         "NewWorld"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr5.chunk0",
+          "id": "Snr5.chunk0.sub0",
+          "chunk": "Snr5.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 22,
-          "text_ref_count": 8
+          "dispatch_count": 9,
+          "text_ref_count": 4,
+          "first_text_refs": [
+            {
+              "offset_rel": 123,
+              "offset_hex": "0x007b",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 216,
+              "offset_hex": "0x00d8",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 415,
+              "offset_hex": "0x019f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk1",
+          "id": "Snr5.chunk2.sub1",
+          "chunk": "Snr5.chunk2",
           "index": 1,
-          "subscript_count": 2,
           "dispatch_count": 4,
-          "text_ref_count": 15
+          "text_ref_count": 10,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 185,
+              "offset_hex": "0x00b9",
+              "text_id": 18,
+              "confidence": "noisy",
+              "text": "你見到凱麥隆了嗎？"
+            },
+            {
+              "offset_rel": 272,
+              "offset_hex": "0x0110",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 354,
+              "offset_hex": "0x0162",
+              "text_id": 16,
+              "confidence": "noisy",
+              "text": "那，我來準備船，路上可沒有多餘的時間．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 17,
+              "confidence": "noisy",
+              "text": "法爾孔"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk2",
+          "id": "Snr5.chunk2.sub2",
+          "chunk": "Snr5.chunk2",
           "index": 2,
-          "subscript_count": 3,
-          "dispatch_count": 13,
-          "text_ref_count": 33
+          "dispatch_count": 7,
+          "text_ref_count": 20,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 156,
+              "offset_hex": "0x009c",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 160,
+              "offset_hex": "0x00a0",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "啊，明白了．再等等，借的錢我一定還．"
+            },
+            {
+              "offset_rel": 262,
+              "offset_hex": "0x0106",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "〔朋友凱麥隆〕\\n是$n嗎？"
+            },
+            {
+              "offset_rel": 269,
+              "offset_hex": "0x010d",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "回來啦，凱麥隆．我直講正題啦."
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 14,
-          "text_ref_count": 9
+          "id": "Snr5.chunk3.sub2",
+          "chunk": "Snr5.chunk3",
+          "index": 2,
+          "dispatch_count": 7,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 161,
+              "offset_hex": "0x00a1",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 295,
+              "offset_hex": "0x0127",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 770,
+              "offset_hex": "0x0302",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 783,
+              "offset_hex": "0x030f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         }
       ]
     },
@@ -1518,34 +4516,175 @@
         "Lisbon",
         "DukeHouse"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr5.chunk0",
+          "id": "Snr5.chunk0.sub0",
+          "chunk": "Snr5.chunk0",
           "index": 0,
-          "subscript_count": 2,
-          "dispatch_count": 22,
-          "text_ref_count": 8
+          "dispatch_count": 9,
+          "text_ref_count": 4,
+          "first_text_refs": [
+            {
+              "offset_rel": 123,
+              "offset_hex": "0x007b",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 216,
+              "offset_hex": "0x00d8",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 415,
+              "offset_hex": "0x019f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk1",
+          "id": "Snr5.chunk2.sub1",
+          "chunk": "Snr5.chunk2",
           "index": 1,
-          "subscript_count": 2,
           "dispatch_count": 4,
-          "text_ref_count": 15
+          "text_ref_count": 10,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 185,
+              "offset_hex": "0x00b9",
+              "text_id": 18,
+              "confidence": "noisy",
+              "text": "你見到凱麥隆了嗎？"
+            },
+            {
+              "offset_rel": 272,
+              "offset_hex": "0x0110",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 354,
+              "offset_hex": "0x0162",
+              "text_id": 16,
+              "confidence": "noisy",
+              "text": "那，我來準備船，路上可沒有多餘的時間．"
+            },
+            {
+              "offset_rel": 398,
+              "offset_hex": "0x018e",
+              "text_id": 17,
+              "confidence": "noisy",
+              "text": "法爾孔"
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk2",
+          "id": "Snr5.chunk2.sub2",
+          "chunk": "Snr5.chunk2",
           "index": 2,
-          "subscript_count": 3,
-          "dispatch_count": 13,
-          "text_ref_count": 33
+          "dispatch_count": 7,
+          "text_ref_count": 20,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 156,
+              "offset_hex": "0x009c",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 160,
+              "offset_hex": "0x00a0",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "啊，明白了．再等等，借的錢我一定還．"
+            },
+            {
+              "offset_rel": 262,
+              "offset_hex": "0x0106",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "〔朋友凱麥隆〕\\n是$n嗎？"
+            },
+            {
+              "offset_rel": 269,
+              "offset_hex": "0x010d",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "回來啦，凱麥隆．我直講正題啦."
+            }
+          ]
         },
         {
-          "id": "Snr5.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 14,
-          "text_ref_count": 9
+          "id": "Snr5.chunk3.sub2",
+          "chunk": "Snr5.chunk3",
+          "index": 2,
+          "dispatch_count": 7,
+          "text_ref_count": 5,
+          "first_text_refs": [
+            {
+              "offset_rel": 16,
+              "offset_hex": "0x0010",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            },
+            {
+              "offset_rel": 161,
+              "offset_hex": "0x00a1",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 295,
+              "offset_hex": "0x0127",
+              "text_id": 199,
+              "confidence": "noisy",
+              "text": "這個港口大概有人知道聖人手杖的傳說．"
+            },
+            {
+              "offset_rel": 770,
+              "offset_hex": "0x0302",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "啊，歡迎光臨，我們這<d8>蜱荃歪駎I辣椒的啤酒可是最棒的喲．"
+            },
+            {
+              "offset_rel": 783,
+              "offset_hex": "0x030f",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "是啊，那位資助人的家在哪？"
+            }
+          ]
         }
       ]
     },
@@ -1562,48 +4701,226 @@
         "Tavern",
         "Port"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr6.chunk0",
+          "id": "Snr6.chunk1.sub0",
+          "chunk": "Snr6.chunk1",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 35,
-          "text_ref_count": 16
-        },
-        {
-          "id": "Snr6.chunk1",
-          "index": 1,
-          "subscript_count": 2,
-          "dispatch_count": 20,
-          "text_ref_count": 51
-        },
-        {
-          "id": "Snr6.chunk2",
-          "index": 2,
-          "subscript_count": 5,
-          "dispatch_count": 51,
-          "text_ref_count": 32
-        },
-        {
-          "id": "Snr6.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 61,
-          "text_ref_count": 52
-        },
-        {
-          "id": "Snr6.chunk4",
-          "index": 4,
-          "subscript_count": 1,
           "dispatch_count": 12,
-          "text_ref_count": 22
+          "text_ref_count": 40,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 214,
+              "offset_hex": "0x00d6",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "你這個$n，一分錢沒有卻又跑來了，是衝著蒂迪亞來的吧？"
+            },
+            {
+              "offset_rel": 372,
+              "offset_hex": "0x0174",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 379,
+              "offset_hex": "0x017b",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "喔，你來得正好，有好事呦．"
+            }
+          ]
         },
         {
-          "id": "Snr6.chunk5",
-          "index": 5,
-          "subscript_count": 4,
-          "dispatch_count": 47,
-          "text_ref_count": 34
+          "id": "Snr6.chunk2.sub4",
+          "chunk": "Snr6.chunk2",
+          "index": 4,
+          "dispatch_count": 14,
+          "text_ref_count": 11,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 131,
+              "offset_hex": "0x0083",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 163,
+              "offset_hex": "0x00a3",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 192,
+              "offset_hex": "0x00c0",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 203,
+              "offset_hex": "0x00cb",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk3.sub3",
+          "chunk": "Snr6.chunk3",
+          "index": 3,
+          "dispatch_count": 19,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk4.sub0",
+          "chunk": "Snr6.chunk4",
+          "index": 0,
+          "dispatch_count": 12,
+          "text_ref_count": 22,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 34,
+              "offset_hex": "0x0022",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 124,
+              "offset_hex": "0x007c",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk5.sub0",
+          "chunk": "Snr6.chunk5",
+          "index": 0,
+          "dispatch_count": 13,
+          "text_ref_count": 14,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
         }
       ]
     },
@@ -1619,48 +4936,226 @@
       "locations": [
         "Shipyard"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr6.chunk0",
+          "id": "Snr6.chunk1.sub0",
+          "chunk": "Snr6.chunk1",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 35,
-          "text_ref_count": 16
-        },
-        {
-          "id": "Snr6.chunk1",
-          "index": 1,
-          "subscript_count": 2,
-          "dispatch_count": 20,
-          "text_ref_count": 51
-        },
-        {
-          "id": "Snr6.chunk2",
-          "index": 2,
-          "subscript_count": 5,
-          "dispatch_count": 51,
-          "text_ref_count": 32
-        },
-        {
-          "id": "Snr6.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 61,
-          "text_ref_count": 52
-        },
-        {
-          "id": "Snr6.chunk4",
-          "index": 4,
-          "subscript_count": 1,
           "dispatch_count": 12,
-          "text_ref_count": 22
+          "text_ref_count": 40,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 214,
+              "offset_hex": "0x00d6",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "你這個$n，一分錢沒有卻又跑來了，是衝著蒂迪亞來的吧？"
+            },
+            {
+              "offset_rel": 372,
+              "offset_hex": "0x0174",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 379,
+              "offset_hex": "0x017b",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "喔，你來得正好，有好事呦．"
+            }
+          ]
         },
         {
-          "id": "Snr6.chunk5",
-          "index": 5,
-          "subscript_count": 4,
-          "dispatch_count": 47,
-          "text_ref_count": 34
+          "id": "Snr6.chunk2.sub4",
+          "chunk": "Snr6.chunk2",
+          "index": 4,
+          "dispatch_count": 14,
+          "text_ref_count": 11,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 131,
+              "offset_hex": "0x0083",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 163,
+              "offset_hex": "0x00a3",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 192,
+              "offset_hex": "0x00c0",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 203,
+              "offset_hex": "0x00cb",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk3.sub3",
+          "chunk": "Snr6.chunk3",
+          "index": 3,
+          "dispatch_count": 19,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk4.sub0",
+          "chunk": "Snr6.chunk4",
+          "index": 0,
+          "dispatch_count": 12,
+          "text_ref_count": 22,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 34,
+              "offset_hex": "0x0022",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 124,
+              "offset_hex": "0x007c",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk5.sub0",
+          "chunk": "Snr6.chunk5",
+          "index": 0,
+          "dispatch_count": 13,
+          "text_ref_count": 14,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
         }
       ]
     },
@@ -1678,48 +5173,226 @@
         "Shipyard",
         "Port"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr6.chunk0",
+          "id": "Snr6.chunk1.sub0",
+          "chunk": "Snr6.chunk1",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 35,
-          "text_ref_count": 16
-        },
-        {
-          "id": "Snr6.chunk1",
-          "index": 1,
-          "subscript_count": 2,
-          "dispatch_count": 20,
-          "text_ref_count": 51
-        },
-        {
-          "id": "Snr6.chunk2",
-          "index": 2,
-          "subscript_count": 5,
-          "dispatch_count": 51,
-          "text_ref_count": 32
-        },
-        {
-          "id": "Snr6.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 61,
-          "text_ref_count": 52
-        },
-        {
-          "id": "Snr6.chunk4",
-          "index": 4,
-          "subscript_count": 1,
           "dispatch_count": 12,
-          "text_ref_count": 22
+          "text_ref_count": 40,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 214,
+              "offset_hex": "0x00d6",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "你這個$n，一分錢沒有卻又跑來了，是衝著蒂迪亞來的吧？"
+            },
+            {
+              "offset_rel": 372,
+              "offset_hex": "0x0174",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 379,
+              "offset_hex": "0x017b",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "喔，你來得正好，有好事呦．"
+            }
+          ]
         },
         {
-          "id": "Snr6.chunk5",
-          "index": 5,
-          "subscript_count": 4,
-          "dispatch_count": 47,
-          "text_ref_count": 34
+          "id": "Snr6.chunk2.sub4",
+          "chunk": "Snr6.chunk2",
+          "index": 4,
+          "dispatch_count": 14,
+          "text_ref_count": 11,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 131,
+              "offset_hex": "0x0083",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 163,
+              "offset_hex": "0x00a3",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 192,
+              "offset_hex": "0x00c0",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 203,
+              "offset_hex": "0x00cb",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk3.sub3",
+          "chunk": "Snr6.chunk3",
+          "index": 3,
+          "dispatch_count": 19,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk4.sub0",
+          "chunk": "Snr6.chunk4",
+          "index": 0,
+          "dispatch_count": 12,
+          "text_ref_count": 22,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 34,
+              "offset_hex": "0x0022",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 124,
+              "offset_hex": "0x007c",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk5.sub0",
+          "chunk": "Snr6.chunk5",
+          "index": 0,
+          "dispatch_count": 13,
+          "text_ref_count": 14,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
         }
       ]
     },
@@ -1738,48 +5411,226 @@
         "Port",
         "Tavern"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr6.chunk0",
+          "id": "Snr6.chunk1.sub0",
+          "chunk": "Snr6.chunk1",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 35,
-          "text_ref_count": 16
-        },
-        {
-          "id": "Snr6.chunk1",
-          "index": 1,
-          "subscript_count": 2,
-          "dispatch_count": 20,
-          "text_ref_count": 51
-        },
-        {
-          "id": "Snr6.chunk2",
-          "index": 2,
-          "subscript_count": 5,
-          "dispatch_count": 51,
-          "text_ref_count": 32
-        },
-        {
-          "id": "Snr6.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 61,
-          "text_ref_count": 52
-        },
-        {
-          "id": "Snr6.chunk4",
-          "index": 4,
-          "subscript_count": 1,
           "dispatch_count": 12,
-          "text_ref_count": 22
+          "text_ref_count": 40,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 214,
+              "offset_hex": "0x00d6",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "你這個$n，一分錢沒有卻又跑來了，是衝著蒂迪亞來的吧？"
+            },
+            {
+              "offset_rel": 372,
+              "offset_hex": "0x0174",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 379,
+              "offset_hex": "0x017b",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "喔，你來得正好，有好事呦．"
+            }
+          ]
         },
         {
-          "id": "Snr6.chunk5",
-          "index": 5,
-          "subscript_count": 4,
-          "dispatch_count": 47,
-          "text_ref_count": 34
+          "id": "Snr6.chunk2.sub4",
+          "chunk": "Snr6.chunk2",
+          "index": 4,
+          "dispatch_count": 14,
+          "text_ref_count": 11,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 131,
+              "offset_hex": "0x0083",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 163,
+              "offset_hex": "0x00a3",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 192,
+              "offset_hex": "0x00c0",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 203,
+              "offset_hex": "0x00cb",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk3.sub3",
+          "chunk": "Snr6.chunk3",
+          "index": 3,
+          "dispatch_count": 19,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk4.sub0",
+          "chunk": "Snr6.chunk4",
+          "index": 0,
+          "dispatch_count": 12,
+          "text_ref_count": 22,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 34,
+              "offset_hex": "0x0022",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 124,
+              "offset_hex": "0x007c",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk5.sub0",
+          "chunk": "Snr6.chunk5",
+          "index": 0,
+          "dispatch_count": 13,
+          "text_ref_count": 14,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
         }
       ]
     },
@@ -1797,48 +5648,226 @@
         "Istanbul",
         "Port"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr6.chunk0",
+          "id": "Snr6.chunk1.sub0",
+          "chunk": "Snr6.chunk1",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 35,
-          "text_ref_count": 16
-        },
-        {
-          "id": "Snr6.chunk1",
-          "index": 1,
-          "subscript_count": 2,
-          "dispatch_count": 20,
-          "text_ref_count": 51
-        },
-        {
-          "id": "Snr6.chunk2",
-          "index": 2,
-          "subscript_count": 5,
-          "dispatch_count": 51,
-          "text_ref_count": 32
-        },
-        {
-          "id": "Snr6.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 61,
-          "text_ref_count": 52
-        },
-        {
-          "id": "Snr6.chunk4",
-          "index": 4,
-          "subscript_count": 1,
           "dispatch_count": 12,
-          "text_ref_count": 22
+          "text_ref_count": 40,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 214,
+              "offset_hex": "0x00d6",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "你這個$n，一分錢沒有卻又跑來了，是衝著蒂迪亞來的吧？"
+            },
+            {
+              "offset_rel": 372,
+              "offset_hex": "0x0174",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 379,
+              "offset_hex": "0x017b",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "喔，你來得正好，有好事呦．"
+            }
+          ]
         },
         {
-          "id": "Snr6.chunk5",
-          "index": 5,
-          "subscript_count": 4,
-          "dispatch_count": 47,
-          "text_ref_count": 34
+          "id": "Snr6.chunk2.sub4",
+          "chunk": "Snr6.chunk2",
+          "index": 4,
+          "dispatch_count": 14,
+          "text_ref_count": 11,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 131,
+              "offset_hex": "0x0083",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 163,
+              "offset_hex": "0x00a3",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 192,
+              "offset_hex": "0x00c0",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 203,
+              "offset_hex": "0x00cb",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk3.sub3",
+          "chunk": "Snr6.chunk3",
+          "index": 3,
+          "dispatch_count": 19,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk4.sub0",
+          "chunk": "Snr6.chunk4",
+          "index": 0,
+          "dispatch_count": 12,
+          "text_ref_count": 22,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 34,
+              "offset_hex": "0x0022",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 124,
+              "offset_hex": "0x007c",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk5.sub0",
+          "chunk": "Snr6.chunk5",
+          "index": 0,
+          "dispatch_count": 13,
+          "text_ref_count": 14,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
         }
       ]
     },
@@ -1855,48 +5884,226 @@
         "Istanbul",
         "Port"
       ],
-      "chunks": [
+      "subscripts": [
         {
-          "id": "Snr6.chunk0",
+          "id": "Snr6.chunk1.sub0",
+          "chunk": "Snr6.chunk1",
           "index": 0,
-          "subscript_count": 3,
-          "dispatch_count": 35,
-          "text_ref_count": 16
-        },
-        {
-          "id": "Snr6.chunk1",
-          "index": 1,
-          "subscript_count": 2,
-          "dispatch_count": 20,
-          "text_ref_count": 51
-        },
-        {
-          "id": "Snr6.chunk2",
-          "index": 2,
-          "subscript_count": 5,
-          "dispatch_count": 51,
-          "text_ref_count": 32
-        },
-        {
-          "id": "Snr6.chunk3",
-          "index": 3,
-          "subscript_count": 4,
-          "dispatch_count": 61,
-          "text_ref_count": 52
-        },
-        {
-          "id": "Snr6.chunk4",
-          "index": 4,
-          "subscript_count": 1,
           "dispatch_count": 12,
-          "text_ref_count": 22
+          "text_ref_count": 40,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 13,
+              "offset_hex": "0x000d",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 214,
+              "offset_hex": "0x00d6",
+              "text_id": 0,
+              "confidence": "noisy",
+              "text": "你這個$n，一分錢沒有卻又跑來了，是衝著蒂迪亞來的吧？"
+            },
+            {
+              "offset_rel": 372,
+              "offset_hex": "0x0174",
+              "text_id": 2,
+              "confidence": "noisy",
+              "text": "對了，剛才你的同伴薩達姆來過了，一副心事重重的樣子．"
+            },
+            {
+              "offset_rel": 379,
+              "offset_hex": "0x017b",
+              "text_id": 3,
+              "confidence": "noisy",
+              "text": "喔，你來得正好，有好事呦．"
+            }
+          ]
         },
         {
-          "id": "Snr6.chunk5",
-          "index": 5,
-          "subscript_count": 4,
-          "dispatch_count": 47,
-          "text_ref_count": 34
+          "id": "Snr6.chunk2.sub4",
+          "chunk": "Snr6.chunk2",
+          "index": 4,
+          "dispatch_count": 14,
+          "text_ref_count": 11,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 131,
+              "offset_hex": "0x0083",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 163,
+              "offset_hex": "0x00a3",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 192,
+              "offset_hex": "0x00c0",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 203,
+              "offset_hex": "0x00cb",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk3.sub3",
+          "chunk": "Snr6.chunk3",
+          "index": 3,
+          "dispatch_count": 19,
+          "text_ref_count": 23,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk4.sub0",
+          "chunk": "Snr6.chunk4",
+          "index": 0,
+          "dispatch_count": 12,
+          "text_ref_count": 22,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 34,
+              "offset_hex": "0x0022",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 43,
+              "offset_hex": "0x002b",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            },
+            {
+              "offset_rel": 115,
+              "offset_hex": "0x0073",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 124,
+              "offset_hex": "0x007c",
+              "text_id": 1,
+              "confidence": "noisy",
+              "text": "不管你對蒂迪亞多著迷也白費，那位小姐是不會看上你這個窮光蛋的．"
+            }
+          ]
+        },
+        {
+          "id": "Snr6.chunk5.sub0",
+          "chunk": "Snr6.chunk5",
+          "index": 0,
+          "dispatch_count": 13,
+          "text_ref_count": 14,
+          "first_text_refs": [
+            {
+              "offset_rel": 0,
+              "offset_hex": "0x0000",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 32,
+              "offset_hex": "0x0020",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 64,
+              "offset_hex": "0x0040",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 75,
+              "offset_hex": "0x004b",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            },
+            {
+              "offset_rel": 119,
+              "offset_hex": "0x0077",
+              "text_id": 63,
+              "confidence": "noisy",
+              "text": "都是做貿易，不如盡最大可能籌集資金，做大買賣才能賺大錢．"
+            }
+          ]
         }
       ]
     }

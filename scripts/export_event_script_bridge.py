@@ -22,30 +22,32 @@ def build_bridge() -> dict:
     script_index = load_json(SCRIPT_INDEX)
 
     event_chunks = {
-        "Snr1": ["Snr1.chunk0", "Snr1.chunk1", "Snr1.chunk2", "Snr1.chunk3", "Snr1.chunk4", "Snr1.chunk5"],
-        "Snr2": ["Snr2.chunk0", "Snr2.chunk1", "Snr2.chunk2", "Snr2.chunk3", "Snr2.chunk4", "Snr2.chunk5", "Snr2.chunk6", "Snr2.chunk7"],
-        "Snr3": ["Snr3.chunk0", "Snr3.chunk1", "Snr3.chunk2", "Snr3.chunk3", "Snr3.chunk4", "Snr3.chunk5"],
-        "Snr4": ["Snr4.chunk0", "Snr4.chunk1", "Snr4.chunk2", "Snr4.chunk3", "Snr4.chunk4"],
-        "Snr5": ["Snr5.chunk0", "Snr5.chunk1", "Snr5.chunk2", "Snr5.chunk3"],
-        "Snr6": ["Snr6.chunk0", "Snr6.chunk1", "Snr6.chunk2", "Snr6.chunk3", "Snr6.chunk4", "Snr6.chunk5"],
+        "Snr1": ["Snr1.chunk0.sub0", "Snr1.chunk1.sub0", "Snr1.chunk3.sub0", "Snr1.chunk5.sub0"],
+        "Snr2": ["Snr2.chunk0.sub0", "Snr2.chunk1.sub0", "Snr2.chunk6.sub3", "Snr2.chunk7.sub7"],
+        "Snr3": ["Snr3.chunk0.sub0", "Snr3.chunk3.sub0", "Snr3.chunk4.sub3", "Snr3.chunk5.sub3"],
+        "Snr4": ["Snr4.chunk0.sub0", "Snr4.chunk4.sub1", "Snr4.chunk4.sub3"],
+        "Snr5": ["Snr5.chunk0.sub0", "Snr5.chunk2.sub1", "Snr5.chunk2.sub2", "Snr5.chunk3.sub2"],
+        "Snr6": ["Snr6.chunk1.sub0", "Snr6.chunk2.sub4", "Snr6.chunk3.sub3", "Snr6.chunk4.sub0", "Snr6.chunk5.sub0"],
     }
 
-    chunks_by_id = {}
+    subscripts_by_id = {}
     for file_info in script_index["files"]:
         for chunk in file_info["chunks"]:
-            chunks_by_id[chunk["id"]] = {
-                "id": chunk["id"],
-                "index": chunk["index"],
-                "subscript_count": chunk["subscript_count"],
-                "dispatch_count": chunk["dispatch_count"],
-                "text_ref_count": chunk["text_ref_count"],
-            }
+            for sub in chunk["subscripts"]:
+                subscripts_by_id[sub["id"]] = {
+                    "id": sub["id"],
+                    "chunk": chunk["id"],
+                    "index": sub["index"],
+                    "dispatch_count": sub["dispatch_count"],
+                    "text_ref_count": sub["text_ref_count"],
+                    "first_text_refs": sub["first_text_refs"],
+                }
 
     rows = []
     for event in topology["graphs"]["events"]["nodes"]:
         line = event["line"]
-        chunk_ids = event_chunks.get(line, [])
-        chunk_rows = [chunks_by_id[cid] for cid in chunk_ids if cid in chunks_by_id]
+        sub_ids = event_chunks.get(line, [])
+        sub_rows = [subscripts_by_id[sid] for sid in sub_ids if sid in subscripts_by_id]
         rows.append(
             {
                 "event_id": event["id"],
@@ -55,7 +57,7 @@ def build_bridge() -> dict:
                 "state_after": event["state_after"],
                 "actors": event["actors"],
                 "locations": event["locations"],
-                "chunks": chunk_rows,
+                "subscripts": sub_rows,
             }
         )
 
@@ -85,7 +87,7 @@ def build_report(bridge: dict) -> str:
     for row in bridge["events"]:
         lines.append(
             f"- {row['event_id']} {row['event_label']} | {row['line']} | "
-            f"chunks={len(row['chunks'])} | actors={','.join(row['actors'])}"
+            f"subscripts={len(row['subscripts'])} | actors={','.join(row['actors'])}"
         )
     return "\n".join(lines) + "\n"
 
