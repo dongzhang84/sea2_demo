@@ -1,0 +1,59 @@
+{
+  "schema": "sea2_overlap_bridge_table_v1",
+  "source": {
+    "graph": "output/game_topology/event_overlap_graph_v1.json",
+    "text_index": "output/game_topology/event_text_index_v1.json"
+  },
+  "bridge_rows": [
+    {
+      "from": "Snr2",
+      "to": "Snr3",
+      "bridge_count": 1,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ],
+      "shared_texts": [
+        {
+          "text_id": 4,
+          "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+        },
+        {
+          "text_id": 5,
+          "text": "後來，他往城堡那邊去了，一定是去城堡右側的司令部了．"
+        },
+        {
+          "text_id": 12,
+          "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+        }
+      ],
+      "top_event_bridges": [
+        {
+          "from": "Snr2",
+          "to": "Snr3",
+          "weight": 3,
+          "shared_text_ids": [
+            4,
+            5,
+            12
+          ],
+          "shared_texts": [
+            {
+              "text_id": 4,
+              "text": "對了，剛才桑多中尉來過這裡，是來找你的．"
+            },
+            {
+              "text_id": 5,
+              "text": "後來，他往城堡那邊去了，一定是去城堡右側的司令部了．"
+            },
+            {
+              "text_id": 12,
+              "text": "我總覺得哥哥不是因暴風雨而遇難的．"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
