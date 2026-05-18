@@ -105,7 +105,7 @@
 - ⬜ 风向影响速度公式
 - ⬜ 事件触发 / 探险概率 / 忠诚度
 
-详见 [`docs/PHASE2_PROGRESS.md`](docs/PHASE2_PROGRESS.md), [`docs/REVERSE_ENGINEERING_NOTES.md`](docs/REVERSE_ENGINEERING_NOTES.md)。
+详见 [`docs/archive/PHASE2_PROGRESS.md`](docs/archive/PHASE2_PROGRESS.md), [`docs/archive/REVERSE_ENGINEERING_NOTES.md`](docs/archive/REVERSE_ENGINEERING_NOTES.md)。
 
 **判断**：单人项目 Phase 2 深度提取 ROI 偏低——直接用 Phase 1 数据 + 经验型公式做 Phase 4，遇到具体需求再回头挖单个公式。
 
@@ -199,7 +199,7 @@
 - 项目首页：[README.md](README.md)
 - 项目约定 + 已破解格式规范：[CLAUDE.md](CLAUDE.md)
 - Phase 1 数据表笔记：[`docs/PHASE1_DATA_TABLES.md`](docs/PHASE1_DATA_TABLES.md)
-- Phase 2 RE 笔记：[`docs/PHASE2_PROGRESS.md`](docs/PHASE2_PROGRESS.md), [`docs/REVERSE_ENGINEERING_NOTES.md`](docs/REVERSE_ENGINEERING_NOTES.md)
+- Phase 2 RE 笔记：[`docs/archive/PHASE2_PROGRESS.md`](docs/archive/PHASE2_PROGRESS.md), [`docs/archive/REVERSE_ENGINEERING_NOTES.md`](docs/archive/REVERSE_ENGINEERING_NOTES.md)
 - Phase 3 新游戏 spec：[`docs/PHASE3_DESIGN_DOC.md`](docs/PHASE3_DESIGN_DOC.md)
 - Phase 4 游戏：[`game/`](game) + [`game/README.md`](game/README.md)
 - 数据浏览（HTML 表格）：[`docs/DEMO_TABLES.md`](docs/DEMO_TABLES.md)

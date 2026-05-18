@@ -143,7 +143,7 @@ output/sndt_lab/patch_notes.md
 文件：
 
 ```text
-docs/SNDT_OPCODE_TABLE.md
+docs/archive/SNDT_OPCODE_TABLE.md
 output/sndt_topology/opcodes.json
 ```
 
@@ -190,7 +190,7 @@ output/sndt_topology/opcodes.json
 - 已生成 `output/sndt_topology/sndt_topology.json`。
 - 已生成 `output/sndt_topology/sndt_topology.dot`。
 - 已生成 `output/sndt_topology/sndt_text_refs.md`。
-- 已完成 `docs/SNDT_TOPOLOGY_STATIC_REPORT.md`。
+- 已完成 `docs/archive/SNDT_TOPOLOGY_STATIC_REPORT.md`。
 - 已 commit + push。
 
 风险：
@@ -305,7 +305,7 @@ output/sndt_topology/opcodes.json
    ```text
    output/sndt_topology/topology_v1.json
    output/sndt_topology/topology_v1.dot
-   docs/SNDT_TOPOLOGY_REPORT.md
+   docs/archive/SNDT_TOPOLOGY_STATIC_REPORT.md
    ```
 
 完成标准：
@@ -353,7 +353,7 @@ output/sndt_topology/opcodes.json
 scripts/export_sndt_topology.py
 output/sndt_topology/sndt_topology.json
 output/sndt_topology/sndt_topology.dot
-docs/SNDT_TOPOLOGY_STATIC_REPORT.md
+docs/archive/SNDT_TOPOLOGY_STATIC_REPORT.md
 ```
 
 这会把“已经做到哪里”从散落的日志，变成一份实际拓扑草图。
@@ -467,7 +467,7 @@ docs/SNDT_TOPOLOGY_STATIC_REPORT.md
 | 导出 chunk / subscript / dispatch table | ✅ | `output/sndt_topology/sndt_topology.json` |
 | 导出 Graphviz 结构图 | ✅ | `output/sndt_topology/sndt_topology.dot` |
 | 导出文本引用候选 | ✅ | `output/sndt_topology/sndt_text_refs.md` |
-| 写静态拓扑报告 | ✅ | `docs/SNDT_TOPOLOGY_STATIC_REPORT.md` |
+| 写静态拓扑报告 | ✅ | `docs/archive/SNDT_TOPOLOGY_STATIC_REPORT.md` |
 | 标注文本引用噪声风险 | ✅ | JSON + report |
 
 Phase 1 结论：
@@ -522,11 +522,11 @@ Phase 3 当前结论：
 
 | Item | 状态 | 产物 / 备注 |
 |---|---|---|
-| 建立 opcode 长度表 | 🟡 | `docs/SNDT_OPCODE_TABLE.md`，已含确认/强候选 |
+| 建立 opcode 长度表 | 🟡 | `docs/archive/SNDT_OPCODE_TABLE.md`，已含确认/强候选 |
 | 写 `sndt_disasm.py` | ✅ | `scripts/sndt_disasm.py` |
 | 生成 partial disasm | ✅ | `output/sndt_analysis/sndt_disasm_partial.*` |
 | 提取 motif record runs | ✅ | `output/sndt_analysis/sndt_motif_records.*` |
-| 写 motif 结构报告 | ✅ | `docs/SNDT_MOTIF_REPORT.md` |
+| 写 motif 结构报告 | ✅ | `docs/archive/SNDT_MOTIF_REPORT.md` |
 | 生成 motif topology v0 JSON | ✅ | `output/sndt_topology/topology_v0_motif.json`，已含 `records[].text_preview` |
 | 生成 motif topology v0 DOT | ✅ | `output/sndt_topology/topology_v0_motif.dot`，节点已显示文本摘要 |
 | 验证 motif `c8_arg` 到 `.mes` 文本映射 | ✅ | `output/sndt_analysis/sndt_motif_text_map.*`，3449/3449 |
@@ -542,8 +542,8 @@ Phase 3 当前结论：
 | 验证 João 控制操作数是否像 offset 边 | ✅ | `output/sndt_analysis/joao_control_edges.*`，68 条控制指令中优选解释 63 条命中/近邻已知 timeline |
 | 生成 João opening `topology_v1.json` | ✅ | `output/sndt_topology/joao_opening_topology_v1.json`，142 nodes / 208 edges |
 | 生成 João opening `topology_v1.dot` | ✅ | `output/sndt_topology/joao_opening_topology_v1.dot`，含 sequence/control/near-control 边 |
-| 写 João opening topology v1 报告 | ✅ | `docs/SNDT_JOAO_OPENING_TOPOLOGY_V1.md` |
-| 写 João edge validation targets | ✅ | `docs/SNDT_JOAO_EDGE_VALIDATION.md` |
+| 写 João opening topology v1 报告 | ✅ | `docs/archive/SNDT_JOAO_OPENING_TOPOLOGY_V1.md` |
+| 写 João edge validation targets | ✅ | `docs/archive/SNDT_JOAO_EDGE_VALIDATION.md` |
 | 生成全局 `topology_v1.json` | ⬜ | 待把 João 局部方法推广到 Snr0-6 |
 | 生成全局 `topology_v1.dot` | ⬜ | 待全局推广 |
 | 写全局 `SNDT_TOPOLOGY_REPORT.md` | ⬜ | 第一版全局机器拓扑报告 |
@@ -571,7 +571,7 @@ Phase 4 预研当前结论：
 scripts/export_joao_opening_topology_v1.py
 output/sndt_topology/joao_opening_topology_v1.json
 output/sndt_topology/joao_opening_topology_v1.dot
-docs/SNDT_JOAO_OPENING_TOPOLOGY_V1.md
+docs/archive/SNDT_JOAO_OPENING_TOPOLOGY_V1.md
 ```
 
 产物形态：
