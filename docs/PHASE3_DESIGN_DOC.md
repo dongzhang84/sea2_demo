@@ -6,6 +6,8 @@
 > - [游戏逻辑说明.md](/Users/dong/Projects/sea2_demo/docs/游戏逻辑说明.md:1)
 > - [line_bridge_matrix_v1.md](/Users/dong/Projects/sea2_demo/output/game_topology/line_bridge_matrix_v1.md:1)
 > - [event_overlap_brief_v1.md](/Users/dong/Projects/sea2_demo/output/game_topology/event_overlap_brief_v1.md:1)
+>
+> 压缩版实现规格见 [PHASE4_MVP_SPEC.md](/Users/dong/Projects/sea2_demo/docs/PHASE4_MVP_SPEC.md:1)
 
 ---
 
