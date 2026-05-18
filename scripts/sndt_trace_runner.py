@@ -32,9 +32,9 @@ SCREEN = Path("/tmp/dbg_screen.txt")
 
 
 DEFAULT_BREAKPOINTS = [
-    # Event trigger check function documented in docs/SNDT交接文档.md.
+    # Event trigger check function documented in the current tracker / RE notes.
     "19b4:b81a",
-    # Suspected event script entry from the same handoff notes.
+    # Suspected event script entry from the same notes.
     "0000:8ebc",
 ]
 
