@@ -1,0 +1,5768 @@
+{
+  "schema": "sea2_event_overlap_graph_v1",
+  "source": {
+    "event_text_index": "output/game_topology/event_text_index_v1.json"
+  },
+  "summary": {
+    "event_count": 33,
+    "event_edge_count": 512,
+    "line_edge_count": 15,
+    "distinctive_event_edge_count": 42,
+    "distinctive_line_edge_count": 1
+  },
+  "event_nodes": [
+    {
+      "event_id": "S1_E1",
+      "line": "Snr1",
+      "text_count": 5
+    },
+    {
+      "event_id": "S1_E2",
+      "line": "Snr1",
+      "text_count": 4
+    },
+    {
+      "event_id": "S1_E3",
+      "line": "Snr1",
+      "text_count": 4
+    },
+    {
+      "event_id": "S1_E4",
+      "line": "Snr1",
+      "text_count": 3
+    },
+    {
+      "event_id": "S1_E5",
+      "line": "Snr1",
+      "text_count": 3
+    },
+    {
+      "event_id": "S1_E6",
+      "line": "Snr1",
+      "text_count": 3
+    },
+    {
+      "event_id": "S2_E1",
+      "line": "Snr2",
+      "text_count": 6
+    },
+    {
+      "event_id": "S2_E2",
+      "line": "Snr2",
+      "text_count": 6
+    },
+    {
+      "event_id": "S2_E3",
+      "line": "Snr2",
+      "text_count": 6
+    },
+    {
+      "event_id": "S2_E4",
+      "line": "Snr2",
+      "text_count": 7
+    },
+    {
+      "event_id": "S2_E5",
+      "line": "Snr2",
+      "text_count": 7
+    },
+    {
+      "event_id": "S2_E6",
+      "line": "Snr2",
+      "text_count": 7
+    },
+    {
+      "event_id": "S3_E1",
+      "line": "Snr3",
+      "text_count": 8
+    },
+    {
+      "event_id": "S3_E2",
+      "line": "Snr3",
+      "text_count": 8
+    },
+    {
+      "event_id": "S3_E3",
+      "line": "Snr3",
+      "text_count": 8
+    },
+    {
+      "event_id": "S3_E4",
+      "line": "Snr3",
+      "text_count": 8
+    },
+    {
+      "event_id": "S4_E1",
+      "line": "Snr4",
+      "text_count": 6
+    },
+    {
+      "event_id": "S4_E2",
+      "line": "Snr4",
+      "text_count": 6
+    },
+    {
+      "event_id": "S4_E3",
+      "line": "Snr4",
+      "text_count": 4
+    },
+    {
+      "event_id": "S4_E4",
+      "line": "Snr4",
+      "text_count": 4
+    },
+    {
+      "event_id": "S4_E5",
+      "line": "Snr4",
+      "text_count": 4
+    },
+    {
+      "event_id": "S5_E1",
+      "line": "Snr5",
+      "text_count": 6
+    },
+    {
+      "event_id": "S5_E2",
+      "line": "Snr5",
+      "text_count": 8
+    },
+    {
+      "event_id": "S5_E3",
+      "line": "Snr5",
+      "text_count": 8
+    },
+    {
+      "event_id": "S5_E4",
+      "line": "Snr5",
+      "text_count": 6
+    },
+    {
+      "event_id": "S5_E5",
+      "line": "Snr5",
+      "text_count": 6
+    },
+    {
+      "event_id": "S5_E6",
+      "line": "Snr5",
+      "text_count": 6
+    },
+    {
+      "event_id": "S6_E1",
+      "line": "Snr6",
+      "text_count": 4
+    },
+    {
+      "event_id": "S6_E2",
+      "line": "Snr6",
+      "text_count": 1
+    },
+    {
+      "event_id": "S6_E3",
+      "line": "Snr6",
+      "text_count": 2
+    },
+    {
+      "event_id": "S6_E4",
+      "line": "Snr6",
+      "text_count": 2
+    },
+    {
+      "event_id": "S6_E5",
+      "line": "Snr6",
+      "text_count": 2
+    },
+    {
+      "event_id": "S6_E6",
+      "line": "Snr6",
+      "text_count": 2
+    }
+  ],
+  "event_edges": [
+    {
+      "from": "S3_E1",
+      "to": "S3_E2",
+      "weight": 8,
+      "shared_text_ids": [
+        1,
+        2,
+        11,
+        13,
+        20,
+        63,
+        76,
+        199
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S3_E4",
+      "weight": 8,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12,
+        15,
+        24,
+        25
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S5_E3",
+      "weight": 8,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        16,
+        17,
+        18,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S2_E5",
+      "weight": 7,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        9,
+        12,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S2_E6",
+      "weight": 7,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        9,
+        12,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S2_E6",
+      "weight": 7,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        9,
+        12,
+        63
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S2_E3",
+      "weight": 6,
+      "shared_text_ids": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S4_E2",
+      "weight": 6,
+      "shared_text_ids": [
+        0,
+        63,
+        97,
+        98,
+        99,
+        199
+      ]
+    },
+    {
+      "from": "S5_E4",
+      "to": "S5_E5",
+      "weight": 6,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S5_E4",
+      "to": "S5_E6",
+      "weight": 6,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S5_E5",
+      "to": "S5_E6",
+      "weight": 6,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S5_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S5_E5",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S5_E6",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S5_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        3,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S5_E5",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        3,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S5_E6",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        3,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S2_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S2_E5",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S2_E6",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S3_E3",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S3_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S2_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S2_E5",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S2_E6",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S3_E3",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S3_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S3_E3",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S3_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S3_E3",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S3_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S3_E3",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S3_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S5_E2",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        16,
+        17,
+        18,
+        63
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S5_E3",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        16,
+        17,
+        18,
+        63
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S5_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S5_E5",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S5_E6",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S5_E3",
+      "to": "S5_E4",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S5_E3",
+      "to": "S5_E5",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S5_E3",
+      "to": "S5_E6",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S1_E2",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S1_E3",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S2_E1",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S3_E1",
+      "weight": 4,
+      "shared_text_ids": [
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S3_E2",
+      "weight": 4,
+      "shared_text_ids": [
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S5_E2",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S5_E3",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S1_E3",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S5_E2",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S5_E3",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S5_E4",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S5_E5",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S5_E6",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S5_E2",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S5_E3",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S5_E4",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S5_E5",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S5_E6",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S2_E2",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S2_E3",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S2_E4",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S2_E5",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S2_E6",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S5_E2",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S5_E3",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S5_E4",
+      "weight": 4,
+      "shared_text_ids": [
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S5_E5",
+      "weight": 4,
+      "shared_text_ids": [
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S5_E6",
+      "weight": 4,
+      "shared_text_ids": [
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S5_E4",
+      "weight": 4,
+      "shared_text_ids": [
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S5_E5",
+      "weight": 4,
+      "shared_text_ids": [
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S5_E6",
+      "weight": 4,
+      "shared_text_ids": [
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S4_E3",
+      "weight": 4,
+      "shared_text_ids": [
+        63,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S4_E4",
+      "weight": 4,
+      "shared_text_ids": [
+        63,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S4_E5",
+      "weight": 4,
+      "shared_text_ids": [
+        63,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S4_E3",
+      "weight": 4,
+      "shared_text_ids": [
+        63,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S4_E4",
+      "weight": 4,
+      "shared_text_ids": [
+        63,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S4_E5",
+      "weight": 4,
+      "shared_text_ids": [
+        63,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S4_E4",
+      "weight": 4,
+      "shared_text_ids": [
+        63,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S4_E5",
+      "weight": 4,
+      "shared_text_ids": [
+        63,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S4_E5",
+      "weight": 4,
+      "shared_text_ids": [
+        63,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S6_E1",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S5_E3",
+      "to": "S6_E1",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S5_E4",
+      "to": "S6_E1",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S5_E5",
+      "to": "S6_E1",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S5_E6",
+      "to": "S6_E1",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S1_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S1_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S1_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S2_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S2_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S2_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S4_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S4_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S5_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S6_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S1_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S1_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S1_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S2_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S2_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S2_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S2_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S3_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S3_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S6_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S1_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S1_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S1_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S2_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S2_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S2_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S2_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S3_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S3_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S6_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S1_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S1_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S3_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S3_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S1_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S3_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S3_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S3_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S3_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S3_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S3_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S3_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S3_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S4_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S4_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S5_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S6_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S5_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S5_E1",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S5_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S5_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S5_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S2_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S2_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S3_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S3_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S2_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S2_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S3_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S3_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S4_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S4_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S5_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S2_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S2_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S3_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S3_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S4_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S4_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S5_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S2_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S2_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S2_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S2_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S2_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S2_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S2_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S2_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S2_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S2_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S2_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S2_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        3
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        3
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S3_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S3_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S4_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S4_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S5_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S3_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S3_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S4_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S4_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S5_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S3_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S3_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S4_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S4_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S5_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S4_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S4_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S5_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S4_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S4_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S5_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        63,
+        199
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        2,
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S5_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S5_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S5_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S5_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S5_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S5_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S5_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S5_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S5_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S5_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S5_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S5_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S5_E2",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S5_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S6_E1",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E3",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E3",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E3",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E3",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E4",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E4",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E4",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E4",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E5",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E5",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E5",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E5",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E6",
+      "to": "S6_E3",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E6",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E6",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S5_E6",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S6_E3",
+      "to": "S6_E4",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S6_E3",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S6_E3",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S6_E4",
+      "to": "S6_E5",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S6_E4",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S6_E5",
+      "to": "S6_E6",
+      "weight": 2,
+      "shared_text_ids": [
+        1,
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E1",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E2",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E3",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S2_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S2_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S3_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S3_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S4_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S4_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S5_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E4",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S2_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S2_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S3_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S3_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S4_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S4_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S5_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E5",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S2_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S2_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S3_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S3_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S4_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S4_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S5_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S1_E6",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S3_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S3_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S4_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S4_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S5_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S3_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S3_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S4_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S4_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S5_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S3_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S3_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S3_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S3_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S4_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S4_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S4_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S3_E2",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S4_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S4_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S5_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S6_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E3",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S4_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S4_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S5_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S6_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        0
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S3_E4",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        1
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S5_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S5_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S5_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S5_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S5_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S5_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S6_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S5_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S5_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S5_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S5_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S5_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S5_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S6_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S5_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S5_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S5_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S5_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S5_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S5_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S6_E1",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S4_E5",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S5_E3",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S5_E4",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S5_E5",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S5_E6",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S6_E1",
+      "to": "S6_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S6_E1",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S6_E1",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S6_E1",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S6_E1",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S6_E2",
+      "to": "S6_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S6_E2",
+      "to": "S6_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S6_E2",
+      "to": "S6_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    },
+    {
+      "from": "S6_E2",
+      "to": "S6_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        63
+      ]
+    }
+  ],
+  "distinctive_event_edges": [
+    {
+      "from": "S3_E3",
+      "to": "S3_E4",
+      "weight": 6,
+      "shared_text_ids": [
+        4,
+        5,
+        12,
+        15,
+        24,
+        25
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S2_E5",
+      "weight": 4,
+      "shared_text_ids": [
+        4,
+        5,
+        9,
+        12
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S2_E6",
+      "weight": 4,
+      "shared_text_ids": [
+        4,
+        5,
+        9,
+        12
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S2_E6",
+      "weight": 4,
+      "shared_text_ids": [
+        4,
+        5,
+        9,
+        12
+      ]
+    },
+    {
+      "from": "S3_E1",
+      "to": "S3_E2",
+      "weight": 4,
+      "shared_text_ids": [
+        11,
+        13,
+        20,
+        76
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S2_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S2_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S2_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S2_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S3_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E2",
+      "to": "S3_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S2_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S2_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S2_E6",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S3_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E3",
+      "to": "S3_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S3_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E4",
+      "to": "S3_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S3_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E5",
+      "to": "S3_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S3_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S2_E6",
+      "to": "S3_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S4_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S4_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S4_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E1",
+      "to": "S4_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S4_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S4_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E2",
+      "to": "S4_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S4_E4",
+      "weight": 3,
+      "shared_text_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E3",
+      "to": "S4_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S4_E4",
+      "to": "S4_E5",
+      "weight": 3,
+      "shared_text_ids": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S5_E2",
+      "weight": 3,
+      "shared_text_ids": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "from": "S5_E1",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "from": "S5_E2",
+      "to": "S5_E3",
+      "weight": 3,
+      "shared_text_ids": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S2_E2",
+      "weight": 1,
+      "shared_text_ids": [
+        4
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S2_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        4
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S2_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        4
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S2_E5",
+      "weight": 1,
+      "shared_text_ids": [
+        4
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S2_E6",
+      "weight": 1,
+      "shared_text_ids": [
+        4
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S3_E3",
+      "weight": 1,
+      "shared_text_ids": [
+        4
+      ]
+    },
+    {
+      "from": "S2_E1",
+      "to": "S3_E4",
+      "weight": 1,
+      "shared_text_ids": [
+        4
+      ]
+    }
+  ],
+  "line_edges": [
+    {
+      "from": "Snr2",
+      "to": "Snr3",
+      "weight": 7,
+      "shared_text_ids": [
+        0,
+        1,
+        4,
+        5,
+        12,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "Snr1",
+      "to": "Snr3",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "Snr1",
+      "to": "Snr5",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "Snr2",
+      "to": "Snr5",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        3,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "Snr3",
+      "to": "Snr5",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "Snr5",
+      "to": "Snr6",
+      "weight": 5,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "Snr1",
+      "to": "Snr2",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "Snr1",
+      "to": "Snr6",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "Snr2",
+      "to": "Snr6",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        3,
+        63
+      ]
+    },
+    {
+      "from": "Snr3",
+      "to": "Snr6",
+      "weight": 4,
+      "shared_text_ids": [
+        0,
+        1,
+        2,
+        63
+      ]
+    },
+    {
+      "from": "Snr1",
+      "to": "Snr4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "Snr2",
+      "to": "Snr4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "Snr3",
+      "to": "Snr4",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "Snr4",
+      "to": "Snr5",
+      "weight": 3,
+      "shared_text_ids": [
+        0,
+        63,
+        199
+      ]
+    },
+    {
+      "from": "Snr4",
+      "to": "Snr6",
+      "weight": 2,
+      "shared_text_ids": [
+        0,
+        63
+      ]
+    }
+  ],
+  "distinctive_line_edges": [
+    {
+      "from": "Snr2",
+      "to": "Snr3",
+      "weight": 3,
+      "shared_text_ids": [
+        4,
+        5,
+        12
+      ]
+    }
+  ],
+  "event_clusters": [
+    {
+      "event_id": "S1_E1",
+      "line": "Snr1",
+      "text_count": 5,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S1_E2",
+      "line": "Snr1",
+      "text_count": 4,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S1_E3",
+      "line": "Snr1",
+      "text_count": 4,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S1_E4",
+      "line": "Snr1",
+      "text_count": 3,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S1_E5",
+      "line": "Snr1",
+      "text_count": 3,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S1_E6",
+      "line": "Snr1",
+      "text_count": 3,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S2_E1",
+      "line": "Snr2",
+      "text_count": 6,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S2_E4",
+      "line": "Snr2",
+      "text_count": 7,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S2_E5",
+      "line": "Snr2",
+      "text_count": 7,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S2_E6",
+      "line": "Snr2",
+      "text_count": 7,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S3_E1",
+      "line": "Snr3",
+      "text_count": 8,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S3_E2",
+      "line": "Snr3",
+      "text_count": 8,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S4_E1",
+      "line": "Snr4",
+      "text_count": 6,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S4_E2",
+      "line": "Snr4",
+      "text_count": 6,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S5_E1",
+      "line": "Snr5",
+      "text_count": 6,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S5_E2",
+      "line": "Snr5",
+      "text_count": 8,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S5_E3",
+      "line": "Snr5",
+      "text_count": 8,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S5_E4",
+      "line": "Snr5",
+      "text_count": 6,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S5_E5",
+      "line": "Snr5",
+      "text_count": 6,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S5_E6",
+      "line": "Snr5",
+      "text_count": 6,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S6_E1",
+      "line": "Snr6",
+      "text_count": 4,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S6_E3",
+      "line": "Snr6",
+      "text_count": 2,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S6_E4",
+      "line": "Snr6",
+      "text_count": 2,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S6_E5",
+      "line": "Snr6",
+      "text_count": 2,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S6_E6",
+      "line": "Snr6",
+      "text_count": 2,
+      "shared_with": 32
+    },
+    {
+      "event_id": "S2_E2",
+      "line": "Snr2",
+      "text_count": 6,
+      "shared_with": 28
+    },
+    {
+      "event_id": "S2_E3",
+      "line": "Snr2",
+      "text_count": 6,
+      "shared_with": 28
+    },
+    {
+      "event_id": "S3_E3",
+      "line": "Snr3",
+      "text_count": 8,
+      "shared_with": 28
+    },
+    {
+      "event_id": "S3_E4",
+      "line": "Snr3",
+      "text_count": 8,
+      "shared_with": 28
+    },
+    {
+      "event_id": "S4_E3",
+      "line": "Snr4",
+      "text_count": 4,
+      "shared_with": 28
+    },
+    {
+      "event_id": "S4_E4",
+      "line": "Snr4",
+      "text_count": 4,
+      "shared_with": 28
+    },
+    {
+      "event_id": "S4_E5",
+      "line": "Snr4",
+      "text_count": 4,
+      "shared_with": 28
+    },
+    {
+      "event_id": "S6_E2",
+      "line": "Snr6",
+      "text_count": 1,
+      "shared_with": 28
+    }
+  ],
+  "distinctive_text_ids": [
+    4,
+    5,
+    9,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    20,
+    24,
+    25,
+    76,
+    97,
+    98,
+    99
+  ]
+}
