@@ -66,6 +66,26 @@ def build_index() -> dict:
             unique_ids.append(text_id)
         return sorted(unique_ids, key=lambda text_id: (text_event_counts.get(text_id, 0), text_id))
 
+    def build_line_signatures(events: list[dict]) -> list[dict]:
+        seen_texts: set[int] = set()
+        rows: list[dict] = []
+        for event in events:
+            ranked = rank_event_texts(event)
+            signature = [text_id for text_id in ranked if text_id not in seen_texts]
+            if not signature and ranked:
+                signature = ranked[:2]
+            seen_texts.update(signature)
+            rows.append(
+                {
+                    "event_id": event["event_id"],
+                    "event_label": event["event_label"],
+                    "text_ids": [e["text_id"] for e in event.get("evidence", [])],
+                    "ranked_text_ids": ranked,
+                    "signature_text_ids": signature,
+                }
+            )
+        return rows
+
     lines = {
         "schema": "sea2_event_text_index_v1",
         "source": {
@@ -78,15 +98,7 @@ def build_index() -> dict:
         },
         "texts": texts,
         "events_by_line": {
-            line: [
-                {
-                    "event_id": event["event_id"],
-                    "event_label": event["event_label"],
-                    "text_ids": [e["text_id"] for e in event.get("evidence", [])],
-                    "ranked_text_ids": rank_event_texts(event),
-                }
-                for event in events
-            ]
+            line: build_line_signatures(events)
             for line, events in sorted(events_by_line.items())
         },
     }
@@ -117,8 +129,9 @@ def build_report(index: dict) -> str:
         lines.append(f"### {line}")
         for event in events:
             ranked_ids = ", ".join(f"#{text_id}" for text_id in event["ranked_text_ids"][:8])
+            signature_ids = ", ".join(f"#{text_id}" for text_id in event["signature_text_ids"][:8])
             raw_ids = ", ".join(f"#{text_id}" for text_id in event["text_ids"][:8])
-            lines.append(f"- {event['event_id']} {event['event_label']} | ranked={ranked_ids} | raw={raw_ids}")
+            lines.append(f"- {event['event_id']} {event['event_label']} | signature={signature_ids} | ranked={ranked_ids} | raw={raw_ids}")
     return "\n".join(lines) + "\n"
 
 
