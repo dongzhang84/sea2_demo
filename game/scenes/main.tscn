@@ -178,6 +178,10 @@ size_flags_vertical = 3
 
 [node name="List" type="VBoxContainer" parent="UI/PortScreenPanel/V/Tabs/剧情"]
 
+[node name="航线" type="ScrollContainer" parent="UI/PortScreenPanel/V/Tabs"]
+
+[node name="List" type="VBoxContainer" parent="UI/PortScreenPanel/V/Tabs/航线"]
+
 [node name="CloseBtn" type="Button" parent="UI/PortScreenPanel/V"]
 text = "关闭"
 

@@ -18,6 +18,7 @@ extends Node2D
 @onready var shipyard_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/船坞/List
 @onready var tavern_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/酒馆/List
 @onready var story_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/剧情/List
+@onready var route_list: VBoxContainer = $UI/PortScreenPanel/V/Tabs/航线/List
 @onready var event_dialog: PanelContainer = $UI/EventDialog
 @onready var combat_panel: PanelContainer = $UI/Combat
 
@@ -247,6 +248,7 @@ func _open_port_screen(port: Dictionary) -> void:
 	_populate_shipyard(port)
 	_populate_tavern(port)
 	_populate_story_list(port)
+	_populate_route_list(port)
 	port_screen_panel.visible = true
 
 
@@ -495,6 +497,57 @@ func _populate_story_list(port: Dictionary) -> void:
 		btn.pressed.connect(_on_accept_story_quest.bind(str(quest.get("id", ""))))
 		box.add_child(btn)
 		story_list.add_child(box)
+
+
+func _populate_route_list(port: Dictionary) -> void:
+	for child in route_list.get_children():
+		child.queue_free()
+	var header := Label.new()
+	header.text = "直接启航"
+	header.add_theme_font_size_override("font_size", 14)
+	route_list.add_child(header)
+	for dest in GameState.ports_data.get("ports", []):
+		var dest_id := int(dest.get("id", -1))
+		var current_id := int(port.get("id", -1))
+		var row := HBoxContainer.new()
+		row.custom_minimum_size = Vector2(0, 38)
+		var name_lbl := Label.new()
+		name_lbl.text = "%s · %s" % [_pn(dest), dest.get("region", "")]
+		name_lbl.custom_minimum_size = Vector2(250, 0)
+		name_lbl.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+		row.add_child(name_lbl)
+		var dist: float = 0.0
+		if ship != null:
+			dist = ship.global_position.distance_to(Vector2(dest.world_x, dest.world_y))
+		var days: int = 0
+		if dest_id != current_id:
+			days = max(1, int(dist / 25.0))
+		var hint := Label.new()
+		if days > 0:
+			hint.text = "约 %d 天" % days
+		else:
+			hint.text = "当前停靠"
+		hint.custom_minimum_size = Vector2(90, 0)
+		hint.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+		row.add_child(hint)
+		var btn := Button.new()
+		btn.text = "起航" if dest_id != current_id else "当前"
+		btn.disabled = dest_id == current_id
+		btn.pressed.connect(_on_route_sail.bind(dest))
+		row.add_child(btn)
+		route_list.add_child(row)
+
+
+func _on_route_sail(dest: Dictionary) -> void:
+	if ship == null or ship.moving:
+		info_label.text = "航行中,请等待抵达"
+		return
+	if dest.is_empty():
+		return
+	if int(dest.get("id", -1)) == current_port_id:
+		_open_port_screen(dest)
+		return
+	_sail_to_port(dest)
 
 
 func _on_accept_story_quest(quest_id: String) -> void:
