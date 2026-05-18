@@ -169,6 +169,32 @@ def build_report(graph: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
+def build_brief(graph: dict) -> str:
+    text_by_id = {}
+    # Reuse the source index to print human-readable snippets.
+    index = load_json(INDEX)
+    for entry in index["texts"]:
+        text_by_id[entry["text_id"]] = entry["text"].replace("\n", " / ")
+
+    lines = [
+        "# Distinctive Event Overlap Brief",
+        "",
+        f"- schema: `{graph['schema']}`",
+        f"- source: `{graph['source']['event_text_index']}`",
+        "",
+        "## Line Bridges",
+    ]
+    for edge in graph["distinctive_line_edges"]:
+        shared = " | ".join(f"#{text_id}: {text_by_id.get(text_id, '')}" for text_id in edge["shared_text_ids"][:5])
+        lines.append(f"- {edge['from']} <-> {edge['to']} | weight={edge['weight']} | {shared}")
+    lines.append("")
+    lines.append("## Event Bridges")
+    for edge in graph["distinctive_event_edges"][:20]:
+        shared = " | ".join(f"#{text_id}: {text_by_id.get(text_id, '')}" for text_id in edge["shared_text_ids"][:5])
+        lines.append(f"- {edge['from']} <-> {edge['to']} | weight={edge['weight']} | {shared}")
+    return "\n".join(lines) + "\n"
+
+
 def write_dot(graph: dict) -> Path:
     lines = [
         "graph event_overlap_graph_v1 {",
@@ -214,12 +240,15 @@ def main() -> None:
     graph = build_overlap_graph()
     json_path = OUT_DIR / "event_overlap_graph_v1.json"
     md_path = OUT_DIR / "event_overlap_graph_v1.md"
+    brief_path = OUT_DIR / "event_overlap_brief_v1.md"
     mmd_path = write_line_mermaid(graph)
     json_path.write_text(json.dumps(graph, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     md_path.write_text(build_report(graph), encoding="utf-8")
+    brief_path.write_text(build_brief(graph), encoding="utf-8")
     dot_path = write_dot(graph)
     print(f"Wrote {json_path}")
     print(f"Wrote {md_path}")
+    print(f"Wrote {brief_path}")
     print(f"Wrote {mmd_path}")
     print(f"Wrote {dot_path}")
 
