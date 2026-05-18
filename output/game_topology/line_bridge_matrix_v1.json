@@ -1,0 +1,325 @@
+{
+  "schema": "sea2_line_bridge_matrix_v1",
+  "source": {
+    "topology": "output/game_topology/game_topology_bundle_v1.json"
+  },
+  "lines": [
+    {
+      "id": "Snr1",
+      "label": "Snr1 葡萄牙贵族少年线"
+    },
+    {
+      "id": "Snr2",
+      "label": "Snr2 西班牙军官复仇线"
+    },
+    {
+      "id": "Snr3",
+      "label": "Snr3 英格兰王命海军线"
+    },
+    {
+      "id": "Snr4",
+      "label": "Snr4 地理学家制图线"
+    },
+    {
+      "id": "Snr5",
+      "label": "Snr5 冒险 / 资助 / 寻宝线"
+    },
+    {
+      "id": "Snr6",
+      "label": "Snr6 贸易 / 发家 / 寻妹线"
+    }
+  ],
+  "bridge_rows": [
+    {
+      "from": "Snr1",
+      "to": "Snr5",
+      "from_label": "Snr1 葡萄牙贵族少年线",
+      "to_label": "Snr5 冒险 / 资助 / 寻宝线",
+      "shared_actors": [
+        "Duchess",
+        "John"
+      ],
+      "shared_locations": [
+        "DukeHouse",
+        "Lisbon",
+        "Port",
+        "Sea",
+        "Tavern"
+      ],
+      "shared_states": [
+        "CanShip",
+        "Funding",
+        "HomeOutside",
+        "InfoLoop"
+      ],
+      "shared_event_ids": [],
+      "score": 31
+    },
+    {
+      "from": "Snr4",
+      "to": "Snr5",
+      "from_label": "Snr4 地理学家制图线",
+      "to_label": "Snr5 冒险 / 资助 / 寻宝线",
+      "shared_actors": [
+        "Fabrice"
+      ],
+      "shared_locations": [
+        "DukeHouse",
+        "Lisbon",
+        "NewWorld",
+        "Port",
+        "Sea",
+        "SouthAmerica"
+      ],
+      "shared_states": [
+        "HomeOutside",
+        "InfoLoop",
+        "Treasure"
+      ],
+      "shared_event_ids": [],
+      "score": 28
+    },
+    {
+      "from": "Snr1",
+      "to": "Snr4",
+      "from_label": "Snr1 葡萄牙贵族少年线",
+      "to_label": "Snr4 地理学家制图线",
+      "shared_actors": [],
+      "shared_locations": [
+        "DukeHouse",
+        "Lisbon",
+        "Port",
+        "Sea",
+        "Shipyard"
+      ],
+      "shared_states": [
+        "FarEast",
+        "HomeOutside",
+        "InfoLoop"
+      ],
+      "shared_event_ids": [],
+      "score": 21
+    },
+    {
+      "from": "Snr1",
+      "to": "Snr2",
+      "from_label": "Snr1 葡萄牙贵族少年线",
+      "to_label": "Snr2 西班牙军官复仇线",
+      "shared_actors": [
+        "Catalina"
+      ],
+      "shared_locations": [
+        "Port",
+        "Sea",
+        "Tavern"
+      ],
+      "shared_states": [
+        "HomeOutside",
+        "InfoLoop",
+        "Revenge"
+      ],
+      "shared_event_ids": [],
+      "score": 19
+    },
+    {
+      "from": "Snr5",
+      "to": "Snr6",
+      "from_label": "Snr5 冒险 / 资助 / 寻宝线",
+      "to_label": "Snr6 贸易 / 发家 / 寻妹线",
+      "shared_actors": [
+        "Radinan"
+      ],
+      "shared_locations": [
+        "Port",
+        "Tavern"
+      ],
+      "shared_states": [
+        "CanShip",
+        "Funding",
+        "HomeOutside",
+        "StateTask"
+      ],
+      "shared_event_ids": [],
+      "score": 18
+    },
+    {
+      "from": "Snr1",
+      "to": "Snr6",
+      "from_label": "Snr1 葡萄牙贵族少年线",
+      "to_label": "Snr6 贸易 / 发家 / 寻妹线",
+      "shared_actors": [],
+      "shared_locations": [
+        "Port",
+        "Shipyard",
+        "Tavern"
+      ],
+      "shared_states": [
+        "CanShip",
+        "Funding",
+        "HomeOutside"
+      ],
+      "shared_event_ids": [],
+      "score": 15
+    },
+    {
+      "from": "Snr3",
+      "to": "Snr5",
+      "from_label": "Snr3 英格兰王命海军线",
+      "to_label": "Snr5 冒险 / 资助 / 寻宝线",
+      "shared_actors": [],
+      "shared_locations": [
+        "NewWorld",
+        "Port",
+        "Sea"
+      ],
+      "shared_states": [
+        "CanShip",
+        "HomeOutside",
+        "StateTask"
+      ],
+      "shared_event_ids": [],
+      "score": 15
+    },
+    {
+      "from": "Snr1",
+      "to": "Snr3",
+      "from_label": "Snr1 葡萄牙贵族少年线",
+      "to_label": "Snr3 英格兰王命海军线",
+      "shared_actors": [],
+      "shared_locations": [
+        "Port",
+        "Sea"
+      ],
+      "shared_states": [
+        "AtSea",
+        "CanShip",
+        "HomeOutside",
+        "Revenge"
+      ],
+      "shared_event_ids": [],
+      "score": 14
+    },
+    {
+      "from": "Snr4",
+      "to": "Snr6",
+      "from_label": "Snr4 地理学家制图线",
+      "to_label": "Snr6 贸易 / 发家 / 寻妹线",
+      "shared_actors": [
+        "Laura"
+      ],
+      "shared_locations": [
+        "Port",
+        "Shipyard"
+      ],
+      "shared_states": [
+        "HomeOutside",
+        "SeekSasha"
+      ],
+      "shared_event_ids": [],
+      "score": 14
+    },
+    {
+      "from": "Snr2",
+      "to": "Snr5",
+      "from_label": "Snr2 西班牙军官复仇线",
+      "to_label": "Snr5 冒险 / 资助 / 寻宝线",
+      "shared_actors": [],
+      "shared_locations": [
+        "Port",
+        "Sea",
+        "Tavern"
+      ],
+      "shared_states": [
+        "HomeOutside",
+        "InfoLoop"
+      ],
+      "shared_event_ids": [],
+      "score": 13
+    },
+    {
+      "from": "Snr3",
+      "to": "Snr4",
+      "from_label": "Snr3 英格兰王命海军线",
+      "to_label": "Snr4 地理学家制图线",
+      "shared_actors": [],
+      "shared_locations": [
+        "NewWorld",
+        "Port",
+        "Sea"
+      ],
+      "shared_states": [
+        "HomeOutside"
+      ],
+      "shared_event_ids": [],
+      "score": 11
+    },
+    {
+      "from": "Snr2",
+      "to": "Snr3",
+      "from_label": "Snr2 西班牙军官复仇线",
+      "to_label": "Snr3 英格兰王命海军线",
+      "shared_actors": [],
+      "shared_locations": [
+        "Port",
+        "Sea"
+      ],
+      "shared_states": [
+        "HomeOutside",
+        "Revenge"
+      ],
+      "shared_event_ids": [],
+      "score": 10
+    },
+    {
+      "from": "Snr2",
+      "to": "Snr4",
+      "from_label": "Snr2 西班牙军官复仇线",
+      "to_label": "Snr4 地理学家制图线",
+      "shared_actors": [],
+      "shared_locations": [
+        "Port",
+        "Sea"
+      ],
+      "shared_states": [
+        "HomeOutside",
+        "InfoLoop"
+      ],
+      "shared_event_ids": [],
+      "score": 10
+    },
+    {
+      "from": "Snr2",
+      "to": "Snr6",
+      "from_label": "Snr2 西班牙军官复仇线",
+      "to_label": "Snr6 贸易 / 发家 / 寻妹线",
+      "shared_actors": [],
+      "shared_locations": [
+        "Port",
+        "Tavern"
+      ],
+      "shared_states": [
+        "HomeOutside",
+        "Trade"
+      ],
+      "shared_event_ids": [],
+      "score": 10
+    },
+    {
+      "from": "Snr3",
+      "to": "Snr6",
+      "from_label": "Snr3 英格兰王命海军线",
+      "to_label": "Snr6 贸易 / 发家 / 寻妹线",
+      "shared_actors": [],
+      "shared_locations": [
+        "Port"
+      ],
+      "shared_states": [
+        "CanShip",
+        "HomeOutside",
+        "StateTask"
+      ],
+      "shared_event_ids": [],
+      "score": 9
+    }
+  ]
+}
