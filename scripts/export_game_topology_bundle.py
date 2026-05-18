@@ -314,6 +314,46 @@ def main() -> None:
         json.dumps(lookup, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    report_lines = [
+        "# Sea2 Topology Bundle Report",
+        "",
+        f"- schema: `{bundle['schema']}`",
+        f"- source: `{bundle['source']}`",
+        f"- storylines: {len(bundle['graphs']['storylines']['nodes'])}",
+        f"- events: {len(bundle['graphs']['events']['nodes'])}",
+        f"- characters: {len(bundle['graphs']['characters']['nodes'])}",
+        f"- locations: {len(bundle['graphs']['locations']['nodes'])}",
+        f"- states: {len(bundle['graphs']['states']['nodes'])}",
+        "",
+        "## Storyline Crossovers",
+    ]
+    for edge in bundle["graphs"]["storylines"]["edges"]:
+        report_lines.append(f"- {edge['from']} -> {edge['to']}: {edge['label']}")
+    report_lines.extend(["", "## Event Counts By Line"])
+    for line, items in event_index["events_by_line"].items():
+        report_lines.append(f"- {line}: {len(items)}")
+    report_lines.extend(["", "## Lookup Hotspots"])
+    for title, mapping in [
+        ("Characters", lookup["events_by_character"]),
+        ("Locations", lookup["events_by_location"]),
+        ("States", lookup["events_by_state"]),
+    ]:
+        report_lines.append(f"### {title}")
+        ranked = sorted(mapping.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+        for key, items in ranked[:12]:
+            report_lines.append(f"- {key}: {len(items)} events")
+    report_lines.extend(["", "## Event Index Preview"])
+    for line in ["Snr1", "Snr2", "Snr3", "Snr4", "Snr5", "Snr6"]:
+        report_lines.append(f"### {line}")
+        for item in event_index["events_by_line"].get(line, []):
+            report_lines.append(
+                f"- {item['id']} {item['label']} | actors={','.join(item['actors'])} | "
+                f"locations={','.join(item['locations'])} | {item['state_before']} -> {item['state_after']}"
+            )
+    (OUT_DIR / "game_topology_report.md").write_text(
+        "\n".join(report_lines) + "\n",
+        encoding="utf-8",
+    )
     print(f"Wrote {out}")
 
 
