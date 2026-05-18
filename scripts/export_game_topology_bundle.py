@@ -12,6 +12,28 @@ OUT_DIR = ROOT / "output" / "game_topology"
 
 
 def build_bundle() -> dict:
+    storylines = {
+        "nodes": [
+            {"id": "Snr1", "label": "Snr1 葡萄牙贵族少年线"},
+            {"id": "Snr2", "label": "Snr2 西班牙军官复仇线"},
+            {"id": "Snr3", "label": "Snr3 英格兰王命海军线"},
+            {"id": "Snr4", "label": "Snr4 地理学家制图线"},
+            {"id": "Snr5", "label": "Snr5 冒险 / 资助 / 寻宝线"},
+            {"id": "Snr6", "label": "Snr6 贸易 / 发家 / 寻妹线"},
+        ],
+        "edges": [
+            {"from": "Snr1", "to": "Snr5", "label": "公爵夫人 / 约翰"},
+            {"from": "Snr1", "to": "Snr2", "label": "卡特琳娜 / 海上政治"},
+            {"from": "Snr1", "to": "Snr4", "label": "约翰 / 日本线索"},
+            {"from": "Snr2", "to": "Snr3", "label": "战争压力"},
+            {"from": "Snr3", "to": "Snr2", "label": "海战扩散"},
+            {"from": "Snr4", "to": "Snr5", "label": "黄金之国 / 法布利斯"},
+            {"from": "Snr5", "to": "Snr6", "label": "夏洛克 / 皮耶德"},
+            {"from": "Snr6", "to": "Snr5", "label": "资金 / 港口回流"},
+            {"from": "Snr6", "to": "Snr4", "label": "劳拉 / 家乡线索"},
+        ],
+    }
+
     characters = {
         "nodes": [
             {"id": "Duke", "label": "公爵", "group": "royal"},
@@ -157,6 +179,7 @@ def build_bundle() -> dict:
         "schema": "sea2_game_topology_bundle_v1",
         "source": "docs/游戏逻辑说明.md",
         "graphs": {
+            "storylines": storylines,
             "characters": characters,
             "locations": locations,
             "states": states,
