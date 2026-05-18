@@ -287,6 +287,33 @@ def main() -> None:
         json.dumps(event_index, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    lookup = {
+        "schema": "sea2_game_topology_lookup_v1",
+        "source": "output/game_topology/game_topology_bundle_v1.json",
+        "events_by_character": {},
+        "events_by_location": {},
+        "events_by_state": {},
+    }
+    for node in bundle["graphs"]["events"]["nodes"]:
+        event = {
+            "id": node["id"],
+            "label": node["label"],
+            "line": node["line"],
+            "actors": node["actors"],
+            "locations": node["locations"],
+            "state_before": node["state_before"],
+            "state_after": node["state_after"],
+        }
+        for actor in node["actors"]:
+            lookup["events_by_character"].setdefault(actor, []).append(event)
+        for location in node["locations"]:
+            lookup["events_by_location"].setdefault(location, []).append(event)
+        lookup["events_by_state"].setdefault(node["state_before"], []).append(event)
+        lookup["events_by_state"].setdefault(node["state_after"], []).append(event)
+    (OUT_DIR / "game_topology_lookup_v1.json").write_text(
+        json.dumps(lookup, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     print(f"Wrote {out}")
 
 
